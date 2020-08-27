@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recipe>About this recipe Healthiness : (71 votes) View a modern version of this recipe <para><!--ebb: Hey Anthony! Don't you want to use <para>?  -->
-        <!--Hi This is a comment -->
-        <!--type your comment and I'm not done yet-->
-        <!--Here's my comment again--> The Georgians loved rich, sweet food. Sugar had become much
+<recipe><healthData>About this recipe Healthiness : (71 votes)</healthData>
+    <!--ebb: Hi This is a comment -->
+    <!--Type your comment and yada yada yada-->
+    <!--Here's another comment-->
+    <!--ebb 2020-08-27: I like putting initials on my comments, and sometimes the date, 
+             especially if multiple people are writing comments on a code file. -->
+    <para>The Georgians loved rich, sweet food. Sugar had become much
         more easily available (mostly because of the Transatlantic Slave Trade) and was fast
         replacing honey as the main food sweetener.</para>
     <para>This version of the syllabub recipe was by <name type="person">Eliza Acton</name>, who
