@@ -5,28 +5,33 @@
         <!--Here's my comment again--> The Georgians loved rich, sweet food. Sugar had become much
         more easily available (mostly because of the Transatlantic Slave Trade) and was fast
         replacing honey as the main food sweetener.</para>
-    <para>This version of the syllabub recipe was by <name type="person">Eliza Acton</name>, who lived in <timePeriod>18th century</timePeriod>. There
-        are <altRecipe>plenty of earlier versions but they are more likely to curdle as they contain cider</altRecipe>.
-        This version was very modern and fashionable in its day and is easy to manage:
-            <blockQuote>Take a quart of cream, a pint of sack, juice of a lemon, whip it, as the
-            froth flies take it off with a spoon and lay it in glasses: but first you must sweeten
-            and stir some white wine into your glasses, and gently lay on your froth. Set them by
-            and do not make them long before you use them.</blockQuote>
+    <para>This version of the syllabub recipe was by <name type="person">Eliza Acton</name>, who
+        lived in <timePeriod>18th century</timePeriod>. There are <altRecipe>plenty of earlier
+            versions but they are more likely to curdle as they contain cider</altRecipe>. This
+        version was very modern and fashionable in its day and is easy to manage: <blockQuote>Take a
+            quart of cream, a pint of sack, juice of a lemon, whip it, as the froth flies take it
+            off with a spoon and lay it in glasses: but first you must sweeten and stir some white
+            wine into your glasses, and gently lay on your froth. Set them by and do not make them
+            long before you use them.</blockQuote>
     </para>
     <para>Sugar and sherry (known as sack) were still expensive ingredients and dishes like this
         would have been eaten in the houses of the richer merchants who would be able to afford
         sugar, lemons, new salad vegetables and sack.</para>
     <para>We have added a non-alcoholic lemon syllabub for you to try too.</para>
     <para>For images of the cooking process see our Syllabub Pictures.</para>
-    <para type="credits">With thanks to <name type="person">Ian Pycroft</name> of <name type="organization">Black Knight Historical</name> and to <name type="organization">The Georgian
-        House, <name type="place">Bristol</name></name>.</para>
+    <para type="credits">With thanks to <name type="person">Ian Pycroft</name> of <name
+            type="organization">Black Knight Historical</name> and to <name type="organization">The
+            Georgian House, <name type="place">Bristol</name></name>.</para>
     <section kind="ingred">
         <heading>Ingredients</heading>
-        <list><item quant="1" unit="fruit">1 lemon</item>
-            <item quant=".25" unit="pint">1/4 pint sack (pale or dark)</item>
-            <item quantLow="2" quantHigh="3" unit="ounce">2-3 oz caster sugar</item>
-            <item>1/2 pint double cream</item>
-            <item>4-6 tablespoons sweet/dessert white wine </item>
+        <list><item quant="1" unit="fruit">1 <ingred>lemon</ingred></item>
+            <item quant=".25" unit="pint">1/4 pint <ingred>sack</ingred> (pale or dark)</item>
+            <item quantLow="2" quantHigh="3" unit="ounce">2-3 oz <ingred>caster
+                sugar</ingred></item>
+            <item quant=".5" unit="pint">1/2 pint <ingred>double cream</ingred></item>
+            <item quantLow="4" quantHigh="6" unit="Tb">4-6 tablespoons <ingred>sweet/dessert white
+                    wine</ingred>
+            </item>
         </list>
     </section>
     <section kind="equip">
@@ -42,14 +47,18 @@
     </section>
     <section kind="process">
         <heading>Making and cooking it</heading>
-        <step num="1">Always <action>wash</action> your hands before preparing food</step>
-        <step num="2"><action>Grate</action> half the peel, <action>pare off</action> the rest in fine strips</step>
-        <step num="3">Place sherry, grated peel, lemon juice and sugar in bowl and <action>soak</action> for 2
-            hours</step>
-        <step num="4"><action>Whip</action> the cream until semi-stiff</step>
-        <step num="5"><action>Add</action> sherry gradually</step>
-        <step num="6"><action>Spoon</action> a little wine into glass and spoon on whipped cream</step>
-        <step num="7"><action>Decorate</action> the top with lemon peel sticks</step>
-        <step num="8"><action>Serve</action> with Shrewsberry cakes</step>
+        <listStep>
+            <step num="1">Always <action>wash</action> your hands before preparing food</step>
+            <step num="2"><action>Grate</action> half the peel, <action>pare off</action> the rest
+                in fine strips</step>
+            <step num="3">Place sherry, grated peel, lemon juice and sugar in bowl and
+                    <action>soak</action> for 2 hours</step>
+            <step num="4"><action>Whip</action> the cream until semi-stiff</step>
+            <step num="5"><action>Add</action> sherry gradually</step>
+            <step num="6"><action>Spoon</action> a little wine into glass and spoon on whipped
+                cream</step>
+            <step num="7"><action>Decorate</action> the top with lemon peel sticks</step>
+            <step num="8"><action>Serve</action> with Shrewsberry cakes</step>
+        </listStep>
     </section>
 </recipe>
