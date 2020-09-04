@@ -1,4 +1,4 @@
-# textEncoding-Hub
+### textEncoding-Hub
 shared repo for Digital Project Design class
 
 Welcome to the textEncoding-Hub! This is a repository to help introduce and orient DIGIT students to the GitHub collaboration environment, and accompanies the course website posted at <https://newtfire.org/courses/textEncoding/>
