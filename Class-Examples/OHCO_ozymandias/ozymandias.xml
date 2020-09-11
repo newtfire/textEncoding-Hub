@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Ozymandias>
     <layer agent="I"><line>I met a traveller from an antique land,</line>
+<<<<<<< HEAD
     <line>Who said—<layer agent= "traveller" pos= "start"/> “Two vast and trunkless legs of stone </line>
     <line>Stand in the desert. . . . Near them, on the sand,</line>
     <line>Half sunk a shattered visage lies, whose frown,</line>
@@ -9,11 +10,30 @@
     <line>Which yet survive, stamped on these lifeless things,</line>
     <line>The hand that mocked them, and the heart that fed;</line>
         <line>And on the pedestal, these words appear:<layer agent= "sculptor" pos= "end"/></line>
+=======
+    <line>Who said—<layer agent="traveller" pos="start"/>“Two vast and trunkless legs of stone </line>
+    <line>Stand in the desert. . . . Near them, on the sand,</line>
+    <line>Half sunk a shattered visage lies, whose frown,</line>
+    <line>And wrinkled lip, and sneer of cold command,</line>
+    <line>Tell that its <layer agent="sculptor" pos="start"/>sculptor well those passions read</line>
+    <line>Which yet survive, stamped on these lifeless things,</line>
+    <line>The hand that mocked them, and the heart that fed;</line>
+        <line>And on the pedestal, these words appear:<layer agent="sculptor" pos="end"/></line>
+>>>>>>> cbbd9cb3d4ff68276f3bdbd6c218d23151ab3174
     <line>My name is Ozymandias, King of Kings;</line>
     <line>Look on my Works, ye Mighty, and despair!</line>
     <line>Nothing beside remains. Round the decay</line>
     <line>Of that colossal Wreck, boundless and bare</line>
+<<<<<<< HEAD
         <line>The lone and level sands stretch far away.”</line></layer><layer agent= "travellor" pos= "end"/>
 <!-- Our problem with XML is the Ordered Hierarchy of Content Objects :OHCO.
      We always in real life have to deal with Over Hierarchy-->
+=======
+        <line>The lone and level sands stretch far away.”<layer agent="traveller" pos="end"/></line></layer>
+>>>>>>> cbbd9cb3d4ff68276f3bdbd6c218d23151ab3174
 </Ozymandias>
+<!--Our problem with XML is the Ordered Hierarchy of Content Objects: OHCO.
+    
+   We always in real life have to deal with Overlap issues. 
+
+-->
