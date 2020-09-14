@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="ozy-layered.rnc" type="application/relax-ng-compact-syntax"?>
 <Ozymandias>
     <layer agent="I">
         <line n="1">I met a traveller from an antique land,</line>
         <line n="2">Who said—<layer agent="traveller" pos="start"/>“Two vast and trunkless legs of stone </line>
-        <line n="3">Stand in the desert. . . . Near them, on the sand,</line>
+        <line n="3">Stand in the desert. <ellipsis/> Near them, on the sand,</line>
         <line n="4">Half sunk a shattered visage lies, whose frown,</line>
         <line n="5">And wrinkled lip, and sneer of cold command,</line>
         <line n="6">Tell that its <layer agent="sculptor" pos="start"/>sculptor well those passions
