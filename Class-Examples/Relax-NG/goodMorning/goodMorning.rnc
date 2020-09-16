@@ -1,0 +1,47 @@
+start = xml
+xml = element xml {source, \text}
+source = element source {title, altTitle, author, pubPlace, publisher, date, note}
+\text = element text {poem+}
+
+# I'll work on the contents of source here:
+title = element title {level, text}
+level = attribute level {"book" | "inner"}
+altTitle = element altTitle {text}
+author = element author {"Langston Hughes"}
+pubPlace = element pubPlace {where, text}
+where = attribute where {text}
+publisher = element publisher {text}
+date = element date {when, empty}
+when = attribute when {xsd:date | xsd:gYearMonth| xsd:gYear}
+note = element note {text}
+
+# Now I'll work on the contents of \text the element:
+
+poem = element poem {id, title, lineGroup+}
+id = attribute id {text}
+lineGroup = element lineGroup {line+}
+line = element line {n, mixed{ (emph | motif | placeName | place)* } }
+n = attribute n {xsd:integer}
+emph = element emph {text}
+motif = element motif {text}
+placeName = element placeName {ref, text}
+ref = attribute ref {"NYC-Harlem" | "NYC-Man" | "NYC-PennSt" | "PR" | "NYC" | "Ga" | "NYC-Brook" | "NYC-Bronx" | "Fla" | "La" | "Ha" | "Ja" | "Haiti" | "Cuba"}
+place = element place {ref, type?, text}
+type= attribute type {"trainStat" }
+
+
+# This should literally mean:
+# <xml><source>...</source>blah blah blah</xml>
+
+# Reserve words are anything that 
+# turns blue in oXygen:
+# element
+# start
+# text
+# empty
+# mixed
+# list
+# We need to **escape** reserve words
+# when we need to use them as element
+# or attribute names.
+# Do this with a leading \

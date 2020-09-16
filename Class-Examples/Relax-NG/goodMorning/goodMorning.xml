@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="goodMorning.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <source>
         <title level="book">Montage of a Dream Deferred</title>
@@ -49,9 +51,9 @@
                 <line n="8">dark tenth of a nation,</line>
                 <line n="9">planes from <place ref="PR">Puerto Rico</place>,</line>
                 <line n="10">and holds of boats, chico,</line>
-                <line n="11">up from <place>Cuba</place>
-                    <place>Haiti</place>
-                    <place>Jamaica</place>,</line>
+                <line n="11">up from <place ref="Cuba">Cuba</place>
+                    <place ref="Ha">Haiti</place>
+                    <place ref="Ja">Jamaica</place>,</line>
                 <line n="12">In buses marked <place ref="NYC">New York</place></line>
                 <line n="13">from <place ref="Ga">Georgia</place>
                     <place ref="Fla">Florida</place>
