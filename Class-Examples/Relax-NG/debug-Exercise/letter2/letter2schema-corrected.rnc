@@ -1,0 +1,12 @@
+start = Letter
+Letter = element Letter { (para | date)+ }
+
+para = element para {kind?, mixed{ (person | loca | org | date)* }}
+#para = element para {text}
+date = element date {mixed{loca*}}
+kind = attribute kind {"info"}
+person = element person {name, text}
+    name = attribute name {"Harriet Jacobs" | "Lydia Maria Child" | 
+    "Patricia G. Holland" | "Mr.Johnston" | "Joshua Coffin" | "Milton Meltzer" | "Kraus Microfilm"}
+loca = element loca {text}
+org = element org {text}
