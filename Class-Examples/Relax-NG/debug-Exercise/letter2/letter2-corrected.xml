@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="letter2schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="letter2schema-corrected.rnc" type="application/relax-ng-compact-syntax"?>
 <Letter>
     <para kind="info"><person name="Joshua Coffin">Coffin</person>, a member of the <org>American Anti-Slavery Society</org>, writes to author and abolitionist <person name="Lydia Maria Child">Lydia Maria Child</person>
 about <person name="Harriet Jacobs">Harriet Jacobs</person>. "I hope you will call &amp; see, if she is now in the city, one of the most interesting
