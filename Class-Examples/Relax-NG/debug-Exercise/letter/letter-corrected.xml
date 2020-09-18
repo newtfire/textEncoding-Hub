@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="letter_schema-corrected.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <bckgd>Jacobs relates to <person activist="Post">Amy Post</person> of the difficulty in writing
+        of her sexual oppression while enslaved. <quote by ="Jacobs">Woman can whisper—her cruel
+            wrongs into the ear of a very dear friend—much easier than she can record them for the
+            world to read."</quote><lb n="1"/></bckgd>
+    <letter>
+        <date when="1857-06-21">June 21st [1857]<lb n="1"/></date>
+        <greeting>My Dear Friend<lb n="1"/></greeting>
+        <para>A heart full of thanks for your kind and welcome—letter which would have been answered
+            immediately—but for want of time to think a moment. I would dearly love to talk with you
+            as it would be more satisfactory—but as I cannot I will try to explain myself on paper
+            as well as I can—<lb n="1"/></para>
+        <para>I have My dear friend— . . . <editor pseudomrkup="destroyed">[obliterated]</editor>
+            <!--I think '[obliterated]' must mean that some sections of the original letter were utterly unreadable-->I
+            Striven faithfully to give a true and just account of my own life in
+              slavry— God knows I have tried to do it in a Christian
+            spirit— there are somethings that I might have made plainer I know— 
+            <powerful
+                words="oppressed">woman can whisper—her cruel wrongs into the ear of a very dear
+                friend—much easier than she can record them for the world to read— I have left
+                nothing out but what I thought—the world might believe that a Slave woman <editor
+                    pseudomrkup="grammar">*was*</editor> too willing to pour out—that she might <editor
+                    pseudomrkup="clarity">*gain*</editor> their sympathies I ask nothing— I have placed
+                myself before you to be judged as a woman <editor pseudomrkup="clarity">*whether*</editor>
+                <editor pseudomrkup="destroyed">. . . [obliterated]</editor> I deserve your pity or
+                contempt.</powerful> 
+            I have another object in view— 
+            <powerful words="selfless">it is
+                to come to you just as I am a poor slave Mother— not to tell you what I have heard
+                but what I have seen—and what I have suffered— and if their
+                is any sympathy to give—let it be given to the thousands—of of Slave Mothers that
+                are still in bondage—suffering far more than I have— let it plead for their helpless
+                Children that they <editor pseudomrkup="destroyed">*. . . [obliterated]*</editor>may enjoy the
+                same liberties that my Children now enjoy—</powerful> 
+            Say anything of me that you
+            have had from a truthful source that you think best— ask me any question you like—in
+            regard to the father of my Children I think I have stated all perhaps I did not tell
+            you—that <person relationship="father">he was a member of Congress</person>—at that time
+            all <Xout word="that">that</Xout> of this I have writen— I think it would be best for
+            you to begin with our acquaintance and the length of time that I was in your family you
+            advice <Xout word="about">about</Xout> about giving the history of my life in Slavry
+            mention that I lived at service <editor pseudomrkup="clarity">*all the*</editor> while that I
+            was striving to git the Book out but
+                
+            <request jacobs="anon">do not say with whom I lived as I would not use the <person
+                    name="Willis">Willis</person> name neither would I like to have people think
+                that I was living an Idle life—and had got this book out merely to make
+                money—</request> 
+            my kind friend I do not restrict you in anything for you know far
+            better than I do what to say I am only too happy to think that I am going to have it
+            from you—<lb n="1"/></para>
+        <para>
+            <editor pseudomrkup="sepsheet1">[at top of separate sheet] *1st*</editor>
+            <!--I am a bit confused about this markup, and the similar "at top of separate sheet" note further in this letter.-->
+            <lb n="1"/>
+        </para>
+        <para>I hope you will be able to read my unconnected scrool— I have been interupted and
+            called away so often—that I hardly know what I have written but I must send it for fear
+            the opportunity will not come to morrow—to do better— <person who="profBotta">Proffessor
+                Botta</person> and <person who="ladywBull">Lady with Ole Bull</person> eldest
+                <editor pseudomrkup="spell">*son*</editor> is here—on a visit from the City beside three
+            other persons that we have had in to spend the day— and Baby is just 4 weeks old this
+            morning. houskeping and looking after the Children
+            occupy every moment of my time we have in all five Children—three girls—and two boys.
+                <person who="imogen">Imogen</person> is at home <editor pseudomrkup="sepsheet2">[at top of
+                separate sheet] *2*</editor> for the Summer <person who="louis">Louise</person> came
+            up and spent a week—with me she desired much love to you— she is not well but looking
+            miserably thin—<lb n="1"/></para>
+        <para>I have been thinking that I would so like to go away and sell my
+                Book— I could then secure a copywright to sell it both here and in <location
+                country="U.K.">England</location>—and by identifying myself with—it I might do
+            something for the Antislavry Cause— to do this I would have to <Xout word="haveof">have
+                of</Xout><editor pseudomrkup="clarity">*get letters of*</editor> introduction. from some of the leading
+            Abolitionist of this Country. to those of the Old— when you write tell me what you think
+            of it I must stop for I am in the only spot where I can have a light—and the mosquitoes
+            have taken possession of me— much love to all my friends—and <person who="willie"
+                >Willie</person>— and believe me ever yours<lb n="1"/></para>
+        <from written="HJacobs">Harriet</from>
+    </letter>
+</root>

@@ -1,0 +1,31 @@
+start = root
+root = element root {bckgd, letter}
+bckgd = element bckgd {mixed{person, quote, lb}}
+
+person = element person {(activist | who* | relationship |name), text}
+name = attribute name {"Willis"}
+activist = attribute activist {"Post"}
+who = attribute who {"profBotta" | "ladywBull" | "imogen" | "louis" | "willie"}
+relationship = attribute relationship {"father"}
+quote = element quote {by, text}
+by = attribute by {"Jacobs"}
+lb = element lb {n*, empty}
+n= attribute n {xsd:integer}
+letter = element letter {date, greeting, para+, from}
+date = element date {when, text, lb}
+when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear}
+greeting = element greeting {text, lb}
+
+para = element para {mixed{ (lb | editor | powerful | person | Xout | request | location)*  }}
+editor = element editor {pseudomrkup*, text}
+pseudomrkup = attribute pseudomrkup {"clarity" | "grammar" | "destroyed" | "sepsheet1" | "sepsheet2" | "spell"}
+powerful = element powerful {words, mixed{editor*}}
+words = attribute words {"oppressed" | "selfless"}
+Xout = element Xout {word, text}
+word = attribute word {text}
+request = element request {jacobs, mixed{person}}
+jacobs = attribute jacobs {"anon"}
+location = element location {country, text}
+country = attribute country {"U.K."}
+from = element from {written, text}
+written = attribute written {"HJacobs"}
