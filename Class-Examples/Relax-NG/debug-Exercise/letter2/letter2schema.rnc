@@ -1,0 +1,11 @@
+start = Letter
+Letter = element Letter {text}
+
+para = element para {kind, text, person, loca, org, date}
+#para = element para {text}
+date = element date {text}
+    kind = attribute kind {"info"}
+person = element person {name, text}
+    name = attribute name {"Lydia Maria Child" | "Patricia G. Holland" | "Mr.Johnston" | "Joshua Coffin" | "Lydia Maria" | "Milton Meltzer" | "Kraus Microfilm"}
+loca = element loca {text}
+org = element org {text}
