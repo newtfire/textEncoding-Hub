@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<Gettysburg><prologue who="President Lincoln">President Lincoln delivered the 272 word Gettysburg
+<!--PLEASE SAVE LOCALLY OUTSIDE THE TEXT-ENCODING-HUB -->
+<?xml-model href="GettysburgSchema-classCorrected.rnc" type="application/relax-ng-compact-syntax"?>
+<Gettysburg>
+    <prologue who="President Lincoln">President Lincoln delivered the 272 word Gettysburg
         Address on <date when="1863-11-19">November 19, 1863</date> on the battlefield near
         Gettysburg, Pennsylvania</prologue>
     <body>
@@ -22,6 +24,7 @@
         <sentence n="6" who="we"> But, in a larger sense, we cannot dedicate, we cannot
                 consecrate—<where location="gettysburg">we cannot hallow—this
             ground</where>.</sentence>
+        <!--Here's an error that the schema is very correctly catching. So we're going to leave it. -->
         <sentence><person who="The brave men">The brave men</person>, living and dead, who struggled
             here, have consecrated it far above our poor power to add or detract.</sentence>
         <sentence n="7" event="fight">The world will little note, nor long remember what we say
@@ -36,4 +39,5 @@
             died in vain—that this nation, under God, shall have a new birth of freedom, and that
             government of the people, by the people, for <person who="the people">the
                 people</person>e, shall not perish from the earth.</sentence>
-    </body></Gettysburg>
+    </body>
+</Gettysburg>
