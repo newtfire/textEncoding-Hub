@@ -1,0 +1,15 @@
+start = Gettysburg
+Gettysburg = element Gettysburg {body+,prologue?,text}
+
+body = element body {sentance*}
+
+prologue element prologue {date*,text,where*,who*}
+date = element date { "when"*, text}
+where = element where {location*, text}
+when = attribute when {text}
+location = attribute location {text}
+
+sentence = element sentence {event*, who*, where*, text, person}
+person = element person {who}
+event = attribute event {text}
+who = attribute who {text}

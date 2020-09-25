@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="apolloSchemaVideo-ebb.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="apollo13_ebb.rnc" type="application/relax-ng-compact-syntax"?>
 <apollo13>
         <doc source="nasa" type="techtranscript"/>
         <head>
@@ -13,7 +14,7 @@
                         <person role="CC">Jack Lousma</person> <!--NASA role: Capsule Communicator "CapCom" -->
                 </groundControl>
         </head>
-        <body>        <!--Regex format of xsd:duration datatype: PT\d+H\d+M\d+S -->
+        <body>      <!--Regex format of xsd:duration datatype: PT\d+H\d+M\d+S -->
                 <transmission MET="PT055H48M40S" com="CC">Apollo 13, Houston. The next thing we'd like
                         you to do is to - -</transmission>
                 <transmission MET="PT055H48M45S" com="CMP">Go ahead.</transmission>
@@ -95,5 +96,7 @@
                 <transmission MET="PT055H58M25S" com="LMP">Yes. We got a <MCandW>MAIN BUS A
                                 UNDERVOLT</MCandW> now, too, showing.</transmission>
                 <transmission MET="PT055H58M29S" com="CC">MAIN A UNDERVOLT.</transmission>
+             
+                <closing>Ending of document </closing>  
         </body>
 </apollo13>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Gettysburg><prologue who="President Lincoln">President Lincoln delivered the 272 word Gettysburg
+        Address on <date when="1863-11-19">November 19, 1863</date> on the battlefield near
+        Gettysburg, Pennsylvania</prologue>
+    <body>
+        <sentence n="1">"Fourscore and seven years ago our fathers brought forth, on this
+                continent,<where location="a new nation"> a new nation</where>, conceived in
+            liberty, and dedicated to the proposition that <person who="all men">all men</person>
+            are created equal.</sentence>
+        <sentence n="2" event="a great civil war">Now we are engaged in a great civil war, testing
+            whether that nation, or any nation so conceived, and so dedicated, can long
+            endure.</sentence>
+        <sentence n="3" event="war"> We are met on a <where location="great battlefield">great
+                battle-field</where> of that war.</sentence>
+        <sentence n="4" who="we"> We have come to dedicate a portion of <where location="that field"
+                >that field</where>, as a final resting-place for those <person
+                who="who gave their lives">who here gave their lives</person>, that that nation
+            might live.</sentence>
+        <sentence n="5" who="we">It is altogether fitting and proper that we should do
+            this.</sentence>
+        <sentence n="6" who="we"> But, in a larger sense, we cannot dedicate, we cannot
+                consecrate—<where location="gettysburg">we cannot hallow—this
+            ground</where>.</sentence>
+        <sentence><person who="The brave men">The brave men</person>, living and dead, who struggled
+            here, have consecrated it far above our poor power to add or detract.</sentence>
+        <sentence n="7" event="fight">The world will little note, nor long remember what we say
+            here, but it can never forget what they did here.</sentence>
+        <sentence n="8" who="us the living" event="fight">It is for us the living, rather, to be
+            dedicated here to the unfinished work which they who fought here have thus far so nobly
+            advanced.</sentence>
+        <sentence n="9" who="us" event="Finish the war">It is rather for us to be here dedicated to
+            the great task remaining before us—that from these honored <person who="dead"
+                >dead</person> we take increased devotion to that cause for which they here gave the
+            last full measure of devotion—that we here highly resolve that these dead shall not have
+            died in vain—that this nation, under God, shall have a new birth of freedom, and that
+            government of the people, by the people, for <person who="the people">the
+                people</person>e, shall not perish from the earth.</sentence>
+    </body></Gettysburg>

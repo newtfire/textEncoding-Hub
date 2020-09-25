@@ -18,7 +18,8 @@ type = attribute type {"techtranscript"}
 # The pipe character: | goes in between the values to indicate "or": "nasa" or "rsa" or "esa" may be used as a value.
 
 head = element head {crew, groundControl}
-body = element body {(transmission | O2-tank-anomaly)*}
+body = element body {  (transmission | O2-tank-anomaly)*, closing }
+closing = element closing {text}
 O2-tank-anomaly = element O2-tank-anomaly {empty}
 # repetition indicators: 
 # ? zero or 1
