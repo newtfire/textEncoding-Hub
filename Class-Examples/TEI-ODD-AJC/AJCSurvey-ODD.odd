@@ -31,9 +31,14 @@
               and attributes. --></p>
          <schemaSpec ident="AJCSurvey">     <!-- @ident is required -->
             <desc>A customization of the TEI for coding a typed survey document filled out in handwriting.</desc>
+            
             <moduleRef key="tei"/>
-            <moduleRef key="core" except="analytic biblStruct binaryObject divGen email gb imprint l lg listBibl media meeting mentioned monogr postBox postCode sp speaker stage teiCorpus"/>
+           
+            
+           <moduleRef key="core" except="analytic biblStruct binaryObject divGen email gb imprint l lg listBibl media meeting mentioned monogr postBox postCode sp speaker stage teiCorpus"/>
+            
             <moduleRef key="header"/>
+            
             <moduleRef key="textstructure"/>
             <!--2020-10-09 ebb: The moduleRef elements identify collections of elements in the TEI. 
             The four above are required for a document to be considered a TEI cusotmization, but we can 
@@ -43,9 +48,14 @@
             Without any attributes, we keep everything by default.
             -->
             
+            <moduleRef key="figures" except="formula notatedMusic"/>
+            
             
             <!-- ODD-specific elements like <elementSpec> and <classSpec>;
              or references to <specGrp>s defined above using <specGrpRef>. -->
+            
+            
+          
          </schemaSpec>
       </body>
   </text>
