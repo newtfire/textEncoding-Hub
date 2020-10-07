@@ -6,8 +6,8 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><!-- name of markup language being defined goes here --></title>
-            <author><!-- primary author --></author>
+            <title>ODD Document for the Anna Julia Cooper Survey</title>
+            <author>Elisa Beshero-Bondar</author>
             <editor><!-- editor or secondary author --></editor>
          </titleStmt>
          <publicationStmt>
