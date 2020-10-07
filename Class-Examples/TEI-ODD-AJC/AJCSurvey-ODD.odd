@@ -36,6 +36,8 @@
            
             
            <moduleRef key="core" except="analytic biblStruct binaryObject divGen email gb imprint l lg listBibl media meeting mentioned monogr postBox postCode sp speaker stage teiCorpus"/>
+            <!--ebb: I'm throwing out lg and l because those are for lines of poetry. For more generic lines we can use
+            <line>...</line> or <lb/> elements.-->
             
             <moduleRef key="header"/>
             
@@ -49,6 +51,28 @@
             -->
             
             <moduleRef key="figures" except="formula notatedMusic"/>
+           
+            <moduleRef key ="linking" include="ab seg"/>
+            <!--ebb: From this module, I think we only need these two elements. The others are
+            used in "standoff" annotation contexts: for a separate file that would point to the one we are coding.
+            -->
+            
+            <moduleRef key="msdescription"/>
+            <!--ebb: I'm including this whole module for now, because it can take a while to 
+            figure out how to describe a manuscript in the teiHeader. We can exclude elements later.-->
+            
+            <moduleRef key="namesdates" except="climate nym geogFeat geogName object objectIdentifier objectName offset terrain" />
+            <!--Many of the elements in this module are used in "metadata" sections of a document, instead of for 
+            encoding words written on the page. 
+            So, these give us the basis for a very detailed personography or placeography.
+            We can also use these elements to code names in the document, but we should probably simplify
+            and reduce this to limit the options and code information that matters in our project
+            -->
+            
+            <moduleRef key="transcr" except="surfaceGrp surplus"/>
+            <!--Much of this could be useful for us. Take a look at handNotes and handnote.
+            A big question is whether we want to work with <surface> and <zone> elements, and apply image-mapping to our encoding.
+            -->
             
             
             <!-- ODD-specific elements like <elementSpec> and <classSpec>;
