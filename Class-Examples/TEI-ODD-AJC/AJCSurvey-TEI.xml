@@ -340,7 +340,8 @@
                <pb n="6"/>
               <div2 type="page-heading"><head>SPACE RESERVED FOR SPECIAL COMMENT</head></div2>
             
-            <div2 type="margin" hand="AJC"> <ab> <gap/>ily Service <gap/>d Girls Work <gap/>g World War. </ab> </div2>
+               <div2 type="margin"> <ab hand="AJC"> <gap/>ily Service <gap/>d Girls Work <gap/>g World War. </ab> </div2><!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
+               
             <metamark function="flag" rend="pointer" target="(65 cont.)"/>
             <div2 type="continuation" n="65"><ab hand="#AJC">65 cont.) of Pollyanna stuff. I am as sensitive to handicaps as those who are 
                <lb/>always whining about them &amp; the whips &amp; slings of prejudice, 
@@ -358,8 +359,6 @@
                <lb/><p hand="#AJC">The extent, then, of the optimism in my philosophy is that, (Statisticians &amp; Social Science Research 
                   <lb/>compilers to the contrary notwithstanding) the solution of our problem will be the individual &amp;
                   <lb/>not en masse, &amp; the habit of generalization &amp; deductive logic has done its worst.</p>
-               
-               <!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. -->
                <lb/> <p>For after all, Social Justice the desired goal is not to be reached thro any panacea 
                   <lb/>by mass production. whether <persName>DuBois</persName>'s preachment of the ballot for &amp; <unclear reason="illegible">intermarriage</unclear>
                   <lb/>or <persName>Kelly Miller</persName>'s one time suggestion of self effacement, or even <persName>Booker Washington</persName>'s
