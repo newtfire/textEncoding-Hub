@@ -17,6 +17,15 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+        <div> 
+               <p>The <gi>myTesterElem</gi> is for testing whether stuff is working when I put
+                  non TEI elements in an ODD</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">My silly example contains a <myTesterElem rendition="rnd:upover">tester element</myTesterElem>!
+                  </egXML>
+            
+</div>
+      </front>
       <body>
          <head>tester ODD</head>
          <schemaSpec ident="testerODD">
