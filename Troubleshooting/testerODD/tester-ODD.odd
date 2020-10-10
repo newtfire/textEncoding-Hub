@@ -10,7 +10,7 @@
             <title>testerODD</title>
             <author>Elisa Beshero-Bondar</author>
          </titleStmt>
-         <publicationStmt/>
+         <publicationStmt><p>shared as an example for testing only.</p></publicationStmt>
          <sourceDesc>
             <p>born digital</p>
          </sourceDesc>
@@ -20,6 +20,7 @@
       <body>
          <head>tester ODD</head>
          <schemaSpec ident="testerODD">
+            <desc>For testing purposes: not a real ODD</desc>
             <moduleRef key="tei"/>
             <moduleRef key="core"
                except="analytic biblStruct binaryObject divGen email gb imprint l lg listBibl media meeting mentioned monogr postBox postCode sp speaker stage teiCorpus"/>
@@ -47,9 +48,7 @@
                   <memberOf key="att.canonical"/>
                </classes>
                <content>
-                  <content>
                      <rng:text/>
-                  </content>
                </content>
                <exemplum xml:lang="en">
                   <p>The <gi>myTesterElem</gi> is for testing whether stuff is working when I put
