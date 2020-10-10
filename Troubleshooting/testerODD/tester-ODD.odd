@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>testerODD</title>
+            <author>Elisa Beshero-Bondar</author>
+         </titleStmt>
+         <publicationStmt/>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>tester ODD</head>
+         <schemaSpec ident="testerODD">
+            <moduleRef key="tei"/>
+            <moduleRef key="core"
+               except="analytic biblStruct binaryObject divGen email gb imprint l lg listBibl media meeting mentioned monogr postBox postCode sp speaker stage teiCorpus"/>
+            <moduleRef key="header"/>
+            <moduleRef key="linking" include="ab seg"/>
+            <moduleRef key="textstructure"/>
+            <elementSpec ident="seg" module="linking" mode="change">
+               <attList>
+                  <attDef ident="rendition" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="rnd:upover"/>
+                        <valItem ident="rnd:downlow"/>
+                     </valList>
+                  </attDef>
+               </attList>
+               <exemplum xml:lang="en">
+                  <p>The <gi>seg</gi> is here to help me test stuff that isn't working in ODD
+                     transformations. </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">My silly example contains a <seg rendition="rnd:upover">tester element</seg>.
+                  </egXML>
+               </exemplum>
+            </elementSpec>
+            <elementSpec ident="myTesterElem" ns="http://www.example.org/ns/tei_minimal" mode="add">
+               <classes>
+                  <memberOf key="att.canonical"/>
+               </classes>
+               <content>
+                  <content>
+                     <rng:text/>
+                  </content>
+               </content>
+               <exemplum xml:lang="en">
+                  <p>The <gi>myTesterElem</gi> is for testing whether stuff is working when I put
+                     non TEI elements in an ODD</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">My silly example contains a <myTesterElem rendition="rnd:upover">tester element</myTesterElem>!
+                  </egXML>
+               </exemplum>
+            </elementSpec>
+         </schemaSpec>
+      </body>
+   </text>
+</TEI>
