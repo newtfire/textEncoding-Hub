@@ -1,0 +1,8 @@
+Link formatted in markdown:
+[36 Lessons of Vivec, Sermon 1](https://elderscrolls.fandom.com/wiki/36_Lessons_of_Vivec,_Sermon_1)
+
+Link formatted in HTML:
+<a href="https://elderscrolls.fandom.com/wiki/36_Lessons_of_Vivec,_Sermon_1">36 Lessons of Vivec, Sermon 1</a>
+
+XML element referencing a file on the internet (anything you like, but maybe this, borrowed from the TEI):
+<ref target="https://elderscrolls.fandom.com/wiki/36_Lessons_of_Vivec,_Sermon_1">36 Lessons of Vivec, Sermon 1</ref>

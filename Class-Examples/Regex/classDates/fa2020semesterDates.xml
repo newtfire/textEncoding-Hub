@@ -1,0 +1,82 @@
+<xml>
+    <table class="week">
+        <tr id="2020-08-24">M 08-24</tr>
+        <tr id="2020-08-26">W 08-26</tr>
+        <tr id="2020-08-28">F 08-28</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-08-31">M 08-31</tr>
+        <tr id="2020-09-02">W 09-02</tr>
+        <tr id="2020-09-04">F 09-04</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-09-07">M 09-07</tr>
+        <tr id="2020-09-09">W 09-09</tr>
+        <tr id="2020-09-11">F 09-11</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-09-14">M 09-14</tr>
+        <tr id="2020-09-16">W 09-16</tr>
+        <tr id="2020-09-18">F 09-18</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-09-21">M 09-21</tr>
+        <tr id="2020-09-23">W 09-23</tr>
+        <tr id="2020-09-25">F 09-25</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-09-28">M 09-28</tr>
+        <tr id="2020-09-30">W 09-30</tr>
+        <tr id="2020-10-02">F 10-02</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-10-05">M 10-05</tr>
+        <tr id="2020-10-07">W 10-07</tr>
+        <tr id="2020-10-09">F 10-09</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-10-12">M 10-12</tr>
+        <tr id="2020-10-14">W 10-14</tr>
+        <tr id="2020-10-16">F 10-16</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-10-19">M 10-19</tr>
+        <tr id="2020-10-21">W 10-21</tr>
+        <tr id="2020-10-23">F 10-23</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-10-26">M 10-26</tr>
+        <tr id="2020-10-28">W 10-28</tr>
+        <tr id="2020-10-30">F 10-30</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-11-02">M 11-02</tr>
+        <tr id="2020-11-04">W 11-04</tr>
+        <tr id="2020-11-06">F 11-06</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-11-09">M 11-09</tr>
+        <tr id="2020-11-11">W 11-11</tr>
+        <tr id="2020-11-13">F 11-13</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-11-16">M 11-16</tr>
+        <tr id="2020-11-18">W 11-18</tr>
+        <tr id="2020-11-20">F 11-20</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-11-23">M 11-23</tr>
+        <tr id="2020-11-25">W 11-25</tr>
+        <tr id="2020-11-27">F 11-27</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-11-30">M 11-30</tr>
+        <tr id="2020-12-02">W 12-02</tr>
+        <tr id="2020-12-04">F 12-04</tr>
+    </table>
+    <table class="week">
+        <tr id="2020-12-07">M 12-07</tr>
+        <tr id="2020-12-09">W 12-09</tr>
+        <tr id="2020-12-11">F 12-11</tr>
+    </table>
+</xml>

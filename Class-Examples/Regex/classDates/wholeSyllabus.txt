@@ -1,0 +1,133 @@
+Week 1	Topics	Do before class	Group A	Group B
+M 08-24	Welcome! Introduction to the course. Intro to XML and "plain" text in the oXygen XML Editor.	Respond to Dr. B's Poll (see Canvas / Penn State email). Find the Zoom link for class (on Canvas / Penn State email).	Zoom remotely	Kochel 77 + Zoom (audio muted)
+W 08-26	XML coding: a recipe for Whipt Syllabub. Elements, attributes, comments, escape characters, and "pretty-printing" in <oXygen/>. How file systems recognize XML documents (File extension, and XML declaration line). Introduce XML Exercise 1 (Historic Letter)	Install oXygen XML Editor and add our license key so we can all use this during our meeting today. Read my Introduction to XML and experiment with the code in the tutorial: Can you tell what makes markup well-formed or not?	Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 08-28	Discussion of Pierazzo introduction of XML. Discussion of homework, XML data and metadata. Document sources. Self-closing elements. Distinct identifiers: @xml:id attributes and pointer attributes (#): Example with Map of Early Modern London Project Introduce XML Exercise 2 (see Do before class for M 8/31)	
+Watch Elena Pierazzo's short video "Why do we encode? Advantages of encoding texts with XML".
+Complete XML Exercise 1 (Historic Letter) and submit to Canvas.
+Zoom remotely	Kochel 77 + Zoom (audio muted)
+Week 2	Topics	Do before class	Group A	Group B
+M 08-31	Discussion of XML homework. More explanation of how to work with distinct identifiers: @xml:id attributes and pointer attributes (#): Prosopography lists. Self-closing elements.	Complete XML Exercise 2:
+First, revise the code in your XML Exercise 1: Try adding tags and attributes to help track more specific pieces of information than you marked at first. Try marking people and places, for example.
+Look for pseudomarkup to convert into markup
+Choose another letter in the collection from XML Exercise 1 and try to encode it the same way.
+Optional: Try making a personography or a placeography list (even a partial one) of distinct people or places mentioned in the two letters. This can be a third file, or embedded as a section in each letter. Code the entries in this list to hold distinct names and any other information you wish, and give each entry an @xml:id attribute to hold a short distinct identifier you can use in your code. Then, apply pointer attributes (maybe @who, or @where or @ptr or @ref) in the markup of people or places in the body of the letters to point to entries to the personography or placeography using hashtags so you do not duplicate the xml:id. Where the xml:id would be coded only once on a page or in a project like so: identifier, the values of pointers can be used as many times as you like, and are just preceded with a hashmark like this: #identifier.
+Submit your revised letter XML and new letter XML (and optional personography/placeography) on Canvas for XML Exercise 2.
+Kochel 77 + Zoom (audio muted)	Zoom remotely
+W 09-02	Discussion of The Ballad of Booker T.: Multiple ways to encode a poem and manuscript information. Overlapping hierarchies.	XML Exercise 3: Mark up The Ballad of Booker T.	Zoom remotely	Kochel 77 + Zoom (audio muted)
+F 09-04	Introduce class GitHub and how we will interact with it. Students join the class textEncoding-Hub. Intro to GitHub markdown.Markup vs. markdown. Explore GitHub markdown for writing issues, including code-blocks. Command line hands-on navigation, and introduction to git commands: Clone the textEncoding-Hub to your local computer.	Complete Git Exercise 1. Watch my video introducing the Bash shell and "home" on your computers and practice the shell commands I am introducing.	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 3	Topics	Do before class	Group A	Group B
+M 09-07 Labor Day, PSU classes in session anyway!	GitHub file management: pulling, adding, committing, and pushing to your repo. When XML gets in the way: Overlapping hierarchies problem: exhibited with Ozymandias. Emily Dickinson projects and reading interfaces for encoded documents: Introduce discussion on textEncoding-Hub.	
+(To help with Git Ex 2): Watch my short (15 minute) video showing how to git pull in changes, and the three-step of git add, git commit, and git push.
+(To help with Git Ex 2): Work with our short list of Git Commands to pull, commit, and push changes to your personal GitHub repo and/or to the digitProjectDesign-Hub.
+Complete Git Exercise 2. Send a link to your personal GitHub repo to me on Canvas (Assignments)
+(Optional: good to try:): Watch / work with Set up a Git Bash Profile (short video how-to): (this is convenient for you, and more command line knowledge).
+Zoom remotely	Kochel 77 + Zoom (audio muted)
+W 09-09	
+Seven Days of Git/GitHub. Start by (carefully) cleaning up our textEncoding-Hub? ALWAYS PULL BEFORE YOU PUSH!
+Prepare for XM Test 1: Pre-Test Class Exercise:
+git pull from textEncoding-Hub.
+Open oXygen XML Editor. Open a file from textEncoding-Hub > Class-Examples > xmlPreTest
+Open the file inside: ozyMeta.xml in oXygen. (If trouble with git pull, copy and paste the file into a new XML document from here.)
+IMPORTANT! Save this file OUTSIDE of our textEncoding-Hub, so you don't save over my Class Examples as you are working. Save to your personal repo or to your Desktop or elsewhere on your computer!
+Work in oXygen on finding and correcting errors that break XML form. With each error, document your correction: write an XML comment explaining what you did to correct the problem.
+Keep making corrections until XML is well formed (and oXygen is green). Do your best! This is like the exam you will be taking over the weekend.
+Emily Dickinson Projects: Exploration
+Git Shell Practice (starting today for seven days): Make sure your personal repo and the class repo are properly set up and cloned to your computer. Using your Bash shell, practice some basic git commands to build a habit. On alternating days, push to the other repo (if you pushed to your personal repo today, tomorrow you will pull and push a file to our class repo). Remember: ALWAYS PULL BEFORE YOU PUSH!
+Start exploring/responding to the Comparison of Emily Dickinson Projects on the textEncoding-Hub.
+Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 09-11	Validity vs. Well-formedness. Introduce the TEI community and shared schema. Designing your own schema. Issue Take-Home Test 1.	Complete discussion posts on Emily Dickinson comparison exercise.	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 4	Topics	Do before class	Group A	Group B
+M 09-14	Validity for a project: what is a schema? How to write a Relax NG schema	Complete Take-Home Test 1. Read Intro to Relax NG	Kochel 77 + Zoom (audio muted)	Zoom remotely
+W 09-16	Writing schemas: technical details and big picture issues. Introducing datatypes. The interesting "tag soup" of "mixed content".	Watch my video on Relax NG and how to write it in oXygen, and complete Relax NG Exercise 1:
+Make a folder to hold this homework, since it will contain two files. Save the folder using our homework filenaming conventions.
+Open this goodMorning.xml file (open the link, and right-click to save on your computer with your homework, then open in oXygen).
+Open a new Relax-NG Compact syntax file in oXygen, and set your editor in tile view so you can see the goodMorning.xml file next to your schema file. Delete the code in the Relax NG file so you have a blank slate to start with.
+Write a Relax NG Schema in Compact Syntax that models the content of this XML file as you study it. (Save the schema in the same directory with your XML file so you can easily find it.)
+Associate the schema with the XML file (in oXygen go to Document > Schema > Associate Schema, and browse to locate the schema. Click OK and note the new schema line at the top of your XML file.
+Zip (compress) the file directory holding your XML file and the Relax NG schema file, and submit this on Canvas at the upload point for this assignment.
+Review XML syntax and consult the Intro to Relax NG as you work on this, and ask for help on out textEncoding-Hub by opening an issue if you get stuck. Continue GitHub practice!	Zoom remotely	Kochel 77 + Zoom (audio muted)
+F 09-18	Trioubleshooting and debugging Relax NG issues.	Relax NG Exercise 2: Write a Relax NG schema for one of the XML documents you created for a previous homework assignment (making changes to the XML if you wish or as recommended). Upload both your XML and your schema file in a zipped (compressed) directory on Canvas.	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 5	Topics	Do before class	Group A	Group B
+M 09-21	Ongoing manuscript / document transcription projects. Crowdsourcing transcription, pseudomarkup vs. markup. Examples:
+Anne Lister diary transcription project
+Transcription guidelines: Notice the pseudomarkup
+Key to Anne Lister’s secret code (scroll down)
+Smithsonian Digital Volunteers: Transcription Center
+Audio transcription work in progress
+Instructions: Freedmen Bureau's Papers
+Relax NG Exercise 3: Choose a new document (any genre, any language, manageable size for homework, interesting to model): Try writing a schema first, and then coding to fit the schema. (Edit both the XML structure and the Relax NG rules as you go.)	Fully Remote (I need to teach from off campus today.)	Fully Remote (I need to teach from off campus today.)
+W 09-23	Introducing the Text Encoding Initiative (TEI): Ways of Knowing in Digital Humanities and TEI (web slides).	
+Repair any broken Relax NG syntax and/or XML validation issues on previous homework submissions.
+Get started on the Crowdsourcing Transcription exercise: Choose a resource from one of the options on the assignment and begin transcribing.
+Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 09-25	Review of major concepts about XML and document data modeling. Relax NG Debugging Class Exercise: Pre-Test on textEncoding-Hub. (Please do not push your files to the textEncoding-Hub but save them somewhere else on your computer, like your personal GitHub or where you do homework.)	Complete the Crowdsourcing Transcription exercise.	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 6	Topics	Do before class	Group A	Group B
+M 09-28	Presentation info vs. Semantics in Markup. Text encoding initiative: introducing the Guidelines and structure of a TEI document. Introduce the Anna Julia Cooper survey exercise: task oriented investigation of the TEI Guidelines.	
+Read about the TEI in About These Guidelines and look for uses of the word interchange. Come to class with some ideas about interchange and the TEI: What do you think interchange means and why might it be important?
+Complete the Crowdsourcing Transcription exercise if you did not do so last time.
+Repair any broken Relax NG syntax and/or XML validation issues on previous homework submissions.
+Kochel 77 + Zoom (audio muted)	Zoom remotely
+W 09-30	Compare notes on TEI discoveries. TEI intro slides surveying modules. Introduce TEI code in oXygen, working with TEI-All. Issue Take-home test 2: Relax NG.	Post to the textEncoding-Hub to complete TEI Exercise 1: an historic survey document	Zoom remotely	Kochel 77 + Zoom (audio muted)
+F 10-02	Discussion / comparison of class TEI encoding. TEI Header and prosopography data.	TEI Exercise 2: Create a start on a TEI document.	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 7	Topics	Do before class	Group A	Group B
+M 10-05	Introducing a TEI ODD Schema for Anna Julia Cooper TEI.
+TEI ODD resources on textEncoding-Hub wiki
+TEI Exercise 3: Continue coding the AJC survey in TEI. Suggestions/options:
+Revise your code from TEI Exercise 2 to make it valid if you need to
+Try changing your approach, or adding some new elements from the TEI that you did not introduce before
+Look into how to develop the msDesc in the teiHeader
+Try coding a little more of the survey and responses
+Complete Take-home Test 2: Relax NG (by 11:59pm)
+Zoom remotely	Kochel 77 + Zoom (audio muted)
+W 10-07	Working with a TEI ODD customization for the AJC Survey.	No homework to submit, for once! Before class, review the slides and resources on TEI ODDs that we discussed in class on Monday.	Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 10-09	Review discussion of document data modeling of the AJC survey. Preview of aggregate crowd-sourced data and alternative published view of the AJC essay (see item 17). Introduce Text Encoding Projects: possibilities.	TEI Exercise 4	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 8	Topics	Do before class	Group A	Group B
+M 10-12	Introducing Regular Expressions and autotagging. Regular patterns in documents. How to start? Text Encoding Projects.	
+Read Intro to Regular Expressions
+Watch ~20+ min. video: Introducing Regular Expressions in the oXygen XML Editor
+Kochel 77 + Zoom (audio muted)	Zoom remotely
+W 10-14	Regular Expressions: thinking algorithmically. Inside-out or outside in. "close-open" strategy.	Regex Exercise 1	Zoom remotely	Kochel 77 + Zoom (audio muted)
+F 10-16	Regex: simplifying over-complicated expressions. Selecting for what's not there. Searching over highlighted portions of a document. Refining XPath expressions. XPath functions and their placement. Functions inside predicates.	Regex Exercise 2	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 9	Topics	Do before class	Group A	Group B
+M 10-19	Introduction to XPath: functions and navigation. Set XPath 3.1 in oXygen XML Editor.	
+Read our Introduction to XPath.
+Choose a project cluster/form groups
+Zoom remotely	Kochel 77 + Zoom (audio muted)
+W 10-21	Querying XML with XPath. Working with predicates. Predicates as boolean filters (using and, or and the not() function) Revisiting XML and TEI markup decisions, based on what XPath can show.	XPath Exercise 1
+XPath Exercise 4
+Project cluster document data modeling: identify a research question or questions of interest
+Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 10-23	Workshopping XPath; XPath string functions How does HTML relate to TEI and XML? HTML and file management.	XPath Exercise 2 Read introduction to HTML	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 10	Topics	Do before class	Group A	Group B
+M 10-26	Workshopping HTML and CSS; Issue Take-home test 3.	XPath Exercise 3 (predicates / booleans). Read introduction to CSS. Work on HTML Ex 1 for project clusters	Kochel 77 + Zoom (audio muted)	Zoom remotely
+W 10-28	Create a small website;	Complete HTML Ex 2.	Zoom remotely	Kochel 77 + Zoom (audio muted)
+F 10-30	Introducing XSLT (eXtensible Stylesheets Language Transformations): XML to XML, TEI to XML, XML to HTML, and more. Namespaces	
+Complete Take-Home Test 3
+Read Introduction to XSLT / orientation video
+Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 11	Topics	Do before class	Group A	Group B
+M 11-02	XSLT to change XML into HTML. Useful HTML elements for highlighting, modeling, structuring views	XSLT Exercise 1: An Identity Transformation applied to project cluster files	Zoom remotely	Kochel 77 + Zoom (audio muted)
+W 11-04	XSLT for project clusters: workshopping a list of data. How template matches work	XSLT Exercise 2	Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 11-06	XSLT for project clusters: workshopping a reading view	XSLT Exercise 3	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 12	Topics	Do before class	Group A	Group B
+M 11-09	XSLT for project clusters: sorting / remixing? XSLT to non-XML formats: TSV (tab-separated values)	XSLT Exercise 4	Kochel 77 + Zoom (audio muted)	Zoom remotely
+W 11-11	Modal XSLT; producing a table of contents. Internal links on an HTML page, from XSLT	XSLT Exercise 5	Zoom remotely	Kochel 77 + Zoom (audio muted)
+F 11-13	Putting the pieces together: Workshopping XSLT, HTML, CSS; Documenting code in a GitHub repo	XSLT Exercise 6	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Week 13	Topics	Do before class	Group A	Group B
+M 11-16	Introducing SVG? Network Analysis? Mapping? [TBD].	Project cluster processing assignment	Zoom remotely	Kochel 77 + Zoom (audio muted)
+W 11-18	SVG? Network Analysis? Mapping? [TBD]	Project cluster processing assignment	Kochel 77 + Zoom (audio muted)	Zoom remotely
+F 11-20	SVG? Network Analysis? Mapping? [TBD]	Project cluster processing assignment	Fully Remote (Zoom Friday)	Fully Remote (Zoom Friday)
+Topics	Do before class	Group A	Group B
+M 11-23 - F 11-27	Thanksgiving Holiday	Have a peaceful and productive week! See you online.		
+Week 14	Topics	Do before class	Group A	Group B
+M 11-30	Revisiting the Data Model, spotting errors to clean up. Schema workshop. Introducing Schematron.	Read Introducing Schematron	Fully Remote (Zoom)	Fully Remote (Zoom)
+W 12-02	Schema Workshop	Schematron Exercise 1	Fully Remote (Zoom)	Fully Remote (Zoom)
+F 12-04	Schema Workshop	Schematron Exercise 2	Fully Remote (Zoom)	Fully Remote (Zoom)
+Week 15	Topics	Do before class	Group A	Group B
+M 12-07	Presentation vs. Semantics: What do we share? What do we miss?	HTML work with project cluster	Fully Remote (Zoom)	Fully Remote (Zoom)
+W 12-09	Documentation and reflection work: writing about what isn't there, assessing what could come next.	Documentation work	Fully Remote (Zoom)	Fully Remote (Zoom)
+F 12-11	Last day. Discuss project clusters, what we have learned.	Prepare to share a view of your project cluster work	Fully Remote (Zoom)	Fully Remote (Zoom)
+Finals Week: M 12/14 - F 12/18	Due
+H 12-17	Last project cluster work due by 11:59pm
+Finish developing projects, and send a post to me on GitHub to indicate your team is finished.
+
