@@ -1,26 +1,26 @@
-<xml>CHOCOLATE CHIP COOKIES by kumiko mitarai
-serves	18
-difficulty	Moderate
-equipment	Hand mixer Oven
-author	Kumiko Mitarai
-Source: http://forkthecookbook.com/recipes/chocolate-chip-cookies-e5dfe
-<ingred>17 oz (3 1/2 cup)	all-purpose flour	</ingred>
-<ingred>1 1/2 tsp	baking powder</ingred>
-<ingred>1 1/4 tsp	baking soda</ingred>
-<ingred>1 1/2 tsp	coarse sea salt (plus additional salt for sprinkling lightly on cookies)</ingred>
-<ingred>10 oz (2 1/2 stick)	unsalted butter</ingred>
-<ingred>10 oz (1 2/3 cup)	lightly packed light brown sugar</ingred>
-<ingred>8 oz (1 cup)	granulated sugar</ingred>
-<ingred>2 whole	large eggs</ingred>
-<ingred>2 tsp	vanilla extract</ingred>
-<ingred>18 to 20 oz	bittersweet chocolate (cut into large chip-size chunks (I recommend chocolate with at least 60% cacao content and prefer Scharffen Berger or Callebaut.))</ingred>
-whisk flour, baking soda, baking powder, &amp; salt together in a bowl. set aside.
-cream butter and sugars together until lightened, 3-5 minutes.
-add eggs, one at a time, mixing well after each addition. stir in vanilla.
-add dry ingredients, mixing at lowest speed until just combined.
-drop chocolate pieces in and mix in gently, by hand.
-wrap dough in plastic and refrigerate for 24 hours.
-preheat oven to 325˚f in a convection oven. if convection is not available, preheat conventional oven to 350˚f.
-roll dough into 1 1/2-inch balls an place an inch apart on a cookie sheet lined with a silpat liner or parchment paper.
-sprinkle very lightly with sea salt and bake until golden around the edges, 12-15 minutes (on the longer side for conventional ovens).
-allow cookies to cool on sheets for 5 minutes, then remove them to a wire rack to cool further.</xml>
+<root>
+    <title>CHOCOLATE CHIP COOKIES </title>by <author>kumiko mitarai</author> serves 18 difficulty
+    Moderate equipment Hand mixer Oven author Kumiko Mitarai Source:
+    http://forkthecookbook.com/recipes/chocolate-chip-cookies-e5dfe <ingredient>17 oz (3 1/2 cup)
+        all-purpose flour </ingredient>
+    <ingredient>1 1/2 tsp baking powder</ingredient>
+    <ingredient>1 1/4 tsp baking soda</ingredient>
+    <ingredient>1 1/2 tsp coarse sea salt (plus additional salt for sprinkling lightly on
+        cookies)</ingredient>
+    <ingredient>10 oz (2 1/2 stick) unsalted butter</ingredient>
+    <ingredient>10 oz (1 2/3 cup) lightly packed light brown sugar</ingredient>
+    <ingredient>8 oz (1 cup) granulated sugar</ingredient>
+    <ingredient>2 whole large eggs</ingredient>
+    <ingredient>2 tsp vanilla extract</ingredient>
+    <ingredient>18 to 20 oz bittersweet chocolate (cut into large chip-size chunks (I recommend
+        chocolate with at least 60% cacao content and prefer Scharffen Berger or
+        Callebaut.))</ingredient> whisk flour, baking soda, baking powder, &amp; salt together in a
+    bowl. set aside. cream butter and sugars together until lightened, 3-5 minutes. add eggs, one at
+    a time, mixing well after each addition. stir in vanilla. add dry ingredients, mixing at lowest
+    speed until just combined. drop chocolate pieces in and mix in gently, by hand. wrap dough in
+    plastic and refrigerate for 24 hours. preheat oven to 325˚f in a convection oven. if convection
+    is not available, preheat conventional oven to 350˚f. roll dough into 1 1/2-inch balls an place
+    an inch apart on a cookie sheet lined with a silpat liner or parchment paper. sprinkle very
+    lightly with sea salt and bake until golden around the edges, 12-15 minutes (on the longer side
+    for conventional ovens). allow cookies to cool on sheets for 5 minutes, then remove them to a
+    wire rack to cool further.</root>
