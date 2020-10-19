@@ -54,8 +54,7 @@
                 <li>Do a <code>git pull</code> here just in case you made changes to your repo from another computer.</li>
                 <li>Then write the <code>cp</code> command with an <code>-r</code> flag like this to allow it to copy a directory from the textEncoding-Hub into your space, realizing that <code>../</code> climbs up a directory, and that you can use the tab key to autocomplete long directory names. (The <code>./</code> in the second argument means right here on myOwnCoolRepo.)
                 <pre>
-                     <code>cp -r ../textEncoding-Hub/docs/copy-and-rename-to-docs ./docs</code>
-                </pre>
+                     <code>cp -r ../textEncoding-Hub/docs/copy-and-rename-to-docs ./docs</code></pre>
                 </li>
                 <li>Check to see that you now have a docs directory in your own repo. (If you are having difficulty with the <code>cp</code> command, there is nothing at all wrong with using your File Manager (Windows) or Finder (Mac) to copy the directory over and rename it. Just please be sure to <strong>copy</strong> rather than move the directory! Leave a copy of the directory in the textEncoding-Hub rather than deleting it so you do not change our class GitHub repo. Be sure not to push any changes to the textEncoding-Hub.)</li>
                 <li>Now it is time to add, commit, and push your changes to your remote repo, which will be publishing your website. 
@@ -78,13 +77,46 @@
             <p>Configure your settings to look like mine in the screen capture below. They should be to serve GitHub Pages from <code>Branch:master</code>, and the <code>docs/</code> directory.</p>
             
             <img src="githubPagesSettingsMod.png" alt="GitHub Pages Settings, set to read from the docs directory on the master branch" class="screenCap"/>
-
+<p>When you have altered this setting, your site will be published from the URL listed in the now pale-green box in your GitHub settings. You may wish to copy that link, and paste it on the code view of your repo in the About window. Paste that URL in a web browser to view your published site, and use that URL to direct visitors to your site. <strong>Caution: </strong> GitHub Pages can take sometimes up to 10 minutes to update after a <code>git push</code> of your latest work, so be patient. Also try opening your site in different web browsers to refresh the view.</p>
         </section>
         
        <section title="writing-HTML">
  
-        <!--Grab from our newtfire HTML Ex 1 -->
-        OPEN XHTML 5, and save as .html
+       <h2>Editing and preparing new HTML files for your site</h2>
+           <p>For our first assignment you may simply edit the index.html page that you now have stored in your <code>docs/</code> folder on your GitHub repo.</p>
+           <p>The goal of this assignment is to create a very basic personal webpage. If you view page source on this page you can see examples of how we used headings, paragraphs, lists, an image, and links to other pages within the same directory. You can also view the corresponding CSS and take note of how we linked our CSS with this page. Mac users to view page source we recommend that you use Firefox or Chrome because Safari will require you to change browser preferences to see the page source. In Firefox or Chrome simply right-click and select view page source.</p>
+           <p>The key components of your first basic webpage that we will be looking for are:</p>
+               
+               <ul><li>Heading elements (with any variation of heading levels)</li>
+               <li>Paragraph element(s)</li>
+               <li>Showing at least one new image</li>
+               </ul>
+           <p>If you wish, study our <a href="https://newtfire.org/courses/tutorials/explainCSS.html">Introduction to CSS</a> and begin updating and revising and adding more styling to your page by editing the CSS file.</p>
+        <p>If you wish, try adding a new page to link to your index.html page, using a relative link. In oXygen, open a new XHTML 5 file, and alter the head element to contain the info below. This page will link to the same CSS file, <code>webstyle.css</code> currently associated with your <code>index.html</code> page. When you go to save this file give it a new name with no spaces that makes sense within your site, like <code>about.html</code>, or <code>hobbies.html</code>. oXygen will want to save this as <code>.xhtml</code> by default, but be sure to change the file extension to <code>.html</code>. (We are going to be using the <code>.html</code> file extension as more typically recognized on websites.</p>
+        
+        <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en"&gt;
+    &lt;head&gt;
+        &lt;title&gt;HTML Ex 1&lt;/title&gt;
+        &lt;meta charset="UTF-8" /&gt;
+        &lt;meta name="author" content="My Name" /&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+        &lt;link rel="stylesheet" type="text/css" href="webstyle.css" /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;!--Code the viewable portion of your page here.--&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+           
+           <p>Save your new HTML page in your <code>docs/</code> directory. Then to publish your work, use the git commands to add, commit, and push your files up to the web (not forgetting the commit message with <code>git commit -m "your  message"</code>). </p>
+       </section>
+           
+          <section title="submitting">
+              <h3>Submitting your work</h3>
+              <p>Submit the link to your GitHub Pages website on Canvas at the assignment submission point there.</p>
        </section>
         
     </body>
