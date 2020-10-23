@@ -1,5 +1,9 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../../../../digitalMitford/DM_documentation/MitfordODD/out/mitfordODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../digitalMitford/DM_documentation/MitfordODD/out/mitfordODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">  
    <teiHeader>
       <fileDesc>
@@ -128,8 +132,8 @@
             <opener> 
                <add hand="#pencil">attached -- P.S dated 29 Dec. 1817<lb/> belonging to previous letter</add>
                <dateline>
-                  <name type="person">To Sir William Elford</name>
-                  <name type="place">Bertram House</name> 
+                  To <persName ref="#Elford_SirWm">Sir William Elford</persName>
+                  <placeName ref="#Bertram_house">Bertram House</placeName> 
                   <date when="1818-01-12">Jan<hi rend="superscript">y</hi> 12<hi rend="superscript">th</hi> 1818.</date> 
                </dateline>
             </opener>
