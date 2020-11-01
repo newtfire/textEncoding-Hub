@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<?xml-model href="out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Negro College Graduates</title>
+            <title type="sub">Individual Occupational History</title>
+            <author>Anna Julia Cooper</author>
+            <editor role="lead">Alice Rong</editor>
+            <editor role="lead">Mia Borgia</editor>
+            <!--2020-11-1 ebb: Mia's further additions are at the end of this file: question 46, and then more tagging of the last page. -->
+            <editor role="support">Elisa Beshero-Bondar</editor>
+            <editor>Fall 2020 DIGIT 110 class in Text Encoding at Penn State Erie, The Behrend
+               College</editor>
+            <sponsor>Digital Media, Arts, and Technology at Penn State Erie, The Behrend
+               College</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Personal Papers at Digital Howard @ Howard University</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement> Howard University</settlement>
+                  <repository> Moorland-Spingarn Research Center</repository>
+                  <idno>id number</idno>
+                  <altIdentifier>
+                     <idno>3533</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc hands="1">
+                     <handNote xml:id="AJC" medium="black-ink">Answers to survey questions are
+                        handwritten by Anna Julia Cooper.</handNote>
+                  </handDesc>
+                  <typeDesc>
+                     <typeNote xml:id="SQUEST">Serif font typescript listing questions for the
+                        survey</typeNote>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!--Research Questions: 
+         How much does AJC exceed the boundaries of the survey form: Can we measure this in lines provided vs. lines of text written?
+      How many different educational institutions and roles can we identify in the survey, that might have been important places for social change and integrating blacks and whites?
+      
+      -->
+         <!-- miab: adding pb 1 and page heading --> 
+         <pb n="1"/>
+         <div1 type="page-heading">
+            <head>NEGRO COLLEGE GRADUATES</head>
+            <head type="subheader">Individual Occupational History</head>
+         </div1>
+         
+         <div1 type="section" n="I">
+            <head>I. Social Information</head>
+            <div2 type="question" n="1">
+               <ab> 1. Name <add hand="#AJC"><persName><forename type="first">Anna</forename>
+                        <forename type="middle">Julia</forename>
+                        <surname type="married">Cooper</surname></persName></add>
+               </ab>
+            </div2>
+            <div2 type="question" n="2">
+               <ab> 2. Present address <add hand="#AJC"><address>
+                        <street>201 T N.W.</street>
+                        <settlement type="city">Washington D.C.</settlement>
+                     </address></add>
+               </ab>
+            </div2>
+            <div2 type="question" n="3">
+               <ab> 3. (If married woman, give maiden name on this line) <add hand="#AJC">
+                     <persName><forename type="first">Anna</forename>
+                        <forename type="middle">Julia</forename>
+                        <surname type="maiden">Haywood</surname></persName></add>
+               </ab>
+            </div2>
+            <div2 type="question" n="4">
+               <ab> 4. Length of residence in this city <add hand="#AJC"> 45 years.</add> state of
+                  longest residence______ </ab>
+            </div2>
+            <div2 type="question" n="5">
+               <ab> 5. Age <add hand="#AJC">72</add> sex <add hand="#AJC">F</add> Date of birth <add
+                     hand="#AJC">Aug 10, 1860</add> Place of birth <add hand="#AJC">Raleigh
+                     N.C.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="6">
+               <ab> Marital status: Single <add hand="#AJC">Widowed</add> Married <add hand="#AJC"
+                        ><metamark function="checkmark"/></add> Date of marriage <add hand="#AJC"
+                     >June 21, 1877</add> Age at marriage <add hand="#AJC">17</add>
+                  Divorced_____Date_______Separated_______Date______Widowed <add hand="#AJC"
+                        ><metamark function="checkmark"/></add> Date <add hand="#AJC">Sept 27,
+                     1879</add> Deserted_____Date_________Remarried______Date___________ </ab>
+            </div2>
+            <div2 type="question" n="7">
+               <table rend="boxed" rows="9" cols="4">
+                  <row role="label">
+                     <cell>7. Children living: <add hand="#AJC">None</add></cell>
+                     <cell><hi rend="italic">Age</hi></cell>
+                     <cell><hi rend="italic">Grade (If in school)</hi></cell>
+                     <cell><hi rend="italic">Occupation (If not attending school)</hi></cell>
+                  </row>
+                  <row n="1">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="2">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="3">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="4">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="6">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="7">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="8">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+               <table rend="boxed" rows="9" cols="3">
+                  <row role="label">
+                     <cell>Children dead: <add hand="#AJC"> None</add></cell>
+                     <cell><hi rend="italic">Date of death</hi></cell>
+                     <cell><hi rend="italic">Age of death</hi></cell>
+                  </row>
+                  <row n="1">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="2">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="3">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="4">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="6">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="7">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="8">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+            </div2>
+            <div2 type="question" n="8">
+               <ab> 8. Present occupation <add hand="#AJC">Teacher &amp; President
+                        <orgName>Frelinghuysen University</orgName></add>
+               </ab>
+            </div2>
+            <div2 type="question" n="9">
+               <ab> 9. Present annual salary <add hand="#AJC">$50.00</add> or yearly net income,
+                  deducting expenses of earning except income tax_________or kindly check the class
+                  within which your net income falls: </ab>
+               <ab> Under $500__________$500- $999__________$1000-$1499 <add hand="#AJC"><metamark
+                        function="checkmark"/></add>
+                  $1500-$1999__________$2000-$2499__________$2500-$2999__________$3000-$3499___________$3500-$3999___________$4000-$4499__________$4500-$4999___________$5000-$5999__________$6000-$6999___________$7000-$7999__________$8000-$8999__________$9000-$9999__________$10,000
+                  and over________ </ab>
+            </div2>
+            <div2 type="question" n="10">
+               <ab> Of what college or professional school are you a graduate? <add hand="#AJC"
+                     >Oberlin College</add> Date of graduation <add hand="#AJC">BA, 1884, MA
+                     1887</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="11">
+               <table rend="boxed" rows="9" cols="4">
+                  <row role="label">
+                     <cell>11. Occupation since graduation</cell>
+                     <cell><hi rend="italic">From</hi></cell>
+                     <cell><hi rend="italic">To</hi></cell>
+                     <cell><hi rend="italic">Yearly Salary</hi></cell>
+                  </row>
+                  <row n="1">
+                     <cell><add hand="#AJC">Professor Modern Lang. &amp; Lit. <orgName>Wilberforce
+                              U.</orgName></add></cell>
+                     <cell><add hand="#AJC">Sept. 1884</add></cell>
+                     <cell><add hand="#AJC">June 1885</add></cell>
+                     <cell><add hand="#AJC">1000</add></cell>
+                  </row>
+                  <row n="2">
+                     <cell><add hand="#AJC">Instructor Math Latin &amp; Greek <orgName>St. Rug.
+                                 <unclear>[??]</unclear> Sc.</orgName></add></cell>
+                     <cell><add hand="#AJC">Sept. 1885</add></cell>
+                     <cell><add hand="#AJC">June 1887</add></cell>
+                     <cell><add hand="#AJC">Less than 1000 <unclear>[?]</unclear></add></cell>
+                  </row>
+                  <row n="3">
+                     <cell><add hand="#AJC">Teacher <orgName>Washington High
+                        School</orgName></add></cell>
+                     <cell><add hand="#AJC">Sept. 1887</add></cell>
+                     <cell/>
+                     <cell><add hand="#AJC">From 700 up.</add></cell>
+                  </row>
+                  <row n="4">
+                     <cell><add hand="#AJC">Principal <orgName>M St. High
+                        School</orgName></add></cell>
+                     <cell><add hand="#AJC">Dec. 1901</add></cell>
+                     <cell><add hand="#AJC">Sept. 1906</add></cell>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell><add hand="#AJC">Professor Foreign Languages <orgName>Lincoln Inst.
+                              MO.</orgName></add></cell>
+                     <cell><add hand="#AJC">1906</add></cell>
+                     <cell><add hand="#AJC">1910</add></cell>
+                     <cell><add hand="#AJC">1100</add></cell>
+                  </row>
+                  <row n="6">
+                     <cell><add hand="#AJC">Teacher of Latin <orgName>Washington High
+                              School</orgName></add></cell>
+                     <cell><add hand="#AJC">1910</add></cell>
+                     <cell><add hand="#AJC">1930</add></cell>
+                     <cell><add hand="#AJC">1800</add></cell>
+                  </row>
+                  <row n="7">
+                     <cell><add hand="#AJC">Retired from Public Schools</add></cell>
+                     <cell><add hand="#AJC">June 1930</add></cell>
+                     <cell/>
+                     <cell><add hand="#AJC">Pension 1434</add></cell>
+                  </row>
+                  <row n="8">
+                     <cell><add hand="#AJC">President <orgName>Frelinghuysen
+                           University</orgName></add></cell>
+                     <cell><add hand="#AJC">June 1930</add></cell>
+                     <cell/>
+                     <cell><add hand="#AJC">50</add>.</cell>
+                  </row>
+               </table>
+            </div2>
+         </div1>
+         <!-- more to add here: the rest of the questions on page 1 -->
+         <pb n="2"/><!--pb means page-beginning, so we can use it to mark the page turns. -->
+         <div1 type="section" n="II">
+            <head>UNDERGRADUATE HISTORY</head>
+            <div2 type="question" n="20">
+               <!--ebb: I'm trying out an @rend attribute to carry information about the number of lines the survey provides to answer a question. -->
+               <ab rend="1-L"> 20. Preparatory Training: Name of School <add hand="#AJC"><orgName>St. Augstines Normal &amp; Collegiate Inst. [Now <orgName>St. Aug. College</orgName>.]</orgName>
+                  <!--ebb: How about using the orgName element to hold names of schools / institutions? orgName holds the name of an organization. 
+                     Because she provides an alternate name for the same school, I'm just nesting a second orgName inside the first. 
+                     That's one way we could show with the markup that the two organizations are really the same.-->
+               </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="21">
+               <ab rend="1-L">21. Preparatory Training: <add hand="#AJC"><placeName>Raleigh N. C.</placeName></add> 
+                  Date of graduation <add hand="#AJC">No graduations in my day.</add> 
+               </ab>
+            </div2>
+            <div2 type="question" n="22">
+               <ab rend="3-L">22. As you think of it now, do you regard your preparatory training, before college, as adequate or defective? i.e., What deficiencies or omissions in that period do you feel would be of value to you? Please comment briefly
+                  <add hand="#AJC"><lb/>Under <persName>Dr. J. <surname>Brinton Smith</surname></persName>, founder, I was made pupil teacher at the age of 8, first for board &amp; tuition<gap reason="image cut off on right margin"/>
+                     <lb/>Teaching &amp; studying, married &amp; widowed in this <q>world</q> of a church schoolI think the preparation for <gap reason="image cut off on right margin"/><lb/> may pass as <q>good</q> for the time in that I was admitted on examination with some praise to the Sophomore <gap reason="image cut off on right margin"/> Enrance exams, in the Anabasis, the Iliad <abbr>Caes</abbr> <abbr>Cic</abbr><!--ebb: I think these are abbreviations for Caesar and Cicero, which used to be taught a lot in a classics (ancient Greek/Roman literature) curriculum in the late 19th-century.-->, Plane &amp; Solid Geometry<gap reason="image cut off on right margin"/><lb/>Conditioned in Trig. Mechanics, Physics, Hist. of Civilization <metamark rend="short-connecting-line"/><add place="below">&amp; Science of Government</add>, the Odyssey made up <unclear><supplied>in</supplied></unclear> one yea<supplied reason="image cut off on right margin">r</supplied>
+                  </add>
+                  
+               </ab>
+            </div2>
+            
+            <!--more survey questions / answers -->
+            
+            
+            
+            
+            <pb n="3"/>
+            <div2 type="question" n="36">
+               <ab rend="1-L">36. How well did you do in college? <add hand="#AJC">Hardly a fair question for personal answer. I did my best &amp; <metamark rend="short-connecting-line"/><lb/><note resp="#ebb">Here AJC’s text flows upside-down along the top of the form</note> 4 Professors including <persName>Prest. Fairchild</persName> gave me letters rating me first in the class.</add>
+               </ab>
+            </div2>
+            
+            <pb n="4"/> 
+            <!-- miab: adding question 46 -->
+            <div2 type="question" n="46">
+               <ab rend="3-L">46. What <del rend="strikethrough" hand="#AJC"/> racial factors have interfered?
+                  <add hand="#AJC">During my principalship of <orgName type="school">M St. H.S.</orgName> the colored price was under the
+               <lb/>Director of High Schools. At a meeting of Principals she was told when the question of scholarships in colleges came up, that
+               <lb/>her graduates were not eligible to try for them. The Director at the same time recommended to Congress that a
+               </add></ab>
+            </div2>
+          
+            
+            <pb n="5"/>
+            
+            <div2 type="question" n="65">
+               <ab rend="4-L">65. Have you a <q>racial philosophy</q> that can be briefly stated?
+                  <add hand="AJC">My <q>racial philosophy</q> is not far removed 
+                     <lb/>from my general philosophy of life: that the greatest happiness comes from
+                     altruistic service—&amp; this <lb/>is in reach of all of whatever race &amp; condition. The <q>Service</q> here meant
+                     it is not a pious idea of <hi rend="underline">being used;</hi> 
+                     <lb/>any sort of exploitation whether active or passive
+                     is to my mind hateful. Nor is the <q>Happiness</q> a mere bit.<note resp="#ebb">This continues on the last page.</note></add>
+               </ab>
+            </div2>
+            
+            <pb n="6"/>
+            <div2 type="page-heading"><head>SPACE RESERVED FOR SPECIAL COMMENT</head></div2>
+            
+            <!-- miab: I added the continuation of AJC's response to #46 -->
+            <div2 type="continuation" n="46">
+               <ab hand="#AJC">(46 Cont.) different curriculum be granted the colored High School, whose pupils he said
+               <lb/>were not capable of doing the regular work. Insubordination was charged &amp;
+                  <lb/>effectively pressed when the Principal sent to <orgName>Harvard</orgName>, <orgName>Yale</orgName>, <orgName>Brown</orgName>, &amp; <orgName>Oberlin</orgName>
+                  <lb/>students directly from the <orgName>M St.</orgName> classes who passed successfully their entrance
+               <lb/>exams, some with high honors. The first time in its history the Colored H.S. of Wash
+                  <lb/>was listed as <q>accredited"</q> by <orgName>Harvard</orgName> &amp; given the certificate privilege. For which
+               <lb/>unpardonable <q>sin</q> against racial supremacy said principal suffers
+               <lb/>to this day the punishment of the damned from both the white masters &amp; the
+               <lb/>colored understrappers.</ab> <!-- miab: adding orgNames to universities referenced-->
+            </div2>
+            
+            <div2 type="margin"> <!-- miab: I added some more stuff from the margins that are cut off -->
+               <ab hand="AJC"><gap/>ale Paris <gap/>Philosophy <unclear reason="illegible">vOldth,</unclear></ab>
+               <ab hand="AJC"> <gap/>ily Service <gap/>d Girls Work <gap/>g World War. </ab> 
+               <ab hand="AJC"><gap/>ug retired<gap/>rker</ab>
+            </div2><!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
+            
+            <metamark function="flag" rend="pointer" target="(65 cont.)"/>
+            <div2 type="continuation" n="65"><ab hand="#AJC">65 cont.) of Pollyanna stuff. I am as sensitive to handicaps as those who are 
+               <lb/>always whining about them &amp; the whips &amp; slings of prejudice, 
+               <lb/>whether of color or sex, find me neither too calloused to suffer nor too ignorant
+               <lb/>to know what is due me. Our own men as a group have not inherited traditions 
+               <lb/>of chiv-alry (one sided as it may be among white men) &amp; we women are generally 
+               <lb/>left to do our race battling alone except for empty compliments now &amp; then.
+               <lb/>Even so, one may make the mistake of looking at race handicaps thro the wrong end 
+               <lb/>of the telescope—imagining that oppression
+               <lb/>goes only with color. When I encounter 
+               <lb/>brutality I need not always charge it to my race. It may be—&amp; generally is— 
+               chargeable to the 
+               <lb/>imperfections in the civilization envisioning me for which as a teacher &amp; trained 
+               <lb/>thinker. I take my share of responsibility.</ab>
+               <lb/><p hand="#AJC">The extent, then, of the optimism in my philosophy is that, (Statisticians &amp; Social Science Research 
+                  <lb/>compilers to the contrary notwithstanding) the solution of our problem will be the individual &amp;
+                  <lb/>not en masse, &amp; the habit of generalization &amp; deductive logic has done its worst.</p>
+               <lb/> <p>For after all, Social Justice the desired goal is not to be reached thro any panacea 
+                  <lb/>by mass production. whether <persName>DuBois</persName>'s preachment of the ballot for &amp; <unclear reason="illegible">intermarriage</unclear>
+                  <lb/>or <persName>Kelly Miller</persName>'s one time suggestion of self effacement, or even <persName>Booker Washington</persName>'s
+                  <lb/>proposal of the solid hand &amp; separate fingers. For human selfishness will always
+                  <lb/>arise as domineering <hi rend="underline">thumb</hi> to over ride &amp; keep down every finger weak enough
+                  <lb/>to give up the struggle. The ballot operates just so far as dominant forces agree to respect it. Which
+                  <lb/>again is reasoning in a circle to insane justice by having man become just. &amp; the spectacle of
+                  <lb/><gap/>angsler dominance among ballot holding Americans invites little hope for solution
+                  <lb/>when the element of race is added to the problem. As I see it then, the patient persistence of 
+                  <lb/>the individual, working as <persName>Browning</persName> has it, <quote>"mouth wise &amp; pen wise"</quote> in whatever station &amp;
+                  <lb/>with whatever talent God has given, in truth &amp; loyalty to serve the whole, will come as
+                  <lb/>near as any other to proving worth while.</p>
+               <lb/><p hand="#AJC">To me Life has meant a big opportunity &amp; I am thankful that my work has
+                  <lb/>always been the soul that beckoned me on, leaving no room for blase philosophizing &amp; 
+                  <lb/>rebellious resentment &amp; with just enough opposition to give zest to the struggle, just enough hope of scoring 
+                  <gap reason="image cut off on left margin"/><supplied resp="#ebb">so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</p></div2>
+            
+            
+            
+         </div1>
+      </body>
+   </text>
+</TEI>
