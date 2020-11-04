@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-11-01T20:52:34Z. .
+Schema generated from ODD source 2020-11-04T18:45:13Z. .
 TEI Edition: Version 4.1.0. Last updated on
 	19th August 2020, revision b414ba550
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
@@ -11252,7 +11252,15 @@ The @spanTo attribute of <name/> is required.</assert>
       <ref name="TEI"/>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="AJCSurvey-constraint-ab-counting-survey-lines-rule-13">
+            id="AJCSurvey-constraint-require-lbs-in-add-rule-13">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                context="tei:ab/tei:add">
+         <sch:assert test="tei:lb">At least one lb (or line-beginning element) must be present inside the tei:add element here.</sch:assert>
+      </sch:rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="AJCSurvey-constraint-ab-counting-survey-lines-rule-14">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:div2[@type='question']/tei:ab">
@@ -11260,7 +11268,7 @@ The @spanTo attribute of <name/> is required.</assert>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="AJCSurvey-constraint-ab-with-add-rule-14">
+            id="AJCSurvey-constraint-ab-with-add-rule-15">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:ab[not(@type)]">

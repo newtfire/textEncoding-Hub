@@ -77,6 +77,13 @@
             
             <!-- ODD-specific elements like <elementSpec> and <classSpec>;
              or references to <specGrp>s defined above using <specGrpRef>. -->
+            
+            <constraintSpec ident="require-lbs-in-add" scheme="schematron">
+               <sch:rule context="tei:ab/tei:add">
+                  <sch:assert test="tei:lb">At least one lb (or line-beginning element) must be present inside the tei:add element here.</sch:assert>
+               </sch:rule>
+               
+            </constraintSpec>
            
             <constraintSpec ident="ab-counting-survey-lines" scheme="schematron">
                <sch:rule context="tei:div2[@type='question']/tei:ab">
