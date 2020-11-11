@@ -1,0 +1,6677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="AkiraODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="AkiraODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Akira</title>
+            <author>Who is the author?</author>
+            <editor>Nicholas Pcsolar</editor>
+            <editor>Mark Raschiatore</editor>
+            <editor></editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital edition hosted on newtFire.org and GitHub</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source (Comment on the source of the Akira Script here.)</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc><!--ebb: This is basically your cast list, and you can output it separately in HTML on your website if you like! Your list of xml:ids here is something we will use in your schema to control the attribute legal attribute values for @who on sp and @ana in the control scenes... -->
+            <listPerson type="characters">
+               <person xml:id="akira">
+                  <persName>Akira</persName>
+               </person>
+               <person xml:id="ryu">
+                  <persName>Ryu</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Ryu</forename>
+                  </persName>
+               </person>
+               <person xml:id="nlady">
+                  <persName><roleName>News Lady</roleName></persName>
+
+               </person>
+               <person xml:id="bartend">
+                  <persName>Harukiya Bartender</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Harukiya Bartender</forename>
+                  </persName>
+               </person>
+               <person xml:id="barcust">
+                  <persName>Bar Customer</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Bar Customer</forename>
+                  </persName>
+               </person>
+               <person xml:id="kaneda">
+                  <persName>Kaneda</persName>
+                  <persName>
+                     <surname>Shotaro</surname>
+                     <forename>Kaneda</forename>
+                  </persName>
+               </person>
+               <person xml:id="yamagata">
+                  <persName>
+                     <persName>Yamagata</persName>
+                     <surname/>
+                     <forename>Yamagata</forename>
+                  </persName>
+               </person>
+               <person xml:id="tetsuo">
+                  <persName>
+                     <persName>Tetsuo Shima</persName>
+                     <surname>Shima</surname>
+                     <forename>Tetsuo</forename>
+                  </persName>
+               </person>
+               <person xml:id="restgirl">
+                  <persName>
+                     <persName>Female Restaurant Guest</persName>
+                     <surname/>
+                     <forename>Female Guest</forename>
+                  </persName>
+               </person>
+               <person xml:id="restguy">
+                  <persName>
+                     <persName>Male Restaurant Guest</persName>
+                     <surname/>
+                     <forename>Male Guest</forename>
+                  </persName>
+               </person>
+               <person xml:id="takeyama">
+                  <persName>
+                     <persName>Yuji Takeyama</persName>
+                     <surname>Takeyama</surname>
+                     <forename>Yuji</forename>
+                  </persName>
+               </person>
+               <person xml:id="joker">
+                  <persName>
+                     <persName>Joker</persName>
+                     <surname/>
+                     <forename>Joker</forename>
+                  </persName>
+               </person>
+               <person xml:id="hwpolice">
+                  <persName>
+                     <persName>Highway Policeman</persName>
+                     <surname/>
+                     <forename>Highway Policeman</forename>
+                  </persName>
+               </person>
+               <person xml:id="moto1">
+                  <persName>
+                     <persName>Motorist 1</persName>
+                     <surname/>
+                     <forename>Motorist 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="moto2">
+                  <persName>
+                     <persName>Motorist 2</persName>
+                     <surname/>
+                     <forename>Motorist 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="moto3">
+                  <persName>
+                     <persName>Motorist 3</persName>
+                     <surname/>
+                     <forename>Motorist 3</forename>
+                  </persName>
+               </person>
+               <person xml:id="moto4">
+                  <persName>
+                     <persName>Motorist 4</persName>
+                     <surname/>
+                     <forename>Motorist 4</forename>
+                  </persName>
+               </person>
+               <person xml:id="soldier1">
+                     <persName>Soldier 1</persName>
+            
+                  
+               </person>
+               <person xml:id="kei">
+                  <persName>
+                     <persName>Kei</persName>
+                     <surname/>
+                     <forename>Kei</forename>
+                  </persName>
+               </person>
+               <person xml:id="bystand1">
+                  <persName>Bystander 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Bystander 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="bystand2">
+                  <persName>Bystander 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Bystander 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="bystand3">
+                  <persName>Bystander 3</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Bystander 3</forename>
+                  </persName>
+               </person>
+               <person xml:id="bystand4">
+                  <persName>
+                     <persName>Bystander 4</persName>
+                     <surname/>
+                     <forename>Bystander 4</forename>
+                  </persName>
+               </person>
+               <person xml:id="soldier2">
+                  <persName>
+                     <persName>Soldier 2</persName>
+                     <surname/>
+                     <forename>Soldier 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="soldier3">
+                  <persName>
+                     <persName>Soldier 3</persName>
+                     <surname/>
+                     <forename>Soldier 3</forename>
+                  </persName>
+               </person>
+               <person xml:id="captain1">
+                  <persName>Riot Police Captian</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Riot Police Captian</forename>
+                  </persName>
+               </person>
+               <person xml:id="revoguy1">
+                  <persName>Revolutionist</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Revolutionist</forename>
+                  </persName>
+               </person>
+               <person xml:id="colonel">
+                  <persName>Colonel Shikishima</persName>
+                  <persName>
+                     <surname>Shikishima</surname>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="clown1">
+                  <persName>Clown 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Clown 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="clown2">
+                  <persName>Clown 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="masaru">
+                  <persName>Masaru</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Masaru</forename>
+                  </persName>
+               </person>
+               <person xml:id="capsule1">
+                  <persName>Capsule Gang Member 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="takashi">
+                  <persName>Takashi</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Takashi</forename>
+                  </persName>
+               </person>
+               <person xml:id="sarge1">
+                  <persName>Army Sargeant 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="kai">
+                  <persName>Kaisuke</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Kai</forename>
+                  </persName>
+               </person>
+               <person xml:id="officer1">
+                  <persName>Police Officer 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="officer2">
+                  <persName>Police Officer 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Police Officer 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="revoguy2">
+                  <persName>Crazed Revolutionist</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Crazed Revolutionist</forename>
+                  </persName>
+               </person>
+               <person xml:id="bystand5">
+                  <persName>Bystander 5</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Bystander 5</forename>
+                  </persName>
+               </person>
+               <person xml:id="prisoner1">
+                  <persName>Prisoner 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Prisoner 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="prisoner2">
+                  <persName>Prisoner 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Prisoner 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="senator">
+                  <persName>Corrupt Senator</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Corrupt Senator</forename>
+                  </persName>
+               </person>
+               <person xml:id="secretary">
+                  <persName>Senator's Secretary</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Senator's Secretary</forename>
+                  </persName>
+               </person>
+               <person xml:id="doctor">
+                  <persName>Doctor Onishi</persName>
+                  <persName>
+                     <surname>Onishi</surname>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="principal">
+                  <persName>School Principal</persName>
+                  <persName>
+                     <surname/>
+                     <forename>School Principal</forename>
+                  </persName>
+               </person>
+               <person xml:id="coach">
+                  <persName>School Coach</persName>
+                  <persName>
+                     <surname/>
+                     <forename>School Coach</forename>
+                  </persName>
+               </person>
+               <person xml:id="allcapsules">
+                  <persName>All 6 members at once</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="girl1">
+                  <persName>Redhead</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Redhead</forename>
+                  </persName>
+               </person>
+               <person xml:id="girl2">
+                  <persName>Lighter Brunette</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Lighter Brunette</forename>
+                  </persName>
+               </person>
+               <person xml:id="girl3">
+                  <persName>Darker Brunette</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Darker Brunette</forename>
+                  </persName>
+               </person>
+               <person xml:id="mitsuru">
+                  <persName>Mitsuru Kuwata</persName>
+                  <persName>
+                     <surname>Kuwata</surname>
+                     <forename>Mitsuru</forename>
+                  </persName>
+               </person>
+               <person xml:id="kaori">
+                  <persName>Kaori</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Kaori</forename>
+                  </persName>
+               </person>
+               <person xml:id="eiichi">
+                  <persName>Eiichi Watanabe</persName>
+                  <persName>
+                     <surname>Watanabe</surname>
+                     <forename>Eiichi</forename>
+                  </persName>
+               </person>
+               <person xml:id="nurse">
+                  <persName>Hospital Nurse</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Hospital Nurse</forename>
+                  </persName>
+               </person>
+               <person xml:id="clown3">
+                  <persName>Clown 3</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Clown 3</forename>
+                  </persName>
+               </person>
+               <person xml:id="kiyoko">
+                  <persName>Kiyoko</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Kiyoko</forename>
+                  </persName>
+               </person>
+               <person xml:id="docstaff">
+                  <persName>Doctor's Staffmember</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="security">
+                  <persName>Security Announcer</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="officer3">
+                  <persName>Police Officer 3</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="officer4">
+                  <persName>Police Officer 4</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="officer5">
+                  <persName>Police Officer 5</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="researchstaff1">
+                  <persName>Research Staffmember 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="researchstaff2">
+                  <persName>Research Staffmember 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="researchstaff3">
+                  <persName>Research Staffmember 3</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="spy1">
+                  <persName>Anti-Government Spy 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="spy2">
+                  <persName>Anti-Government Spy 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="nezu">
+                  <persName>Mr. Nezu</persName>
+                  <persName>
+                     <surname>Nezu</surname>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="miyako">
+                  <persName>Lady Miyako</persName>
+                  <persName>
+                     <surname>Miyako</surname>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="protestpolice">
+                  <persName>Anti-protest Policeman</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Anti-protest Policeman</forename>
+                  </persName>
+               </person>
+               <person xml:id="council1">
+                  <persName>Councilman 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="council2">
+                  <persName>Councilman 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="headcouncil">
+                  <persName>Head of Council</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Head of Council</forename>
+                  </persName>
+               </person>
+               <person xml:id="council3">
+                  <persName>Councilman 3</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 3</forename>
+                  </persName>
+               </person>
+               <person xml:id="council4">
+                  <persName>Councilman 4</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 4</forename>
+                  </persName>
+               </person>
+               <person xml:id="council5">
+                  <persName>Councilman 5</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 5</forename>
+                  </persName>
+               </person>
+               <person xml:id="council6">
+                  <persName>Councilman 6</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 6</forename>
+                  </persName>
+               </person>
+               <person xml:id="council7">
+                  <persName>Councilman 7</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 7</forename>
+                  </persName>
+               </person>
+               <person xml:id="council8">
+                  <persName>Councilman 8</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Councilman 8</forename>
+                  </persName>
+               </person>
+               <person xml:id="labsecurity1">
+                  <persName>Lab Security Guard 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Lab Security Guard 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="labassistant">
+                  <persName>Lab Assistant</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Lab Assistant</forename>
+                  </persName>
+               </person>
+               <person xml:id="labsecurity2">
+                  <persName>Lab Security Guard 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Lab Security Guard 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="sewerpilot1">
+                  <persName>Sewer Vehicle Pilot 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Sewer Vehicle Pilot 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="radiorelay">
+                  <persName>Radio Relayer</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Radio Relayer</forename>
+                  </persName>
+               </person>
+               <person xml:id="radio1">
+                  <persName>Man on Vehicle's Radio</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Man on Vehicle's Radio</forename>
+                  </persName>
+               </person>
+               <person xml:id="labswat">
+                  <persName>Lab Swat Team Leader</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Lab Swat Team Leader</forename>
+                  </persName>
+               </person>
+               <person xml:id="buildannounce">
+                  <persName>Robotic Building Alarm Announcment</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Robotic Building Alarm Announcment</forename>
+                  </persName>
+               </person>
+               <person xml:id="labsoldier1">
+                  <persName>Lab Soldier 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Lab Soldier 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="labsoldiers">
+                  <persName>Group of Lab Soldiers</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Group of Lab Soldiers</forename>
+                  </persName>
+               </person>
+               <person xml:id="woundedsoldier">
+                  <persName>Wounded Soldier</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Wounded Soldier</forename>
+                  </persName>
+               </person>
+               <person xml:id="armysarge">
+                  <persName>Colonel's Seargent</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Colonel's Seargent</forename>
+                  </persName>
+               </person>
+               <person xml:id="soldier4">
+                  <persName>Soldier 4</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Soldier 4</forename>
+                  </persName>
+               </person>
+               <person xml:id="arrestofficer">
+                  <persName>Arresting Officer</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Arresting Officer</forename>
+                  </persName>
+               </person>
+               <person xml:id="helisoldier">
+                  <persName>Helicopter Soldier</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Helicopter Soldier</forename>
+                  </persName>
+               </person>
+               <person xml:id="tankcommand1">
+                  <persName>Tank Commander 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Tank Commander 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="searchcommand">
+                  <persName>Search Commander</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Search Commander</forename>
+                  </persName>
+               </person>
+               <person xml:id="nezuassist">
+                  <persName>Mr. Nezu's Assistant</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Mr. Nezu's Assistant</forename>
+                  </persName>
+               </person>
+               <person xml:id="nezusoldier">
+                  <persName>Mr. Nezu's Guard</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Mr. Nezu's Guard</forename>
+                  </persName>
+               </person>
+               <person xml:id="akirafan1">
+                  <persName>Akira Fanatic 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Akira Fanatic 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="akirafan2">
+                  <persName>Akira Fanatic 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Akira Fanatic 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="akirafan3">
+                  <persName>Akira Fanatic 3</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Akira Fanatic 3</forename>
+                  </persName>
+               </person>
+               <person xml:id="akiragun">
+                  <persName>Tank Gunner</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Tank Gunner</forename>
+                  </persName>
+               </person>
+               <person xml:id="akirafan4">
+                  <persName>Akira Fanatic 4</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Akira Fanatic 4</forename>
+                  </persName>
+               </person>
+               <person xml:id="naysay">
+                  <persName>Nay Sayer</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Nay Sayer</forename>
+                  </persName>
+               </person>
+               <person xml:id="newscast">
+                  <persName>Male Newscaster</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="viewer">
+                  <persName>TV Viewer</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="viewers">
+                  <persName>TV Viewers</persName>
+                  <persName>
+                     <surname/>
+                     <forename/>
+                  </persName>
+               </person>
+               <person xml:id="akirafan5">
+                  <persName>Akira Fanatic 5</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Akira Fanatic 5</forename>
+                  </persName>
+               </person>
+               <person xml:id="tankcommand2">
+                  <persName>Tank Commander2 </persName>
+                  <persName>
+                     <surname/>
+                     <forename>Tank Commander 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="lasercommand">
+                  <persName>Laser Gun Squad Leader </persName>
+                  <persName>
+                     <surname/>
+                     <forename>Laser Gun Squad Leader</forename>
+                  </persName>
+               </person>
+               <person xml:id="mobileradio">
+                  <persName>Command Center Radioman</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Command Center Radioman</forename>
+                  </persName>
+               </person>
+               <person xml:id="olympicguard1">
+                  <persName>Olympic Post Guard 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Olympic Post Guard 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="olympicguard2">
+                  <persName>Olympic Post Guard 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Olympic Post Guard 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="olympicannouncer">
+                  <persName>Olympic Intercom Announcer</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Olympic Intercom Announcer</forename>
+                  </persName>
+               </person>
+               <person xml:id="onlooker">
+                  <persName>Onlooker on Bridge</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Onlooker on Bridge</forename>
+                  </persName>
+               </person>
+               <person xml:id="solcontrol1">
+                  <persName><roleName>Sol Controller 1</roleName></persName>
+                  <persName>
+                     <surname/>
+                     <forename>Sol Controller 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="solcontrol2">
+                  <persName>Sol Controller 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Sol Controller 2</forename>
+                  </persName>
+               </person>
+               <person xml:id="schoolgirl1">
+                  <persName>School Girl 1</persName>
+                  <persName>
+                     <surname/>
+                     <forename>School Girl 1</forename>
+                  </persName>
+               </person>
+               <person xml:id="schoolgirl2">
+                  <persName>School Girl 2</persName>
+                  <persName>
+                     <surname/>
+                     <forename>School Girl 2</forename>
+                  </persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+      
+       <sp who="#nlady" n="1" from="00:01:58.050" to="00:02:02.929" >
+<l>Groups of unemployed workers,
+who have grown in number...</l>
+</sp>
+
+<sp who="#nlady" n="2" from="00:02:03.055" to="00:02:07.683" >
+<l>due to tax reforms enacted by the former
+Prime Minister, are rioting all across the country.</l>
+</sp>
+
+<sp who="#nlady" n="3" from="00:02:07.809" to="00:02:10.061" >
+<l>There is confusion among parliament members
+which was sparked by the comments...</l>
+</sp>
+
+<sp who="#nlady" n="4" from="00:02:10.187" to="00:02:13.564" >
+<l>of Finance Minister Takanashi
+during the recent parliament inquiry.</l>
+</sp>
+
+<sp who="#nlady" n="5" from="00:02:13.690" to="00:02:16.609" >
+<l>There seems to be no compromise in sight
+between the government and opposition.</l>
+</sp>
+
+<sp who="#bartend" n="6" from="00:02:16.735" to="00:02:18.861" >
+<l>- Hey, there. Call it.</l>
+</sp>
+
+<sp who="#barcust" n="7" from="00:02:18.862" to="00:02:21.280" >
+<l>- Gimme somethin'. Three peanuts.</l>
+</sp>
+
+<sp who="#kaneda" n="8" from="00:02:22.407" to="00:02:24.033" >
+<l>Let's see......</l>
+</sp>
+
+<sp who="#bartend" n="9" from="00:02:25.369" to="00:02:26.452" >
+<l>Now, uh......</l>
+</sp>
+
+<sp who="#yamagata" n="10" from="00:02:38.924" to="00:02:41.467" >
+<l>The Clown bastards are herded
+out on route number 5.</l>
+</sp>
+
+<sp who="#bartend" n="11" from="00:02:44.429" to="00:02:47.139">
+<l>Damn it, don't scare me like that.
+Open that damn door quietly.</l>
+</sp>
+
+<sp who="#yamagata" n="12" from="00:02:47.265" to="00:02:50.393" >
+<l>You know, you wouldn't be so jumpy
+if you didn't have anything to hide.</l>
+</sp>
+
+<sp who="#yamagata" n="13" from="00:02:53.021" to="00:02:54.647" >
+<l>Why don't you sell
+normal drinks for a change?</l>
+</sp>
+
+<sp who="#bartend" n="14" from="00:02:54.940" to="00:02:58.734" >
+<l>How about buyin' somethin' for once?
+This ain't a hangout for damn street gangs.</l>
+</sp>
+
+<sp who="#yamagata" n="15" from="00:02:58.860" to="00:03:00.653" >
+<l>Yeah, right!
+Drink your dog piss?</l>
+</sp>
+
+<sp who="#tetsuo" n="16" from="00:03:05.075" to="00:03:07.994" >
+<l>Twin ceramic rotor drives
+on each wheel.</l>
+</sp>
+
+<sp who="#tetsuo" n="17" from="00:03:08.078" to="00:03:10.287" >
+<l>Let's see. And these are...</l>
+</sp>
+
+<sp who="#tetsuo" n="18" from="00:03:10.372" to="00:03:14.625" >
+<l>computer-controlled
+antilock brakes.</l>
+</sp>
+
+<sp who="#tetsuo" n="19" from="00:03:14.751" to="00:03:17.336" >
+<l>Huh, 200 horses at 12,000 R.P.M.</l>
+</sp>
+
+<sp who="#kaneda" n="20" from="00:03:20.298" to="00:03:22.675" >
+<l>You want to ride it, Tetsuo?</l>
+</sp>
+
+<sp who="#yamagata" n="21" from="00:03:22.801" to="00:03:24.010" >
+<l>All right! Let's hit it!</l>
+</sp>
+
+<sp who="#kaneda" n="22" from="00:03:26.930" to="00:03:30.266" >
+<l>I customized that bike for myself.
+It's too wild. You couldn't handle it.</l>
+</sp>
+
+<sp who="#yamagata" n="23" from="00:03:31.476" to="00:03:34.520" >
+<l>I don't see how you could ride
+something crazy like that, man.</l>
+</sp>
+
+<sp who="#tetsuo" n="24" from="00:03:36.314" to="00:03:37.273" >
+<l>Huh! I could.</l>
+</sp>
+
+<sp who="#kaneda" n="25" from="00:03:37.482" to="00:03:40.526" >
+<l>Ha! If you want it so bad
+then steal one yourself.</l>
+</sp>
+
+<sp who="#restgirl" n="26" from="00:04:47.135" to="00:04:48.052" >
+<l>- Unbelievable.</l>
+</sp>
+
+<sp who="#restguy" n="27" from="00:04:48.053" to="00:04:49.053" >
+<l>- Unbelievable.
+- Punks!</l>
+</sp>
+
+<sp who="#restguy" n="28" from="00:04:51.890" to="00:04:53.432" >
+<l>Hey, waiter!
+Where are you going?</l>
+</sp>
+
+<sp who="#yamagata" n="29" from="00:04:57.062" to="00:04:59.939" >
+<l>They ran into the alley!
+After 'em!</l>
+</sp>
+
+<sp who="#takeyama" n="30" from="00:05:13.245" to="00:05:15.955" >
+<l>Quit foolin' around, you idiot!</l>
+</sp>
+
+<sp who="#tetsuo" n="31" from="00:05:19.417" to="00:05:20.417" >
+<l>Fuck!</l>
+</sp>
+
+<sp who="#joker" n="32" from="00:05:53.368" to="00:05:54.410" >
+<l>What?</l>
+</sp>
+
+<sp who="#joker" n="33" from="00:06:24.482" to="00:06:25.649" >
+<l>- That's the......</l>
+</sp>
+
+<sp who="#kaneda" n="34" from="00:06:25.650" to="00:06:26.275" >
+<l>- That's the......
+- Huh?</l>
+</sp>
+
+<sp who="#hwpolice" n="35" from="00:06:26.401" to="00:06:28.194" >
+<l>This is unit 375.</l>
+</sp>
+
+<sp who="#hwpolice" n="36" from="00:06:28.320" to="00:06:33.365" >
+<l>We've got reports of biker gangs fighting
+near the intersection of highway 14 South.</l>
+</sp>
+
+<sp who="#hwpolice" n="37" from="00:06:33.491" to="00:06:36.285" >
+<l>Request immediate assistance.
+Car 375 en route to the scene......</l>
+</sp>
+
+<sp who="#yamagata" n="38" from="00:06:37.996" to="00:06:39.455" >
+<l>It's the cops.
+What should we do?</l>
+</sp>
+
+<sp who="#kaneda" n="39" from="00:06:39.748" to="00:06:42.499" >
+<l>Damn it. My motor coils were
+just getting warmed up.</l>
+</sp>
+
+<sp who="#kaneda" n="40" from="00:06:48.673" to="00:06:51.884" >
+<l>Bastards!
+Let's go, Tetsuo!</l>
+</sp>
+
+<sp who="#tetsuo" n="41" from="00:06:52.010" to="00:06:53.302" >
+<l>I'm coming!</l>
+</sp>
+<sp who="#yamagata" n="42" from="00:06:53.428" to="00:06:54.303" >
+<l>- Damn them!</l>
+</sp>
+<sp who="#kaneda" n="43" from="00:06:54.304" to="00:06:55.221" >
+<l>- Damn them!
+- Come on!</l>
+</sp>
+<sp who="#nlady" n="44" from="00:07:04.272" to="00:07:07.650" >
+<l>A skirmish has broken out between student
+protesters and riot police.</l>
+</sp>
+<sp who="#nlady" n="45" from="00:07:07.776" to="00:07:10.736" >
+<l>There appear to be some
+casualties. Next...</l>
+</sp>
+<sp who="#moto1" n="46" from="00:07:32.217" to="00:07:34.343" >
+<l>Don't make me get out of this car!</l>
+</sp>
+
+<sp who="#moto2" n="47" from="00:07:34.469" to="00:07:36.553" >
+<l>Jerk, I'm in a hurry!</l>
+</sp>
+
+<sp who="#moto3" n="48" from="00:07:51.695" to="00:07:53.737" >
+<l>- What was that?</l>
+</sp>
+
+<sp who="#moto4" n="49" from="00:07:53.738" to="00:07:55.114" >
+<l>- What was that?
+- Call the Police!</l>
+</sp>
+
+<sp who="#soldier1" n="50" from="00:08:21.224" to="00:08:24.727" >
+<l>This area is off limits!</l>
+</sp>
+
+<sp who="#soldier1" n="51" from="00:08:24.978" to="00:08:27.313" >
+<l>Go back! It's dangerous!</l>
+</sp>
+
+<sp who="#soldier2" n="52" from="00:08:27.397" to="00:08:28.647" >
+<l>Hey, something strange
+over there.</l>
+</sp>
+
+<sp who="#kei" n="53" from="00:08:28.773" to="00:08:30.316" >
+<l>Let me through!
+Sorry.</l>
+</sp>
+
+<sp who="#bystand1" n="54" from="00:08:30.442" to="00:08:31.150" >
+<l>What're you doing?</l>
+</sp>
+
+<sp who="#bystand2" n="55" from="00:08:39.617" to="00:08:41.744" >
+<l>It's blood. Look!</l>
+</sp>
+
+<sp who="#kei" n="56" from="00:08:42.203" to="00:08:45.456" >
+<l>Please let me through.
+Excuse me. Pardon me.</l>
+</sp>
+
+<sp who="#bystand3" n="57" from="00:08:45.582" to="00:08:47.249" >
+<l>Watch it, jerk!</l>
+</sp>
+
+<sp who="#kei" n="58" from="00:08:50.962" to="00:08:53.005" >
+<l>Pardon me. I'm sorry.</l>
+</sp>
+
+<sp who="#kei" n="59" from="00:08:53.548" to="00:08:54.340" >
+<l>Ryu!</l>
+</sp>
+
+<sp who="#bystand4" n="60" from="00:08:54.716" to="00:08:57.384" >
+<l>Hey, look!
+They're running away!</l>
+</sp>
+
+<sp who="#soldier2" n="61" from="00:09:02.223" to="00:09:03.849" >
+<l>He's got a gun!</l>
+</sp>
+
+<sp who="#soldier3" n="62" from="00:09:09.814" to="00:09:11.690" >
+<l>Fire!</l>
+</sp>
+
+<sp who="#captain1" n="63" from="00:09:13.318" to="00:09:15.194" >
+<l>Wait! He's got a kid!</l>
+</sp>
+
+<sp who="#revoguy1" n="64" from="00:09:25.789" to="00:09:26.705" >
+<l>Run.</l>
+</sp>
+
+<sp who="#revoguy1" n="65" from="00:09:27.957" to="00:09:29.833" >
+<l>You gotta hurry.</l>
+</sp>
+
+<sp who="#revoguy1" n="66">
+<l>Go to Ryu.</l>
+</sp>
+
+<sp who="#revoguy1" n="67" from="00:09:36.174" to="00:09:39.051" >
+<l>Ryu will help you now.</l>
+</sp>
+
+<sp who="#revoguy1" n="68" from="00:09:42.931" to="00:09:45.057" >
+<l>Get out of here... Now!</l>
+</sp>
+
+<sp who="#ryu" n="69" from="00:10:17.549" to="00:10:19.508" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#ryu" n="70" from="00:10:21.219" to="00:10:23.762" >
+<l>We've gotta get out of here, Kei?</l>
+</sp>
+
+<sp who="#kei" n="71" from="00:10:27.058" to="00:10:28.767" >
+<l>He's gone!</l>
+</sp>
+
+<sp who="#masaru" n="72">
+<l>He's to the West.</l>
+</sp>
+
+<sp who="#colonel" n="73" from="00:10:40.572" to="00:10:43.198" >
+<l>West?
+The old city......</l>
+</sp>
+
+<sp who="#clown1" n="74" from="00:10:54.586" to="00:10:55.627" >
+<l>Eat this!</l>
+</sp>
+
+<sp who="#kaneda" n="75" from="00:11:08.266" to="00:11:09.933" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#kei" n="76" from="00:11:48.806" to="00:11:51.683" >
+<l>Ryu! Where are you?</l>
+</sp>
+
+<sp who="#ryu" n="77" from="00:11:55.396" to="00:11:56.271" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#clown2" n="78" from="00:12:23.258" to="00:12:24.800" >
+<l>No, that's......</l>
+</sp>
+
+<sp who="#tetsuo" n="79" from="00:12:45.029" to="00:12:46.572" >
+<l>How do you like that?</l>
+</sp>
+
+<sp who="#yamagata" n="80" from="00:12:56.624" to="00:12:58.750" >
+<l>Well? Who is it?</l>
+</sp>
+
+<sp who="#capsule1" n="81" from="00:12:58.876" to="00:13:01.253" >
+<l>It's not him.
+It's not Tetsuo.</l>
+</sp>
+
+<sp who="#kaneda" n="82" from="00:13:01.379" to="00:13:03.255" >
+<l>All right. Move out!</l>
+</sp>
+
+<sp who="#tetsuo" n="83" from="00:13:08.136" to="00:13:13.098" >
+<l>Why you... What'd you do,
+you weird little......</l>
+</sp>
+
+<sp who="#kaneda" n="84" from="00:13:26.029" to="00:13:28.864" >
+<l>Tetsuo! Just hang on!</l>
+</sp>
+
+<sp who="#kaneda" n="85" from="00:13:31.409" to="00:13:32.576" >
+<l>What? What did you say?</l>
+</sp>
+
+<sp who="#tetsuo" n="86" from="00:13:32.702" to="00:13:34.911" >
+<l>That kid......</l>
+</sp>
+
+<sp who="#yamagata" n="87" from="00:13:37.206" to="00:13:39.875" >
+<l>He's really hurt bad.</l>
+</sp>
+
+<sp who="#kaneda" n="88" from="00:13:40.501" to="00:13:42.628" >
+<l>Hey! You, there!</l>
+</sp>
+
+<sp who="#yamagata" n="89" from="00:13:43.379" to="00:13:46.882" >
+<l>We gotta get him to a hospital!
+He needs an ambulance!</l>
+</sp>
+
+<sp who="#takeyama" n="90" from="00:13:46.924" to="00:13:48.884" >
+<l>We can't move him!</l>
+</sp>
+
+<sp who="#takashi" n="91" from="00:13:57.518" to="00:13:59.811" >
+<l>Wha...What the...!</l>
+</sp>
+
+<sp who="#masaru" n="92" from="00:14:14.702" to="00:14:16.953" >
+<l>There's no escape.</l>
+</sp>
+
+<sp who="#masaru" n="93" from="00:14:22.377" to="00:14:24.503" >
+<l>We're here to take you
+back with us.</l>
+</sp>
+
+<sp who="#masaru" n="94" from="00:14:29.967" to="00:14:33.512" >
+<l>You know we can't survive outside.</l>
+</sp>
+
+<sp who="#masaru" n="95" from="00:14:33.638" to="00:14:35.180" >
+<l>Well, come along.</l>
+</sp>
+
+<sp who="#yamagata" n="96" from="00:14:38.309" to="00:14:41.353" >
+<l>Army helicopters!
+It's the army!</l>
+</sp>
+
+<sp who="#sarge1" n="97" from="00:14:48.152" to="00:14:49.528" >
+<l>Move out!</l>
+</sp>
+
+<sp who="#sarge1" n="98" from="00:15:00.415" to="00:15:02.124" >
+<l>Kiss the ground!
+Hands on your heads!</l>
+</sp>
+
+<sp who="#kaneda" n="99" from="00:15:02.500" to="00:15:05.460" >
+<l>We're, uh, innocent bystanders,
+that's all.</l>
+</sp>
+
+<sp who="#sarge1" n="100" from="00:15:05.586" to="00:15:07.879" >
+<l>Kiss the ground!
+Hands on your heads!</l>
+</sp>
+
+<sp who="#kai" n="101" from="00:15:17.014" to="00:15:19.391" >
+<l>That hurts, damn it.</l>
+</sp>
+
+<sp who="#kaneda" n="102" from="00:15:19.517" to="00:15:20.392" >
+<l>Kai!</l>
+</sp>
+
+<sp who="#colonel" n="103" from="00:15:26.149" to="00:15:27.524" >
+<l>Soldier.</l>
+</sp>
+
+<sp who="#sarge1" n="104" from="00:15:27.525" to="00:15:28.358" >
+<l>- Sir.</l>
+</sp>
+
+<sp who="#colonel" n="105" from="00:15:28.359" to="00:15:29.693" >
+<l>- Sir.
+- Who are those kids?</l>
+</sp>
+
+<sp who="#sarge1" n="106" from="00:15:29.777" to="00:15:32.195" >
+<l>They seem to be
+an ordinary biker gang, sir.</l>
+</sp>
+
+<sp who="#colonel" n="107" from="00:15:47.336" to="00:15:50.005" >
+<l>We're returning.</l>
+</sp>
+
+<sp who="#kai" n="108" from="00:15:50.131" to="00:15:52.215" >
+<l>- Ouch! Will you just hold on a minute?</l>
+</sp>
+
+<sp who="#kaneda" n="109" from="00:15:52.216" to="00:15:54.509" >
+<l>- Ouch! Will you just hold on a minute?
+- My arms don't bend that way!</l>
+</sp>
+
+<sp who="#sarge1" n="110" from="00:15:54.635" to="00:15:57.429" >
+<l>Pull the wounded
+onto the helicopter.</l>
+</sp>
+
+<sp who="#kaneda" n="111" from="00:15:57.555" to="00:16:01.349" >
+<l>Tetsuo! Hey, wait! You can't
+take him away like that!</l>
+</sp>
+
+<sp who="#kai" n="112" from="00:16:01.476" to="00:16:02.517" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#yamagata" n="113" from="00:16:02.977" to="00:16:05.854" >
+<l>What the hell are you guys doing?
+We didn't do anything!</l>
+</sp>
+
+<sp who="#kai" n="114" from="00:16:05.980" to="00:16:07.355" >
+<l>Get off!</l>
+</sp>
+
+<sp who="#officer" n="115" from="00:17:07.542" to="00:17:12.003" >
+<l>All right. The story is, you and your
+friends went out at night...</l>
+</sp>
+
+<sp who="#officer" n="116" from="00:17:12.129" to="00:17:14.422" >
+<l>on your bikes to visit
+your dying mother, and then...</l>
+</sp>
+
+<sp who="#officer" n="117" from="00:17:14.549" to="00:17:18.343" >
+<l>another bunch of biker hooligans
+called the Clowns attacked you.</l>
+</sp>
+
+<sp who="#officer" n="118" from="00:17:18.636" to="00:17:21.805" >
+<l>They hurt your friend, you lost your temper,
+and that's why eight of these Clowns...</l>
+</sp>
+
+<sp who="#officer1" n="119" from="00:17:21.931" to="00:17:25.517" >
+<l>your attackers...are all now in the hospital,
+and that is the truth.</l>
+</sp>
+
+<sp who="#kaneda" n="120" from="00:17:25.643" to="00:17:27.811" >
+<l>Wow! She sure is hot.</l>
+</sp>
+
+<sp who="#officer2" n="121" from="00:17:28.312" to="00:17:30.605" >
+<l>Hmm? This is confidential!</l>
+</sp>
+
+<sp who="#officer1" n="122" from="00:17:31.148" to="00:17:32.315" >
+<l>And how's your mother doing?</l>
+</sp>
+
+<sp who="#kaneda" n="123" from="00:17:32.483" to="00:17:36.528" >
+<l>Fortunately, the worst is over.
+She cleared the hump.</l>
+</sp>
+
+<sp who="#officer1" n="124" from="00:17:36.654" to="00:17:39.781" >
+<l>She cleared the hump,
+and you left her for cruising, huh?</l>
+</sp>
+
+<sp who="#kaneda" n="125" from="00:17:39.907" to="00:17:41.032" >
+<l>Wha...?</l>
+</sp>
+
+<sp who="#officer2" n="126" from="00:17:45.413" to="00:17:47.622" >
+<l>Ah, these bozos couldn't
+have anything to do with it.</l>
+</sp>
+
+<sp who="#officer1" n="127" from="00:17:47.748" to="00:17:49.624" >
+<l>That goes without saying.</l>
+</sp>
+
+<sp who="#officer2" n="128" from="00:17:50.960" to="00:17:54.379" >
+<l>Wait out on that bench.
+Do you understand?</l>
+</sp>
+
+<sp who="#officer2" n="129" from="00:17:57.008" to="00:17:59.467" >
+<l>All right.
+Send in the next five.</l>
+</sp>
+
+<sp who="#kai" n="130" from="00:18:01.262" to="00:18:03.471" >
+<l>So the army's working
+with the police...</l>
+</sp>
+
+<sp who="#kai" n="131" from="00:18:03.598" to="00:18:06.558" >
+<l>to hunt down antigovernment
+groups, or so it seems.</l>
+</sp>
+
+<sp who="#revoguy2" n="132" from="00:18:13.190" to="00:18:14.190" >
+<l>- You wanna put up a fight?</l>
+</sp>
+
+<sp who="#revoguy2" n="133" from="00:18:14.191" to="00:18:15.358" >
+<l>- You wanna put up a fight?
+- Get your hands off me!</l>
+</sp>
+
+<sp who="#revoguy2" n="134" from="00:18:22.033" to="00:18:24.743" >
+<l>Long live
+the freedom revolution!</l>
+</sp>
+
+<sp who="#yamagata" n="135" from="00:18:27.163" to="00:18:29.497" >
+<l>He's got a grenade!</l>
+</sp>
+
+<sp who="#officer1" n="136" from="00:18:44.388" to="00:18:47.766" >
+<l>All right, that's enough.
+Get him back in there.</l>
+</sp>
+
+<sp who="#officer1" n="137" from="00:18:47.892" to="00:18:50.268" >
+<l>I'll teach him a lesson.
+He won't forget.</l>
+</sp>
+
+<sp who="#yamagata" n="138" from="00:18:50.394" to="00:18:53.772" >
+<l>You dumb bastard!
+If you wanna die, hang yourself!</l>
+</sp>
+
+<sp who="#officer1" n="139" from="00:18:54.398" to="00:18:58.276" >
+<l>Listen, you kids are free to leave.
+We've contacted your schools. See your principle in the morning</l>
+</sp>
+
+<sp who="#kaneda" n="140" from="00:19:00.404" to="00:19:01.613" >
+<l>Hold on a second, old man!</l>
+</sp>
+
+<sp who="#officer1" n="141" from="00:19:02.907" to="00:19:04.366" >
+<l>Wha... "Old man"?</l>
+</sp>
+
+<sp who="#kaneda" n="142" from="00:19:04.492" to="00:19:05.951" >
+<l>There was someone else with us, you know.</l>
+</sp>
+
+<sp who="#officer1" n="143" from="00:19:06.369" to="00:19:07.452" >
+<l>What was that?</l>
+</sp>
+
+<sp who="#kaneda" n="144" from="00:19:07.578" to="00:19:10.246" >
+<l>Excuse me, please?</l>
+</sp>
+
+<sp who="#kei" n="145" from="00:19:10.373" to="00:19:13.083" >
+<l>Huh? Hey!
+What are you doing?</l>
+</sp>
+
+<sp who="#kaneda" n="146" from="00:19:13.209" to="00:19:16.086" >
+<l>Uh, it's this one right here.
+Can't leave my friend.</l>
+</sp>
+
+<sp who="#officer1" n="147" from="00:19:16.212" to="00:19:18.713" >
+<l>Don't ever call me "old man,"
+you little punk!</l>
+</sp>
+
+<sp who="#bystand5" n="148" from="00:19:19.256" to="00:19:20.465" >
+<l>That's my foot !</l>
+</sp>
+
+<sp who="#officer1" n="149" from="00:19:20.591" to="00:19:25.303" >
+<l>You listen here, kid. I'm only 25 years old.
+I'm not even married yet.</l>
+</sp>
+
+<sp who="#officer1" n="150" from="00:19:25.429" to="00:19:29.641" >
+<l>Watch your mouth.
+Get out of here and take your friend with you.</l>
+</sp>
+
+<sp who="#prisoner1" n="151" from="00:19:29.767" to="00:19:30.600" >
+<l>- I'm starving!</l>
+</sp>
+
+<sp who="#prisoner2" n="152" from="00:19:30.601" to="00:19:32.310" >
+<l>- I'm starving!
+- I need a doctor!</l>
+</sp>
+
+<sp who="#takeyama" n="153" from="00:19:32.436" to="00:19:37.607" >
+<l>I think the army was chasing that weird kid
+Kaneda saw. That's what I think.</l>
+</sp>
+
+<sp who="#yamagata" n="154" from="00:19:37.733" to="00:19:40.276" >
+<l>Yeah, you're right.
+I think I saw him too.</l>
+</sp>
+
+<sp who="#kai" n="155" from="00:19:40.403" to="00:19:44.155" >
+<l>Speaking of Tetsuo, why the hell wouldn't they
+tell us what hospital they threw him in?</l>
+</sp>
+
+<sp who="#kei" n="156" from="00:19:44.448" to="00:19:45.615" >
+<l>Huh? What was that?</l>
+</sp>
+
+<sp who="#kaneda" n="157" from="00:19:46.075" to="00:19:49.411" >
+<l>What I meant was
+maybe we could go for a drink.</l>
+</sp>
+
+<sp who="#kaneda" n="158" from="00:19:49.537" to="00:19:52.747" >
+<l>I figure we could have a nice,
+long chat about something you're into...</l>
+</sp>
+
+<sp who="#kaneda" n="159" from="00:19:52.873" to="00:19:55.000" >
+<l>like the whole revolution thing.</l>
+</sp>
+
+<sp who="#kei" n="160" from="00:19:56.127" to="00:19:58.670" >
+<l>I think you're a skirt chaser
+who'll try anything he can.</l>
+</sp>
+
+<sp who="#kei" n="161" from="00:19:59.255" to="00:20:02.007" >
+<l>You'll help anyone so long as
+it's a girl. Right?</l>
+</sp>
+
+<sp who="#kaneda" n="162" from="00:20:02.133" to="00:20:03.174" >
+<l>You're wrong!</l>
+</sp>
+
+<sp who="#kaneda" n="163" from="00:20:03.300" to="00:20:03.967" >
+<l>- I have very high standards.</l>
+</sp>
+
+<sp who="#soldier3" n="164" from="00:20:03.968" to="00:20:06.928" >
+<l>- I have very high standards.
+- Line 'em up! Come on! Move it!</l>
+</sp>
+
+<sp who="#kaneda" n="165" from="00:20:07.054" to="00:20:09.431" >
+<l>It's not their looks that count.
+It's their... I don't know......</l>
+</sp>
+
+<sp who="#kaneda" n="166" from="00:20:09.557" to="00:20:12.183" >
+<l>A girl's sensitivity
+that makes me do it.</l>
+</sp>
+
+<sp who="#kei" n="167" from="00:20:12.309" to="00:20:16.187" >
+<l>I suppose I owe you one.
+Thank you very much, uh......</l>
+</sp>
+
+<sp who="#kaneda" n="168" from="00:20:16.313" to="00:20:17.814" >
+<l>- I'm Kaneda. It's nice to... Huh?</l>
+</sp>
+
+<sp who="#kei" n="169" from="00:20:17.815" to="00:20:19.190" >
+<l>- I'm Kaneda. It's nice to... Huh?
+- See you around, Kaneda.</l>
+</sp>
+
+<sp who="#kaneda" n="170" from="00:20:19.817" to="00:20:23.486" >
+<l>Wait a second!
+You're leaving just like that?</l>
+</sp>
+
+<sp who="#kaneda" n="171" from="00:20:23.612" to="00:20:27.866" >
+<l>Hey! Now hold on. I'm the guy
+that saved you back there.</l>
+</sp>
+
+<sp who="#kaneda" n="172" from="00:20:31.328" to="00:20:34.789" >
+<l>You could at least tell me
+your name, you cold bitch!</l>
+</sp>
+
+<sp who="#senator" n="173" from="00:20:36.834" to="00:20:41.212" >
+<l>Yes, I'll try talking with him,
+but it's risky business.</l>
+</sp>
+
+<sp who="#senator" n="174" from="00:20:41.338" to="00:20:45.216" >
+<l>If they think you're avoiding responsibility,
+the whole thing could blow up in your face.</l>
+</sp>
+
+<sp who="#senator" n="175" from="00:20:46.761" to="00:20:49.971" >
+<l>I can't believe that there's
+a mole in the executive council.</l>
+</sp>
+
+<sp who="#colonel" n="176" from="00:20:50.639" to="00:20:51.890" >
+<l>Even if there is a mole......</l>
+</sp>
+
+<sp who="#senator" n="177" from="00:20:52.349" to="00:20:54.392" >
+<l>That's not what's important here!</l>
+</sp>
+
+<sp who="#senator" n="178" from="00:20:54.518" to="00:20:58.730" >
+<l>What is are political maneuvers
+and diplomacy which, apparently, you despise.</l>
+</sp>
+
+<sp who="#colonel" n="179" from="00:20:58.856" to="00:21:01.232" >
+<l>I never studied the two subjects
+in school, it would seem.</l>
+</sp>
+
+<sp who="#senator" n="180" from="00:21:01.358" to="00:21:04.235" >
+<l>In any case, at the next
+executive council meeting...</l>
+</sp>
+
+<sp who="#senator" n="181" from="00:21:04.361" to="00:21:06.988" >
+<l>your poor management and lack of
+judgment on this last incident...</l>
+</sp>
+
+<sp who="#senator" n="182" from="00:21:07.198" to="00:21:09.407" >
+<l>will be called into question.</l>
+</sp>
+
+<sp who="#secretary" n="183" from="00:21:13.204" to="00:21:14.746" >
+<l>There's a call for the colonel, sir.</l>
+</sp>
+
+<sp who="#senator" n="184" from="00:21:17.500" to="00:21:20.251" >
+<l>Put your affairs in order,
+if you want my advice.</l>
+</sp>
+
+<sp who="#colonel" n="185" from="00:21:23.214" to="00:21:25.090" >
+<l>Yes, it's me. What is it now?</l>
+</sp>
+
+<sp who="#doctor" n="186" from="00:21:46.028" to="00:21:48.571" >
+<l>This way, please, Colonel.</l>
+</sp>
+
+<sp who="#doctor" n="187" from="00:21:48.697" to="00:21:53.743" >
+<l>I'm terribly sorry to call you here,
+but there's something you really must see.</l>
+</sp>
+
+<sp who="#doctor" n="188" from="00:21:57.581" to="00:21:59.457" >
+<l>Colonel, please look at this.</l>
+</sp>
+
+<sp who="#doctor" n="189" from="00:21:59.917" to="00:22:02.418" >
+<l>It's the special pattern
+I'm getting from that young man.</l>
+</sp>
+
+<sp who="#doctor" n="190" from="00:22:02.545" to="00:22:04.963" >
+<l>It doesn't resemble any
+that I've seen so far...</l>
+</sp>
+
+<sp who="#doctor" n="191" from="00:22:05.089" to="00:22:08.216" >
+<l>and I've never seen a developmental speed
+or configuration like this.</l>
+</sp>
+
+<sp who="#doctor" n="192" from="00:22:08.342" to="00:22:12.720" >
+<l>It may have begun with the shock of contact with
+number 26, or it could be......</l>
+</sp>
+
+<sp who="#colonel" n="193" from="00:22:12.847" to="00:22:15.807" >
+<l>Have you finished running the comparison
+against Akira's pattern?</l>
+</sp>
+
+<sp who="#doctor" n="194" from="00:22:15.933" to="00:22:18.393" >
+<l>I'll show you right now.</l>
+</sp>
+
+<sp who="#doctor" n="195">
+<l>This projection is made using
+mixed data, and the results are not quite correct...</l>
+</sp>
+
+<sp who="#doctor" n="196" from="00:22:25.776" to="00:22:28.319" >
+<l>so a direct comparison is difficult.</l>
+</sp>
+
+<sp who="#doctor" n="197" from="00:22:28.445" to="00:22:31.906" >
+<l>But I believe based on what we see here that
+this boy's pattern is the key...</l>
+</sp>
+
+<sp who="#doctor" n="198" from="00:22:32.032" to="00:22:35.285" >
+<l>to solving the riddle of
+Akira's growth-pattern process.</l>
+</sp>
+
+<sp who="#colonel" n="199" from="00:22:35.411" to="00:22:37.036" >
+<l>- Fine. You may continue.</l>
+</sp>
+
+<sp who="#doctor" n="200" from="00:22:37.037" to="00:22:38.663" >
+<l>- Thank you very much, sir.</l>
+</sp>
+
+<sp who="#doctor" n="201" from="00:22:38.789" to="00:22:42.167" >
+<l>I'm certain he'll turn out to be a worthy addition
+to the numbers, don't you?</l>
+</sp>
+    
+<spGrp type="controlScene">
+<sp who="#doctor" n="202" from="00:22:42.293" to="00:22:45.170" >
+<l>It may be rough on the boy...</l>
+</sp>
+
+<sp who="#doctor" n="203" from="00:22:45.296" to="00:22:48.756" >
+<l>but I thought we might try starting him off with
+level 7 capsules.</l>
+</sp>
+
+<sp who="#colonel" n="204" from="00:22:48.883" to="00:22:50.341" >
+<l>Is it safe, doctor?</l>
+</sp>
+
+<sp who="#doctor" n="205" from="00:22:50.467" to="00:22:51.676" >
+<l>I will take care of it.</l>
+</sp>
+
+<sp who="#colonel" n="206" from="00:22:51.802" to="00:22:56.181" >
+<l>No! I wasn't talking
+about the boy at all!</l>
+</sp>
+
+<sp who="#colonel" n="207" from="00:22:56.307" to="00:22:59.309" >
+<l>If he turns out
+to reach a power like Akira's...</l>
+</sp>
+
+<sp who="#colonel" n="208" from="00:22:59.435" to="00:23:02.020" >
+<l>are you positive that you are
+able to control such power?</l>
+</sp>
+
+<sp who="#doctor" n="209" from="00:23:02.146" to="00:23:03.813" >
+<l>Uh, well, that's a......</l>
+</sp>
+
+<sp who="#colonel" n="210" from="00:23:04.815" to="00:23:06.691" >
+<l>Can you handle this?</l>
+</sp>
+
+<sp who="#doctor" n="211" from="00:23:06.817" to="00:23:09.194" >
+<l>Uh, well, then, in my opinion...</l>
+</sp>
+
+<sp who="#doctor" n="212" from="00:23:09.320" to="00:23:12.947" >
+<l>if we can use the latest examination equipment
+to collect even more data...</l>
+</sp>
+
+<sp who="#doctor" n="213" from="00:23:13.073" to="00:23:16.534" >
+<l>and also do a multifaceted
+analysis as we go, then surely......</l>
+</sp>
+
+<sp who="#colonel" n="214" from="00:23:17.953" to="00:23:22.040" >
+<l>But maybe we weren't meant to
+meddle with that ultimate power.</l>
+</sp>
+
+<sp who="#doctor" n="215" from="00:23:22.499" to="00:23:25.460" >
+<l>You mean...
+the power of a god?</l>
+</sp>
+ <sp who="#tetsuo" n="216" from="00:23:28.172" to="00:23:30.840" >
+      <l>"A-ki-ra."</l>
+   </sp>
+</spGrp>
+     
+
+
+<spGrp type="controlScene">
+<sp who="#colonel" n="217" from="00:23:30.966" to="00:23:33.343" >
+<l>But we have no choice
+but to grasp that power...</l>
+</sp>
+
+<sp who="#colonel" n="218" from="00:23:33.510" to="00:23:36.846" >
+<l>grasp that power
+and learn to control it.</l>
+</sp>
+
+<sp who="#colonel" n="219" from="00:23:36.972" to="00:23:40.058" >
+<l>And if this situation gets out
+of hand, then he's to be terminated.</l>
+</sp>
+
+<sp who="#colonel" n="220" from="00:23:40.976" to="00:23:42.977" >
+<l>- And without hesitation!</l>
+</sp>
+
+<sp who="#doctor" n="221" from="00:23:42.978" to="00:23:44.562" >
+<l>- Yes, Colonel.</l>
+</sp>
+</spGrp>
+      
+<sp who="#principal" n="222" from="00:23:45.022" to="00:23:47.982" >
+<l>This school is
+your last chance!</l>
+</sp>
+
+<sp who="#principal" n="223" from="00:23:48.192" to="00:23:50.568" >
+<l>If trash like you guys can't keep up with the
+academic ability of regular students......</l>
+</sp>
+
+<sp who="#principal" n="224" from="00:23:50.819" to="00:23:54.697" >
+<l>If you can't live a decent
+social life, you end up here!</l>
+</sp>
+
+<sp who="#principal" n="225" from="00:23:54.865" to="00:23:57.033" >
+<l>And if you screw up here,
+it's the end of the road!</l>
+</sp>
+
+<sp who="#principal" n="226" from="00:23:57.117" to="00:24:00.745" >
+<l>Also, even though you're under 15,
+if you get more than 50 penalty points...</l>
+</sp>
+
+<sp who="#principal" n="227" from="00:24:00.871" to="00:24:02.997" >
+<l>you're sent to the
+regular court.</l>
+</sp>
+
+<sp who="#kaneda" n="228" from="00:24:03.040" to="00:24:05.250" >
+<l>Aw, bite me. Don't mess
+with us, you bald old goat.</l>
+</sp>
+
+<sp who="#coach" n="229" from="00:24:05.292" to="00:24:07.252" >
+<l>Are you listening?</l>
+</sp>
+
+<sp who="#yamagata" n="230" from="00:24:07.336" to="00:24:08.544" >
+<l>- You lost me halfway through.</l>
+</sp>
+
+<sp who="#coach" n="231" from="00:24:08.545" to="00:24:09.879" >
+<l>- Discipline!</l>
+</sp>
+
+<sp who="#coach" n="232" from="00:24:10.005" to="00:24:15.009" >
+<l>Discipline! Discipline!</l>
+</sp>
+
+<sp who="#coach" n="233" from="00:24:15.135" to="00:24:17.095" >
+<l>Discipline! Dismissed!</l>
+</sp>
+
+<sp who="#allcapsules" n="234" from="00:24:18.389" to="00:24:21.891" >
+<l>Thank you very much, sir.</l>
+</sp>
+
+<sp who="#kaneda" n="235" from="00:24:22.893" to="00:24:26.062" >
+<l>- You loser! I'm gonna beat you up someday!</l>
+</sp>
+
+<sp who="#yamagata" n="236" from="00:24:26.063" to="00:24:27.272" >
+<l>We're gonna remember this!</l>
+</sp>
+
+<sp who="#takeyama" n="237" from="00:24:27.398" to="00:24:28.564" >
+<l>- Yeah, you sick mother!</l>
+</sp>
+
+<sp who="#kaneda" n="238" from="00:24:28.565" to="00:24:31.276" >
+<l>- Damn!</l>
+</sp>
+
+<sp who="#girl1" n="239" from="00:24:36.907" to="00:24:38.199" >
+<l>Hi, Yamagata!</l>
+</sp>
+
+<sp who="#girl2" n="240" from="00:24:38.325" to="00:24:40.702" >
+<l>What happened to your cheek?</l>
+</sp>
+
+<sp who="#kaneda" n="241" from="00:24:40.744" to="00:24:41.744" >
+<l>- Don't bother me.</l>
+</sp>
+
+<sp who="#girl3" n="242" from="00:24:41.745" to="00:24:43.621" >
+<l>I heard you got into a fight.</l>
+</sp>
+
+<sp who="#girl3" n="243" from="00:24:43.747" to="00:24:46.874" >
+<l>My friends told me you fought
+the Clowns on the highway in the old city.</l>
+</sp>
+
+<sp who="#mitsuru" n="244" from="00:24:46.917" to="00:24:47.625" >
+<l>Big deal.</l>
+</sp>
+
+<sp who="#girl3" n="245" from="00:24:47.751" to="00:24:50.461" >
+<l>Why didn't you wipe 'em out?
+Those guys are so gross.</l>
+</sp>
+
+<sp who="#mitsuru" n="246" from="00:24:50.587" to="00:24:53.798" >
+<l>Clowns, demonstrators,
+cops, the damn army...</l>
+</sp>
+
+<sp who="#mitsuru" n="247" from="00:24:53.924" to="00:24:55.967" >
+<l>and that idiot Tetsuo
+had an accident!</l>
+</sp>
+
+<sp who="#kaori" n="248" from="00:24:56.093" to="00:24:57.802" >
+<l>What happened to Tetsuo?</l>
+</sp>
+
+<sp who="#mitsuru" n="249" from="00:24:57.886" to="00:24:59.637" >
+<l>He's in the hospital,
+but we don't know where.</l>
+</sp>
+
+<sp who="#eiichi" n="250" from="00:24:59.763" to="00:25:01.723" >
+<l>Dumb loser was trying
+to show off.</l>
+</sp>
+
+<sp who="#takeyama" n="251" from="00:25:01.765" to="00:25:02.974" >
+<l>Yeah, a real jerk.</l>
+</sp>
+
+<sp who="#kaneda" n="252" from="00:25:05.269" to="00:25:06.477" >
+<l>Stupid idiot!</l>
+</sp>
+
+<sp who="#girl2" n="253" from="00:25:06.603" to="00:25:08.438" >
+<l>- You're talking about Tetsuo, right?</l>
+</sp>
+
+<sp who="#kaneda" n="254" from="00:25:08.439" to="00:25:09.731" >
+<l>Shut up already!</l>
+</sp>
+
+<sp who="#kaneda" n="255" from="00:25:09.857" to="00:25:11.649" >
+<l>Why do you have to be hangin'
+on my arm every minute?</l>
+</sp>
+
+<sp who="#girl2" n="256" from="00:25:11.692" to="00:25:13.151" >
+<l>What the heck has got into you?</l>
+</sp>
+
+<sp who="#nurse" n="257" from="00:25:28.792" to="00:25:32.170" >
+<l>Tetsuo, it's time
+for your medicines.</l>
+</sp>
+
+<sp who="#nurse" n="258" from="00:25:33.464" to="00:25:35.840" >
+<l>Doctor, hurry!
+The boy is gone!</l>
+</sp>
+
+<sp who="#girl3" n="259" from="00:25:39.803" to="00:25:44.682" >
+<l>No, I can't. You know the dorm mother always
+throws a fit if you go out before 10:00.</l>
+</sp>
+
+<sp who="#girl3" n="260" from="00:25:44.808" to="00:25:49.687" >
+<l>Yeah, you know, the one with a face like a goat?
+That woman is such a pain.</l>
+</sp>
+
+<sp who="#girl3" n="261" from="00:25:49.813" to="00:25:52.815" >
+<l>She's always complaining about us girls.
+Huh? Tomorrow at 3:00?</l>
+</sp>
+
+<sp who="#girl3" n="262" from="00:25:52.941" to="00:25:58.321" >
+<l>Yeah, that's cool. Hey, what
+happened to that girl? You know who.</l>
+</sp>
+
+<sp who="#girl3" n="263" from="00:25:58.447" to="00:26:02.325" >
+<l>I don't like her at all.
+She gets on my nerves.</l>
+</sp>
+
+<sp who="#tetsuo" n="264" from="00:26:02.451" to="00:26:03.326" >
+<l>Kaori!</l>
+</sp>
+
+<sp who="#kaori" n="265" from="00:26:05.454" to="00:26:07.038" >
+<l>Tetsuo!</l>
+</sp>
+<milestone type="plot"/>
+<sp who="#kaori" n="266" from="00:26:07.164" to="00:26:11.793" >
+<l>Everyone's been worried about you.
+They thought you were dead.</l>
+</sp>
+
+<sp who="#tetsuo" n="267" from="00:26:17.966" to="00:26:22.720" >
+<l>When I woke up, I was on an
+operating table or something.</l>
+</sp>
+
+<sp who="#tetsuo" n="268" from="00:26:22.846" to="00:26:25.556" >
+<l>That examination... Ohh!</l>
+</sp>
+
+<sp who="#tetsuo" n="269" from="00:26:25.682" to="00:26:28.726" >
+<l>It's like they were messing
+around inside my head.</l>
+</sp>
+
+<sp who="#tetsuo" n="270" from="00:26:28.852" to="00:26:33.231" >
+<l>No, I don't want to go back
+there again. We'll run away.</l>
+</sp>
+
+<sp who="#kaori" n="271" from="00:26:33.357" to="00:26:35.400" >
+<l>Where would we go to?</l>
+</sp>
+
+<sp who="#kaori" n="272" from="00:26:37.027" to="00:26:41.572" >
+<l>I don't know. Someplace.
+Someplace far away.</l>
+</sp>
+
+<sp who="#yamagata" n="273" from="00:26:47.371" to="00:26:48.996" >
+<l>Self study today!</l>
+</sp>
+
+<sp who="#yamagata" n="274" from="00:26:49.039" to="00:26:50.581" >
+<l>Where'd the teacher go to?</l>
+</sp>
+
+<sp who="#yamagata" n="275" from="00:26:50.707" to="00:26:54.419" >
+<l>What about my burning desire
+to study and learn a vocation?</l>
+</sp>
+
+<sp who="#yamagata" n="276" from="00:26:54.545" to="00:26:55.920" >
+<l>Drag his butt in here!</l>
+</sp>
+
+<sp who="#kai" n="277" from="00:26:57.172" to="00:26:59.340" >
+<l>- Kaneda! Hurry! Your bike!</l>
+</sp>
+
+<sp who="#kaneda" n="278" from="00:26:59.341" to="00:27:01.050" >
+<l>What about my bike?</l>
+</sp>
+
+<sp who="#kai" n="279" from="00:27:01.718" to="00:27:03.261" >
+<l>See? Look down there!</l>
+</sp>
+
+<sp who="#kaneda" n="280" from="00:27:05.347" to="00:27:07.598" >
+<l>Wha... Tetsuo?</l>
+</sp>
+
+<sp who="#kaneda" n="281" from="00:27:10.352" to="00:27:11.727" >
+<l>- Is this okay?</l>
+</sp>
+
+<sp who="#tetsuo" n="282" from="00:27:11.728" to="00:27:14.272" >
+<l>Aw, quiet! Shut up and hang on!</l>
+</sp>
+
+<sp who="#tetsuo" n="283" from="00:27:25.826" to="00:27:26.325" >
+<l>- Huh? What the......</l>
+</sp>
+
+<sp who="#kaori" n="284" from="00:27:26.326" to="00:27:28.286" >
+<l>What's wrong?</l>
+</sp>
+
+<sp who="#tetsuo" n="285" from="00:27:28.412" to="00:27:30.037" >
+<l>- Uuh! Aw, Shit!</l>
+</sp>
+
+<sp who="#kaori" n="286" from="00:27:30.038" to="00:27:31.122" >
+<l>Ooh!</l>
+</sp>
+
+<sp who="#kaori" n="287" from="00:27:31.248" to="00:27:34.625" >
+<l>Oops, it's...stopping...
+stopped......</l>
+</sp>
+
+<sp who="#tetsuo" n="288" from="00:27:35.752" to="00:27:40.131" >
+<l>I get it. The engine can't drop below 5,000 R.P.M.S
+even when you're changing the gears.</l>
+</sp>
+
+<sp who="#kaori" n="289" from="00:27:40.215" to="00:27:41.174" >
+<l>- Ouch, my butt hurts.</l>
+</sp>
+
+<sp who="#tetsuo" n="290" from="00:27:41.175" to="00:27:42.133" >
+<l>I understand now.</l>
+</sp>
+
+<sp who="#kaori" n="291" from="00:27:42.259" to="00:27:43.885" >
+<l>Look, some bikes.</l>
+</sp>
+
+<sp who="#tetsuo" n="292" from="00:27:45.262" to="00:27:49.307" >
+<l>Is that Kaneda and...
+Wha... No, it isn't!</l>
+</sp>
+
+<sp who="#kaori" n="293" from="00:27:51.018" to="00:27:53.978" >
+<l>Oh, shit! Kaori!</l>
+</sp>
+
+<sp who="#kaneda" n="294" from="00:27:57.774" to="00:27:58.649" >
+<l>Any sign of 'em?</l>
+</sp>
+
+<sp who="#kai" n="295" from="00:27:59.234" to="00:28:01.319" >
+<l>Kuwata and the others went
+to go look around Kisarazu.</l>
+</sp>
+
+<sp who="#kai" n="296" from="00:28:01.445" to="00:28:04.780" >
+<l>The only place we haven't
+searched now is the industrial area.</l>
+</sp>
+
+<sp who="#kaneda" n="297" from="00:28:04.948" to="00:28:06.324" >
+<l>Okay! Let's go!</l>
+</sp>
+
+<sp who="#clown3" n="298" from="00:28:09.077" to="00:28:12.163" >
+<l>We owe you from the other night.
+Now it's time for payback.</l>
+</sp>
+
+<sp who="#clown4" n="299" from="00:28:18.295" to="00:28:19.420" >
+<l>Whoo-hoo!</l>
+</sp>
+
+<sp who="#clown4" n="300" from="00:28:20.797" to="00:28:21.672" >
+<l>Shut up!</l>
+</sp>
+
+<sp who="#tetsuo" n="301" from="00:28:24.885" to="00:28:27.011" >
+<l>Kaori! What happened?</l>
+</sp>
+
+<sp who="#tetsuo" n="302" from="00:28:33.977" to="00:28:34.852" >
+<l>No, don't!</l>
+</sp>
+
+<sp who="#tetsuo" n="303" from="00:28:34.978" to="00:28:39.190" >
+<l>If you put a single scratch on that bike,
+I'm gonna kill you asshole!</l>
+</sp>
+
+<sp who="#clown4" n="304" from="00:28:41.944" to="00:28:42.652" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#clown4" n="305" from="00:28:45.155" to="00:28:46.197" >
+<l>Run!</l>
+</sp>
+
+<sp who="#kaneda" n="306" from="00:28:46.323" to="00:28:48.282" >
+<l>After them!</l>
+</sp>
+
+<sp who="#tetsuo" n="307" from="00:28:54.122" to="00:28:55.665" >
+<l>No, wait.</l>
+</sp>
+
+<sp who="#kaneda" n="308" from="00:29:05.509" to="00:29:07.885" >
+<l>Tetsuo!</l>
+</sp>
+<milestone type="plot"/>
+<sp who="#kaneda" n="309" from="00:29:24.027" to="00:29:26.487" >
+<l>You're gonna kill him, Tetsuo!
+You want that?</l>
+</sp>
+
+<sp who="#tetsuo" n="310" from="00:29:26.613" to="00:29:29.490" >
+<l>I want him more than dead!
+I'll split his friggin' head open!</l>
+</sp>
+
+<sp who="#kaneda" n="311" from="00:29:29.616" to="00:29:31.325" >
+<l>Just knock it off now!</l>
+</sp>
+
+<sp who="#kaneda" n="312" from="00:29:31.535" to="00:29:36.038" >
+<l>This whole thing happened because
+you took my bike for a spin. Enough already.</l>
+</sp>
+
+<sp who="#tetsuo" n="313" from="00:29:36.164" to="00:29:39.208" >
+<l>Shut up! Don't order me around!</l>
+</sp>
+
+<sp who="#kaneda" n="314" from="00:29:39.334" to="00:29:41.335" >
+<l>We were just worried.</l>
+</sp>
+
+<sp who="#tetsuo" n="315" from="00:29:41.461" to="00:29:44.171" >
+<l>Why do you always
+have to try to save me?</l>
+</sp>
+
+<sp who="#tetsuo" n="316" from="00:29:45.716" to="00:29:47.592" >
+<l>I could handle it on my own.</l>
+</sp>
+
+<sp who="#tetsuo" n="317" from="00:29:47.718" to="00:29:53.681" >
+<l>I admit that I've gotten beaten before,
+but I won't always be on the receiving end.</l>
+</sp>
+
+<sp who="#tetsuo" n="318" from="00:29:54.224" to="00:29:55.766" >
+<l>Do you understand?</l>
+</sp>
+
+<sp who="#kaori" n="319" from="00:30:00.147" to="00:30:01.022" >
+<l>Tetsuo......</l>
+</sp>
+
+<sp who="#tetsuo" n="320" from="00:30:02.149" to="00:30:04.900" >
+<l>Shut up! Go away!</l>
+</sp>
+
+<sp who="#kaneda" n="321" from="00:30:07.070" to="00:30:09.280" >
+<l>Hey, wait! Where're you going?</l>
+</sp>
+
+<sp who="#tetsuo" n="322" from="00:30:10.991" to="00:30:11.949" >
+<l>Leave me alone!</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#kiyoko" n="323" from="00:30:14.828" to="00:30:16.579" >
+<l>"Akira!"</l>
+</sp>
+
+<sp who="#kaneda" n="324" from="00:30:19.666" to="00:30:21.125" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#kaneda" n="325" from="00:30:24.171" to="00:30:25.588" >
+<l>Something wrong?</l>
+</sp>
+
+<sp who="#kiyoko" n="326" from="00:30:26.506" to="00:30:27.214" >
+<l>"Akira!"</l>
+</sp>
+
+<sp who="#tetsuo" n="327" from="00:30:27.424" to="00:30:29.634" >
+<l>I don't know who that is!</l>
+</sp>
+
+<sp who="#kaneda" n="328" from="00:30:51.615" to="00:30:54.158" >
+<l>Tetsuo... What's wrong?</l>
+</sp>
+
+<sp who="#docstaff" n="329" from="00:30:59.956" to="00:31:04.335" >
+<l>This is really strange. I'm getting
+a blue pattern on scope number 3.</l>
+</sp>
+
+<sp who="#doctor" n="330" from="00:31:04.461" to="00:31:07.838" >
+<l>What? No! Retrieve the
+subject now! Hurry!</l>
+</sp>
+
+<sp who="#kaneda" n="331" from="00:31:21.645" to="00:31:24.188" >
+<l>Why don't you guys
+just leave my friend alone?</l>
+</sp>
+
+<sp who="#kaneda" n="332" from="00:31:27.484" to="00:31:32.113" >
+<l>What's with the getup, huh?
+You goin' to a funeral?</l>
+</sp>
+
+<sp who="#kaneda" n="333" from="00:31:38.286" to="00:31:39.370" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#kai" n="334" from="00:31:40.122" to="00:31:41.122" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#kaneda" n="335" from="00:31:42.499" to="00:31:43.874" >
+<l>Screw you!</l>
+</sp>
+
+<sp who="#kaneda" n="336" from="00:31:53.343" to="00:31:55.177" >
+<l>No, wait!</l>
+</sp>
+
+<sp who="#kai" n="337" from="00:32:00.684" to="00:32:03.144" >
+<l>Kaneda, what the hell's
+goin' on?</l>
+</sp>
+</spGrp>
+<sp who="#kai" n="338" from="00:32:12.863" to="00:32:16.741" >
+<l>Well, well. I see we have
+some real hip youngsters...</l>
+</sp>
+
+<sp who="#kai" n="339" from="00:32:16.867" to="00:32:20.244" >
+<l>doin' their thing in spite of the tight checkpoints
+they got going around tonight.</l>
+</sp>
+
+<sp who="#yamagata" n="340" from="00:32:20.370" to="00:32:23.748" >
+<l>And that just means that they're
+all pretty stupid, doesn't it?</l>
+</sp>
+
+<sp who="#girl2" n="341" from="00:32:26.334" to="00:32:28.544" >
+<l>This is boring.</l>
+</sp>
+
+<sp who="#girl2" n="342" from="00:32:28.670" to="00:32:31.046" >
+<l>Hey, what do you say?
+Let's go home.</l>
+</sp>
+
+<sp who="#girl3" n="343" from="00:32:31.173" to="00:32:33.549" >
+<l>What?
+But it's still early.</l>
+</sp>
+
+<sp who="#girl1" n="344" from="00:32:33.675" to="00:32:37.553" >
+<l>Yeah, but without their bikes,
+they're just tail chasers outta water.</l>
+</sp>
+
+<sp who="#kai" n="345" from="00:32:37.679" to="00:32:39.013" >
+<l>You mean "fish".</l>
+</sp>
+
+<sp who="#girl1" n="346" from="00:32:39.055" to="00:32:41.724" >
+<l>Come on.
+Let's go and toss these fish back.</l>
+</sp>
+
+<sp who="#kai" n="347" from="00:32:42.476" to="00:32:45.561" >
+<l>Hey, Kaneda.
+What are we gonna do?</l>
+</sp>
+
+<sp who="#kai" n="348" from="00:32:48.190" to="00:32:49.482" >
+<l>- What the heck?</l>
+</sp>
+
+<sp who="#yamagata" n="349" from="00:32:49.483" to="00:32:50.566" >
+<l>- Look.</l>
+</sp>
+
+<sp who="#kaneda" n="350" from="00:33:17.177" to="00:33:18.385" >
+<l>That's......</l>
+</sp>
+
+<sp who="#kai" n="351" from="00:33:18.512" to="00:33:21.972" >
+<l>Here we go again. Look, let's get out of here
+before we get caught up in it.</l>
+</sp>
+
+<sp who="#kai" n="352" from="00:33:22.432" to="00:33:25.684" >
+<l>- Huh? Kaneda?</l>
+</sp>
+
+<sp who="#yamagata" n="353" from="00:33:25.685" to="00:33:26.977" >
+<l>- Hey!</l>
+</sp>
+
+<sp who="#security" n="354" from="00:33:28.438" to="00:33:32.441" >
+<l>This area is being cordoned off
+due to a terrorist bombing.</l>
+</sp>
+
+<sp who="#security" n="355" from="00:33:32.609" to="00:33:34.902" >
+<l>Those who wish to get through,
+line up in single file...</l>
+</sp>
+
+<sp who="#security" n="356" from="00:33:35.028" to="00:33:37.905" >
+<l>present your I.D. and proceed
+through the checkpoint.</l>
+</sp>
+
+<sp who="#ryu" n="357" from="00:33:48.708" to="00:33:51.168" >
+<l>Get in.
+What's wrong? Hurry.</l>
+</sp>
+
+<sp who="#ryu" n="358" from="00:33:51.294" to="00:33:53.420" >
+<l>I'll meet you shortly.</l>
+</sp>
+
+<sp who="#ryu" n="359" from="00:33:53.547" to="00:33:55.673" >
+<l>You know the rendezvous point, right?</l>
+</sp>
+
+<sp who="#ryu" n="360" from="00:33:57.425" to="00:33:57.800" >
+<l>- Be careful.</l>
+</sp>
+
+<sp who="#kei" n="361" from="00:33:57.801" to="00:34:00.678" >
+<l>- You too. You be careful.</l>
+</sp>
+
+<sp who="#officer3" n="362" from="00:34:13.650" to="00:34:15.693" >
+<l>Hey! Hold it right there!</l>
+</sp>
+
+<sp who="#officer3" n="363" from="00:34:17.654" to="00:34:19.488" >
+<l>She's got a gun!</l>
+</sp>
+
+<sp who="#officer3" n="364" from="00:34:30.959" to="00:34:34.378" >
+<l>Okay, that's far enough!
+All right, drop it!</l>
+</sp>
+
+<sp who="#officer3" n="365" from="00:34:42.304" to="00:34:43.304" >
+<l>Drop it!</l>
+</sp>
+
+<sp who="#kei" n="366" from="00:34:49.352" to="00:34:50.561" >
+<l>Don't do it!</l>
+</sp>
+
+<sp who="#officer4" n="367" from="00:35:04.701" to="00:35:06.535" >
+<l>- I think it came from over here.</l>
+</sp>
+
+<sp who="#officer5" n="368" from="00:35:06.536" to="00:35:07.411" >
+<l> There were two shots.</l>
+</sp>
+
+<sp who="#officer4" n="369" from="00:35:07.537" to="00:35:09.246" >
+<l>No, three.
+It's just up ahead!</l>
+</sp>
+
+<sp who="#kaneda" n="370" from="00:35:10.498" to="00:35:14.251" >
+<l>Hey! Let's get out of here.
+Come on!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#kaneda" n="371" from="00:36:20.568" to="00:36:21.652" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#colonel" n="372" from="00:36:47.637" to="00:36:51.348" >
+<l>There. Now what's the matter?
+Talk about it.</l>
+</sp>
+
+<sp who="#kiyoko" n="373" from="00:36:51.474" to="00:36:54.351" >
+<l>It was a dream that I saw.</l>
+</sp>
+
+<sp who="#colonel" n="374" from="00:36:54.477" to="00:36:56.353" >
+<l>A dream?</l>
+</sp>
+
+<sp who="#kiyoko" n="375" from="00:36:57.814" to="00:37:02.860" >
+<l>The city started to crumble apart,
+covered by a big shadow.</l>
+</sp>
+
+<sp who="#kiyoko" n="376" from="00:37:02.986" to="00:37:06.780" >
+<l>Lots of people died.
+And the three of us...</l>
+</sp>
+
+<sp who="#kiyoko" n="377" from="00:37:06.906" to="00:37:09.158" >
+<l>we get to meet Akira again.</l>
+</sp>
+
+<sp who="#colonel" n="378" from="00:37:09.826" to="00:37:10.868" >
+<l>Wha... Akira?</l>
+</sp>
+
+<sp who="#kiyoko" n="379" from="00:37:11.411" to="00:37:13.954" >
+<l>The city will crumble......</l>
+</sp>
+
+<sp who="#kiyoko" n="380" from="00:37:14.080" to="00:37:17.666" >
+<l>So many people...
+So many will die.</l>
+</sp>
+
+<sp who="#colonel" n="381" from="00:37:17.792" to="00:37:22.379" >
+<l>When will it happen?
+Do you know when? Kiyoko!</l>
+</sp>
+
+<sp who="#kiyoko" n="382" from="00:37:22.505" to="00:37:25.466" >
+<l>You mustn't let that boy go.</l>
+</sp>
+
+<sp who="#kiyoko" n="383" from="00:37:25.675" to="00:37:27.885" >
+<l>His power, it......</l>
+</sp>
+
+<sp who="#colonel" n="384" from="00:37:35.268" to="00:37:36.018" >
+<l>- What's she talking about?</l>
+</sp>
+
+<sp who="#doctor" n="385" from="00:37:36.019" to="00:37:37.644" >
+<l>Well, there's, uh......</l>
+</sp>
+
+<sp who="#doctor" n="386" from="00:37:37.771" to="00:37:42.232" >
+<l>There seems to be nothing
+physically wrong with her.</l>
+</sp>
+
+<sp who="#doctor" n="387" from="00:37:42.358" to="00:37:45.819" >
+<l>Her medication looks accurate.
+There's no sign of any abnormalities...</l>
+</sp>
+
+<sp who="#doctor" n="388" from="00:37:45.945" to="00:37:48.238" >
+<l>in her EKG or her EEG either.</l>
+</sp>
+
+<sp who="#doctor" n="389" from="00:37:48.364" to="00:37:54.203" >
+<l>I think number 25's statement is probably
+her precognitive power at work.</l>
+</sp>
+
+<sp who="#doctor" n="390" from="00:37:54.329" to="00:37:58.082" >
+<l>You know, this needs to be brought
+before the supreme council for inquiry.</l>
+</sp>
+
+<sp who="#colonel" n="391" from="00:37:58.666" to="00:38:00.250" >
+<l>Do you believe her?</l>
+</sp>
+
+<sp who="#doctor" n="392" from="00:38:00.376" to="00:38:03.087" >
+<l>I have no doubts regarding
+number 25's abilities.</l>
+</sp>
+
+<sp who="#doctor" n="393" from="00:38:03.213" to="00:38:05.506" >
+<l>We have lots of data
+that substantiate it.</l>
+</sp>
+
+<sp who="#doctor" n="394" from="00:38:05.632" to="00:38:08.008" >
+<l>What do you believe, Colonel?</l>
+</sp>
+
+<sp who="#colonel" n="395" from="00:38:08.134" to="00:38:13.514" >
+<l>I'll tell you, my job isn't to believe
+or disbelieve. It's to act or not act!</l>
+</sp>
+
+<sp who="#researchstaff1" n="396" from="00:38:26.152" to="00:38:31.031" >
+<l>Here, sir. Cold gear, Colonel.
+Please put it on. You too, doctor.</l>
+</sp>
+
+<sp who="#doctor" n="397" from="00:38:42.919" to="00:38:47.548" >
+<l>The other day, a young researcher came to me
+and asked me something.</l>
+</sp>
+
+<sp who="#doctor" n="398" from="00:38:47.674" to="00:38:51.802" >
+<l>He wondered if their power was
+the form of the next stage...</l>
+</sp>
+
+<sp who="#doctor" n="399" from="00:38:52.053" to="00:38:56.306" >
+<l>that human evolution was taking, and perhaps
+we would all be able to control it some day.</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#colonel" n="400" from="00:38:56.432" to="00:38:59.810" >
+<l>Scientists are
+a bunch of romantics.</l>
+</sp>
+
+<sp who="#colonel" n="401" from="00:39:00.103" to="00:39:03.564" >
+<l>Military men, on the other hand,
+always consider the risks first.</l>
+</sp>
+
+<sp who="#colonel" n="402" from="00:39:03.690" to="00:39:06.066" >
+<l>Over 30 years it's taken.</l>
+</sp>
+
+<sp who="#colonel" n="403" from="00:39:06.192" to="00:39:09.736" >
+<l>We've come so far
+crawling up from the rubble.</l>
+</sp>
+
+<sp who="#colonel" n="404" from="00:39:09.863" to="00:39:12.072" >
+<l>We can't just trade one
+for the other.</l>
+</sp>
+
+<sp who="#colonel" n="405" from="00:39:12.198" to="00:39:15.284" >
+<l>But I've always thought that
+you held a resentment...</l>
+</sp>
+
+<sp who="#colonel" n="406" from="00:39:15.285" to="00:39:17.119" >
+<l>even a hatred for this city, Colonel.</l>
+</sp>
+
+<sp who="#colonel" n="407" from="00:39:17.287" to="00:39:21.623" >
+<l>The passion to build has cooled,
+and the joy of reconstruction forgotten.</l>
+</sp>
+
+<sp who="#colonel" n="408" from="00:39:21.916" to="00:39:26.086" >
+<l>Now... Now it's just a garbage heap made up of
+a bunch of hedonistic fools.</l>
+</sp>
+
+<sp who="#doctor" n="409" from="00:39:26.212" to="00:39:30.090" >
+<l>But in spite of that,
+you're trying to save the city.</l>
+</sp>
+
+<sp who="#colonel" n="410" from="00:39:30.216" to="00:39:33.635" >
+<l>I'm not a scientist.
+I think like a soldier.</l>
+</sp>
+</spGrp>
+<sp who="#researchstaff1" n="411" from="00:39:37.473" to="00:39:39.349" >
+<l>Colonel, we're here, sir.</l>
+</sp>
+
+<sp who="#researchstaff1" n="412" from="00:39:39.475" to="00:39:41.351" >
+<l>This way, please.</l>
+</sp>
+
+<sp who="#researchstaff1" n="413" from="00:40:01.497" to="00:40:04.875" >
+<l>Room 10, 148 degrees Kelvin.</l>
+</sp>
+
+<sp who="#researchstaff1" n="414" from="00:40:05.001" to="00:40:08.212" >
+<l>Fluctuation tolerance range, check.</l>
+</sp>
+
+<sp who="#researchstaff2" n="415" from="00:40:08.338" to="00:40:10.380" >
+<l>Room 9, 118 degrees Kelvin.</l>
+</sp>
+
+<sp who="#researchstaff2" n="416" from="00:40:10.506" to="00:40:12.549" >
+<l>Fluctuation tolerance, check.</l>
+</sp>
+
+<sp who="#researchstaff2" n="417" from="00:40:12.675" to="00:40:15.010" >
+<l>Emergency power generator, check.</l>
+</sp>
+
+<sp who="#colonel" n="418" from="00:40:15.637" to="00:40:16.470" >
+<l>- Open the door.</l>
+</sp>
+
+<sp who="#researchstaff3" n="419" from="00:40:16.471" to="00:40:18.222" >
+<l>- Sir. Um...</l>
+</sp>
+
+<sp who="#colonel" n="420" from="00:40:18.348" to="00:40:19.681" >
+<l>- The control room. Do it!</l>
+</sp>
+
+<sp who="#researchstaff3" n="421" from="00:40:19.682" to="00:40:20.474" >
+<l>- Yes, sir!</l>
+</sp>
+
+<sp who="#researchstaff1" n="422" from="00:40:37.617" to="00:40:41.912" >
+<l>Room 1 is at 0.0005 degrees Kelvin.</l>
+</sp>
+
+<sp who="#researchstaff1" n="423" from="00:40:42.038" to="00:40:45.999" >
+<l>It's within tolerance range.
+No abnormalities detected in any of the rooms...</l>
+</sp>
+
+<sp who="#researchstaff1" n="424" from="00:40:46.125" to="00:40:48.502" >
+<l>dewar walls or defense system.</l>
+</sp>
+
+<sp who="#researchstaff1" n="425" from="00:40:48.628" to="00:40:52.422" >
+<l>No abnormal atmospheric concentrations
+or reactions recorded.</l>
+</sp>
+
+<sp who="#doctor" n="426" from="00:40:52.548" to="00:40:54.925" >
+<l>So then all systems are normal.</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#colonel" n="427" from="00:41:03.851" to="00:41:06.103" >
+<l>Look at what they abandoned
+in their panic.</l>
+</sp>
+
+<sp who="#colonel" n="428" from="00:41:06.229" to="00:41:10.190" >
+<l>They were afraid. They were too scared,
+so they hid it away from the public...</l>
+</sp>
+
+<sp who="#colonel" n="429" from="00:41:10.316" to="00:41:14.945" >
+<l>losing all sense of shame and honor,
+casting aside the civilization...</l>
+</sp>
+
+<sp who="#colonel" n="430" from="00:41:15.071" to="00:41:17.572" >
+<l>and abandoning the science
+that created it.</l>
+</sp>
+
+<sp who="#colonel" n="431" from="00:41:17.699" to="00:41:22.119" >
+<l>Shutting the lid of the Pandora's
+box they, themselves, had opened!</l>
+</sp>
+</spGrp>
+<sp who="#kei" n="432" from="00:41:26.416" to="00:41:27.082" >
+<l>- Ryu!</l>
+</sp>
+
+<sp who="#kaneda" n="433" from="00:41:27.083" to="00:41:29.126" >
+<l>- Hey, we're still young.</l>
+</sp>
+
+<sp who="#kei" n="434" from="00:41:29.294" to="00:41:29.543" >
+<l>- Ryu!</l>
+</sp>
+
+<sp who="#kaneda" n="435" from="00:41:29.544" to="00:41:31.420" >
+<l>- We could start over again.</l>
+</sp>
+
+<sp who="#kaneda" n="436" from="00:41:32.255" to="00:41:33.588" >
+<l>- I'll go with you. So what do you think, huh?</l>
+</sp>
+
+<sp who="#kei" n="437" from="00:41:33.589" to="00:41:34.381" >
+<l>- Ryu!</l>
+</sp>
+
+<sp who="#kaneda" n="438" from="00:41:34.590" to="00:41:36.133" >
+<l>Turn yourself in!</l>
+</sp>
+
+<sp who="#kaneda" n="439" from="00:41:36.259" to="00:41:38.218" >
+<l>This was the first time
+you killed a man, right?</l>
+</sp>
+
+<sp who="#kei" n="440" from="00:41:38.261" to="00:41:38.927" >
+<l>- Ryu!</l>
+</sp>
+
+<sp who="#kaneda" n="441" from="00:41:38.928" to="00:41:41.972" >
+<l>!- Anyway, when you get out...</l>
+</sp>
+
+<sp who="#kaneda" n="442" from="00:41:42.265" to="00:41:46.560" >
+<l>let's go out for drinks.
+Don't kick yourself over it.</l>
+</sp>
+
+<sp who="#kaneda" n="443" from="00:41:46.686" to="00:41:50.480" >
+<l>What's done is done.
+You've heard that.</l>
+</sp>
+
+<sp who="#spy1" n="444" from="00:41:56.529" to="00:41:58.989" >
+<l>Identify yourselves!</l>
+</sp>
+
+<sp who="#kei" n="445" from="00:42:00.074" to="00:42:02.492" >
+<l>Ryu! Oh, are you all right?</l>
+</sp>
+
+<sp who="#ryu" n="446" from="00:42:02.618" to="00:42:03.285" >
+<l>- Kei, it's you!</l>
+</sp>
+
+<sp who="#kei" n="447" from="00:42:03.286" to="00:42:04.661" >
+<l>- Ryu!</l>
+</sp>
+
+<sp who="#ryu" n="448" from="00:42:05.288" to="00:42:06.997" >
+<l>Who's this?</l>
+</sp>
+
+<sp who="#kaneda" n="449" from="00:42:07.457" to="00:42:09.333" >
+<l>Who? Me?</l>
+</sp>
+
+<sp who="#kaneda" n="450" from="00:42:09.459" to="00:42:13.420" >
+<l>Well, I guess if I say that I'm Kei's
+boyfriend, it's stretching it a bit.</l>
+</sp>
+
+<sp who="#kaneda" n="451" from="00:42:13.463" to="00:42:15.172" >
+<l>It depends on your point of view.</l>
+</sp>
+
+<sp who="#kaneda" n="452" from="00:42:15.381" to="00:42:17.799" >
+<l>But we haven't gotten
+physical or anything.</l>
+</sp>
+
+<sp who="#kaneda" n="453" from="00:42:17.967" to="00:42:18.800" >
+<l>- You understand, don't you?</l>
+</sp>
+
+<sp who="#spy1" n="454" from="00:42:18.801" to="00:42:19.468" >
+<l>- Are you a spy?</l>
+</sp>
+
+<sp who="#kaneda" n="455" from="00:42:19.552" to="00:42:20.135" >
+<l>- No, I'm not!</l>
+</sp>
+
+<sp who="#spy1" n="456" from="00:42:20.136" to="00:42:21.178" >
+<l>- You're lying!</l>
+</sp>
+
+<sp who="#ryu" n="457" from="00:42:26.142" to="00:42:27.809" >
+<l>- Well, is he a spy or not?</l>
+</sp>
+
+<sp who="#kei" n="458" from="00:42:27.810" to="00:42:30.687" >
+<l>- Whatever he is, he's certainly not a spy.</l>
+</sp>
+
+<sp who="#kaneda" n="459" from="00:42:31.064" to="00:42:32.981" >
+<l>Ow!</l>
+</sp>
+
+<sp who="#spy1" n="460" from="00:42:34.484" to="00:42:36.443" >
+<l>Sneak into their lab?</l>
+</sp>
+
+<sp who="#spy1" n="461" from="00:42:36.569" to="00:42:39.279" >
+<l>Ridiculous!
+Remember the fiasco with that kid?</l>
+</sp>
+
+<sp who="#ryu" n="462" from="00:42:39.405" to="00:42:42.657" >
+<l>They're last-minute orders,
+and the plan is in place already.</l>
+</sp>
+
+<sp who="#spy2" n="463" from="00:42:45.995" to="00:42:48.372" >
+<l>These are the lab passes
+they issue once a week.</l>
+</sp>
+
+<sp who="#spy1" n="464" from="00:42:48.498" to="00:42:50.624" >
+<l>From Mr. Nezu, right?</l>
+</sp>
+
+<sp who="#kei" n="465" from="00:42:50.750" to="00:42:52.626" >
+<l>What's the objective?</l>
+</sp>
+
+<sp who="#ryu" n="466" from="00:42:52.752" to="00:42:55.045" >
+<l>We're to gather detailed
+data on the new subject.</l>
+</sp>
+
+<sp who="#spy2" n="467" from="00:42:55.171" to="00:42:56.922" >
+<l>- A new subject?</l>
+</sp>
+
+<sp who="#ryu" n="468" from="00:42:56.923" to="00:42:58.048" >
+<l>- Yes.</l>
+</sp>
+<milestone type="plot"/>
+<sp who="#ryu" n="469" from="00:42:58.174" to="00:43:03.053" >
+<l>Last week, on the same night we tried to abduct
+the experimental subject called number 26...</l>
+</sp>
+
+<sp who="#ryu" n="470" from="00:43:03.179" to="00:43:07.891" >
+<l>a boy who was in an accident
+on an old city highway was brought to the lab.</l>
+</sp>
+
+<sp who="#ryu" n="471" from="00:43:08.017" to="00:43:10.852" >
+<l>It seems that he's a student
+at a vocational training school...</l>
+</sp>
+
+<sp who="#ryu" n="472" from="00:43:10.978" to="00:43:14.147" >
+<l>but now he's their new subject
+for human experimentation.</l>
+</sp>
+<sp who="#spy2" n="473" from="00:43:14.273" to="00:43:15.357" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#kaneda" n="474" from="00:43:18.277" to="00:43:20.570" >
+<l>Ow, ouch!!</l>
+</sp>
+
+<sp who="#kaneda" n="475" from="00:43:20.696" to="00:43:23.490" >
+<l>Hey, hey, hey!
+What's the big idea?</l>
+</sp>
+
+<sp who="#kei" n="476" from="00:43:23.616" to="00:43:24.699" >
+<l>You!</l>
+</sp>
+
+<sp who="#spy1" n="477" from="00:43:24.700" to="00:43:26.284" >
+<l>- Should I kill him? He heard us.</l>
+</sp>
+
+<sp who="#kei" n="478" from="00:43:26.285" to="00:43:26.993" >
+<l>- Ryu?</l>
+</sp>
+
+<sp who="#kaneda" n="479" from="00:43:27.120" to="00:43:30.997" >
+<l>Wait! Now just hold on a minute!
+Hear me out. Please listen to me!</l>
+</sp>
+
+<sp who="#kei" n="480" from="00:43:31.124" to="00:43:32.416" >
+<l>Ryu, he did save me.</l>
+</sp>
+
+<sp who="#kaneda" n="481" from="00:43:32.542" to="00:43:33.542" >
+<l>- Yeah! Twice!</l>
+</sp>
+
+<sp who="#ryu" n="482" from="00:43:33.543" to="00:43:35.502" >
+<l>- Maybe he did it just to get close to us.</l>
+</sp>
+
+<sp who="#kaneda" n="483" from="00:43:35.628" to="00:43:39.005" >
+<l>The guy who was in that accident
+in the old city is my friend.</l>
+</sp>
+
+<sp who="#kaneda" n="484" from="00:43:39.132" to="00:43:42.259" >
+<l>I know it's hard for you to believe
+what I'm saying, but it's the truth.</l>
+</sp>
+
+<sp who="#kaneda" n="485" from="00:43:42.385" to="00:43:44.344" >
+<l>I was right there when it happened!</l>
+</sp>
+
+<sp who="#kaneda" n="486" from="00:43:45.388" to="00:43:49.266" >
+<l>Come on! Don't they say
+the only foolish questions are unasked ones?</l>
+</sp>
+
+<sp who="#kaneda" n="487" from="00:43:50.435" to="00:43:51.726" >
+<l>They don't?</l>
+</sp>
+
+<sp who="#nezu" n="488" from="00:43:53.521" to="00:43:56.606" >
+<l>That's an intriguing story, isn't it?</l>
+</sp>
+
+<sp who="#nezu" n="489" from="00:43:56.732" to="00:43:59.568" >
+<l>Well, will you be
+taking the boy with you?</l>
+</sp>
+
+<sp who="#ryu" n="490" from="00:43:59.694" to="00:44:03.697" >
+<l>He knows the subject and I think we can
+use him as a decoy if we find it necessary.</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#nezu" n="491" from="00:44:03.823" to="00:44:07.284" >
+<l>Neo Tokyo is going
+to change soon.</l>
+</sp>
+
+<sp who="#nezu" n="492" from="00:44:08.161" to="00:44:11.121" >
+<l>In all respects,
+this city is saturated.</l>
+</sp>
+
+<sp who="#nezu" n="493" from="00:44:11.247" to="00:44:13.290" >
+<l>It's like an overripe fruit.</l>
+</sp>
+
+<sp who="#nezu" n="494" from="00:44:13.416" to="00:44:15.959" >
+<l>Buried within it is a new seed.</l>
+</sp>
+
+<sp who="#nezu" n="495" from="00:44:16.210" to="00:44:19.880" >
+<l>We need only wait for the wind
+which will make it fall to fruition......</l>
+</sp>
+
+<sp who="#nezu" n="496" from="00:44:20.214" to="00:44:22.299" >
+<l>The wind called "Akira".</l>
+</sp>
+
+<sp who="#nezu" n="497" from="00:44:23.593" to="00:44:25.760" >
+<l>Ryu, look over here.</l>
+</sp>
+
+<sp who="#ryu" n="498" from="00:44:27.096" to="00:44:28.263" >
+<l>What is it?</l>
+</sp>
+
+<sp who="#nezu" n="499" from="00:44:28.347" to="00:44:30.724" >
+<l>We aren't the ones who will change it...</l>
+</sp>
+
+<sp who="#nezu" n="500" from="00:44:30.933" to="00:44:33.894" >
+<l>but rather, those citizens
+who hope for Akira that will.</l>
+</sp>
+
+<sp who="#miyako" n="501" from="00:44:35.271" to="00:44:38.648" >
+<l>That which is called science
+perverts providence!</l>
+</sp>
+
+<sp who="#miyako" n="502" from="00:44:38.774" to="00:44:41.568" >
+<l>That which is called progress
+encourages extravagance!</l>
+</sp>
+
+<sp who="#miyako" n="503" from="00:44:41.694" to="00:44:45.155" >
+<l>That which is called civilization
+devastates the spirit of man!</l>
+</sp>
+
+<sp who="#miyako" n="504" from="00:44:45.281" to="00:44:48.909" >
+<l>The time of atonement is upon us!
+Are your hearts prepared?</l>
+</sp>
+<stage>yelling</stage>
+<sp who="#miyako" n="505" from="00:44:49.118" to="00:44:53.497" >
+<l>The time is nigh!
+The time of his awakening is nigh!</l>
+</sp>
+
+<sp who="#miyako" n="506" from="00:44:53.623" to="00:44:56.833" >
+<l>The moment of lord Akira's
+awakening is drawing closer!</l>
+</sp>
+
+<sp who="#miyako" n="507" from="00:44:56.959" to="00:44:58.043" >
+<l>- Are your minds prepared?</l>
+</sp>
+
+<sp who="#protestpolice" n="508" from="00:44:58.044" to="00:45:00.128" >
+<l>- Break it up!</l>
+</sp>
+
+<sp who="#protestpolice" n="509" from="00:45:00.129" to="00:45:02.422" >
+<l>Holding meetings here
+is prohibited.</l>
+</sp>
+
+<sp who="#protestpolice" n="510" from="00:45:02.465" to="00:45:04.508" >
+<l>This gathering is illegal!</l>
+</sp>
+</spGrp>
+<sp who="#council1" n="511" from="00:45:05.468" to="00:45:09.429" >
+<l>Terrorist activities carried out
+by antigovernment elements...</l>
+</sp>
+
+<sp who="#council1" n="512" from="00:45:09.555" to="00:45:11.181" >
+<l>have skyrocketed this month.</l>
+</sp>
+
+<sp who="#council1" n="513" from="00:45:11.474" to="00:45:15.769" >
+<l>The army, riot squad and even the traffic police
+have been fully mobilized.</l>
+</sp>
+
+<sp who="#council1" n="514" from="00:45:15.895" to="00:45:18.855" >
+<l>The overtime costs alone have
+used up the public safety budget.</l>
+</sp>
+
+<sp who="#council2" n="515" from="00:45:18.981" to="00:45:21.191" >
+<l>And then there's
+the abduction of number 26.</l>
+</sp>
+
+<sp who="#council2" n="516" from="00:45:21.317" to="00:45:24.528" >
+<l>Isn't their existence supposed to be the highest
+of state secrets, Colonel?</l>
+</sp>
+
+<sp who="#council2" n="517" from="00:45:24.654" to="00:45:28.031" >
+<l>No one's ever heard of peace
+and order in Neo Tokyo then?</l>
+</sp>
+
+<sp who="#headcouncil" n="518" from="00:45:28.157" to="00:45:32.035" >
+<l>And this, this request of yours
+for further... Ah, yes...</l>
+</sp>
+
+<sp who="#headcouncil" n="519" from="00:45:32.161" to="00:45:36.790" >
+<l>for further funding because of
+subject number 25's prediction.</l>
+</sp>
+
+<sp who="#council3" n="520" from="00:45:36.958" to="00:45:41.211" >
+<l>You must be joking! While straightening out the
+historic tax-reform blunders...</l>
+</sp>
+
+<sp who="#council3" n="521">
+<l>of our former Prime Minister, we parliament members
+have been bowing our heads down...</l>
+</sp>
+
+<sp who="#council3" n="522" from="00:45:44.507" to="00:45:46.716" >
+<l>and begging the public
+to bear with us.</l>
+</sp>
+
+<sp who="#council3" n="523" from="00:45:46.842" to="00:45:51.888" >
+<l>And what does he ask for? Money!
+Where, exactly, do we get that kind of money?</l>
+</sp>
+
+<sp who="#council4" n="524" from="00:45:52.181" to="00:45:53.723" >
+<l>You've already spent
+a fortune here...</l>
+</sp>
+
+<sp who="#council4" n="525" from="00:45:53.849" to="00:45:56.560" >
+<l>and all we have to show for it
+is that grotesque kindergarten!</l>
+</sp>
+
+<sp who="#council2" n="526" from="00:45:56.852" to="00:45:59.354" >
+<l>The Olympics is next year,
+and the postwar period is over.</l>
+</sp>
+
+<sp who="#council2" n="527" from="00:45:59.480" to="00:46:02.983" >
+<l>How much longer will you keep throwing
+away money on these worthless ghosts?</l>
+</sp>
+
+<sp who="#council5" n="528" from="00:46:03.109" to="00:46:06.528" >
+<l>I always said we should put that
+money into the welfare program!</l>
+</sp>
+
+<sp who="#council6" n="529" from="00:46:06.612" to="00:46:07.696" >
+<l>Shut up, old man!</l>
+</sp>
+
+<sp who="#council5" n="530" from="00:46:07.697" to="00:46:08.530" >
+<l>What was that?</l>
+</sp>
+
+<sp who="#colonel" n="531" from="00:46:08.614" to="00:46:12.158" >
+<l>Now listen here! That power is starting
+to walk around free as we speak.</l>
+</sp>
+
+<sp who="#colonel" n="532" from="00:46:12.285" to="00:46:17.080" >
+<l>Unless we control that power now, we'll lose
+everything we tried so hard to achieve.</l>
+</sp>
+
+<sp who="#council6 #council5" n="533" from="00:46:17.206" to="00:46:20.917" >
+<l>- Take that "old man" comment back!
+- Your lack of policy started this mess!</l>
+</sp>
+
+<sp who="#council7" n="534" from="00:46:21.127" to="00:46:25.380" >
+<l>There's still no proof that the last world war was
+caused by Akira, in my opinion.</l>
+</sp>
+
+<sp who="#colonel" n="535" from="00:46:25.548" to="00:46:26.923" >
+<l>Don't you understand?</l>
+</sp>
+
+<sp who="#colonel" n="536" from="00:46:27.008" to="00:46:31.428" >
+<l>Unless an Akira disaster actually happens...
+Don't you people understand anything?</l>
+</sp>
+
+<sp who="#council2" n="537" from="00:46:31.887" to="00:46:34.347" >
+<l>Has anyone ever seen the "Akira"...?</l>
+</sp>
+
+<sp who="#council7" n="538" from="00:46:34.515" to="00:46:36.766" >
+<l>Akira was number 25, wasn't he?</l>
+</sp>
+
+<sp who="#council4" n="539" from="00:46:36.976" to="00:46:38.518" >
+<l>He should be number 21.</l>
+</sp>
+
+<sp who="#council3" n="540" from="00:46:38.728" to="00:46:41.771" >
+<l>I say that the colonel has lost
+sight of his duty as a soldier!</l>
+</sp>
+
+<sp who="#council8" n="541" from="00:46:42.982" to="00:46:47.110" >
+<l>And I have had several reports on
+antigovernment elements...</l>
+</sp>
+
+<sp who="#council8" n="542" from="00:46:47.236" to="00:46:51.239" >
+<l>how they're using your Akira madness
+to whip up their terrorist fervor.</l>
+</sp>
+
+<sp who="#colonel" n="543" from="00:46:51.324" to="00:46:52.949" >
+<l>It's not true. It's just not!</l>
+</sp>
+
+<sp who="#council8" n="544" from="00:46:53.409" to="00:46:55.577" >
+<l>Then what about that
+Akira world renewal movement?</l>
+</sp>
+
+<sp who="#council8" n="545" from="00:46:55.828" to="00:46:57.704" >
+<l>Wouldn't you say that
+information's being leaked?</l>
+</sp>
+
+<sp who="#headcouncil" n="546" from="00:46:57.913" to="00:47:01.124" >
+<l>World renewal movement?
+It's more like the end of the world.</l>
+</sp>
+
+<sp who="#council8" n="547" from="00:47:01.417" to="00:47:05.253" >
+<l>Aren't you just using Akira as camouflage
+to cover up your misconduct? Admit it!</l>
+</sp>
+
+<sp who="#colonel" n="548" from="00:47:05.421" to="00:47:06.963" >
+<l>What are you getting at?</l>
+</sp>
+
+<sp who="#headcouncil" n="549" from="00:47:07.173" to="00:47:08.548" >
+<l>Colonel......</l>
+</sp>
+
+<sp who="#headcouncil" n="550" from="00:47:08.841" to="00:47:15.805" >
+<l>Understand that we can no longer leave the
+peace of Neo Tokyo to your sole discretion.</l>
+</sp>
+
+<sp who="#council3" n="551" from="00:47:15.931" to="00:47:16.973" >
+<l>Get rid of him!</l>
+</sp>
+
+<sp who="#headcouncil" n="552" from="00:47:17.016" to="00:47:20.310" >
+<l>I'm sorry, but you are to be
+put before an inquiry committee.</l>
+</sp>
+
+<sp who="#council5" n="553" from="00:47:20.436" to="00:47:21.645" >
+<l>He should be suspended!</l>
+</sp>
+
+<sp who="#colonel" n="554" from="00:47:25.441" to="00:47:26.441" >
+<l>Excuse me!</l>
+</sp>
+
+<sp who="#council3" n="555" from="00:47:26.776" to="00:47:27.776" >
+<l>What?</l>
+</sp>
+
+<sp who="#council8" n="556" from="00:47:28.611" to="00:47:30.445" >
+<l>This discussion isn't over!</l>
+</sp>
+
+<sp who="#council6" n="557" from="00:47:30.613" to="00:47:31.696" >
+<l>- This is an outrage!</l>
+</sp>
+
+<sp who="#council8" n="558" from="00:47:31.697" to="00:47:33.448" >
+<l>- You should explain yourself!</l>
+</sp>
+
+<sp who="#council2" n="559" from="00:47:33.616" to="00:47:35.992" >
+<l>Are you trying to insult
+the supreme executive council?</l>
+</sp>
+
+<sp who="#tetsuo" n="560" from="00:48:01.310" to="00:48:02.477" >
+<l>Water.</l>
+</sp>
+
+<sp who="#labsecurity1" n="561" from="00:48:35.636" to="00:48:37.512" >
+<l>Hey. Wait a minute.</l>
+</sp>
+
+<sp who="#labsecurity1" n="562" from="00:48:37.805" to="00:48:41.224" >
+<l>Let's see. Isn't that cable
+replacement due for next week?</l>
+</sp>
+
+<sp who="#spy2" n="563" from="00:48:41.517" to="00:48:44.978" >
+<l>Well, the cable they ordered
+came in a whole week early.</l>
+</sp>
+
+<sp who="#spy2" n="564" from="00:48:45.104" to="00:48:49.232" >
+<l>And besides, I've got vacation time
+coming, and I'm leaving this weekend.</l>
+</sp>
+
+<sp who="#spy2" n="565" from="00:48:49.358" to="00:48:52.026" >
+<l>If I bring the workers back,
+there'll be overtime.</l>
+</sp>
+
+<sp who="#spy2" n="566" from="00:48:52.361" to="00:48:56.823" >
+<l>I could leave now and come back,
+but the work's gotta be done sooner or later.</l>
+</sp>
+
+<sp who="#spy2" n="567" from="00:49:02.037" to="00:49:03.997" >
+<l>All right, guys. Let's go.</l>
+</sp>
+
+<sp who="#tetsuo" n="568" from="00:50:34.296" to="00:50:35.338" >
+<l>What the...!</l>
+</sp>
+
+<sp who="#tetsuo" n="569" from="00:51:05.452" to="00:51:07.287" >
+<l>It's milk.</l>
+</sp>
+
+<sp who="#tetsuo" n="570" from="00:51:14.962" to="00:51:15.962" >
+<l>Stay away!</l>
+</sp>
+
+<sp who="#takashi #kiyoko" n="571" from="00:51:21.844" to="00:51:23.720">
+<l>- Whaa!
+- Whoa!</l>
+</sp>
+
+<sp who="#takashi" n="572" from="00:51:29.351" to="00:51:30.184" >
+<l>- It's blood!</l>
+</sp>
+
+<sp who="#kiyoko" n="573" from="00:51:30.185" to="00:51:32.145" >
+<l>-I'm scared.</l>
+</sp>
+
+<sp who="#kiyoko" n="574" from="00:51:40.321" to="00:51:41.529" >
+<l>Weirdo!</l>
+</sp>
+
+<sp who="#tetsuo" n="575" from="00:51:41.697" to="00:51:44.240" >
+<l>What? Those kids......</l>
+</sp>
+
+<sp who="#labassistant" n="576" from="00:52:40.089" to="00:52:43.299" >
+<l>"Patient, Room 887.
+Shima, Tetsuo."</l>
+</sp>
+
+<sp who="#labassistant" n="577" from="00:52:43.425" to="00:52:45.885" >
+<l>Oh. The automatic lock's off?</l>
+</sp>
+
+<sp who="#labassistant" n="578" from="00:52:51.016" to="00:52:54.060" >
+<l>Hey, you! You're not
+allowed to leave your room!</l>
+</sp>
+
+<sp who="#labassistant" n="579" from="00:52:59.233" to="00:53:00.817" >
+<l>Let's go back into your room.</l>
+</sp>
+
+<sp who="#nurseguard1" n="580" from="00:53:00.943" to="00:53:02.193" >
+<l>- What happened?</l>
+</sp>
+
+<sp who="#nurseguard2" n="581" from="00:53:02.194" to="00:53:03.778" >
+<l>- Looks terrible.</l>
+</sp>
+
+<sp who="#spy2" n="582" from="00:53:25.968" to="00:53:30.179" >
+<l>There are 58 blocks with circuits
+that the computer won't display.</l>
+</sp>
+
+<sp who="#spy2" n="583" from="00:53:30.305" to="00:53:34.183" >
+<l>Of those, nearly 40 are concentrated
+on underground levels 7 and 8.</l>
+</sp>
+
+<sp who="#spy2" n="584" from="00:53:34.309" to="00:53:36.019" >
+<l>That's probably the place.</l>
+</sp>
+
+<sp who="#spy2" n="585" from="00:53:38.147" to="00:53:41.024" >
+<l>The central wiring shaft
+should be straight up ahead.</l>
+</sp>
+
+<sp who="#spy2" n="586" from="00:53:41.483" to="00:53:44.193" >
+<l>We'll be able to use that to go
+straight down to the sublevels.</l>
+</sp>
+
+<sp who="#ryu" n="587" from="00:53:45.320" to="00:53:48.489" >
+<l>Be careful.
+It's deeper in the middle.</l>
+</sp>
+
+<sp who="#kaneda" n="588" from="00:53:48.741" to="00:53:50.158" >
+<l>Whew. What a stink.</l>
+</sp>
+
+<sp who="#kei" n="589" from="00:53:50.159" to="00:53:51.367" >
+<l>Don't you ever stop talking?</l>
+</sp>
+
+<sp who="#kaneda" n="590" from="00:53:51.452" to="00:53:55.371" >
+<l>I said it stinks because it stinks.
+Is your nose busted?</l>
+</sp>
+
+<sp who="#kei" n="591" from="00:53:55.497" to="00:53:57.123" >
+<l>Keep up and be quiet!</l>
+</sp>
+
+<sp who="#ryu" n="592" from="00:53:58.333" to="00:54:00.543" >
+<l>Damn! Hug the walls!</l>
+</sp>
+
+<sp who="#kaneda" n="593" from="00:54:00.669" to="00:54:02.879" >
+<l>Huh?
+What are you guys doing?</l>
+</sp>
+
+<sp who="#spy1" n="594" from="00:54:03.005" to="00:54:05.298" >
+<l>You idiot, get down!</l>
+</sp>
+
+<sp who="#ryu" n="595" from="00:54:20.355" to="00:54:22.231" >
+<l>Looks like they beefed up security,
+doesn't it?</l>
+</sp>
+
+<sp who="#spy1" n="596" from="00:54:22.357" to="00:54:23.608" >
+<l>- Must be that siren we heard.</l>
+</sp>
+
+<sp who="#spy2" n="597" from="00:54:23.609" to="00:54:25.318" >
+<l>- Should we scout a way around it?</l>
+</sp>
+
+<sp who="#ryu" n="598" from="00:54:25.527" to="00:54:26.944" >
+<l>- No. Let's keep going.</l>
+</sp>
+
+<sp who="#kei" n="599" from="00:54:26.945" to="00:54:28.071" >
+<l>- Hey. Are you okay?</l>
+</sp>
+
+<sp who="#ryu" n="600" from="00:54:28.155" to="00:54:31.157" >
+<l>I want to check their security
+at the very least.</l>
+</sp>
+
+<sp who="#ryu" n="601" from="00:54:31.700" to="00:54:33.826" >
+<l>Damn! They spotted us!
+Run for it!</l>
+</sp>
+
+<sp who="#spy1" n="602" from="00:54:35.871" to="00:54:37.997" >
+<l>Don't shoot! Hold your fire!</l>
+</sp>
+
+<sp who="#spy1" n="603" from="00:54:41.543" to="00:54:43.419" >
+<l>Shimazaki!</l>
+</sp>
+
+<sp who="#spy1" n="604" from="00:54:43.879" to="00:54:45.505" >
+<l>- You assholes!</l>
+</sp>
+
+<sp who="#ryu" n="605" from="00:54:45.506" to="00:54:47.173" >
+<l>- Forget it! Run!</l>
+</sp>
+
+<sp who="#kaneda" n="606" from="00:54:50.552" to="00:54:52.261" >
+<l>What the hell is that thing?</l>
+</sp>
+
+<sp who="#ryu" n="607" from="00:54:54.056" to="00:54:55.056" >
+<l>It's coming back!</l>
+</sp>
+
+<sp who="#ryu" n="608" from="00:54:56.016" to="00:54:57.391" >
+<l>Don't shoot!</l>
+</sp>
+
+<sp who="#sewerpilot1" n="609" from="00:55:05.400" to="00:55:07.443" >
+<l>This is unit 304, Shaft "H".</l>
+</sp>
+
+<sp who="#sewerpilot1" n="610" from="00:55:07.569" to="00:55:10.947" >
+<l>I have encountered intruders.
+Requesting backup. Now engaging.</l>
+</sp>
+
+<sp who="#kaneda" n="611" from="00:55:12.074" to="00:55:13.783" >
+<l>Here it comes!</l>
+</sp>
+
+<sp who="#kaneda" n="612" from="00:55:38.684" to="00:55:40.393" >
+<l>Oh! Kei!</l>
+</sp>
+
+<sp who="#kei" n="613" from="00:55:42.771" to="00:55:44.897" >
+<l>The gun!</l>
+</sp>
+
+<sp who="#kaneda" n="614" from="00:55:45.274" to="00:55:46.899" >
+<l>Damn it!</l>
+</sp>
+
+<sp who="#kei" n="615" from="00:55:49.444" to="00:55:50.820" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#ryu" n="616" from="00:56:00.789" to="00:56:02.832" >
+<l>Kei! Over here!</l>
+</sp>
+
+<sp who="#ryu" n="617" from="00:56:03.792" to="00:56:05.168" >
+<l>Now!</l>
+</sp>
+
+<sp who="#kei" n="618" from="00:56:06.879" to="00:56:09.088" >
+<l>Kaneda, come on! Hurry!</l>
+</sp>
+
+<sp who="#kei" n="619" from="00:56:23.979" to="00:56:25.271" >
+<l>Kaneda, no!</l>
+</sp>
+
+<sp who="#kaneda" n="620" from="00:56:38.619" to="00:56:40.620" >
+<l>What the hell...
+Where are the brakes?</l>
+</sp>
+
+<sp who="#kaneda" n="621" from="00:56:40.746" to="00:56:42.413" >
+<l>- That's not it.</l>
+</sp>
+
+<sp who="#kei" n="622" from="00:56:42.414" to="00:56:44.624" >
+<l>- This is the central wiring shaft, I think.</l>
+</sp>
+
+<sp who="#kaneda" n="623" from="00:56:44.750" to="00:56:45.666" >
+<l>- I can't figure it out!</l>
+</sp>
+
+<sp who="#kei" n="624" from="00:56:45.667" to="00:56:46.626" >
+<l>- What the......</l>
+</sp>
+
+<sp who="#kaneda" n="625" from="00:56:52.341" to="00:56:54.550" >
+<l>There now.
+That's right. Behave.</l>
+</sp>
+
+<sp who="#radiorelay" n="626" from="00:56:54.801" to="00:56:57.345" >
+<l>Ask the colonel for clearance
+on the use of firearms.</l>
+</sp>
+
+<sp who="#kei" n="627" from="00:56:57.471" to="00:56:59.222" >
+<l>Hey. Turn the radio up.</l>
+</sp>
+
+<sp who="#radio1" n="628" from="00:56:59.348" to="00:57:00.973" >
+<l>There must be some mistake here.</l>
+</sp>
+
+<sp who="#radio1" n="629" from="00:57:01.016" to="00:57:03.893" >
+<l>That boy looks like the patient
+admitted in the lab.</l>
+</sp>
+
+<sp who="#radiorelay" n="630" from="00:57:04.019" to="00:57:07.063" >
+<l>Correct. Tetsuo Shima.
+He broke out of his ward.</l>
+</sp>
+
+<sp who="#radiorelay" n="631" from="00:57:07.189" to="00:57:09.190" >
+<l>- He's headed for "the baby room".</l>
+</sp>
+
+<sp who="#kaneda" n="632" from="00:57:09.191" to="00:57:10.399" >
+<l>-It's Tetsuo?</l>
+</sp>
+
+<sp who="#radiorelay" n="633" from="00:57:10.525" to="00:57:15.821" >
+<l>He's extremely dangerous.
+Do not let him through!</l>
+</sp>
+
+<sp who="#labswat" n="634" from="00:57:43.225" to="00:57:45.226" >
+<l>Huh? What...?</l>
+</sp>
+
+<sp who="#tetsuo" n="635" from="00:57:52.567" to="00:57:54.443" >
+<l>It's no use hiding anymore.</l>
+</sp>
+
+<sp who="#labswat" n="636" from="00:57:54.820" to="00:57:56.946" >
+<l>We have no choice, then.
+Use your guns!</l>
+</sp>
+
+<sp who="#labswat" n="637" from="00:57:57.072" to="00:58:00.449" >
+<l>We can't let him go any further,
+no matter what it takes!</l>
+</sp>
+
+<sp who="#labswat" n="638" from="00:58:01.243" to="00:58:02.285" >
+<l>Fire!</l>
+</sp>
+
+<sp who="#tetsuo" n="639" from="00:58:41.950" to="00:58:44.160" >
+<l>Good. All here, are you?</l>
+</sp>
+
+<sp who="#tetsuo" n="640" from="00:58:49.958" to="00:58:51.125" >
+<l>Stop it!</l>
+</sp>
+
+<sp who="#tetsuo" n="641" from="00:58:53.628" to="00:58:56.005" >
+<l>So how long are you gonna
+keep playing around?</l>
+</sp>
+
+<sp who="#tetsuo" n="642" from="00:59:03.221" to="00:59:04.847" >
+<l>Where's the other one
+hiding, huh?</l>
+</sp>
+
+<sp who="#masaru" n="643" from="00:59:06.141" to="00:59:07.641" >
+<l>Hey, you!
+You're a cretin!</l>
+</sp>
+
+<sp who="#tetsuo" n="644" from="00:59:07.809" to="00:59:08.642" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#masaru" n="645" from="00:59:08.977" to="00:59:10.353" >
+<l>Die!</l>
+</sp>
+
+<sp who="#masaru" n="646" from="00:59:13.231" to="00:59:14.690" >
+<l>Takashi!</l>
+</sp>
+
+<sp who="#tetsuo" n="647" from="00:59:24.826" to="00:59:29.830" >
+<l>What the hell is going on
+with me? Am I dreaming?</l>
+</sp>
+
+<sp who="#tetsuo" n="648" from="00:59:30.165" to="00:59:33.209" >
+<l>These powers, are they real
+or just a hallucination?</l>
+</sp>
+<spGrp type="controlScene"><!--ebb: This is associated with a well-formedness error somewhere around here.  -->
+<sp who="#kaneda" n="649" from="00:59:40.842" to="00:59:42.885" >
+<l>Damn it!
+Where the hell am I going?</l>
+</sp>
+
+<sp who="#kei" n="650" from="00:59:43.095" to="00:59:46.389" >
+<l>Proceed straight.
+Proceed straight ahead.</l>
+</sp>
+
+<sp who="#kaneda" n="651" from="00:59:46.932" to="00:59:47.807" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#kei" n="652" from="00:59:47.849" to="00:59:49.892" >
+<l>You'll find a freight elevator just ahead.</l>
+</sp>
+
+<sp who="#kei #kiyoko" n="653" from="00:59:52.187" to="00:59:54.980">
+<l>You can take it down
+to sublevel 8.</l>
+</sp>
+</spGrp>
+<spGrp type="controlScene">
+<sp who="#tetsuo" n="654" from="01:00:03.198" to="01:00:05.866" >
+<l>That's good.
+You're all together.</l>
+</sp>
+
+<sp who="#tetsuo" n="655" from="01:00:07.202" to="01:00:08.744" >
+<l>You thought you could kill me?</l>
+</sp>
+
+<sp who="#tetsuo" n="656" from="01:00:09.037" to="01:00:10.746" >
+<l>I'm through with it.</l>
+</sp>
+
+<sp who="#tetsuo" n="657" from="01:00:10.872" to="01:00:14.750" >
+<l>You tried to mess with me,
+and now I'm gonna kill you!</l>
+</sp>
+
+<sp who="#tetsuo" n="658" from="01:00:15.127" to="01:00:16.252" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#tetsuo" n="659" from="01:00:20.882" to="01:00:22.925" >
+<l>You were there. I remember.</l>
+</sp>
+
+<sp who="#masaru" n="660" from="01:00:23.301" to="01:00:24.093" >
+<l>Takashi!</l>
+</sp>
+
+<sp who="#takashi" n="661" from="01:00:24.219" to="01:00:24.718" >
+<l>- Huh?</l>
+</sp>
+
+<sp who="#masaru" n="662" from="01:00:24.719" to="01:00:26.262" >
+<l>- Together, let's attack him.</l>
+</sp>
+
+<sp who="#takashi" n="663" from="01:00:26.847" to="01:00:27.847" >
+<l>O...Okay.</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="664" from="01:00:33.061" to="01:00:35.020" >
+<l>You little twerps!</l>
+</sp>
+
+<sp who="#colonel" n="665" from="01:00:51.079" to="01:00:53.038" >
+<l>All of you, that is enough!</l>
+</sp>
+
+<sp who="#tetsuo" n="666" from="01:01:01.590" to="01:01:03.716" >
+<l>Who the hell are you?</l>
+</sp>
+
+<sp who="#doctor" n="667" from="01:01:06.761" to="01:01:09.472" >
+<l>What's the matter?
+Is your head hurting?</l>
+</sp>
+
+<sp who="#doctor" n="668" from="01:01:09.598" to="01:01:12.475" >
+<l>Tetsuo Shima, your power
+isn't fully matured yet.</l>
+</sp>
+
+<sp who="#doctor" n="669" from="01:01:12.559" to="01:01:16.437" >
+<l>If you push yourself, you might do
+irreparable damage. We can help.</l>
+</sp>
+
+<sp who="#tetsuo" n="670" from="01:01:16.688" to="01:01:20.316" >
+<l>What the hell?
+What...did you people do?</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="671" from="01:01:20.442" to="01:01:21.817" >
+<l>You messed with my head!</l>
+</sp>
+
+<sp who="#colonel" n="672" from="01:01:30.202" to="01:01:32.119" >
+<l>Tetsuo Shima, calm yourself.</l>
+</sp>
+
+<sp who="#doctor" n="673" from="01:01:32.245" to="01:01:34.163" >
+<l>But he can't control it, sir.</l>
+</sp>
+
+<sp who="#tetsuo" n="674" from="01:01:39.544" to="01:01:40.628" >
+<l>What'd you say?</l>
+</sp>
+
+<sp who="#masaru" n="675" from="01:01:40.795" to="01:01:43.005" >
+<l>She said that big people
+like you...</l>
+</sp>
+
+<sp who="#masaru" n="676" from="01:01:43.131" to="01:01:45.841" >
+<l>should never use the power
+in the way that you are.</l>
+</sp>
+
+<sp who="#takashi" n="677" from="01:01:45.967" to="01:01:47.843" >
+<l>And bad things will come of it.</l>
+</sp>
+
+<sp who="#tetsuo" n="678" from="01:01:48.261" to="01:01:50.638" >
+<l>Mind your own business,
+will you?</l>
+</sp>
+
+<sp who="#tetsuo" n="679" from="01:01:53.391" to="01:01:56.685" >
+<l>What?
+More powerful than I am now?</l>
+</sp>
+
+<sp who="#tetsuo" n="680" from="01:01:59.314" to="01:02:03.859" >
+<l>He's the one! He's the one who's been
+invading my head all along!</l>
+</sp>
+
+<sp who="#tetsuo" n="681" from="01:02:04.152" to="01:02:05.110" >
+<l>Where is he?</l>
+</sp>
+
+<sp who="#tetsuo" n="682" from="01:02:05.237" to="01:02:07.154" >
+<l>Where's this "Akira"?
+Tell me now!</l>
+</sp>
+
+<sp who="#colonel" n="683" from="01:02:07.322" to="01:02:07.947" >
+<l>What?</l>
+</sp>
+
+<sp who="#takashi" n="684" from="01:02:08.073" to="01:02:12.034" >
+<l>Kiyoko says you'll wake him up
+and if you awaken Akira like that...</l>
+</sp>
+    
+<sp who="#takashi" n="685">
+<l>when that happens,
+no one will be able to stop him.</l>
+</sp>
+
+<sp who="#takashi" n="686">
+<l>To prevent it,
+we have to stop you.</l>
+</sp>
+
+<sp who="#colonel" n="687" from="01:02:17.082" to="01:02:18.999" >
+<l>Ridiculous. Akira's already...!</l>
+</sp>
+
+<sp who="#tetsuo" n="688" from="01:02:19.000" to="01:02:21.043" >
+<l>Where is he?</l>
+</sp>
+
+<sp who="#colonel" n="689" from="01:02:23.296" to="01:02:24.338" >
+<l>- No! Don't!</l>
+</sp>
+
+<sp who="#tetsuo" n="690" from="01:02:24.339" to="01:02:25.464" >
+<l>- Stay back!</l>
+</sp>
+</spGrp>
+<sp who="#buildannounce" n="691" from="01:02:31.429" to="01:02:35.224" >
+<l>Red level to facility integrity
+has passed level 7.</l>
+</sp>
+
+<sp who="#buildannounce" n="692" from="01:02:35.350" to="01:02:38.227" >
+<l>Enacting disaster protocol.</l>
+</sp>
+
+<sp who="#buildannounce" n="693" from="01:02:39.437" to="01:02:42.856" >
+<l>Red level to facility integrity
+has passed level 7.</l>
+</sp>
+
+<sp who="#buildannounce" n="694" from="01:02:43.024" to="01:02:45.901" >
+<l>Enacting disaster protocol.</l>
+</sp>
+
+<sp who="#labsoldier1" n="695" from="01:02:46.486" to="01:02:47.570" >
+<l>Wha...?!</l>
+</sp>
+
+<sp who="#kaneda" n="696" from="01:02:54.869" to="01:02:56.870" >
+<l>Hands up! Now!</l>
+</sp>
+
+<sp who="#kaneda" n="697" from="01:02:59.499" to="01:03:01.584" >
+<l>Where in the hell's
+the friggin' baby room?</l>
+</sp>
+
+<sp who="#kaneda" n="698" from="01:03:20.562" to="01:03:22.855" >
+<l>Heads up!</l>
+</sp>
+
+<sp who="#kaneda" n="699" from="01:03:22.981" to="01:03:24.857" >
+<l>Coming through!</l>
+</sp>
+
+<sp who="#masaru" n="700" from="01:03:26.234" to="01:03:27.776" >
+<l>Kiyoko.</l>
+</sp>
+
+<sp who="#kaneda" n="701" from="01:03:48.256" to="01:03:49.548" >
+<l>That hurt.</l>
+</sp>
+
+<sp who="#tetsuo" n="702" from="01:03:49.758" to="01:03:50.633" >
+<l>Kaneda.</l>
+</sp>
+
+<sp who="#tetsuo" n="703" from="01:03:51.009" to="01:03:53.135" >
+<l>What are you doing in here?</l>
+</sp>
+
+<sp who="#kaneda" n="704" from="01:03:55.930" to="01:03:58.807" >
+<l>Tetsuo! You okay?
+I'm here to rescue you.</l>
+</sp>
+
+<sp who="#kaneda" n="705" from="01:04:01.394" to="01:04:03.228" >
+<l>Hurry up!
+What are you, stupid?</l>
+</sp>
+
+<sp who="#kaneda" n="706" from="01:04:03.355" to="01:04:05.397" >
+<l>If we don't get
+out of here, those...</l>
+</sp>
+
+<sp who="#kaneda" n="707" from="01:04:06.107" to="01:04:07.149" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#labsoldiers" n="708" from="01:04:07.359" to="01:04:09.818" >
+<l>There he is! Capture him!</l>
+</sp>
+
+<sp who="#tetsuo" n="709" from="01:04:11.446" to="01:04:13.614" >
+<l>You keep away!</l>
+</sp>
+
+<sp who="#kei" n="710" from="01:04:18.286" to="01:04:19.453" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#tetsuo" n="711" from="01:04:21.873" to="01:04:24.333" >
+<l>Oh, that's right.
+I forgot you were there.</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#tetsuo" n="712" from="01:04:26.461" to="01:04:28.420" >
+<l>There. Do you see, Kaneda?</l>
+</sp>
+
+<sp who="#tetsuo" n="713" from="01:04:28.546" to="01:04:32.299" >
+<l>I won't be needing you to come
+to the rescue ever again, okay?</l>
+</sp>
+
+<sp who="#tetsuo" n="714" from="01:04:33.134" to="01:04:36.011" >
+<l>From now on, I'll be in
+charge of the heroics...</l>
+</sp>
+
+<sp who="#tetsuo" n="715" from="01:04:36.221" to="01:04:39.306" >
+<l>so if you need any saving,
+just ask, Kanny.</l>
+</sp>
+
+<sp who="#kaneda" n="716" from="01:04:39.557" to="01:04:43.852" >
+<l>Damn it, Tetsuo. Who the hell do you think
+you're talking to, you moron?</l>
+</sp>
+
+<sp who="#tetsuo" n="717" from="01:04:44.813" to="01:04:48.023" >
+<l>Ha! You don't like
+what you're hearing, do you?</l>
+</sp>
+
+<sp who="#tetsuo" n="718" from="01:04:48.149" to="01:04:51.360" >
+<l>Makes you angry. So what are
+you gonna do now?</l>
+</sp>
+<milestone type="powers"/>  
+<sp who="#tetsuo" n="719">
+<l>Well, Kaneda?
+What are you gonna do now?</l>
+</sp>
+</spGrp>
+<sp who="#kiyoko" n="720" from="01:05:04.666" to="01:05:06.375" >
+<l>That's enough!</l>
+</sp>
+
+<sp who="#kiyoko" n="721" from="01:05:07.001" to="01:05:09.878" >
+<l>Stop it!
+Don't hurt anyone else!</l>
+</sp>
+
+<sp who="#tetsuo" n="722" from="01:05:11.423" to="01:05:13.382" >
+<l>Where's this Akira?</l>
+</sp>
+
+<sp who="#kiyoko" n="723" from="01:05:14.175" to="01:05:15.050" >
+<l>I won't tell.</l>
+</sp>
+
+<sp who="#tetsuo" n="724" from="01:05:16.344" to="01:05:19.054" >
+<l>Olympic stadium...
+Underground.</l>
+</sp>
+
+<sp who="#kiyoko" n="725" from="01:05:19.514" to="01:05:22.558" >
+<l>No! Don't! What you're
+thinking is wrong! Akira is......</l>
+</sp>
+
+<sp who="#kiyoko" n="726" from="01:05:24.602" to="01:05:25.811" >
+<l>Oh! Wait!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="727" from="01:05:35.905" to="01:05:36.947" >
+<l>What the hell?</l>
+</sp>
+
+<sp who="#tetsuo" n="728" from="01:05:37.782" to="01:05:40.367" >
+<l>I can do this too?</l>
+</sp>
+
+<sp who="#masaru" n="729" from="01:05:46.541" to="01:05:48.542" >
+<l>Kiyoko, are you all right?</l>
+</sp>
+
+<sp who="#takashi" n="730" from="01:05:48.793" to="01:05:50.377" >
+<l>It doesn't look like she's hurt.</l>
+</sp>
+
+<sp who="#kiyoko" n="731" from="01:05:50.545" to="01:05:53.380" >
+<l>What about you, Masaru?
+You're bleeding.</l>
+</sp>
+
+<sp who="#masaru" n="732" from="01:05:53.381" to="01:05:54.882" >
+<l>Where'd he go to?</l>
+</sp>
+
+<sp who="#kiyoko" n="733" from="01:05:55.800" to="01:05:56.842" >
+<l>He flew away.</l>
+</sp>
+
+<sp who="#masaru" n="734" from="01:05:56.885" to="01:05:59.011" >
+<l>How can he have so
+much power?</l>
+</sp>
+
+<sp who="#colonel" n="735" from="01:06:01.473" to="01:06:03.265" >
+<l>How could this have happened?</l>
+</sp>
+
+<sp who="#colonel" n="736" from="01:06:03.391" to="01:06:05.350" >
+<l>Damn it!
+Where are my men at?</l>
+</sp>
+
+<sp who="#doctor" n="737" from="01:06:05.477" to="01:06:09.021" >
+<l>He's developed so much power
+in such a short time, it's unbelievable.</l>
+</sp>
+
+<sp who="#colonel" n="738" from="01:06:09.397" to="01:06:11.523" >
+<l>Find him!
+Start searching for Tetsuo.</l>
+</sp>
+
+<sp who="#labsoldiers" n="739" from="01:06:11.816" to="01:06:12.149" >
+<l>- Find him!</l>
+</sp>
+
+<sp who="#kei" n="740" from="01:06:12.150" to="01:06:14.276" >
+<l>- Kaneda, come on! Get up!</l>
+</sp>
+
+<sp who="#woundedsoldier" n="741" from="01:06:15.236" to="01:06:17.446" >
+<l>Somebody, help me
+with this rock.</l>
+</sp>
+
+<sp who="#kiyoko" n="742" from="01:06:20.074" to="01:06:21.575" >
+<l>- Tetsuo went to where Akira is.</l>
+</sp>
+
+<sp who="#colonel" n="743" from="01:06:21.576" to="01:06:22.284" >
+<l>- What?</l>
+</sp>
+
+<sp who="#colonel">
+<l>That's good.
+You're all safe.</l>
+</sp>
+
+<sp who="#kiyoko" n="745" from="01:06:25.914" to="01:06:29.625" >
+<l>He's heading for the facility below
+the Olympic construction site.</l>
+</sp>
+
+<sp who="#colonel" n="746" from="01:06:29.751" to="01:06:31.794" >
+<l>How'd he find out about it?</l>
+</sp>
+
+<sp who="#colonel" n="747" from="01:06:35.590" to="01:06:38.884" >
+<l>Damn it! You're saying
+that he's managed to escape?</l>
+</sp>
+
+<sp who="#colonel" n="748" from="01:06:42.388" to="01:06:44.973" >
+<l>Then we'll follow him.
+Prepare for pursuit!</l>
+</sp>
+
+<sp who="#colonel" n="749" from="01:06:45.183" to="01:06:46.266" >
+<l>- He's heading west toward the stadium.</l>
+</sp>
+
+<sp who="#colonel" n="750" from="01:06:46.267" to="01:06:48.310" >
+<l>- He's heading west toward the stadium.
+- Come on! Move!</l>
+</sp>
+
+<sp who="#colonel" n="751" from="01:06:48.353" to="01:06:51.647" >
+<l>I want additional checkpoints on all outbound
+streets leading to the construction site.</l>
+</sp>
+
+<sp who="#kei" n="752" from="01:06:52.190" to="01:06:53.816" >
+<l>It was you.</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#armysarge" n="753" from="01:07:00.198" to="01:07:02.074" >
+<l>According
+to the security team...</l>
+</sp>
+
+<sp who="#armysarge" n="754" from="01:07:02.200" to="01:07:04.827" >
+<l>reviews of tapes showed five
+intruders disguised as workers...</l>
+</sp>
+
+<sp who="#armysarge" n="755">
+<l>entering the wiring shaft.</l>
+</sp>
+
+<sp who="#colonel" n="756" from="01:07:06.788" to="01:07:09.832">
+<l>I have to stop him
+before his powers mature.</l>
+</sp>
+</spGrp>
+<spGrp type="controlScene">
+<sp who="#colonel" n="757" from="01:07:12.210" to="01:07:13.961" >
+<l>Your objective is the boy,
+Tetsuo Shima.</l>
+</sp>
+
+<sp who="#colonel" n="758" from="01:07:14.212" to="01:07:18.257" >
+<l>If we are unable to capture him,
+we'll lure him out to the old city and attack.</l>
+</sp>
+
+<sp who="#colonel" n="759" from="01:07:18.383" to="01:07:20.759" >
+<l>Request assistance from
+the Eastern district battalion.</l>
+</sp>
+
+<sp who="#soldier4" n="760" from="01:07:20.885" to="01:07:21.468" >
+<l>- Yes, sir.</l>
+</sp>
+
+<sp who="#colonel" n="761" from="01:07:21.469" to="01:07:23.971" >
+<l>- Tell them there isn't a moment to lose here.</l>
+</sp>
+
+<sp who="#arrestofficer" n="762">
+<l>I've been waiting here
+a long time, Colonel.</l>
+</sp>
+
+<sp who="#armysarge" n="763" from="01:07:29.269" to="01:07:31.436" >
+<l>What are you doing here?</l>
+</sp>
+
+<sp who="#arrestofficer" n="764" from="01:07:32.647" to="01:07:36.859" >
+<l>I'm here to inform you of the supreme
+executive council's decision.</l>
+</sp>
+
+<sp who="#arrestofficer" n="765" from="01:07:38.611" to="01:07:41.154" >
+<l>"At 2400 hours today,
+the colonel is hereby..."</l>
+</sp>
+
+<sp who="#arrestofficer" n="766" from="01:07:41.281" to="01:07:43.156" >
+<l>"stripped of his command
+and rank..."</l>
+</sp>
+
+<sp who="#arrestofficer" n="767" from="01:07:43.283" to="01:07:45.200" >
+<l>"and shall be placed
+under arrest."</l>
+</sp>
+
+<sp who="#armysarge" n="768" from="01:07:45.493" to="01:07:47.202" >
+<l>What the hell?</l>
+</sp>
+
+<sp who="#arrestofficer" n="769" from="01:07:47.495" to="01:07:49.830" >
+<l>Kindly accompany us now.</l>
+</sp>
+
+<sp who="#colonel" n="770" from="01:07:50.081" to="01:07:54.877" >
+<l>You really expect me to hand Neo Tokyo
+over to those fools at a time like this?</l>
+</sp>
+
+<sp who="#colonel" n="771" from="01:07:56.462" to="01:07:57.504" >
+<l>- Shoot him.</l>
+</sp>
+
+<sp who="#armysarge" n="772" from="01:07:57.505" to="01:07:58.338" >
+<l>- Yes, sir.</l>
+</sp>
+
+<sp who="#arrestofficer" n="773" from="01:07:58.631" to="01:08:01.717" >
+<l>What? No! Wait!
+Hold on! No!</l>
+</sp>
+
+<sp who="#colonel" n="774" from="01:08:03.678" to="01:08:07.180" >
+<l>Enough! Open your eyes
+and look at the big picture!</l>
+</sp>
+
+<sp who="#colonel" n="775" from="01:08:07.307" to="01:08:09.892" >
+<l>You're all puppets of corrupt
+politicians and capitalists!</l>
+</sp>
+
+<sp who="#colonel" n="776" from="01:08:14.814" to="01:08:18.233" >
+<l>Don't you understand?
+It's utterly pointless to fight each other.</l>
+</sp>
+
+<sp who="#colonel" n="777" from="01:08:22.530" to="01:08:27.075" >
+<l>Announce a state of emergency,
+and arrest all members of the executive council.</l>
+</sp>
+
+<sp who="#colonel" n="778" from="01:08:27.201" to="01:08:29.202" >
+<l>Break their chain of command.</l>
+</sp>
+
+<sp who="#colonel" n="779" from="01:08:29.329" to="01:08:31.413" >
+<l>Lift off!
+We're going after Tetsuo.</l>
+</sp>
+
+<sp who="#helisoldier" n="780" from="01:08:31.706" to="01:08:33.415" >
+<l>Urgent message. Repeat, urgent.</l>
+</sp>
+
+<sp who="#helisoldier" n="781" from="01:08:33.541" to="01:08:35.417" >
+<l>To all district
+battalion commanders.</l>
+</sp>
+</spGrp>
+<sp who="#bartend" n="782" from="01:08:45.386" to="01:08:49.097" >
+<l>Yo! What's up?
+You're alone?</l>
+</sp>
+
+<sp who="#bartend" n="783" from="01:08:51.059" to="01:08:53.936" >
+<l>That's right.
+Weren't you in an accident?</l>
+</sp>
+
+<sp who="#bartend" n="784" from="01:08:54.062" to="01:08:56.939" >
+<l>Your friends have been
+really worried. You okay?</l>
+</sp>
+
+<sp who="#tetsuo" n="785" from="01:08:57.231" to="01:08:59.691" >
+<l>Give me some...capsules.</l>
+</sp>
+
+<sp who="#bartend" n="786" from="01:09:00.026" to="01:09:02.736" >
+<l>Huh? You sure
+you want capsules, son?</l>
+</sp>
+
+<sp who="#bartend" n="787" from="01:09:02.862" to="01:09:04.780" >
+<l>You look kinda woozy.</l>
+</sp>
+
+<sp who="#tetsuo" n="788" from="01:09:05.073" to="01:09:06.782" >
+<l>You better get 'em now.</l>
+</sp>
+
+<sp who="#bartend" n="789" from="01:09:07.241" to="01:09:08.116" >
+<l>All right.</l>
+</sp>
+
+<sp who="#bartend" n="790" from="01:09:08.242" to="01:09:11.954" >
+<l>Whatever the customer wants, you know,
+but with all those terrorist attacks lately...</l>
+</sp>
+
+<sp who="#bartend" n="791" from="01:09:12.080" to="01:09:14.581" >
+<l>and the demonstrations,
+things are pretty rough.</l>
+</sp>
+
+<sp who="#bartend" n="792" from="01:09:14.832" to="01:09:18.877" >
+<l>In fact, they're hard to come by, so the price
+is pretty expensive, right?</l>
+</sp>
+
+<sp who="#yamagata" n="793" from="01:09:25.093" to="01:09:28.136" >
+<l>Tetsuo's run off somewhere,
+Kaneda's disappeared.</l>
+</sp>
+
+<sp who="#yamagata" n="794">
+<l>Damn, I guess
+the team is finished.</l>
+</sp>
+
+<sp who="#kai" n="795" from="01:09:29.931" to="01:09:32.599" >
+<l>And the checkpoints are
+so strict these days.</l>
+</sp>
+
+<sp who="#kai" n="796" from="01:09:32.767" to="01:09:34.977" >
+<l>Even the Clowns are
+laying low.</l>
+</sp>
+
+<sp who="#kai" n="797" from="01:09:44.070" to="01:09:45.195" >
+<l>Look!</l>
+</sp>
+
+<sp who="#kai" n="798" from="01:09:49.283" to="01:09:50.659" >
+<l>He's dead!</l>
+</sp>
+
+<sp who="#yamagata" n="799" from="01:09:50.743" to="01:09:51.576" >
+<l>What?</l>
+</sp>
+
+<sp who="#kai" n="800" from="01:09:53.371" to="01:09:55.247" >
+<l>Who's that?</l>
+</sp>
+
+<sp who="#yamagata" n="801" from="01:10:01.129" to="01:10:02.254" >
+<l>It's Tetsuo.</l>
+</sp>
+
+<sp who="#kai" n="802" from="01:10:02.380" to="01:10:06.091" >
+<l>Why... Why are you here?</l>
+</sp>
+
+<sp who="#tetsuo" n="803" from="01:10:06.968" to="01:10:09.594" >
+<l>Look who's here.
+Wanna pop one?</l>
+</sp>
+
+<sp who="#yamagata" n="804" from="01:10:09.971" to="01:10:11.596" >
+<l>What the hell are you talking about?</l>
+</sp>
+
+<sp who="#yamagata" n="805">
+<l>What happened here?</l>
+</sp>
+
+<sp who="#yamagata" n="806" from="01:10:13.725" to="01:10:15.851" >
+<l>Did you notice that
+the owner's dead?</l>
+</sp>
+
+<sp who="#tetsuo" n="807" from="01:10:19.230" to="01:10:22.024" >
+<l>An octopus out of water dies, huh?</l>
+</sp>
+
+<sp who="#yamagata" n="808" from="01:10:22.316" to="01:10:24.943" >
+<l>Are you...Tetsuo...</l>
+</sp>
+
+<sp who="#yamagata" n="809" from="01:10:25.069" to="01:10:26.486" >
+<l>- or someone else?</l>
+</sp>
+
+<sp who="#kai" n="810" from="01:10:26.487" to="01:10:27.195" >
+<l>- Huh?</l>
+</sp>
+
+<sp who="#tetsuo" n="811" from="01:10:28.322" to="01:10:30.365" >
+<l>Kaneda sends
+his warmest regards.</l>
+</sp>
+
+<sp who="#yamagata" n="812" from="01:10:30.491" to="01:10:32.200" >
+<l>You saw Kaneda?</l>
+</sp>
+
+<sp who="#tetsuo" n="813" from="01:10:32.452" to="01:10:34.453" >
+<l>He's probably dead by now.</l>
+</sp>
+
+<sp who="#yamagata" n="814" from="01:10:37.498" to="01:10:41.376" >
+<l>You did this, didn't you?</l>
+</sp>
+
+<sp who="#tetsuo" n="815" from="01:10:41.502" to="01:10:45.881" >
+<l>All you're good for now is telling
+me where Kaneda's bike is.</l>
+</sp>
+
+<sp who="#yamagata" n="816" from="01:10:46.007" to="01:10:47.549" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#tetsuo" n="817" from="01:10:47.675" to="01:10:50.218" >
+<l>It's a piece of shit anyway.</l>
+</sp>
+
+<sp who="#yamagata" n="818" from="01:10:50.344" to="01:10:52.387" >
+<l>You son of a bitch!</l>
+</sp>
+
+<sp who="#kai" n="819" from="01:10:57.518" to="01:10:58.685" >
+<l>Yamagata!</l>
+</sp>
+
+<sp who="#yamagata" n="820" from="01:11:05.318" to="01:11:07.736" >
+<l>Goddamn it!</l>
+</sp>
+
+<sp who="#kaneda" n="821" from="01:11:14.535" to="01:11:16.328" >
+<l>So is he off to find Akira?</l>
+</sp>
+
+<sp who="#kei" n="822" from="01:11:16.496" to="01:11:18.413" >
+<l>Yes, that's what that girl was saying.</l>
+</sp>
+
+<sp who="#kaneda" n="823" from="01:11:18.706" to="01:11:20.665" >
+<l>Now, the army,
+Ryu and yourself...</l>
+</sp>
+
+<sp who="#kaneda" n="824" from="01:11:20.792" to="01:11:23.001" >
+<l>are all trying at once
+to find this Akira guy...</l>
+</sp>
+
+<sp who="#kaneda" n="825" from="01:11:23.127" to="01:11:25.253" >
+<l>and that's also why you're
+chasing after Tetsuo.</l>
+</sp>
+
+<sp who="#kaneda" n="826" from="01:11:25.505" to="01:11:28.381" >
+<l>It must have to do
+with the powers he's got.</l>
+</sp>
+
+<sp who="#kaneda" n="827" from="01:11:28.508" to="01:11:31.510" >
+<l>What the hell is this Akira thing?</l>
+</sp>
+
+<sp who="#kei" n="828" from="01:11:34.222" to="01:11:36.598" >
+<l>I asked Ryu one time.</l>
+</sp>
+
+<sp who="#kei" n="829" from="01:11:36.724" to="01:11:39.851" >
+<l>He told me that Akira
+is ultimate energy.</l>
+</sp>
+
+<sp who="#kaneda" n="830" from="01:11:40.019" to="01:11:41.770" >
+<l>"Ultimate energy"?</l>
+</sp>
+
+<sp who="#kei" n="831" from="01:11:41.896" to="01:11:45.941" >
+<l>Humans do all kinds of things
+during their lifetime, right?</l>
+</sp>
+
+<sp who="#kei" n="832" from="01:11:46.067" to="01:11:48.110" >
+<l>Discover things......</l>
+</sp>
+
+<sp who="#kei" n="833" from="01:11:48.236" to="01:11:50.695" >
+<l>Build things......</l>
+</sp>
+
+<sp who="#kei" n="834" from="01:11:50.822" to="01:11:53.115" >
+<l>Things like houses, motorcycles...</l>
+</sp>
+
+<sp who="#kei" n="835" from="01:11:54.200" to="01:11:57.452" >
+<l>bridges and cities, rockets......</l>
+</sp>
+
+<sp who="#kei" n="836" from="01:11:58.246" to="01:12:01.456" >
+<l>So where do you suppose all that
+knowledge and energy comes from?</l>
+</sp>
+
+<sp who="#kei" n="837" from="01:12:03.709" to="01:12:06.461" >
+<l>Humans were once
+like monkeys, right?</l>
+</sp>
+
+<sp who="#kei" n="838" from="01:12:07.171" to="01:12:09.131" >
+<l>And before that,
+like reptiles...</l>
+</sp>
+
+<sp who="#kei" n="839" from="01:12:09.257" to="01:12:10.882" >
+<l>and fish...</l>
+</sp>
+
+<sp who="#kei" n="840" from="01:12:10.925" to="01:12:14.469" >
+<l>and even before that,
+plankton and amoebas.</l>
+</sp>
+
+<sp who="#kei" n="841" from="01:12:14.595" to="01:12:18.974" >
+<l>Even little creatures like those
+have incredible amount of energy inside them.</l>
+</sp>
+
+<sp who="#kaneda" n="842" from="01:12:19.392" to="01:12:22.644" >
+<l>Oh, yes...
+It's in the genes, right?</l>
+</sp>
+
+<sp who="#kei" n="843" from="01:12:23.020" to="01:12:24.646" >
+<l>And even before that.</l>
+</sp>
+
+<sp who="#kei" n="844" from="01:12:24.772" to="01:12:27.983" >
+<l>Maybe there was genetic
+material in the air and water...</l>
+</sp>
+
+<sp who="#kei" n="845" from="01:12:28.109" to="01:12:29.985" >
+<l>even in the particles
+of dust in space.</l>
+</sp>
+
+<sp who="#kei" n="846" from="01:12:30.403" to="01:12:34.739" >
+<l>And if that's the truth, then what sort of memories
+are hidden within them?</l>
+</sp>
+
+<sp who="#kei" n="847" from="01:12:34.949" to="01:12:38.827" >
+<l>The beginning of the universe?
+Or maybe even before that.</l>
+</sp>
+
+<sp who="#kaneda" n="848" from="01:12:38.953" to="01:12:42.831" >
+<l>What's with all the crazy talk?
+Are you sure you're okay?</l>
+</sp>
+
+<sp who="#kaneda" n="849" from="01:12:42.957" to="01:12:45.292" >
+<l>Listen to yourself. Did you get
+bonked on the head back there?</l>
+</sp>
+
+<sp who="#kei" n="850" from="01:12:45.585" to="01:12:48.837" >
+<l>And what if everyone shares
+those ancient memories?</l>
+</sp>
+
+<sp who="#kei" n="851" from="01:12:49.130" to="01:12:52.132" >
+<l>What if there were some mistakes
+in the progression?</l>
+</sp>
+
+<sp who="#kei" n="852" from="01:12:52.258" to="01:12:54.801" >
+<l>Then something goes wrong,
+like an amoeba is suddenly given...</l>
+</sp>
+
+<sp who="#kei" n="853" from="01:12:54.927" to="01:12:57.012" >
+<l>the higher powers
+that a human has.</l>
+</sp>
+
+<sp who="#kaneda" n="854" from="01:12:58.556" to="01:13:00.307" >
+<l>Akira is an amoeba then?</l>
+</sp>
+
+<sp who="#kei" n="855" from="01:13:01.309" to="01:13:04.019" >
+<l>Amoebas don't build their own
+houses and bridges, do they?</l>
+</sp>
+
+<sp who="#kei" n="856" from="01:13:04.395" to="01:13:07.105" >
+<l>They just devour all the food
+they can find around them.</l>
+</sp>
+
+<sp who="#kaneda" n="857" from="01:13:07.315" to="01:13:09.482" >
+<l>Is that what Tetsuo's doing?</l>
+</sp>
+
+<sp who="#kaneda" n="858" from="01:13:09.609" to="01:13:11.610" >
+<l>Are you saying he has
+that kind of energy?</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#kei #kiyoko" n="859" from="01:13:11.986" to="01:13:13.695" >
+<l>Long ago...</l>
+</sp>
+
+<sp who="#kei #kiyoko" n="860" from="01:13:13.821" to="01:13:16.990" >
+<l>there were people who tried
+to gain control of that power.</l>
+</sp>
+
+<sp who="#kei #kiyoko" n="861" from="01:13:17.116" to="01:13:19.159" >
+<l>That is, all of the government's
+requests.</l>
+</sp>
+
+<sp who="#kei #kiyoko" n="862" from="01:13:19.327" to="01:13:23.663" >
+<l>But they failed in their attempt,
+and it triggered the fall of Tokyo.</l>
+</sp>
+
+<sp who="#kei #kiyoko" n="863" from="01:13:24.749" to="01:13:26.625" >
+<l>And that power is...</l>
+</sp>
+
+<sp who="#kei #kiyoko" n="864" from="01:13:26.751" to="01:13:28.710" >
+<l>something that is
+totally beyond our......</l>
+</sp>
+</spGrp>
+<sp who="#kaneda" n="865" from="01:13:30.671" to="01:13:31.630" >
+<l>Wha...!</l>
+</sp>
+
+<sp who="#kei" n="866" from="01:13:32.506" to="01:13:33.673" >
+<l>The door's unlocked.</l>
+</sp>
+
+<sp who="#kaneda" n="867" from="01:13:37.511" to="01:13:38.637" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#kaneda" n="868" from="01:13:43.935" to="01:13:47.187" >
+<l>It's a trap.
+This is just too good of a setup.</l>
+</sp>
+
+<sp who="#kei" n="869" from="01:13:47.313" to="01:13:48.188" >
+<l>- Go back, then.</l>
+</sp>
+
+<sp who="#kaneda" n="870">
+<l>- No way.</l>
+</sp>
+
+<sp who="#kaneda" n="871" from="01:13:49.315" to="01:13:51.816" >
+<l>I wanna find out how much
+of a trap it is, don't you?</l>
+</sp>
+
+<sp who="#kaneda" n="872" from="01:13:53.778" to="01:13:55.737" >
+<l>By the way...</l>
+</sp>
+
+<sp who="#kaneda" n="873" from="01:13:55.863" to="01:13:58.573" >
+<l>what's going on with you
+and that Ryu guy?</l>
+</sp>
+
+<sp who="#kei" n="874" from="01:13:58.699" to="01:14:00.367" >
+<l>What in the world
+are you talking about?</l>
+</sp>
+
+<sp who="#kaneda" n="875" from="01:14:00.534" to="01:14:01.493" >
+<l>- You're always together.</l>
+</sp>
+
+<sp who="#kei" n="876" from="01:14:01.494" to="01:14:03.161" >
+<l>- That's none of your business.</l>
+</sp>
+
+<sp who="#kaneda" n="877" from="01:14:04.497" to="01:14:06.081" >
+<l>No, wait. Hear me out.</l>
+</sp>
+
+<sp who="#kaneda" n="878" from="01:14:06.290" to="01:14:09.167" >
+<l>What I'm saying is, he doesn't
+know about us, does he?</l>
+</sp>
+
+<sp who="#kei" n="879" from="01:14:09.377" to="01:14:13.505" >
+<l>"About us"? Hey, wait a minute.
+What's that supposed to mean?</l>
+</sp>
+
+<sp who="#masaru" n="880" from="01:14:13.673" to="01:14:15.215" >
+<l>- Do you think it'll work?</l>
+</sp>
+
+<sp who="#takashi" n="881" from="01:14:15.216" to="01:14:17.008" >
+<l>- It can't be helped.</l>
+</sp>
+
+<sp who="#takashi" n="882" from="01:14:17.134" to="01:14:21.388" >
+<l>At this point in time, our only
+option left is to use her.</l>
+</sp>
+
+<sp who="#kiyoko" n="883" from="01:14:21.514" to="01:14:23.598" >
+<l>Well, the fact that,
+without us even looking...</l>
+</sp>
+
+<sp who="#kiyoko" n="884" from="01:14:23.724" to="01:14:26.268" >
+<l>she turned up right under
+our noses, says as much.</l>
+</sp>
+
+<sp who="#kiyoko" n="885" from="01:14:26.394" to="01:14:28.395" >
+<l>- What do you think?</l>
+</sp>
+
+<sp who="#masaru" n="886" from="01:14:28.396" to="01:14:29.562" >
+<l>- I guess so.</l>
+</sp>
+
+<sp who="#tankcommand1" n="887" from="01:14:43.911" to="01:14:47.789" >
+<l>We have arrived at ward 13,
+East Ginza intersection. Over.</l>
+</sp>
+
+<sp who="#helisoldier" n="888" from="01:14:47.915" to="01:14:50.542" >
+<l>Northern district battalion has not
+responded to mobilization request!</l>
+</sp>
+
+<sp who="#searchcommand" n="889" from="01:14:51.419" to="01:14:53.962" >
+<l>Special search team to H.Q.
+Special search team to H.Q.</l>
+</sp>
+
+<sp who="#searchcommand" n="890" from="01:14:54.255" to="01:14:57.549" >
+<l>We're at the Harukiya bar near
+the highway interchange at ward 8.</l>
+</sp>
+
+<sp who="#searchcommand" n="891" from="01:14:57.717" to="01:15:01.469" >
+<l>It doesn't look like a bomb explosion
+to us, so we think it was him.</l>
+</sp>
+
+<sp who="#searchcommand" n="892" from="01:15:01.595" to="01:15:04.055" >
+<l>No, sir, it wasn't
+a gas explosion either.</l>
+</sp>
+
+<sp who="#searchcommand" n="893" from="01:15:04.348" to="01:15:07.475" >
+<l>It was almost certainly the work of
+the subject that escaped from the lab.</l>
+</sp>
+
+<sp who="#searchcommand" n="894" from="01:15:08.436" to="01:15:10.312" >
+<l>Yes, sir. Yes, sir.
+Understood.</l>
+</sp>
+
+<sp who="#kai" n="895" from="01:15:16.569" to="01:15:18.820" >
+<l>Kaneda, wait!</l>
+</sp>
+
+<sp who="#kaneda" n="896" from="01:15:19.947" to="01:15:22.324" >
+<l>What? Yamagata's dead?</l>
+</sp>
+
+<sp who="#kai" n="897" from="01:15:22.575" to="01:15:25.452" >
+<l>Something seemed strange about him
+the second I saw his face.</l>
+</sp>
+
+<sp who="#kai" n="898" from="01:15:25.578" to="01:15:28.163" >
+<l>It's odd. He was wearing what
+looked like a white hospital gown.</l>
+</sp>
+
+<sp who="#kai" n="899" from="01:15:28.289" to="01:15:30.332" >
+<l>He acted like a different person.</l>
+</sp>
+
+<sp who="#kai" n="900" from="01:15:31.792" to="01:15:34.336" >
+<l>Yamagata asked him
+if he was really Tetsuo...</l>
+</sp>
+
+<sp who="#kai" n="901" from="01:15:34.378" to="01:15:35.920" >
+<l>or if he was someone else.</l>
+</sp>
+
+<sp who="#kai" n="902" from="01:15:36.380" to="01:15:40.842" >
+<l>And then he... Yamagata!
+Why?</l>
+</sp>
+
+<sp who="#kaneda" n="903" from="01:15:43.888" to="01:15:46.014" >
+<l>We've always been together.</l>
+</sp>
+
+<sp who="#kaneda" n="904" from="01:15:46.140" to="01:15:48.183" >
+<l>I've known everything
+about him ever...</l>
+</sp>
+
+<sp who="#kaneda" n="905" from="01:15:50.311" to="01:15:52.854" >
+<l>ever since we were
+in the children's home together.</l>
+</sp>
+
+<sp who="#kaneda" n="906" from="01:15:52.980" to="01:15:56.524" >
+<l>They tease... Everybody
+tried to make him cry.</l>
+</sp>
+
+<sp who="#kai" n="907" from="01:15:58.152" to="01:16:01.363" >
+<l>Oh. He really wanted to know
+where your bike was at.</l>
+</sp>
+
+<sp who="#kaneda" n="908" from="01:16:01.989" to="01:16:04.199" >
+<l>Where my bike was?</l>
+</sp>
+
+<sp who="#kai" n="909" from="01:16:12.500" to="01:16:14.459" >
+<l>What are you gonna do?</l>
+</sp>
+
+<sp who="#kaneda" n="910" from="01:16:15.002" to="01:16:17.379" >
+<l>I'm gonna go send
+Yamagata his wheels.</l>
+</sp>
+
+<sp who="#kaneda" n="911" from="01:16:22.009" to="01:16:24.386" >
+<l>You dumb bastard!</l>
+</sp>
+
+<sp who="#kai" n="912" from="01:16:27.807" to="01:16:29.182" >
+<l>Kaneda!</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#kaneda" n="913" from="01:16:45.449" to="01:16:46.408" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#kaneda" n="914" from="01:16:46.867" to="01:16:48.076" >
+<l>What's wrong?</l>
+</sp>
+
+<sp who="#kaneda" n="915" from="01:16:52.373" to="01:16:54.874" >
+<l>That night. You were there.</l>
+</sp>
+
+<sp who="#kaneda" n="916" from="01:16:58.879" to="01:17:00.213" >
+<l>Wait!</l>
+</sp>
+
+<sp who="#kaneda" n="917" from="01:17:06.053" to="01:17:07.220" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#kai" n="918" from="01:17:11.475" to="01:17:12.934" >
+<l>They're gone!</l>
+</sp>
+
+<sp who="#kaneda" n="919">
+<l>You're the one, right?
+You changed my friend, didn't you?</l>
+</sp>
+
+<sp who="#kiyoko" n="920" from="01:17:17.690" to="01:17:19.399" >
+<l>The thing about Akira's power is...</l>
+</sp>
+
+<sp who="#kiyoko" n="921" from="01:17:19.525" to="01:17:22.110" >
+<l>it exists within everyone
+from the start.</l>
+</sp>
+
+<sp who="#kaneda" n="922" from="01:17:22.236" to="01:17:23.778" >
+<l>Hey, who is that?</l>
+</sp>
+
+<sp who="#kiyoko" n="923" from="01:17:25.239" to="01:17:27.866" >
+<l>But when that power
+is awakened inside...</l>
+</sp>
+
+<sp who="#kiyoko" n="924" from="01:17:27.992" to="01:17:31.286" >
+<l>it is important to wisely
+choose how to use it.</l>
+</sp>
+
+<sp who="#kiyoko" n="925" from="01:17:31.745" to="01:17:34.122" >
+<l>When the time comes,
+you might not know it...</l>
+</sp>
+
+<sp who="#kiyoko" n="926" from="01:17:34.248" to="01:17:36.416" >
+<l>let alone be prepared for it.</l>
+</sp>
+
+<sp who="#kiyoko" n="927" from="01:17:37.418" to="01:17:40.295" >
+<l>Your friend
+has already made his choice.</l>
+</sp>
+
+
+<sp who="#kiyoko" n="928">
+<l>Tetsuo is our newest companion.</l>
+</sp>
+
+<sp who="#kiyoko" n="929" from="01:17:44.091" to="01:17:46.134" >
+<l>He's our friend also.</l>
+</sp>
+
+<sp who="#kiyoko" n="930" from="01:17:47.428" to="01:17:49.304" >
+<l>His actions are out of control...</l>
+</sp>
+
+<sp who="#kiyoko" n="931" from="01:17:49.430" to="01:17:51.306" >
+<l>and for that
+we're partly to blame too.</l>
+</sp>
+
+<sp who="#kaneda" n="932" from="01:17:51.599" to="01:17:54.309" >
+<l>Great! Then what in the hell
+did you take Kei for?</l>
+</sp>
+
+<sp who="#kiyoko" n="933" from="01:17:54.602" to="01:17:57.312" >
+<l>We're hoping she'll be able
+to help us in some way.</l>
+</sp>
+
+<sp who="#kaneda" n="934" from="01:17:57.605" to="01:18:00.648" >
+<l>They're people, not toys!
+Bring her back to me!</l>
+</sp>
+
+<sp who="#kaneda" n="935" from="01:18:00.774" to="01:18:02.817" >
+<l>And Tetsuo's our friend,
+not yours!</l>
+</sp>
+
+<sp who="#kaneda" n="936" from="01:18:02.943" to="01:18:04.986" >
+<l>If someone's gonna kill him,
+it should be us!</l>
+</sp>
+
+<sp who="#kaneda" n="937" from="01:18:07.781" to="01:18:08.823" >
+<l>Hey!</l>
+</sp>
+</spGrp>
+<sp who="#nezuassist" n="938" from="01:18:11.744" to="01:18:15.830" >
+<l>Are you sure? Mr. Omi and the others
+have been arrested in the coup d'etat?</l>
+</sp>
+
+<sp who="#nezuassist" n="939" from="01:18:16.123" to="01:18:20.335" >
+<l>Yes, that's right. The house guards
+are fighting them right now.</l>
+</sp>
+
+<sp who="#nezuassist" n="940" from="01:18:20.461" to="01:18:24.506" >
+<l>Yes. I'd like to have
+a helicopter waiting. Yes.</l>
+</sp>
+
+<sp who="#nezu" n="941" from="01:18:26.091" to="01:18:29.093" >
+<l>That damn Colonel! I can't
+believe he's taken up arms.</l>
+</sp>
+
+<sp who="#nezu" n="942" from="01:18:31.805" to="01:18:33.765" >
+<l>I've underestimated him.</l>
+</sp>
+
+<sp who="#nezuguard" n="943" from="01:18:38.312" to="01:18:40.188" >
+<l>Hold them here!</l>
+</sp>
+
+<sp who="#ryu" n="944" from="01:19:10.761" to="01:19:13.137" >
+<l>Mr. Nezu, I......</l>
+</sp>
+
+<sp who="#nezu" n="945" from="01:19:13.514" to="01:19:16.140" >
+<l>Oh! Ryu, is that you?</l>
+</sp>
+
+<sp who="#ryu" n="946" from="01:19:16.433" to="01:19:18.393" >
+<l>I came to apologize, sir.</l>
+</sp>
+
+<sp who="#ryu" n="947" from="01:19:18.519" to="01:19:20.728" >
+<l>The mission was a failure.</l>
+</sp>
+
+<sp who="#nezu" n="948" from="01:19:21.021" to="01:19:24.857" >
+<l>Damn you! I told you,
+you can't be seen here!</l>
+</sp>
+
+<sp who="#ryu" n="949" from="01:19:26.485" to="01:19:29.070" >
+<l>My two best men, they're dead.</l>
+</sp>
+
+<sp who="#ryu" n="950" from="01:19:29.280" to="01:19:30.572" >
+<l>Everyone was killed.</l>
+</sp>
+
+<sp who="#nezu" n="951" from="01:19:30.656" to="01:19:33.700" >
+<l>You bastard! You sold me out!</l>
+</sp>
+
+<sp who="#ryu" n="952" from="01:19:33.826" to="01:19:35.201" >
+<l>What?</l>
+</sp>
+<milestone type="action"/>
+<sp who="#kei" n="953" from="01:19:38.372" to="01:19:39.706" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#tankcommand1" n="954" from="01:19:53.345" to="01:19:54.554" >
+<l>What?</l>
+</sp>
+
+<sp who="#tankcommand1" n="955" from="01:19:54.847" to="01:19:56.556" >
+<l>Yeah, 7th avenue
+is just up ahead.</l>
+</sp>
+
+<sp who="#tankcommand1" n="956" from="01:19:56.682" to="01:19:59.601" >
+<l>It intersects this road
+a hundred meters from here.</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tankcommand1" n="957" from="01:20:03.564" to="01:20:05.189" >
+<l>Battle stations!</l>
+</sp>
+
+<sp who="#tankcommand1" n="958">
+<l>Right! The subject
+has been spotted.</l>
+</sp>
+
+<sp who="#tankcommand1" n="959" from="01:20:17.202" to="01:20:19.537" >
+<l>What? Attack the kid?</l>
+</sp>
+
+<sp who="#tankcommand1" n="960" from="01:20:19.580" to="01:20:23.291" >
+<l>But, sir, he's just a boy!
+We can't attack him!</l>
+</sp>
+
+<sp who="#akirafan1" n="961" from="01:20:27.755" to="01:20:28.880" >
+<l>- Look! There he is!</l>
+</sp>
+
+<sp who="#akirafan2" n="962" from="01:20:28.881" to="01:20:29.797" >
+<l>- It's impossible.</l>
+</sp>
+
+<sp who="#akirafan3" n="963" from="01:20:29.882" to="01:20:31.049" >
+<l>Is this for real?</l>
+</sp>
+
+<sp who="#tankgun" n="964" from="01:20:42.728" to="01:20:44.562" >
+<l>Fire range preparations
+are complete.</l>
+</sp>
+
+<sp who="#tankcommand1" n="965" from="01:20:47.274" to="01:20:49.067" >
+<l>Damn it! Fire!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#akirafan2" n="966" from="01:21:02.081" to="01:21:04.749" >
+<l>Is it Akira?</l>
+</sp>
+
+<sp who="#akirafan4" n="967" from="01:21:04.875" to="01:21:06.751" >
+<l>Look, it's Lord Akira!</l>
+</sp>
+
+<sp who="#naysay" n="968" from="01:21:07.628" to="01:21:09.629" >
+<l>Don't be fooled! This isn't the rapture!</l>
+</sp>
+
+<sp who="#naysay" n="969" from="01:21:09.755" to="01:21:11.172" >
+<l>He's a false messiah!</l>
+</sp>
+
+<sp who="#akirafan4" n="970" from="01:21:13.133" to="01:21:15.635" >
+<l>Long live Akira!</l>
+</sp>
+
+<sp who="#tankcommand1" n="971" from="01:21:16.136" to="01:21:17.512" >
+<l>Fire!</l>
+</sp>
+
+<sp who="#tankgun" n="972" from="01:21:18.639" to="01:21:19.722" >
+<l>- What the......</l>
+</sp>
+
+<sp who="#tankcommand1" n="973" from="01:21:19.723" to="01:21:21.015" >
+<l>- What's wrong?</l>
+</sp>
+<milestone type="powers"/>
+<spGrp type="controlScene">
+<sp who="#newscast" n="974" from="01:22:48.562" to="01:22:51.272" >
+<l>Coming to you live aboard news
+chopper 1 high over downtown.</l>
+</sp>
+
+<sp who="#newscast" n="975" from="01:22:51.398" to="01:22:54.275" >
+<l>Neo Tokyo broadcasting is exclusively
+covering the news today...</l>
+</sp>
+
+<sp who="#newscast" n="976" from="01:22:54.401" to="01:22:57.111" >
+<l>in spite of martial law, in the
+name of freedom of the press.</l>
+</sp>
+
+<sp who="#newscast" n="977" from="01:22:57.196" to="01:22:59.614" >
+<l>What in the world is happening
+here in Neo Tokyo?</l>
+</sp>
+
+<sp who="#newscast" n="978" from="01:22:59.740" to="01:23:02.784" >
+<l>What you see here seem to be
+fires caused by tank cannons.</l>
+</sp>
+
+<sp who="#newscast" n="979" from="01:23:02.910" to="01:23:07.288" >
+<l>But who is this boy standing alone?
+Is he fighting the coup d'etat forces by himself?</l>
+</sp>
+
+<sp who="#newscast" n="980" from="01:23:07.748" to="01:23:09.457" >
+<l>I'm sorry.
+We've been ordered to land.</l>
+</sp>
+
+<sp who="#newscast" n="981" from="01:23:09.583" to="01:23:11.793" >
+<l>The army has just illegally
+ordered us to land!</l>
+</sp>
+
+<sp who="#newscast" n="982" from="01:23:11.919" to="01:23:15.254" >
+<l>What is at stake here is freedom of
+the press! We've been ordered to...</l>
+</sp>
+</spGrp>
+<sp who="#viewer" n="983" from="01:23:16.256" to="01:23:17.590" >
+<l>- Did they just get cut off?</l>
+</sp>
+
+<sp who="#viewers" n="984" from="01:23:17.591" to="01:23:18.716" >
+<l>- Did they just get cut off?
+- What was that?</l>
+</sp>
+
+<sp who="#akirafan5" n="985" from="01:23:18.842" to="01:23:21.135" >
+<l>The bridge!
+He's heading for the bridge!</l>
+</sp>
+
+<sp who="#kai" n="986" from="01:23:40.948" to="01:23:42.782" >
+<l>Are you sure you want
+to do this alone?</l>
+</sp>
+
+<sp who="#kaneda" n="987" from="01:23:43.784" to="01:23:45.785" >
+<l>This is what he wants,
+isn't it?</l>
+</sp>
+
+<sp who="#kai" n="988" from="01:23:46.411" to="01:23:48.830" >
+<l>At least give me time
+to get the gang together.</l>
+</sp>
+
+<sp who="#kai" n="989" from="01:23:49.414" to="01:23:50.957" >
+<l>Hey, wait!</l>
+</sp>
+
+<sp who="#kaneda" n="990" from="01:23:51.083" to="01:23:53.417" >
+<l>I wouldn't want to keep him
+waiting now, would I?</l>
+</sp>
+
+<sp who="#kai" n="991" from="01:23:55.420" to="01:23:57.338" >
+<l>Hey, Kaneda, hold on!</l>
+</sp>
+
+<sp who="#tankcommand2" n="992" from="01:24:03.971" to="01:24:07.306" >
+<l>Half of them seem to be antigovernment
+demonstrators. The rest are......</l>
+</sp>
+
+<sp who="#tankcommand2" n="993" from="01:24:07.391" to="01:24:11.519" >
+<l>They're more like some
+crazy cult than onlookers.</l>
+</sp>
+
+<sp who="#tankcommand2" n="994" from="01:24:11.645" to="01:24:14.814" >
+<l>They're following after the subject,
+and more and more keep coming.</l>
+</sp>
+
+<sp who="#miyako" n="995" from="01:24:17.985" to="01:24:19.986" >
+<l>Flames of supreme purity...</l>
+</sp>
+
+<sp who="#miyako" n="996" from="01:24:20.112" to="01:24:22.613" >
+<l>rain down and raze
+the corrupt city...</l>
+</sp>
+
+<sp who="#miyako" n="997" from="01:24:22.739" to="01:24:26.200" >
+<l>and drown forever all the
+unclean believers of our time!</l>
+</sp>
+
+<sp who="#miyako" n="998" from="01:24:26.326" to="01:24:28.202" >
+<l>Give yourselves
+into the flame, children...</l>
+</sp>
+
+<sp who="#miyako" n="999" from="01:24:28.328" to="01:24:30.496" >
+<l>and all of you
+shall be reborn again!</l>
+</sp>
+
+<sp who="#miyako" n="1000" from="01:24:30.622" to="01:24:32.498" >
+<l>Now consume our heart.</l>
+</sp>
+
+<sp who="#miyako" n="1001" from="01:24:32.624" to="01:24:35.334" >
+<l>Wash our unclean hearts
+in the eternal fire!</l>
+</sp>
+
+<sp who="#miyako" n="1002" from="01:24:35.460" to="01:24:38.629" >
+<l>Your body is going to be
+purified in the flames!</l>
+</sp>
+
+<sp who="#lasercommand" n="1003" from="01:24:39.464" to="01:24:41.299" >
+<l>Ready!</l>
+</sp>
+
+<sp who="#tetsuo" n="1004" from="01:24:42.009" to="01:24:42.508" >
+<l>- What?</l>
+</sp>
+
+<sp who="#lasercommand" n="1005" from="01:24:42.509" to="01:24:43.718" >
+<l>- Fire!</l>
+</sp>
+
+<sp who="#lasercommand" n="1006" from="01:24:49.600" to="01:24:52.560" >
+<l>Set the switch to hold for 3 seconds.
+Then converge your beams.</l>
+</sp>
+
+<sp who="#lasercommand" n="1007" from="01:24:53.687" to="01:24:55.730" >
+<l>Aim, fire!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="1008" from="01:25:01.862" to="01:25:03.738" >
+<l>Watch this!</l>
+</sp>
+
+<sp who="#lasercommand" n="1009" from="01:25:09.870" to="01:25:12.413" >
+<l>Look out!
+Let's get out of here!</l>
+</sp>
+
+<sp who="#miyako" n="1010" from="01:25:21.048" to="01:25:24.091" >
+<l>Save me!</l>
+</sp>
+
+<sp who="#mobileradio" n="1011" from="01:25:30.891" to="01:25:33.434" >
+<l>Ground forces.
+Ground forces, come in.</l>
+</sp>
+
+<sp who="#mobileradio" n="1012" from="01:25:33.560" to="01:25:35.603" >
+<l>Report immediately.
+What is the subject's status?</l>
+</sp>
+
+<sp who="#mobileradio" n="1013" from="01:25:35.854" to="01:25:37.897" >
+<l>Do you read?</l>
+</sp>
+
+<sp who="#colonel" n="1014" from="01:25:39.066" to="01:25:40.733" >
+<l>Line to the doctor.</l>
+</sp>
+
+<sp who="#doctor" n="1015" from="01:25:40.901" to="01:25:44.111" >
+<l>We have confirmation of his recent
+movements and are in pursuit.</l>
+</sp>
+
+<sp who="#doctor" n="1016" from="01:25:44.237" to="01:25:46.572" >
+<l>His present position is...</l>
+</sp>
+
+<sp who="#doctor" n="1017" from="01:25:46.657" to="01:25:51.118" >
+<l>coordinates 99871 by 4332.</l>
+</sp>
+
+<sp who="#doctor" n="1018" from="01:25:51.745" to="01:25:54.622" >
+<l>That's about 2 kilometers south of
+the Olympic construction site...</l>
+</sp>
+
+<sp who="#doctor" n="1019" from="01:25:54.748" to="01:25:55.790" >
+<l>in the old city.</l>
+</sp>
+
+<sp who="#colonel" n="1020" from="01:25:55.916" to="01:25:56.749" >
+<l>What?</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#olympicguard1" n="1021" from="01:26:02.214" to="01:26:04.090" >
+<l>Where did that blast
+come from?</l>
+</sp>
+
+<sp who="#olympicguard2" n="1022" from="01:26:04.216" to="01:26:05.174" >
+<l>- Look!</l>
+</sp>
+
+<sp who="#olympicguard1" n="1023" from="01:26:05.175" to="01:26:06.050" >
+<l>- Huh?</l>
+</sp>
+
+<sp who="#olympicguard2" n="1024" from="01:26:06.218" to="01:26:10.054" >
+<l>That must be out over at the tollbooth
+being guarded by the second platoon.</l>
+</sp>
+
+<sp who="#olympicguard1" n="1025" from="01:26:11.723" to="01:26:13.224" >
+<l>What the hell?</l>
+</sp>
+
+<sp who="#olympicannouncer" n="1026" from="01:26:16.436" to="01:26:20.314" >
+<l>Please turn around now.
+This area is off-limits to civilians.</l>
+</sp>
+
+<sp who="#olympicannouncer" n="1027">
+<l>Huh? What? That's
+the escaped subject? Stop!</l>
+</sp>
+
+<sp who="#olympicannouncer" n="1028" from="01:26:23.610" to="01:26:25.820" >
+<l>Don't come any closer!
+Stop, damn it!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="1029" from="01:27:30.635" to="01:27:34.180" >
+<l>Nice place you have here, isn't it?</l>
+</sp>
+
+<sp who="#tetsuo" n="1030" from="01:27:41.188" to="01:27:44.356" >
+<l>You are the girl
+that was with Kaneda.</l>
+</sp>
+
+<sp who="#kei" n="1031" from="01:27:44.483" to="01:27:48.402" >
+<l>You shouldn't use your power in this way,
+for it is not correct.</l>
+</sp>
+
+<sp who="#tetsuo" n="1032" from="01:27:48.528" to="01:27:50.154" >
+<l>What's that?</l>
+</sp>
+
+<sp who="#kei" n="1033" from="01:27:50.280" to="01:27:54.909" >
+<l>Because in the end, you won't be able to
+control it, and it will control you.</l>
+</sp>
+
+<sp who="#tetsuo" n="1034" from="01:27:55.035" to="01:27:57.995" >
+<l>It's the kids talking.
+You're those brats, right?</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="1035" from="01:28:16.223" to="01:28:18.265" >
+<l>Nice one!</l>
+</sp>
+<sp who="#onlooker" n="1036" from="01:28:39.871" to="01:28:41.789" >
+<l>What's going on?</l>
+</sp>
+
+<sp who="#armysarge" n="1037" from="01:28:52.259" to="01:28:53.801" >
+<l>It's not safe here, Colonel!</l>
+</sp>
+
+<sp who="#tetsuo" n="1038" from="01:29:34.968" to="01:29:37.344" >
+<l>All right now. Next move.</l>
+</sp>
+
+<sp who="#tetsuo" n="1039" from="01:31:04.557" to="01:31:05.933" >
+<l>Open now!</l>
+</sp>
+
+<sp who="#tetsuo" n="1040" from="01:31:16.903" to="01:31:18.946" >
+<l>What the hell is this?</l>
+</sp>
+
+<sp who="#colonel" n="1041" from="01:31:19.030" to="01:31:21.699" >
+<l>That is Akira before you,
+Tetsuo.</l>
+</sp>
+
+<sp who="#colonel" n="1042" from="01:31:21.825" to="01:31:23.784" >
+<l>That's the Akira
+you wanted to meet!</l>
+</sp>
+
+<sp who="#colonel" n="1043" from="01:31:23.910" to="01:31:27.746" >
+<l>There is your messiah, the chosen one that
+you've been looking for.</l>
+</sp>
+
+<sp who="#colonel" n="1044" from="01:31:27.872" to="01:31:30.624" >
+<l>Not long after
+his transcendental awakening...</l>
+</sp>
+
+<sp who="#colonel" n="1045" from="01:31:30.750" to="01:31:33.961" >
+<l>his organs and tissues were subjected to
+every test known to modern science.</l>
+</sp>
+
+<sp who="#colonel" n="1046" from="01:31:34.087" to="01:31:36.964" >
+<l>He's dead. That's it.</l>
+</sp>
+
+<sp who="#colonel" n="1047" from="01:31:37.090" to="01:31:39.550" >
+<l>What you see there
+is all that's left of him.</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#colonel" n="1048" from="01:31:48.435" to="01:31:50.644" >
+<l>And all of the scientists
+back then...</l>
+</sp>
+
+<sp who="#colonel" n="1049" from="01:31:50.770" to="01:31:52.771" >
+<l>were unable to solve
+the mystery...</l>
+</sp>
+
+<sp who="#colonel" n="1050" from="01:31:52.897" to="01:31:56.900" >
+<l>so they decided to entrust
+all of their collected data and test samples...</l>
+</sp>
+
+<sp who="#colonel" n="1051" from="01:31:56.943" to="01:32:00.404" >
+<l>to future generations by preserving them
+in frozen capsules and locking them away.</l>
+</sp>
+<spGrp type="controlScene">
+<sp who="#colonel" n="1052" from="01:32:02.615" to="01:32:04.116" >
+<l>- SOL. We will use SOL.</l>
+</sp>
+
+<sp who="#armysarge" n="1053" from="01:32:04.117" to="01:32:04.825" >
+<l>- Huh?</l>
+</sp>
+
+
+<sp who="#colonel" n="1054">
+<l>Akira has been dead all this time.</l>
+</sp>
+
+<sp who="#colonel" n="1055" from="01:32:10.582" to="01:32:13.334" >
+<l>Well, are you satisfied now,
+Tetsuo?</l>
+</sp>
+
+<sp who="#colonel" n="1056" from="01:32:18.465" to="01:32:20.632" >
+<l>Now will you return with us?</l>
+</sp>
+
+<sp who="#tetsuo" n="1057" from="01:32:21.092" to="01:32:22.468" >
+<l>Like hell!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#colonel" n="1058" from="01:32:23.470" to="01:32:25.679" >
+<l>Contact the central
+defense center...</l>
+</sp>
+
+<sp who="#colonel" n="1059" from="01:32:25.805" to="01:32:29.475" >
+<l>and tell them to patch us through
+into SOL's main control circuits right away!</l>
+</sp>
+</spGrp>
+<sp who="#kai" n="1060" from="01:32:46.993" to="01:32:48.285" >
+<l>Hey, watch it, you jerk!</l>
+</sp>
+
+<sp who="#kai" n="1061" from="01:32:48.411" to="01:32:52.373" >
+<l>Move! Get out of the way!
+Move it!</l>
+</sp>
+
+<sp who="#tetsuo" n="1062" from="01:33:08.681" to="01:33:11.725" >
+<l>What is this,
+a science classroom?</l>
+</sp>
+
+<sp who="#tetsuo" n="1063" from="01:33:21.861" to="01:33:22.986" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#kaneda" n="1064" from="01:33:28.701" to="01:33:31.412" >
+<l>What's wrong?
+Have some trouble?</l>
+</sp>
+
+<sp who="#tetsuo" n="1065" from="01:33:31.538" to="01:33:35.374" >
+<l>Yeah, but I already
+took care of it.</l>
+</sp>
+
+<sp who="#tetsuo" n="1066" from="01:33:35.500" to="01:33:37.418" >
+<l>And you're too late.
+You missed the show.</l>
+</sp>
+
+<sp who="#kaneda" n="1067" from="01:33:37.544" to="01:33:40.003" >
+<l>Tetsuo,
+you had me worried again.</l>
+</sp>
+
+<sp who="#kaneda" n="1068" from="01:33:40.130" to="01:33:43.215" >
+<l>I figured you'd be standing here,
+sobbing like a little baby.</l>
+</sp>
+
+<sp who="#tetsuo" n="1069" from="01:33:43.675" to="01:33:47.928" >
+<l>Kaneda. You've always been
+a pain in the ass, you know.</l>
+</sp>
+
+<sp who="#tetsuo" n="1070" from="01:33:48.346" to="01:33:51.098" >
+<l>You've been telling me
+what to do since we were kids!</l>
+</sp>
+
+<sp who="#tetsuo" n="1071" from="01:33:51.182" to="01:33:53.100" >
+<l>You always treat me like a kid.</l>
+</sp>
+
+<sp who="#tetsuo" n="1072" from="01:33:53.226" to="01:33:58.230" >
+<l>You always show up and start
+bossing me around, and don't you deny it!</l>
+</sp>
+
+<sp who="#kaneda" n="1073" from="01:33:58.356" to="01:34:02.234" >
+<l>And now you're a boss, too,
+of this pile of rumble.</l>
+</sp>
+
+<sp who="#tetsuo" n="1074" from="01:34:02.360" to="01:34:03.735" >
+<l>- Kaneda!</l>
+</sp>
+
+<sp who="#kaneda" n="1075" from="01:34:03.736" to="01:34:06.113" >
+<l>- That's "Mister" Kaneda to you, punk!</l>
+</sp>
+
+<sp who="#tetsuo" n="1076" from="01:34:06.239" to="01:34:08.198" >
+<l>Die!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#kaneda" n="1077" from="01:34:18.209" to="01:34:19.376" >
+<l>Tetsuo!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#tetsuo" n="1078" from="01:34:42.775" to="01:34:44.735" >
+<l>Son of a bitch!</l>
+</sp>
+
+<sp who="#kaneda" n="1079" from="01:34:58.458" to="01:34:59.416" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#kaneda" n="1080" from="01:35:01.461" to="01:35:02.920" >
+<l>Oh, damn it!</l>
+</sp>
+<milestone type="powers"/>
+
+<sp who="#tetsuo" n="1081">
+<l>Let's do it!</l>
+</sp>
+
+<sp who="#kaneda" n="1082" from="01:35:19.771" to="01:35:21.688" >
+<l>Gotcha!</l>
+</sp>
+
+<sp who="#tetsuo" n="1083" from="01:35:22.482" to="01:35:23.690" >
+<l>What?</l>
+</sp>
+
+<sp who="#kaneda" n="1084" from="01:35:23.983" to="01:35:24.816" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#kaneda" n="1085" from="01:35:26.986" to="01:35:29.530" >
+<l>The damn battery's dead!</l>
+</sp>
+
+<sp who="#tetsuo" n="1086" from="01:35:29.656" to="01:35:32.115" >
+<l>What's the matter now, Kaneda?</l>
+</sp>
+
+<sp who="#kaneda" n="1087" from="01:35:33.618" to="01:35:34.785" >
+<l>Damn it!</l>
+</sp>
+
+<sp who="#kaneda" n="1088" from="01:35:34.911" to="01:35:37.621" >
+<l>It ain't fair, Tetsuo!
+Fight with your bare hands!</l>
+</sp>
+
+<sp who="#tetsuo" n="1089" from="01:35:41.125" to="01:35:42.167" >
+<l>Oh, this is funny!</l>
+</sp>
+
+<sp who="#tetsuo" n="1090" from="01:35:44.295" to="01:35:46.505" >
+<l>Feeling frustrated, Kaneda?</l>
+</sp>
+
+<sp who="#tetsuo" n="1091" from="01:35:46.631" to="01:35:49.883" >
+<l>Now do you understand how it feels
+being little and helpless?</l>
+</sp>
+
+<sp who="#tetsuo" n="1092" from="01:35:52.512" to="01:35:53.554" >
+<l>Oh?</l>
+</sp>
+
+<sp who="#tetsuo" n="1093" from="01:35:56.015" to="01:35:58.392" >
+<l>Where's this light coming from?</l>
+</sp>
+
+<sp who="#colonel" n="1094" from="01:36:09.195" to="01:36:10.112" >
+<l>- Were we on target?</l>
+</sp>
+
+<sp who="#armysarge" n="1095" from="01:36:10.113" to="01:36:12.030" >
+<l>- Hard to tell. Too close to the impact point.</l>
+</sp>
+
+<sp who="#armysarge" n="1096" from="01:36:12.156" to="01:36:13.031" >
+<l>- The monitors are getting too much electrical...</l>
+</sp>
+
+<sp who="#colonel" n="1097" from="01:36:13.032" to="01:36:14.866" >
+<l>- Prepare a second volley, now!</l>
+</sp>
+
+<sp who="#kai" n="1098" from="01:36:37.557" to="01:36:40.058" >
+<l>Hey!</l>
+</sp>
+
+<sp who="#kai" n="1099" from="01:36:40.184" to="01:36:42.102" >
+<l>Kaneda!</l>
+</sp>
+<milestone type="powers"/>
+<sp who="#kaneda" n="1100" from="01:37:00.204" to="01:37:03.624" >
+<l>Tetsuo!</l>
+</sp>
+    
+<milestone type="powers"/>
+    
+<sp who="#tetsuo" n="1101" from="01:37:18.514" to="01:37:19.931" >
+<l>Shit!</l>
+</sp>
+
+<milestone type="powers"/>
+
+<sp who="#kaneda" n="1102" from="01:37:21.267" to="01:37:23.060" >
+<l>What the......</l>
+</sp>
+
+<sp who="#kaneda" n="1103" from="01:37:27.523" to="01:37:29.316" >
+<l>Wh...!</l>
+</sp>
+
+<milestone type="powers"/>
+
+<sp who="#solcontrol1" n="1104" from="01:37:58.888" to="01:38:00.764" >
+<l>Correcting error now
+on tracking system.</l>
+</sp>
+
+<sp who="#solcontrol2" n="1105" from="01:38:00.890" to="01:38:02.766" >
+<l>T minus 20...</l>
+</sp>
+
+<sp who="#solcontrol1" n="1106" from="01:38:02.892" to="01:38:04.518" >
+<l>Get the fire extinguishers!
+Are you okay?</l>
+</sp>
+
+<sp who="#solcontrol2" n="1107" from="01:38:04.602" to="01:38:05.435" >
+<l>- Get that fire out!</l>
+</sp>
+
+<sp who="#colonel" n="1108" from="01:38:05.436" to="01:38:07.312" >
+<l>- What's going on?</l>
+</sp>
+
+<sp who="#kai" n="1109" from="01:38:16.614" to="01:38:18.115" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#kaneda" n="1110" from="01:38:19.659" to="01:38:21.326" >
+<l>Kai! Kei!</l>
+</sp>
+
+<sp who="#kai" n="1111" from="01:38:21.452" to="01:38:21.827" >
+<l>- Kaneda!</l>
+</sp>
+
+<sp who="#kei" n="1112" from="01:38:21.828" to="01:38:22.536" >
+<l>- Kaneda!</l>
+</sp>
+
+<sp who="#kai" n="1113" from="01:38:22.829" to="01:38:23.704" >
+<l>Get on!</l>
+</sp>
+
+<sp who="" n="1114" from="01:38:23.788" to="01:38:24.830" >
+<l>- Where?</l>
+</sp>
+
+<sp who="#kaneda #kei" n="1115" from="01:38:24.831" to="01:38:26.206" >
+<l>- Where?
+- Hurry!</l>
+</sp>
+
+<sp who="#solcontrol1" n="1116" from="01:38:48.354" to="01:38:50.355" >
+<l>What is that?</l>
+</sp>
+
+<sp who="#armysarge" n="1117" from="01:39:03.995" to="01:39:06.079" >
+<l>Reports say it's SOL.</l>
+</sp>
+
+<sp who="#doctor" n="1118" from="01:39:17.008" to="01:39:18.925" >
+<l>Magnificent.</l>
+</sp>
+
+<sp who="#masaru" n="1119" from="01:39:29.061" to="01:39:31.104" >
+<l>When Tetsuo's power
+reaches its peak...</l>
+</sp>
+
+<sp who="#masaru" n="1120" from="01:39:31.230" to="01:39:33.106" >
+<l>is that what you're thinking?</l>
+</sp>
+
+<sp who="#takashi" n="1121" from="01:39:33.232" to="01:39:37.402" >
+<l>That's when we do it.
+But will it really work?</l>
+</sp>
+
+<sp who="#kiyoko" n="1122" from="01:39:38.237" to="01:39:43.283" >
+<l>We know the future doesn't necessarily proceed
+along a single course.</l>
+</sp>
+
+<sp who="#kiyoko" n="1123" from="01:39:43.409" to="01:39:46.870" >
+<l>There ought to be a future we can choose.
+It's up to us to find it.</l>
+</sp>
+
+<sp who="#colonel" n="1124" from="01:39:57.089" to="01:39:58.924" >
+<l>- What's Tetsuo's status, doctor?</l>
+</sp>
+
+<sp who="#doctor" n="1125" from="01:39:58.925" to="01:40:00.383" >
+<l>- Colonel.</l>
+</sp>
+
+<sp who="#doctor" n="1126" from="01:40:00.760" to="01:40:03.637" >
+<l>We set up a camera in the
+stadium if you want to check.</l>
+</sp>
+
+<sp who="#doctor" n="1127" from="01:40:04.013" to="01:40:06.223" >
+<l>We have him under observation.</l>
+</sp>
+
+<sp who="#doctor" n="1128" from="01:40:07.517" to="01:40:11.478" >
+<l>Colonel, you must take a look at this data.
+It's phenomenal!</l>
+</sp>
+
+<sp who="#doctor" n="1129" from="01:40:11.604" to="01:40:15.315" >
+<l>We're still analyzing the energy
+given off by the subject, but it's just magnificent.</l>
+</sp>
+
+<sp who="#doctor" n="1130" from="01:40:15.441" to="01:40:17.317" >
+<l>Oh, yes, wonderful.</l>
+</sp>
+
+<sp who="#doctor" n="1131" from="01:40:17.443" to="01:40:20.153" >
+<l>Of course, this is clearly
+a proton collapse.</l>
+</sp>
+
+<sp who="#doctor" n="1132" from="01:40:20.279" to="01:40:24.825" >
+<l>We're also detecting a fair number of what
+we believe to be unknown particles to science.</l>
+</sp>
+
+<sp who="#doctor" n="1133" from="01:40:24.951" to="01:40:27.285" >
+<l>If we can put this into
+a theoretical framework...</l>
+</sp>
+
+<sp who="#doctor" n="1134" from="01:40:27.411" to="01:40:29.454" >
+<l>then physics...
+quantum physics...</l>
+</sp>
+
+<sp who="#doctor" n="1135" from="01:40:29.580" to="01:40:32.499" >
+<l>humanity itself could know
+the fundamental truths.</l>
+</sp>
+
+<sp who="#doctor" n="1136" from="01:40:34.961" to="01:40:37.254" >
+<l>Uh... Uh... Well, you see...</l>
+</sp>
+
+<sp who="#doctor" n="1137" from="01:40:37.296" to="01:40:39.256" >
+<l>we still haven't finished
+making our adjustments.</l>
+</sp>
+
+<sp who="#doctor" n="1138" from="01:40:39.423" to="01:40:41.091" >
+<l>Wait, Colonel.</l>
+</sp>
+
+<sp who="#colonel" n="1139" from="01:40:46.556" to="01:40:48.515" >
+<l>What the... The pattern!</l>
+</sp>
+
+<sp who="#colonel" n="1140" from="01:40:51.018" to="01:40:54.187" >
+<l>You bastard!
+What did I tell you?</l>
+</sp>
+
+<sp who="#doctor" n="1141" from="01:40:54.313" to="01:40:56.189" >
+<l>But, Colonel...</l>
+</sp>
+
+<sp who="#doctor" n="1142" from="01:40:56.315" to="01:40:58.692" >
+<l>I couldn't throw away
+such a magnificent subject.</l>
+</sp>
+
+<sp who="#colonel" n="1143" from="01:40:59.986" to="01:41:00.861" >
+<l>Shut up!</l>
+</sp>
+
+<sp who="#kai" n="1144" from="01:41:23.801" to="01:41:25.844" >
+<l>Oh! Oh, oh! Oh, shit!</l>
+</sp>
+
+<sp who="#kaneda" n="1145" from="01:41:25.845" to="01:41:27.554" >
+<l>Quick! The battery!</l>
+</sp>
+
+<sp who="#kai" n="1146" from="01:41:27.680" to="01:41:30.724" >
+<l>Come on!
+My bike's burning up!</l>
+</sp>
+
+<sp who="#kaneda" n="1147" from="01:41:30.808" to="01:41:33.310" >
+<l>Hey, what's losing
+a bike or two, huh?</l>
+</sp>
+
+<sp who="#kai" n="1148" from="01:41:33.436" to="01:41:36.479" >
+<l>What? Then there's nothing wrong
+with using yours, right?</l>
+</sp>
+
+<sp who="#kaneda" n="1149" from="01:41:36.606" to="01:41:38.356" >
+<l>- I said that out loud, did I?</l>
+</sp>
+
+<sp who="#kai" n="1150" from="01:41:38.357" to="01:41:39.482" >
+<l>- Yeah, you did.</l>
+</sp>
+
+<sp who="#kaneda" n="1151" from="01:41:39.609" to="01:41:41.526" >
+<l>By the way,
+your bike's still on fire.</l>
+</sp>
+
+<sp who="#kai" n="1152" from="01:41:41.652" to="01:41:43.069" >
+<l>Huh? Oh, man! Oh!</l>
+</sp>
+
+<sp who="#kaori" n="1153" from="01:42:23.527" to="01:42:25.612" >
+<l>Tetsuo?</l>
+</sp>
+
+<sp who="#kaori" n="1154" from="01:42:36.540" to="01:42:40.710" >
+<l>Tetsuo, why is everyone calling you Akira?
+What does it mean?</l>
+</sp>
+
+<sp who="#tetsuo" n="1155" from="01:42:40.836" to="01:42:42.754" >
+<l>It means nothing.</l>
+</sp>
+
+<sp who="#tetsuo" n="1156" from="01:42:42.880" to="01:42:44.589" >
+<l>He never existed.</l>
+</sp>
+
+<sp who="#tetsuo" n="1157" from="01:42:45.591" to="01:42:47.467" >
+<l>It doesn't matter who he is.
+They don't care.</l>
+</sp>
+
+<sp who="#tetsuo" n="1158" from="01:42:50.262" to="01:42:52.263" >
+<l>Just so long as he destroys things.</l>
+</sp>
+
+<sp who="#kaori" n="1159" from="01:42:53.432" to="01:42:55.558" >
+<l>What's that?
+Your arm! Look at it!</l>
+</sp>
+
+<sp who="#tetsuo" n="1160" from="01:42:55.935" to="01:42:59.312" >
+<l>Well, it doesn't look like much,
+but it still works pretty good.</l>
+</sp>
+
+<milestone type="powers"/>
+
+<sp who="#kaori" n="1161" from="01:43:02.608" to="01:43:04.985" >
+<l>What's wrong? Are you okay?</l>
+</sp>
+
+<sp who="#tetsuo" n="1162" from="01:43:07.446" to="01:43:08.613" >
+<l>It's nothing!</l>
+</sp>
+
+<sp who="#kaori" n="1163" from="01:43:09.365" to="01:43:10.198" >
+<l>- Tetsuo, I just......</l>
+</sp>
+
+<sp who="#tetsuo" n="1164" from="01:43:10.199" to="01:43:12.575" >
+<l>- Shut up! Just go away!</l>
+</sp>
+
+<spGrp type="controlScene">
+
+<sp who="#tetsuo" n="1165" from="01:43:19.709" to="01:43:21.084" >
+<l>Medicine.</l>
+</sp>
+
+<sp who="#colonel" n="1166" from="01:43:21.752" to="01:43:25.130" >
+<l>What's wrong, Tetsuo?
+Are you in pain? Huh?</l>
+</sp>
+
+<sp who="#tetsuo" n="1167" from="01:43:25.256" to="01:43:28.508" >
+<l>Go back to the lab
+and get that medicine.</l>
+</sp>
+
+<sp who="#colonel" n="1168" from="01:43:28.634" to="01:43:30.802" >
+<l>Doctor, did you hear that?</l>
+</sp>
+
+<sp who="#doctor" n="1169" from="01:43:30.928" to="01:43:32.387" >
+<l>- I did, Colonel.</l>
+</sp>
+
+<sp who="#colonel" n="1170" from="01:43:32.388" to="01:43:34.347" >
+<l>-Well, any signs of it?</l>
+</sp>
+
+<sp who="#doctor" n="1171" from="01:43:34.807" to="01:43:36.683" >
+<l>I can't be entirely certain here...</l>
+</sp>
+
+<sp who="#doctor" n="1172" from="01:43:36.892" to="01:43:41.521" >
+<l>but it seems that the power which had been
+held back by the drugs is breaking free.</l>
+</sp>
+
+<sp who="#doctor" n="1173" from="01:43:41.647" to="01:43:45.191" >
+<l>He may not be able to control the power
+that has awakened so suddenly!</l>
+</sp>
+
+<sp who="#doctor" n="1174" from="01:43:45.317" to="01:43:47.861" >
+<l>He's in an extremely
+critical condition!</l>
+</sp>
+
+</spGrp>
+
+
+<sp who="#colonel" n="1175" from="01:43:48.821" to="01:43:51.781" >
+<l>Come back to the lab and
+receive proper treatment.</l>
+</sp>
+
+<sp who="#colonel" n="1176" from="01:43:51.824" to="01:43:53.700" >
+<l>If you don't, you may die.</l>
+</sp>
+
+<sp who="#tetsuo" n="1177" from="01:43:55.911" to="01:44:00.040" >
+<l>You want me to enroll in your kindergarten
+and live happily ever after, huh?</l>
+</sp>
+
+<sp who="#tetsuo" n="1178" from="01:44:00.166" to="01:44:02.042" >
+<l>Be quiet
+and do what you're told.</l>
+</sp>
+
+<sp who="#tetsuo" n="1179" from="01:44:02.168" to="01:44:05.837" >
+<l>Take your medicine every day
+and end up all shriveled like those kids!</l>
+</sp>
+
+<milestone type="powers"/>
+
+<sp who="#tetsuo" n="1180" from="01:44:10.843" to="01:44:14.054" >
+<l>Kaori.</l>
+</sp>
+
+<sp who="#tetsuo" n="1181" from="01:44:17.266" to="01:44:19.017" >
+<l>Fetch medicine, please.</l>
+</sp>
+
+<sp who="#kaori" n="1182" from="01:44:19.143" to="01:44:20.310" >
+<l>No.</l>
+</sp>
+
+<sp who="#colonel" n="1183" from="01:44:20.978" to="01:44:22.020" >
+<l>Stop, Tetsuo!</l>
+</sp>
+
+<sp who="#kaori" n="1184" from="01:44:23.981" to="01:44:25.231" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#kaori" n="1185" from="01:44:27.026" to="01:44:28.359" >
+<l>No, Tetsu...!</l>
+</sp>
+
+<sp who="#tetsuo" n="1186" from="01:45:00.142" to="01:45:01.267" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#tetsuo" n="1187" from="01:45:39.765" to="01:45:40.640" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#tetsuo" n="1188" from="01:45:48.691" to="01:45:51.067" >
+<l>Son of a... Huh?</l>
+</sp>
+
+<sp who="#colonel" n="1189" from="01:45:53.946" to="01:45:56.114" >
+<l>What are you three...doing here?</l>
+</sp>
+
+<sp who="#tetsuo" n="1190" from="01:46:02.121" to="01:46:04.330" >
+<l>You didn't learn
+your lesson, did you?</l>
+</sp>
+
+<sp who="#kaneda" n="1191" from="01:46:06.625" to="01:46:07.959" >
+<l>Heads up, Tetsuo!</l>
+</sp>
+
+<sp who="#colonel" n="1192" from="01:46:22.141" to="01:46:23.766" >
+<l>Takashi.</l>
+</sp>
+
+<sp who="#kiyoko" n="1193" from="01:46:26.478" to="01:46:28.271" >
+<l>Akira's here.</l>
+</sp>
+
+<sp who="#tetsuo" n="1194" from="01:46:41.452" to="01:46:45.205" >
+<l>Help, Kaneda! Help, please!</l>
+</sp>
+
+<sp who="#tetsuo" n="1195" from="01:46:54.506" to="01:46:57.175" >
+<l>Kaori!</l>
+</sp>
+
+<sp who="#tetsuo" n="1196" from="01:46:59.511" to="01:47:02.222" >
+<l>Please, help me!</l>
+</sp>
+
+<sp who="#kaori" n="1197" from="01:47:14.109" to="01:47:15.985" >
+<l>Help me!</l>
+</sp>
+
+<sp who="#kaneda" n="1198" from="01:47:16.195" to="01:47:18.029" >
+<l>Let her go!</l>
+</sp>
+
+<sp who="#tetsuo" n="1199" from="01:47:35.005" to="01:47:38.925" >
+<l>Kaori. Kaori. Kaori!</l>
+</sp>
+
+<sp who="#kaneda" n="1200" from="01:47:39.051" to="01:47:41.678" >
+<l>Tetsuo, are you there?</l>
+</sp>
+
+<sp who="#tetsuo" n="1201" from="01:47:41.804" to="01:47:44.889" >
+<l>Kaori!
+Kaori's gonna die!</l>
+</sp>
+
+<sp who="#kaneda" n="1202" from="01:47:45.015" to="01:47:47.517" >
+<l>What? What did you say?</l>
+</sp>
+
+<sp who="#tetsuo" n="1203" from="01:47:47.643" to="01:47:51.437" >
+<l>My body's not doing
+what I tell it to.</l>
+</sp>
+
+<sp who="#tetsuo" n="1204" from="01:47:51.563" to="01:47:55.358" >
+<l>My power's acting
+on its own. Kaori!</l>
+</sp>
+
+<sp who="#tetsuo" n="1205" from="01:47:55.526" to="01:47:57.443" >
+<l>Kaori's dying.</l>
+</sp>
+
+<sp who="#tetsuo" n="1206" from="01:47:57.653" to="01:48:00.238" >
+<l>Kaneda, help me!</l>
+</sp>
+
+<sp who="#kaneda" n="1207" from="01:48:00.364" to="01:48:04.367" >
+<l>Stop this, Tetsuo!
+Stop it now!</l>
+</sp>
+
+<sp who="#tetsuo" n="1208" from="01:48:04.493" to="01:48:08.121" >
+<l>Kaori's pain is coming into me.</l>
+</sp>
+
+<sp who="#kaneda" n="1209" from="01:48:09.748" to="01:48:11.541" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#tetsuo" n="1210" from="01:48:12.710" to="01:48:16.296" >
+<l>Kaneda, run away!</l>
+</sp>
+
+<sp who="#kaneda" n="1211" from="01:48:29.560" to="01:48:31.436" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#colonel" n="1212" from="01:48:43.115" to="01:48:47.076" >
+<l>Kiyoko, Takashi, Masaru!
+Hurry! Get away from here!</l>
+</sp>
+
+<sp who="#colonel" n="1213" from="01:48:51.123" to="01:48:52.582" >
+<l>Come on!</l>
+</sp>
+
+<sp who="#doctor" n="1214" from="01:48:58.630" to="01:49:02.008" >
+<l>I can't believe it. It's as if......</l>
+</sp>
+
+<sp who="#colonel" n="1215" from="01:49:14.438" to="01:49:17.357" >
+<l>Kiyoko! Taka......</l>
+</sp>
+
+<sp who="#masaru" n="1216" from="01:49:51.350" to="01:49:52.392" >
+<l>Hi.</l>
+</sp>
+
+<sp who="#masaru" n="1217" from="01:49:54.520" to="01:49:55.895" >
+<l>Akira.</l>
+</sp>
+
+<sp who="#doctor" n="1218" from="01:50:04.113" to="01:50:06.030" >
+<l>Oh, no! That's the......</l>
+</sp>
+
+<sp who="#doctor" n="1219" from="01:50:07.449" to="01:50:09.534" >
+<l>But that's impossible!</l>
+</sp>
+
+<sp who="#colonel" n="1220" from="01:50:19.294" to="01:50:21.671" >
+<l>Where am I?</l>
+</sp>
+
+<sp who="#kiyoko" n="1221" from="01:50:21.797" to="01:50:25.550" >
+<l>Hurry. Get into the tunnel.
+You'll be safe in there.</l>
+</sp>
+
+<sp who="#colonel" n="1222" from="01:50:25.634" to="01:50:27.677" >
+<l>Kiyoko, where are you?</l>
+</sp>
+
+<sp who="#colonel" n="1223" from="01:50:29.346" to="01:50:30.930" >
+<l>Oh......</l>
+</sp>
+
+<sp who="#kaneda" n="1224" from="01:50:42.234" to="01:50:43.943" >
+<l>Tetsuo!</l>
+</sp>
+
+<sp who="#tetsuo" n="1225" from="01:50:44.069" to="01:50:46.446" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#kaneda" n="1226" from="01:50:46.697" to="01:50:48.114" >
+<l>Hang on!</l>
+</sp>
+
+<sp who="#takashi" n="1227" from="01:50:50.325" to="01:50:51.534" >
+<l>- Hurry! You've got to get out of here!</l>
+</sp>
+
+<sp who="#kaneda" n="1228" from="01:50:51.535" to="01:50:52.952" >
+<l>- Out of the way!</l>
+</sp>
+
+<sp who="#kaneda" n="1229" from="01:50:53.078" to="01:50:54.495" >
+<l>- Tetsuo!</l>
+</sp>
+
+<sp who="#takashi" n="1230" from="01:50:54.496" to="01:50:56.080" >
+<l>- Don't go near it!</l>
+</sp>
+
+<sp who="#kiyoko" n="1231" from="01:51:02.671" to="01:51:05.298" >
+<l>No, don't! Wait, Takashi!</l>
+</sp>
+
+<sp who="#masaru" n="1232" from="01:51:05.424" to="01:51:08.801" >
+<l>If you went in now, you'd
+be trapped along with him.</l>
+</sp>
+
+<sp who="#takashi" n="1233" from="01:51:08.927" to="01:51:12.805" >
+<l>But he... None of this
+is his fault at all.</l>
+</sp>
+
+<sp who="#masaru" n="1234" from="01:51:20.105" to="01:51:21.272" >
+<l>- Takashi!</l>
+</sp>
+
+<sp who="#kiyoko" n="1235" from="01:51:21.273" to="01:51:22.815" >
+<l>- Takashi!</l>
+</sp>
+
+<sp who="#masaru" n="1236" from="01:51:29.072" to="01:51:31.824" >
+<l>If we went in there...</l>
+</sp>
+
+<sp who="#masaru" n="1237" from="01:51:31.950" to="01:51:35.244" >
+<l>we wouldn't be strong enough
+to come back out again.</l>
+</sp>
+
+<sp who="#kiyoko" n="1238" from="01:51:36.455" to="01:51:38.789" >
+<l>But if the three of us tried...</l>
+</sp>
+
+<sp who="#kiyoko" n="1239" from="01:51:38.916" to="01:51:40.791" >
+<l>maybe we could save that boy.</l>
+</sp>
+
+<sp who="#masaru" n="1240" from="01:51:40.918" to="01:51:44.003" >
+<l>You're right.
+Us three together.</l>
+</sp>
+
+<sp who="#kai" n="1241" from="01:51:53.138" to="01:51:57.350" >
+<l>Look at that. We should get
+out of here now! Hey!</l>
+</sp>
+
+<sp who="#kei" n="1242" from="01:51:58.435" to="01:52:00.353" >
+<l>Kaneda's in there.</l>
+</sp>
+
+<sp who="#kaneda" n="1243" from="01:52:33.136" to="01:52:36.847" >
+<l>You see that? You're not revving
+your engine enough already.</l>
+</sp>
+
+<sp who="#yamagata" n="1244" from="01:52:36.974" to="01:52:40.560" >
+<l>When you go into a corner,
+lean in suicidally. Got it? Now watch.</l>
+</sp>
+
+<sp who="#kai" n="1245" from="01:52:40.644" to="01:52:42.353" >
+<l>- What the hell do you call that?</l>
+</sp>
+
+<sp who="#yamagata" n="1246" from="01:52:42.354" to="01:52:44.021" >
+<l>- Cornering, man.</l>
+</sp>
+
+<sp who="#kaneda" n="1247" from="01:52:45.607" to="01:52:47.567" >
+<l>You got it, Tetsuo?</l>
+</sp>
+
+<sp who="#schoolgirl1" n="1248" from="01:52:53.907" to="01:52:56.659" >
+<l>Hey, look! They brought another kid!
+Is he a transfer student?</l>
+</sp>
+
+<sp who="#schoolgirl2" n="1249" from="01:52:56.702" to="01:52:58.035" >
+<l>- His mom and dad left him.</l>
+</sp>
+
+<sp who="#schoolgirl1" n="1250" from="01:52:58.036" to="01:53:00.496" >
+<l>- You can see it in his face.</l>
+</sp>
+
+<sp who="#kaneda" n="1251" from="01:53:03.709" to="01:53:08.504" >
+<l>Are these... Are these all of your dreams
+and memories, Tetsuo?</l>
+</sp>
+
+<sp who="#kaneda" n="1252" from="01:53:10.007" to="01:53:11.924" >
+<l>Uh, wait.</l>
+</sp>
+
+<sp who="#kaneda" n="1253" from="01:54:29.211" to="01:54:31.671" >
+<l>Is this Akira?</l>
+</sp>
+
+<sp who="#kiyoko" n="1254" from="01:54:31.963" to="01:54:35.424" >
+<l>Yes. We called
+him here to the three of us.</l>
+</sp>
+
+<sp who="#kiyoko" n="1255" from="01:54:35.550" to="01:54:38.010" >
+<l>He's going to take
+Tetsuo with him.</l>
+</sp>
+
+<sp who="#kaneda" n="1256" from="01:54:38.095" to="01:54:41.013" >
+<l>Take him where?
+Where?</l>
+</sp>
+
+<sp who="#takashi" n="1257" from="01:54:41.223" to="01:54:43.349" >
+<l>It's too much for Tetsuo...</l>
+</sp>
+
+<sp who="#takashi" n="1258" from="01:54:43.475" to="01:54:47.186" >
+<l>and for the three of us also
+and for Akira too.</l>
+</sp>
+
+<sp who="#masaru" n="1259" from="01:54:47.312" to="01:54:50.856" >
+<l>It's way too big
+for us, as we are now.</l>
+</sp>
+
+<sp who="#kiyoko" n="1260" from="01:54:50.982" to="01:54:54.694" >
+<l>But someday we ought
+to be able to......</l>
+</sp>
+
+<sp who="#masaru" n="1261" from="01:54:54.820" to="01:54:58.155" >
+<l>Because it has already begun.</l>
+</sp>
+
+<sp who="#kiyoko" n="1262" from="01:54:58.281" to="01:55:00.700" >
+<l>Your friend, she's......</l>
+</sp>
+
+<sp who="#kaneda" n="1263" from="01:55:00.826" to="01:55:02.368" >
+<l>My friend?</l>
+</sp>
+
+<sp who="#kaneda" n="1264" from="01:55:03.286" to="01:55:06.205" >
+<l>Kei! It's Kei
+you're talking about!</l>
+</sp>
+
+<sp who="#kaneda" n="1265" from="01:55:31.857" to="01:55:33.733" >
+<l>Tetsuo.</l>
+</sp>
+
+<sp who="#kaneda" n="1266" from="01:55:38.113" to="01:55:40.030" >
+<l>This is yours, right?</l>
+</sp>
+
+<sp who="#kaneda" n="1267" from="01:55:45.871" to="01:55:48.748" >
+<l>They're always like that
+with the new kids.</l>
+</sp>
+
+<sp who="#kaneda" n="1268" from="01:55:48.874" to="01:55:50.249" >
+<l>Hey, you came today, right?</l>
+</sp>
+
+<sp who="#kaneda" n="1269" from="01:55:50.375" to="01:55:54.754" >
+<l>They beat me up too, but the truth is,
+those guys are wimps.</l>
+</sp>
+
+<sp who="#tetsuo" n="1270" from="01:55:54.880" to="01:55:58.090" >
+<l>My name is... Tetsuo.</l>
+</sp>
+
+<sp who="#tetsuo" n="1271" from="01:55:58.216" to="01:55:59.592" >
+<l>Tetsuo Shima.</l>
+</sp>
+
+<sp who="#kaneda" n="1272" from="01:56:01.344" to="01:56:04.346" >
+<l>The truth is,
+I just got here myself.</l>
+</sp>
+
+<sp who="#kaneda" n="1273" from="01:56:04.473" to="01:56:06.182" >
+<l>My name is......</l>
+</sp>
+
+<sp who="#kei" n="1274" from="01:56:06.558" to="01:56:10.770" >
+<l>Kaneda. Kaneda.</l>
+</sp>
+
+<sp who="#kei" n="1275" from="01:56:11.229" to="01:56:12.229" >
+<l>- Kaneda!</l>
+</sp>
+
+<sp who="#kaneda" n="1276" from="01:56:12.230" to="01:56:12.938" >
+<l>- Kei.</l>
+</sp>
+
+<sp who="#doctor" n="1277" from="01:56:39.591" to="01:56:42.134" >
+<l>What in the world is happening?
+What's this?</l>
+</sp>
+
+<sp who="#doctor" n="1278" from="01:56:45.514" to="01:56:47.640" >
+<l>No, this isn't......</l>
+</sp>
+
+<sp who="#doctor" n="1279" from="01:56:47.766" to="01:56:51.811" >
+<l>If this is correct, it's showing that this is
+the birth of the universe.</l>
+</sp>
+
+<sp who="#kaneda" n="1280" from="01:56:58.443" to="01:57:01.570" >
+<l>Kei!</l>
+</sp>
+
+<sp who="#doctor" n="1281" from="01:57:06.952" to="01:57:08.994" >
+<l>What's going on here?</l>
+</sp>
+
+<sp who="#doctor" n="1282" from="01:57:11.122" to="01:57:12.957" >
+<l>Disappearing.
+It's disappearing.</l>
+</sp>
+
+<sp who="#kei" n="1283" from="01:58:24.279" to="01:58:26.530" >
+<l>Kaneda, can you hear me?</l>
+</sp>
+
+<sp who="#kaneda" n="1284" from="01:58:49.888" to="01:58:51.263" >
+<l>Tetsuo.</l>
+</sp>
+
+<sp who="#kei" n="1285" from="01:58:54.351" to="01:58:56.602" >
+<l>Kaneda, what is it?</l>
+</sp>
+
+<sp who="#kaneda" n="1286" from="01:58:57.228" to="01:58:58.354" >
+<l>Thank you.</l>
+</sp>
+
+<sp who="#kei" n="1287" from="01:58:58.813" to="01:58:59.772" >
+<l>Huh?</l>
+</sp>
+
+<sp who="#kaneda" n="1288" from="01:59:00.190" to="01:59:03.108" >
+<l>You called me, didn't you,
+and I heard you.</l>
+</sp>
+
+<sp who="#kai" n="1289" from="01:59:10.408" to="01:59:12.785" >
+<l>Kaneda! Oh, my!</l>
+</sp>
+
+<sp who="#kei" n="1290" from="01:59:13.495" to="01:59:15.037" >
+<l>Where's Tetsuo?</l>
+</sp>
+
+<sp who="#kaneda" n="1291" from="01:59:16.247" to="01:59:17.706" >
+<l>He just left.</l>
+</sp>
+
+<sp who="#kaneda" n="1292" from="01:59:18.750" to="01:59:21.794" >
+<l>Those kids did too.
+Akira also.</l>
+</sp>
+
+<sp who="#kei" n="1293" from="01:59:22.253" to="01:59:24.922" >
+<l>Kaneda, back then...
+Oh, did you just...</l>
+</sp>
+
+<sp who="#kai" n="1294" from="01:59:26.508" to="01:59:28.384" >
+<l>Kaneda!</l>
+</sp>
+
+<sp who="#kai" n="1295" from="01:59:28.510" to="01:59:31.053" >
+<l>You're alive!</l>
+</sp>
+
+<sp who="#kai" n="1296" from="01:59:31.179" to="01:59:33.305" >
+<l>I thought...</l>
+</sp>
+
+<sp who="#kai" n="1297" from="01:59:33.556" to="01:59:35.933" >
+<l>I thought you were
+in there for sure.</l>
+</sp>
+
+<sp who="#kai" n="1298" from="01:59:38.770" to="01:59:41.105" >
+<l>Tetsuo!
+What happened to Tetsuo?</l>
+</sp>
+
+<sp who="#kai" n="1299" from="01:59:41.773" to="01:59:43.107" >
+<l>Is he dead?</l>
+</sp>
+
+<sp who="#kaneda" n="1300" from="01:59:43.233" to="01:59:44.817" >
+<l>I'm not sure.</l>
+</sp>
+
+<sp who="#kaneda" n="1301" from="01:59:45.402" to="01:59:47.403" >
+<l>Something... Oh!</l>
+</sp>
+
+<sp who="#kiyoko" n="1302" from="02:00:12.637" to="02:00:16.181" >
+<l>But someday we
+ought to be able to......</l>
+</sp>
+
+<sp who="#masaru" n="1303" from="02:00:16.307" to="02:00:19.685" >
+<l>Because it has already begun.</l>
+</sp>
+      
+      </body>
+   </text>
+</TEI>

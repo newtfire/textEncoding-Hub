@@ -7,13 +7,6 @@
     xmlns="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs math xd"
     version="3.0">
- <!--   <xd:doc scope="stylesheet">
-        <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> Nov 6, 2020</xd:p>
-            <xd:p><xd:b>Author:</xd:b> eeb4</xd:p>
-            <xd:p></xd:p>
-        </xd:desc>
-    </xd:doc>-->
     
     <xsl:mode on-no-match="shallow-copy"/>
     <!--ebb: This is the magical line of code that creates an identity transformation in XSLT.
