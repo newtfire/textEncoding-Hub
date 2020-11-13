@@ -1116,14 +1116,7 @@
             </body>
         </poem>
         <pb pNum="268"/>
-        <poem>
-            <poemTitle>Dream Boogie: Variation</poemTitle>
-            <body>
-                <stanza n="1">
-                    <line n="1"></line>
-                </stanza>
-            </body>
-        </poem>
+       
         <!-- up to 268 -->
     </text>
 </xml>

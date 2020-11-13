@@ -1,0 +1,12 @@
+body {
+background-color: #e6e6e6;
+color: black;
+font-family: arial, helvetica, sans-serif;
+line-height:1.3em;
+}
+
+h1, h3 {color:maroon;}
+
+section.stanza {margin-top:1.5em; margin-bottom:1.5em;}
+span.LineNum {padding-right:1.1em; font-size:smaller; color:maroon;}
+span.ind1 {padding-left:2em;}
