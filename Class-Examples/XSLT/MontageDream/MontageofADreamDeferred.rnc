@@ -1,0 +1,24 @@
+start = element xml{\text}
+#meta =element meta {mainTitle,collectionTitle,publisher,notes*}
+#mainTitle = element mainTitle{text}
+#subtitle = element subtitle {text}
+#publisher = element publisher {text, location}
+#location = element location {place}
+#place = attribute place {text}
+#collectionTitle = element collectionTitle {text}
+#notes = element notes {text}
+\text = element text {(pb|title|poem)+} 
+pb = element pb {pNum} #start of page, self-closing element
+pNum = attribute pNum {xsd:integer} #page Number
+poem = element poem {poemTitle,cont*,body} #enveloping element for poems
+poemTitle = element poemTitle {mixed{format*}}
+body = element body {cont?, stanza+}
+stanza = element stanza {n, line+}
+line = element line {n, mixed{format*,q*}} #restart line when starting new stanza
+n = attribute n {xsd:integer}
+format = element format {mixed{wordType*,margin*}}
+cont = attribute cont {"continued"}
+wordType = attribute wordType {"italics"|"bold"|"handwritten"|"underline"|"cap"|text}
+margin = attribute margin {"ind1"|"ind2"|"outdent1"|"leftCenter"} #ind1 = 1 tab, ind2 = 2 tabs, outdent1 = opposite of 1 tab 
+title = element title {format}
+q = element q {text} #quotes
