@@ -15,9 +15,11 @@
          <body>
            <h1><xsl:apply-templates select="descendant::title"/></h1>
              
-             <!--ebb: Table of contents here. -->
+             <!--ebb: Table of contents + information here. -->
             <table> 
-             <tr>
+             <tr><!--The top row of an HTML table contains <th> cells for table column headings.
+             Set the table up with the headings we want.-->
+                 
                  <th>Chapter Number</th>
                  <th>Locations mentioned</th>
                  <th>Tech mentioned</th>
@@ -33,12 +35,9 @@
  </xsl:template>
     <xsl:template match="chapter" mode="toc">
         <tr>
-            <td><a href="#C{count(preceding-sibling::chapter) + 1}"><xsl:apply-templates select="heading"/></a></td>
-            <td><xsl:apply-templates select="descendant::location => distinct-values() => string-join(', ') "/></td>
-            <td><xsl:apply-templates select="descendant::tech => distinct-values() => string-join(', ')"/></td>
-
-            
-            
+            <td></td>
+            <td></td>
+            <td></td>   
          </tr>
     </xsl:template>
     
@@ -47,28 +46,6 @@
         <xsl:apply-templates select="p"/>
     </xsl:template>
     
-    <xsl:template match="p">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
    
-   <xsl:template match="date">
-       <span class="date"><xsl:apply-templates/></span>
-   </xsl:template>
-    
-    <xsl:template match="time">
-        <span class="time"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="location">
-        <span class="time"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="tech">
-        <span class="tech"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="person | people">
-        <span class="people"><xsl:apply-templates/></span>
-    </xsl:template>
     
 </xsl:stylesheet>
