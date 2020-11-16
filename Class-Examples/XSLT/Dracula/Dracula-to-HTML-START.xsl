@@ -15,21 +15,24 @@
          <body>
            <h1><xsl:apply-templates select="descendant::title"/></h1>
              
-             <!--ebb: Table of contents + information here. -->
-            <table> 
-             <tr><!--The top row of an HTML table contains <th> cells for table column headings.
-             Set the table up with the headings we want.-->
+             <!--ebb: Table of contents here. -->
+             <section id="contents"> <table> 
+                 <tr>
+                     <th>Chapter Number</th>
+                     <th>Locations mentioned</th>
+                     <th>Tech mentioned</th>
+                 </tr>
+                 <xsl:apply-templates select="descendant::chapter" mode="toc"/>
+                 <!--ebb: This xsl:apply-templates line sets up my "toc" mode for the table of contents, 
+      so that in the top part of the document we’ll output a selection of the body elements 
+      specially formatted for my Table of Contents, and so that in another section of my document below, which I’ve put inside an HTML <section> element, we can also output the full text of the poems with their titles again.--> 
                  
-                 <th>Chapter Number</th>
-                 <th>Locations mentioned</th>
-                 <th>Tech mentioned</th>
-             </tr>
-                <xsl:apply-templates select="descendant::chapter" mode="toc"/>
-                
-            </table>
+             </table></section>
              
              <!--ebb: Reading view of the chapters here. -->
-             <xsl:apply-templates select="descendant::chapter"/>
+             <section id="readingView">
+                 <xsl:apply-templates select="descendant::chapter"/>
+             </section>
         </body>
      </html>
  </xsl:template>
