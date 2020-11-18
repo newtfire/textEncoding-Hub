@@ -1,0 +1,18 @@
+
+body {background-color: #e6e6e6; color: #031B3F;font-family: Georgia, Times, "Times New Roman", serif; padding:15px; line-height:1.4em}
+/*div#space {background-color:#FFFFFF; width:99%; margin:auto; padding: 20px; line-height:1.2em; } */
+
+table, th, td
+{border-collapse: collapse;
+border: 1px solid #000066;    
+padding: 15px;
+vertical-align:top;
+}
+th {border-collapse: collapse;
+border: 1px solid  #000066;
+background-color: #bad7e6; /*#7E967E;*/
+padding: 1px;
+vertical-align:middle;}
+
+span.location {background-color:yellow; text-decoration-line:underline; text-decoration-style: wavy;} 
+span.tech {background-color:aqua; text-decoration-line: overline underline;} 
