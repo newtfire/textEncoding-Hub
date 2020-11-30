@@ -13,7 +13,7 @@
              <link rel="stylesheet" type="text/css" href="style.css"/>
          </head>
          <body>
-           <h1><xsl:apply-templates select="descendant::title"/></h1>
+           <h1 id="top"><xsl:apply-templates select="descendant::title"/></h1>
              
              <!--ebb: Table of contents here. -->
              <section id="contents"> 
@@ -43,14 +43,16 @@
     
     <xsl:template match="chapter" mode="toothsome">
         <tr>
-            <td><xsl:apply-templates select="heading"/></td>
-            <td><xsl:value-of select="descendant::location => distinct-values() => string-join('!!!! ')"/></td>
-            <td><xsl:value-of select="descendant::tech => distinct-values() => string-join('!!!! ')"/></td>   
+            <td><a href="#{heading ! translate(., ' ', '') }"><xsl:apply-templates select="heading"/></a></td>
+            <td><xsl:value-of select="descendant::location ! normalize-space()  => distinct-values() => sort() => string-join(' | ')"/></td>
+            <td><xsl:value-of select="descendant::tech ! normalize-space()  => distinct-values() => sort() => string-join(' | ')"/></td>   
          </tr>
     </xsl:template>
     
     <xsl:template match="chapter">
-        <h2 id="C{count(preceding-sibling::chapter) + 1}"><xsl:apply-templates select="heading"/></h2>
+        <a href="#top"><h2 id="{heading ! translate(., ' ', '') }"><xsl:apply-templates select="heading"/></h2></a>
+
+        <!--<h2 id="C{count(preceding-sibling::chapter) + 1}"><xsl:apply-templates select="heading"/></h2>-->
         <xsl:apply-templates select="p"/>
     </xsl:template>
     
