@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background-color: #F1DBBB;
+}
+
+th{
+    font-family: fantasy;
+    font-size: 20px;
+}
+h3 {
+font-size:30px;
+color: maroon;
+font-family: olicana-fine, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+h1 {
+font-size: 60px;
+color:maroon;
+font-family: olicana-fine, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+h2 {
+font-size:40px;
+font-family: olicana-fine, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+.underline {
+text-decoration: underline;
+font-size: inherit;
+}
+.body {
+margin-top:1.5em;
+margin-bottom:1.5em;
+color:black;
+font-size:large;
+border-style:none;
+padding: 15px;
+background-color: #FBDCCE;
+background-clip: content-box;
+}
+
+.caps {
+text-transform: capitalize;
+font-size: inherit;
+}
+
+.stanza {
+margin-top:1.5em;
+margin-bottom:1.5em;
+}
+
+.continued {
+text-decoration: line-through;
+font-family: inherit;
+font-size: inherit;
+}
+
+p,td {
+padding-left:5px;
+font-family:poetica-std, serif;
+}
+
+.ind1 {
+padding-left:30px;
+font-family: inherit;
+font-size: inherit;
+}
+
+.ind2 {
+padding-left:60px;
+font-family: inherit;
+font-size: inherit;
+}
+
+/* ebb: Here's a styling rule for the "dream deferred" motif I output with xsl:analyze-string 
+ * Change it if it doesn't look good! */
+span.motif {color:red;
+    
+}
+
