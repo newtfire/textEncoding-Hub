@@ -54,7 +54,10 @@ any time this phrase is used anywhere the poetry collection.
          <xsl:apply-templates/>
      </p>  
  </xsl:template> 
-    
+<!--2020-12-04 ebb: This template matches on text() nodes anywhere in your source XML, and analyzes them
+    looking for the regex pattern "dream deferred", as a literal phrase. Anytime it finds those characters all together,
+    it outputs an HTML <span class="motif">...</span> around the matching part, and it also outputs the non-matching part.
+    -->   
     <xsl:template match="text()">
         <xsl:analyze-string select="." regex="dream deferred">
             <xsl:matching-substring> 
