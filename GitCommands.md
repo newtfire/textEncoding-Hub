@@ -8,7 +8,7 @@
 * `git pull`
 * Make changes.
 * `git status` -- list of changes should be red
-* `git add -A` OR `git add .`
+* `git add -A` 
 * `git status` -- list of changes should be green
 * `git commit -m "message here"`
 * `git push`
@@ -44,7 +44,8 @@ This moves down into a directory.
 * To make sure you're in the right directory, the top level of the textEncoding-Hub, also check to see the directory name at the terminal prompt. Yours should look similar to this, and the key part is "textEncoding-Hub":
 `eeb4@salamander textEncoding-Hub % `
 
-Then to pull in any changes from the remote "mothership" repo, type:
+(If you're on a Mac you'll see a '%' sign at the end. If you're on Windows, you'll see something different.) 
+To pull in any changes from the remote "mothership" repo, type:
 ````
 git pull
 ```` 
@@ -54,7 +55,7 @@ git pull
 * Make sure you're in the textEncoding-Hub repo at the top level
 * Then type:
 ````
-git add .
+git add -A
 ````
 The period means *all* -- as in add *all* new files to be tracked by Git.
 
