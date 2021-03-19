@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en">
   <teiHeader>
@@ -11,9 +11,7 @@
             <editor><!-- editor or secondary author --></editor>
          </titleStmt>
          <publicationStmt>
-        <!-- put <publisher>, <distributor>, or <authority> here -->
-        <!-- put <availability> and other optional details about-->
-        <!-- the publisher, distributor, or release authority here -->
+            <p>Digital Humanities Lab at Penn State Erie, The Behrend College</p>
       </publicationStmt>
          <sourceDesc>
             <p>born digital</p>
@@ -79,25 +77,25 @@
              or references to <specGrp>s defined above using <specGrpRef>. -->
             
             <constraintSpec ident="require-lbs-in-add" scheme="schematron">
-               <sch:rule context="tei:ab/tei:add">
+               <constraint><sch:rule context="tei:ab/tei:add">
                   <sch:assert test="tei:lb">At least one lb (or line-beginning element) must be present inside the tei:add element here.</sch:assert>
-               </sch:rule>
+               </sch:rule></constraint>
                
             </constraintSpec>
            
             <constraintSpec ident="ab-counting-survey-lines" scheme="schematron">
-               <sch:rule context="tei:div2[@type='question']/tei:ab">
+               <constraint><sch:rule context="tei:div2[@type='question']/tei:ab">
                   <sch:assert test="matches(@rend, '\d-L')">An @rend attribute must be present on this ab element, and it must hold an integer followed by -L to document the number of lines allotted to respond to a survey question.</sch:assert>
-               </sch:rule>
+               </sch:rule></constraint>
                
             </constraintSpec>
             
             <constraintSpec ident="ab-with-add" scheme="schematron">
-             <sch:rule context="tei:ab[not(@type)]">  
+            <constraint> <sch:rule context="tei:ab[not(@type)]">  
                 <sch:assert test="descendant::tei:add[@hand]">
                 When there is not a @type attribute present to indicate an unanswered question, there must be a child element &lt;add&gt; with a hand attribute to hold AJC's handwritten answer.
                </sch:assert> 
-             </sch:rule>
+             </sch:rule></constraint>
             </constraintSpec>
             
           

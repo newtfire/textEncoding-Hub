@@ -4,11 +4,10 @@ color:black;
 }
 /* Below we isolate <section id="top"> using CSS's shorthand. There's a longhand way to refer to elements and their attributes that also works, like this: section[id="top"] */
 section#top { color:navy; display: flex; justify-content:flex-start; flex-direction:row;
-
 }
 div#newtMosaic {flex:1;}
 section#top div#newtMosaic img{width:200px; display:inline;}
-section#top h1{display:inline; font-size:3em; flex:4}
+section#top h1{display:inline; font-size:3em; flex:5}
 /* The CSS rules below control the section overview box with the newt tank. */
 section#overview{color:maroon; display: flex; justify-content:flex-start; flex-direction:row;}
 section#overview p {flex:3;}
