@@ -3,8 +3,7 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
-    <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
-        omit-xml-declaration="yes"/>
+    <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes"/>
     
  <xsl:template match="/">
      <html>
