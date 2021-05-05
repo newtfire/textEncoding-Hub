@@ -5,10 +5,10 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-05-05T02:26:34Z. .
-TEI Edition: Version 4.2.1. Last updated on
-	1st March 2021, revision 654a5c551
-TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.1/
+Schema generated from ODD source 2021-05-05T14:56:59Z. .
+TEI Edition: Version 4.3.0a. Last updated on
+	29th March 2021, revision ac70ae112
+TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0a./
  This ODD is designed to test whether we can customize attribute values in relation to one another, without using Schematron. 
 --><!---->
    <define name="macro.paraContent">
@@ -447,7 +447,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
+            id="contextDependentAttValues-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -457,7 +457,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
+            id="contextDependentAttValues-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -467,7 +467,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
+            id="contextDependentAttValues-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -492,7 +492,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.datable-calendar-calendar-constraint-rule-4">
+            id="contextDependentAttValues-att.datable-calendar-calendar-constraint-rule-4">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -1055,7 +1055,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.measurement-att-measurement-unitRef-constraint-rule-5">
+            id="contextDependentAttValues-att.measurement-att-measurement-unitRef-constraint-rule-5">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -1177,7 +1177,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.typed-subtypeTyped-constraint-rule-6">
+            id="contextDependentAttValues-att.typed-subtypeTyped-constraint-rule-6">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -1207,7 +1207,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.pointing-targetLang-targetLang-constraint-rule-7">
+            id="contextDependentAttValues-att.pointing-targetLang-targetLang-constraint-rule-7">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -1298,7 +1298,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.spanning-spanTo-spanTo-2-constraint-rule-8">
+            id="contextDependentAttValues-att.spanning-spanTo-spanTo-2-constraint-rule-8">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -1341,7 +1341,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="testingContextDependentAttValues-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-9">
+            id="contextDependentAttValues-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-9">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -2435,6 +2435,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="floruit"/>
          <ref name="langKnowledge"/>
          <ref name="nationality"/>
+         <ref name="occupation"/>
          <ref name="persona"/>
          <ref name="persPronouns"/>
          <ref name="residence"/>
@@ -3383,7 +3384,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
          <ref name="macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-p-abstractModel-structure-p-constraint-report-5">
+                  id="contextDependentAttValues-p-abstractModel-structure-p-constraint-report-5">
             <rule context="tei:p">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
@@ -3392,7 +3393,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-p-abstractModel-structure-l-constraint-report-6">
+                  id="contextDependentAttValues-p-abstractModel-structure-l-constraint-report-6">
             <rule context="tei:p">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
@@ -3592,10 +3593,10 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
    </define>
    <define name="desc">
       <element name="desc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a brief description of the object documented by its parent element, typically a documentation element or an entity. [22.4.1. Description of Components]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a short description of the purpose, function, or use of its parent element, or when the parent is a documentation element, describes or defines the object being documented.  [22.4.1. Description of Components]</a:documentation>
          <ref name="macro.limitedContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-desc-deprecationInfo-only-in-deprecated-constraint-rule-10">
+                  id="contextDependentAttValues-desc-deprecationInfo-only-in-deprecated-constraint-rule-10">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -3611,10 +3612,16 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
          <ref name="att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] deprecationInfo (deprecation information)</a:documentation>
+               <choice>
+                  <value>deprecationInfo</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deprecation
+          information) This element describes why or how its parent element is being deprecated, typically including recommendations for alternate encoding.</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
             </attribute>
          </optional>
          <empty/>
@@ -3684,7 +3691,7 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-rt-target-rt-target-not-span-constraint-report-7">
+                  id="contextDependentAttValues-rt-target-rt-target-not-span-constraint-report-7">
             <rule context="tei:rt/@target">
                <sch:report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -3700,7 +3707,7 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-rt-from-rt-from-constraint-assert-7">
+                  id="contextDependentAttValues-rt-from-rt-from-constraint-assert-7">
             <rule context="tei:rt/@from">
                <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -3716,7 +3723,7 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-rt-to-rt-to-constraint-assert-8">
+                  id="contextDependentAttValues-rt-to-rt-to-constraint-assert-8">
             <rule context="tei:rt/@to">
                <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -4142,7 +4149,7 @@ Sample values include: 1] suspension (suspension); 2] contraction (contraction);
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location. [3.7. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-ptr-ptrAtts-constraint-report-8">
+                  id="contextDependentAttValues-ptr-ptrAtts-constraint-report-8">
             <rule context="tei:ptr">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
@@ -4162,7 +4169,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. [3.7. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <ref name="macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-ref-refAtts-constraint-report-9">
+                  id="contextDependentAttValues-ref-refAtts-constraint-report-9">
             <rule context="tei:ref">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
@@ -4231,7 +4238,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-list-gloss-list-must-have-labels-constraint-rule-11">
+                  id="contextDependentAttValues-list-gloss-list-must-have-labels-constraint-rule-11">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
@@ -4924,7 +4931,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             </choice>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-relatedItem-targetorcontent1-constraint-report-10">
+                  id="contextDependentAttValues-relatedItem-targetorcontent1-constraint-report-10">
             <rule context="tei:relatedItem">
                <sch:report xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -4963,7 +4970,7 @@ relatedItem element must be empty</sch:report>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-l-abstractModel-structure-l-constraint-report-11">
+                  id="contextDependentAttValues-l-abstractModel-structure-l-constraint-report-11">
             <rule context="tei:l">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]">
@@ -5011,7 +5018,7 @@ relatedItem element must be empty</sch:report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-lg-atleast1oflggapl-constraint-assert-11">
+                  id="contextDependentAttValues-lg-atleast1oflggapl-constraint-assert-11">
             <rule context="tei:lg">
                <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5021,7 +5028,7 @@ relatedItem element must be empty</sch:report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-lg-abstractModel-structure-l-constraint-report-12">
+                  id="contextDependentAttValues-lg-abstractModel-structure-l-constraint-report-12">
             <rule context="tei:lg">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::tei:l[not(.//tei:note//tei:lg[. = current()])]">
@@ -5702,7 +5709,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
             <ref name="model.pLike"/>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-quotation-quotationContents-constraint-report-13">
+                  id="contextDependentAttValues-quotation-quotationContents-constraint-report-13">
             <rule context="tei:quotation">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -5966,7 +5973,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-citeStructure-delim-citestructure-inner-delim-constraint-rule-12">
+                  id="contextDependentAttValues-citeStructure-delim-citestructure-inner-delim-constraint-rule-12">
             <rule xmlns:xi="http://www.w3.org/2001/XInclude"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
                   context="tei:citeStructure[parent::tei:citeStructure]">
@@ -5978,7 +5985,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             <text/>
          </attribute>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-citeStructure-match-citestructure-outer-match-constraint-rule-13">
+                  id="contextDependentAttValues-citeStructure-match-citestructure-outer-match-constraint-rule-13">
             <rule xmlns:xi="http://www.w3.org/2001/XInclude"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
                   context="tei:citeStructure[not(parent::tei:citeStructure)]">
@@ -5986,7 +5993,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-citeStructure-match-citestructure-inner-match-constraint-rule-14">
+                  id="contextDependentAttValues-citeStructure-match-citestructure-inner-match-constraint-rule-14">
             <rule xmlns:xi="http://www.w3.org/2001/XInclude"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
                   context="tei:citeStructure[parent::tei:citeStructure]">
@@ -6922,7 +6929,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-div-abstractModel-structure-l-constraint-report-14">
+                  id="contextDependentAttValues-div-abstractModel-structure-l-constraint-report-14">
             <rule context="tei:div">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0" test="ancestor::tei:l">
         Abstract model violation: Lines may not contain higher-level structural elements such as div.
@@ -6930,7 +6937,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-div-abstractModel-structure-p-constraint-report-15">
+                  id="contextDependentAttValues-div-abstractModel-structure-p-constraint-report-15">
             <rule context="tei:div">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
@@ -8823,10 +8830,14 @@ Sample values include: 1] birth; 2] naturalised; 3] self-assigned</a:documentati
    </define>
    <define name="occupation">
       <element name="occupation">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">((occupation) contains an informal description of a person's trade, profession or occupation. In the Digital Mitford project, occupations are keyed with types and subtypes and used only in the project’s personography lists.) </a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(occupation) contains an informal description of a person's trade, profession or occupation. In the Digital Mitford project, occupations are keyed with types and subtypes and used only in the project’s personography lists.</a:documentation>
          <zeroOrMore>
             <ref name="roleName"/>
          </zeroOrMore>
+         <ref name="att.global.attributes"/>
+         <ref name="att.datable.attributes"/>
+         <ref name="att.editLike.attributes"/>
+         <ref name="att.naming.attributes"/>
          <choice>
             <group>
                <attribute name="type">
@@ -8839,19 +8850,21 @@ Sample values include: 1] birth; 2] naturalised; 3] self-assigned</a:documentati
                <optional>
                   <attribute name="subtype">
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] teacher (with type="educator".); 2] schoolHead (with type="educator". (for headmistress, schoolmaster, etc.)); 3] governess (with type="educator".); 4] tutor (with type="educator".); 5] lecturer (with type="educator". For public lecturers on educational topics.)</a:documentation>
+Suggested values include: 1] teacher; 2] schoolHead; 3] governess; 4] tutor; 5] lecturer</a:documentation>
                      <choice>
                         <value>teacher</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator".) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="educator".</a:documentation>
                         <value>schoolHead</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator". (for headmistress, schoolmaster, etc.)) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="educator". (for headmistress, schoolmaster, etc.)</a:documentation>
                         <value>governess</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator".) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="educator".</a:documentation>
                         <value>tutor</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator".) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="educator".</a:documentation>
                         <value>lecturer</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator". For public lecturers on educational topics.) </a:documentation>
-                        <data type="string"/>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="educator". For public lecturers on educational topics.</a:documentation>
+                        <data type="token">
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
+                        </data>
                      </choice>
                   </attribute>
                </optional>
@@ -8867,17 +8880,19 @@ Suggested values include: 1] teacher (with type="educator".); 2] schoolHead (wit
                <optional>
                   <attribute name="subtype">
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] traveller (with type="explorer".); 2] navigator (with type="explorer".); 3] cartographer (with type="explorer".); 4] seaCaptain (with type="explorer". Commands a ship, distinct from military post.)</a:documentation>
+Suggested values include: 1] traveller; 2] navigator; 3] cartographer; 4] seaCaptain</a:documentation>
                      <choice>
                         <value>traveller</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="explorer".) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="explorer".</a:documentation>
                         <value>navigator</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="explorer".) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="explorer".</a:documentation>
                         <value>cartographer</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="explorer".) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="explorer".</a:documentation>
                         <value>seaCaptain</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="explorer". Commands a ship, distinct from military post.) </a:documentation>
-                        <data type="string"/>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="explorer". Commands a ship, distinct from military post.</a:documentation>
+                        <data type="token">
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
+                        </data>
                      </choice>
                   </attribute>
                </optional>
@@ -8893,33 +8908,35 @@ Suggested values include: 1] traveller (with type="explorer".); 2] navigator (wi
                <optional>
                   <attribute name="subtype">
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] novelist (with type="literary". ); 2] poet (with type="literary". ); 3] playwright (with type="literary". ); 4] essayist (with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.); 5] critic (with type="literary". For literary, theatre / art critics and reviewers.); 6] journalist (with type="literary". ); 7] editor (with type="literary". ); 8] biographer (with type="literary". ); 9] autobiographer (with type="literary". ); 10] lexicographer (with type="literary". ); 11] linguist (with type="literary". For those who systemically study languages, not simply translators.); 12] translator (with type="literary". )</a:documentation>
+Suggested values include: 1] novelist; 2] poet; 3] playwright; 4] essayist; 5] critic; 6] journalist; 7] editor; 8] biographer; 9] autobiographer; 10] lexicographer; 11] linguist; 12] translator</a:documentation>
                      <choice>
                         <value>novelist</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>poet</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>playwright</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>essayist</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.</a:documentation>
                         <value>critic</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". For literary, theatre / art critics and reviewers.) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary". For literary, theatre / art critics and reviewers.</a:documentation>
                         <value>journalist</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>editor</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>biographer</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>autobiographer</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>lexicographer</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
                         <value>linguist</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". For those who systemically study languages, not simply translators.) </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary". For those who systemically study languages, not simply translators.</a:documentation>
                         <value>translator</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="literary". ) </a:documentation>
-                        <data type="string"/>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="literary".</a:documentation>
+                        <data type="token">
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
+                        </data>
                      </choice>
                   </attribute>
                </optional>
@@ -8935,16 +8952,64 @@ Suggested values include: 1] novelist (with type="literary". ); 2] poet (with ty
                <optional>
                   <attribute name="subtype">
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] philosopher (with type="scholar". Distinct from natural philosopher.); 2] naturalist (with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.); 3] astronomer (with type="scholar".)</a:documentation>
-                     <choice>
-                        <value>philosopher</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="scholar". Distinct from natural philosopher.) </a:documentation>
-                        <value>naturalist</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.) </a:documentation>
-                        <value>astronomer</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="scholar".) </a:documentation>
-                        <data type="string"/>
-                     </choice>
+Suggested values include: 1] digitalHumanist; 2] philosopher; 3] naturalist; 4] astronomer; 5] philologist; 6] alchemist</a:documentation>
+                     <list>
+                        <choice>
+                           <value>digitalHumanist</value>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". The apex scholar.</a:documentation>
+                           <value>philosopher</value>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". Distinct from natural philosopher.</a:documentation>
+                           <value>naturalist</value>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</a:documentation>
+                           <value>astronomer</value>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                           <value>philologist</value>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                           <value>alchemist</value>
+                           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                           <data type="token">
+                              <param name="pattern">[^\p{C}\p{Z}]+</param>
+                           </data>
+                        </choice>
+                        <optional>
+                           <choice>
+                              <value>digitalHumanist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". The apex scholar.</a:documentation>
+                              <value>philosopher</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". Distinct from natural philosopher.</a:documentation>
+                              <value>naturalist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</a:documentation>
+                              <value>astronomer</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                              <value>philologist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                              <value>alchemist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                              <data type="token">
+                                 <param name="pattern">[^\p{C}\p{Z}]+</param>
+                              </data>
+                           </choice>
+                        </optional>
+                        <optional>
+                           <choice>
+                              <value>digitalHumanist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". The apex scholar.</a:documentation>
+                              <value>philosopher</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". Distinct from natural philosopher.</a:documentation>
+                              <value>naturalist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</a:documentation>
+                              <value>astronomer</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                              <value>philologist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                              <value>alchemist</value>
+                              <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">with type="scholar".</a:documentation>
+                              <data type="token">
+                                 <param name="pattern">[^\p{C}\p{Z}]+</param>
+                              </data>
+                           </choice>
+                        </optional>
+                     </list>
                   </attribute>
                </optional>
             </group>
@@ -9006,39 +9071,36 @@ Suggested values include: 1] philosopher (with type="scholar". Distinct from nat
    <define name="person">
       <element name="person">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
-         <zeroOrMore>
-            <ref name="model.personPart"/>
-         </zeroOrMore>
-         <zeroOrMore>
-            <ref name="occupation"/>
-         </zeroOrMore>
-         <zeroOrMore>
-            <ref name="model.global"/>
-         </zeroOrMore>
-         <zeroOrMore>
-            <ref name="ptr"/>
-         </zeroOrMore>
+         <choice>
+            <oneOrMore>
+               <ref name="model.pLike"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="model.personPart"/>
+                  <ref name="model.global"/>
+                  <ref name="ptr"/>
+               </choice>
+            </zeroOrMore>
+         </choice>
          <ref name="att.global.attributes"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.sortable.attributes"/>
          <optional>
-            <attribute name="sex">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <value>m</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as male.) </a:documentation>
-                  <value>f</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as female.) </a:documentation>
-                  <value>m f</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as of transitional or multiple sexual identities.) </a:documentation>
-                  <value>u</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons with unidentified or unknown sexual identity.) </a:documentation>
-               </choice>
+            <attribute name="role">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the person.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
             </attribute>
          </optional>
          <optional>
-            <attribute name="role">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the person.</a:documentation>
+            <attribute name="sex">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sex of the person.</a:documentation>
                <list>
                   <oneOrMore>
                      <data type="token">
@@ -9297,7 +9359,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
             <ref name="desc"/>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-relation-reforkeyorname-constraint-assert-15">
+                  id="contextDependentAttValues-relation-reforkeyorname-constraint-assert-15">
             <rule context="tei:relation">
                <assert xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -9305,7 +9367,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-relation-activemutual-constraint-report-16">
+                  id="contextDependentAttValues-relation-activemutual-constraint-report-16">
             <rule context="tei:relation">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -9313,7 +9375,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-relation-activepassive-constraint-report-17">
+                  id="contextDependentAttValues-relation-activepassive-constraint-report-17">
             <rule context="tei:relation">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -9664,7 +9726,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="testingContextDependentAttValues-objectIdentifier-objectIdentifier_minimal-constraint-report-18">
+                  id="contextDependentAttValues-objectIdentifier-objectIdentifier_minimal-constraint-report-18">
             <rule context="tei:objectIdentifier">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
