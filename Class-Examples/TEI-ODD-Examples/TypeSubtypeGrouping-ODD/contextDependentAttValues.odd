@@ -28,36 +28,14 @@
 	<moduleRef key="header"/>
 	<moduleRef key="textstructure"/>
 	<moduleRef key="namesdates"/>
-	<elementSpec ident="person" mode="change" module="namesdates">
-	  <content>
-	    <classRef key="model.personPart" maxOccurs="unbounded" minOccurs="0"/>
-	    <elementRef key="occupation" maxOccurs="unbounded" minOccurs="0"/>
-	    <classRef key="model.global" maxOccurs="unbounded" minOccurs="0"/>
-	    <elementRef key="ptr" maxOccurs="unbounded" minOccurs="0"/>
-	  </content>
-	  <attList>
-	    <attDef ident="sex" mode="replace" usage="rec">
-	      <valList type="closed">
-		<valItem ident="m">
-		  <gloss>for persons identified as male.</gloss>
-		</valItem>
-		<valItem ident="f">
-		  <gloss>for persons identified as female.</gloss>
-		</valItem>
-		<valItem ident="m f">
-		  <gloss>for persons identified as of transitional or multiple sexual identities.</gloss>
-		</valItem>
-		<valItem ident="u">
-		  <gloss>for persons with unidentified or unknown sexual identity.</gloss>
-		</valItem>
-	      </valList>
-	    </attDef>
-	  </attList>
-	</elementSpec>
 	<elementSpec module="namesdates" ident="occupation" mode="replace">
-	  <gloss>(occupation) contains an informal description of a person's trade, profession or occupation. In the Digital Mitford project, occupations are keyed with types and subtypes and used only in the project’s personography lists.</gloss>
+	  <gloss>occupation</gloss>
+	  <desc>contains an informal description of a person's trade,
+	  profession or occupation. In the Digital Mitford project,
+	  occupations are keyed with types and subtypes and used only
+	  in the project’s personography lists.</desc>
 	  <content>
-	    <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"/>
+	    <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
 	  </content>
 	  <attList org="choice">
 	    <attList org="group">
@@ -72,19 +50,19 @@
 		</datatype>
 		<valList type="semi">
 		  <valItem ident="teacher">
-		    <gloss>with type="educator".</gloss>
+		    <desc>with type="educator".</desc>
 		  </valItem>
 		  <valItem ident="schoolHead">
-		    <gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss>
+		    <desc>with type="educator". (for headmistress, schoolmaster, etc.)</desc>
 		  </valItem>
 		  <valItem ident="governess">
-		    <gloss>with type="educator".</gloss>
+		    <desc>with type="educator".</desc>
 		  </valItem>
 		  <valItem ident="tutor">
-		    <gloss>with type="educator".</gloss>
+		    <desc>with type="educator".</desc>
 		  </valItem>
 		  <valItem ident="lecturer">
-		    <gloss>with type="educator". For public lecturers on educational topics.</gloss>
+		    <desc>with type="educator". For public lecturers on educational topics.</desc>
 		  </valItem>                          
 		</valList>
 	      </attDef>
@@ -101,16 +79,16 @@
 		</datatype>
 		<valList type="semi">
 		  <valItem ident="traveller">
-		    <gloss>with type="explorer".</gloss>
+		    <desc>with type="explorer".</desc>
 		  </valItem>
 		  <valItem ident="navigator">
-		    <gloss>with type="explorer".</gloss>
+		    <desc>with type="explorer".</desc>
 		  </valItem>
 		  <valItem ident="cartographer">
-		    <gloss>with type="explorer".</gloss>
+		    <desc>with type="explorer".</desc>
 		  </valItem>
 		  <valItem ident="seaCaptain"> 
-		    <gloss>with type="explorer". Commands a ship, distinct from military post.</gloss>
+		    <desc>with type="explorer". Commands a ship, distinct from military post.</desc>
 		  </valItem>
 		</valList>
 	      </attDef>
@@ -128,40 +106,40 @@
 		<valList type="semi">
 		  <!--Subtypes related to type="literary" -->
 		  <valItem ident="novelist">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="poet">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="playwright">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="essayist">
-		    <gloss>with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.</gloss>
+		    <desc>with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.</desc>
 		  </valItem>
 		  <valItem ident="critic">
-		    <gloss>with type="literary". For literary, theatre / art critics and reviewers.</gloss>
+		    <desc>with type="literary". For literary, theatre / art critics and reviewers.</desc>
 		  </valItem>
 		  <valItem ident="journalist">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="editor">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="biographer">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="autobiographer">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="lexicographer">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>
 		  <valItem ident="linguist">
-		    <gloss>with type="literary". For those who systemically study languages, not simply translators.</gloss>
+		    <desc>with type="literary". For those who systemically study languages, not simply translators.</desc>
 		  </valItem>
 		  <valItem ident="translator">
-		    <gloss>with type="literary". </gloss>
+		    <desc>with type="literary".</desc>
 		  </valItem>		  
 		</valList>
 	      </attDef>
@@ -178,13 +156,13 @@
 		</datatype>
 		<valList type="semi"> 
 		  <valItem ident="philosopher">
-		    <gloss>with type="scholar". Distinct from natural philosopher.</gloss>
+		    <desc>with type="scholar". Distinct from natural philosopher.</desc>
 		  </valItem>
 		  <valItem ident="naturalist">
-		    <gloss>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</gloss>
+		    <desc>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</desc>
 		  </valItem>
 		  <valItem ident="astronomer">
-		    <gloss>with type="scholar".</gloss>
+		    <desc>with type="scholar".</desc>
 		</valItem></valList>
 	      </attDef>
 	    </attList>
