@@ -65,7 +65,7 @@ img
 {padding:5px;}
 img.screenCap{width:75%}
 
-p {display:block; padding:2px 2px 2px 2px; line-height:1.2em}
+p, nav {display:block; padding:2px 2px 2px 2px; line-height:1.2em}
 
 hr { display: block; height: 1px;
     border: 0; border-top: 1px solid #AA0000;
