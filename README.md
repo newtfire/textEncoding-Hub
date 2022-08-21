@@ -10,9 +10,6 @@ Now that you're here, you should try to "clone" this repository on your local co
 Here is a quick and handy list of git commands: <https://github.com/newtfire/textEncoding-Hub/blob/master/GitCommands.md>
 You can read our detailed guide to get started with Git (or just use this as we do, like a reference to search in for information): <https://newtfire.org/courses/tutorials/explainGitShell.html>
 
-Here is a quick and handy list of git commands: <https://github.com/newtfire/textAnalysis-Hub/blob/master/GitCommands.md>
-You can read our detailed guide to get started with Git (or just use this as we do, like a reference to search in for information): <https://newtfire.org/courses/tutorials/explainGitShell.html>
-
 There are things we will do together only in the remote webpage view of GitHub visible at <https://github.com/newtfire/textAnalysis-Hub/>:
 *  See if you can find the "Issues" area by mousing over the icons on the top (in the new view) or the right-hand (old view) side of the GitHub page: "Issues" is the exclamation point inside the circle. We're using the "Issues" page to open conversations about questions, problems, things we need to discuss and fix and work on together. 
 
