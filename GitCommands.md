@@ -21,7 +21,7 @@
 **`cd` means "change directories"** and in the above command you are *stepping down* into Documents (or Desktop) and into the GitHub folder. Use **`ls`** to list out the contents of the directory you have stepped down into.
 
 * If you need to **clone** a repository, do so here, because then the new repository will sit as a *child* inside your GitHub directory. Go to the git remote website and get its "Download/Clone" URL by copying it (green icon on right side of the repo's main page). 
-Then, in the Terminal/Command Line Shell, type `git clone` and paste in the the URL after that. So it looks like this for our textEncoding-Hub:
+Then, in the Command Line Shell (Git Bash on Windows/ Terminal on Mac), type `git clone` and paste in the the URL after that. So it looks like this for our textEncoding-Hub:
 ````
 git clone https://github.com/newtfire/textEncoding-Hub.git
 ````
@@ -66,7 +66,8 @@ You could also type `git add .` The period or `-A` means *everything new* -- as 
 ````
 git commit -m "your detailed commit message goes in here"
 ````
-Think of these commit messages as logs of a meaningful change. Git commit messages are *signs or meaningful markers* for you and others to read in following your project's progress. They become part of the logged (recorded) **history** of the repo, and each commit will get a special identifier and link on the web repo in case you need to view or actually undo some big changes later and take the repo back to an earlier stage. 
+Think of these commit messages as logs, each one marking a meaningful change. Your git commit messages will be *signposts or markers* for you and others to read in following your project's progress. 
+They become part of the logged (recorded) **history** of the repo, and each commit will get a special identifier and link on the web repo in case you need to view or actually undo some big changes later and take the repo back to an earlier stage. 
 Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
 
 * Next, you push the commit through, with:
