@@ -58,7 +58,9 @@ git pull
 ````
 git add -A
 ````
-The period means *all* -- as in add *all* new files to be tracked by Git.
+You could also type `git add .` The period or `-A` means *everything new* -- as in add *all* new files to be tracked by Git.
+git add ___ : you always need something after this to indicate what you are adding. You could actually identify a particular file or folder by its file path after git add, like this: 
+`git add poems/ballad.xml` if `poems/` is a directory just here inside your repo and ballad.xml is saved inside it, and this is the only file you want to add to your repo, ignoring other changes you made.
 
 * If you type `git status` at this point, you see highlighted in green the new files being added! 
 * Now, you need to **commit** those changes. You type the commit, and write a message, because Git *always* makes you document changes to the repo:
