@@ -66,7 +66,8 @@ You could also type `git add .` The period or `-A` means *everything new* -- as 
 ````
 git commit -m "your detailed commit message goes in here"
 ````
-Think of these commit messages as breadcrumbs for you and others to use in recording your project's progress! Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
+Think of these commit messages as logs of a meaningful change. Git commit messages are *signs or meaningful markers* for you and others to read in following your project's progress. They become part of the logged (recorded) **history** of the repo, and each commit will get a special identifier and link on the web repo in case you need to view or actually undo some big changes later and take the repo back to an earlier stage. 
+Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
 
 * Next, you push the commit through, with:
 ````
