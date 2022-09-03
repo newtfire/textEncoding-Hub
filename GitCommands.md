@@ -43,7 +43,7 @@ This moves down into a directory.
 * To make sure you're in the right directory, the top level of the textEncoding-Hub, also check to see the directory name at the terminal prompt. Yours should look similar to this, and the key part is "textEncoding-Hub":
 `eeb4@salamander textEncoding-Hub % `
 
-(If you're on a Mac you'll see a '%' sign at the end. If you're on Windows, you'll see something different.) 
+(If you're on Mac's Terminal you'll see a '%' sign at the end. If you're on Windows in the Git Basg, you'll see a `$`.) 
 
 To pull in any changes from the remote "mothership" repo, type:
 ````
