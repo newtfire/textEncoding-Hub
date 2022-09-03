@@ -16,7 +16,7 @@
 
 1) The key thing to working with Git is **always knowing where to find your files in the Finder (on Mac) / File Explorer (on Windows) and in the Terminal/Command Line Shell**. So you need to save them in a place where you can easily see them. 
 * In the Finder/File Explorer, make yourself a "GitHub" directory that lives inside "Documents" (or on your desktop if that is a more logical place for you). Inside the "GitHub" directory you will clone each of your project repositories.
-* In your shell (the Git Bash (Windows) or Terminal (Mac)), you can navigate to your "GitHub" directory from the computer's root by typing:
+* In your shell (the Git Bash on Windows or Terminal on Mac), you can navigate to your "GitHub" directory from the computer's root by typing:
 `cd Documents/GitHub/` if stored in documents or `cd Desktop/GitHub/` if stored on your desktop
 **`cd` means "change directories"** and in the above command you are *stepping down* into Documents (or Desktop) and into the GitHub folder. Use **`ls`** to list out the contents of the directory you have stepped down into.
 
