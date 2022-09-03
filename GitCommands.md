@@ -50,7 +50,7 @@ To pull in any changes from the remote "mothership" repo, type:
 git pull
 ```` 
 
-3) When you want to share you local changes to the repo with the remote mothership and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
+3) When you want to share your local changes to the repo with the remote mothership and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
 
 * Make sure you're in the textEncoding-Hub repo at the top level
 * Then type:
@@ -58,13 +58,13 @@ git pull
 git add -A
 ````
 You could also type `git add .` The period or `-A` means *everything new* -- as in add *all* new files to be tracked by Git.
-git add ___ : you always need something after this to indicate what you are adding. You could actually identify a particular file or folder by its file path after git add, like this: 
+`git add ___` : you always need something after git add to indicate **what** you are adding. You could actually identify a particular file or folder by its file path after git add, like this: 
 `git add poems/ballad.xml` if `poems/` is a directory just here inside your repo and ballad.xml is saved inside it, and this is the only file you want to add to your repo, ignoring other changes you made.
 
 * If you type `git status` at this point, you see highlighted in green the new files being added! 
 * Now, you need to **commit** those changes. You type the commit, and write a message, because Git *always* makes you document changes to the repo:
 ````
-git commit -m "your detailed commit message should go in here"
+git commit -m "your detailed commit message goes in here"
 ````
 Think of these commit messages as breadcrumbs for you and others to use in recording your project's progress! Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
 
