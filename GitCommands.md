@@ -2,9 +2,9 @@
    
 ## Quick reference
 
-git clone https://github.com...address/of/github/repo.git   (clones a repository on your computer)
+`git clone` https://github.com...address/of/github/repo.git   (clones a repository on your computer)
 
-git status (can be done at any stage, to check how your repo is doing, whether it sees any changes, what to do next if you are not sure)
+`git status` (can be done at any stage, to check how your repo is doing, whether it sees any changes, what to do next if you are not sure)
 
 * Open terminal / command line shell
 * Navigate to repo.
