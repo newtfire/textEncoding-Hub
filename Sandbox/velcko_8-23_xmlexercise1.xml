@@ -2,7 +2,8 @@
 <root>
     <subject>Letter from <person>Marian Baldwin</person>, <date><month>June</month> 30,
                 <year>1917</year></date></subject>
-
+<!-- 2022-09-07 ebb: Here's me making a comment on this awesome code! I like what you're doing with attributes here: this is a
+    great example of how attributes can provide extra information about stuff in the text. -->
     <para>On Board <obj foreignlanguage="French" objType="boat">La Touraine</obj>,</para>
 
     <para>
