@@ -16,7 +16,7 @@ Ingredients
 
 Cookies
 
-3/4 cup (138g) vegetable shortening*
+<ingred xml:id="VS">3/4 cup (138g) vegetable shortening*</ingred>
 1 cup (198g) granulated sugar
 1/2 teaspoon salt
 2 teaspoons baking soda
@@ -36,7 +36,7 @@ Coating
 
 Instructions
 
-Preheat the oven to 375°F. Lightly grease (or line with parchment) two baking sheets.
+<step>Preheat the oven to 375°F. Lightly grease (or line with parchment) two baking sheets.</step>
 
 Beat together the shortening, sugar, salt, and baking soda.
 
