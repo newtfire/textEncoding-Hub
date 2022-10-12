@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to <persName role="recipient" type="letter"><forename>Mary</forename>
+                  <surname>Behrend</surname>, typed and sent by <persName role="sender"
+                     type="letter"><forename>Irvin</forename>
+                     <surname>Kochel</surname></persName>
+                  <date when="1955-06-13"/></persName></title>
+         </titleStmt>
+         <extent>Standar size piece of <material type="OnionPaper">onion paper</material> from <date
+               when="1955">1955</date>, printed front and back, single sheet.</extent>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Letter from a series of letters between <persName>Mary Behrend</persName> and
+                  <persName>Irvin Kochel</persName>.</p>
+         </seriesStmt>
+         <notesStmt>
+            <note>Thin piece of <material type="OnionPaper">onion paper</material> typed with a
+                  <objectType>type writer</objectType>, front and back. Left side of the paper is
+                  <damage type="crumpled">crumpled</damage> a bit. Text can be seen through the
+               page.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p><persName role="Admin">Irvin Kochel</persName> was the Administrative Head for
+                  <placeName role="College">Penn State Behrend</placeName> (Previously known as the
+               Behrend Center). He coresponded with <persName role="Landowner">Mary
+                  Behrend</persName>, who was the owner of the land <placeName role="College">Penn
+                  State Behrend</placeName> was built on.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p style="Formal"><persName xml:id="Mary_Behrend">Mrs. <forename>Mary</forename> B.
+                  <surname>Behrend</surname></persName>
+            <address>
+               <name type="street">21 West Putnam Avenue</name>
+               <name type="city">Greenwich</name>
+               <name type="state">Conn</name>
+            </address>
+         </p>
+         <p>Dear <persName>Mrs. <surname>Behrend</surname></persName>: In reference to your recent
+            letters, I offer the following comments-- We would be most pleased to have <persName
+               role="gardener">Mr. <forename>Paul</forename>
+               <surname>Laver</surname></persName> from the Cemetery do certain planting around the
+            entrance to the <placeName xml:id="behrend">Behrend Center</placeName> campus. We
+            understand that this planting will be done by utilizing the existing shrubery in the
+            formal gardens. It is also my understanding that you will reimburse <persName
+               role="gardener">Mr. <surname>Laven</surname></persName> for his labors only for the
+            planting around the entrance and for no other plant- ing. If you have not already done
+            so, I would suggest that you contact <persName>Mr. Day</persName> infomring him of your
+            desures to have <persName role="gardener">Mr. Laver</persName> do the above mentioned
+            work. </p>
+         <p>Insofar as the new building is concerned, we do not plant to proceed with this project
+            this <date when="1955">year</date>. We have not as yet heard from <name role="Company"
+               type="Electrical">General Electric</name> as to their intention of us doing their
+            training program <date when="1955">this fall</date>. It will be impossible at this late
+            date to complete any building arrangments for the Fall term, con- sequently we have
+            delayed any action on a new building for this present year. We do, however, plan to
+            spend approcimately <num type="USD">$25,000.00</num> completing the other half of the
+            barn for utilisation as classrooms. </p>
+         <p>We have located some of the lights for the living room which are in need of repair. At
+            the present time we will investigate the repair of these lights and I will re- port to
+            you at a later date as to whether or not they can be effectively repaired. </p>
+         <p>We are making arrangments to erect a wrough iron rail around the case in which the <name
+               type="Ship">Niagra</name> is displayed. Quite a few people have commented about the
+            ship and have visited us with the express purpose of viewing it. Under separate
+            cover we are sending you the <objectType>television films</objectType> of the
+            presentation of the Flagship. These <objectType>films</objectType> can be shown on a
+            standard <objectType>16mm. projector</objectType>. </p>
+         <p>In refrence to the heating of the <placeName role="aquatics">swimming pool</placeName>,
+            I have talked on two different occasions with <persName role="contactor">Mr.
+                  <surname>Scobell</surname></persName> about completing the project. As yet he has
+            done nothing to heat the pool with the exception of having ordered a piece of equip-
+            ment that is needed to put the <objectType>furnace</objectType> in operating order. You
+            might write Mr. Scobell asking him what progress he is making on this project.This may
+            timu- late him to do something in the immediate future to complete it. </p>
+         <p>In reference to the scholarships, as a result of our last <name role="advising"
+               type="academic">Advisory Board</name> meeting, <persName>Mr. Nick</persName>
+            appointed a new <name role="scholarships" type="monetary">Scholarship Committee</name>,
+            consisting of <persName>Jerry Stokes</persName>, Chair- man, <persName role="chairman"
+                  ><forename>William</forename>
+               <surname>Hamilton</surname></persName> and <persName><forename>John</forename>
+               <surname>Zurn</surname></persName>. I have had one meeting with <persName>Mr.
+               Stokes</persName> and we are planning to arrange for a number of scholarships which
+            will be available <pb/> -2- by <date when="1996">September 1956</date>. Our scholarship
+            fund at <time>present</time> has been consumed <damage type="creased">so that</damage>
+            there is only <num>$650.00</num> remaining in this fund. We havegiven one scholar<damage
+               type="crease">ship</damage> to a <placeName>McDowell High School</placeName> student
+            for <date when="1955">September 1955</date>. The scholarship fund has not been generally
+            advertised this year because of the small amount of money available. We have not in the
+            past had scholarships that were spec<damage type="crease">ifically</damage> designated
+            as Protestant scholarships. Inasmuch as we are a state university we do not feel that it
+            would be ethical to differentiate as to religion or race in the issuance of scholarship.
+            I will keep you informed of the activ<damage type="crease">ities</damage> of this
+            committee and what programs they make. I am quite sure that we will <damage
+               type="crease">be</damage> building the scholarship fund to the point where at least
+            one scholarship wi<damage type="crease">ll</damage> be available to all eleven of the
+            area high school each year. Generally s<damage type="crease">peak</damage>- ing
+            scholarships are in the amount of <num>$100.00</num> per <time>year</time>, per student. </p>
+         <p><persName><forename>Ross</forename> P. <surname>Wright</surname></persName> of
+               <placeName role="manufacturing">Reed Mfg. Company</placeName> has sent us several
+            copies of letters tha<damage type="crease">t</damage> were supposedly writted by
+               <persName>Commodore Perry</persName> on the deck of the <name>Ship Niagra</name> on
+            the afternoon of his victory. We plan to have these copies framed and placed in
+               <placeName xml:id="erie">Erie Hall</placeName> along with the Flagship. I hope
+            this letter finds you in good health and enjoying the summer. Please give my kindest
+            regards to Gail. Our family is well and in good health. </p>
+         <p>Cordially yours, <persName role="head" type="administration" xml:id="Irvin_Kochel"
+                  ><forename>Irvin</forename> H. <surname>Kochel</surname></persName> Administrative
+            Head </p>
+         <p>P.S. Thanks very much for the <name type="literature">London Illustrated News</name>. We
+            will put these to good use in the Library at <placeName>Behrend Center</placeName>.</p>
+      </body>
+   </text>
+</TEI>
