@@ -4,7 +4,11 @@
       <titleStmt>
         <title>TEI-Starter-Sample-Behrend, <date when="2022-10-12">October 12, 2022</date></title>
         <author>Elisa Beshero-Bondar, date</author>
-
+<!-- 2022-10-12 ebb: This is an ODD that I started using the TEI Roma tool on 12 October 2022.  
+        You can continue working with it and customizing the selection of modules, elements, and attributes by uploading this file the tool site: 
+        https://romabeta.tei-c.org/
+        Or, you can continue editing this by hand in oXygen. 
+        -->
       </titleStmt>
       <publicationStmt>
         <publisher>TEI Consortium</publisher>
