@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <!-- 2022-10-12 ebb: I'm lightly adapting this from Wen's and other students' homework submissions. Thanks for the strong start! -->
+         <titleStmt>
+            <title>Mary Behrend's 1909 Calendar Sheets</title>
+            <author>Mary Behrend</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Not published</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>John M. Lilley Library, Penn State Behrend</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <!--ebb: I'm adding an objectDesc here because it helps describe the layout of the pages > -->
+                     <layoutDesc>
+                        <summary/>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="red ink" xml:id="redInk"> Mary Behrend handwriting in red ink </handNote>
+                     <handNote medium="black ink" xml:id="blackInk"> Mary Behrend handwriting in
+                        black ink </handNote>
+                     <handNote medium="pencil" xml:id="pencil"> Mary Behrend handwriting in grey
+                        pencil </handNote>
+                  </handDesc>
+                  <typeDesc>
+                     <!-- ebb: I'm adding a typeDesc here since some of this is printed, not handwritten. -->
+                     <typeNote medium="print" xml:id="pt"> Pre-printed heading from New Friendship
+                        Calendar </typeNote>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person sex="F" age="adult" role="writer" xml:id="mb">
+                  <persName>Mary Behrend</persName>
+               </person>
+               <person sex="M" age="adult" xml:id="eb">
+                  <persName>Ernst Behrend</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <fw><!--  ebb: I've added the <fw> here to indicated "form work": the part of the document that is just printed repeatedly like a form.
+    In the teiHeader somewhere in the sourceDesc, I should describe this a little more. -->
+            <lb/>COPYRIGHT 1908, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW NRITAN, CONN. </fw>
+
+      </front>
+      <body>
+         <div1 type="sheet" n="1">
+            <!-- I'm using the numbered div elements here: div1 and div2, just to show how they're intended to nest 
+         inside each other. This div1 goes on the outside to wrap each calendar sheet, and div2 I'm just using for the dateline inside it. -->
+            <div2>
+               <dateline>
+                  <fw hand="pt"><!--ebb: I'm applying fw here since these dates are printed. Happy to see I can nest it inside dateline. -->
+                     <date when="1909-01-30">January 30, 1909. Saturday</date>
+                  </fw>
+               </dateline>
+
+            </div2>
+            <figure>
+               <graphic
+                  url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-jan-30-1909-1.jpg"/>
+               <ab style="cursive, black" hand="blackInk">
+                  <persName ref="eb">E.R.B</persName>
+                  <said rend="pre(&quot;) post(&quot;)">
+                     <lg>
+                        <l>That dammed old clock</l>
+                        <l>gives me a shock</l>
+                        <l>Each morning when it's dark</l>
+                        <l> It likes the fun, but <unclear reason="illegible" unit="char"
+                              quantity="4"/> begun</l>
+                        <l> to time of <unclear reason="illegible" unit="word" quantity="2"/>!</l>
+                     </lg>
+                  </said>
+               </ab>
+            </figure>
+         </div1>
+         <div1 type="sheet" n="2">
+            <!-- NOTICE, it's still div1, because it's the div at **level 1**, but n="2" because it's the second sheet. -->
+            <div2>
+               <dateline>
+                  <fw hand="pt"><date when="1909-02-16">Febuary 16, 1909. Tuesday</date></fw>
+               </dateline>
+            </div2>
+            <figure>
+               <graphic
+                  url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-feb-16-1909-1.jpg"/>
+               <p style="cursive" hand="blackInk"> Mr. Behrend finds a bed bug! </p>
+               <p style="cursive" hand="redInk"> I wonder if you have found <unclear
+                     reason="illegible" unit="word" quantity="1"/> lately? </p>
+
+            </figure>
+
+         </div1>
+         <div1 type="sheet" n="3">
+            <div2>
+               <dateline>
+                  <fw hand="pt"><date when="1909-02-17">Febuary 17, 1909. Wednesday</date></fw>
+               </dateline>
+            </div2>
+            <figure>
+               <!--ebb: There's no picture on this particular sheet, but we could still *choose* to use the <figure> element 
+              because this ordinarily the place Mary Behrend would draw a picture.
+           or perhaps we could replace this one with a div2. That would be an example of a project encoding decision. -->
+               <ab style="cursive" hand="blackInk">
+                  <lg>
+                     <l>Each morning very early</l>
+                     <l>Where all is dark &amp; chill</l>
+                     <l>
+                        <unclear reason="illegible"/></l>
+                     <l><unclear reason="illegible"/>
+                        <placeName>Hammermill</placeName></l>
+                     <l>Really <unclear reason="illegible"/> has <unclear reason="illegible"/></l>
+                     <l>To <unclear reason="illegible"/> where it's dark</l>
+                     <l>for <unclear reason="illegible"/> he says he <unclear reason="illegible"
+                        /></l>
+                     <l><unclear/>!</l>
+                  </lg>
+               </ab>
+               <p style="cursive" hand="redInk"> Poor thing! is it still dark when you arrive? </p>
+            </figure>
+
+         </div1>
+         <div1 type="sheet" n="4">
+            <div2>
+               <dateline>
+                  <fw hand="pt"><date when="1909-03-08">March 8, 1909. Monday</date></fw>
+               </dateline>
+            </div2>
+            <figure>
+               <graphic
+                  url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-mar-8-1909-1.png"/>
+               <figDesc resp="ebb">A large red question mark.</figDesc>
+               <!-- ebb: You can add a figDesc or an interp element in TEI to provide your interpretation of a picture. -->
+               <p style="cursive" hand="redInk">Perhaps this is <emph rend="underline">the</emph>
+                  day tho' I think it will be later. Love, M. </p>
+
+            </figure>
+
+         </div1>
+         <div1 type="sheet" n="5">
+            <div2>
+               <dateline>
+                  <fw hand="pt"><date when="1909-03-11">March 11, 1909. Thursday</date></fw>
+               </dateline>
+            </div2>
+            <figure>
+               <graphic
+                  url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-mar-11-1909-1.png"/>
+
+               <p style="cursive, sideways" hand="redInk">
+                  <unclear reason="illegible" unit="word" quantity="6"/><name type="place"
+                     >Erie</name>? </p>
+               <ab style="cursive," hand="blackInk">
+                  <lg>
+                     <l>Everybody <unclear reason="illegible">(unknow) (unknow)
+                        (unknow)</unclear></l>
+                     <l>For this is an <emph rend="underline">Erie</emph> Tea</l>
+                     <l>They <emph rend="underline">eat</emph> too much, <emph rend="underline"
+                           >talk</emph> too much—</l>
+                     <l><unclear reason="illegible"/> they <unclear reason="illegible"/> me.</l>
+                  </lg>
+               </ab>
+            </figure>
+         </div1>
+         <div1 type="sheet" n="6">
+            <div2>
+               <dateline>
+                  <fw hand="pt"><date when="1909-03-12">March 12, 1909. Friday</date></fw>
+               </dateline>
+            </div2>
+            <figure>
+               <graphic
+                  url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-mar-12-1909-1.png"/>
+               <ab style="print" hand="blackInk">
+                  <lg>
+                     <l><persName ref="#mb">MOLLY</persName> ON SNOWSHOES</l>
+                     <l>THAT <persName ref="#weir">MR.WEiR</persName> GOT.</l>
+                     <l>PRETTY PICTURE</l>
+                     <l>IS IT NOT?!</l>
+                  </lg>
+               </ab>
+               <p style="cursive, red"> Love from Molly </p>
+
+            </figure>
+
+         </div1>
+         <div1 type="sheet" n="7">
+            <div2>
+               <dateline>
+                  <fw hand="pt"><date when="1909-03-17">March 17, 1909. Friday</date>
+                     <lb/>St. Patrick's Day</fw>
+               </dateline>
+            </div2>
+            <figure>
+               <graphic
+                  url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-mar-17-1909-1.png"/>
+               <ab style="print" hand="blackInk">
+                  <lg>
+                     <l>St. PATRiCK WAS A USEFUF SAiNT</l>
+                     <l>HE FRiGHTENED ALL THE SNAKES AWAY-</l>
+                     <l>I WISH HE'D TRY HiS ART ON SMOKE <graphic
+                           url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-mar-17-1909-2.png"
+                        /></l>
+                     <l>AROUND THE <placeName>HAMMERMILL</placeName> SOME DAY!</l>
+                  </lg>
+               </ab>
+               <p style="cursive" hand="redInk">
+                  <graphic
+                     url="https://github.com/JiayuanWen/classRepo_DIGIT110/blob/main/wen_10_4_TEI-Exercise-2/calender-mar-17-1909-3.png"
+                  /> The <placeName>Hammermill</placeName> really <unclear reason="illegible"
+                     >(unknow) (unknow)</unclear>! </p>
+            </figure>
+
+         </div1>
+      </body>
+   </text>
+</TEI>
