@@ -22,17 +22,17 @@
                   <persName>Irvin Kochel</persName>.</p>
          </seriesStmt>
          <notesStmt>
-            <note>Thin piece of <material type="OnionPaper">onion paper</material> typed with a
-                  <objectType>type writer</objectType>, front and back. Left side of the paper is
-                  <damage type="crumpled">crumpled</damage> a bit. Text can be seen through the
-               page.</note>
-         </notesStmt>
-         <sourceDesc>
-            <p><persName role="Admin">Irvin Kochel</persName> was the Administrative Head for
+            <note><persName role="Admin">Irvin Kochel</persName> was the Administrative Head for
                   <placeName role="College">Penn State Behrend</placeName> (Previously known as the
                Behrend Center). He coresponded with <persName role="Landowner">Mary
                   Behrend</persName>, who was the owner of the land <placeName role="College">Penn
-                  State Behrend</placeName> was built on.</p>
+                  State Behrend</placeName> was built on.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Thin piece of <material type="OnionPaper">onion paper</material> typed with a
+                  <objectType>type writer</objectType>, front and back. Left side of the paper is
+                  <damage type="crumpled">crumpled</damage> a bit. Text can be seen through the
+               page.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -71,10 +71,10 @@
             you at a later date as to whether or not they can be effectively repaired. </p>
          <p>We are making arrangments to erect a wrough iron rail around the case in which the <name
                type="Ship">Niagra</name> is displayed. Quite a few people have commented about the
-            ship and have visited us with the express purpose of viewing it. Under separate
-            cover we are sending you the <objectType>television films</objectType> of the
-            presentation of the Flagship. These <objectType>films</objectType> can be shown on a
-            standard <objectType>16mm. projector</objectType>. </p>
+            ship and have visited us with the express purpose of viewing it. Under separate cover we
+            are sending you the <objectType>television films</objectType> of the presentation of the
+            Flagship. These <objectType>films</objectType> can be shown on a standard
+               <objectType>16mm. projector</objectType>. </p>
          <p>In refrence to the heating of the <placeName role="aquatics">swimming pool</placeName>,
             I have talked on two different occasions with <persName role="contactor">Mr.
                   <surname>Scobell</surname></persName> about completing the project. As yet he has
@@ -110,9 +110,9 @@
             copies of letters tha<damage type="crease">t</damage> were supposedly writted by
                <persName>Commodore Perry</persName> on the deck of the <name>Ship Niagra</name> on
             the afternoon of his victory. We plan to have these copies framed and placed in
-               <placeName xml:id="erie">Erie Hall</placeName> along with the Flagship. I hope
-            this letter finds you in good health and enjoying the summer. Please give my kindest
-            regards to Gail. Our family is well and in good health. </p>
+               <placeName xml:id="erie">Erie Hall</placeName> along with the Flagship. I hope this
+            letter finds you in good health and enjoying the summer. Please give my kindest regards
+            to Gail. Our family is well and in good health. </p>
          <p>Cordially yours, <persName role="head" type="administration" xml:id="Irvin_Kochel"
                   ><forename>Irvin</forename> H. <surname>Kochel</surname></persName> Administrative
             Head </p>
