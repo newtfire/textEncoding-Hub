@@ -20,7 +20,8 @@
                </msIdentifier>
                <physDesc>
                   <objectDesc>
-                     <!--ebb: I'm adding an objectDesc here because it helps describe the layout of the pages > -->
+                     <!--ebb: I'm adding an objectDesc here because it helps describe the layout of the pages, and one of you asked 
+                     about it. :-) -->
                      <layoutDesc>
                         <summary/>
                         <layout/>
