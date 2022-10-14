@@ -20,7 +20,7 @@ Project GitHub [to be linked]
 ## Extramural Collaborations
 
 ### Harlem Renaissance Anthology
-Project GitHub [to be linked]
+[Project GitHub](https://github.com/newtfire/locke-anthology)
 * [Zack Dominick](https://github.com/ztd5049)
 * [Julian Giles](https://github.com/julianjmg)
 * [Noah Stachera](https://github.com/Stach13)
