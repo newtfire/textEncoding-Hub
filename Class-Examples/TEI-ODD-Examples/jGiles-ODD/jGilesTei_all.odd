@@ -2,8 +2,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TEI-Starter-Sample-Behrend, <date when="2022-10-12">October 12, 2022</date></title>
+        <title>TEI-Starter-Sample-Behrend</title>
         <author>Elisa Beshero-Bondar, date</author>
+        <author>Julian Giles, <date when="2022-10-12">October 12, 2022</date></author>
         <!-- 2022-10-12 ebb: This is an ODD that I started using the TEI Roma tool on 12 October 2022.  
         You can continue working with it and customizing the selection of modules, elements, and attributes by uploading this file the tool site: 
         https://romabeta.tei-c.org/
@@ -84,13 +85,15 @@
                 <valItem mode="add" ident="redInk"/>
               </valList>
             </attDef>
-            <attDef ident="medium">
-              <datatype>
-                <dataRef name="string"/>
-              </datatype>
-              <valList>
-                <valItem ident="inkPen"/>
-                <valItem ident="print"/>
+            <attDef ident="medium" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="inkPen">
+                  <desc versionDate="2022-10-17" xml:lang="en">writing with an ink pen</desc>
+                </valItem>
+                <valItem mode="add" ident="print">
+                  <desc versionDate="2022-10-17" xml:lang="en">part of the printed formwork on the
+                    calendar sheet</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
