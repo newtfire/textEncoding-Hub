@@ -43,7 +43,7 @@ Project GitHub [to be linked]
 * [Shaun Massenburg](https://github.com/DivinexRoyalty)
 
 ### Hilaire Belloc 2: [*More Beasts for Worse Children*](https://www.gutenberg.org/files/27176/27176-h/27176-h.htm)
-Project GitHub [to be linked]
+[Project GitHub](https://github.com/JiayuanWen/Belloc-More-Beasts)
 
 * [Jiayuan Wen](https://github.com/JiayuanWen) **
 * [Graydon Kupfer](https://github.com/gak5275)
