@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>One of a series of calender sheets which Mary Behrend drew pictures and wrote notes.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Text Encoding class of 2022 at Penn State Behrend</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>MARCH 17, 1909 WEDNESDAY</head>
+         <lg>
+         <l>ST.PATRICK WAS A USEFUF SAINT</l> <!--I WANT TO POINT OUT THE SPELLING MISTAKE HERE-->
+         <l>HE FRIGHTENED ALL THE SNAKES AWAY-</l> <!--i WANT TO POINT OUT "HE" IS REFERRING TO ST.PATRICK-->
+         <l>I WISH HE'D TRY HIS ART ON SMOKE</l> <!--HOW DO I ENCODE THAT THERE WAS A UNDERLINE ON WORD "SMOKE"-->
+         <l>AROUND THE HAMMERMILL SOME DAY!</l>
+         </lg>
+      </body>
+     
+  </text> 
+   
+   <text>add another calender sheets</text>
+</TEI>
