@@ -10,12 +10,9 @@
     
     <xsl:mode on-no-match="shallow-copy"/>
     
-    <xsl:template match="line">
-      <!--Attribute value template for the @n --> 
-        <ln n="{preceding-sibling::line => count()+ 1 }"/> <xsl:apply-templates/>  
+  
       
         
-    </xsl:template>
     
     
     
