@@ -11,10 +11,22 @@
     <xsl:mode on-no-match="shallow-copy"/>
     
   
-      
+      <xsl:template match="sonnet">
+          
+        <poem num="{@number}">
+         <xsl:apply-templates/>
+        </poem>  
+          
+      </xsl:template>
         
     
-    
+    <xsl:template match="line">
+     
+          <poemLine n="{count(preceding-sibling::line) + 1}"/>
+            <xsl:apply-templates/>
+            
+        
+    </xsl:template>
     
     
 </xsl:stylesheet>
