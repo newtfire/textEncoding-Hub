@@ -13,7 +13,7 @@
                <title>Organizations in Digital Mitford</title>
            </head>
            <body>
-              <h1>Digital Mitford Lists of Organizations</h1> 
+               <h1>Digital Mitford Lists of Organizations</h1> 
                <!--ebb: XPath shows us we have three <listOrg> elements in the si-modified.xml source document. 
                    Let's set up ONE numbered list for the OUTER list using HTML's <ol> element.
                In HTML, an <ol> looks like this: 
@@ -24,10 +24,10 @@
                    </ol>
                -->
               <ol>
-                  <xsl:apply-templates select="descendant::listOrg"/>
-              </ol> 
-
+                   <xsl:apply-templates select="descendant::listOrg"/>
+               </ol> 
            </body> 
+           
        </html>
    </xsl:template> 
     
@@ -36,6 +36,20 @@
       to output the heading and create an internal bulleted list with <ul> every time it processes a listOrg element. 
        2) Handle processing of the organization list items for each internal list.
    -->
+ <xsl:template match="listOrg">
+     <li>
+     <xsl:apply-templates select="child::head"/>
+         <ul>
+             
+             
+             
+         </ul>
+         
+     </li>
+     
+ </xsl:template>
+ 
+ 
  
     
 </xsl:stylesheet>
