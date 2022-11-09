@@ -1,0 +1,304 @@
+body {
+    background-color: beige;
+    font-size: 18px;
+    z-index:0
+}
+
+/* latin */
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merienda/v9/gNMHW3x8Qoy5_mf8uWMFMIo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/varelaround/v13/w8gdH283Tvk__Lua32TysjIfp8uP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sansita/v5/QldMNTRRphEb_-V7LBuBTllb.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v14/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOxGnv-d.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Averia Serif Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/averiaseriflibre/v10/neIWzD2ms4wxr6GvjeD0X88SHPyX2xYOoguP.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Cantora One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cantoraone/v12/gyB4hws1JdgnKy56GB_JX5zabYo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    z-index:1
+}
+
+.navbar a {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+    font-size: 48px;
+}
+
+h2 {
+    font-family:'Averia Serif Libre', cursive;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Cantora One', sans-serif;
+    font-size: 26px;
+}
+
+p {
+    line-height: 150%;
+    font-size: 18px;
+    font-family: 'Valera Round', sans-serif;
+}
+
+img {
+    /*display: block;*/
+    border-radius: 15px;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.header {
+    line-height: 150%;
+    font-size: 18px;
+    font-family: 'Sansita', sans-serif;
+}
+
+.header:hover {
+        line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    color:yellow;
+    }
+
+.pfp {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.title {
+font-family: 'Zen Antique', cursive;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex: 4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.main {
+    flex: 4;
+    padding: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.flex-container {
+    flex-wrap: wrap;
+}
+
+img.thumbnail {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 10px;
+    left: 10px;
+    right: 22px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 140px;
+    transition: .5s ease;
+    opacity: 0;
+    border-radius: 15px;
+    font-size: x-small;
+    padding: 30px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+}
+
+figure:hover .overlay {
+    opacity: 1;
+}
+
+div > figure {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: initial;
+    flex-wrap: wrap;
+}
+
+section#page {
+    background-color: tan;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.desc {
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+figure img {
+    max-width: 500px;
+    width: 100%;
+
+}
+
+section#page div.transcription {
+    flex: 2;
+    padding: 5vw;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 300px;
+    margin-bottom: 100px;
+    font-size: 12px;
+}
+
+section#page div.transcription p {
+    font-size: 12px;
+}
+
+.entry{
+    width: 500px;
+    height: 666px;
+}
+
+.footer{
+   /* ebb: position:absolute means this always floats on the bottom 
+    * of a screen, even on a long page where you scroll PAST thte bottom 
+    * of a screen. So I think you want this to remain at the very bottm? */
+    /*  position: absolute; */
+    background-color: gray;
+    bottom: 0px; 
+ color: white;   
+}
+
+div.footer a, div.footer p {
+  color: white;  background-color:black;
+}
+
+div.footer a:visited{
+    /*color: blueviolet;*/
+    color:yellow;
+}
+div.footer p img{display:inline;}
+
+/* 2021-12-06 ebb: The following CSS is for the Reading View to make a CSS grid */
+/*  section elements wrap each unit of calendar page information, so this is our 
+ * CSS grid container.
+ * 2021-12-08: ebb I'm revising this to use fr units (fractional units). These help for 
+ * proportional scaling to the window. */
+ 
+ /*  I'm using an atttribute selector to look for sections 
+  * whose id attributes START WITH this string: e-1909  since those are the sections
+  * we want to be grid containers*/
+ section[id^="e-1909"] {
+ background-color:lavender;
+ border: thin solid maroon;
+ display:grid;
+ grid-auto-flow:column; 
+ grid-template-columns:.8fr .2fr; 
+ grid-column-gap:2em;
+ }
+ 
+ /*  let's try creating a grid for the div.facsblock, so all the text appears in a new column to the right of the image.  */
+ 
+ section[id^="e-1909"] div.facsblock {
+ background-color:white; 
+display:grid;
+grid-auto-flow:column;
+grid-template-columns: .75fr .23fr; 
+/*  ebb: need to look up how minmax works.  */
+grid-column-gap:2em;
+padding:1em;
+}
+
+/* ebb: Here we are making the image size scale proportionally with the browser size: 
+ * The CSS selector syntax reads: style the <img> element this way when its parent is a figure,
+ *  and the figure's parent is something with class="facsblock".  */
+div.facsblock > figure > img {
+ object-fit:contain;
+ width:100%;
+   
+}
+
+/* This CSS selector syntax reads: Style the <div class="note"> when it's a descendant
+ * of a <section> with an @id that starts with "e-1909". */
+ section[id^="e-1909"] div.note  {
+     padding:1em;
+ }
+
+/* The rule belows styles the OUTERMOST grid container. Maybe we'd like to control the spaces between the sections, so we can make a big
+ * grid of the surrounding section#fulltext that holds all the calendar entries.
+ * This time, we'll organize it in rows (vertically). I'm only doing this to specify a gap to appear in between each section. 
+ *  */
+section#fulltext {
+    width:80%;
+    margin:auto;
+    display:grid;
+    grid-auto-flow:row;
+    grid-row-gap:50px;
+}
