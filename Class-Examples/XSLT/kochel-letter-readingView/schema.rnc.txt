@@ -1,0 +1,61 @@
+start = doc 
+doc = element doc {header, body}
+#header will contain document information, body will contain the document text.
+
+header = element header {docTitle, docAuthor, docType, docDate, docMaterial*, notes*}
+
+docTitle = element docTitle {text}
+#title of the document 
+docAuthor = element docAuthor {text}
+#author of the document 
+docType = element docType {text}
+#type of document 
+docDate = element docDate {text}
+#date the document was created/written
+docMaterial = element docMaterial {text}
+#material the document is made of/written on 
+notes = element notes {text}
+#extra notes on the document, or writer of the document.
+
+body = element body {mixed{nonOrig*, docHead*, (address | date | recipient | name | p | closing | unsure | ps)*}}
+
+#markup made on text for documentation.
+nonOrig = element nonOrig {style*, type*, ink*, text}
+#elements in above line
+docHead = element docHead {persName*, address*, date*}
+address = element address {addLine*, name*, text}
+addLine = element addLine {name*, type, text}
+#elements in above line
+
+date = element date {when, text} 
+#element in above line
+recipient = element recipient {persName, name*, address}
+
+persName = element persName {pers?, text}
+#element in above line
+
+name = element name {type?, text}
+
+p = element p {n, mixed{(persName | location | time | name | dolAmount)*}}
+#element in above line
+
+location = element location {text}
+time = element time {type, text}
+dolAmount = element dolAmount {curency, text}
+
+closing = element closing {mixed{(signature | persName)*}}
+signature = element signature {style, ink, mixed{persName*}}
+ps = element ps {note, text}
+note = element note {style, ink, persName*, text}
+
+unsure = element unsure {type, text}
+
+n = attribute n {xsd:integer}
+pers = attribute pers {text}
+when = attribute when {xsd:date}
+ink = attribute ink {text}
+type = attribute type {text}
+style = attribute style {text}
+curency = attribute curency {text}
+
+
