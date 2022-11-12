@@ -11,12 +11,14 @@ But we are outputting in the XHTML namespace, so we need that one.
    <xsl:template match="/">
        <html>
            <head>
-               <title></title>
+               <title><xsl:apply-templates select=".//docTitle"/></title>
                <link rel="stylesheet" type="text/css" href="style.css"/>
                
            </head>
            <body>
-             <xsl:apply-templates select=".//body"/>
+               <h1><xsl:apply-templates select=".//docTitle"/></h1>
+            
+               <xsl:apply-templates select=".//body"/>
            </body>
        </html>
        
