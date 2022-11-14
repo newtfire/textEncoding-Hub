@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <letter xml:id="Greenwich-1955-07-18">
+        <figure>
+            <graphic url="images/noon.julyimage.jpg"/>
+            <caption>July 18th, 1955</caption>
+        </figure>
+        <dateLine><placeName>Departure. On Queen Elizabeth.</placeName><time> At Noon</time>, <date when="1955-07-18">July 18, 1955.</date></dateLine>
+     <p n="1">   We got on board about <time>10</time>
+    <persName>Harriet</persName> had stayed in <placeName>Greenwich</placeName> over night so went in town with us. <misspelling word="We">Wm</misspelling> drove the <transport>station wagon</transport> with our 
+    bags. Very cleverlym selected as we had two s<x rw="ii">uu</x>t cases each and a "bottle bag and the typewriter-plus
+    a very unhealthy looking green duffle bag(reserved for purchases. THIS folded up on thebbottem of a suit case for future use!
+        State room gay with flowers and champagne. We had a send of party. <persName>Billy</persName> was hiding behind a curtain and was a HUGE
+    surprise'<persName>Caryl</persName> had arranged it this way <persName>Gail's</persName> mother and a friend- <persName>Dale</persName> and <persName>Kissy</persName> got to the <placeName>dock</placeName> just after <time>10.30 </time>
+    and were not allowed to come on board. Too bad.
+        <transport>Huge ship</transport>. Like a section of the <placeName>Waldorf- the Reacock Alley</placeName> plus several of the <placeName>dining</placeName> rooms- afloat Streams of 
+    PEOPLE nulling about.
+
+        We had a table in the <placeName>dining</placeName> room with 5 other femal ladies. Thought it would divert us. The one man looked us over and
+        next meal he wasn't there. So we <misspelling word="drew">dr4ew</misspelling> <misspelling word="an">ano</misspelling> anoother lady. It all proved to be amusing. We exchange addresses and werephotographed
+        to-gether. 
+    Voyage very smooth all way over. We took in the <placeName>movies</placeName> and <placeName>pools</placeName>. I won a few dollars on a pool.
+        A <persName>Mr and Mrs Andeson</persName>, very nice friends of <persName>H.</persName> and <persName>Caryls</persName> asked us for cocktails one evening. Then there
+        were the parties of the Captain and the Purser Also <persName>Esther Boyer</persName> was on board with a party of eight in cabin class, she 
+        was to steer (ab??) over <placeName>Europe</placeName>. She came up and has tea with us one day.
+        The <persName>Captain</persName> and <persName>Purser</persName> both were on the <placeName>Franconia</placeName> about years ago- as under officers- on a world cruise wer were on.
+        Both exptremely cordial. 
+        Took <transport>train</transport> around <time>noon</time> for <placeName>Paris</placeName>. Hot as blazes. and stuffy besides. Had lunch en route. Quite good.
+        <placeName>Paris</placeName> and piled our belongings intoo a <transport>cab</transport> and landed at <placeName>Le Br istol</placeName>- a rather smallish hotel were diplomats go- white marble 
+        and mirrors. We had an oval white panelled round sitting room. (which we didn't need and later gave up.)
+        Very weary and after some refreshing tub baths went over to the <placeName>Crenailliere</placeName>(nearby) where we had a very delicious dinner.</p>
+   </letter>
+
+    
+    
+</xml>

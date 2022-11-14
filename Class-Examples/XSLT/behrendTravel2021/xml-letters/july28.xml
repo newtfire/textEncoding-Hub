@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <letter xml:id="copenhagen-1955-07-28">
+            <hand>Thus</hand>
+            <hand><date when="1955-07-28">July 28</date>. uruet vilt oer cae c<u>otto</u> oei deierr
+                <u>THURSDAY</u></hand>
+        <typeWritten>
+            <p n="1"> Did letter and left the <placeName>Astoria</placeName> with <persName>Otto</persName> and the <transport>ford
+                    car</transport>- our new car and driver for our jaunt. Went to Bang and looked at
+                fur jackets.And then to <persName>jensens</persName> where <persName>Gail</persName> made a purchase. To
+                <placeName>Weavers embroidery shop</placeName>. Then to <placeName>Oscar Davidson's</placeName> where the
+                Menu is s<x rw="e">e</x>veral yards long- all open faced
+                    sadnwhiches. Didn't think so much of this place. Then to the
+                    <placeName>Permente</placeName> again and <merge where="upline">then bac<x
+                         rw="k">k</x> to the astoria to pack up our
+                    things</merge> and left for the <placeName><u>Palace Hotel</u></placeName> where
+                we had a rather nice room etc. Then we rushed out to the <placeName>Rosenborg
+                    Palace</placeName> to see the jewels etc. It was close in about half an hour so
+                didn't have too much time.After this we drove out to the <placeName>Roya<x
+                        rw="L">l</x>
+                    <u>Deer Park</u></placeName>. A large building in a park- open fields with many
+                herds of deer roaming about </p>
+            <p n="2"> In the evening we were invited to <persName>Mr Dessau's</persName> f or
+                dinner. his son <persName>William</persName> came in to get us. Very nice and
+                friendly. Almost everyone seems to speak English. They get a terrific lot of it in
+                the schools. <persName>Mrs Dessau</persName> looks very young Had another son
+                    there-<persName>ROul</persName>- and his very sweet bride of a few months. She
+                was born in <placeName>Mexico</placeName> and in fact IS
+                    Mexican but lived a long time in
+                    <placeName>Texas</placeName>. Does notnSpeak Danish. After
+                meeting them all <persName>Mr Dessau</persName> Asked us to see his
+                    <placeName>garden</placeName>. He had several hundred
+                    parakets in a huge cage- like a b<x rw="ig">ig</x>
+                <u>room</u>- and arranged so they could fly in and out. Then he
+                showed us his special pets Two tame Kangaroo!! They hopped out of
+                their enclosure and like to me patted. Very tame. He has had them several years. T
+                gave <persName>Mrs Dessau</persName> one of my little trimmed
+                    Christmas trees And to the bride a little "shelf" which was
+                really Mexican and I had trimmed it over and remade it
+                They werre very pleqsed. had a nice evening and enjoyed
+                them all. Also we LIKE the Toborg beer better than ant other kind!! </p>
+        </typeWritten>
+    </letter>
+</xml>

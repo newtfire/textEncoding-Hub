@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <!--Goes in Belgium not France-->
+    <letter xml:id="Brussels-1955-07-26">
+        <figure>
+            <graphic url="images/July26.jpg"/>
+            <caption>July 26th letter</caption>
+        </figure>
+        <dateLine><date when="1955-07-26"> July 26, 1955</date></dateLine>
+        <placeName>Brussels</placeName>
+
+        <front>
+            <readers>Dear People:</readers>
+            <p n="1">We are just about to take off for <placeName>Copenhagen</placeName> and are sit- ting
+                around so I will try to send this second installment of our trip report. If I
+                remember correctly, the last letter came from the boat. We arrived in
+                    <placeName>Cherbourg</placeName> and got safely on the <transport>train</transport> to
+                fin that it was over 90. We nearly died on the ride to <placeName>Paris</placeName>. Very
+                unairconditioned train and blazing sun. The first thing we did when we arrived at
+                    <placeName>Le Bristol</placeName> was fall in cold tub. We went out for
+                    dinner later and cele- brater with <persName>Charles
+                Jubilee</persName>. Very tasty! The next day Mrs. Behrend hired a
+                    <transport>car</transport> and guide and we drove all over <placeName>Paris</placeName>.
+                It is so beautiful but so expensive<x rw="?">!</x>
+                <fade>$</fade>90 a minute to breath! We did a bit of shopping, had lunch in the
+                    <placeName>Bois de Boulougne</placeName> shopped on the Left Bank, got
+                    <transport>train</transport> tickets and that night went to the <placeName>Casino de
+                    Paris</placeName>. Pretty naked ladies I must say. We were not carried away by it
+                but did see it, so that is that.</p>
+            <p n="2">The next morning we were up at the crack of dawn and off to Tours. The man and
+                his wife who ran the <placeName>Manior Berheron</placeName>, where we stayed as a
+                    m<misspelling word="member"/>m<eSpace i="extra space"/>ber of the family were terribly nice. We
+                arravied in time for lunch and then got in a little car and went
+                through some beautiful country to see some of the chateaux. We enjoyed it
+                traemndously. You can see where the old French painters get all their inspirations.
+                Lovely rivers, old mills and beautiful trees. That night after dinner we
+                went to a nearby chateau, <placeName>Azay-le-Rideau</placeName> which was illuminated. Just like fairyland.
+                They also had a sort of play very cleverly done just done with voices and lighting
+                which told the history of the building. We will never forget it.</p>
+            <p n="3">Thursday, the Davidsons, our hosts and their little boy and and
+                ourselves went on another chateaux trip which was just a grand as the day before. We
+                had a picnic on the way and <x><corr ori="day"><hand>tea</hand></corr></x> on the way home. Great
+                fun. The only thing that marred the trip was another guest who arrived who knew all
+                about everything and told it in the loudest of voices. I got in a ter- rible row
+                with him about sports. Everyone was on my side but you couldn't get a word in edge
+                wise. Itwas rather funny to look back on but I nearly had a nervous breakdown when
+                it was going on.</p>
+
+            <p n="4">
+                Friday we left Tours at about eleven and got back in Paris for
+                    lunch. After the lovely meal we changed out on foot to do some
+                shopping.</p>
+          
+        </front>
+        <figure>
+            <graphic url="images/July26.jpg"/>
+            <caption>July 26th letter</caption>
+        </figure>
+        <back>
+         
+            <p n="4">and walked around. This we dis. Not too many purchases. We were going upto
+                    <placeName>montmartre</placeName> but decided to get to bed early to leave for
+                    <placeName>Brussels</placeName> the next day.</p>
+            <p n="5">We had a perfect flight from <placeName>London</placeName> here. Mercedes Bucher met us
+                at the airport and we came to the hotel. the Wilsons, Mrs. BBs cousin, called and
+                came over for a drink. We then went for a delicious lunch, food is
+                marvelous here, on the <placeName>Grand Place</placeName> which is fantatic. Mercedes has a
+                    <transport>car</transport> so we spent the afternoon seeing
+                    <placeName>Brussels</placeName> which is very pretty. Lovely park and old buildings. Had
+                    dinner in a very old place with lots of atmoshpere and good food.
+                    Sunday we piled into the <transport>car</transport> and went to
+                    <placeName>Burges</placeName>, about and hour and a half away. A divine old town. We
+                took a ride in a <transport>carriage</transport> all over the town. Great fun. On
+                the way back we stopped for tea in the <placeName>Osten</placeName> which is
+                a big seaside resort. Arrived back here at eight and ha a light supper
+                on the <placeName>Grand Place</placeName> which is illuminated at night and breathtaking.
+                Yesterday we shopped most of the day and walked around seeing things. All had
+                    cocktails at the <placeName>Wilsons hotel</placeName> and dinner
+                later.</p>
+            <p n="9"> It is now Tuesday again and we leave here at 12:55 for
+                    <placeName>Copen- hagen</placeName> arriving there at <time>4:30</time>. Have to change
+                planes in <placeName>Amsterdam</placeName>. Mer- bill etc. The <persName>Wilsons</persName> left
+                a while ago for <placeName>Paris</placeName>. We will see them in <placeName>London</placeName> in
+                    August.</p>
+            <p n="10">We see by the paper that it is still unberable in <placeName>New York</placeName> and
+                are pleased to be here. weather has been perfect except for the day we arrived.</p>
+
+
+             <p>Much love to all from both of us.</p>
+        </back>
+    </letter>
+    
+</xml>
