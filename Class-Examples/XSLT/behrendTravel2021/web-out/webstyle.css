@@ -29,3 +29,27 @@ span.placeName {color:aqua;}
 span.persName {color:pink;}
 
 span.x {background:maroon; color:white;}
+
+/* unvisited link */
+a:link {
+  color: #ebde34;
+  font-weight: bolder;
+}
+
+/* visited link in sky blue*/
+a:visited {
+  color: #87CEEB;
+  font-weight: bolder;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+  font-weight: bolder;
+}
+
+/* selected link in aqua*/
+a:active {
+  color: #ebde34;
+  font-weight: bolder;
+}
