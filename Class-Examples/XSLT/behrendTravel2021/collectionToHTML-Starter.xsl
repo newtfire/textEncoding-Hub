@@ -37,23 +37,17 @@
                             <th>Places Mentioned</th><!--third column table heading-->
                         </tr>
                         
-                        <!--ebb: Here we use our $travelColl variable pointing into the collection. -->
-                        <xsl:apply-templates select="$travelColl//letter" mode="toc">
-                            <xsl:sort select="(descendant::date/@when)[1] ! xs:date(.)"/>
-                        </xsl:apply-templates>
-                        <!-- ebb: Notice how we open up xsl:apply-templates to apply xsl:sort. 
-                            This sorts the files in the collection based on the
-                      very first available @when on a date element. We convert it to xs:date to be sure
-                      that XSLT sorts it as the proper datatype. 
-                      -->
+                        <!--ebb: Here we use our $travelColl variable pointing into the collection, and we set up our modal XSLT. -->
+                        <xsl:apply-templates select="$travelColl//letter" mode="toc"/>
+                        
                         
                     </table>
                 </section>
 
                 <section id="fulltext">
-                    <xsl:apply-templates select="$travelColl//letter">
-                        <xsl:sort select="(descendant::date/@when)[1]"/>
-                    </xsl:apply-templates>
+                   <!--ebb: Look! no @mode in this xsl:apply-templates. -->
+                    <xsl:apply-templates select="$travelColl//letter"/>
+                      
                 </section>
             </body>
         </html>
