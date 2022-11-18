@@ -41,6 +41,7 @@
                         <xsl:apply-templates select="$travelColl//letter" mode="toc">
                            
                             <!--<xsl:sort select="for $i in tokenize(@xml:id, '-') return concat($i[2], '-', $i[3], '-', $i[4]) ! xs:date(.)"/>-->
+                            
                             <xsl:sort select="(descendant::date)[1]/@when ! xs:date(.)"/>
                         </xsl:apply-templates>
                         
@@ -63,11 +64,20 @@
    
    <xsl:template match="letter" mode="toc">
        <tr>
-           <td><a href="#{@xml:id}"><xsl:apply-templates select="@xml:id"/></a> <br/> 
+           <td><a href="#{@xml:id}"><xsl:apply-templates select="@xml:id"/>
+               
+               
+           </a> <br/> 
                <xsl:value-of select=".//p[1] ! substring(., 1, 80)"/>
            
            </td><!--first column data cell: to hold the date of the letter-->
-           <td><xsl:value-of select="descendant::placeName ! normalize-space() => distinct-values() => sort() => string-join(', ') "/></td>
+           <td>
+               <ul>
+                   <xsl:apply-templates select="descendant::placeName" mode="toc">
+                         <xsl:sort/>
+                    </xsl:apply-templates>
+               </ul>
+           </td>
            
            <!--second column data cell: to hold a sorted, string-joined list of persons mentioned. -->
            <td><xsl:value-of select="descendant::persName ! normalize-space() => distinct-values() => sort() => string-join(', ') "/></td><!--third column data cell: to hold a sorted, string-joined list of places mentioned.-->
@@ -75,6 +85,13 @@
        </tr>
    </xsl:template>
     
+    <xsl:template match="placeName" mode="toc">
+   
+            <li><xsl:apply-templates/></li>            
+            
+            
+        
+    </xsl:template>    
 
 
     <!-- ************************************************* -->
