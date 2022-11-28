@@ -110,19 +110,24 @@
                                 <figcaption><!--something we pull from the imgDesc.xml file --></figcaption>
                             </figure>
                             
-                            
+         
+                                <xsl:apply-templates select=".//letter"/>
+                       
                         </section>
                         
                         
                     </body>
                     
                 </html>
-              
-            
-            
-            
+    
             </xsl:result-document>
         </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template match="letter">
+        <div class="letterText">
+        <xsl:apply-templates/>
+        </div> 
     </xsl:template>
         
        
