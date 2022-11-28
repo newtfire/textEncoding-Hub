@@ -1,0 +1,6 @@
+start = root
+root = element root {page+}
+page = element page {n, img, desc}
+n = attribute n {xsd:integer}
+img = attribute img {xsd:integer}
+desc = element desc {text}

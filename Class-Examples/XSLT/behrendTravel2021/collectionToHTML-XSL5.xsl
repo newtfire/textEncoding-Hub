@@ -72,11 +72,10 @@
            
            </td><!--first column data cell: to hold the date of the letter-->
            <td>
-               <ul>
-                   <xsl:apply-templates select="descendant::placeName" mode="toc">
+               
+                  <ol> <xsl:apply-templates select="descendant::placeName" mode="toc">
                          <xsl:sort/>
-                    </xsl:apply-templates>
-               </ul>
+                    </xsl:apply-templates></ol>
            </td>
            
            <!--second column data cell: to hold a sorted, string-joined list of persons mentioned. -->
@@ -87,7 +86,7 @@
     
     <xsl:template match="placeName" mode="toc">
    
-            <li><xsl:apply-templates/></li>            
+           <li> <xsl:apply-templates/>   </li>       
             
             
         
