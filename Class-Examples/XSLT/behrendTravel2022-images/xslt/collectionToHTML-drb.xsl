@@ -64,6 +64,7 @@
                  string we need that matches up with related image files in the project directory.
            -->
             
+            <xsl:variable name="fileName" as="xs:string" select="$currentFile ! base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml')"/>
             <xsl:variable name="matchString" as="xs:string" select="$currentFile ! base-uri() ! substring-after(., 'page') ! substring-before(., '.xml')"/>
             
             
@@ -82,7 +83,7 @@
  
             -->
             <xsl:result-document method="xhtml" html-version="5" omit-xml-declaration="yes" include-content-type="no"
-                indent="yes" href="../docs/lettersOut/{$currentFile ! base-uri() ! tokenize(., '/')[last()] ! substring-before(., 'xml')}html" >
+                indent="yes" href="../docs/lettersOut/{$fileName}.html" >
                 
                 <html>
                     <head>
@@ -111,7 +112,9 @@
                             </figure>
                             
          
-                                <xsl:apply-templates select=".//letter"/>
+                               <section class="letter"> 
+                                   <xsl:apply-templates select=".//letter"/>
+                               </section>
                        
                         </section>
                         
@@ -128,6 +131,14 @@
         <div class="letterText">
         <xsl:apply-templates/>
         </div> 
+    </xsl:template>
+    
+    <xsl:template match="place">
+        <span class="place"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="corr">
+        <span class="corr" title="{@type}"><xsl:apply-templates/></span>
     </xsl:template>
         
        
