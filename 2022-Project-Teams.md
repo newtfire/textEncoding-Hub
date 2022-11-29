@@ -3,11 +3,12 @@
 
 ## Behrend Archives Teams
 
+
+
+### Founding of Penn State Erie, The Behrend College
 [Project GitHub](https://github.com/spookybeetle/foundingOfPSB)
 
 [Website](https://spookybeetle.github.io/foundingOfPSB/)
-
-### Founding of Penn State Erie, The Behrend College
 * [Milo Witcher](https://github.com/spookybeetle) **
 * [Jax Abele](https://github.com/JaxAbele)
 * [Will Stiller](https://github.com/willstill)
