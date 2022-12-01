@@ -42,6 +42,8 @@
 
 [Project GitHub](https://github.com/DigitalMitford/DM_Journal_ste)
 
+[Website](https://digitalmitford.github.io/DM_Journal_ste/)
+
 * [Tyler Akam](https://github.com/tylerakam)
 * [Savannah Ricks](https://github.com/SavannahRicks)
 * [Tyler Cameron](https://github.com/tec5271) **
