@@ -98,17 +98,33 @@
                         <!-- DISPLAY area of the HTML file in the browser window -->
                         
                         <h1>Letter <xsl:value-of select=".//letter/@n"/>
+                            <!-- ebb: We can use xsl:if to output something only if it's present or passes a condition 
+                            we set. In this case, sometimes a page file is marked as *part* of a letter, so IF the @part
+                            is present, we'll output a little more text using xsl:if: -->
                             <xsl:if test=".//letter/@part">, Part <xsl:value-of select=".//letter/@part"/></xsl:if></h1>
                         
-                        <!-- Let's see if we can output images with text -->
-                       <h2>THE MATCH STRING IS <xsl:value-of select="$matchString"/></h2> 
+                        <!-- Let's see if we can output images with text. We can just test and make sure our $matchString
+                        value is what we expect: we need that to find the matching image file for the XML page being processed.
+                        We'll remove this later, or output it in an xml comment using a cool feature called
+                        <xsl:comment> . Try it!
+                        -->
+                     <xsl:comment>THE MATCH STRING IS <xsl:value-of select="$matchString"/></xsl:comment> 
                         
+                        <!-- ebb: Let's pay attention to using HTML blocking elements to help control the layout.
+                        Here we're setting up a nested structure using <section> and <figure> elements. We'll write
+                        CSS to layout the figure on the left and the text on the right, using CSS display:flex property on the 
+                        section.letterView.
+                        -->
                         <section class="letterView">
                             
                             <figure>
                                 <img src="../images/lfePage{$matchString}.jpg"/>
                                 
-                                <figcaption><!--something we pull from the imgDesc.xml file --></figcaption>
+                                <figcaption><!--something we pull from the imgDesc.xml file -->
+                                <xsl:apply-templates select="$imgDesc//page[@n = $matchString]/desc"/>
+                                </figcaption>
+                                <!--CHECK is this pulling captions? Are all captions available? 
+                                Are there ever multiple images per page? -->
                             </figure>
                             
          

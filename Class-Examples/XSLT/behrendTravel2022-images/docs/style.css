@@ -119,3 +119,10 @@ h2{
     }
 }
 img.gallery {max-width:600px; width:80%; }
+
+/* Reading View CSS, using CSS flex properties */
+section.letterView {display: flex;}
+
+section.letterView > figure > img {max-width: 1500px; width: 100%;}
+span.corr {color:red;}
+span.place {color:blue;}
