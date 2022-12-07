@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <pg ref="intro">
+        <title>INTRODUCTION</title>
+        <lg>
+            <l n="1">The <person>parents</person> of the <desc>learned </desc><person>child</person></l>
+            <l n="2"><person>(His father</person> and <person>his mother)</person></l>
+            <l n="3">Were <desc con="neg">utterly aghast</desc> to <act>note</act></l>
+            <l n="4">The facts<person> he</person> would <act>at random quote</act></l>
+            <l n="5">On <beast>creatures</beast><desc> curious, rare and wild;</desc></l>
+            <l n="6">And <act>wondering, asked each other:</act></l>
+        </lg>
+        <pgNum n="206">[206]</pgNum>
+    </pg>
+    <pg ref="intro">
+        <fig>
+            <img alt="An idle child"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/manreading.png"
+            />
+        </fig>
+        <lg>
+            <l n="1">"An <desc>idle little</desc><person> child</person> like this,</l>
+            <l n="2">How is it that <person>he </person><act>knows</act></l>
+            <l n="3">What years of <act>close analysis</act></l>
+            <l n="4">Are <desc>powerless to <act>disclose?</act></desc></l>
+        </lg>
+        <lg>
+            <l n="1"><desc><person>Our</person> brains are trained, our books are big,</desc></l>
+            <l n="2">And yet <person>we </person><act con="neg">always fail</act></l>
+        </lg>
+        <pgNum n="207">[207]</pgNum>
+    </pg>
+    <pg ref="intro">
+        <fig>
+            <img alt="The lion"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/lionsreading.png"
+            />
+        </fig>
+        <lg>
+            <l n="1">To <act>answer</act> why the <beast>Guinea-pig</beast></l>
+            <l n="2"><desc>Is <act>born</act> without a tail.</desc></l>
+        </lg>
+        <lg>
+            <l n="1">Or why the <beast>Wanderoo<noteref letter="A">[A]</noteref></beast> should<act> rant</act></l>
+            <l n="2"><desc>In wild, unmeaning rhymes,</desc></l>
+        </lg>
+        <pgNum n="208">[208]</pgNum>
+    </pg>
+    <pg ref="intro">
+        <fig>
+            <img alt="Indian elephant reading The Times"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/elephantreading.png"
+            />
+        </fig>
+        <lg>
+            <l n="1">Whereas the <beast>Indian Elephant</beast></l>
+            <l n="2">Will only <act>read The Times.</act></l>
+        </lg>
+        <pgNum n="209">[209]</pgNum>
+    </pg>
+    <pg ref="intro">
+        <fig>
+            <img alt="Interviewed the Pelican"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pelican.png"/>
+        </fig>
+        <lg>
+            <l n="1">Perhaps <beast gender="m">he </beast><act>found a way to slip</act></l>
+            <l n="2"><desc>Unnoticed to the <location>Zoo,</location></desc></l>
+            <l n="3">And <act>gave the <beast>Pachyderm</beast> a tip,</act></l>
+            <l n="4">Or <act>pumped</act> the <beast>Wanderoo.</beast></l>
+        </lg>
+        <lg>
+            <l n="1">Or even by an <act><desc>artful </desc>plan</act></l>
+            <l n="2"><act>Deceived our <desc>watchful</desc> eyes,</act></l>
+            <l n="3">And <act>interviewed</act> the <beast>Pelican,</beast></l>
+            <l n="4">Who is <desc con="pos">extremely wise."</desc></l>
+        </lg>
+        <pgNum n="210">[210]</pgNum>
+    </pg>
+    <pg ref="intro">
+        <fig>
+            <img alt="This little book" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/book.png"/>
+        </fig>
+        <lg>
+            <l n="1">"Oh! no," <act>said <beast>he,</beast><desc> in humble tone,</desc></act></l>
+            <l n="2"><desc>With shy but conscious <act>look,</act></desc></l>
+            <l n="3">"Such facts <beast>I </beast>never could have <act>known</act></l>
+            <l n="4">But for this <desc>little</desc> book."</l>
+        </lg>
+        <pgNum n="211">[211]</pgNum>
+    </pg>
+    <foot>FOOTNOTE: <def><noteref letter="A">[A]</noteref> Sometimes called the "Lion-tailed or
+            tufted Baboon of Ceylon."</def></foot>
+</root>

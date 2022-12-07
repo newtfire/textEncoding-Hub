@@ -133,6 +133,18 @@
                                </section>
                        
                         </section>
+                        <section class="navigation">
+                            <!-- In here let's put links out to the other pages in the collection. -->
+                            <ul>
+                            <xsl:for-each select="$travelColl">
+                                <li><xsl:value-of select="base-uri() ! tokenize(., '/')[last()] ! substring-before(., '.xml')"/></li>
+          
+                            </xsl:for-each>
+                                
+                            </ul>
+                            
+                            
+                        </section>
                         
                         
                     </body>

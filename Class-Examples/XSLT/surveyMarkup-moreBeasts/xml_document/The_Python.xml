@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <pg ref="python">
+        <title><beast>The Python</beast></title>
+        <fig>
+            <img alt="The Python" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/menwithpython.png"/>
+        </fig>
+        <lg>
+            <l n="1">A <beast>Python</beast><person role="narrator" count="single"> I</person> should not <act>advise</act>,—</l>
+            <l n="2"><beast>It</beast><act> needs</act><person role="character" count="single"> a doctor</person> for its eyes,</l>
+            <l n="3">And <event con="neg">has the measles yearly.</event></l>
+        </lg>
+        <pgNum n="212">[212]</pgNum>
+    </pg>
+    <pg ref="python">
+        <fig>
+            <img alt="Subject it to music" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythoninglass.png"/>
+        </fig>
+        <lg>
+            <l n="1">However, if <person role="reader" count="single">you</person> feel inclined</l>
+            <l n="2">To get one (to <act con="pos">improve your mind</act>,</l>
+            <l n="3">And not from fashion merely),</l>
+            <l n="4"><act>Allow no music </act><location>near its cage</location>;</l>
+        </lg>
+        <pgNum n="213">[213]</pgNum>
+    </pg>
+    <pg ref="python">
+        <fig>
+            <img alt="Flies into a rage" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonwhip.png"/>
+        </fig>
+        <lg>
+            <l n="1">And when <beast>it </beast><act>flies into a <emot con="neg">rage</emot></act></l>
+            <l n="2"><act con="neg">Chastise</act><beast> it,</beast> most severely.</l>
+        </lg>
+        <fig>
+            <img alt="An aunt in Yucatan" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonmountain.png"/>
+        </fig>
+        <pgNum n="214">[214]</pgNum>
+    </pg>
+    <pg ref="python">
+        <lg>
+            <l n="1"><person role="narrator" count="single">I</person> had an <person role="character" count="single" gender="f">aunt</person> in <location>Yucatan</location></l>
+            <l n="2">Who <act>bought</act> a <beast>Python</beast> from a <person role="character" count="single" gender="m">man</person></l>
+            <l n="3">And <act>kept it for a pet.</act></l>
+            <l n="4"><person role="character" count="single" gender="f">She </person><act con="neg">died</act>, because <person role="character" count="single" gender="f">she </person><act>never knew</act></l>
+            <l n="5">These <desc>simple little</desc> rules and few;—</l>
+        </lg>
+        <pgNum n="215">[215]</pgNum>
+    </pg>
+    <pg ref="python">
+        <fig>
+            <img alt="The snake" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonliving.png"/>
+        </fig>
+        <lg>
+            <l n="1">The <beast>Snake</beast> is <act con="pos">living</act> yet.</l>
+        </lg>
+        <pgNum n="216">[216]</pgNum>
+    </pg>
+</root>

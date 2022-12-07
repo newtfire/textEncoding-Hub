@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <pg ref="mutton">
+        <title><beast>The Welsh Mutton</beast></title>
+        <fig>
+            <img alt="The Cambrian Welsh" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/WelshMutton.png"/>
+        </fig>
+        <lg>
+            <l n="1"><beast>The Cambrian Welsh or Mountain Sheep</beast></l>
+            <l n="2"><desc>Is of the Ovine race,</desc></l>
+            <l n="3">His conversation is <desc con="neg">not deep,</desc></l>
+            <l n="4">But then—<act>observe his face!</act></l>
+        </lg>
+        <pgNum n="217">[217]</pgNum>
+    </pg>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <pg ref="mammoth">
+        <title><beast>The Frozen Mammoth</beast></title>
+        <fig>
+            <img alt="The Mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth1.png"/>
+        </fig>
+        <lg>
+            <l n="1"><beast>This Creature</beast>, though <desc>rare, is still <act>found</act> to the <location>East</location></desc></l>
+            <l n="2">Of the <location>Northern Siberian Zone</location>.</l>
+        </lg>
+        <pgNum n="244">[244]</pgNum>
+    </pg>
+    <pg ref="mammoth">
+        <fig>
+            <img alt="Melting" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth2.png"/>
+        </fig>
+        <lg>
+            <l n="1">It is <act>known</act> to the whole of that <person count="multiple" role="character">primitive group</person></l>
+            <l n="2">That the <beast>carcass</beast> will <act>furnish an <desc>excellent</desc> soup</act>,</l>
+            <l n="3">Though the <act>cooking it </act><act>offers</act> one drawback at least</l>
+            <l n="4"><desc>(Of a serious nature </desc><person count="single" role="narrator">I </person><act>own</act>):</l>
+        </lg>
+        <pgNum n="245">[245]</pgNum>
+    </pg>
+    <pg ref="mammoth">
+        <fig>
+            <img alt="Deflated mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth3.png"/>
+        </fig>
+        <lg>
+            <l n="1">If the <beast>skin</beast> be but <act>punctured</act> before it is <act>boiled</act>,</l>
+            <l n="2">Your confection is <desc>wholly and utterly spoiled.</desc></l>
+        </lg>
+        <pgNum n="246">[246]</pgNum>
+    </pg>
+    <pg ref="mammoth">
+        <fig>
+            <img alt="The dainty is unknown" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth4.png"/>
+        </fig>
+        <lg>
+            <l n="1">And hence (on account of the size of the <beast>beast</beast>)</l>
+            <l n="2">The dainty is <desc>nearly unknown.</desc></l>
+        </lg>
+        <pgNum n="247">[247]</pgNum>
+    </pg>
+</root>

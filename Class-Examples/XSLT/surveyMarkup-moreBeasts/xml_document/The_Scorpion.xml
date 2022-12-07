@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <pg ref="scorpion">
+        <title><beast>The Scorpion</beast></title>
+        <fig>
+            <img alt="Scorpion" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/Scorpion.PNG"/>
+        </fig>
+        <lg>
+            <l n="1"><desc>Out of bed</desc></l>
+            <l n="2"><beast>The Scorpion</beast> is <desc>as black as soot,</desc></l>
+            <l n="3"><beast gender="m">He</beast><desc> dearly <emot con="pos">loves</emot> to <act con="neg">bite;</act></desc></l>
+            <l n="4"><beast gender="m">He</beast> is <desc con="neg">a most unpleasant brute</desc></l>
+            <l n="5"><act>To find in bed,</act><desc> at night.</desc></l>
+        </lg>
+        <pgNum n="221">[221]</pgNum>
+    </pg>
+</root>

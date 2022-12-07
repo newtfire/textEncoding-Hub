@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <pg ref="chamois">
+        <title><beast>The Chamois</beast></title>
+        <fig>
+            <img alt="The Chamois" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/chamois.png"/>
+        </fig>
+        <lg>
+            <l n="1"><beast>The Chamois</beast><act> inhabits</act></l>
+            <l n="2"><location>Lucerne</location>, where his habits</l>
+            <l n="3">(Though why I <act>have not an idea-r</act>)</l>
+            <l n="4">Give <beast gender="m">him</beast> sudden short <act>spasms</act></l>
+            <l n="5"><desc>On the brink of deep chasms,</desc></l>
+            <l n="6">And he <act>lives</act> in <desc>perpetual </desc><emot con="neg">fear</emot>.</l>
+        </lg>
+        <pgNum n="243">[243]</pgNum>
+    </pg>
+</root>

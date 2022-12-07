@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+
+<bookCover>
+    <fig>
+        <img alt="book cover" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bookcover.jpg"/>
+        <imgDes>
+            This is the cover of the book.
+        </imgDes>
+    </fig>
+</bookCover>
+
+<bookTitleAlt>
+    MORE BEASTS
+    FOR WORSE CHILDREN
+</bookTitleAlt>
+
+<pg ref="title-page">
+    <bookTitle>
+        MORE BEASTS
+        (For WORSE CHILDREN)
+    </bookTitle>
+
+    <author fstName="Hilaire" lstName="Belloc" gender="m" contri="writer">
+        VERSES
+        BY
+        H.B.
+    </author>
+
+    <author fstName="Basil" midName="Temple" lstName="Blackwood" gender="m" contri="illustrator">
+        PICTURES
+        BY
+        B.T.B.
+    </author>
+
+    <publisher>
+        LONDON:
+        <publisherName>DUCKWORTH AND CO.</publisherName>
+        <publisherAddress>3 Henrietta Street, Covent Garden.</publisherAddress>
+    </publisher>
+
+    <dedicate>
+        DEDICATION.
+        Divider 
+        To
+        <person fstName="Alice" midName="Wolcott" lstName="Brinley" gender="f" role="dedocated">Miss ALICE WOLCOTT BRINLEY</person>,
+        Of Philadelphia.
+    </dedicate>
+    <fig>
+        <img alt="title page image" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/morebeast.png"/>
+        <imgDes>
+            This is the picture at the end of the title page.
+        </imgDes>
+    </fig>
+
+    <pgNum n="205">[205]</pgNum>
+</pg>
+</root>

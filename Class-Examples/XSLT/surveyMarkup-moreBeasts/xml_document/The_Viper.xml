@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <pg ref="viper">
+        <title><beast>The Viper</beast></title>
+        <fig>
+            <img alt="The Viper" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper1.PNG"></img>
+        </fig>
+        <lg>
+            <l n="1">Yet another <desc con="pos">great</desc> truth <person role="narrator" count="single">I</person><act> record</act> in my verse,</l>
+            <l n="2">That some<beast> Vipers</beast> are <desc con="neg">venomous</desc>, some <desc con="pos">the reverse;</desc></l>
+            <l n="3">fact <person role="reader" count="single">you</person> may <act>prove</act> if you try,</l>
+        </lg>
+        <pgNum n="235">[235]</pgNum>
+    </pg>
+    <pg ref="viper">
+        <fig>
+            <img alt="Procuring two vipers" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper2.PNG"></img>
+        </fig>
+        <lg>
+            <l n="1">By <act>procuring </act><beast><num n="2">two</num> Vipers,</beast> and <act>letting them <act con="neg">bite;</act></act></l>
+        </lg>
+        <pgNum n="236">[236]</pgNum>
+    </pg>
+    <pg ref="viper">
+        <fig>
+            <img alt="A fright" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper3.PNG"></img>
+        </fig>
+        <lg>
+            <l n="1">With the <num n="1">first</num><person role="reader" count="single"> you</person> are only the worse for a <emot con="neg">fright</emot>,</l>
+        </lg>
+        <pgNum n="237">[237]</pgNum>
+    </pg>
+    <pg ref="viper">
+        <fig>
+            <img alt="After the second" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper4.PNG"></img>
+        </fig>
+        <lg>
+            <l n="1">But after the <num n="2">second</num><person role="reader" count="single"> you</person><act con="neg"> die.</act></l>
+        </lg>
+        <pgNum n="238">[238]</pgNum>
+   </pg>
+</root>
