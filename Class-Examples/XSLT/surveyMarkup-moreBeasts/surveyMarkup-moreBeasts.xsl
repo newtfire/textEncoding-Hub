@@ -34,15 +34,15 @@
     
     <xsl:variable name="personMarkup"
         as="xs:string+"
-        select="$poemColl//person ! normalize-space() => distinct-values() => sort()"/>
+        select="$poemColl//person ! lower-case(.) ! normalize-space() => distinct-values() => sort()"/>
     
     <xsl:variable name="actMarkup"
         as="xs:string+"
-        select="$poemColl//act ! normalize-space() => distinct-values() => sort()"/>
+        select="$poemColl//act ! lower-case(.) ! normalize-space() => distinct-values() => sort()"/>
     
     <xsl:variable name="eventMarkup"
         as="xs:string+"
-        select="$poemColl//event ! normalize-space() => distinct-values() => sort()"/>
+        select="$poemColl//event ! lower-case(.) ! normalize-space() => distinct-values() => sort()"/>
     
     <xsl:template match="/">
         <html>
@@ -55,7 +55,7 @@
             <body>
                 <!-- Credit: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
                 <button onclick="topFunction()" id="to-top" title="Go to top"><img alt="up arrow" src="https://cdn.onlinewebfonts.com/svg/img_231938.png" width="30"/></button>
-                <script>
+                <script><!-- This is being used on the Reading View Page but not really applied here (yet). -->
                     // Get the button
                     let mybutton = document.getElementById("to-top");
                     
@@ -93,14 +93,14 @@
                 <section id="toc">
                     <h2 id="toc">Surveying the markup</h2>
                   <p>What did the team mark in each of the categories, and how often are particular words/phrases that we marked repeated across multiple poems in the collection?  In the XML we tagged: </p>
-                    <ul>
+                    <ul class="table">
                         <li>beast</li>
                         <li>person</li>
                         <li>act</li>
                         <li>event</li>
                     </ul>
       
-                    
+             <section id="beast">       
                 <h3>Beast</h3>    
                     
                     <table id="beasts"> 
@@ -114,7 +114,7 @@
                        <!-- current() refers to the current word/phrase in the sequence.
                        We'll make a local variable to help find all the poems that mention this.
                        -->
-                       <xsl:variable name="poemList" as="element()*" select="$poemColl//root[contains(. ! lower-case(.) ! normalize-space(), current())]//title[1]"/>
+                       <xsl:variable name="poemList" as="element()*" select="$poemColl//root[contains(. ! lower-case(.) ! normalize-space(), 'current()')]//title[1]"/>
                          <tr> 
                            <td><xsl:value-of select="current()"/></td>  
                            
@@ -136,8 +136,48 @@
                          </tr>
                    </xsl:for-each>
                             
-                    </table>
+                    </table></section>
                 </section>
+                
+                <section id="acts">       
+                    <h3>Acts</h3>    
+                    
+                    <table id="acts"> 
+                        <tr>
+                            <th>Tagged word or phrase</th>
+                            <th>Poem(s) in which this word/phrase appears</th>
+                        </tr>
+                        
+                        
+                        <xsl:for-each select="$actMarkup">
+                            <!-- current() refers to the current word/phrase in the sequence.
+                       We'll make a local variable to help find all the poems that mention this.
+                       -->
+                            <xsl:variable name="poemList" as="element()*" select="$poemColl//root[contains(. ! lower-case(.) ! normalize-space(), current())]//title[1]"/>
+      <!-- NOTICE: no quote around current() -->                      
+                            <tr> 
+                                <td><xsl:value-of select="current()"/></td>  
+                                
+                                <td><!--Let's output a tidy list of the poems that mention the current word/phrase -->
+                                    <ul class="table">
+                                        <xsl:for-each select="$poemList">
+                                            <!--Let's go through each member of this sequence: and make a link to it in the HTML output on the reading view fulltext.html page. -->
+                                            
+                                            <li>
+                                                
+                                                <a href="fulltext.html#{current()/parent::pg/@ref}"><xsl:value-of select="current()"/></a>
+                                                
+                                            </li>
+                                            
+                                        </xsl:for-each>
+                                    </ul>
+                                    
+                                </td>
+                            </tr>
+                        </xsl:for-each>
+                        
+                    </table></section>
+                  
                 
             
                 
