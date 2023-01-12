@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Letters.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <letter n="6"><pen type="handwrit"><place name="Unk">UNKIRK</place><place name="Bra">HOTEL
+                BRAKANES</place>. (BOATS FOR HOTEL GUESTS. SWIMMING. TEMP. 66</pen> At breakfast I
+        collected a little assortment of cracker for the trip this P.M.(as one never can be sure
+        where we eat next on these trips.)We wandered down to the <corr type="miss text">dock</corr>
+        and watched a lot of women buying fish from a fish <corr type="miss text">wag</corr> Bought
+        myself a pair of scissors- and a straw basket to carry my paints in. Back to the <corr
+            type="spell err" aka="hotel">hotell</corr> and Gail went swimming<corr type="miss text"
+            >-tempture 66 </corr>Then we suddenly decided we might as well get off on the 12.30
+            <corr type="spell err" aka="ferry instead">ferryinstead</corr> of waiting <corr
+            type="miss text">fo</corr> the 5 o'clock which would only bring us into <corr
+            type="miss text">so lat</corr> S we hustled around- Otto had let some shirts go to the
+        laundry- but <corr type="spell err" aka="he">the</corr> rushed around and finished them. The
+            <corr type="spell err" aka="ferry">feryy</corr> was the "Folgefonn" Very nice <corr
+            type="spell err" aka="voyage">vayage</corr> of <corr type="miss text">les</corr> than an
+        hour. Not many people on board and about eight cars. We rather hated to leave Ulrik. The
+        hotel Brakanes is said to be the best in Norway.It was warm and lovely- people lying <corr
+            type="spell err" aka="around">about</corr> on the grass-having tea etc. The re is a
+        little bath shed with compartment and curtains along the edge of the terrace.All very casual
+        and quite delighttul The drive was along the edge of the Hardanager Fjoud. The largest and
+        deepst of them all.Some places were very rocky- the road being blasted out of the rock.
+        Beautiful waterfalls- some tunnels to pass <corr type="miss text">thro</corr> Arrived <corr
+            type="spell err" aka="at the">atthe</corr> Solfonn Hotel about 4.30 Wrote <corr
+            type="spell err" aka="letters">lletters</corr> and rested, Dinner o fresh salmon
+    </letter>
+</root>

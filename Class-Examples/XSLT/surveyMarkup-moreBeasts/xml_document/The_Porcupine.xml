@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- XPath command to merge later: //root/* -->
+
+<root>
+    <pg ref="porcupine">
+        <title>The Porcupine</title>
+        <fig>
+            <img alt="Porcupine"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine.png"
+            />
+        </fig>
+        <lg>
+            <l n="1">What! would you <act>slap</act> the Porcupine?</l>
+            <l n="2">Unhappy child—desist!</l>
+            <l n="3">Alas! that any friend of mine</l>
+            <l n="4">Should turn Tupto-philist.<noteref letter="B">[B]</noteref></l>
+        </lg>
+        <pgNum n="218">[218]</pgNum>
+    </pg>
+    <pg ref="porcupine">
+        <fig>
+            <img alt="To strike the creature" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine2.png"/>
+        </fig>
+        <lg>
+            <l n="1">To strike the meanest and the least</l>
+            <l n="2">Of creatures is a sin,</l>
+        </lg>
+        <pgNum n="219">[219]</pgNum>
+    </pg>
+    <pg ref="porcupine">
+        <fig>
+            <img alt="With prickes on its skin" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine3.png"/>
+        </fig>
+        <lg>
+            <l n="1">How much more bad to beat a beast</l>
+            <l n="2">With prickles on its skin.</l>
+        </lg>
+        <foot> FOOTNOTE: <def><noteref letter="B">[B]</noteref> From τυπτω=I strike; φιλεω=I love; one
+            that loves to strike. The word is not found in classical Greek, nor does it occur among
+            the writers of the Renaissance—nor anywhere else.</def>
+        </foot>
+        <pgNum n="220">[220]</pgNum>
+    </pg>
+    
+</root>

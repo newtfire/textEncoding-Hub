@@ -1,0 +1,31 @@
+body {
+    background-color:#404040; /*dark grey*/
+    color: #fff2e6; /* light orange; */
+    font-family: "Georgia", Garamond, serif;
+    line-height: 1.5em;
+    padding:3vw;
+}
+
+table { 
+    border-collapse: collapse;
+    border:.5vw solid #301934;
+    margin:auto;
+    
+}
+th, td {padding: 1em; }
+tr:nth-child(odd) {
+    background-color: #533d73; /* deep purple */
+    color: white; 
+    }
+
+h1, h2 {
+    text-align: center; line-height:1.5em;
+ }
+ 
+span.hand {background: #533d73 ; color: white; }
+
+span.placeName {color:aqua;}
+
+span.persName {color:pink;}
+
+span.x {background:maroon; color:white;}

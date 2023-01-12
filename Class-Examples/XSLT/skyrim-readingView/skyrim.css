@@ -1,0 +1,35 @@
+body {
+  background: #123944;
+  color: white;
+  /*font-family: Fantasy;*/
+}
+
+.event {
+    color: yellow;
+}
+
+.good {
+    color: aqua;
+}
+.evil {
+    color: red;
+}
+.neutral {
+    color: orange;
+}
+
+.item {
+    color: #ff92ff;
+}
+
+.epit {
+    color: #ff755d;
+}
+
+.facti {
+    color: #17ff00;
+}
+
+.loca {
+    color: #ffb64e;
+}

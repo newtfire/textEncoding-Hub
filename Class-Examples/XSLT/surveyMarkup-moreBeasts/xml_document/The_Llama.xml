@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- XPath command to merge later: //root/* -->
+
+<root>
+
+    <pg ref="llama">
+        <title>The <beast>Llama</beast></title>
+        <fig>
+            <img alt="The Llama" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama1.png"/>
+        </fig>
+        <lg>
+            <l n="1">The <beast>Llama</beast> is a woolly sort of fleecy hairy goat,</l>
+            <l n="2">With an indolent expression and an undulating throat</l>
+            <l n="3">Like an unsuccessful literary man.</l>
+        </lg>
+        <pgNum n="239">[239]</pgNum>
+    </pg>
+    <pg ref="llama">
+        <fig>
+            <img alt="Find it in the atlas" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama2.png"/>
+        </fig>
+        <lg>
+            <l n="1">And I know the place he lives in (or at least—I think I do)</l>
+            <l n="2">It is <location>Ecuador</location>, <location>Brazil</location> or <location>Chili</location>—possibly <location>Peru</location>;</l>
+            <l n="3">You must find it in the Atlas if you can.</l>
+        </lg>
+        <pgNum n="240">[240]</pgNum>
+    </pg>
+    <pg ref="llama">
+        <fig>
+            <img alt="Lord of Turkestan" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama3.png"/>
+        </fig>
+        <lg>
+            <l n="1">The <beast>Llama</beast> of the Pampasses you never should confound</l>
+            <l n="2">(In spite of a deceptive similarity of sound)</l>
+            <l n="3">With the Lhama who is Lord of Turkestan.</l>
+        </lg>
+        <pgNum n="241">[241]</pgNum>
+    </pg>
+    <pg ref="llama">
+        <fig>
+            <img alt="The ruminant" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama4.png"/>
+        </fig>
+        <lg>
+            <l n="1">For the former is a beautiful and valuable beast,</l>
+            <l n="2">But the latter is not lovable nor useful in the least;</l>
+            <l n="3">And the Ruminant is preferable surely to the Priest</l>
+            <l n="4">Who battens on the woful superstitions of the East,</l>
+            <l n="5">The Mongol of the Monastery of Shan.</l>
+        </lg>
+        <pgNum n="242">[242]</pgNum>
+    </pg>
+
+</root>

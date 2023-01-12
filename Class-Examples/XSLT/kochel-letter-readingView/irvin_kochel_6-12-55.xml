@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rnc" type="application/relax-ng-compact-syntax"?>
+<doc>
+    <header>
+        <docTitle>Letter from Irvin Kochel to Mary Behrend</docTitle>
+        <docAuthor>Irvin Kochel</docAuthor>
+        <docType>Letter</docType>
+        <docDate>July 12, 1955</docDate>
+        <docMaterial>Typewriter Paper</docMaterial>
+        <notes/>
+    </header>
+
+    <body>
+        <docHead>
+            <date when="1955-12-06">July 12, 1955</date>
+        </docHead>
+        <recipient>
+            <persName pers="Mary Behrend">Ire. Mary B. Behrend</persName>
+            <address><addLine type="street">21 West Putnam</addLine>
+                <addLine type="City, State">Greenrichy Conn.</addLine></address>
+        </recipient>
+        <p n="1">Dear <persName pers="Mary Behrend">Mrs. Behrend</persName>: Enclosed is a bil2 from
+                <persName pers="Henry Althof">Henr Althof</persName> Sons Company for installing the
+            iron ratlinz around the display caso of the <name type="ship">Flagship Illegara</name>.
+            They have done em excellent job in installing the railing which is painted a flat
+            black.</p>
+        <p n="2">I realise you are on your way Europe but may have made some proviaion for the
+            forvarding of your moll. If, however, you do not have the oportunity to recieve this
+            letter until <time type="month">September</time>, <persName pers="Henry Althof">Mr.
+                Althof</persName> has assured me that he is not concerned about any irmodiate
+            payment.</p>
+        <closing>I hope you and <persName>Gail</persName> have a wonderful time, Cordially yours,
+                <signature style="printed" ink="typewriter">Irvin He Kochol</signature>
+            Administrative Head</closing>
+        <unsure type="abreviations">*THK: HA</unsure>
+    </body>
+</doc>

@@ -1,0 +1,2094 @@
+<!--<?xml-model href="../RNG-Screenplays/RNG-Screenplays.rnc" type="application/relax-ng-compact-syntax"?>-->
+<Screenplay>
+ <Scene num="1">
+  <Heading>Ext. Top of Dam - Day</Heading>
+  <sd>A plane does a fly-by over a dam as a security gate slides open. A man in combat black runs
+   across the top of the tall dam. He clips a rope to his ankle and the railing...and jumps off the
+   side. As he sails down, he pulls out a gun-type thing and shoots it. A wire follows attaching in
+   concrete and pulling the man down to....</sd>
+  <sd>Archangel Chemical Weapons Facility, USSR</sd>
+  <sd>Cut to a laser burning through a metal wall, being shot by the man with the gunthing. We see a
+   blue eye, but we haven't seen this guy's face yet.....</sd>
+ </Scene>
+ <Scene num="2">
+  <Heading>Int. Bathroom - Day</Heading>
+  <sd>Inside the plant, we cut to the men's room, where we see Russians walking around. Above one of
+   the stalls...</sd>
+  <sd>Man in black's P.O.V. - a Soviet in uniform sitting on the can, reading a newspaper titled
+   Pravda ("The Truth").</sd>
+  <sd>The man in black takes the steel grate out and we see a silhouette. Soviet's P.O.V. - The
+   newspaper, printed in Russian, duh. He pulls the paper back to reveal.... James Bond. Hanging
+   upside down from a vent. He flashes a grin.</sd>
+  <sp><spk>BOND</spk> Beg your pardon, forgot to knock.</sp>
+  <sd>007 punches out the Soviet and slips down.</sd>
+ </Scene>
+ <Scene num="3">
+  <Heading>Int. Hallway - Same time</Heading>
+  <sd>Bond slips un-noticed through dim halls, wielding his Walther PPK with a silencer on it. He
+   spots a butcher loading meat onto a cart, and he walks up to an opening where he sees soldiers
+   eating. As he turns away...another dark shadow points a gun at him...and says something.</sd>
+  <sp><spk>SHADOW</spk> (Russian) Where have you been? Where are your companions?</sp>
+  <sp><spk>BOND</spk> I'm alone.</sp>
+  <sd>Alec Trevelyan, 006, steps into the light. He's around Bond's general age and built. Blond
+   with cold eyes...</sd>
+  <sp><spk>ALEC</spk> Aren't we all? You're late 007.</sp>
+  <sp><spk>BOND</spk> I had to stop in the bathroom.</sp>
+  <sp><spk>ALEC</spk> Ready to save the world again?</sp>
+  <sp><spk>BOND</spk> After you, 006.</sp>
+  <sd>They remove another steel grate.</sd>
+  <sp><spk>ALEC</spk> James, for England.</sp>
+  <sp><spk>BOND</spk> For England, Alec.</sp>
+ </Scene>
+ <Scene num="4">
+  <Heading>Int. Hall - Day</Heading>
+  <sd>Bond's blue eyes spot someone in the hall. Waiting 'til the coast is clear, he jumps out of
+   the vent in the floor while Alec climbs out. Both men walk down the hall. Alec enters a
+   laboratory with a plate-glass window and shoots the guy inside. Meanwhile, Bond has a device
+   plugged into and ID card slot with a number pad under it. He waits for a click,</sd>
+  <sd>and the door unlocks. Both men walk inside....</sd>
+ </Scene>
+ <Scene num="5"><Heading>Int. Gas room - Day</Heading>
+  <sd>...A room filled with nerve gas tanks.</sd>
+  <sp><spk>BOND</spk> It's too easy.</sp>
+  <sp><spk>ALEC</spk> Half of everything is luck, James.</sp>
+  <sd>Alec turns and plugs the device into the same panel, jamming the door.</sd>
+  <sp><spk>BOND</spk> And the other half?</sp>
+  <sp><spk>ALEC</spk> Fate!</sp>
+  <sd>A red light sounds, signaling the alarm of the plant. The men run down the stairs.</sd>
+  <sp><spk>ALEC</spk> Set timers to six minutes!</sp>
+  <sp><spk>BOND</spk> Six minutes, check.</sp>
+  <sd>A few Soviets burst through a door, 006 shoots them. Bond starts to arm a little explosive
+   timer. A digital clock pops up...6.00. James and Alec scurry around behind the gas tanks planting
+   the timers. An ugly-looking Soviet commander, Ourumov, stands behind a plexi-glass window.</sd>
+  <sp><spk>OURUMOV</spk> FIRE!</sp>
+  <sd>Soldiers fire their guns, breaking the window. 006 and 007 are still planting the timers.</sd>
+  <sp><spk>ALEC</spk> Closing time, James! Last call!</sp>
+  <sp><spk>BOND</spk> Buy me a pint!</sp>
+  <sd>The Soviets pour through the opening. Trevelyan fires at them.</sd>
+  <spk voice="O.S.">OURUMOV </spk> I am Colonel Ourumov. Come out with your hands above your heads!
+   <sd>While planting a timer...</sd>
+  <sp><spk>BOND</spk> How original.</sp>
+  <sd>More Soviets pour through a door.</sd>
+  <sp><spk>BOND</spk> Shut the door, Alec! There's a draft!</sp>
+  <sd>No answer.</sd>
+  <sp><spk>BOND</spk> Alec?!</sp>
+  <sd>He looks for 006. Alec in kneeling under the gun of Ourumov. Thirty soldiers all have their
+   guns pointed at Bond.</sd>
+  <sp><spk>OURUMOV</spk> Move out! Throw down your weapon and walk towards me. Slowly.</sp>
+  <sp><spk>ALEC</spk> Finish the job, James! Blow them all to hell!</sp>
+  <sp><spk>OURUMOV</spk> You have 10 seconds. 10...9...8...</sp>
+  <sd>Bond goes back to the detonator he just planted and sets it for 3.00.</sd>
+  <sp><spk>OURUMOV</spk> ....7...6..5...4..</sp>
+  <sd>Bond throws his weapon on the floor, puts his hands behind his head and approaches
+   Ourumov.</sd>
+  <sp><spk>OURUMOV</spk> ...3......2....</sp>
+  <sp><spk>ALEC</spk> For England, James!!</sp>
+  <sd>BOOM. Alec is silenced. He flops over. The Soviet soldiers fire their automatic rifles.</sd>
+  <sd>Bond retreats behind the tanks again.</sd>
+  <sp><spk>OURUMOV</spk> Hold your fire! You'll blow the gas tanks!</sp>
+  <sd>They do. Bond recovers his gun.</sd>
+  <sp><spk>OURUMOV</spk> This is your last chance! Come out with your hands above your head....</sp>
+  <sd>Ourumov's P.O.V. - a dark shadow moves behind a cart with tanks piled on it. The soldiers
+   raise their guns...</sd>
+  <sp><spk>OURUMOV</spk> WAIT!</sp>
+  <sd>Bond moves slowly with the cart acting as a shield. Ourumov seems amused....one soldier thinks
+   he can get a shot off...and fires. Bond retreats farther behind the cart. Ourumov turns and
+   shoots the guy in the face...he warned him.</sd>
+  <sp><spk>OURUMOV</spk> You can't win.</sp>
+  <sd>Yeah, sure. Bond quickly hits the on button to a conveyer belt leading outside. He jumps on
+   and fires the assault rifle. The Soviets fire back, but Bond hits the grate to a storage area
+   above their heads. More gas tanks pour out on the Soviets. And Bond tumbles down the conveyer
+   belt onto...</sd>
+ </Scene>
+ <Scene num="6">
+  <Heading>Ext. Runway - Day</Heading>
+  <sd>Bond sees a small plane....his ticket outta here. More soldiers burst through a hangar door
+   and what's behind door number 2...even more pour out onto the runway. Bond crouches behind some
+   piping and fires, hitting a few. The gun runs out and he dashes through the snow toward the
+   plane. We hear Ourumov's shouting in the backround.</sd>
+  <sp><spk>OURUMOV</spk> Hold your fire!</sp>
+  <sd>Cut to 1000 yards out: the facility is on a mountain-top. Cliffs, very high up. Back to the
+   action...Bond runs down the plane and drags himself inside, fights with the pilot. Now there's
+   soldiers chasing Bond on motorcycles. Both 007 and the pilot tumble out of the plane. A
+   motorcycle runs over the pilot, causing the bike to throw its rider. Bond</sd>
+  <sd>jumps on the bike and chases the runaway plane.</sd>
+  <sp><spk>OURUMOV</spk> WAIT!!</sp>
+  <sd>The plane sails off the cliff, and so does the motorcycle with 007 still on it. He flies off
+   the bike and sails to the dive-bombing plane. He grabs the open door and pulls himself inside and
+   into the pilot's seat. Uh-oh! The stick's not working, not responding! Oh crap!</sd>
+  <sd>We see Bond's blue eyes start to panic...then just in time the plane soars upward as the
+   chemical weapons facility explodes.</sd>
+  <sd> Fade up on...</sd>
+  <sd>Title Sequence, <IntroSong>scored by GoldenEye sung by Tina Turner</IntroSong></sd>
+ </Scene>
+ <Scene num="7">
+  <Heading>Int. Car/Ext. Road - Day</Heading>
+  <sd>We shoot onto an open road with the vrroom of an engine behind us. James' personal choice of
+   car, a silver Aston Martin DB5, license plate BMT 216A. The DB5 swerves around a tight corner at
+   90 mph. Fade up title...</sd>
+  <sd>Nine Years Later</sd>
+  <sd>Bond, of course, is behind the wheel and a young woman sits beside him, visibly agitated. Her
+   name is Caroline, but it doesn't come up in the text.</sd>
+  <sp><spk>CAROLINE</spk> James, is it really necessary to drive quite so fast?!</sp>
+  <sp><spk>BOND</spk> More often than you'd think.</sp>
+  <sd>A red Ferrari comes into view in the rear mirror.</sd>
+  <sp><spk>CAROLINE</spk> I enjoy a spirited ride as much as the next girl...</sp>
+  <sd>James flashes an intoxicating grin...as the Ferrari pulls up beside him. There's a beautiful
+   brunette behind the wheel. James loves this...</sd>
+  <sp><spk>CAROLINE</spk> Who's that?</sp>
+  <sp><spk>BOND</spk> The next girl.</sp>
+  <sd>The Ferrari passes him and plays a little road rash...nearly crashing into an oncoming
+   tractor, spinning out of the way. James is loving every minute. Caroline is now really pissed
+   off...</sd>
+  <sp><spk>CAROLINE</spk> James, stop this! Stop it! I know what you're doing...</sp>
+  <sp><spk>BOND</spk> Really? What's that, dear?</sp>
+  <sp><spk>CAROLINE</spk> You're just trying to show off the size of your...your...</sp>
+  <sp><spk>BOND</spk> Engine?</sp>
+  <sp><spk>CAROLINE</spk> Ego.</sp>
+  <sp><spk>BOND</spk> Here we are having a pleasant drive in the country and you've got to bring
+   psychology into it.</sp>
+  <sp><spk>CAROLINE</spk> Well, I was just sent out here to evaluate you.</sp>
+  <sp><spk>BOND</spk> Let's try and put that behind us, shall we?</sp>
+  <sd>The DB5 and Ferrari are still doin' 90 around a corner when a pack of cyclists are pedaling up
+   a hill. 007 let's the car pass him...</sd>
+  <sp><spk>BOND</spk> Ladies first.</sp>
+  <sd>Caroline seems to be praying. The red Ferrari brushes past the first biker, knocking him down
+   and the rest fall over in succession. Caroline's had enough.</sd>
+  <sp><spk>CAROLINE</spk> James, I want you to stop this car!</sp>
+  <sp><spk>BOND</spk> Really?</sp>
+  <sp><spk>CAROLINE</spk> STOP THIS CAR AT ONCE!!</sp>
+  <sd>James pulls the brake and the car screeches to a halt. He puts his arm around her.</sd>
+  <sp><spk>BOND</spk> As you can see, I have no problem with female authority.</sp>
+  <sd>She flips open a box with two glasses and a bottle of Bollinger champagne in it. She looks
+   pleased for once.</sd>
+  <sp><spk>CAROLINE</spk> James, you're incorrigible. What am I going to do with you?</sp>
+  <sd>He moves in closer....</sd>
+  <sp><spk>BOND</spk> Let's toast your evaluation, shall we?</sp>
+  <sd>They kiss...</sd>
+  <sp><spk>BOND</spk> A very...thorough...evaluation.</sp>
+  <sd>She giggles, they kiss and we pan up on the skyline of Monte Carlo.</sd>
+ </Scene>
+ <Scene num="8">
+  <Heading>Ext. Posh party - Night</Heading>
+  <sd>The Astor Martin DB5 drives up to a elegant-looking hotel, with a parking valet.</sd>
+  <sp><spk>VALET</spk> (French) Good evening Mr. Bond. Nice to see you tonight.</sp>
+  <sp><spk>BOND</spk> (French) Good evening, Pierre. How are things?</sp>
+  <sd>Valet: (French) Very good, and you?</sd>
+  <sd>Bond steps out of the DB5, looking dashing as usual in a tailored tuxedo, his black hair
+   combed back. He spots the red Ferrari, parked. He enters the casino.</sd>
+ </Scene>
+ <Scene num="8">
+  <Heading>Int. Hotel/Casino - Night</Heading>
+  <sd>Bond enters a ritzy lobby and nears a baccarat table. The dealer and a couple of people sit
+   around playing.</sd>
+  <sp><spk>DEALER</spk> Sept à la banque. Ma'dam wins.</sp>
+  <sd>We pan up on the driver of the expensive Italian sports car, who wears a black dress. Her name
+   is Xenia Onatopp.</sd>
+  <sp><spk>DEALER</spk> Mademoiselle? Monsieurs. Ladies and Gentlemen? Players.</sp>
+  <sd>Bond sits down at the table as Xenia is lighting up a cigar.</sd>
+  <sp><spk>BOND</spk> Banko.</sp>
+  <sd>They proceed to play the game.</sd>
+  <sp><spk>BOND</spk> It appears we share the same passions. Well, three anyway.</sp>
+  <sp><spk>XENIA</spk> I count two. Motoring and...uh...baccarat.</sp>
+  <sd>She shows he cards</sd>
+  <sp><spk>DEALER</spk> Huit à la banque.</sp>
+  <sd>Bond shows his cards.</sd>
+  <sp><spk>DEALER</spk> Seven. Ma'dam wins.</sp>
+  <sp><spk>XENIA</spk> I hope the third is where your real talent lies.</sp>
+  <sp><spk>BOND</spk> One rises to meet a challenge.</sp>
+  <sd>They place their bets.</sd>
+  <sp><spk>XENIA</spk> Doubler.</sp>
+  <sp><spk>BOND</spk> Suivi.</sp>
+  <sd>The dealer nods his head and passes cards. Bond looks at them.</sd>
+  <sp><spk>BOND</spk> Carte.</sp>
+  <sd>Xenia shows her cards.</sd>
+  <sp><spk>DEALER</spk> Ma'dam stands with five.</sp>
+  <sd>Bond shows his cards.</sd>
+  <sp><spk>DEALER</spk> Six. Ma'dam loses.</sp>
+  <sd>Xenia is obviously mad.</sd>
+  <sp><spk>XENIA</spk> (Russian)Dammit! (English) Enjoy it. While it lasts.</sp>
+  <sp><spk>BOND</spk> The very words I live by.</sp>
+  <sd>She gets up from the table. James follows.</sd>
+  <sp><spk>BOND</spk> And what words do you live by?</sp>
+  <sp><spk>XENIA</spk> The trick is to quit while you're still ahead.</sp>
+  <sp><spk>BOND</spk> That's one trick I never learned.</sp>
+  <sd>He signals for a waiter to come over.</sd>
+  <sp><spk>BOND</spk> Perhaps you'll show me how it's done.</sp>
+  <sd>The waiter approaches them. Here we go folks....</sd>
+  <sp><spk>BOND</spk> Vodka Martini. Shaken, not stirred. And for you?</sp>
+  <sp><spk>XENIA</spk> The same.</sp>
+  <sd>Bond is entranced.</sd>
+  <sp><spk>BOND</spk> How do you take it?</sp>
+  <sp><spk>XENIA</spk> Straight up. With a twist.</sp>
+  <sd>The waiter scurries away. Xenia fingers her cigar. So, she likes to play...</sd>
+  <sp><spk>XENIA</spk> Thank you, Mr....</sp>
+  <sp><spk>BOND</spk> The name's Bond. James Bond.</sp>
+  <sp><spk>XENIA</spk> Xenia Zargeneva Onatopp.</sp>
+  <sp><spk>BOND</spk> Onatopp?</sp>
+  <sp><spk>XENIA</spk> Onatopp.</sp>
+  <sp><spk>BOND</spk> Your accent, Georgian?</sp>
+  <sp><spk>XENIA</spk> Very good Mr. Bond. You've been to Russia?</sp>
+  <sp><spk>BOND</spk> Not recently, I used to drop in occasionally. Shoot in and out.</sp>
+  <sp><spk>XENIA</spk> It's very different now. The land of opportunity.</sp>
+  <sp><spk>BOND</spk> With a new Ferrari in every garage?</sp>
+  <sp><spk>XENIA</spk> No, not quite. That belongs to a friend.</sp>
+  <sp><spk>BOND</spk> A tip for your friend: the French registration plates for this year's models
+   start with the letter 'L'. Even the counterfeit ones.</sp>
+  <sd>Xenia is startled.</sd>
+  <sp><spk>XENIA</spk> Oh, and what rank do you hold with the Motor Vehicles Department, Mr.
+   Bond?</sp>
+  <sp><spk>BOND</spk> Commander.</sp>
+  <sd>Now a man steps up to Xenia. He's a bald dude with a red beard. Looks like a Canadian
+   Admiral.</sd>
+  <sp><spk>ADMIRAL</spk> Should we go?</sp>
+  <sp><spk>XENIA</spk> This one is an Admiral.</sp>
+  <sp><spk>BOND</spk> I like a woman who enjoys pulling rank.</sp>
+  <sp><spk>XENIA</spk> Nice to meet you, Mr. Bond.</sp>
+  <sd>She sounds really annoyed, and she storms away with the Canadian. Bond watches her.</sd>
+  <sp><spk>BOND</spk> The pleasure, I'm sure, was all mine.</sp>
+ </Scene>
+ <Scene num="9">
+  <Heading>Ext. Amphitheater - Night</Heading>
+  <sd>People are gathered on stone benches in an open amphitheater watching two ladies perform an
+   act. One woman hands a rose to another girl dressed as a porcelain doll. The lady proceeds to
+   control the 'doll' as she walks like a puppet over to a man in the audience. He takes it and the
+   audience claps. Meanwhile, Bond walks up the stone stairs to the top of the theater, overlooking
+   water. Bond's P.O.V. - the Ferrari pulls up, and Xenia and the Admiral get out. Bond takes out a
+   camera-thing from his pocket, and zooming in, he takes a picture of Xenia and the Canadian
+   boarding a motorboat to take her to a yacht. Bond takes a picture of the boat - 'Manticore'- and
+   walks back to his DB5.</sd>
+ </Scene>
+ <Scene num="10">
+  <Heading>Ext. DB5 / Int. DB5 - Night</Heading>
+  <sd>Before Bond gets into his car, he notices a very sophisticated, stealthy helicopter perched on
+   top of a battleship. He gets in the car and pushes a button on the stereo. A piece of paper with
+   the info of the pictures he just took. A voice starts...it's Moneypenny. Bond looks at the
+   pictures.</sd>
+  <sp><spk>MONEYPENNY</spk> (V.O.) Transmission begins from Monypenny. Identification confirmed.
+   Onatopp, Xenia. Ex-Soviet fighter pilot. Current suspected links to the Janus crime syndicate,
+   St. Petersburg. Yacht Manticore is leased to a known Janus corporate front. M authorizes you to
+   observe Miss Onatopp but stipulates no...contact...without prior</sp>
+  <sd>approval. End transmission, Moneypenny. Good night, James. I trust you'll stay...onatopp of
+   things.</sd>
+  <sd>Bond smirks. He knows exactly what she means. So do we....</sd>
+ </Scene>
+ <Scene num="11">
+  <Heading>Int. Yacht Manticore - Night</Heading>
+  <sd>Xenia literally JUMPS on the Admiral. She's in some black lingerie. They kiss ferociously, she
+   bites him. Then she whispers something, flips him over and crushes his rib cage with her legs.
+   The Admiral's in a lot of PAIN.</sd>
+  <sp><spk>ADMIRAL</spk> Xenia! I can't BREATHE!!!</sp>
+  <sd>Xenia grins and squeezes harder. A hand reaches into the Admiral's coat, which is draped over
+   a chair, and pulls out his Department of Defense ID card.</sd>
+ </Scene>
+ <Scene num="12">
+  <Heading>Ext. Bay - Day</Heading>
+  <sd>A motorboat speeds through the water.</sd>
+ </Scene>
+ <Scene num="13">
+  <Heading>Ext. Yacht Manticore - Day</Heading>
+  <sd>Bond waits for a man in a striped shirt to pass before he jumps up on to the deck on the
+   yacht. He walks toward a sliding glass door, opens it and enters.</sd>
+ </Scene>
+ <Scene num="14">
+  <Heading>Int. Yacht Manticore - Day</Heading>
+  <sd>Furnished with leather furniture, Bond makes his way to a window where he sees the motorboat
+   speeding to the battleship with the chopper on the deck. He looks down into a brass doorknob and
+   sees the reflection of the guy in the striped shirt coming at him. Bond spins around with a towel
+   and knocks him down, then throws him down the stairs by wrapping the towel around his head. 007
+   wipes his face with the towel.</sd>
+ </Scene>
+ <Scene num="15">
+  <Heading>Ext. Battleship - Day</Heading>
+  <sd>Across the bay, cars let off Naval, Army and Air Force Officers of different countries, as
+   well as their escorts. A gloved hand shows the Admiral's ID card for the Department of National
+   Defense. We're pretty sure it isn't the Admiral... A band plays, officers mill around. The
+   Captain salutes the 'Admiral'.</sd>
+  <sp><spk>CAPTAIN</spk> My respects, Admiral.</sp>
+  <sd>The officer kisses the hand of Xenia, who is standing beside the 'Admiral'.</sd>
+  <sp><spk>CAPTAIN</spk> Delighted to have you aboard, mademoiselle.</sp>
+  <sd>An emcee starts to talk.</sd>
+  <sp><spk>M.C.</spk> Ladies and gentlemen, please take your seats on the upper deck for the
+   demonstration of the aircraft.</sp>
+ </Scene>
+ <Scene num="16">
+  <Heading>Int. Yacht - Day</Heading>
+  <sd>Bond is still looking around the boat, this time with the Walther drawn. He bursts through a
+   door, looks in a cabinet. He's in a bedroom now. James opens the closet door and... The dead body
+   of Admiral Chuck Farrel falls stiffly to the floor, naked. Bond is a little stunned...</sd>
+ </Scene>
+ <Scene num="17">
+  <Heading>Ext. Yacht - Day</Heading>
+  <sd>Bond hops into a motorboat docked beside the yacht. He starts it up and drives toward the
+   warship.</sd>
+ </Scene>
+ <Scene num="18">
+  <Heading>Ext. Battleship - Day</Heading>
+  <sd>We see the chopper up close now...jeez! air-to-air missiles, heat-seekers, guns up the
+   wazoo...the whole nine yards.</sd>
+  <sp><spk>M.C.</spk> What you are about to see in operation is Europe's answer to the electronic
+   battlefield. The first working prototype of the Tiger helicopter. Uniquely maneuverable, the
+   Tiger not only uses stealth technology, it is the only helicopter to be hardened against all
+   forms of electronic interference, radio jamming and electro-magnetic radiation.</sp>
+ </Scene>
+ <Scene num="19">
+  <Heading>Int. Hall - Day</Heading>
+  <sd>Two pilots in blue flight suits, clutching helmets make their way outside to the chopper. They
+   are stopped by Xenia, wearing a revealing dress. She whistles to get their attention. The pilots
+   turn. She speaks seductively...</sd>
+  <sp><spk>XENIA</spk> Shh. I have a small surprise from your friends back at the barracks.</sp>
+  <sd>One pilot turns to the other and grins.</sd>
+  <sp><spk>PILOT</spk> I think I've gone to Heaven!</sp>
+  <sp><spk>XENIA</spk> Not yet.</sp>
+  <sd>She whips out a pistol and shoots both of them. Xenia is shown next wearing one of the blue
+   flight suits and the helmet with the visor down.</sd>
+ </Scene>
+ <Scene num="20"><Heading>Ext. Landing Pad - Day</Heading>
+  <spk voice="O.S.">M.C. </spk> Now let's welcome the pilots...Lt. Commander Bernard Jobert and Lt.
+  Francois Bruse. <sd>The 'pilots' wave and board the helicopter. Bond is now on the warship RUNNING
+   toward the Tiger, but he is pushed against the wall by 2 burly guards. They all watch the Tiger
+   take off. Fade out....</sd>
+ </Scene>
+ <Scene num="21">
+  <Heading>Ext. Northern Russia - Evening</Heading>
+  <sd>A dog team runs through the snow near...Fade up title...</sd>
+  <sd>Space Weapons Control Centre, Severnaya, Russia</sd>
+  <sd>A desolate area, wind blowing snow around a building with a HUGE satellite dish on top of
+   it.</sd>
+ </Scene>
+ <Scene num="22"><Heading>Int. Weapons Centre - Evening</Heading>
+  <sd>A bunch of monitors, computers, electronic map of the world occupy the area. We hear a
+   voice..</sd>
+  <spk voice="O.S.">WOMAN </spk> Select MIR. Autographic projection. <sd>We pan to the right to
+   reveal Natalya Simonova, a beautiful computer programmer, seated at a computer with postcards of
+   a tropical beach taped to the side.</sd>
+  <sp><spk>NATALYA</spk> Compute possible intercept with second stage geo-set two.</sp>
+  <sd>Whatever that means. We show the monitor. Up pops a window Enter Password along with a graphic
+   of a woman in a bikini. Natalya sighs and looks at a guy in a chair, playing with a pen like an
+   idiot. Leather jacket, greasy hair, wire-rim glasses. This program was obviously designed by this
+   dude. Natalya looks to the woman behind her.</sd>
+  <sp><spk>NATALYA</spk> Anna.</sp>
+  <sd>Anna looks up from her monitor and is obviously disgusted.</sd>
+  <sp><spk>ANNA</spk> He wouldn't know a woman if one came up and sat on his head!</sp>
+  <sd>Natalya laughs.</sd>
+  <sp><spk>NATALYA</spk> Bor-ris!</sp>
+  <sd>Boris is still playing with the pen.</sd>
+  <sp><spk>NATALYA</spk> BORIS!</sp>
+  <sp><spk>BORIS</spk> What?</sp>
+  <sd>She signals to her monitor.</sd>
+  <sp><spk>BORIS</spk> I thought I'd post it on the Internet, no?</sp>
+  <sp><spk>NATALYA</spk> What's the password?</sp>
+  <sp><spk>BORIS</spk> I made it easy this time. Even you should be able to break it,
+   borsht-for-brains. Alright, alright, I'll give you a hint. They're right in front of you, and can
+   open very large doors.</sp>
+  <sd>She types in Knockers.</sd>
+  <sp><spk>NATALYA</spk> You're such a geek.</sp>
+  <sd>We hear an alarm. They turn to Boris' computer.</sd>
+  <sp><spk>BORIS</spk> Yes! I'm in!</sp>
+  <sd>He rolls over to his P.C. and grins.</sd>
+  <sp><spk>NATALYA</spk> You've hacked into the U.S. Department on Justice. You know what will
+   happen if they trace it here?</sp>
+  <sp><spk>BORIS</spk> The Chief of Computers will call me a genius, move me to Moscow, and give me
+   a million bucks hard currency. I think not. Besides, the Americans are slugheads, they'll never
+   detect me.</sp>
+  <sd>Up pops a window Unauthorized Access Detected.</sd>
+  <sp><spk>NATALYA</spk> You're saying, slughead.</sp>
+  <sp><spk>BORIS</spk> Nobody screws with Boris Grishenko.</sp>
+  <sd>He types something and up pops a window Send Spike.</sd>
+  <sp><spk>BORIS</spk> Spiked them!</sp>
+  <sp><spk>NATALYA</spk> Come on, Boris...</sp>
+  <sp><spk>BORIS</spk> No way! I spiked them!</sp>
+  <sd>Initiate Search Program. Enter Password.</sd>
+  <sp><spk>NATALYA</spk> Alright, what's the password?</sp>
+  <sp><spk>BORIS</spk> I'm not going to tell you.</sp>
+  <sp><spk>NATALYA</spk> OK, let me guess. It's not in front of me?</sp>
+  <sd>Boris shakes his head.</sd>
+  <sp><spk>BORIS</spk> You sit on it, but you can't take it with you.</sp>
+  <sd>Boris types in 5 characters. A map pops up on-screen. A red line connects cities.</sd>
+  <sp><spk>BORIS</spk> My program seizes the phone line of whoever's tracing me and jams their modem
+   so they get hung up. Now the hunted becomes the hunter.</sp>
+  <sd>An F.B.I. screen pops up.</sd>
+  <sp><spk>BORIS</spk> Whoo!</sp>
+  <sd>He types....</sd>
+  <sp><spk>BORIS</spk> Better luck next time, Slugheads! BAM! GONE! I am invincible!!</sp>
+  <sd>Boris leaps up triumphantly with his arms in the air. Other technicians just look at him. He
+   turns to Natalya.</sd>
+  <sp><spk>BORIS</spk> Was it good for you, too?</sp>
+  <sd>She's annoyed with him.</sd>
+  <sp><spk>NATALYA</spk> I'm getting some coffee.</sp>
+  <sd>She walks away.</sd>
+  <sp><spk>BORIS</spk> I'm going for a cigarette.</sp>
+ </Scene>
+ <Scene num="23">
+  <Heading>Ext. Facility - Evening</Heading>
+  <sd>A sliding door opens and Boris outside with a parka on. Buurrr! Cold! He bites a beat-up
+   cigarette and lights a zippo. The lighter blows out, and Boris looks up and sees... The Tiger
+   helicopter fighting the wind, landing in the snow. The cockpit opens, Xenia and Ourumov jump
+   out.</sd>
+ </Scene>
+ <Scene num="24">
+  <Heading>Int. Severnaya Kitchen - Evening</Heading>
+  <sd>Natalya is getting a cup of coffee.</sd>
+ </Scene>
+ <Scene num="25">
+  <Heading>Int. Hallway - Evening</Heading>
+  <sd>Xenia and Ourumov walk down a hallway and stop at a little box on the wall: a
+   voice-identification system.</sd>
+  <sp><spk>OURUMOV</spk> General Akadi Gregorovich Ourumov, head of Space Division.</sp>
+  <sd>A door opens. Xenia and Ourumov enter...</sd>
+ </Scene>
+ <Scene num="26">
+  <Heading>Int. Severnaya Control Room - Evening</Heading>
+  <sd>A soldier hurries to address the General. He salutes.</sd>
+  <sp><spk>MAJOR</spk> General, if I'd known...</sp>
+  <sp><spk>OURUMOV</spk> You'd have been ready. This is an unscheduled test of the Severnaya
+   facility, Major. War simulation. We are going to test via GoldenEye. Report the status.</sp>
+  <sp><spk>MAJOR</spk> Two operational satellites, Sir. Petya and Mischa. Both in 90 minute Earth
+   orbit at 100 kilometers.</sp>
+  <sp><spk>OURUMOV</spk> Good.</sp>
+  <sd>He takes out an authority card.</sd>
+  <sp><spk>OURUMOV</spk> Here is the authorization code. Now the GoldenEye and today's access
+   numbers for satellite Petya, please.</sp>
+  <sd>He looks at his watch.</sd>
+  <sp><spk>OURUMOV</spk> I am timing you.</sp>
+  <sd>The Major scurries away, slides the card through a slot and presses his hand on an ID pad. The
+   metal wall opens...revealing a square disk with a large golden crystal in the center: The
+   GoldenEye. The Major takes the GoldenEye and two keys from its safe and hands them to the
+   General.</sd>
+  <sp><spk>OURUMOV</spk> Good. Thank you, Major.</sp>
+  <sd>Natalya notices something is going on from her position in the kitchen. Xenia cocks an
+   automatic rifle and shoots every technician in the room. She is visibly enjoying herself. Natalya
+   is still in the kitchen, scared to death. Bodies of her co-workers lay everywhere. Ourumov walks
+   toward a large control panel and slides the GoldenEye in a slot, and</sd>
+  <sd>hands a key to Xenia. They slide the keys in...</sd>
+  <sp><spk>OURUMOV</spk> On my count...3...2...1!</sp>
+  <sd>They turn the keys at the same time. It activates the electronic map on the wall.</sd>
+  <sp><spk>OURUMOV</spk> Set target. Severnaya.</sp>
+  <sd>Xenia types in something. Russia lights up in red.</sd>
+  <sp><spk>OURUMOV</spk> Arm the weapon.</sp>
+  <sd>She types once again. Ourumov flips a plastic cover and twists the red dial inside.</sd>
+ </Scene>
+ <Scene num="27">
+  <Heading>Space</Heading>
+  <sd>A satellite in orbit breaks off its protective cover. CCCP is printed on the side.</sd>
+ </Scene>
+ <Scene num="28">
+  <Heading>Int. Control Room - Evening</Heading>
+  <sd>Xenia types in a firing code.</sd>
+ </Scene>
+ <Scene num="29">
+  <Heading>Space</Heading>
+  <sd>The satellite spreads its thrusters.</sd>
+ </Scene>
+ <Scene num="30">
+  <Heading>Int. Control Room - Evening</Heading>
+  <sd>An alarm sounds Weapon Armed. They hear a noise, and Natalya runs back into the kitchen.</sd>
+  <sp><spk>OURUMOV</spk> Check it.</sp>
+  <sd>Xenia grabs her gun and runs down to a person who managed to send a distress signal. She
+   shoots him again.</sd>
+ </Scene>
+ <Scene num="31">
+  <Heading>Int. Kitchen - Evening</Heading>
+  <sd>Natalya notices a vent in the ceiling. Maybe she can escape that way....</sd>
+ </Scene>
+ <Scene num="32">
+  <Heading>Int. Control Room - Evening</Heading>
+  <sp><spk>OURUMOV</spk> Their best response time is 19 minutes. They'll be late.</sp>
+ </Scene>
+ <Scene num="33">
+  <Heading>Ext. Russian Air Base - Evening</Heading>
+  <sd>Three pilots sprint to their aircrafts while an alarm sounds.</sd>
+ </Scene>
+ <Scene num="34">
+  <Heading>Int. Control Room - Evening</Heading>
+  <sd>Xenia decides to check the kitchen. She notices some spilled coffee. She bends down and
+   touches it, still hot. She spots the opened vent in the ceiling and fires at it. Meanwhile,
+   Ourumov secures the GoldenEye and keys inside a briefcase. Both walk out.</sd>
+  <sp><spk>XENIA</spk> It's clean. I had to ventilate someone.</sp>
+  <sd>We see a digital timer counting down.</sd>
+ </Scene>
+ <Scene num="35">
+  <Heading>Space</Heading>
+  <sd>The satellite moves into position.</sd>
+ </Scene>
+ <Scene num="36">
+  <Heading>Ext. Facility - Evening</Heading>
+  <sd>Xenia and the General load into the chopper and take off.</sd>
+ </Scene>
+ <Scene num="37">
+  <Heading>Ext. Air base - Evening</Heading>
+  <sd>The three MiGs take off.</sd>
+ </Scene>
+ <Scene num="38">
+  <Heading>Ext. MI6 building - Night</Heading>
+  <sd>We see the MI6 building as a double-decker bus passes.</sd>
+ </Scene>
+ <Scene num="39">
+  <Heading>Int. Moneypenny's office - Night</Heading>
+  <sd>Bond makes his way to Miss Moneypenny's office. She's inside wearing an elegant black dress.
+   James loves this.</sd>
+  <sp><spk>BOND</spk> Good evening, Moneypenny.</sp>
+  <sd>She looks up and sees James standing in the doorway.</sd>
+  <sp><spk>MONEYPENNY</spk> Good evening, James. M will meet you in the situation room. I'm to take
+   you straight in.</sp>
+  <sd>She walks past him. He watches.</sd>
+  <sp><spk>BOND</spk> I've never seen you after hours, Moneypenny, lovely.</sp>
+  <sp><spk>MONEYPENNY</spk> Thank you, James.</sp>
+  <sp><spk>BOND</spk> Out on some professional assignment? Dressing to kill?</sp>
+  <sd>They start to walk down a hall.</sd>
+  <sp><spk>MONEYPENNY</spk> I know you'll find this crushing, 007, but I don't sit at home every
+   night praying for some international incident so I can run down here all dressed up to impress
+   James Bond. I was on a date, if you must know, with a gentleman. We went to the theater
+   together.</sp>
+  <sd>She presses a few buttons.</sd>
+  <sp><spk>BOND</spk> Moneypenny, I'm devastated. What would I ever do without you?</sp>
+  <sp><spk>MONEYPENNY</spk> As far as I can remember, James, you've never had me.</sp>
+  <sd>The elevator stops and they step out. Bond moves in closer.</sd>
+  <sp><spk>BOND</spk> Hope, spring is eternal.</sp>
+  <sp><spk>MONEYPENNY</spk> You know, this sort of behavior could qualify as sexual harassment.</sp>
+  <sp><spk>BOND</spk> Really, what's the penalty for that?</sp>
+  <sp><spk>MONEYPENNY</spk> Someday you have to make good on your innuendoes.</sp>
+  <sd>Another door slides open. James keeps staring at her.</sd>
+  <sp><spk>BOND</spk> After you, Moneypenny.</sp>
+  <sp><spk>MONEYPENNY</spk> No, I insist. You first.</sp>
+  <sd>Bond walks through the door into...</sd>
+ </Scene>
+ <Scene num="40"><Heading>Int. Situation room - Night</Heading>
+  <sd>Common Situation Room. Satellite photo on the wall, computers, monitors everywhere.</sd>
+  <sd>Bill Tanner approaches Bond.</sd>
+  <sp><spk>TANNER</spk> Good Evening, Mr. Bond.</sp>
+  <sp><spk>BOND</spk> Tanner, What's up?</sp>
+  <sp><spk>TANNER</spk> Sixteen minutes ago, we intercepted a distress call from a supposedly
+   abandoned radar station at Severnaya. Look what the satellite picked up.</sp>
+  <sd>We see a satellite photo on a computer monitor. Pictured is what looks like a bird's-eye-view
+   of a helicopter. They zoom in on the image.</sd>
+  <spk voice="O.S.">TANNER </spk> We found a match. Your missing Tiger. <sd>The computer does a scan
+   of the aircraft.</sd>
+  <spk voice="O.S.">BOND </spk> In the middle of northern Russia. <sp><spk>TANNER</spk> Seems like
+   your hunch was right, 007. Too bad the evil queen of numbers won't let you play it.</sp>
+  <sd>Bond clears his throat, signaling that she's right behind him. Tanner cringes, and turns
+   around...slowly. There's M. A woman with short gray hair, face as hard as stone and a disposition
+   to match.</sd>
+  <sp><spk>M</spk> You were saying?</sp>
+  <sp><spk>TANNER</spk> No, I was just...uh...</sp>
+  <sp><spk>M</spk> Good, because if I want sarcasm, Mr. Tanner, I'll talk to my children, thank you
+   very much. (Pause) Good evening, 007.</sp>
+  <sp><spk>BOND</spk> Good evening, M.</sp>
+  <sp><spk>M</spk> The Prime Minister's waiting for an update. Proceed with your briefing, Mr.
+   Tanner.</sp>
+  <sp><spk>TANNER</spk> Thank you. After the distress signal, your helicopter took off, and the
+   Russians scrambled these three MiGs here to intercept it.</sp>
+  <sd>He walks to the satellite photo on the wall.</sd>
+  <spk voice="O.S.">BOND </spk> What do you think the Russians were using the base for?
+    <sp><spk>TANNER</spk> Well at one point, we suspected that Severnaya might be the ground station
+   for a secret space-based weapon system called GoldenEye, but...</sp>
+  <sp><spk>M</spk> Our statistical analysis saw they had neither the finance or technology to
+   implement it.</sp>
+  <sp><spk>BOND</spk> Numbers were never my strong suite.</sp>
+  <sd>M just stares at him.</sd>
+  <sp><spk>BOND</spk> Are these pictures live?</sp>
+  <sd>Tanner starts to say something when...</sd>
+  <sp><spk>M</spk> Unlike the American government, we prefer not to get our bad news from CNN.</sp>
+ </Scene>
+ <Scene num="41">
+  <Heading>Ext. Russian sky - Night</Heading>
+  <sd>The three MiGs soar through the sky at Mach 2.</sd>
+ </Scene>
+ <Scene num="42">
+  <Heading>Int. Severnaya kitchen - Night</Heading>
+  <sd>We see a cabinet door open, a pair of eyes peek out. Natalya crawls out.</sd>
+ </Scene>
+ <Scene num="43">
+  <Heading>Ext. Russian sky - Night</Heading>
+  <sd>The MiGs do a fly-by of the Severnaya facility.</sd>
+  <sd>MiG Pilot: Negative, so far. Everything seems normal.</sd>
+ </Scene>
+ <Scene num="44">
+  <Heading>Int. Severnaya - Night</Heading>
+  <sd>Natalya stands among the bodies of her late co-workers. An alarm sounds. Time to
+   target...3...2...1! Oh crap.</sd>
+ </Scene>
+ <Scene num="45">
+  <Heading>Space</Heading>
+  <sd>The satellite gives off a blinding light and a pulse surges.</sd>
+ </Scene>
+ <Scene num="46">
+  <Heading>Ext. Severnaya - Night</Heading>
+  <sd>A surge ripples though the ground and the dish begins to short circuit.</sd>
+ </Scene>
+ <Scene num="47">
+  <Heading>Int. Severnaya - Night</Heading>
+  <sd>Electrical explosions fill the room, and Natalya runs and dives under a metal staircase.</sd>
+ </Scene>
+ <Scene num="48">
+  <Heading>Int. MI6 Situation Room - Night</Heading>
+  <sd>The satellite picture on the wall fizzles out. Nothing but static.</sd>
+  <sp><spk>TANNER</spk> What the bloody hell was that?</sp>
+  <sd>M is in deep thought.</sd>
+ </Scene>
+ <Scene num="49">
+  <Heading>Ext. Russian sky - Night</Heading>
+  <sd>The MiGs start to short circuit, all the controls go haywire, the pilot screams. The jet goes
+   down, two explode in mid-air. The third is still careening toward the dish. It crashes into it
+   and explodes.</sd>
+ </Scene>
+ <Scene num="50">
+  <Heading>Int. Severnaya -Night</Heading>
+  <sd>A pipe breaks right next to Natalya's head. She leaps up from her hiding place, screaming. She
+   trips on a body and falls. Above her, the rig holding up a bunch of TV monitors comes crashing
+   down, and stops just before crushing her.</sd>
+ </Scene>
+ <Scene num="51">
+  <Heading>Ext. Severnaya - Night</Heading>
+  <sd>The dish is still exploding....</sd>
+ </Scene>
+ <Scene num="52">
+  <Heading>Int. Severnaya - Night</Heading>
+  <sd>Natalya covers up Anna with a cloth. She's crying now as she walks to the little voice ID box
+   in the hallway.</sd>
+  <sp><spk>NATALYA</spk> Natalya Fiodorovna Simonova.</sp>
+  <sd>The bars don't move, duh, the box is obviously busted.</sd>
+  <sp><spk>NATALYA</spk> NATALYA FIODOROVNA SIMONOVA!!!</sp>
+  <sd>She hears a creak above her. She looks up and walks away. The dish comes CRASHING down,
+   through the roof! Natalya's really scared now...but...</sd>
+ </Scene>
+ <Scene num="53">
+  <Heading>Ext. Severnaya - Night</Heading>
+  <sd>Natalya climbs out the newly revealed exit. From afar we see her, surrounded by fire.</sd>
+  <sp><spk>NATALYA</spk> Boris!? Boris!?</sp>
+ </Scene>
+ <Scene num="54"><Heading>Int. MI6 Situation Room - Night</Heading>
+  <sd>Tanner's on the phone.</sd>
+  <sp><spk>TANNER</spk> Thanks.</sp>
+  <sd>He hangs up.</sd>
+  <sp><spk>TANNER</spk> Our satellite's knocked out. So are two of the Americans'. We have another
+   coming into range...now.</sp>
+  <sd>The satellite picture on the wall comes back on.</sd>
+  <sp><spk>TANNER</spk> Good God. Two of the MiGs are down...</sp>
+  <sd>They look at a monitor.</sd>
+  <sp><spk>M</spk> And it looks like the third went into the dish.</sp>
+  <sd>M turns to Bond, who is still studying the wall.</sd>
+  <sp><spk>M</spk> What do you think?</sp>
+  <sp><spk>BOND</spk> No lights. Not one single electric light on a thirty-mile radius. (Pause)
+   EMP?</sp>
+  <sp><spk>TANNER</spk> Would account for the MiGs and the satellite.</sp>
+  <sp><spk>BOND</spk> And the blackout.</sp>
+  <sd>Tanner turns to M.</sd>
+  <sp><spk>TANNER</spk> Electro-Magnetic Pulse. First strike satellite weapon developed by
+   the...uh..</sp>
+  <sp><spk>M</spk> The Americans and Soviets during the Cold War. I read the brief. Discovered after
+   Hiroshima. Set off a nuclear device in the upper atmosphere, creates a pulse; a radiation surge
+   that destroys everything with an electronic circuit.</sp>
+  <sp><spk>TANNER</spk> The idea being to knock out the enemy's communication before he, she or they
+   could retaliate.</sp>
+  <sp><spk>M</spk> So, GoldenEye exists.</sp>
+  <sp><spk>BOND</spk> Yes.</sp>
+  <sp><spk>M</spk> Could this be an accident?</sp>
+  <sp><spk>BOND</spk> No. The helicopter. If you wanted to steal the GoldenEye it's the perfect
+   getaway vehicle. Setting off the blast was the ideal way to wipe out any trace of the crime.</sp>
+  <sp><spk>M</spk> The Janus Group?</sp>
+  <sp><spk>BOND</spk> They may have been involved with the helicopter.</sp>
+  <sd>He moves to a computer.</sd>
+  <sp><spk>BOND</spk> I know the Russian fail-safe systems. You just can't walk in and ask for the
+   keys to he bomb. You need the access codes.</sp>
+  <sd>On the computer, James zooms in on a small white object, moving. It appears to be a person.
+   (It's Natalya)</sd>
+  <spk voice="O.S.">BOND </spk> There had to be an insider. <sd>He looks closer at the monitor.</sd>
+  <sp><spk>BOND</spk> And at least one person probably knows who it is.</sp>
+ </Scene>
+ <Scene num="55">
+  <Heading>Ext. Severnaya - Night</Heading>
+  <sd>Natalya falls into the snow. She hears sled dogs, she runs toward them. We see a dog
+   team.</sd>
+ </Scene>
+ <Scene num="56"><Heading>Int. M's Office - Night</Heading>
+  <sd>M is on the phone.</sd>
+  <sp><spk>M</spk> Very well, Sir. Thank you, good night.</sp>
+  <sd>She hangs up and turns to Bond.</sd>
+  <sp><spk>M</spk> The Prime Minister's talked to Moscow. They're saying it was an accident during a
+   routine training exercise.</sp>
+  <sd>007 is seated in a chair, hands folded neatly</sd>
+  <sp><spk>BOND</spk> Governments change. The lies stay the same.</sp>
+  <sd>M walks around from behind her desk.</sd>
+  <sp><spk>M</spk> What else do we know about the Janus Syndicate?</sp>
+  <sp><spk>BOND</spk> Top-flight arms dealers headquartered in St. Petersburg. First outfit to reach
+   north the Iraqis during the Gulf War. Their head man in unreliably described, no photographs. The
+   woman, Onatopp, is our only confirmed contact.</sp>
+  <sp><spk>M</spk> Would you care for a drink?</sp>
+  <sp><spk>BOND</spk> Um...thank you. Your predecessor kept some Cognac in the top drawer</sp>
+  <sp><spk>M</spk> I prefer Bourbon.</sp>
+  <sd>She pours the drinks.</sd>
+  <sp><spk>M</spk> Ice?</sp>
+  <sp><spk>BOND</spk> Yes.</sp>
+  <sd>She hands a glass to him.</sd>
+  <sp><spk>M</spk> We pulled the files on anyone who might had access or authority at Severnaya. Top
+   name on our list is a friend of yours, I understand...</sp>
+  <sd>She sits at her desk and presses a button. A screen in back of her appears with Ourumov's ugly
+   face on it.</sd>
+  <sp><spk>BOND</spk> Ourumov. They made him a general.</sp>
+  <sp><spk>M</spk> He sees himself as the next 'I' man if Russia. Which is why our political
+   analysts rule him out. He doesn't fit the profile of a traitor.</sp>
+  <sd>Bond is a little annoyed...</sd>
+  <sp><spk>BOND</spk> Are these the same analysts who said GoldenEye couldn't exist, who said the
+   helicopter posed no immediate threat, and wasn't worth following?!</sp>
+  <sp><spk>M</spk> You don't like me, Bond. You don't like my methods. You think I'm an accountant,
+   a bean counter, more interested in my members than your instincts.</sp>
+  <sp><spk>BOND</spk> The thought had occurred to me.</sp>
+  <sp><spk>M</spk> Good, because I think you're a sexist, misogynist dinosaur. A relic of the Cold
+   War, whose boyish charms though wasted on me obviously appeal to the young woman I sent out to
+   evaluate you.</sp>
+  <sd>Bond takes a sip of his drink.</sd>
+  <sp><spk>BOND</spk> Point taken.</sp>
+  <sp><spk>M</spk> Not quite, 007.</sp>
+  <sd>She's got his attention.</sd>
+  <sp><spk>M</spk> If you think for one moment I don't have the balls to send a man out to die, your
+   instincts are dead wrong. I have no compunction about sending you to your death. But I won't do
+   it on a whim. Even with your cavalier attitude toward life.</sp>
+  <sd>She leans forward on her desk...</sd>
+  <sp><spk>M</spk> I want you to find GoldenEye, find who took it, what they plan to do with it and
+   stop it. And if you should come across Ourumov, guilty or not, I don't want you running off on
+   some kind of vendetta. Avenging Alec Trevelyan will not bring him back.</sp>
+  <sp><spk>BOND</spk> You didn't get him killed.</sp>
+  <sp><spk>M</spk> Neither did you. Don't make it personal.</sp>
+  <sp><spk>BOND</spk> (mumbles) Never.</sp>
+  <sd>He finishes his drink and gets up. He's had enough of this...</sd>
+  <spk voice="O.S.">M </spk> Bond. <sd>James turns. M smirks.</sd>
+  <sp><spk>M</spk> Come back alive.</sp>
+ </Scene>
+ <Scene num="57">
+  <Heading>Ext. St. Petersburg square - Day</Heading>
+  <sd>A band plays in a square outside The Winter Palace, the residence of the Russian Czar until
+   1918.</sd>
+ </Scene>
+ <Scene num="58">
+  <Heading>Int. Building - Day</Heading>
+  <sd>Defense Minister Dimitri Mishkin watches the band marching from a window. A serious-looking
+   dude with a gotee. He glances at his watch, then retreats back to a table with a board of
+   councilors seated. There's a knock at the door. Gen. Ourumov enters and removes his hat.</sd>
+  <sp><spk>MISHKIN</spk> Good morning, General Ourumov.</sp>
+  <sp><spk>OURUMOV</spk> Defense Minister Mishkin, Gentlemen.</sp>
+  <sp><spk>MISHKIN</spk> Please, deliver your report.</sp>
+  <sp><spk>OURUMOV</spk> As this council is aware, 72 hours ago, a secret weapons program codename
+   GoldenEye was detonated over Severnaya. As head of Space Division, I personally undertook the
+   investigation. I have concluded this crime was committed by Siberian separatists, seeking to
+   create political unrest. Incredibly the peaceful work and much needed hard currency earnings of
+   Severnaya have been set back by several years. Therefore, I tender my resignation.</sp>
+  <sd>The council makes some noise, shaking their heads "Niet" "No".</sd>
+  <sp><spk>MISHKIN</spk> It seems the council does not want your head, Akadi Gregorovich, merely
+   your loyal assurance that there are no other GoldenEye satellites.</sp>
+  <sp><spk>OURUMOV</spk> I can't give you that assurance, Defense Minister.</sp>
+  <sp><spk>MISHKIN</spk> And what of the two missing Severnaya technicians?</sp>
+  <sd>Ourumov freezes. Two?! Where did two come from?!</sd>
+  <sp><spk>OURUMOV</spk> I was aware only of the one. Boris Grishenko.</sp>
+  <sd>Mishkin glances at a paper...</sd>
+  <sp><spk>MISHKIN</spk> There was a girl, also, whose body was not among the dead. Natalya Fivoriva
+   Simonova, a level-two programmer.</sp>
+  <sp><spk>OURUMOV</spk> I will investigate immediately, Defense Minister.</sp>
+  <sp><spk>MISHKIN</spk> It would seem presumptuous, General, to blame this incident on Siberian
+   separatists before the whereabouts of your own people are determined.</sp>
+  <sd>The Council looks like a bunch of statues.</sd>
+  <sp><spk>MISHKIN</spk> Do you agree?</sp>
+  <sp><spk>OURUMOV</spk> YES, Defense Minister. Thank you for bringing it to my attention.</sp>
+  <sp><spk>MISHKIN</spk> That will be all.</sp>
+  <sd>The General snaps to attention and puts his hat back on, then exits.</sd>
+ </Scene>
+ <Scene num="59">
+  <Heading>Int. Q Branch - Day, I think...</Heading>
+  <sd>Bond makes his way to Q's test lab. The room is full of technicians working on all sorts of
+   gadgets. Q himself wheels up in a wheelchair with a cast on his left leg.</sd>
+  <sp><spk>BOND</spk> Morning, Q. Sorry about the leg. Skiing?</sp>
+  <sd>A rocket fires from the cast, exploding in a bright flash.</sd>
+  <sp><spk>Q</spk> Hunting!</sp>
+  <sd>Across the room a parachute discharges from a BMW. Q and 007 walk toward the car.</sd>
+  <sp><spk>Q</spk> Right! Now pay attention, 007. First, your new car. BMW. Agile five-forward
+   gears, all points radar. Self-destruct system, and naturally, all the usual refinements.</sp>
+  <sd>As Q talks, James opens the car door. Blue BMW Z3 Roadster convertible. James proceeds to bug
+   the technician working on the car. He is, of course, not listening to Q.</sd>
+  <sp><spk>Q</spk> Now this, I'm particularly proud of: behind the headlights - Stinger
+   missiles.</sp>
+  <sd>Bond is now listening...</sd>
+  <sp><spk>BOND</spk> Excellent! Just the thing for unwinding after a rough day at the office.</sp>
+  <sp><spk>Q</spk> Need I remind you, 007, that you have a license to kill - NOT to break the
+   traffic laws.</sp>
+  <sp><spk>BOND</spk> I wouldn't think of it.</sp>
+  <sp><spk>Q</spk> Good! Right, let's get on to more practical methods.</sp>
+  <sd>They walk to a table. Bond disappears off-screen. Q picks up a belt.</sd>
+  <sp><spk>Q</spk> A typical leather belt. Male size 34, buckle - notch.</sp>
+  <sd>We see Bond now, he's playing with a laptop, not listening as usual.</sd>
+  <sp><spk>Q</spk> Are you finished?</sp>
+  <sd>James quickly closes the laptop, pauses...</sd>
+  <sp><spk>BOND</spk> Yes.</sp>
+  <sp><spk>Q</spk> Good! A typical leather belt...</sp>
+  <sp><spk>BOND</spk> Q! I'm familiar with that device.</sp>
+  <sp><spk>Q</spk> Not one with a 75-foot repelling cord built into the buckle. Fire, and out shoots
+   a pitot followed by a high tensile wire designed to support your weight.</sp>
+  <sp><spk>BOND</spk> I see. And what if I need additional support?</sp>
+  <sp><spk>Q</spk> It's tested for one, 007.</sp>
+  <sd>Behind them, a guy in a white lab coat enters a fake phone booth. An air-bag thing inflates,
+   trapping the guy inside. Bond and Q could care less. Q picks up an envelope Bond has been
+   carrying with him. An x-ray of the envelope appears on a monitor. Looks like a plane ticket.
+   British Airways.</sd>
+  <sp><spk>Q</spk> Flight 878 to St. Petersburg.</sp>
+  <sd>Q taps a mirrored table.</sd>
+  <sp><spk>Q</spk> X-ray document scanner.</sp>
+  <sd>He takes out a 'clickey pen' (ya know the kind you have to click to use).</sd>
+  <sp><spk>Q</spk> A pen. This is a class-4 grenade. Three clicks arms the four second fuse, another
+   three disarms it.</sp>
+  <sd>As he talks, Q demonstrates the clicks. Bond grabs the pen and clicks it three times.</sd>
+  <sp><spk>BOND</spk> How long did you say the fuse was?</sp>
+  <sd>Q grabs it back, and disarms it.</sd>
+  <sp><spk>Q</spk> Oh, grow up 007.</sp>
+  <sp><spk>BOND</spk> Who said the pen was mightier than the sword?</sp>
+  <sp><spk>Q</spk> Thanks to me, they were right!</sp>
+  <sd>Q walks toward a test dummy while the man stuck in the telephone booth is being wheeled
+   away.</sd>
+  <sp><spk>Q</spk> Look, let's ask Fred here to demonstrate for us.</sp>
+  <sd>He clips the pen in Fred's pocket as the guy trapped in the phone booth is wheeled away.</sd>
+  <sp><spk>Q</spk> Here we are. Sorry about this Fred...</sp>
+  <sd>Q clicks the pen three times.</sd>
+  <sp><spk>Q</spk> 1...2...3!</sp>
+  <sd>He cowers with his hands over his ears while James looks on. Fred explodes of course - his top
+   half scattered around the room.</sd>
+  <sp><spk>Q</spk> Don't say it!</sp>
+  <sp><spk>BOND</spk> The writing's on the wall?</sp>
+  <sp><spk>Q</spk> Along with the rest of him.</sp>
+  <sd>Bond smirks. Never a dull moment.</sd>
+  <sp><spk>Q</spk> Now, 007 do try and...</sp>
+  <sd>Q is interrupted by a technician being launched across the room by a blast of air.</sd>
+  <sd>Nothing interesting to these guys. Bond picks up a sub sandwich and begins to inspect it,
+   looking for knives to shoot from it or something.</sd>
+  <sp><spk>Q</spk> Do try and return some of this equipment in pristine order...</sp>
+  <sd>Q notices what James is doing.</sd>
+  <sp><spk>Q</spk> Don't touch that!</sp>
+  <sd>James is scared as Q grabs the sub.</sd>
+  <sp><spk>Q</spk> That's my lunch!</sp>
+ </Scene>
+ <Scene num="60">
+  <Heading>Ext. Runway - Day</Heading>
+  <sd>A British Airways jet touches down on the runway in St. Petersburg, Russia.</sd>
+ </Scene>
+ <Scene num="61">
+  <Heading>Ext. Airport Exit - Day</Heading>
+  <sd>Bond walks from the terminal and spots the guy he's looking for. Big dude with a stupid fur
+   hat and a trench coat. Name's Jack Wade, 007's CIA counterpart. Bond approaches him and ventures
+   at casual conversation, otherwise known as code to establish alliance.</sd>
+  <sp><spk>BOND</spk> In London, April's a spring month.</sp>
+  <sp><spk>WADE</spk> Aw yeah? And who are you, the weatherman? And fer cryin' out loud! Another
+   stiff-ass Brit! Yer secret codes and yer passwords. One of these days you guys're gonna learn to
+   drop it. Come on, my car's over there.</sp>
+  <sd>Bond is a little annoyed. They cross the street to a little blue...um...car - box thing. Bond
+   opens a door.</sd>
+  <sp><spk>BOND</spk> After you.</sp>
+  <sp><spk>WADE</spk> Thank you.</sp>
+  <sd>James whips out his Walther, jamming it into Wade's chest.</sd>
+  <sp><spk>BOND</spk> Like you said...Drop it!</sp>
+  <sp><spk>WADE</spk> Alright, in London April's a spring month, where's in St. Petersburg we're
+   freezin' our butts off. Now is that close enough for government work?!</sp>
+  <sp><spk>BOND</spk> No! Show me the rose.</sp>
+  <sp><spk>WADE</spk> Please, no.</sp>
+  <sd>Bond slams the gun harder.</sd>
+  <sp><spk>WADE</spk> Alright! Alright! Alright!</sp>
+  <sd>Wade partially drops his pants showing a tattoo of a rose with the word 'Muffy' above it.</sd>
+  <sp><spk>BOND</spk> Muffy?</sp>
+  <sp><spk>WADE</spk> Third wife. Jack Wade. CIA.</sp>
+  <sp><spk>BOND</spk> James Bond. Stiff-ass Brit.</sp>
+  <sp><spk>WADE</spk> That's a nice move...</sp>
+  <sp><spk>BOND</spk> Nice car.</sp>
+  <sp><spk>WADE</spk> Well, she hasn't let me down yet. She's like a little bitch, but she gets ya
+   there. (pause) Hey Bond. Ya do any gardening?</sp>
+ </Scene>
+ <Scene num="62">
+  <Heading>Ext. Train Station - Day</Heading>
+  <sd>Natalya appears getting off a train, and looks behind her back like she's being followed. She
+   only sees two Russian soldiers.</sd>
+ </Scene>
+ <Scene num="63">
+  <Heading>Ext. Plaza - Day</Heading>
+  <sd>The little blue box that Wade calls a car is sitting in the middle of a square with smoke
+   coming from the engine (in the trunk, ya know like old VW Beetles). Wade's trying to fix it. We
+   move in closer...</sd>
+  <sp><spk>WADE</spk> Can ya hand me that wrench, Jimmy?</sp>
+  <sd>James picks up a wrench and hands it to Wade.</sd>
+  <sp><spk>BOND</spk> So what do you know about Janus?</sp>
+  <sp><spk>WADE</spk> Zilch. No one's ever seen him. But the man's connected up the gazoo. KGB,
+   military. Screwdriver.</sp>
+  <sd>James picks up a screwdriver from the pile of tools.</sd>
+  <sp><spk>WADE</spk> Rumor has it, he lives on one of those old Soviet missile trains. That armored
+   stuff they used to run around the country so we couldn't target'em.</sp>
+  <sd>Wade stands up.</sd>
+  <sp><spk>WADE</spk> Ya wanna hand me that hammer, Jimbo?</sp>
+  <sd>Bond picks up a hammer. Wait... Jimbo?!</sd>
+  <sp><spk>WADE</spk> No, the bigger one. The sledge.</sp>
+  <sd>Bond picks up a sledge hammer.</sd>
+  <sp><spk>WADE</spk> Anyways, to tell the truth, you don't find this guy, he finds you.</sp>
+  <sd>Wade proceeds to hammer the screwdriver gently into the engine.</sd>
+  <sp><spk>WADE</spk> Hell, it's all Russian Mafia...The best I can do is point you in the direction
+   of his competition.</sp>
+  <sd>Wade whacks the engine HARD with the sledge hammer, and roars to life. Bond smirks.</sd>
+  <sp><spk>BOND</spk> Who is the competition?</sp>
+  <sp><spk>WADE</spk> An ex-KGB guy. Tough mother. Got a limp on his right leg, name's
+   Zukovsky.</sp>
+  <sp><spk>BOND</spk> Valentin Dimitrovich Zukovsky?</sp>
+  <sp><spk>WADE</spk> Yeah! You know him?</sp>
+  <sp><spk>BOND</spk> I gave him the limp.</sp>
+ </Scene>
+ <Scene num="64">
+  <Heading>Ext. IBM Building - Day</Heading>
+  <sd>Natalya walks up to a building with the familiar IBM logo on it. She enters.</sd>
+ </Scene>
+ <Scene num="65">
+  <Heading>Int. IBM Building - Day</Heading>
+  <sd>She walks inside and locates the manager in a room marked "No Access" carrying a CPU. She
+   knocks on a door to get the guy's attention. He puts the CPU down.</sd>
+  <sp><spk>MANAGER</spk> Yes?</sp>
+  <sp><spk>NATALYA</spk> Are these all you have?</sp>
+  <sd>She looks around the room at about 10 to 15 computers.</sd>
+  <sp><spk>MANAGER</spk> How many do you want?</sp>
+  <sd>She reads from a paper...</sd>
+  <sp><spk>NATALYA</spk> Twenty-four for the American school, eleven for the Swedish, IBM Compatible
+   with 500 MHz drives and 34 modems.</sp>
+  <sp><spk>MANAGER</spk> You pay dollars?</sp>
+  <sp><spk>NATALYA</spk> Of course.</sp>
+  <sp><spk>MANAGER</spk> If ma'dam would require a demonstration...</sp>
+  <sp><spk>NATALYA</spk> Ma'dam requires a demonstration modem and a quiet place to test it.</sp>
+  <sd>The manager shows her into a back room.</sd>
+ </Scene>
+ <Scene num="66">
+  <Heading>Int. Boris' computer lab - ?</Heading>
+  <sd>In an unknown location, we see a screen with Boris' program. Incoming E-mail. Boris turns
+   around wearing a sweater with the peace sign on it. Funky. He sees who the mail's from...</sd>
+  <sp><spk>BORIS</spk> Natalya!</sp>
+  <sd>Types: I thought you were dead.</sd>
+ </Scene>
+ <Scene num="67">
+  <Heading>Int. IBM back room - Day</Heading>
+  <sd>Natalya is seated at a PC. She types, evidently in an e-mail. Ourumov killed everyone, fired
+   'Petya', took GoldenEye. The manager bursts in the room, scaring the crap out of Natalya.</sd>
+  <sp><spk>MANAGER</spk> Is everything satisfactory?</sp>
+  <sp><spk>NATALYA</spk> Everything except the interruption.</sp>
+  <sd>He leaves.</sd>
+ </Scene>
+ <Scene num="68">
+  <Heading>Int. Boris' computer lab - ?</Heading>
+  <sd>Boris types: You aren't safe. Trust no-one. Meet me at Our Lady of Smolensk in one hour.</sd>
+ </Scene>
+ <Scene num="69">
+  <Heading>Int. IBM back room - Day</Heading>
+  <sd>Natalya gets the message, smiles.</sd>
+ </Scene>
+ <Scene num="70"><Heading>Ext. Bridge - Day</Heading>
+  <sd>The little blue box Wade calls a car drives across a bridge.</sd>
+  <spk voice="V.O.">WADE </spk> Lemme get this straight Jimmy...you shot him in the leg, you stole
+  his car, you took his girl, now you want Valentin Zukovsky to set you up with Janus? </Scene>
+ <Scene num="71"><Heading>Ext. Valentin's club - Day</Heading>
+  <sd>The car pulls up...</sd>
+  <spk voice="V.O">BOND </spk> Yes. <spk voice="V.O.">WADE </spk> Well, what are ya gonna do, appeal
+  to his heart? <spk voice="V.O.">BOND </spk> No, his wallet. <spk voice="V.O.">WADE </spk> Oh, now
+  that might work...OK, showtime! <sd>The car stops and we see Wade and Bond both stuffed inside.
+   They see two Russians by a car.</sd>
+  <sp><spk>WADE</spk> Valentin operates out of Building 23, there. You sure you wanna do this? The
+   last guy who dropped in uninvited went home Air Freight. In very small boxes.</sp>
+  <sp><spk>BOND</spk> Make sure they send me home First Class.</sp>
+  <sd>Bond gets out of the car.</sd>
+ </Scene>
+ <Scene num="72">
+  <Heading>Ext. Church - Day</Heading>
+  <sd>Natalya walks up to Our Lady of Smolnesk, a church.</sd>
+ </Scene>
+ <Scene num="73">
+  <Heading>Int. Church - Day</Heading>
+  <sd>She walks inside. Quiet. Very quiet. Extremely Romanesque, like in any other large church
+   Orthodox church. Natalya looks up at a suspended cross. She waits, looks for Boris. She spots a
+   suspicious-looking figure in a black cloak, praying. The heavy doors suddenly close by
+   themselves, almost blowing out some candles. Natalya runs, totally freaked out, back down the
+   aisle. The figure looks at her, it's just an old woman. Around the corner she runs</sd>
+  <sd>into Boris, she screams.</sd>
+  <sp><spk>BORIS</spk> Natalya! It's me! It's Boris, it's Boris! Hello! Shhh...</sp>
+  <sd>Xenia walks up from behind Natalya...</sd>
+ </Scene>
+ <Scene num="74"><Heading>Int. Valentin's club - Day</Heading>
+  <sd>Valentin, a big guy with a limp, walks across his nightclub, zips up a woman's dress. He talks
+   to himself.</sd>
+  <sp><spk>VALENTIN</spk> Another morning shot to hell. The free market economy, I swear it will be
+   the end.</sp>
+  <sd>Suddenly a gun in cocked by his head. We see it's Bond's Walther.</sd>
+  <sp><spk>VALENTIN</spk> Walther PPK, 7.65 mm, only three men I know use such a gun...I believe
+   I've illed two of them...</sp>
+  <sd>We pan to the right. Yep. Bond.</sd>
+  <sp><spk>BOND</spk> Lucky me.</sp>
+  <sd>Another gun presses against James' head.</sd>
+  <sp><spk>VALENTIN</spk> I think not.</sp>
+  <sd>On a stage, a few girls attempt to sing Stand By Your Man. Really badly with Russian accents,
+   to boot! But a few men in the audience stay interested, mainly because of the skimpy costumes.
+   Bond is being 'escorted' by two henchmen. They throw him on a couch. Valentin sits on a chair in
+   front of him.</sd>
+  <sp><spk>VALENTIN</spk> James Bond. Charming, sophisticated, secret agent. Shaken, but not
+   stirred...</sp>
+  <sd>The Russians laugh...</sd>
+  <sp><spk>BOND</spk> I see you haven't lost your delicate sense of humor, Valentin. Or your need
+   for an audience. Who's strangling the cat?</sp>
+  <sd>I couldn't have put it better myself. Valentin looks quizzically where Bond is gazing.</sd>
+  <sp><spk>VALENTIN</spk> Strangling a cat?!</sp>
+  <sd>We see the lead singer practically howling 'Stand by your mahn!!'. Valentin whips out a gun
+   and shoots the couch right between James' legs...</sd>
+  <sp><spk>VALENTIN</spk> It's Irina. My mistress.</sp>
+  <sd>Bond looks like he just swallowed his words.</sd>
+  <sp><spk>BOND</spk> Very talented girl...</sp>
+  <sp><spk>VALENTIN</spk> Irina!! Take a hike!!!</sp>
+  <sd>Irina shuts up right before giving him an up yours with her arms.</sd>
+  <sp><spk>VALENTIN</spk> So, Mr. Bond; what is it that brings you to my neighborhood? Still working
+   for MI6, or have you decided to join the 21st century? I hear the new M is a lady...</sp>
+  <sp><spk>BOND</spk> I want you to do me a favor.</sp>
+  <sd>The big Russian laughs.</sd>
+  <sp><spk>VALENTIN</spk> He wants me to do HIM a favor!! My knee aches every single day, twice as
+   bad when it is cold. Do you have any idea how long the winter lasts in this country? Tell him
+   Dimitri...</sp>
+  <spk voice="O.S.">DIMITRI </spk> Well, it depends... <sp><spk>VALENTIN</spk> Silence!!!!</sp>
+  <sp><spk>BOND</spk> For an ex-KGB agent, you surprise me Valentin. Surely someone of your stature
+   must have realized the skill was not to hit your knee, but to...uh...miss the rest of you.</sp>
+  <sp><spk>VALENTIN</spk> So why did you not kill me?</sp>
+  <sp><spk>BOND</spk> Call it professional courtesy.</sp>
+  <sp><spk>VALENTIN</spk> Then I should extend you the same courtesy...</sp>
+  <sd>Valentin shoots to Bond's right leg, miss. Left leg, miss again. Valentin aims in
+   between...</sd>
+  <sp><spk>BOND</spk> Kerov's Funeral Parlor, 4 o'clock this afternoon!</sp>
+  <sd>He's got his attention...</sd>
+ </Scene>
+ <Scene num="75">
+  <Heading>Int. Valentin's office - Day</Heading>
+  <sd>Bond is seated, Valentin's getting a drink.</sd>
+  <sp><spk>BOND</spk> Two hundred pounds of C4 explosives hidden in a casket. Your man drives the
+   hearse in. The money's exchanged. Their man drives the hearse out. Their man will be arrested
+   with the explosives. Your man will make a miraculous escape with the money. Your money.</sp>
+  <sd>Valentin sits at his desk.</sd>
+  <sp><spk>VALENTIN</spk> And what do I owe for this accommodation?</sp>
+  <sp><spk>BOND</spk> I want you to set me up. With Janus.</sp>
+  <sp><spk>VALENTIN</spk> And what has he done to deserve you?</sp>
+  <sp><spk>BOND</spk> Stole a helicopter.</sp>
+  <sp><spk>VALENTIN</spk> I have six.</sp>
+  <sp><spk>BOND</spk> Three. None that fly.</sp>
+  <sp><spk>VALENTIN</spk> Who's counting?</sp>
+  <sp><spk>BOND</spk> These aren't criminals Valentin, they're traitors. They used the chopper to
+   steal a nuclear weapon, killed a lot of innocent Russians doing it.</sp>
+  <sp><spk>VALENTIN</spk> What do you expect from a Cossack?</sp>
+  <sp><spk>BOND</spk> Who?</sp>
+  <sp><spk>VALENTIN</spk> This Janus. I've never met the man, but I know he's a Lienz Cossack.</sp>
+  <sp><spk>BOND</spk> Grouped that worked for the Nazis against the Russians, second World War.</sp>
+  <sp><spk>VALENTIN</spk> You know your history, Mr. Bond. At the end of the war, the Lienz Cossacks
+   surrendered to the British in Austria, believing they would join your government and wage war
+   against the Communists. But the British betrayed them. Sent them back to Stalin who promptly had
+   them all shot. Women, children, families.</sp>
+  <sp><spk>BOND</spk> Not exactly our finest hour.</sp>
+  <sp><spk>VALENTIN</spk> Still, ruthless people. They got what they deserved.</sp>
+  <sp><spk>BOND</spk> I want you to set me up with Janus. Tell him I'm asking about the chopper
+   and</sp>
+  <sd>meet me tonight at the Grand Hotel Europe.</sd>
+  <sp><spk>VALENTIN</spk> Then you and I are even and he owes me one.</sp>
+  <sp><spk>BOND</spk> Precisely.</sp>
+ </Scene>
+ <Scene num="76">
+  <Heading>Ext. Grand Hotel Europe - Night</Heading>
+  <sd>Bond's elegant hotel...</sd>
+ </Scene>
+ <Scene num="77">
+  <Heading>Int. Pool Area - Night</Heading>
+  <sd>A shadow moving through the pool water. James surfaces right in front of the camera, then
+   pushes off the side of the cement pool floating on his back. Nice pool, circular, with huge
+   pillars surrounding it...we see a door open and someone walks in, circling the pool. James is
+   still floating peacefully when he notices someone's watching him. Wait! Isn't that...?! He climbs
+   out of the pool. He grabs a towel and dabs his face. Then he grabs his Walther. James pulls the
+   person by the arm, pulling them into a steam room. He aims the gun at...Xenia. Wearing only a
+   loosefitting robe. James is a little interested. His chiseled body is still soaked, hair slicked
+   back...looking sexy...</sd>
+  <sp><spk>XENIA</spk> You don't need the gun, Commander.</sp>
+  <sp><spk>BOND</spk> That depends on your definition of safe sex.</sp>
+  <sd>She comes at him, really close. His only weakness...</sd>
+  <sp><spk>BOND</spk> That's close enough.</sp>
+  <sp><spk>XENIA</spk> Not for what I have in mind.</sp>
+  <sd>They kiss. James tosses the gun on a massage table. She pulls away, with his lower lip
+   clenched in her teeth. Bond flinches and pushes her to the wall. He touches his lip, a little
+   blood, but enough to get him pissed off. He goes for the gun...Xenia kicks him to the ground
+   before he can get it. She jumps on top of him, he rolls on top of her...</sd>
+  <sp><spk>XENIA</spk> You think you can hurt me?</sp>
+  <sd>James gets off of her, and goes for the gun again. Xenia pushes him onto the massage table,
+   and jumps on him. Normally, Bond would love this - but she's crushing his rib cage. He gasps, and
+   tries to pry her legs off his torso. He gets up, with Xenia still hanging on with her legs, and
+   slams her against the wall.</sd>
+  <sp><spk>XENIA</spk> You think you can break me?</sp>
+  <sd>They kiss again wildly...She squeezes harder, Bond's eyes pop open and he runs slamming Xenia
+   into another wall. Now she's screaming...he sits her on the steam grate. Another guy has heard
+   the screaming and Bond swiftly knocks him out. He flips Xenia over his shoulder, finally off of
+   him. Now he gets the gun and aims it at her.</sd>
+  <sp><spk>BOND</spk> No, no, no. No more foreplay.</sp>
+  <sd>He cocks the gun.</sd>
+  <sp><spk>BOND</spk> Take me to Janus.</sp>
+  <sp><spk>XENIA</spk> (Russian) Bastard!!</sp>
+ </Scene>
+ <Scene num="78">
+  <Heading>Ext. Statue Junk yard - Night</Heading>
+  <sd>A gray Mercedes pulls up at a junk yard littered not with garbage, but with hundreds of old
+   stone statues. From before the fall of the Iron Curtain. VERY eerie.</sd>
+ </Scene>
+ <Scene num="79">
+  <Heading>Int. Mercedes - Night</Heading>
+  <sd>Xenia's at the wheel, Bond is in back covered in shadow pointing a gun at Xenia.</sd>
+  <sp><spk>BOND</spk> This is it?</sp>
+  <sp><spk>XENIA</spk> Yes.</sp>
+  <sd>He leans forward, puts the gun away.</sd>
+  <sp><spk>BOND</spk> Well, I must say, I've had a lovely evening. You?</sp>
+  <sp><spk>XENIA</spk> Once again, the pleasure was all yours.</sp>
+  <sp><spk>BOND</spk> You'll understand if I don't call...</sp>
+  <sp><spk>XENIA</spk> I won't loose sleep over it.</sp>
+  <sd>He suddenly whacks her in the back of the head, knocking her out.</sd>
+  <sp><spk>BOND</spk> Sweet dreams.</sp>
+ </Scene>
+ <Scene num="80"><Heading>Ext. Junk yard - Night</Heading>
+  <sd>007 steps out of the car, and spots the Tiger helicopter. He draws his gun. This place in very
+   freaky, folks. Plus it's dark, and Bond's eyes start to play tricks on him. He aims the gun at
+   someone...no. A statue.</sd>
+  <spk voice="O.S.">VOICE </spk> Hello, James. <sd>Bond whips the gun around at the voice. Sounds
+   familiar...A dark shadow walks out from what's left of a building. 006 steps into the light. His
+   face is badly scarred on the right side. Bond stands there, frozen in place...</sd>
+  <sp><spk>BOND</spk> (Softly) Alec...?</sp>
+  <sp><spk>ALEC</spk> Back from the dead. No longer than just an anonymous star on the memorial wall
+   at MI6.</sp>
+  <sd>Bond is still frozen, his blue eyes wide.</sd>
+  <sp><spk>ALEC</spk> What's the matter, James? No glib remark? No pithy comeback?</sp>
+  <sp><spk>BOND</spk> (Softly) Why...?</sp>
+  <sd>Alec laughs.</sd>
+  <sp><spk>ALEC</spk> Hilarious question. Particularly from you. Would you ever ask why? Why we
+   toppled all those dictators, undermined all those regimes? Only to come home 'Well done! Good
+   job, but sorry ol' boy! Everything you've risked your life and limb for has changed!'</sp>
+  <sp><spk>BOND</spk> It was the job we were chosen for.</sp>
+  <sp><spk>ALEC</spk> Of course you'd say that. James Bond, Her Majesty's loyal terrier. 'Defender
+   of the so-called Faith'.</sp>
+  <sd>007's had enough, he raises his gun.</sd>
+  <sp><spk>ALEC</spk> Oh, please James. Put it away. It's insulting to think I haven't anticipated
+   your every move.</sp>
+  <sd>Bond relaxes his arm.</sd>
+  <sp><spk>BOND</spk> Yes...I trusted you, Alec.</sp>
+  <sp><spk>ALEC</spk> Trust. What a quaint idea.</sp>
+  <sp><spk>BOND</spk> How did the MI6 screening miss that your parents were Lienz Cossacks?</sp>
+  <sp><spk>ALEC</spk> Once again your faith was misplaced. They knew. We're both orphans, James.
+   While your parents had the luxury of dying in a climbing accident, mine survived the British
+   betrayal and Stalin's execution squads. But my father couldn't let himself or my mother live with
+   the shame of it. MI6 figured I was too young to remember. And one of life's little ironies, their
+   son goes to work for the government who caused a father to kill himself and his wife.</sp>
+  <sp><spk>BOND</spk> Hence, Janus. Two-faced Roman god come to life</sp>
+  <sp><spk>ALEC</spk> It wasn't God who gave me this face...It was you! Setting the timers to three
+   minutes instead of six.</sp>
+  <sp><spk>BOND</spk> Am I supposed to feel sorry for you?</sp>
+  <sp><spk>ALEC</spk> No. You were suppose to die for me. And by the way, I did think of asking you
+   to join my little scheme, but somehow I knew 007's loyalty was always to the mission, never to
+   his friend. (Pause) Closing time, James. Last call!</sp>
+  <sd>Bond goes to raise his gun, but a quick shot is fired. A tranquilizer hits his neck, and Bond
+   collapses. We see a sniper in the background reveal his position. Alec stands over James.</sd>
+  <sp><spk>ALEC</spk> For England, James.</sp>
+ </Scene>
+ <Scene num="81"><Heading>Int. Tiger Cockpit - Night</Heading>
+  <sd>James wakes up and finds himself inside the cockpit of the helicopter. There's someone behind
+   him...it's Natalya SCREECHING...</sd>
+  <spk voice="O.S.">NATALYA </spk> WAKE UP!! MISTER! AHHHH! WAKE UP, PLEASE!!! WAKE UP!!! <sd>Bond
+   is totally awake now. Gee.</sd>
+  <sp><spk>BOND</spk> I'm here, I'M HERE!!</sp>
+  <spk voice="O.S.">NATALYA </spk> Hurry! Hurry up! Come on! Pull yourself together, or we're gonna
+  die! <sd>There's a screen in front of him Time to Launch. Bond attempts to free himself, but his
+   hands are tied to tightly.</sd>
+  <sp><spk>NATALYA</spk> Do something! You've got to get us out of here!!</sp>
+  <sd>Bond is still struggling...</sd>
+  <sp><spk>BOND</spk> I'm...a little...tied up! Nevermind...</sp>
+  <sd>Time to Launch :19 He tries to hit the controls with his head. The rotor is starting to turn
+   now...Launch :00 Bond eyes the chopper's heat-seekers deploy. Oh, crap. Two of them fire and
+   trail back at them. Bond looks for the EJECT button...there it is! He tries to hit it with his
+   head. Once...twice...third time's a charm! The rotors fly off and the entire cockpit ejects in
+   the nick of time. The helicopter explodes, the parachute discharges, and they land safely on the
+   ground. Bond finally gets the ropes untied, and he hops out of the cockpit.</sd>
+  <sp><spk>BOND</spk> The things we do for frequent-flyer mileage...</sp>
+  <sd>He opens the canopy for Natalya.</sd>
+  <sp><spk>BOND</spk> Here, let me help you...that's it...mind your head...</sp>
+  <sd>He helps her out. She kicks him in the shin. She starts to run away, but 007 grabs arm and
+   tries to calm her down as headlights shine on them. Soldiers pop out of the trucks aiming their
+   weapons. Natalya finally stops struggling.</sd>
+ </Scene>
+ <Scene num="82">
+  <Heading>Ext. Square - Night/early morning</Heading>
+  <sd>James and Natalya are escorted to a building which could be anything from a jail to a
+   government office.</sd>
+ </Scene>
+ <Scene num="83">
+  <Heading>Int. Interrogation Room - Early morning</Heading>
+  <sd>James and Natalya walk into a interrogation room handcuffed together. The sun is just starting
+   to come up. Not much in here, just a barren brick room. A guard removes the cuffs and exits, the
+   large metal door slamming behind him. Bond looks to Natalya, who backs away to the wall.</sd>
+  <sp><spk>BOND</spk> Who are you?</sp>
+  <sd>No answer. He walks toward her.</sd>
+  <sp><spk>BOND</spk> Listen, I'm on your side. I'm here to help.</sp>
+  <sp><spk>NATALYA</spk> I don't know anything.</sp>
+  <sp><spk>BOND</spk> I don't believe you.</sp>
+  <sp><spk>NATALYA</spk> I don't care what you believe...</sp>
+  <sp><spk>BOND</spk> Look, they might be back for us any minute. You either take your chances with
+   me or your fellow countrymen who killed everyone at Severnaya. Bond is in her face, being a tough
+   guy. Natalya pulls away from him.</sp>
+  <sp><spk>NATALYA</spk> I've never been to Severnaya.</sp>
+  <sd>Bond grabs her arm and looks at her watch.</sd>
+  <sp><spk>BOND</spk> Your watch has. Frozen by the GoldenEye blast. And I'm willing to bet you're
+   the one who climbed out the dish to get out.</sp>
+  <sp><spk>NATALYA</spk> Who are you?</sp>
+  <sp><spk>BOND</spk> I work for the British government. The more you tell me, the more I can help
+   you.</sp>
+  <sp><spk>NATALYA</spk> I said I don't know anything!!</sp>
+  <sp><spk>BOND</spk> Then let's start with what you do know.</sp>
+  <sd>She sits on the table in the middle of the room. She might as well tell him.</sd>
+  <sp><spk>NATALYA</spk> My name is Natalya Simonova. I was a systems programmer at the Severnaya
+   facility.</sp>
+  <sp><spk>BOND</spk> Go on...</sp>
+  <sp><spk>NATALYA</spk> Until they killed everyone.</sp>
+  <sp><spk>BOND</spk> Who? Alec Trevelyan?</sp>
+  <sp><spk>NATALYA</spk> No. I don't know who that is.</sp>
+  <sp><spk>BOND</spk> Who's the insider, who's the traitor?</sp>
+  <sp><spk>NATALYA</spk> Boris. Boris Grishenko.</sp>
+  <sp><spk>BOND</spk> KGB or military?</sp>
+  <sp><spk>NATALYA</spk> Computer programmer.</sp>
+  <sp><spk>BOND</spk> There was no one else?</sp>
+  <sp><spk>NATALYA</spk> No. They're going to kill me, aren't they?</sp>
+  <sp><spk>BOND</spk> Trust me.</sp>
+  <sp><spk>NATALYA</spk> Trust you. I don't even know your name.</sp>
+  <sd>The door clicks open and the Defense Minister enters, wearing a fedora hat.</sd>
+  <sp><spk>MISHKIN</spk> Good morning, Mr. Bond. Sit.</sp>
+  <sd>He walks around the table and sits down. James and Natalya do too.</sd>
+  <sp><spk>MISHKIN</spk> I'm Defense Minister Dimitri Mishkin. By what means shall we execute you
+   Commander Bond?</sp>
+  <sp><spk>BOND</spk> What, no small talk? No...chit-chat? That's the trouble with the world today;
+   no-one takes the time to do a really sinister interrogation anymore. It's a lost art.</sp>
+  <sp><spk>MISHKIN</spk> Your sense of humor doesn't slay me, Commander, I'm sorry. Where is the
+   GoldenEye.</sp>
+  <sp><spk>BOND</spk> I assumed you had it.</sp>
+  <sp><spk>MISHKIN</spk> I have an English spy, a Severnaya programmer, a helicopter stolen...</sp>
+  <sp><spk>BOND</spk> At least that's what some traitor in your government wanted it to look
+   like...</sp>
+  <sp><spk>MISHKIN</spk> Who was behind your attack on Severnaya...?</sp>
+  <sp><spk>BOND</spk> Who had the authorization codes...?</sp>
+  <sp><spk>MISHKIN</spk> Russia may have...the penalty for terrorists is death...</sp>
+  <sp><spk>BOND</spk> And what's the penalty for treason...?</sp>
+  <sp><spk>NATALYA</spk> Oh, stop it! Both of you! Stop it. You're like...boys with toys. [Silence.]
+   It was Ourumov. General Ourumov set off the weapon. I saw him do it.</sp>
+  <sd>Bond turns his head slowly toward Natalya. Mishkin is pleased.</sd>
+  <sp><spk>MISHKIN</spk> Are you certain it was Ourumov?</sp>
+  <sp><spk>NATALYA</spk> Yes. He killed everyone and stole the GoldenEye.</sp>
+  <sp><spk>MISHKIN</spk> And why would he do that?</sp>
+  <sp><spk>NATALYA</spk> There is another satellite.</sp>
+  <sp><spk>MISHKIN</spk> Another GoldenEye. Thank you, Miss Simonova. You were saying something
+   about the lost art of interrogation, Mr. Bond?</sp>
+  <sd>Ourumov barges in the room, visibly enraged.</sd>
+  <sp><spk>OURUMOV</spk> Defense Minister! I must protest! This's my investigation! You're out of
+   order!</sp>
+  <sp><spk>MISHKIN</spk> (Russian) Idle praddle. (English) From what I'm hearing, it is YOU who is
+   out of order!</sp>
+  <sd>Ourumov picks up the PPK...</sd>
+  <sp><spk>OURUMOV</spk> I've seen this gun before...</sp>
+  <sp><spk>MISHKIN</spk> Put it down General! Put it down!</sp>
+  <sp><spk>OURUMOV</spk> Do you even know who the enemy is? DO YOU!</sp>
+  <sp><spk>MISHKIN</spk> Guards!!</sp>
+  <sd>Ourumov quickly shoots a guard as well as Mishkin. Bond hits the deck, pulling Natalya with
+   him. He slides out the clip, takes the bullets, slips the empty clip back into the gun. He thinks
+   aloud...</sd>
+  <sp><spk>OURUMOV</spk> Defense Minister Dimitri Mishkin murdered by British agent James Bond.</sp>
+  <sd>He tosses the gun to 007.</sd>
+  <sp><spk>OURUMOV</spk> Who was shot while trying to escape...GUARD!</sp>
+  <sd>Bond, who's still on the ground, pushes a chair underneath the General, knocking him over.
+   Then Bond punches him and runs him into a metal pipe. A soldier comes in the room, Bond beats him
+   up and grabs his weapon, then pulls Natalya out the door with him.</sd>
+  <sp><spk>BOND</spk> Come on!</sp>
+ </Scene>
+ <Scene num="84">
+  <Heading>Int. Hallway - Morning</Heading>
+  <sd>Both of them run out the door and up some stairs, Bond shooting soldiers as they run, sliding
+   on the floor, the whole bit. To his right, left, more are coming. They flee through another
+   door.</sd>
+ </Scene>
+ <Scene num="85"><Heading>Int. Archive Hall - Morning</Heading>
+  <sd>The pair run through a room on the second floor. Shelves full of boxes and old paper occupy
+   the room. More soldiers are coming. Bond pushes a bookcase over, creating a domino effect we've
+   seen in cartoons.</sd>
+  <sp><spk>OURUMOV</spk> They're in the archives!</sp>
+  <sd>The falling bookcases barricade a door shut, cutting off Ourumov and company.</sd>
+  <sp><spk>OURUMOV</spk> NO!</sp>
+  <sd>They take an alternate route. Bond and Natalya look out a window at a lot filled with trucks
+   and...tanks. They run. Soldiers burst through another door. Natalya is hiding behind a shelf when
+   a few books fall over. The General knows their location now...The Russians are on the first
+   floor, and they hear Bond running above them. The soldiers fire,</sd>
+  <sd>Bond fires back, running in front of Natalya. Bond and Natalya stop</sd>
+  <spk voice="O.S">OURUMOV </spk> Spread out! Cover the other side! <sd> and he removes the belt Q
+   gave him. He smirks.</sd>
+  <sp><spk>BOND</spk> Trust me.</sp>
+  <sd>They stand up and run, but Natalya crashes through some loose grating right into Ourumov's
+   arms. Bond fires the belt. He swings across the room, kicks over a soldier and crashes through a
+   window into the back of a truck.</sd>
+ </Scene>
+ <Scene num="86">
+  <Heading>Ext. Back Lot - Morning</Heading>
+  <sd>James jumps down from the truck and hides beside a tank.</sd>
+  <sd>Bond's P.O.V. - Natalya being carried off by Ourumov. They get in a car.</sd>
+  <sp><spk>OURUMOV</spk> Go! Now!</sp>
+  <sd>It drives away but two more truck-fulls of Russian soldiers enter the lot. Bond eyes a tank.
+   Number 343.</sd>
+ </Scene>
+ <Scene num="87">
+  <Heading>Ext. Streets of St. Petersburg - Morning</Heading>
+  <sd>Ourumov's car speeds away, but then a TANK crashes through a solid brick wall. We see Bond
+   poke his head out.</sd>
+  <sp><spk>OURUMOV</spk> Faster!</sp>
+  <sd>The tank is close behind the car, cutting turns a little too closely. Ourumov's car is slowed
+   by traffic.</sd>
+  <sp><spk>OURUMOV</spk> Damn! Go down the alley!</sp>
+  <sd>The car peels out through a narrow alley. Tight squeeze...007 notices this too and ducks
+   below. He follows creating a MUCH larger alley. Ourumov takes a swig of his liquor flask. The two
+   jeeps following the tank fly off into the water, exploding.</sd>
+  <sp><spk>OURUMOV</spk> Use the bumper! That's what it's for!</sp>
+  <sd>So the driver continues, hitting all the bystanders crossing the street. Bond takes a corner,
+   but there are two jeeps in his way. He stops the tank.</sd>
+  <sp><spk>SOLDIER</spk> (Russian) Back up!</sp>
+  <sd>They do. Bond moves forward. The soldiers fire and 007 ducks below again. A 13-car pile-up
+   clogs the road, but not if you're in a tank. Bond runs right over it. The tank catches up with
+   the car in a square with a statue in the middle. Both vehicles run over anything in their path:
+   traffic. Bond crashes through a truck with boxes of Perrier on it, and then a statue of a man
+   riding a winged horse. The bronze portion in now riding on top of the tank.</sd>
+  <sp><spk>OURUMOV</spk> Go left!</sp>
+  <sd>They do. An archway looks a little low...the statue gets caught in it for a second, hangs
+   there, then drops on two persuing police cars, the statue riding between them. Bond abruptly
+   halts the tank and the cars collide with the backside of the tank. Bond looks back at the damage,
+   coolly straightens his tie and continues. Meanwhile, Ourumov's car comes screeching to a halt
+   near a black armored train, red star on the side.</sd>
+  <sp><spk>OURUMOV</spk> Get out!</sp>
+  <sd>He pulls Natalya out. Xenia jumps down from the train. Ourumov pushes Natalya aboard. Bond is
+   just pulling up, he's watching now and we can see in his eyes that he's got an idea... The tank
+   continues. The train lurches forward.</sd>
+ </Scene>
+ <Scene num="88">
+  <Heading>Int. Train - Morning</Heading>
+  <sd>Inside the train, Ourumov brings Natalya into a car with elegant furnishings. Alec is eating
+   breakfast with an expensive silver tea set. He dabs his mouth with a napkin. Xenia sits behind
+   him.</sd>
+  <sp><spk>ALEC</spk> You brought me the perfect gift, General Ourumov. You've made me a very
+   unhappy man.</sp>
+  <sp><spk>OURUMOV</spk> Mishkin got to him before I could.</sp>
+  <sp><spk>ALEC</spk> Bond is alive?</sp>
+  <sd>Ourumov takes out his flask again.</sd>
+  <sp><spk>OURUMOV</spk> He escaped.</sp>
+  <sp><spk>ALEC</spk> Good for Bond. Bad for you.</sp>
+  <sd>He eyes Natalya and attempts to be a gentleman.</sd>
+  <sp><spk>ALEC</spk> Take a seat, my dear.</sp>
+  <sd>She does. He walks behind her and kneels down.</sd>
+  <sp><spk>ALEC</spk> You know, James and I shared everything. Absolutely everything...</sp>
+  <sd>He pulls back her hair from her face.</sd>
+  <sp><spk>ALEC</spk> To the victor go the spoils.</sp>
+ </Scene>
+ <Scene num="89">
+  <Heading>Ext. Tracks - Morning</Heading>
+  <sd>The train travels down the tracks and Bond's tank pulls up in a tunnel.</sd>
+ </Scene>
+ <Scene num="90">
+  <Heading>Int. Train - Morning</Heading>
+  <sd>Alec tries to kiss Natalya, she resists.</sd>
+  <sp><spk>ALEC</spk> You'll like it where we're going...</sp>
+ </Scene>
+ <Scene num="91">
+  <Heading>Ext. Tracks - Morning</Heading>
+  <sd>Bond's tank is still sitting there. The driver of the train notices the obstruction.</sd>
+ </Scene>
+ <Scene num="92">
+  <Heading>Int. Train - Morning</Heading>
+  <sd>Alec kisses Natalya.</sd>
+  <sp><spk>ALEC</spk> You may even learn to like me...</sp>
+  <sd>He kisses her again, full on the lips this time. She squirms...and slaps him</sd>
+  <sp><spk>NATALYA</spk> (Russian) Bastard!</sp>
+  <sd>An alarm sounds.</sd>
+  <sp><spk>ALEC</spk> (To Ourumov) Stay with her.</sp>
+  <sd>Alec and Xenia run to a monitor showing Bond's tank parked in the tunnel.</sd>
+  <sp><spk>ALEC</spk> Bond. Only Bond.</sp>
+  <sp><spk>XENIA</spk> He's going to derail us...</sp>
+  <sd>Alec talks to the conductor with a radio.</sd>
+  <sp><spk>ALEC</spk> Full speed!</sp>
+  <sd>Conductor: (Russian) What?</sd>
+  <sp><spk>ALEC</spk> Full speed!! Ram him!</sp>
+  <sd>Xenia's grinning, the conductor sounds a whistle. Alec and Xenia brace themselves for a
+   collision.</sd>
+ </Scene>
+ <Scene num="93">
+  <Heading>Ext. Tracks - Morning</Heading>
+  <sd>The train speeds forward toward the tank. Bond fires the main gun, making the train into a
+   speeding fireball. James jumps from the tank crouches in the brush. The train and tank collide,
+   stopping the train in its tracks.</sd>
+ </Scene>
+ <Scene num="94">
+  <Heading>Int. Train - Morning</Heading>
+  <sd>It looks like an earthquake hit in here. Natalya recovers from the shock and runs for the
+   door. Ourumov grabs her.</sd>
+  <sd>Xenia and Alec are still on the floor. Alec comes to and tries to pounce on a gun. A foot pins
+   it to the ground. It's Bond. Pointing a machine gun at 006. Alec lies on the ground.</sd>
+  <sp><spk>ALEC</spk> Why can't you just be a good boy and die?</sp>
+  <sp><spk>BOND</spk> You first. (To Xenia) You, second. UP!</sp>
+  <sd>Both stand up.</sd>
+  <sp><spk>ALEC</spk> Situation analysis: hopeless. You have no back-up, no escape route. And I have
+   the only bargaining chip.</sp>
+  <sp><spk>BOND</spk> Where is she?</sp>
+  <sp><spk>ALEC</spk> Ah, yes. Your fatal weakness. (into a radio) Ourumov, bring her in. (to Bond)
+   Lovely girl. Tastes like...strawberries.</sp>
+  <sp><spk>BOND</spk> I wouldn't know...</sp>
+  <sp><spk>ALEC</spk> I would.</sp>
+  <sd>Xenia is licking her leather-clad fingers. Bond hears Ourumov bring Natalya into the room
+   behind him. With a gun pointed to her head I might add.</sd>
+  <sp><spk>ALEC</spk> So, we're back to where we started, James. The friend or the mission? Drop the
+   gun, I let her live.</sp>
+  <sp><spk>BOND</spk> Ourumov, what has this Cossack promised you?</sp>
+  <sd>Ourumov is listening...</sd>
+  <sp><spk>BOND</spk> You knew, didn't you? He's a Lienz Cossack.</sp>
+  <sp><spk>ALEC</spk> It's in the past...</sp>
+  <sp><spk>BOND</spk> He'll betray you! Just like everyone else.</sp>
+  <sp><spk>OURUMOV</spk> Is this true?</sp>
+  <sp><spk>ALEC</spk> What's true is that in 48 hours you and I will have more money than God. And
+   Mr. Bond here will have a small memorial service, with only Moneypenny and a few tearful
+   restitures in attendance. So, what's the choice, James? Two targets, time enough for only one
+   shot. The girl or the mission?</sp>
+  <sp><spk>BOND</spk> Kill her. She means nothing to me.</sp>
+  <sp><spk>ALEC</spk> See you in Hell, James.</sp>
+  <sd>Bond makes his move. He spins around and shoots Ourumov, then turns and shoots at Alec, but he
+   got away. Armor clicks into place around the doors and windows. Bond runs to every door, and
+   checks the roof.</sd>
+  <sp><spk>BOND</spk> One-inch armor plating.</sp>
+  <sp><spk>NATALYA</spk> I'm fine, thank you very much.</sp>
+  <sd>She sits at a computer. Bond is still fiddling with the roof.</sd>
+  <sp><spk>NATALYA</spk> Boris! Yes!</sp>
+  <sd>Bond brings his arms down.</sd>
+  <sd>Bond:What are you doing?</sd>
+  <sp><spk>NATALYA</spk> Boris is online backing up his files. If I can spike him, I may be able to
+   find out where they're going.</sp>
+  <sd>Bond has NO idea what all that means.</sd>
+  <sp><spk>BOND</spk> Oh.</sp>
+  <sp><spk>NATALYA</spk> Well, don't just stand there! Get us out of here!</sp>
+  <sp><spk>BOND</spk> Yes, sir.</sp>
+ </Scene>
+ <Scene num="95">
+  <Heading>Ext. Train - Morning</Heading>
+  <sd>The top of the train retracts to reveal a little Robinson helicopter.</sd>
+ </Scene>
+ <Scene num="96">
+  <Heading>Int. Train - Morning</Heading>
+  <sd>Bond is pulling up carpet, trying to find a place to cut through.</sd>
+ </Scene>
+ <Scene num="97">
+  <Heading>Int. Robinson - Morning</Heading>
+  <sd>Alec and Xenia are seated in the chopper.</sd>
+ </Scene>
+ <Scene num="98"><Heading>Int. Train - Morning</Heading>
+  <sd>We see the screen with Boris' program. An intercom sounds.</sd>
+  <spk voice="V.O.">ALEC </spk> Good luck with the floor, James. I set the timers for six minutes.
+  The same six minutes you gave me. <Scene num="99">
+   <Heading>Int. Robinson - Morning</Heading>
+   <sp><spk>ALEC</spk> It was the least I could do for a friend.</sp>
+   <sd>He laughs, really sinister folks...</sd>
+  </Scene><Scene num="100">
+   <Heading>Int. Train - Morning</Heading>
+   <sp><spk>NATALYA</spk> What does that mean?</sp>
+   <sp><spk>BOND</spk> We've got three minutes.</sp>
+   <sd>He takes off his watch.</sd>
+  </Scene><Scene num="101">
+   <Heading>Ext. Train - Morning</Heading>
+   <sd>The little chopper flies away.</sd>
+  </Scene><Scene num="102">
+   <Heading>Int. Boris' Unknown Location - Who knows???</Heading>
+   <sd>Boris is seated at a computer, twirling a pen around his fingers.</sd>
+  </Scene><Scene num="103">
+   <Heading>Int. Train - Morning</Heading>
+   <sd>Natalya is sending a SPIKE. Spike Sent</sd>
+  </Scene><Scene num="104">
+   <Heading>Int. Boris' Location - ?????</Heading>
+   <sd>Boris notices the problem, and he freezes.</sd>
+  </Scene><Scene num="105"><Heading>Int. Train - Morning</Heading>
+   <sd>Bond is burning through the floor with the laser from his watch. Natalya is trying to figure
+    out Boris' password... butt'...no. Arse...no. Buns...no. Rear...no!</sd>
+   <sp><spk>NATALYA</spk> What else do you call your butt?</sp>
+   <sp><spk>BOND</spk> What?!</sp>
+   <sp><spk>NATALYA</spk> It's Boris' password, he plays word games. It's what I sit on, but I can't
+    take it with me...</sp>
+   <sp><spk>BOND</spk> Chair.</sp>
+   <sp><spk>NATALYA</spk> Like I said...</sp>
+   <sd>She tries it...BINGO! Starting Search</sd>
+   <spk voice="O.S.">BOND </spk> Thirty seconds... <sd>A map pops up. A red line etches cities
+    together.</sd>
+   <spk voice="O.S.">NATALYA </spk> He's not in Russia, Germany, Paris, London, Madrid... <spk
+    voice="O.S.">BOND </spk> Twenty-five seconds... <spk voice="O.S.">NATALYA </spk> New York,
+   Toronto, Chicago, San Francisco... <sp><spk>BOND</spk> Twenty seconds...!</sp>
+   <sd>Bond jumps on the floor, trying to break it.</sd>
+   <sp><spk>NATALYA</spk> Mexico City, Rio, Miami...</sp>
+  </Scene><Scene num="106">
+   <Heading>Int. Boris' Location - ????</Heading>
+   <sd>Boris opens a large CPU and rips the circuit boards out, in an attempt to cut the
+    tracer.</sd>
+  </Scene><Scene num="107">
+   <Heading>Int. Train - Morning</Heading>
+   <sd>Bond finally kicked the floor in. He grabs her arm.</sd>
+   <sp><spk>BOND</spk> Come on!</sp>
+   <sp><spk>NATALYA</spk> Wait! He's in Cuba! Havana, no...</sp>
+   <sd>Disconnected Search Program</sd>
+   <sp><spk>BOND</spk> NOW!</sp>
+   <sd>He pulls her away and they both jump down the hole in the floor.</sd>
+  </Scene><Scene num="108">
+   <Heading>Ext. Train - Morning</Heading>
+   <sd>They roll out from under the train and sprint away from the ticking bomb. The train explodes
+    and they fall to the ground. They sit up and watch the burning train. Natalya turns to
+    Bond.</sd>
+   <sp><spk>NATALYA</spk> Do you destroy every vehicle you get into?</sp>
+   <sp><spk>BOND</spk> Standard operating procedure. Boys with toys!</sp>
+   <sp><spk>NATALYA</spk> Hmmm. Maybe I should take care of our transportation for our trip to
+    Cuba.</sp>
+   <sd>Bond puts his watch back on. Wait...</sd>
+   <sp><spk>BOND</spk> Our trip...?</sp>
+   <sp><spk>NATALYA</spk> You know how to disarm the weapon?</sp>
+   <sp><spk>BOND</spk> Well, I suppose that depends on what kind of weapon you're talking about
+    disarming...</sp>
+   <sd>She smiles and moves in closer...</sd>
+   <sp><spk>NATALYA</spk> Tell me, are there any other standard operating procedures I should be
+    aware of, Commander?</sp>
+   <sp><spk>BOND</spk> Thousands...but I only pay them...</sp>
+   <sd>They kiss.</sd>
+   <sp><spk>BOND</spk> Lip service.</sp>
+   <sd>They kiss again. We fade into...</sd>
+  </Scene><Scene num="109">
+   <Heading>Ext. Tropical Road - Day</Heading>
+   <sd>A beautiful beach. Obviously somewhere in the Carribean. Some island near Cuba. Palm trees
+    and all. Sweet! We pan over to the right, as the blue BMW convertible vvrooms down a dirt road.
+    Bond's driving...nice sunglasses...Natalya is in a flowered dress. She grins. He grins
+    back.</sd>
+   <sp><spk>NATALYA</spk> My whole life I've dreamed of coming to the Carribean. It's so beautiful.
+    Not another human being in sight.</sp>
+   <sd>An alarm sounds in the car. A blue screen - a GPS tracking system - pops up. There's
+    something behind them...Natalya looks up. A Cessna touches down on the road, right in front of
+    the BMW.</sd>
+   <sp><spk>NATALYA</spk> What is it with you and moving vehicles?!!</sp>
+   <sd>The plane stops, and the BMW screeches to a halt. Wade hops out with a loud Hawaiian shirt
+    on. He's holding a bag. Bond and Natalya get out of the car.</sd>
+   <sp><spk>WADE</spk> Yo! Jimbo! Brought a little gift from ol' whats-his-name - T? Z?</sp>
+   <sp><spk>BOND</spk> Q.</sp>
+   <sd>Bond looks in the bag.</sd>
+   <sp><spk>BOND</spk> What are you doing here, Wade?</sp>
+   <sd>Wade is looking at some of the trees.</sd>
+   <sp><spk>WADE</spk> Banion trees... Why, I'm not here. The CIA has no knowledge, no involvement.
+    Absolutely nothin' to do with your insertion into Cuba, if ya catch my drift.</sp>
+   <sd>Bond slips his shades into his shirt pocket.</sd>
+   <sp><spk>BOND</spk> Yes I do, perfectly.</sp>
+   <sp><spk>WADE</spk> Borrowed the plane from a friend o' mine in the DEA. Now the Coast Guard and
+    the FAA are both in the loop. You're cleared on our radar til 06.00 hours.</sp>
+   <sd>Wade picks up a piece of paper in the plane.</sd>
+   <sp><spk>WADE</spk> Here's the latest SAT CAM from Langley. Stay below 600 feet.</sp>
+   <sd>Natalya studies the paper.</sd>
+   <sp><spk>NATALYA</spk> Five hundred feet.</sp>
+   <sp><spk>WADE</spk> Who's that?</sp>
+   <sp><spk>BOND</spk> Natalya Simonova.</sp>
+   <sd>He pronounces it wrong.</sd>
+   <sp><spk>NATALYA</spk> Natalya Simonova.</sp>
+   <sp><spk>BOND</spk> Russian Minister of Transportation.</sp>
+   <sd>Wade signals with his staw hat for Bond to talk with him 'privately'. They move a few
+    inches.</sd>
+   <sp><spk>WADE</spk> Did you check her out?</sp>
+   <sd>Bond gets that look in his eye...</sd>
+   <sp><spk>BOND</spk> Head-to-toe.</sp>
+   <sd>Wade grins.</sd>
+   <sp><spk>WADE</spk> Right...So yer lookin' fer a dish the size of a football field, huh? Doesn't
+    exist. Ya can't light a cigar in Cuba without us seein' it!</sp>
+   <sp><spk>NATALYA</spk> I know it's there. It's a duplicate of Severnaya, like you secret
+    transmitters in New Zealand.</sp>
+   <sp><spk>WADE</spk> I've never been to New Zealand. (to Bond) How's she know 'bout that?!</sp>
+   <sp><spk>BOND</spk> What if I need back-up?</sp>
+   <sp><spk>WADE</spk> Get on the radio. I'll send in the Marines! Anyway hang a left at the end of
+    the runway, Cuba's seven miles on yer right.</sp>
+   <sd>Wade walks up to the BMW.</sd>
+   <sp><spk>BOND</spk> Yo, Wade.</sp>
+   <sd>Bond tosses the keys to Wade. He catches them in his hat.</sd>
+   <sp><spk>BOND</spk> Just one thing...</sp>
+   <sd>Wade hops in.</sd>
+   <sp><spk>WADE</spk> Yeah?</sp>
+   <sp><spk>BOND</spk> Don't push any of the buttons on that car.</sp>
+   <sp><spk>WADE</spk> I'm just gonna go bombin' around in it!</sp>
+   <sp><spk>BOND</spk> Exactly.</sp>
+   <sp><spk>WADE</spk> Yo James. I got faith. But be careful. He knows yer comin'.</sp>
+   <sd>Wade speeds away. Bond and Natalya are left with the plane.</sd>
+  </Scene><Scene num="110">
+   <Heading>Ext. Beach - Evening</Heading>
+   <sd>James is sitting on a beach outside their beach-house, deep in thought. Natalya approaches
+    him wearing a white bikini. For once, our 007 doesn't seem to care... Somethin's wrong. She sits
+    beside him.</sd>
+   <sp><spk>NATALYA</spk> He was your friend...Trevelyan?</sp>
+   <sd>James glances at her. No answer.</sd>
+   <sp><spk>NATALYA</spk> And now he's your enemy and you will kill him. It is that simple.</sp>
+   <sp><spk>BOND</spk> In a word...yes.</sp>
+   <sp><spk>NATALYA</spk> Unless he kills you first.</sp>
+   <sp><spk>BOND</spk> Natalya...</sp>
+   <sp><spk>NATALYA</spk> You think I'm impressed?! All of you! Your guns, your killing, your
+    death...for what?! So you can be a hero? All the heroes I know are dead.</sp>
+   <sp><spk>BOND</spk> Natalya, listen to me...</sp>
+   <sp><spk>NATALYA</spk> How can you act like this? How can you be so cold?</sp>
+   <sp><spk>BOND</spk> It's what keeps me alive.</sp>
+   <sp><spk>NATALYA</spk> No. It's what keeps you alone.</sp>
+   <sd>She starts to get up but he pulls her back down to a kiss. She pulls away, but then kisses
+    him, harder. We fade up on...</sd>
+  </Scene><Scene num="111"><Heading>Int. Bedroom - Night</Heading>
+   <sd>A fire burns brightly as we fade up. It's the bedroom of the place they're staying. We pan to
+    the right and reveal James sleeping peacefully on the bed. Shirt off. Probably more, but we
+    can't see. A voice...</sd>
+   <spk voice="O.S.">NATALYA </spk> James? <sd>His blue eyes open. Barely above a whisper...</sd>
+   <sp><spk>BOND</spk> Yes?</sp>
+   <sd>Natalya appears from beside him on the bed, wrapped among the sheets. She rolls on top of
+    him.</sd>
+   <sp><spk>NATALYA</spk> On the train, when you told them to kill me - and that I meant nothing
+    to</sp>
+   <sd>you...did you mean it?</sd>
+   <sd>They stroke each other's hair. He smiles...slowly.</sd>
+   <sp><spk>BOND</spk> Yes.</sp>
+   <sd>Natalya looks at him weird...</sd>
+   <sp><spk>BOND</spk> Basic rule. Always call their bluff.</sp>
+   <sd>Natalya takes a pillow and playfully smothers him with it. Bond's laughing...they grin and
+    kiss again passionately.</sd>
+  </Scene><Scene num="112">
+   <Heading>Ext. Cuban sky - Day</Heading>
+   <sd>The little plane soars over blue water and up a cliff with dense vegetation.</sd>
+  </Scene><Scene num="113">
+   <Heading>Int. Plane - Day</Heading>
+   <sd>James and Natalya, both dressed in camouflage green, sit in the cockpit. Natalya has a flight
+    map in front of her, and is telling James where to fly.</sd>
+   <sp><spk>NATALYA</spk> Turn ten degrees south, bearing 184.</sp>
+   <sp><spk>BOND</spk> Yes, sir.</sp>
+   <sd>She laughs. They fly over a crystal blue lake.</sd>
+   <sp><spk>NATALYA</spk> Nothing. There is nothing here.</sp>
+   <sp><spk>BOND</spk> Let's make another pass.</sp>
+   <sd>They do. Bond looks out.</sd>
+   <sp><spk>BOND</spk> Maybe Wade was right, maybe there is no dish.</sp>
+   <sd>A ground-to-air missile fires from the water and hits the wing of the Cessna. They're going
+    down...Bond tries to land in the water, a little off...they're gonna crash into forest! He pulls
+    both their heads down below the windshield, brace yourselves, folks...make sure your seats and
+    tray-tables are in the upright and locked position...the little plane skids off the surface of
+    the lake and hits the trees, breaking what's left of the wings off. It finally slows to a
+    halt.</sd>
+  </Scene><Scene num="114">
+   <Heading>Ext. Rainforest - Day</Heading>
+   <sd>We see Bond's arm poke out of the broken windshield. They're alive, a bit shaken...not
+    stirred -- sorry, I had to! Natalya appears to be knocked out. Bond kicks the door open. He
+    carries her -- well, more accurately, he drags her -- out into the open. Yep, she's quite
+    unconscious. He drops her to the ground and collapses on top of her.</sd>
+   <sp><spk>BOND</spk> Natalya...?</sp>
+   <sd>No answer. Duh. He rolls off her, lays on his back and passes out. Time passes, we fade up on
+    Bond's closed eyes. Then they open, groggily, to see a superimposed Scorpion helicopter. A rope
+    drops from the chopper. Bond attempts to get up, still dazed. We see a person slide down the
+    rope. Bond's on his feet, still out of it, he stares up at the person. It's Xenia, who else?
+    Xenia's P.O.V. - Knocks Bond to the ground.</sd>
+   <sd>She kicks him again, then pulls him by the collar.</sd>
+   <sp><spk>XENIA</spk> This time, Mr. Bond, the pleasure will be all mine.</sp>
+   <sd>She licks his face as she crushes his ribs again. Bond struggles, in pain. Natalya has woken
+    up...She tries to whack Xenia with a big stick, but Xenia's too quick. She knocks it to the
+    ground, and grabs Natalya by the face.</sd>
+   <sp><spk>XENIA</spk> Wait for your turn!</sp>
+   <sd>She bangs Natalya with her forehead, knocking her out. Bond has recovered, and he clips the
+    rope to Xenia's harness and uses her machine gun to shoot down the chopper pilot.The helicopter
+    goes down, yanking the rope, and Xenia, along with it. She is pulled through the air, screaming,
+    and slammed against a tree. She struggles for a few seconds, but falls silent. The chopper
+    explodes in a bright flash, and our heroes duck to the ground. Bond looks at Xenia, dangling
+    from the tree.</sd>
+   <sp><spk>BOND</spk> She always did enjoy a good squeeze.</sp>
+  </Scene><Scene num="115">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>We cut to inside a large control room, its location still unknown. Trevelyan walks down the
+    stairs, dressed in black. He walks through a glass door to where Boris is sitting at a station
+    of computers.</sd>
+   <sp><spk>ALEC</spk> Is the satellite in range?</sp>
+   <sp><spk>BORIS</spk> Six minutes.</sp>
+   <sp><spk>ALEC</spk> Prepare the dish.</sp>
+   <sp><spk>BORIS</spk> No it is too early! I am not ready.</sp>
+   <sp><spk>ALEC</spk> Do it!!</sp>
+   <sd>Alec walks away. Fine. If he wants it now, he'll get it now.</sd>
+  </Scene><Scene num="116">
+   <Heading>Ext. Rainforest - Day</Heading>
+   <sd>Bond and Natalya push on through a dense jungle. They see a large satellite dish rising from
+    the water. Like the one in Severnaya.</sd>
+   <sp><spk>BOND</spk> No wonder we couldn't see it.</sp>
+   <sd>The dish is still rising.</sd>
+   <sp><spk>BOND</spk> Come on.</sp>
+   <sd>We cut to a full view of the dish, then we see James and Natalya running toward it.</sd>
+  </Scene><Scene num="117">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Alec opens the protective case and pulls the GoldenEye out. He faces Boris.</sd>
+   <sp><spk>ALEC</spk> The world's greatest cash card.</sp>
+   <sd>Trevelyan hands it to an eager Boris, but doesn't take his hands off the GoldenEye.</sd>
+   <sp><spk>ALEC</spk> It had better not be rejected.</sp>
+   <sd>Boris grabs it and slips it into the slot.</sd>
+  </Scene><Scene num="118">
+   <Heading>Ext. Dish - Day</Heading>
+   <sd>The lake water drains now and reveals the dish part of the satellite. Bond glances at
+    Natalya.</sd>
+  </Scene><Scene num="119">
+   <Heading>Ext. Outer space</Heading>
+   <sd>We see the GoldenEye satellite in orbit.</sd>
+  </Scene><Scene num="120">
+   <Heading>Ext. Rainforest - Day</Heading>
+   <sd>Bond walks closer to the camera, watching...the water keeps draining.</sd>
+  </Scene><Scene num="121">
+   <Heading>Ext. Road - Day</Heading>
+   <sd>Bond and Natalya run along a road, closer to the dish.</sd>
+  </Scene><Scene num="122">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris is playing with a pen. He glances at a monitor.</sd>
+   <sp><spk>BORIS</spk> Mischa is online.</sp>
+   <sd>A soldier approaches Alec and hands him a hand-held video screen. Alec looks at it. We see
+    live footage of Bond and Natalya climbing down closer to the dish.</sd>
+   <sp><spk>SOLDIER</spk> Sir!</sp>
+   <sp><spk>ALEC</spk> Kill him. The man just won't take a hint...</sp>
+   <sp><spk>BORIS</spk> Target coordinates...?</sp>
+   <sp><spk>ALEC</spk> Target is London.</sp>
+  </Scene><Scene num="123">
+   <Heading>Int. Engine room - Day</Heading>
+   <sd>Gears grind inside an engine room, moving the antenna into position.</sd>
+  </Scene><Scene num="124">
+   <Heading>Ext. Dish - Day</Heading>
+   <sd>Bond and Natalya notice the movement.</sd>
+   <sp><spk>NATALYA</spk> He's getting ready to signal the satellite.</sp>
+   <sp><spk>BOND</spk> How do you stop it?</sp>
+   <sp><spk>NATALYA</spk> The transmitter above the anten...</sp>
+   <sd>She is interrupted by shots fired at them. They duck, then dive into the dish. Trevelyan's
+    soldiers are still firing at them as they slide faster and faster down into the bottom of the
+    dish. We notice there's a drop in the center where all the water must have drained into. Bond
+    stops himself, bracing his feet at the ledge of the drop, then catches Natalya.</sd>
+   <sd>He looks into the hole. We see a circular door in the bottom.</sd>
+  </Scene><Scene num="125">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris is still seated at the computers.</sd>
+   <sp><spk>BORIS</spk> Antenna in position.</sp>
+   <sd>Alec hands Boris one of the two operational keys. They slip them into their slots.</sd>
+   <sp><spk>ALEC</spk> On my count...3...2...1!</sp>
+   <sd>They turn them at the same time. The same map we saw in Severnaya appears on the wall-size
+    screen. A line moves to intercept London.</sd>
+  </Scene><Scene num="126">
+   <Heading>Outer space</Heading>
+   <sd>Mischa moves into orbit.</sd>
+  </Scene><Scene num="127">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Alec twists a red dial. Weapon Armed</sd>
+   <sp><spk>ALEC</spk> God save the Queen.</sp>
+  </Scene><Scene num="128">
+   <Heading>Int. Facility - Day</Heading>
+   <sd>Bond and Natalya climb down a ladder below the dish into the facility. Every soldier is on
+    alert. The good guys move around stealthily as the soldiers shout out things in Spanish. Natalya
+    spots a console to the mainframe.</sd>
+   <sp><spk>NATALYA</spk> The mainframe computer.</sp>
+   <sp><spk>BOND</spk> Don't move!</sp>
+   <sd>He takes off. James shoots two guards with the Walther, and hides behind a pillar. He notices
+    Natalya climbing down a ladder to the mainframe, despite his orders. 007 fires at the soldiers
+    again. He takes out two detonators and arms them. Soldiers get into better positions, aim at
+    Bond. James realizes he's outnumbered drastically. He slides the PPK across the floor and shows
+    himself with his arms raised. A soldier shoves him against a wall, pats him down, looking for
+    more weapons. Another soldier grabs him by the collar of his combat vest. We pan to the left
+    showing...the detonators planted on a pouring tank of a pinkish, probably flammable liquid.
+    Meanwhile, the soldiers are bringing Bond down the stairs to the control deck. We see Natalya
+    poke her head out from behind a tank. She runs back into...</sd>
+  </Scene><Scene num="129">
+   <Heading>Int. Mainframe - Day</Heading>
+   <sd>Inside a room that houses a terminal for the mainframe computer, Natalya sits down and begins
+    to type...</sd>
+  </Scene><Scene num="130">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>The soldiers escort Bond to where Alec is standing near Boris. His former friend notices
+    007.</sd>
+   <sp><spk>ALEC</spk> James! What an unpleasant surprise.</sp>
+   <sp><spk>BOND</spk> We aim to please.</sp>
+   <sp><spk>ALEC</spk> Where's the girl?</sp>
+   <sd>No answer from Bond. Like we expected one... Alec turns to his henchmen.</sd>
+   <sp><spk>ALEC</spk> Find her!!</sp>
+   <sd>A few soldiers hurry to find her. On the table are the things that were found in Bond's
+    pockets; the Walther, a pen (Q's pen...), and Bond's passport. Alec fingers through them. He
+    picks up the pen.</sd>
+   <sp><spk>ALEC</spk> So how is ol' Q? Up to his usual tricks? The watch.</sp>
+   <sd>Bond sheds his watch. Alec compares it to his own. Slightly different.</sd>
+   <sp><spk>ALEC</spk> Ah. New model. Still press here, do I?</sp>
+   <sd>He presses a button, we cut to see the detonators disarm. The pink liquid is really starting
+    to flood now...</sd>
+  </Scene><Scene num="131">
+   <Heading>Int. Mainframe - Day</Heading>
+   <sd>Natalya is still typing at the computer terminal.</sd>
+  </Scene><Scene num="132">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>We see a screen. Looks similar to PC Banking. LOADS of cash. Bond knows what's going
+    on...</sd>
+   <sp><spk>BOND</spk> Interesting set-up, Alec. You break into the Bank of England via computer and
+    transfer the money electronically. Just seconds before you set off the GoldenEye, which erases
+    any record of the transactions. Ingenious.</sp>
+   <sp><spk>ALEC</spk> Thank you, James.</sp>
+   <sp><spk>BOND</spk> But it still boils down to petty theft. In the end you're just a bank robber.
+    Nothing more than a common thief.</sp>
+   <sd>Well, that pisses Alec off. He stands up, very annoyed. Bond just has a special way of
+    getting people mad at him...</sd>
+  </Scene><Scene num="133">
+   <Heading>Int. Mainframe - Day</Heading>
+   <sd>The soldiers have located Natalya in the mainframe. She's almost done... They grab her, but
+    she manages to click 'ENTER'. Encryption in Progress. Ouch.</sd>
+  </Scene><Scene num="134">
+   <Heading>Int. Control deck - Day</Heading>
+   <sp><spk>ALEC</spk> You always did have a small mind, James. It's not just erasing bank records,
+    it's everything on every computer in Greater London. Tax records. Stock market. Credit ratings.
+    Land registries. Criminal records. In sixteen minutes and 43...42 seconds the United Kingdom
+    will re-enter the Stone Age.</sp>
+   <sd>As he speaks, he circles Bond.</sd>
+   <sp><spk>BOND</spk> A world-wide financial meltdown. And all so mad little Alec can settle a
+    score with the world, 50 years old.</sp>
+   <sp><spk>ALEC</spk> Oh, please James. Spare me the Froud. I might as well ask for all those vodka
+    martinis that'll silence the screams of all the men you've killed.</sp>
+   <sd>Natalya is brought into the room now. Alec glances at her.</sd>
+   <sp><spk>ALEC</spk> Or if you'll find forgiveness in the arms of all those willing women. For all
+    the dead ones you've failed to protect. England is about to learn the cost of betrayal.
+    Inflation adjusted from 1945.</sp>
+   <sd>He turns to Natalya.</sd>
+   <sp><spk>ALEC</spk> Welcome to the party, my dear.</sp>
+   <sd>Boris finally looks up to see who has just 'joined the party'.</sd>
+   <sp><spk>BORIS</spk> Natalya!!</sp>
+   <sd>Natalya lunges at him and punches him in the face, he falls to the ground, cowering under the
+    desk as Natalya continues to beat him up. Soldiers finally pull her away. Alec smirks. Boris
+    puts his glasses back on, and picks up the grenade pen. He's still on the floor, twirling it pen
+    nervously. He gets up, visibly mad, and Boris faces Natalya.</sd>
+   <sp><spk>BORIS</spk> Don't ever do that again!!</sp>
+   <sp><spk>NATALYA</spk> This is not one of your games, Boris. Real people will die! You pathetic
+    little worm.</sp>
+   <sd>Boris goes to hit her, but Alec grabs his arm.</sd>
+   <sp><spk>ALEC</spk> She was in the mainframe! Check the computer!</sp>
+   <sd>Boris yanks his arm free from Alec's grasp.</sd>
+   <sp><spk>BORIS</spk> She's a moron. A second level programmer. She works on the guidance
+    systems.</sp>
+   <sd>Natalya looks as if she'd spit in Boris' face.</sd>
+   <sp><spk>BORIS</spk> She doesn't even have access to the firing codes.</sp>
+   <sd>He spoke too soon. An alarm sounds. Boris runs to a computer. Natalya smirks.</sd>
+   <sp><spk>BORIS</spk> Retro-Rockets firing!</sp>
+  </Scene><Scene num="135">
+   <Heading>Space</Heading>
+   <sd>Rockets fire from the satellite, moving it into the atmosphere.</sd>
+  </Scene><Scene num="136">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris types away, twirling the pen with his right hand, clicking it a few times here and
+    there. Bond watches the pen very attentively.</sd>
+   <sp><spk>ALEC</spk> What the hell's happening?!</sp>
+   <sp><spk>BORIS</spk> We'll have re-entry in...12 minutes!</sp>
+   <sd>Mission Aborted</sd>
+   <sp><spk>NATALYA</spk> It'll burn up somewhere over the Atlantic.</sp>
+   <sp><spk>ALEC</spk> Deal with it!</sp>
+   <sp><spk>BORIS</spk> She changed the access codes!</sp>
+   <sp><spk>ALEC</spk> Then she can fix it...!!</sp>
+   <sd>Alec takes out a pistol and shoves it in Bond's jaw.</sd>
+   <sp><spk>NATALYA</spk> Go ahead, shoot him. He means nothing to me.</sp>
+   <sd>Bond rolls his blue eyes.</sd>
+   <sp><spk>BORIS</spk> I can do it! I can break her codes!</sp>
+   <sp><spk>ALEC</spk> Then get on with it!!</sp>
+   <sd>Boris types, twirls the pen. Clicks it two times...looking for three times... Bond
+    watches...Boris drops the pen...Alec is fed up...he points the gun at Natalya.</sd>
+   <sp><spk>ALEC</spk> Tell him! Now!</sp>
+   <sd>Boris stands up enraged. We hear the pen click three times. Bingo. Four seconds...</sd>
+   <sp><spk>BORIS</spk> Give me the codes, Natalya! Give them to me!!</sp>
+   <sd>Bond knocks the pen from Boris, Bond and Natalya duck. The pen lands in the leaking pink
+    liquid. KA-BOOM!! Huge explosion. Bond and Natalya break for the elevator.</sd>
+  </Scene><Scene num="137">
+   <Heading>Int. Elevator - Day</Heading>
+   <sp><spk>BOND</spk> Can Boris break your codes?</sp>
+   <sp><spk>NATALYA</spk> Possibly.</sp>
+   <sp><spk>BOND</spk> Possibly?! We have to destroy the transmitter.</sp>
+   <sp><spk>NATALYA</spk> By the way, I'm fine, thank you very much.</sp>
+  </Scene><Scene num="138">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>That pink stuff was flammable. People are on fire, equipment is exploding.</sd>
+  </Scene><Scene num="139">
+   <Heading>Ext. Elevator - Day</Heading>
+   <sd>The elevator stops at a tower near the antenna. A guard watches the doors open...revealing
+    Natalya laying on the floor, her back to us. Where's Bond? The guard approaches her and...Bond
+    drops down from the ceiling of the elevator. He slams the guard into the metal walls. Bond hands
+    Natalya the guard's pistol.</sd>
+   <sp><spk>BOND</spk> Do you know how to use one of these?</sp>
+   <sd>Natalya slides the mag out, replaces the mag, cocks it. A real pro, folks!</sd>
+   <sp><spk>NATALYA</spk> Yes.</sp>
+   <sp><spk>BOND</spk> Good. Stand aside.</sp>
+   <sd>Bond runs across a metal bridge leading to the antenna.</sd>
+  </Scene><Scene num="141">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Whoever's not dead is controlling the fire with extinguishers now. Alec walks up to
+    Boris.</sd>
+   <sp><spk>ALEC</spk> How long?</sp>
+   <sp><spk>BORIS</spk> Two minutes...one minute!</sp>
+   <sd>Alec yells to some soldiers.</sd>
+   <sp><spk>ALEC</spk> Guard!</sp>
+   <sp><spk>BORIS</spk> I'm fixing it!</sp>
+   <sd>A soldier steps to Alec's side.</sd>
+   <sp><spk>ALEC</spk> If he moves, kill him.</sp>
+   <sd>The soldier points a pistol at Boris' head.</sd>
+  </Scene><Scene num="142">
+   <Heading>Ext. Dish - Day</Heading>
+   <sd>Natalya spots a helicopter...</sd>
+  </Scene><Scene num="143">
+   <Heading>Ext. Antenna - Day</Heading>
+   <sd>Alec runs to a cable car thing leading to the antenna.</sd>
+  </Scene><Scene num="144">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris wipes the sweat from his glasses, typing in concentration.</sd>
+  </Scene><Scene num="145">
+   <Heading>Space</Heading>
+   <sd>The satellite begins to enter the atmosphere, turning red-hot with friction.</sd>
+  </Scene><Scene num="146">
+   <Heading>Ext. Bridge - Day</Heading>
+   <sd>Bond sprints up the narrow bridge, Alec is close behind him on the cable car. Alec fires an
+    assault rifle at 007. Bond hits the deck, fires his own automatic. Alec runs out of ammo, so
+    does Bond. Alec re-loads, Bond ditches the gun and runs up the bridge.</sd>
+  </Scene><Scene num="147">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris is still typing...</sd>
+  </Scene><Scene num="148">
+   <Heading>Ext. Bridge - Day</Heading>
+   <sd>Alec finally takes a handgun and fires at the running 007, but misses him. Alec gets off the
+    car and runs after Bond. He shoots again, Bond flies forward doing a mid-air somersault down an
+    incline and continues. Alec re-loads.</sd>
+  </Scene><Scene num="149">
+   <Heading>Int. Engine room - Day</Heading>
+   <sd>Bond hops down into the engine room for the transmitter.</sd>
+  </Scene><Scene num="150">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Send Command. Boris cracked the code.</sd>
+   <sp><spk>BORIS</spk> YES! I am invincible!!</sp>
+   <sd>He types away.</sd>
+  </Scene><Scene num="151">
+   <Heading>Int. Engine room - Day</Heading>
+   <sd>The gears start to move again. Alec finds Bond. They fight, evenly matched. Bond throws 006
+    down the stairs and shoots a pistol at him. Just misses. But he has an idea of how to stop the
+    antenna; the old fashioned way! Bond grabs a metal pole off the wall and shoves it in the gear
+    belt. He runs down the stairs after Alec. We see the pole do its work. It's now stuck between
+    two gears.</sd>
+  </Scene><Scene num="152">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Antenna Malfunction. Boris squeaks.</sd>
+  </Scene><Scene num="153">
+   <Heading>Ext. Dish - Day</Heading>
+   <sd>The antenna screeches to a halt. Bond notices some blood on a railing. Still fresh. He hears
+    a clang of metal-on-metal. Aims at the sound. Nothing. He jumps down into...</sd>
+  </Scene><Scene num="154">
+   <Heading>Int. Another room - Day</Heading>
+   <sd>This room looks like it houses the electricity. Bond points the gun around, looking for Alec.
+    Behind him Alec swings down through the door and kicks 007 in the face. They fight again, 006
+    appears to be winning. Both seem to know the other one's next move. Both drop their guns,
+    hand-to-hand now. Slamming each other against walls, punch, kick. James starts to get ahead of
+    things, and blocks Alec's hits. He slams him into a wall, Bond goes for a gun...Alec kicks it
+    away, it fires at nothing. They push each other over tables, block each other's hits. Whoa, both
+    really know how their opponent fights. Alec gets the chance to grab a gun. He aims it at Bond
+    who's clings to a ladder, panting. ALEC: You know, James. I was always better.</sd>
+   <sd>James kicks a lever just before Alec fires. The ladder he's hanging on to drops down into the
+    sun, very high above the dish. Bond hangs on for dear life...groaning as the ladder jerks to a
+    stop.</sd>
+  </Scene><Scene num="155">
+   <Heading>Ext. Rainforest - Day</Heading>
+   <sd>Natalya sees Bond on the ladder in obvious trouble.</sd>
+  </Scene><Scene num="156">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Alec has run out of bullets. He takes out a radio, calls for the helicopter.</sd>
+   <sp><spk>ALEC</spk> Alpha one to Gunship!</sp>
+  </Scene><Scene num="157">
+   <Heading>Ext. Rainforest - Day</Heading>
+   <sd>The helicopter pilot gets in the chopper.</sd>
+   <sd>Alec (V.O.): Alpha one to Gunship!!</sd>
+  </Scene><Scene num="158">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Bond starts to climb up the ladder, Alec starts to climb down.</sd>
+  </Scene><Scene num="159">
+   <Heading>Int. Engine room - Day</Heading>
+   <sd>The gears and things are catching on fire...</sd>
+  </Scene><Scene num="160">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Alec decides to slide down the ladder, definitely quicker. He hits Bond with his feet, who
+    slips but just grabs on to the last rung. By one arm.</sd>
+  </Scene><Scene num="161">
+   <Heading>Ext. Rainforest - Day</Heading>
+   <sd>The chopper takes off.</sd>
+  </Scene><Scene num="162">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Bond looks down. Whoa...WAY too far to jump. And live. No way! Alec, the epitamy of evil,
+    places his boot on Bond's knuckles. And stomps on it. James has no choice but to let go...and
+    lands on part of the antenna. Only about six feet in diameter. Held up by wires. He can barely
+    pull himself up.</sd>
+  </Scene><Scene num="168">
+   <Heading>Space</Heading>
+   <sd>The satellite's burning up now, in re-entry.</sd>
+  </Scene><Scene num="169">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris is frantically shaking the monitor.</sd>
+   <sp><spk>BORIS</spk> SPEAK TO ME!!</sp>
+  </Scene><Scene num="170">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Alec jumps down to where Bond is and grabs him by the throat, holding him over the side. The
+    helicopter flies into view. Alec looks at it for a spit second...</sd>
+  </Scene><Scene num="171">
+   <Heading>Int. Helicopter cockpit - Day</Heading>
+   <sd>Natalya appears in the chopper and presses a gun in the pilot's temple.</sd>
+  </Scene><Scene num="172">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Bond uses this window of opportunity. He kicks 006 off of him and flips him over the side. At
+    the last second he grabs Alec's foot. Do it in style, James...</sd>
+   <sp><spk>ALEC</spk> For England, James?</sp>
+   <sd>Bond's icy eyes are that of a ruthless killer, now.</sd>
+   <sp><spk>BOND</spk> No. For me.</sp>
+   <sd>And with that he drops his ex-friend/neo-enemy. Alec hits the bottom of the disk with a
+    sickening THUD.</sd>
+  </Scene><Scene num="173">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris is SCREAMING at the top of his lungs, horror movie style.</sd>
+  </Scene><Scene num="174">
+   <Heading>Space</Heading>
+   <sd>The satellite explodes in the Earth's atmosphere.</sd>
+  </Scene><Scene num="175">
+   <Heading>Ext. Dish - Day</Heading>
+   <sd>Alec moves his head a little. Natalya forces the helicopter pilot to fly closer to 007.</sd>
+  </Scene><Scene num="176">
+   <Heading>Int. Engine room - Day</Heading>
+   <sd>...on fire.</sd>
+  </Scene><Scene num="177">
+   <Heading>Ext. Ladder - Day</Heading>
+   <sd>Bond leaps and grabs hold of the chopper's runners. They fly clear of the whole facility, the
+    antenna's gonna blow any minute...KA-BOOM! As the whole damn thing blows up and falls right on
+    top of screaming Alec.</sd>
+  </Scene><Scene num="178">
+   <Heading>Int. Control deck - Day</Heading>
+   <sd>Boris pokes his head out of the rubble. In pieces, but he's still alive. He jumps up
+    triumphantly.</sd>
+   <sp><spk>BORIS</spk> I am invincible!!!</sp>
+   <sd>Spoke too soon, pal. Just as he says that the liquid nitrogen tanks explode, freezing him
+    into place.</sd>
+  </Scene><Scene num="179"><Heading>Ext. Field - Day</Heading>
+   <sd>The chopper lets Bond fall to the ground in a clearing. Natalya jumps out, and it flies away.
+    She drops on top of him. He flinches in pain. She's worried, and stokes his black hair from his
+    forehead.</sd>
+   <sp><spk>NATALYA</spk> James! James! Are you all right?!</sp>
+   <sd>Bond recovers. Flashes a grin. Likes the position she put him in...</sd>
+   <sp><spk>BOND</spk> Yes, I'm fine. Thank you.</sp>
+   <sd>They kiss, happy to be alive. They roll over so Bond's on top. Natalya grins.</sd>
+   <sp><spk>NATALYA</spk> Suppose someone is watching....</sp>
+   <sd>He continues to kiss her. They're in the middle of nowhere, for god's sake.</sd>
+   <sp><spk>BOND</spk> There's no one in twenty-five miles, believe me.</sp>
+   <sd>They kiss again. We hear a familiar voice...</sd>
+   <spk voice="O.S.">WADE </spk> Yo! Jimbo!! <sd>There he goes with the 'Jimbo' again...James is
+    really startled, he flips suddenly to his knees as soon as he hears that Southern accent. God,
+    it's Wade. In camo.</sd>
+   <sp><spk>BOND</spk> Is this supposed to be your idea of...um...coming through in a clinch?!</sp>
+   <sp><spk>WADE</spk> It's the back-up plan. Hey, I'd said I'd be here, huh? Yo! Marines!</sp>
+   <sd>Wade gives the USMC sign to reveal your position. About thirty-five Marines appear from
+    nowhere, rising from the grass. Helicopters land around. What's that...Bond's blushing a
+    little!</sd>
+   <sp><spk>WADE</spk> Maybe you two would like to finish de-briefing each other at Guantanamo?</sp>
+   <sd>Bond looks at Natalya.</sd>
+   <sp><spk>BOND</spk> You ready?</sp>
+   <sp><spk>NATALYA</spk> I'm not going on that helicopter with you...</sp>
+   <sd>Bond flashes her a quizzical look.</sd>
+   <sp><spk>BOND</spk> Hmmm?</sp>
+   <sp><spk>NATALYA</spk> No plane! No train! Nothing that moves!</sp>
+   <sd>He picks her up. She's still giggling. He gives us that grin again.</sd>
+   <sp><spk>BOND</spk> Darling, what could possibly go wrong, eh?</sp>
+   <sd>The helicopters load up and fly out. Fade up on the credits, complete with JAMES BOND WILL
+    RETURN.</sd>
+  </Scene>
+ </Scene>
+</Screenplay>

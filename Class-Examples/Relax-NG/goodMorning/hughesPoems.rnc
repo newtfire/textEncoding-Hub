@@ -1,0 +1,20 @@
+start = label
+label = element xml {source, poem}
+# Why is the comma important? It's a sequence indicator.
+source = element source {title, author, date}
+title = element title {level, text}
+    author = element author {text}
+    date = element date {when, empty}
+    level = attribute level {"book" | "inner"}
+    when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear}
+    
+
+
+poem = element poem {title, lineGroup+}
+lineGroup = element lineGroup {line+}
+line = element line {n, mixed{ (place | placeName | motif)* } }
+n = attribute n {xsd:integer}
+place = element place {ref, text}
+placeName = element placeName {ref, text}
+motif = element motif {text}
+ref = attribute ref {"NYC-Harlem" | "NYC-Man" | "NYC-PennSt" | "PR" | "Cuba" | text}

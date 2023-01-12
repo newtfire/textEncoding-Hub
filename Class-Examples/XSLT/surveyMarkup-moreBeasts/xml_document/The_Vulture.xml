@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <pg ref="vulture">
+        <title><beast>The Vulture</beast></title>
+        <fig>
+            <img alt="The Vulture" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture1.PNG"/>
+        </fig>
+        <lg>
+            <l n="1"><beast>The Vulture</beast><act> eats</act> between <beast gender="m">his </beast><event>meals,</event></l>
+            <l n="2">And that's the reason why</l>
+        </lg>
+        <pgNum n="230">[230]</pgNum>
+    </pg>
+    <pg ref="vulture">
+        <fig>
+            <img alt="As well as you or I" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture2.PNG"/>
+        </fig>
+        <lg>
+            <l n="1"><beast gender="m">He</beast><desc con="neg"><desc> very, very rarely </desc><emot>feels</emot></desc></l>
+            <l n="2">As well as <person role="reader" count="single">you</person> and <person role="narrator" count="single">I.</person></l>
+        </lg>
+        <lg>
+            <l n="1"><desc><beast gender="m">His</beast> eye is dull, <beast gender="m">his</beast> head is bald,</desc></l>
+            <l n="2"><desc><beast gender="m">His</beast> neck is <act>growing thinner.</act></desc></l>
+            <l n="3">Oh! what a <event>lesson</event> for <person role="everyone" count="multiple">us all</person></l>
+            <l n="4">To only <act>eat</act> at <event>dinner</event>!</l>
+        </lg>
+        <pgNum n="231">[231]</pgNum>
+    
+    </pg>
+</root>

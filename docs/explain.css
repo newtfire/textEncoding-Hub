@@ -60,6 +60,7 @@ q cite.sub::after {content: '’'}
 cite.sub cite.sub::before {content: '‘'}
 cite.sub cite.sub::after {content: '’'}
 
+img.photo {max-width:700px; width: 15%;}
 
 img
 {padding:5px;}

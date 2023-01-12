@@ -1,8 +1,11 @@
 # Using Git through Command Line
-  
-*To download a file without cloning or pulling in changes locally, navigate to the file on GitHub and on the right side near the top of the file's content click the button that gives you the "Raw" view of the file. From there you can copy and paste or right click and save.*
-  
+   
 ## Quick reference
+
+`git clone https://github.com...address/of/github/repo.git`   (clones a repository on your computer)
+
+`git status` (can be entered at any stage, to check how your repo is doing, whether it sees any changes, what to do next if you are not sure)
+
 * Open terminal / command line shell
 * Navigate to repo.
 * `git pull`
@@ -17,12 +20,12 @@
 
 1) The key thing to working with Git is **always knowing where to find your files in the Finder (on Mac) / File Explorer (on Windows) and in the Terminal/Command Line Shell**. So you need to save them in a place where you can easily see them. 
 * In the Finder/File Explorer, make yourself a "GitHub" directory that lives inside "Documents" (or on your desktop if that is a more logical place for you). Inside the "GitHub" directory you will clone each of your project repositories.
-* In the Terminal/Command Line Shell), you can navigate to your "GitHub" directory from the computer's root by typing:
+* In your shell (the Git Bash on Windows or Terminal on Mac), you can navigate to your "GitHub" directory from the computer's root by typing:
 `cd Documents/GitHub/` if stored in documents or `cd Desktop/GitHub/` if stored on your desktop
 **`cd` means "change directories"** and in the above command you are *stepping down* into Documents (or Desktop) and into the GitHub folder. Use **`ls`** to list out the contents of the directory you have stepped down into.
 
 * If you need to **clone** a repository, do so here, because then the new repository will sit as a *child* inside your GitHub directory. Go to the git remote website and get its "Download/Clone" URL by copying it (green icon on right side of the repo's main page). 
-Then, in the Terminal/Command Line Shell, type `git clone` and paste in the the URL after that. So it looks like this for our textEncoding-Hub:
+Then, in the Command Line Shell (Git Bash on Windows/ Terminal on Mac), type `git clone` and paste in the the URL after that. So it looks like this for our textEncoding-Hub:
 ````
 git clone https://github.com/newtfire/textEncoding-Hub.git
 ````
@@ -44,28 +47,32 @@ This moves down into a directory.
 * To make sure you're in the right directory, the top level of the textEncoding-Hub, also check to see the directory name at the terminal prompt. Yours should look similar to this, and the key part is "textEncoding-Hub":
 `eeb4@salamander textEncoding-Hub % `
 
-(If you're on a Mac you'll see a '%' sign at the end. If you're on Windows, you'll see something different.) 
+(If you're on Mac's Terminal you'll see a '%' sign at the end. If you're on Windows in the Git Basg, you'll see a `$`.) 
 
 To pull in any changes from the remote "mothership" repo, type:
 ````
 git pull
 ```` 
 
-3) When you want to share you local changes to the repo with the remote mothership and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
+3) When you want to share your local changes to the repo with the remote mothership and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
 
 * Make sure you're in the textEncoding-Hub repo at the top level
 * Then type:
 ````
 git add -A
 ````
-The period means *all* -- as in add *all* new files to be tracked by Git.
+You could also type `git add .` The period or `-A` means *everything new* -- as in add *all* new files to be tracked by Git.
+`git add ___` : you always need something after git add to indicate **what** you are adding. You could actually identify a particular file or folder by its file path after git add, like this: 
+`git add poems/ballad.xml` if `poems/` is a directory just here inside your repo and ballad.xml is saved inside it, and this is the only file you want to add to your repo, ignoring other changes you made.
 
 * If you type `git status` at this point, you see highlighted in green the new files being added! 
 * Now, you need to **commit** those changes. You type the commit, and write a message, because Git *always* makes you document changes to the repo:
 ````
-git commit -m "your detailed commit message should go in here"
+git commit -m "your detailed commit message goes in here"
 ````
-Think of these commit messages as breadcrumbs for you and others to use in recording your project's progress! Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
+Think of these commit messages as logs, each one marking a meaningful change. Your git commit messages will be *signposts or markers* for you and others to read in following your project's progress. 
+They become part of the logged (recorded) **history** of the repo, and each commit will get a special identifier and link on the web repo in case you need to view or actually undo some big changes later and take the repo back to an earlier stage. 
+Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
 
 * Next, you push the commit through, with:
 ````

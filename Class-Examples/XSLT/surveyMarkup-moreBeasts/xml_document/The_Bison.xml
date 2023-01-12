@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <pg ref="bison">
+        <title><beast>The Bison</beast></title>
+        <fig>
+            <img alt="The Bison" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison1.png"/>
+        </fig>
+        <lg>
+            <l n="1"><beast>The Bison</beast> is <desc>vain,</desc> and (<person fstName="Hilaire" lstName="Belloc" gender="m" role="narrator">I </person><act>write it</act><desc> with pain)</desc></l>
+            <l n="2">The Door-mat you <act>see </act><desc>on his head</desc></l>
+        </lg>
+        <pgNum n="232">[232]</pgNum>
+    </pg>
+    <pg ref="bison">
+        <fig>
+            <img alt="The opulent growth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison2.png"/>
+        </fig>
+        <lg>
+            <l n="1">Is not, as some <desc>learned </desc>professors <act>maintain,</act></l>
+            <l n="2">The <desc>opulent </desc><act>growth</act> of a <beast>genius'</beast> brain;</l>
+        </lg>
+        <pgNum n="233">[233]</pgNum>
+    </pg>
+    <pg ref="bison">
+        <fig>
+            <img alt="Sewn on with needle and thread" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison3.png"/>
+        </fig>
+        <lg>
+            <l n="1">But is <desc><act>sewn on</act> with needle and thread.</desc></l>
+        </lg>
+        <pgNum n="234">[234]</pgNum>
+    </pg>
+</root>

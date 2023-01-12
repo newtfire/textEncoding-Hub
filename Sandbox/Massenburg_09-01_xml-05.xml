@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <!-- L = Line + # of line -->
+    <!-- DOC = Date of Creation -->
+    <!-- I included the transript pages in order to keep the document close to the original piece -->
+    <!-- L=START signifies the start/first line of the poem -->
+    <!-- L=END signifies the end/last line of the poem -->
+    <!-- <atrbt element= attribute/visual elements from the original transcript -->
+    <NewPage>
+        <lb>Transcript Page 1 of 2</lb>
+        <lb>
+            <title>"Ballad of Booker T.,"</title>
+        </lb>
+        <lb>by</lb>
+        <lb><author>Langston Hughes</author>,</lb>
+        <DOC>June 1, 1941</DOC>
+        <lb>
+            <title>BALLAD OF BOOKER T.</title>
+        </lb>
+        <lb>by <author>Langston Hughes</author></lb>
+        <lb L="start">Booker T.</lb>
+        <lb L="1">Was a practical <rhyme verb="1">man.</rhyme></lb>
+        <lb L="2">He said, Till the soil</lb>
+        <lb L="3">And learn from the <rhyme verb="1">land.</rhyme></lb>
+        <lb L="4">Let down your bucket</lb>
+        <lb L="5"> Where you <rhyme verb="2">are.</rhyme></lb>
+        <!-- Lines "4" and "5" are paying homage to Washingtons speech, 1895 speech in Atlanta  -->
+        <lb L="6">
+            <atrbt element="STAMP">
+                <atrbt element="Start/Top"> RED LIBRARY OF CONGRESS STAMP</atrbt> Your fate is
+                here</atrbt>
+        </lb>
+        <lb L="7"> And not <rhyme verb="2">afar.</rhyme></lb>
+        <lb L="8"> To help yourself</lb>
+        <lb L="9">
+            <atrbt element="STAMP">
+                <atrbt element="End/Bottom"> RED LIBRARY OF CONGRESS STAMP</atrbt> And your fellow
+                    <rhyme verb="3">man,</rhyme></atrbt>
+        </lb>
+        <lb L="10">Train your head,</lb>
+        <lb L="11"> Your heart, and your <rhyme verb="3">hand.</rhyme></lb>
+        <!-- on the original document, "and your hand" is underlined. Curious as to why? -->
+        <lb L="12"> For smartness alone's</lb>
+        <lb L="13"> Surely not <rhyme verb="4">meet</rhyme>— </lb>
+        <lb L="14"> If you haven't at the same time</lb>
+        <lb L="15"> Got something to <rhyme verb="4">eat.</rhyme></lb>
+        <lb L="16"> Thus at Tuskegee </lb>
+        <lb L="17"> He built a <rhyme verb="6">school</rhyme></lb>
+        <lb L="18"> With book-learning there</lb>
+        <lb L="19"> And the workman's <rhyme verb="6">tool.</rhyme></lb>
+        <lb L="20"> He started out </lb>
+        <lb L="21"> In a simple way—</lb>
+        <lb L="22"> For yesterday</lb>
+        <lb L="23"> Was not today.</lb>
+        <!-- on the original document, "not" is also underlined. Is this writing style used for emphasis? In addition, this line he references 'in Alabama in 85' speaking on 
+                how the South was a dangerous place in the late 19th century to protest against white supremecy and advocate 
+                \for African American rights (these underlines are also seen in other works by Hughes -->
+        <lb L="24"> Sometimes he had</lb>
+        <lb L="25"> Compromise in his <rhyme verb="5">talk</rhyme>— </lb>
+        <lb L="26"> For a man must crawl </lb>
+        <lb L="27">Before he can <rhyme verb="5">walk</rhyme>— </lb>
+        <lb L="28"> And in Alabama in '85</lb>
+        <lb L="29"> A joker was lucky </lb>
+        <lb L="30"> To be alive. </lb>
+        <lb L="31"> But Booker T. </lb>
+        <lb L="32"> Was nobody's <rhyme verb="6">fool:</rhyme>
+        </lb>
+        <lb L="33"> You may carve a dream </lb>
+        <lb L="34"> With an humble <rhyme verb="6">tool.</rhyme>
+        </lb>
+        <lb L="35"> The tallest tower </lb>
+        <lb L="36">Can tumble <rhyme verb="7">down</rhyme>
+        </lb>
+        <lb L="37"> If it be not rooted</lb>
+        <lb L="38"> In solid <rhyme verb="7">ground.</rhyme>
+        </lb>
+        <lb L="39"> So, being a far-seeing</lb>
+    </NewPage>
+    <NewPage> Transcript Page 2 of 2 <lb L="40"> Education and Outreach Division </lb>
+        <lb L="41">Practical man, </lb>
+        <lb L="42">He said, Train your head, </lb>
+        <lb L="43">Your heart, and your hand.</lb>
+        <!-- and your hand is underlined once again. signs of emphasis and repetition -->
+        <lb L="44">Your fate is here </lb>
+        <lb L="45">And not <rhyme verb="2">afar</rhyme>, </lb>
+        <lb L="46">So let down your bucket</lb>
+        <lb L="end"> Where you <rhyme verb="2">are.</rhyme>
+        </lb>
+        <atrbt element="signature">LANGSTON HUGHES</atrbt><!-- signature is an indication of a FINAL DRAFT -->
+        <lb> Final Draft,</lb>
+        <lb> Hollow Hills Farm,</lb>
+        <lb> Monterey, California, </lb>
+        <lb> June 1, 1941.</lb>
+    </NewPage>
+
+    <atrbt element="UNKNOWN TEXT">[te 7059]</atrbt>
+    <!-- located in the bottom left corner. What does this mean/what is the blurry above text?  -->
+    <atrbt total="48">Lines of poem</atrbt>
+</root>

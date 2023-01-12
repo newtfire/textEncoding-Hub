@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="out/jGilesTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/jGilesTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary's Tear Away Calendar Pages</title>
+            <author>Mary Behrend</author>
+            <editor>Julian Giles</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>I dont think that these were published.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Penn State Erie, The Behrend College Library</repository></msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="calendarPrint" medium="print">The text printed by the calender company</handNote>
+                     <handNote xml:id="blackPen" medium="inkPen">Mary's hand writing in black ink.
+                     </handNote>
+                  </handDesc>
+                  
+               </physDesc>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     
+  </teiHeader>
+  <text>
+      <body>
+         <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2052.jpg"/></figure>
+         <ab hand="#calendarPrint">
+            <date when="1909-03-17"><lb/>MARCH 17, 1909.</date>
+            <lb/>WEDNESDAY
+            <lb/>St. Patrick's Day</ab>
+         <ab hand="#blackPen">          
+            <l>St. PATRiCK WAS A USEFUF SAINT</l>
+            <l>HE FRiGHTENED ALL THE SNAKES AWAY-</l>
+            <l>I WiSH HE'D TRY HiS ART ON <emph>SMOKE</emph></l>
+            <l>AROUND THE HAMMERMiLL SOME DAY !</l>
+         </ab>
+      </body>
+  </text>
+</TEI>

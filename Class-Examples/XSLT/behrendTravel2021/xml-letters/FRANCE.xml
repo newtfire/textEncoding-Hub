@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <letter xml:id="Paris-1955-07-19">   
+        <figure>
+            <graphic url="images/July19.jpg"/>
+            <caption>July 19th letter</caption>
+        </figure>
+        <!-- FIRST IMAGE TRANSCRIPT: -->
+        <dateLine>
+            <placeName>Paris</placeName>
+            <date when="1955-07-19">July 19th. <hand>1955-</hand></date>
+        </dateLine>
+        
+        <p n="1">Took a <transport>motor</transport> from<fade>a</fade> travel <fade>a</fade>gency- <fade>a</fade>fter breakfast in our f<fade>a</fade>ncy round sitting room.<eSpace i="extra space"/> Drove all around <placeName><fade>Pa</fade>ris</placeName> the driver named <persName>Harvey</persName> had <fade>a daugh</fade>ter named <eSpace i="Forgot to fill name"/>  at <placeName>Waycross Georgia</placeName>. <eSpace i="extra space"/> Went to 
+            <placeName>Lubin's</placeName> for <misspelling word="perfume">perfrume</misspelling> (had the pin<fade>k</fade> flannel <misspelling word="affair"><fade>f</fade>affair</misspelling> that <persName>Harriet</persName> had given me—REsented') W<eSpace i="extra space here"/>alked around the circle—<placeName>Place -<x>d</x>e <corr ori="Lan6ome">Vendome</corr></placeName> to
+            <placeName>Caron</placeName>, <placeName>The Ritz Hotel</placeName>, and a <placeName>jewellers</placeName>
+            where I was intregue<hand>s</hand> by <fade>a</fade> <misspelling word="lewelled"><hand>J</hand>ewelled</misspelling> bird. But did NOT get it<hand>!</hand><eSpace i="extra space"/> To a very nice resturant in
+            the <placeName>Bois</placeName> for lunch <placeName>Le Pre Catalan</placeName>. Went thento both sides of the <placeName><misspelling word="Siene">Siens</misspelling></placeName> and got some little
+            prints of <placeName>Paris</placeName>. <placeName>R.R. station</placeName> and <placeName>Tourist Agency<hand>|</hand>reg</placeName>. tickets. <eSpace i="extra space"/> We had our evening meal at the
+            <placeName>Bristol</placeName> and then set out for the <placeName>Casion deParis</placeName>. Very amusing show- we stayed thro<hand>'</hand>
+            <u>half</u> of it but felt we needed <u>sleep</u>. <persName>Gail</persName> got a <transport>cab</transport> by her shrill <eSpace i=""/>
+            <u>whistle</u>!"</p>
+        <p n="2"><hand>STATUE IN THE <persName>DAVIDSON'S</persName> <placeName>GARDEN</placeName></hand>, <hand>PICNIC IN THE
+            FORREST</hand>.</p>
+    </letter>
+    
+</xml>

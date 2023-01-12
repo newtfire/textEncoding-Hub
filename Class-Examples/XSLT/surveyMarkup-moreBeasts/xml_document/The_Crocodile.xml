@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- XPath command to merge later: //root/* -->
+
+<root>
+    
+    <pg ref="crocodile">
+        <title><beast>The Crocodile</beast></title>
+        <fig>
+            <img alt="The Crocodile" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile.png"/>
+        </fig>
+        <lg>
+            <l n="1">Whatever our faults, we can always <act>engage</act></l>
+            <l n="2">That no fancy or fable shall sully our page,</l>
+            <l n="3">So <act>take note</act> of what follows, I <act>beg</act>.</l>
+            <l n="4">This creature so grand and august in its age,</l>
+            <l n="5">In its youth is <act>hatched</act> out of an egg.</l>
+        </lg>
+        <pgNum n="222">[222]</pgNum>
+    </pg>
+    
+    <pg ref="crocodile">    
+        <fig>
+            <img alt="The Missionary 1" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile2.png"/>
+        </fig>
+        <lg>
+            <l n="1">And oft in some far Coptic town</l>
+            <l n="2">The Missionary <act>sits </act>him down</l>
+            <l n="3">To breakfast by the <location>Nile</location>:</l>
+            <l n="4">The heart beneath his priestly gown</l>
+            <l n="5">Is innocent of guile;</l>
+        </lg>
+        <pgNum n="223">[223]</pgNum>
+    </pg>
+    
+    <pg ref="crocodile">
+        <fig>
+            <img alt="The Missionary 2" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile3.png"/>
+        </fig>
+        <lg>
+            <l n="1">When suddenly the rigid frown</l>
+            <l n="2">Of <emot>Panic</emot> is observed to drown</l>
+            <l n="3">His customary <act>smile</act>.</l>
+            <l n="4">Why does he <act>leap</act></l>
+        </lg>
+        <pgNum n="224">[224]</pgNum>
+    </pg>
+    
+    <pg ref="crocodile">
+        <fig>
+            <img alt="he start and leap amain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile4.png"/>
+        </fig>
+        <lg>
+            <l n="1">Why does he start and <act>leap</act>amain,</l>
+        </lg>
+        <pgNum n="225">[225]</pgNum>
+    </pg>
+    
+    <pg ref="crocodile">
+        <fig>
+            <img alt="Scour the sandy Libyan plain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile5.png"/>
+        </fig>
+        <lg>
+            <l n="1">And scour the sandy <location>Libyan plain</location></l>
+        </lg>
+        <pgNum n="226">[226]</pgNum>
+    </pg>
+    
+    <pg ref="crocodile">
+        <fig>
+            <img alt="Like one who wants to catch a train" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile6.png"/>
+        </fig>
+        <lg>
+            <l n="1">Like one that wants to catch a train,</l>
+        </lg>
+        <pgNum n="227">[227]</pgNum>
+    </pg>
+    
+    <pg ref="crocodile">
+        <fig>
+            <img alt="Or wrestles with internal pain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile7.png"/>
+        </fig>
+        <lg>
+            <l n="1">Or <act>wrestles</act> with internal pain?</l>
+        </lg>
+        <pgNum n="228">[228]</pgNum>
+    </pg>
+    <pg ref="crocodile">
+        <fig>
+            <img alt="Egg-cup" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile8.png"/>
+        </fig>
+        <lg>
+            <l n="1">Because he <act>finds</act> his egg contain—</l>
+            <l n="2">Green, hungry, horrible and plain—</l>
+            <l n="3">An Infant <beast>Crocodile</beast>.</l>
+        </lg>
+        <pgNum n="229">[229]</pgNum>
+    </pg>
+    
+</root>

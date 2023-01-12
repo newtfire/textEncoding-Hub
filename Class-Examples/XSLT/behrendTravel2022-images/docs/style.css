@@ -1,0 +1,145 @@
+/* This is the css for my DIGIT 110 website */
+html, body {
+	height: 100%;
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+}
+.menu {
+    overflow: hidden;
+    top: 0;
+    background-color: rgba(255, 248, 248, 0.7);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.menu a.icon{
+    display: none;
+}
+.menu a {
+    display: inline-block;
+    font-family: "Arial";
+    color: rgb(10, 47, 61);
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.menu .menu-list{
+    padding: 10px;
+}
+.menu a:hover {
+    background-color: rgba(28, 32, 37, 0.3);
+    cursor: pointer;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+@media screen and (max-width: 820px){
+    .menu a:not(:first-child) {display: none;}
+    .menu a.icon {
+      float: right;
+      display: block;
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width: 820px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu a{
+        font-size: 1rem;
+        float: left;
+        background-color: rgba(109, 106, 106, 0.7);
+        color: #fff;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+.titles{
+    font-family: 'ChopinScript';
+    color: rgb(35, 2, 0);
+    margin: 0 auto;
+    max-width: 1080px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    position: relative;
+    top: 10%;
+    background-color: rgba(255, 248, 248, 0.7);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    z-index: -1;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin: auto;
+}
+#home-page{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+#home-page img{
+    z-index: -2;
+    position: absolute;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+@media screen and (max-width: 820px){
+    .titles{
+        margin: 1rem;
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        display: block;
+        text-align: center;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+}
+img.gallery {max-width:600px; width:80%; }
+
+/* Reading View CSS, using CSS flex properties */
+section.letterView {display: flex;}
+
+section.letterView > figure > img {max-width: 600px; width: 100%; flex:1}
+section.letterView > section.letter {flex:3;}
+span.corr {color:red;}
+span.place {color:blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

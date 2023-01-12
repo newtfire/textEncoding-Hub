@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <pg ref="microbe">
+        <title>The Microbe</title>
+        <fig>
+            <img alt="The Microbe" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe1.png"/>
+        </fig>
+        <lg>
+            <l n="1">The <beast>Microbe</beast> is so very small</l>
+            <l n="2">You cannot make him out at all,</l>
+            <l n="3">But many sanguine people hope</l>
+            <l n="4">To see him through a microscope.</l>
+            <l n="5">His jointed tongue that lies beneath</l>
+            <l n="6">A hundred curious rows of teeth;</l>
+            <l n="7">His seven tufted tails with lots</l>
+            <l n="8">Of lovely pink and purple spots,</l>
+        </lg>
+        <pgNum n="248">[248]</pgNum>
+    </pg>
+    <pg ref="microbe">
+        <fig>
+            <img alt="The microbe larger" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe2.png"/>
+        </fig>
+        <lg>
+            <l n="1">On each of which a pattern stands,</l>
+            <l n="2">Composed of forty separate bands;</l>
+            <l n="3">His eyebrows of a tender green;</l>
+            <l n="4">All these have never yet been seen—</l>
+            <l n="5">But Scientists, who ought to know,</l>
+            <l n="6">Assure us that they must be so. . . .</l>
+            <l n="7">Oh! let us never, never doubt</l>
+            <l n="8">What nobody is sure about!</l>
+        </lg>
+        <fig>
+            <img alt="The scientist" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe3.png"/>
+        </fig>
+    </pg>
+</root>

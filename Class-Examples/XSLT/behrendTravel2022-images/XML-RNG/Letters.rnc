@@ -1,0 +1,17 @@
+start = root
+root = element root {letter+}
+letter = element letter {n, mixed {(pen*, corr*, place*, date*, person*, thing*)+}}
+n = attribute n {xsd:float}
+pen = element pen {type, place*, corr*, date*, person*, text}
+type = attribute type {'handwrit' | 'doodle' | 'spell err' | 'miss text'| 'cross out'|'overlap'|'underlined'}
+corr = element corr {type, aka?, what?, text,place*}
+aka= attribute aka {text}
+what= attribute what {text}
+place= element place {(name|where),text}
+date= element date {when, text}
+when= attribute when {xsd:date}
+person= element person{(who|name), text}
+name= attribute name{xsd:ID}
+who=attribute who {xsd:IDREFS}
+where= attribute where{xsd:IDREFS}
+thing= element thing {what, text}

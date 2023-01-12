@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+  <letter xml:id="Manoir-1955-07"> 
+      <intro>
+          Phone, <placeName>Azay-le-Rideau</placeName> 46
+          <placeName>Manoir De Bécheron</placeName>
+          Saché
+          <placeName>Indre-et-Loire</placeName>
+      </intro>
+     
+      <figure>
+          <graphic url="images/Manoir.jpg"/>
+          <caption>A description of a Manoir de Becheron</caption>
+      </figure>
+      <note resp="jep">We think this letter must be written before they leave, but after the others we have encoded. We speculate the date must be before <date when="1955-07-29">July 29, 1955</date>.</note>
+      <p>
+          <placeName>The Manoir de Bécheron</placeName> is a private home which welcomes a few paying guests. It is a rambling <timePeriod>15th-16th Century</timePeriod> house 
+    situated in the peaceful valley of the<placeName> Indre</placeName> in the heart of the <placeName>Chateaux de la Loire region</placeName>. The air of Old World charm
+    with modern comfort. The cuisine is French, meals are 'en famille', except for breakfast, which is served in your room 
+    or if you choose, in the gardens.
+    You are one of us when we go visiting our French and American neighbors. Among them are such famous artists as <persName>Alexander 
+    Calder</persName>, <persName>Max Ernst</persName> and <persName>A. Ozenfant.</persName>
+    Bécheron is 25 kilometers from Tours, which can be reached by rail from <placeName>Paris</placeName> in about two and half hours. Of course we
+    meet you at the station.
+    The rate in high-season <date>(June 15</date>-<date>August 31</date>) is $15 a day or $100 a week per person all inclusive (room, bath, 3 meals, 
+    wines, liqueurs, coffee and service). This includes the local excursions around <placeName>Bécheron</placeName> such as <placeName>Saché,</placeName> <placeName>Azay-le-Rideau,</placeName>
+    Tours, <placeName>Langeais.</placeName> <placeName>The Saché Museum </placeName>now houses a permanent exhibit of the sculpture of my father, <persName>Jo Davidson.</persName> The off-season
+    rate <date>(March 1</date>-<date>June 14</date>; <date>Sept. 1</date>-<date>October 31)</date> is $10 a day or $65 a week per person. Contrary to the usual continental practice
+    there are no extra charges at Bécheron.
+    My French wife and I have two children,<persName> Eva</persName> age 12 and <persName>Laurent</persName> who is 5; we can and do care for children, and you will find 
+    they are never underfoot. If you should want a place where you can safetly leave yours while touring <placeName>Europe, Bécheron</placeName> is 
+    the place you are looking for. Our children were born in the <placeName>United States</placeName> and speak French and English as of course we do.
+    A week in <placeName>Bécheron</placeName> is over before you realize it! You won't want to miss the thrilling sight of the illuminated chateaux;
+    they alone are worth the trip. The <placeName>"Sleeping Beauty" castle of Usse</placeName>, <placeName>Azay-le-Rideau</placeName>, famous Chenonceau and Chambord are but 
+    a few of the fabulous palaces which surround us.
+    During one of your outings we will picnic in the <placeName>Forêt de Loches</placeName> near a circular <timePeriod>12th Century</timePeriod> chapel, or on the banks of the
+    Loire across from <placeName>Mme. de Pompadour's palace at Ménars</placeName>. We will also take you to one of the outstanding restaurants of Tours 
+    on a picturesque medieval square.
+    We are looking forward with pleasure to meeting you, with or without your children. We'll be glad to answer any specific questions
+    you may have. 
+    Write for us.</p>
+      
+
+   
+   <p n="2"> Cordially yours, 
+    (signiture)
+   <persName> Jacques Davidson </persName></p>
+    </letter>
+   
+</xml>

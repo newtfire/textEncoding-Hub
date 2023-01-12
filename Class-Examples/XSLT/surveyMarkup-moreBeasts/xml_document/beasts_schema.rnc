@@ -1,0 +1,94 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+#To teammates: new schema ideas goes below line 67.
+
+#Common elements
+
+    #Images
+    fig = element fig {img, imgDes?}
+        img = element img {alt, src, imgText*}
+            alt = attribute alt {text} #Alt text, mini-title for the image
+            imgText = attribute imgText {text} #Text contained in the image
+        imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
+
+    #People
+    person = element person {fstName?, midName?, lstName?, count?, gender?, role, text}
+        fstName = attribute fstName {text} #First name    
+        lstName = attribute lstName {text} #Last name
+        midName = attribute midName {text} #Middle name
+        gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
+        role = attribute role {"narrator" | "reader" | "character" | "everyone" | "dedocated"}
+        count = attribute count {"single" | "multiple"}
+        
+    #Authors
+    author = element author {fstName?, midName?, lstName?, gender?, contri, text}
+        #fstName = attribute fstName {text} #First name    
+        #lstName = attribute lstName {text} #Last name
+        #midName = attribute midName {text} #Middle name
+        #gender = attribute gender {"m" | "f" | "x" | "u"} 
+        contri = attribute contri {"writer" | "illustrator"} #Author's contribution to the book
+    
+    #Page number
+    pgNum = element pgNum {n, text}
+
+#End of Common elements
+
+#Common attributes
+
+    #Integer numbers
+    n = attribute n {xsd:integer}
+    
+    #Reference 
+    ref = attribute ref {text} #Will change to reference data type later.
+    
+    #Source/link
+    src = attribute src {xsd:anyURI} #URL or file path to text, image, audio, video, or binary file.
+
+#End of Common attributes
+
+#Document schema
+
+    start = root
+    root = element root { ((bookCover & bookTitleAlt & text), pg+, foot?) | (pg+) }
+
+    bookCover = element bookCover {fig, text}
+  
+    bookTitleAlt = element bookTitleAlt {text} #'Alt' here stands for "alternative. In this case alternative book titles. 
+
+    pg = element pg { 
+        #This one is for title page(s).
+        (ref, (bookTitle & author+ & publisher & dedicate & fig*), pgNum?) |
+        
+        #This one will be for poem pages.
+        (ref, title?, (lg+ & fig*), pgNum?) 
+    }
+   
+    #For title page(s)
+    bookTitle = element bookTitle {text}
+    publisher = element publisher {mixed{publisherName, publisherAddress}}
+        publisherAddress = element publisherAddress {text}
+        publisherName = element publisherName {text}
+    dedicate = element dedicate {mixed{person}+,text}
+    
+    #For poem pages
+    title = element title {mixed{beast*},text}
+    lg = element lg {l+} #lg=line group;l=line
+        poemElements = mixed{beast | emot | act | location | desc | num | event | person | noteref}*,text
+        l = element l {n, poemElements}
+            #Schema ideas goes below
+            beast = element beast {gender?, poemElements}
+            emot = element emot {con?, poemElements}
+            act = element act {con?, poemElements}
+            location = element location {con?, poemElements}
+            desc = element desc {con?, poemElements}
+            num = element num {n, poemElements}
+            event = element event {con?, poemElements}
+            
+            con = attribute con {"pos" | "neg"} #connotation
+            
+            foot = element foot {text, def} #footnote
+            def = element def {noteref, text} #definition
+            noteref = element noteref {text, letter} #reference to footnote
+            letter = attribute letter {"A" | "B"}
+#End of Document schema
+

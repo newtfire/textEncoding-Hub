@@ -1,0 +1,19 @@
+start = twinkie
+twinkie = element Ozymandias {layer}
+# ebb: We used twinkie to show what's just a label in the Relax NG syntax.
+layer = element layer {agent, pos?, line+}
+# The plus sign is a repetition indicator
+# NO sign at all means there is ONLY ONE and EXACTLY ONE of this thing
+# + sign means AT LEAST ONE OR MORE
+# ? sign means zero or one
+# * means zero or more. This is the most flexible repetition indicator
+line = element line {n, mixed{ (layer | ellipsis)? } }
+ellipsis = element ellipsis {rend, empty}
+# lines are special: they contain MIXED CONTENT
+# mixed content literally means text is flowing freely
+# around elements. And the elements can appear anywhere.
+rend = attribute rend {text}
+agent = attribute agent {"I" | "traveller" | "sculptor" | text}
+n = attribute n {xsd:integer}
+# We want to use a DATATYPE. Read about these in the tutorial!
+pos = attribute pos {"start" | "end"}
