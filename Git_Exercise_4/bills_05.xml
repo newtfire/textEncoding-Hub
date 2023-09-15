@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-<!-- 2023-09-15 ebb in class: Hi Hadleigh! You did some amazing things with xml:ids in this assignment!  -->
+<!-- 2023-09-15 ebb in class: Hi Hadleigh! You did some amazing things with xml:ids in this assignment! 
+    Adding ONE MORE THING just to show a challenging git commit situation.
+    -->
     <metaData>
         <styles>
             <style xml:id="underl">
