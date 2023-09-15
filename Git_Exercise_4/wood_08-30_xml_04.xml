@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <metaData>
+        <author writer="langstonHughes">LANGSTON HUGHES</author>
+        <type draft="final">Final Draft</type>, <location estate="hollowhillsFarm"
+            cityState="montereyCalifornia">Hollow Hills Farm, Monterey, California,</location>
+        <date when="1941-06-01">June 1, 1941.</date>
+        <citation> Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June
+            1941.</citation>
+        <poemLoc division="manuscript" where="washingtonDC" stamp="libraryOfCongress" stampLoc="L5-L9">(Langston
+            Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C.</poemLoc>
+        <title format="underlined" purpose="reconcileBooker" BookerT="collabWhiteRacists">BALLAD OF BOOKER T.</title>
+    </metaData>
+    <stanza>
+        <li n="1">
+            <subject who="bookerT">Booker T.</subject>
+        </li>
+        <li n="2">Was a <rep>practical man</rep>.</li>
+        <!--Rep is repetition-->
+        <li n="3'">He said, Till the soil</li>
+        <li n="4">And learn from the land.</li>
+        <li n="5">
+            <rep>Let down your bucket</rep>
+        </li>
+        <li n="6">
+            <rep>Where you are.</rep>
+        </li>
+        <li n="7">Your fate is here</li>
+        <li n="8">And not afar.</li>
+        <li n="9">To help yourself</li>
+        <li n="10">And your fellow man,</li>
+        <li n="11">Train your head,</li>
+        <li n="12">Your heart, <format type="underlined">and your hand</format>.</li>
+        <li n="13">For smartness alone's</li>
+        <li n="14">Surely not meet—</li>
+        <li n="15">If you haven't at the same time</li>
+        <li n="16">Got something to eat.</li>
+        <li n="17">Thus at <location what="school">Tuskegee</location></li>
+        <li n="18">He built a school</li>
+        <li n="19">With book-learning there</li>
+        <li n="20">And the workman's tool.</li>
+        <li n="21">He started out</li>
+        <li n="22">In a simple way—</li>
+        <li n="23">For yesterday</li>
+        <li n="24">Was <format type="underlined">not</format> today.</li>
+        <li n="25">Sometimes he had</li>
+        <li n="26">Compromise in his talk—</li>
+        <li n="27">For a man must crawl</li>
+        <li n="28">Before he can walk—</li>
+        <li n="29">And in Alabama in '85</li>
+        <li n="30">A joker was lucky</li>
+        <li n="31">To be alive.</li>
+        <!--Referencing the segregation throughout Alabama-->
+        <li n="32">But Booker T.</li>
+        <li n="33">Was nobody's fool:</li>
+        <li n="34">You may carve a dream</li>
+        <li n="35">With an humble tool.</li>
+        <li n="36">The tallest tower</li>
+        <li n="37">Can tumble down</li>
+        <li n="38">If it be not rooted</li>
+        <li n="39">In solid ground.</li>
+        <li n="40">So, being a far-seeing</li>
+        <li n="41"><rep>Practical man</rep>,</li>
+        <li n="42">He said, Train your head,</li>
+        <li n="43">Your heart, <format type="underlined">and your hand</format>.</li>
+        <li n="44">Your fate is here</li>
+        <li n="45">And not afar,</li>
+        <li n="46">So <rep>let down your bucket</rep></li>
+        <li n="47">
+            <rep>Where you are.</rep>
+        </li>
+    </stanza>
+    <!--Poem features an ABCB rhyme scheme-->
+    <!--Signature included overtop of metaData located on bottom right about the location and date of poem-->
+</root>
