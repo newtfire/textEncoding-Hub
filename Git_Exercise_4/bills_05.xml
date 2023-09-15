@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-
-    <metadata>
+<!-- 2023-09-15 ebb in class: Hi Hadleigh! You did some amazing things with xml:ids in this assignment!  -->
+    <metaData>
         <styles>
+            <style xml:id="underl">
+                <type>Underline</type>
+            </style>
             <style xml:id="bold">
                 <type>Bold</type>
             </style>
             <style xml:id="ital">
                 <type>Italic</type>
             </style>
-            <style xml:id="underl">
-                <type>Underline</type>
-            </style>
+            
         </styles>
         <people>
             <person xml:id="b.w">
@@ -140,7 +141,7 @@
                 <type>Signature</type>
             </certificate>
         </certificates>
-    </metadata>
+    </metaData>
 
     <page>
         <header> &quot;<style xml:id="underl">BALLAD OF <person xml:id="b.w">BOOKER
@@ -204,8 +205,8 @@
     </page>
 
 
-    <source xml:id="r.a.c">> Citation: Drafts of Langston Hughes&apos;s poem &quot;Ballad of Booker
-        T.&quot; <duration xml:id="dur"><date xml:id="d.1">30 May</date>–<date xml:id="d.2">1 June
+    <source xml:id="r.a.c">> Citation: Drafts of Langston Hughes’s poem <q>Ballad of Booker
+        T.</q> <duration xml:id="dur"><date xml:id="d.1">30 May</date>–<date xml:id="d.2">1 June
                 1941</date></duration>. (Langston Hughes Collection) Manuscript Division, <place
             xml:id="l.c">Library of Congress, Washington, D.C.</place>
     </source>
