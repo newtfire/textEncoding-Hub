@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+    <metadata>
+        <styles>
+            <style xml:id="bold">
+                <type>Bold</type>
+            </style>
+            <style xml:id="ital">
+                <type>Italic</type>
+            </style>
+            <style xml:id="underl">
+                <type>Underline</type>
+            </style>
+        </styles>
+        <people>
+            <person xml:id="b.w">
+                <firstName>Booker</firstName>
+                <middleName>Taliaferro</middleName>
+                <lastName>Washingtom</lastName>
+                <info>
+                    <birthYear>1856</birthYear>
+                    <deathYear>1915</deathYear>
+                </info>
+            </person>
+            <person xml:id="l.h">
+                <firstName>James</firstName>
+                <middleName num="1">Mercer</middleName>
+                <middleName num="2">Langston</middleName>
+                <lastName>Hughes</lastName>
+                <aliasName>Langston Hughes</aliasName>
+                <info>
+                    <birthYear>1902</birthYear>
+                    <deathYear>1967</deathYear>
+                </info>
+            </person>
+        </people>
+        <places>
+            <place xml:id="h.h.f">
+                <name>Hollow Hills Farm</name>
+                <city>Monterey</city>
+                <state>California</state>
+                <country>United States of America</country>
+            </place>
+            <place xml:id="l.c">
+                <name>Library of Congress</name>
+                <address>101 Independence Ave SE</address>
+                <city>Washington D.C.</city>
+                <zipCode>20540</zipCode>
+                <country>United States of America</country>
+            </place>
+            <place xml:id="atl">
+                <city>Atlanta</city>
+                <state>Georgia</state>
+                <country>United States of America</country>
+            </place>
+        </places>
+        <sources>
+            <source xml:id="r.a.c">
+                <work xml:id="a.c"/>
+            </source>
+            <source>
+                <work xml:id="b.b.t"/>
+                <website xml:id="l.o.c"/>
+                <duration xml:id="dur"/>
+            </source>
+        </sources>
+        <dates>
+            <date xml:id="d.1">
+                <year>1941</year>
+                <month>May</month>
+                <day>30</day>
+                <when>1941-05-30</when>
+            </date>
+            <date xml:id="d.2">
+                <year>1941</year>
+                <month>June</month>
+                <day>01</day>
+                <when>1941-06-01</when>
+            </date>
+            <date xml:id="d.3">
+                <year>1895</year>
+                <month>September</month>
+                <day>18</day>
+                <when>1895-09-18</when>
+            </date>
+            <duration xml:id="dur">
+                <from>
+                    <date xml:id="d.1"/>
+                </from>
+                <to>
+                    <date xml:id="d.2"/>
+                </to>
+            </duration>
+        </dates>
+        <works>
+            <work xml:id="b.b.t">
+                <title>Ballad of Booker T.</title>
+                <type>Poem</type>
+                <note>Final Draft</note>
+                <author>
+                    <person xml:id="l.h"/>
+                </author>
+                <date xml:id="d.2"/>
+                <sourceCollection>Langston Hughes Collection</sourceCollection>
+                <repository>Manuscript Division</repository>
+                <reproductionNumber>A58</reproductionNumber>
+                <place xml:id="h.h.f"/>
+            </work>
+            <work xml:id="a.c">
+                <title>Atlanta Compromise</title>
+                <type>Speech</type>
+                <author>
+                    <person xml:id="b.w"/>
+                </author>
+                <date xml:id="d.3"/>
+                <place xml:id="atl"/>
+            </work>
+        </works>
+        <websites>
+            <website xml:id="l.o.c">
+                <websiteTitle>Library of Congress</websiteTitle>
+                <title>Image 5 of Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May-1
+                    June 1941.</title>
+                <place xml:id="l.c"/>
+                <url>https:/www.loc.gov/item/mcc.024/</url>
+            </website>
+        </websites>
+        <certificates>
+            <certificate xml:id="st">
+                <title>
+                    <place xml:id="l.c">Library of Congress</place>
+                </title>
+                <type>Stamp</type>
+            </certificate>
+            <certificate xml:id="si">
+                <title>
+                    <person xml:id="l.h">Langston Hughes</person>
+                </title>
+                <type>Signature</type>
+            </certificate>
+        </certificates>
+    </metadata>
+
+    <page>
+        <header> &quot;<style xml:id="underl">BALLAD OF <person xml:id="b.w">BOOKER
+                T.</person></style>,&quot; by <person xml:id="l.h">Langston Hughes</person></header>
+
+        <work xml:id="b.b.t">
+            <li num="1"><person xml:id="b.w">Booker T.</person></li>
+            <li num="2">Was a practical man.</li>
+            <li num="3">He said, Till the soil</li>
+            <li num="4">And learn from the land.</li>
+            <certificate xml:id="st"/>
+            <li num="5"><source xml:id="r.a.c" mark="START"/>Let down your bucket</li>
+            <li num="6">Where you are.<source xml:id="r.a.c" mark="STOP"/></li>
+            <li num="7">Your fate is here</li>
+            <li num="8">And not afar.</li>
+            <li num="9">To help yourself</li>
+            <li num="10">And your fellow man,</li>
+            <li num="11">Train your head,</li>
+            <li num="12">Your heart, <style xml:id="underl">and your hand.</style></li>
+            <li num="13">For smartness alone&apos;s</li>
+            <li num="14">Surely not meet—</li>
+            <li num="15">If you haven&apos;t at the same time</li>
+            <li num="16">Got something to eat.</li>
+            <li num="17">Thus at Tuskegee</li>
+            <li num="18">He built a school</li>
+            <li num="19">With book-learning there</li>
+            <li num="20">And the workman&apos;s tool.</li>
+            <li num="21">He started out</li>
+            <li num="22">In a simple way—</li>
+            <li num="23">For yesterday</li>
+            <li num="24">Was <style xml:id="underl">not</style> today.</li>
+            <li num="25">Sometimes he had</li>
+            <li num="26">Compromise in his talk—</li>
+            <li num="27">For a man must crawl</li>
+            <li num="28">Before he can walk—</li>
+            <li num="29">And in Alabama in &apos;85</li>
+            <li num="30">A joker was lucky To be alive.</li>
+            <li num="31">But <person xml:id="b.w">Booker T.</person></li>
+            <li num="32">Was nobody&apos;s fool:</li>
+            <li num="33">You may carve a dream</li>
+            <li num="34">With an humble tool.</li>
+            <li num="35">The tallest tower</li>
+            <li num="36">Can tumble down</li>
+            <li num="37">If it be not rooted</li>
+            <li num="38">In solid ground.</li>
+            <li num="39">So, being a far-seeing</li>
+            <li num="40">Practical man,</li>
+            <li num="41">He said, Train your head,</li>
+            <li num="42">Your heart, <style xml:id="underl">and your hand.</style></li>
+            <li num="43">Your fate is here</li>
+            <li num="44">And not afar,</li>
+            <li num="45">So let down your bucket</li>
+            <li num="46">Where you are.</li>
+        </work>
+
+        <footer>
+            <certificate xml:id="si">LANGSTON HUGHES</certificate> Final Draft, <place
+                xml:id="h.h.f">Hollow Hills Farm, Monterey, California,</place>
+            <date xml:id="d.2">June 1, 1941</date>. </footer>
+
+    </page>
+
+
+    <source xml:id="r.a.c">> Citation: Drafts of Langston Hughes&apos;s poem &quot;Ballad of Booker
+        T.&quot; <duration xml:id="dur"><date xml:id="d.1">30 May</date>–<date xml:id="d.2">1 June
+                1941</date></duration>. (Langston Hughes Collection) Manuscript Division, <place
+            xml:id="l.c">Library of Congress, Washington, D.C.</place>
+    </source>
+
+</xml>
