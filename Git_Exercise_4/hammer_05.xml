@@ -56,7 +56,8 @@
                 <l>He said, Till the soil</l>
                 <l>And learn from the land.</l>
                 <l>Let down your bucket</l>
-                <graphic name="The Library of Congress Stamp"/>
+                <!-- 2023/9/15 rcc Added an element clarifying how large the Congress stamp is-->
+                <graphic name="The Library of Congress Stamp" nextTo="lines 59-64"/>
                 <l>Where you are.</l>
                 <l>Your fate is here</l>
                 <l>And not afar.</l>
@@ -94,9 +95,10 @@
                 <l>So, being a far-seeing</l>
                 <l>Practical man,</l>
                 <l>He said, Train your head,</l>
-                <l>Your heart, <special type="underline">and your hand</special>.</l> <!--rorange - I like the use of special here to denote phyiscal marks-->
+                <l>Your heart, <special type="underline">and your hand</special>.</l>
+                <!--rorange - I like the use of special here to denote phyiscal marks-->
                 <l>Your fate is here</l>
-                <l>And not afar,</l> 
+                <l>And not afar,</l>
                 <l>So let down your bucket</l>
                 <l>Where you are.</l>
             </sect>
