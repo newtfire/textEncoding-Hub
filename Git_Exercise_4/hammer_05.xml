@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <poem title="Ballad of Booker T." date="1941-06-1">
+        <!--<meta> element holds content not directly used in transcript -->
+        <meta>
+            <about>
+                <!--Most, if not, all information here comes directly from The Library of Congress. -->
+                <note>- Reproduction number: A57 (color slide; first and second drafts); A58 (color
+                    slide; final draft)</note>
+                <note>- Langston Hughes (1902-1967), known for his lyric poetry, often wrote
+                    insightful commentaries about African-American culture and race relations in the
+                    United States. In this 1941 poem he makes a case for the vindication of educator
+                    Booker T. Washington (1856-1915), the former slave and founder of Tuskegee
+                    Institute (1881) and the National Negro Business League (1900) who was harshly
+                    criticized by many people for emphasizing vocational education as the
+                    prerequisite for the political empowerment of black people. In his poem, Hughes
+                    stresses the fact that Washington wanted to train the head, the heart, and the
+                    hand. He focuses on Washington's practicality and explains the educator's
+                    strategy with the statement, "Sometimes he had / compromise in his talk-- / for
+                    a man must crawl / before he can walk / and in Alabama in '85 / a joker was
+                    lucky / to be alive."</note>
+                <note>- Because the Library holds several dated drafts of the "Ballad of Booker T.,"
+                    as well as the signed, finished version, researchers can learn how Hughes
+                    crafted his words so that the rhythm and the rhyme were syncopated, smooth, and
+                    flowing.</note>
+            </about>
+            <citations>
+                <!-- <c> elements represent independent citations-->
+                <c type="Chicago"> Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May-1
+                    June. 30-31 May first and second drafts; 1 June 1, 1941. Manuscript/Mixed
+                    Material. https://www.loc.gov/item/mcc.024/. </c>
+                <c type="APA"> (1941) Drafts of Langston Hughes's poem "Ballad of Booker T.," 30
+                    May-1 June. 30-31 May first and second drafts; 1 June 1. [Manuscript/Mixed
+                    Material] Retrieved from the Library of Congress,
+                    https://www.loc.gov/item/mcc.024/. </c>
+                <c type="MLA"> Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May-1
+                    June. 30-31 May first and second drafts; 1 June 1, 1941. Manuscript/Mixed
+                    Material. Retrieved from the Library of Congress, www.loc.gov/item/mcc.024/.
+                </c>
+            </citations>
+        </meta>
+        <!--<ts> elment means transcript-->
+        <ts>
+            <!-- <l> element means line-->
+            <sect type="header">
+                <l>
+
+                    <special type="title">BALLAD OF BOOKER T.</special>
+                </l>
+                <l>by</l>
+                <l>Langston Hughes</l>
+            </sect>
+            <sect type="poem">
+                <l>Booker T.</l>
+                <l>Was a practical man.</l>
+                <l>He said, Till the soil</l>
+                <l>And learn from the land.</l>
+                <l>Let down your bucket</l>
+                <graphic name="The Library of Congress Stamp"/>
+                <l>Where you are.</l>
+                <l>Your fate is here</l>
+                <l>And not afar.</l>
+                <l>To help yourself</l>
+                <l>And your fellow man,</l>
+                <l>Train your head,</l>
+                <l>Your heart, <special type="underline">and your hand</special>.</l>
+                <l>For smartness alone's</l>
+                <l>Surely not meet—</l>
+                <l>If you haven't at the same time</l>
+                <l>Got something to eat.</l>
+                <l>Thus at Tuskegee</l>
+                <l>He built a school</l>
+                <l>With book-learning there</l>
+                <l>And the workman's tool.</l>
+                <l>He started out</l>
+                <l>In a simple way—</l>
+                <l>For yesterday</l>
+                <l>Was <special type="underline">not</special> today.</l>
+                <l>Sometimes he had</l>
+                <l>Compromise in his talk—</l>
+                <l>For a man must crawl</l>
+                <l>Before he can walk—</l>
+                <l>And in Alabama in '85</l>
+                <l>A joker was lucky</l>
+                <l>To be alive.</l>
+                <l>But Booker T.</l>
+                <l>Was nobody's fool:</l>
+                <l>You may carve a dream</l>
+                <l>With an humble tool.</l>
+                <l>The tallest tower</l>
+                <l>Can tumble down</l>
+                <l>If it be not rooted</l>
+                <l>In solid ground.</l>
+                <l>So, being a far-seeing</l>
+                <l>Practical man,</l>
+                <l>He said, Train your head,</l>
+                <l>Your heart, <special type="underline">and your hand</special>.</l>
+                <l>Your fate is here</l>
+                <l>And not afar,</l>
+                <l>So let down your bucket</l>
+                <l>Where you are.</l>
+            </sect>
+            <l>
+                <special type="signature">LANGSTON HUGHES</special>
+            </l>
+            <sect type="footer">
+                <l>Final Draft,</l>
+                <l>Hollow Hills Farm,</l>
+                <l>Monterey, California,</l>
+                <l>June 1, 1941.</l>
+            </sect>
+        </ts>
+    </poem>
+</root>
