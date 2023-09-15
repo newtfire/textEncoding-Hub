@@ -16,7 +16,8 @@
             <subject who="bookerT">Booker T.</subject>
         </li>
         <li n="2">Was a <rep>practical man</rep>.</li>
-        <!--Rep is repetition-->
+        <!-- 2023-08-30 lxw: Rep is repetition-->
+        <!-- 2023-09-15 hjb: I changed your comment format so it is clear who wrote what message and when! -->
         <li n="3'">He said, Till the soil</li>
         <li n="4">And learn from the land.</li>
         <li n="5">
@@ -50,7 +51,7 @@
         <li n="29">And in Alabama in '85</li>
         <li n="30">A joker was lucky</li>
         <li n="31">To be alive.</li>
-        <!--Referencing the segregation throughout Alabama-->
+        <!-- 2023-08-30 lxw: Referencing the segregation throughout Alabama-->
         <li n="32">But Booker T.</li>
         <li n="33">Was nobody's fool:</li>
         <li n="34">You may carve a dream</li>
@@ -70,6 +71,6 @@
             <rep>Where you are.</rep>
         </li>
     </stanza>
-    <!--Poem features an ABCB rhyme scheme-->
-    <!--Signature included overtop of metaData located on bottom right about the location and date of poem-->
+    <!-- 2023-08-30 lxw: Poem features an ABCB rhyme scheme-->
+    <!-- 2023-08-30 lxw: Signature included overtop of metaData located on bottom right about the location and date of poem-->
 </root>
