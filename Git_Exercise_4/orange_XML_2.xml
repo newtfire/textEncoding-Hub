@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--EXP means expression as in words that seem intense and poetic
+human means words related closer to humans
+nature means closer to natural elements-->
+<root>
+
+  <metadata>
+    <title>Leaves</title>
+
+    <author>Lloyd Schwartz</author>
+    <date><year>1941 –</year></date>
+  </metadata>
+
+
+  <poem>
+    <stanza n="1">
+      <stanzanum>1 </stanzanum>
+
+      <line>Every October it becomes important, no, necessary</line>
+      <line>to see the <title>leaves</title> turning, to be surrounded</line>
+      <line>by <title><nature>leaves</nature></title> turning; it's not just the symbolism,</line>
+      <line>to confront in the death of the year your death,</line>
+      <line>one blazing farewell appearance, though the irony</line>
+      <line>isn't lost on you that <nature>nature</nature> is most <EXP>seductive</EXP></line>
+      <line>when it's about to <EXP>die</EXP>, <EXP>flaunting</EXP> the <EXP>dazzle</EXP> of
+        its</line>
+      <line>incipient exit, an ending that at least so far</line>
+      <line>the effects of human progress (<human>pollution</human>, <human>acid
+        rain</human>)</line>
+      <line>have not yet frightened you enough to make you believe</line>
+      <line>is real; that is, you know this ending is a <EXP>deception</EXP></line>
+      <line>because of course <nature>nature</nature> is always renewing itself—</line>
+      <line>the <nature>trees</nature> don't <EXP>die</EXP>, they just pretend,</line>
+      <line>go out in style, and return in style: a new style.</line>
+    </stanza>
+
+
+
+
+    <stanza n="2">
+      <stanzanum>2</stanzanum>
+
+      <line>Is it deliberate how far they make you go</line>
+      <line> especially if you live in the <human>city</human> to get far </line>
+      <line>enough away from home to see not just <nature>trees</nature>
+      </line>
+      <line>but only <nature>trees</nature>? The <EXP>boring</EXP>
+        <human>highways</human>, <human>roadsigns</human>, high</line>
+      <line><human>speeds</human>, <EXP><human>10-axle trucks</human></EXP> passing you as if they
+        were </line>
+      <line>in an even greater hurry than you to look at
+        <title><nature>leaves</nature></title>:</line>
+      <line>so you <human>drive</human> in <EXP>terror</EXP> for literal hours and it looks </line>
+      <line>like <nature>rain</nature>, or <nature>snow</nature>, but it's probably just
+          <nature>clouds</nature></line>
+      <line>(too <nature>cloudy</nature> to see any color?) and you wonder, </line>
+      <line>given the <EXP>poverty</EXP> of your memory, which <human>road</human> had the </line>
+      <line>most color last year, but it doesn't matter since</line>
+      <line>you're probably too late anyway, or too early—</line>
+      <line>whichever <human>road</human> you take will be the wrong one</line>
+      <line>and you've probably come all this way for nothing.</line>
+    </stanza>
+
+
+
+
+    <stanza n="3">
+      <stanzanum>3</stanzanum>
+
+      <line>You'll be <human>driving</human> along <EXP>depressed</EXP> when suddenly</line>
+      <line>a <nature>cloud</nature> will move and the <nature>sun</nature> will <EXP>muscle</EXP>
+        through</line>
+      <line>and <EXP>ignite</EXP> the <nature>hills</nature>. It may not last. Probably</line>
+      <line>won't last. But for a moment the whole <nature>world</nature></line>
+      <line>comes to. Wakes up. Proves it lives. It lives—</line>
+      <line> red, yellow, orange, brown, russet, ocher, vermilion,</line>
+      <line>gold. <EXP>Flame and rust</EXP>. <EXP>Flame and rust</EXP>, the permutations</line>
+      <line>of <EXP>burning</EXP>. You're on fire. <EXP>Your eyes are on fire.</EXP></line>
+      <line>It won't last, you don't want it to last. You</line>
+      <line>can't stand any more. But you don't want it to stop.</line>
+      <line>It's what you've come for. It's what you'll</line>
+      <line> come back for. It won't stay with you, but you'll </line>
+      <line>remember that it felt like nothing else you've felt</line>
+      <line>or something you've felt that also didn't last.</line>
+    </stanza>
+  </poem>
+
+  <source>Copyright © <year>1992</year> by <author>Lloyd Schwartz</author>. From Goodnight, Gracie
+    (The University of Chicago Press, <year>1992</year>). Appears courtesy of the author.</source>
+</root>
