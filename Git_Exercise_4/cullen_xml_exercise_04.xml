@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <poem name="Ballad of Booker T.">
+        <heading>"Ballad of Booker T.," by Langston Hughes, June 1, 1941</heading>
+        <!--That which is enclosed in the header element is metadata, not represented on the typed draft-->
+        <title name="Ballad of Booker T.">BALLAD OF BOOKER T.</title>
+        <author name="Langston Hughes"> by Langston Hughes</author>
+        <line n="1">Booker T.</line>
+        <!--The Booker T. mentioned in the prior line and honored in this poem is Booker T. Washington-->
+        <line n="2" rhyme="A">as a practical man.</line>
+        <line n="3">He said, Till the soil</line>
+        <line n="4" rhyme="A">And learn from the land.</line>
+        <stamp color="red">Red stamp, Lines 5-9</stamp>
+        <line n="5">Let down your bucket</line>
+        <line n="6" rhyme="B">Where you are.</line>
+        <line n="7">Your fate is here</line>
+        <line n="8" rhyme="B">And not afar.</line>
+        <line n="9">To help yourself</line>
+        <line n="10" rhyme="C">And your fellow man,</line>
+        <line n="11">Train your head,</line>
+        <line n="12" rhyme="C">Your heart, <underlined>and your hand</underlined>.</line>
+        <line n="13">For smartness alone's</line>
+        <line n="14" rhyme="D">Surely not meet—</line>
+        <line n="15">If you haven't at the same time</line>
+        <line n="16" rhyme="D">Got something to eat.</line>
+        <line n="17">Thus at Tuskegee</line>
+        <line n="18" rhyme="E">He built a school</line>
+        <line n="19">With book-learning there</line>
+        <line n="20" rhyme="E">And the workman's tool.</line>
+        <line n="21">He started out</line>
+        <line n="22" rhyme="F">In a simple way—</line>
+        <line n="23" rhyme="F">For yesterday</line>
+        <line n="24" rhyme="F">Was <underlined>not</underlined> today.</line>
+        <line n="25">Sometimes he had</line>
+        <line n="26" rhyme="G">Compromise in his talk—</line>
+        <line n="27">For a man must crawl</line>
+        <line n="28" rhyme="G">Before he can walk—</line>
+        <line n="29" rhyme="H">And in Alabama in '85</line>
+        <!--In thr prior line, the rhythym of the rhyme scheme paired with the poem's lines is broken -\- The first and second parts of the four-part rhyme are in one line-->
+        <line n="30">A joker was lucky</line>
+        <line n="31" rhyme="H">To be alive.</line>
+        <!--The prior line appears to be endorsing Booker T.'s criticized passive appearence when it came to advocating for the end of racial segraegation by pointing out how dangerous it would/could have been to speak out in such a manner in the late 19th century.-->
+        <line n="32">But Booker T.</line>
+        <line n="33" rhyme="I">Was nobody's fool:</line>
+        <line n="34">You may carve a dream</line>
+        <line n="35" rhyme="I">With an humble tool.</line>
+        <line n="36">The tallest tower</line>
+        <line n="37" rhyme="J">Can tumble down</line>
+        <line n="38">If it be not rooted</line>
+        <line n="39" rhyme="J">In solid ground.</line>
+        <line n="40">So, being a far-seeing</line>
+        <line n="41" rhyme="K">Practical man,</line>
+        <line n="42">He said, Train your head,</line>
+        <line n="43" rhyme="K">Your heart, <underlined>and your hand</underlined>.</line>
+        <line n="44">Your fate is here</line>
+        <line n="45" rhyme="L">And not afar,</line>
+        <line n="46">So let down your bucket</line>
+        <line n="47" rhyme="L">Where you are.</line>
+        <!--The prior two lines are a direct reference to a famous Booker T. Washington speech-->
+        <footing><signature name="Langston Hughes">LANGSTON HUGHES</signature> Final Draft,
+                <location where="Hollow Hills Farm, Montery, California" state="California">Hollow
+                Hills Farm, Monterey, California, </location>
+            <date when="June 1, 1941">June 1, 1941.</date>
+        </footing>
+        <citation>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June
+            1941. (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington,
+            D.C.</citation>
+    </poem>
+</root>
