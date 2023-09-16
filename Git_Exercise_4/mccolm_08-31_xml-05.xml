@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <stanza verse="1">
+        <Intro>
+            <metaData title="Ballad of Booker T." author="Langston Hughes" published="06-01-1941"/>
+            <title draft="underline">BALLAD OF BOOKER T.</title>
+            <li>by</li>
+            <author>Langston Hughes</author>
+        </Intro>
+        <li>Booker T.</li>
+        <ballad refrain="hand">
+            <li>Was a practical <rhyme label="a">man.</rhyme></li>
+            <li>He said, Till the soil</li>
+            <li>And learn from the <rhyme label="a">land.</rhyme></li>
+            <stamp color="red" start="15" end="20" text="The Library of Congress" image="eagle"/>
+            <li>Let down your bucket</li>
+            <li>Where you are.</li>
+            <!-- Lines 15 and 16 come from Washington's famous 1895 speech in Atlanta, Georgia -->
+            <li>Your fate is here</li>
+            <li>And not afar.</li>
+            <li>To help yourself</li>
+            <!-- Stamp of The Library of Congress covers part of lines 15 through 20 -->
+            <!-- <stamp color="red" start="15" end="20" text="The Library of Congress" image="eagle"/> -->
+            <!-- Line 23 is an example of a self closing element -->
+            <!-- Ballad refrain from lines 12 through 21 with lines 62 through 68 -->
+        </ballad>
+        <li>And your fellow man,</li>
+        <li>Train your head,</li>
+        <li>Your heart, <emph draft="underline">and your hand.</emph></li>
+        <li>For smartness alone's</li>
+        <li>Surely not <rhyme label="b">meet—</rhyme></li>
+        <li>If you haven't at the same time</li>
+        <li>Got something to <rhyme label="b">eat.</rhyme></li>
+        <li>Thus at Tuskegee</li>
+        <!-- Washington founded Tuskegee Institute in 1881 -->
+        <li>He built a <rhyme label="c">school</rhyme></li>
+        <li>With book-learning there</li>
+        <li>And the workman's <rhyme label="c">tool.</rhyme></li>
+        <li>He started out</li>
+        <li>In a simple <rhyme label="d">way—</rhyme></li>
+        <li>For <rhyme label="d">yesterday</rhyme></li>
+        <li>Was <emph draft="underline">not</emph>
+            <rhyme label="d">today.</rhyme></li>
+        <li>Sometimes he had 0</li>
+        <li>Compromise in his <rhyme label="e">talk—</rhyme></li>
+        <li>For a man must crawl</li>
+        <li>Before he can <rhyme label="e">walk—</rhyme></li>
+        <li>And in Alabama in '85</li>
+        <li>A joker was lucky</li>
+        <li>To be alive.</li>
+        <!-- Lines 41, 42, 48, 49, and 50 are there to remind the reader that the South was a dangerous place for African Americans to protest racial segregation -->
+        <li>But Booker T.</li>
+        <li>Was nobody's <rhyme label="f">fool:</rhyme></li>
+        <li>You may carve a dream</li>
+        <li>With an humble <rhyme label="f">tool.</rhyme></li>
+        <li>The tallest tower</li>
+        <li>Can tumble <rhyme label="g">down</rhyme></li>
+        <li>If it be not rooted</li>
+        <li>In solid <rhyme label="g">ground.</rhyme></li>
+        <li>So, being a far-seeing</li>
+        <ballad refrain="hand">
+            <li>Practical man,</li>
+            <li>He said, Train your head,</li>
+            <li>Your heart, <emph draft="underline">and your hand.</emph></li>
+            <li>Your fate is here</li>
+            <li>And not afar,</li>
+            <li>So let down your bucket</li>
+            <li>Where you are.</li>
+        </ballad>
+        <signature>LANGSTON HUGHES</signature>
+        <!-- Signature extends over lines 73 through 76 -->
+        <signOff>
+            <li>Final Draft,</li>
+            <li>Hollow Hills Farm,</li>
+            <li>Monterey, California,</li>
+            <li>June 1, 1941.</li>
+        </signOff>
+        <metaData info="data">Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30
+            May–1 June 1941. (Langston Hughes Collection) Manuscript Division, Library of Congress,
+            Washington, D.C. </metaData>
+        <!-- I made comments on assignment XML-04 that pointed out specific lines, but in doing so, I forgot to update the numbers after adding other lines of code. I wonder if there's an easier way to do this. I saw another student put an attribute for each line to avoid this issue, but I can see that causing more problems. What if you need to add a line of code in the middle? You'd have to rewrite all the line attributes, which wouldn't be pleasant -->
+    </stanza>
+</root>
