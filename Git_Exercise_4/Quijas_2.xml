@@ -1,67 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root><!-- LW 09-17-2023: I "pretty printed" your code to make it more viewable. Also moved the metaData to the top in camelCase. Great work!-->
     <poem>
-    
-    <heading>Leaves</heading>
-<author who="Schwarts_L">Lloyd Schwartz</author>
-<year type="birth">1941 –</year>
-
- 
-
-<stanza num="1">
-<line num="1">Every <month>October</month> it becomes important, no, necessary</line>
-<line num="2">to see the <foliage>leaves</foliage> turning, to be surrounded</line>
-<line num="3">by <foliage>leaves</foliage> turning; it's not just the symbolism,</line>
-<line num="4">to confront in the death of the year your death,</line>
-<line num="5">one blazing farewell appearance, though the irony</line> 
-<line num="6">isn't lost on you that nature is most seductive</line>
-<line num="7">when it's about to die, flaunting the dazzle of its </line>
-<line num="8">incipient exit, an ending that at least so far </line>
-<line num="9">the effects of <primate>human</primate> progress (<impurity>pollution</impurity>, acid rain)</line>
-<line num="10">have not yet frightened you enough to make you believe</line>
-<line num="11">is real; that is, you know this ending is a deception</line>
-<line num="12">because of course nature is always renewing itself—</line>
-<line num="13">the <plant>trees</plant> don't die, they just pretend,</line>
-<line num="14">go out in style, and return in style: a new style.</line>
-</stanza>
-
-
-<stanza num="2">
-<line num="1">Is it deliberate how far they make you go</line>
-<line num="2">especially if you live in the city to get far </line>
-<line num="3">enough away from home to see not just <plant>trees</plant> </line>
-<line num="4">but only <plant>trees</plant>? The boring highways, roadsigns, high</line> 
-<line num="5">speeds, 10-axle trucks passing you as if they were </line>
-<line num="6">in an even greater hurry than you to look at <foliage>leaves</foliage>:</line>
-<line num="7">so you drive in terror for literal hours and it looks </line>
-<line num="8">like <weather>rain, or snow</weather>, but it's probably just clouds</line>
-<line num="9">(too cloudy to see any color?) and you wonder, </line>
-<line num="10">given the poverty of your memory, which road had the</line> 
-<line num="11">most color last year, but it doesn't matter since</line> 
-<line num="12">you're probably too late anyway, or too early—</line>
-<line num="13">whichever road you take will be the wrong one</line>
-<line num="14">and you've probably come all this way for nothing.</line>
-</stanza>
+        <metaData>
+            <patent>Copyright</patent> © <year>1992</year> by <author who="Schwartz,L">Lloyd
+                Schwartz</author>. From Goodnight, Gracie (<ucp>The University of Chicago Press</ucp>,
+            <year>1992</year>). Appears courtesy of the author.</metaData>
+        <heading>Leaves</heading>
+        <author who="Schwarts_L">Lloyd Schwartz</author>
+        <year type="birth">1941 –</year>
 
 
 
-<stanza num="3">
-<line num="1">You'll be driving along depressed when suddenly</line>
-<line num="2">a cloud will move and the sun will muscle through</line>
-<line num="3">and ignite the hills. It may not last. Probably</line>
-<line num="4">won't last. But for a moment the whole world</line>
-<line num="5">comes to. Wakes up. Proves it lives. It lives—</line>
-<line num="6">red, yellow, orange, brown, russet, ocher, vermilion,</line>
-<line num="7">gold. Flame and rust.Flame and rust, the permutations</line>
-<line num="8">of burning. You're on fire. Your eyes are on fire.</line>
-<line num="9">It won't last, you don't want it to last. You </line>
-<line num="10">can't stand any more. But you don't want it to stop. </line>
-<line num="11">It's what you've come for. It's what you'll</line>
-<line num="12">come back for. It won't stay with you, but you'll </line>
-<line num="13">remember that it felt like nothing else you've felt</line>
-<line num="14">or something you've felt that also didn't last.</line>
-    <!-- CML 09-17-2023: I like how you focused on marking up a lot of the setting stuff like plant ,trees, and humans.. it points out the important visual things for the reader -->
-</stanza>
-</poem>
-<metadata>
-<patent>Copyright</patent> © <year>1992</year> by <author who="Schwartz,L">Lloyd Schwartz</author>. From Goodnight, Gracie (<ucp>The University of Chicago Press</ucp>, <year>1992</year>). Appears courtesy of the author.</metadata></root>
+        <stanza num="1">
+            <line num="1">Every <month>October</month> it becomes important, no, necessary</line>
+            <line num="2">to see the <foliage>leaves</foliage> turning, to be surrounded</line>
+            <line num="3">by <foliage>leaves</foliage> turning; it's not just the symbolism,</line>
+            <line num="4">to confront in the death of the year your death,</line>
+            <line num="5">one blazing farewell appearance, though the irony</line>
+            <line num="6">isn't lost on you that nature is most seductive</line>
+            <line num="7">when it's about to die, flaunting the dazzle of its </line>
+            <line num="8">incipient exit, an ending that at least so far </line>
+            <line num="9">the effects of <primate>human</primate> progress
+                    (<impurity>pollution</impurity>, acid rain)</line>
+            <line num="10">have not yet frightened you enough to make you believe</line>
+            <line num="11">is real; that is, you know this ending is a deception</line>
+            <line num="12">because of course nature is always renewing itself—</line>
+            <line num="13">the <plant>trees</plant> don't die, they just pretend,</line>
+            <line num="14">go out in style, and return in style: a new style.</line>
+        </stanza>
+
+
+        <stanza num="2">
+            <line num="1">Is it deliberate how far they make you go</line>
+            <line num="2">especially if you live in the city to get far </line>
+            <line num="3">enough away from home to see not just <plant>trees</plant>
+            </line>
+            <line num="4">but only <plant>trees</plant>? The boring highways, roadsigns, high</line>
+            <line num="5">speeds, 10-axle trucks passing you as if they were </line>
+            <line num="6">in an even greater hurry than you to look at
+                <foliage>leaves</foliage>:</line>
+            <line num="7">so you drive in terror for literal hours and it looks </line>
+            <line num="8">like <weather>rain, or snow</weather>, but it's probably just
+                clouds</line>
+            <line num="9">(too cloudy to see any color?) and you wonder, </line>
+            <line num="10">given the poverty of your memory, which road had the</line>
+            <line num="11">most color last year, but it doesn't matter since</line>
+            <line num="12">you're probably too late anyway, or too early—</line>
+            <line num="13">whichever road you take will be the wrong one</line>
+            <line num="14">and you've probably come all this way for nothing.</line>
+        </stanza>
+
+
+
+        <stanza num="3">
+            <line num="1">You'll be driving along depressed when suddenly</line>
+            <line num="2">a cloud will move and the sun will muscle through</line>
+            <line num="3">and ignite the hills. It may not last. Probably</line>
+            <line num="4">won't last. But for a moment the whole world</line>
+            <line num="5">comes to. Wakes up. Proves it lives. It lives—</line>
+            <line num="6">red, yellow, orange, brown, russet, ocher, vermilion,</line>
+            <line num="7">gold. Flame and rust.Flame and rust, the permutations</line>
+            <line num="8">of burning. You're on fire. Your eyes are on fire.</line>
+            <line num="9">It won't last, you don't want it to last. You </line>
+            <line num="10">can't stand any more. But you don't want it to stop. </line>
+            <line num="11">It's what you've come for. It's what you'll</line>
+            <line num="12">come back for. It won't stay with you, but you'll </line>
+            <line num="13">remember that it felt like nothing else you've felt</line>
+            <line num="14">or something you've felt that also didn't last.</line>
+            <!-- CML 09-17-2023: I like how you focused on marking up a lot of the setting stuff like plant ,trees, and humans.. it points out the important visual things for the reader -->
+        </stanza>
+    </poem>
+</root>
