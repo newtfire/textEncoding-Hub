@@ -5,72 +5,70 @@
         <title>"Ballad of Booker T.</title>
         <author>Langston Hughes</author>
         <pubDate>1941-06-01</pubDate>
-        <stamp color="red" insignia="crest of the Library of Congress" outText="Library of Congress">Library of Congress, Manuscript division, covering lines 5-9</stamp>
+        <stamp color="red" insignia="crest of the Library of Congress" outText="Library of Congress"
+            >Library of Congress, Manuscript division, covering lines 5-9</stamp>
+        <!--maybe try using less attributes or combine them together to make the tag less complicated. this goes for everything else in the xml, try and write it shorter-charlie v-->
         <lib> Library of Virginia, <division>Education and Outreach Division</division></lib>
     </metadata>
-<!--I tried adding more about the stamp since I sort of ignored it for exercise 4-->
+    <!--I tried adding more about the stamp since I sort of ignored it for exercise 4-->
     <poem>
-    <heading>BALLAD OF BOOKER T.
-    by
-    Langston Hughes</heading>
-<line n="1">Booker T.</line>
-<line n="2">Was a practical man.</line>
-<line n="3">He said, Till the soil</line>
-<line n="4">And learn from the land.</line>
-<line n="5">Let down your bucket</line>
-<line n="6">Where you are.</line>
-<line n="7">Your fate is here</line>
-<line n="8">And not afar.</line>
-<message lines="5 to 8" meaning="he seems to be advising people to stop looking ahead for their fate and instead make of themselves that which they desire"/>
-<repetition lines="5 to 8" times="1"/>
-<line n="9">To help yourself</line>
-<line n="10">And your fellow man,</line>
-<line n="11">Train your head,</line>
-<line n="12">Your heart, and your hand.</line>
-<message lines="9 to 12" meaning="for slaves to fight against the injustices against them, they must help each other"/>
-<line n="13">For smartness alone's</line>
-<line n="14">Surely not meet—</line>
-<line n="15">If you haven't at the same time</line>
-<line n="16">Got something to eat.</line>
-<line n="17">Thus at Tuskegee</line>
-<line n="18">He built a school</line>
-<line n="19">With book-learning there</line>
-<line n="20">And the workman's tool.</line>
-<line n="21">He started out</line>
-<line n="22">In a simple way—</line>
-<line n="23">For yesterday</line>
-<line n="24">Was not today.</line>
-<line n="25">Sometimes he had</line>
-<line n="26">Compromise in his talk—</line>
-<line n="27">For a man must crawl</line>
-<line n="28">Before he can walk—</line>
-<line n="29"><history Alabama="slavery"/>And in Alabama in '85</line>
-<line n="30">A joker was lucky</line>
-<line n="31">To be alive.</line>
-<line n="32">But Booker T.</line>
-<line n="33">Was nobody's fool:</line>
-<line n="34">You may carve a dream</line>
-<line n="35">With an humble tool.</line>
-<line n="36">The tallest tower</line>
-<line n="37">Can tumble down</line>
-<line n="38">If it be not rooted</line>
-<line n="39">In solid ground.</line>
-<line n="40">So, being a far-seeing</line>
-<line n="41">Practical man,</line>
-<line n="42">He said, Train your head,</line>
-<line n="43">Your heart, and your hand.</line>
-<line n="44">Your fate is here</line>
-<line n="45">And not afar,</line>
-<line n="46">So let down your bucket</line>
-<line n="47">Where you are.</line>
-<repetition lines="44 to 47" times ="2"/>
-    <signature>LANGSTON HUGHES
-    Final Draft,
-    Hollow Hills Farm,
-    Monterey, California,
-    June 1, 1941.</signature></poem>
+        <heading>BALLAD OF BOOKER T. by Langston Hughes</heading>
+        <line n="1">Booker T.</line>
+        <line n="2">Was a practical man.</line>
+        <line n="3">He said, Till the soil</line>
+        <line n="4">And learn from the land.</line>
+        <line n="5">Let down your bucket</line>
+        <line n="6">Where you are.</line>
+        <line n="7">Your fate is here</line>
+        <line n="8">And not afar.</line>
+        <message lines="5 to 8"
+            meaning="he seems to be advising people to stop looking ahead for their fate and instead make of themselves that which they desire"/>
+        <repetition lines="5 to 8" times="1"/>
+        <line n="9">To help yourself</line>
+        <line n="10">And your fellow man,</line>
+        <line n="11">Train your head,</line>
+        <line n="12">Your heart, and your hand.</line>
+        <message lines="9 to 12"
+            meaning="for slaves to fight against the injustices against them, they must help each other"/>
+        <line n="13">For smartness alone's</line>
+        <line n="14">Surely not meet—</line>
+        <line n="15">If you haven't at the same time</line>
+        <line n="16">Got something to eat.</line>
+        <line n="17">Thus at Tuskegee</line>
+        <line n="18">He built a school</line>
+        <line n="19">With book-learning there</line>
+        <line n="20">And the workman's tool.</line>
+        <line n="21">He started out</line>
+        <line n="22">In a simple way—</line>
+        <line n="23">For yesterday</line>
+        <line n="24">Was not today.</line>
+        <line n="25">Sometimes he had</line>
+        <line n="26">Compromise in his talk—</line>
+        <line n="27">For a man must crawl</line>
+        <line n="28">Before he can walk—</line>
+        <line n="29"><history Alabama="slavery"/>And in Alabama in '85</line>
+        <line n="30">A joker was lucky</line>
+        <line n="31">To be alive.</line>
+        <line n="32">But Booker T.</line>
+        <line n="33">Was nobody's fool:</line>
+        <line n="34">You may carve a dream</line>
+        <line n="35">With an humble tool.</line>
+        <line n="36">The tallest tower</line>
+        <line n="37">Can tumble down</line>
+        <line n="38">If it be not rooted</line>
+        <line n="39">In solid ground.</line>
+        <line n="40">So, being a far-seeing</line>
+        <line n="41">Practical man,</line>
+        <line n="42">He said, Train your head,</line>
+        <line n="43">Your heart, and your hand.</line>
+        <line n="44">Your fate is here</line>
+        <line n="45">And not afar,</line>
+        <line n="46">So let down your bucket</line>
+        <line n="47">Where you are.</line>
+        <repetition lines="44 to 47" times="2"/>
+        <signature>LANGSTON HUGHES Final Draft, Hollow Hills Farm, Monterey, California, June 1,
+            1941.</signature></poem>
     <citation>Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.</citation>
-    (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C. 
-<!--I would've liked to use the web archive to help with this assignment but it wouldn't load on my computer. oops.-->
-<!--I initially thought I could use self-closing elements to mark the lines and normal element tags to mark other things of note, but I don't like how self-closing elements don't cause a line break when pretty-printed. Though, man, is it tedious to mark every line with "line".-->
+    (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C. <!--I would've liked to use the web archive to help with this assignment but it wouldn't load on my computer. oops.-->
+    <!--I initially thought I could use self-closing elements to mark the lines and normal element tags to mark other things of note, but I don't like how self-closing elements don't cause a line break when pretty-printed. Though, man, is it tedious to mark every line with "line".-->
 </root>
