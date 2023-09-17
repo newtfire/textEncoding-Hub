@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <title>Leaves</title>
+    <author>Lloyd Schwartz</author>
+    <life>1941 –</life>
+
+    <stanza n="1">1 
+        <fact>Every <month>October</month> it becomes important, no, necessary to see
+            the leaves <action>turning</action>, to be surrounded by leaves turning</fact>; it's not
+        just the <idea>symbolism</idea>, to <action>confront</action> in the death of the year your
+        death, one <temp>blazing</temp> farewell appearance, though the irony isn't lost on you that
+            <quote>nature is most seductive when it's about to <action>die</action></quote>,
+        flaunting the dazzle of its incipient exit, an ending that at least so <dist>far</dist> the
+        effects of human progress (pollution, acid rain) have not yet <action>frightened</action>
+        you enough to make you <action effects="real">believe</action> is real; that is, you know
+        this <idea considered="deception">ending</idea> is a deception because of course
+            <fact>nature is always renewing itself</fact>— the trees don't <action>die</action>,
+            <personification>they just <action>pretend</action>, go out in style</personification>,
+        and <action dest="new_style">return</action> in style: a new style.</stanza>
+    <!-- This basically represents the fact that the trees are about to change their leaves' color. -->
+
+    <stanza n="2">2 
+        Is it deliberate how <dist>far</dist> they make you go especially if you <action
+            location="city">live</action> in the city to get <dist away="home">far</dist> enough
+            <position dest="trees">away</position> from home to see not just trees but only trees?
+        The boring highways, roadsigns, high speeds, 10-axle trucks <action>passing</action> you as
+        if they were in an even greater <feeling>hurry</feeling> than you to <action>look</action>
+        at leaves: so you <action>drive</action> in <feeling>terror</feeling> for literal
+            <time>hours</time> and it looks like <weather>rain</weather>, or
+        <weather>snow</weather>, but it's probably just clouds (too <weather>cloudy</weather> to
+            <action>see</action> any color?) and you <action>wonder</action>, given the poverty of
+        your memory, which road had the most color last year, but it doesn't matter since you're
+        probably too late anyway, or too early— <quote>whichever road you <action>take</action> will
+            be the wrong one and you've probably <action dest="nothing">come</action> all this way
+            for nothing</quote>.</stanza>
+    <!-- This reminds me of the day my parents dropped me off at Behrend. -->
+
+    <stanza n="3">3 
+        You'll be <action>driving</action> along <feeling>depressed</feeling> when
+        suddenly a cloud will <action>move</action> and the sun will <action dest="hills"
+            >muscle</action> through and <action>ignite</action> the hills. It may not last.
+        Probably won't last. But for a moment the whole world comes to. <action>Wakes</action> up.
+            <action world="lives">Proves</action> it lives. It lives— <colors>red, yellow, orange,
+            brown, russet, ocher, vermilion, gold</colors>. Flame and rust. Flame and rust, the
+        permutations of burning. <figure_of_speech> You're on fire. Your <body_part desc="on_fire"
+                >eyes</body_part> are on fire</figure_of_speech>. It won't last, you don't want it
+        to last. You can't <action>stand</action> any more. But you don't <action>want</action> it
+        to stop. It's what you've <action>come</action> for. It's what you'll <action>come
+            back</action> for. It won't <action>stay</action> with you, but you'll
+            <action>remember</action> that it felt like nothing else you've felt or something you've
+        felt that also didn't last.</stanza>
+    <!-- I could picture a gloomy, cloudy sky eventually turning clear later into the day! What a beautiful poem! -->
+</root>
