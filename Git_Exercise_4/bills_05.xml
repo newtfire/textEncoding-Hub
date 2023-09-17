@@ -20,6 +20,7 @@
             <person xml:id="b.w">
                 <firstName>Booker</firstName>
                 <middleName>Taliaferro</middleName>
+                <!-- I like how you also included Booker's middle name in the metadata! -->
                 <lastName>Washingtom</lastName>
                 <info>
                     <birthYear>1856</birthYear>
