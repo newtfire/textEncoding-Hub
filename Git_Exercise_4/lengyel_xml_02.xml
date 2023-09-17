@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+    <metadata>
+        <title of="poem">Leaves</title>
+        <person who="author">
+            <name who="Lloyd Schwartz">
+                <firstName>Lloyd</firstName>
+                <lastName>Schwartz</lastName>
+            </name>
+        </person>
+        <date of="authors birth">
+            <year of="1941">1941</year>
+        </date>
+        <copyright>Copyright © <date of="publishing"><year of="1992">1992</year></date>
+            <holder of="copyright">by Lloyd Schwartz.</holder>
+            <source>From Goodnight, Gracie (The University of Chicago Press, 1992).</source> Appears
+            courtesy of the author.</copyright>
+    </metadata>
+
+    <!--start of stanza 1-->
+
+    <stanza n="1">
+        <num of="stanza">1</num>
+
+        <line>Every <date type="month"><month type="october">October</month></date> it becomes
+            important, no, necessary</line>
+        <line>to see the leaves turning, to be surrounded</line>
+        <line>by leaves turning; it's not just the symbolism,</line>
+        <line>to confront in the death of the year your death,</line>
+        <line>one blazing farewell appearance, though the irony </line>
+        <line>isn't lost on you that nature is most seductive</line>
+        <line>when it's about to die, flaunting the dazzle of its</line>
+        <line>incipient exit, an ending that at least so far </line>
+        <line>the effects of human progress (pollution, acid rain)</line>
+        <line>have not yet frightened you enough to make you believe</line>
+        <line>is real; that is, you know this ending is a deception</line>
+        <line>because of course nature is always renewing itself—</line>
+        <line>the trees don't die, they just pretend,</line>
+        <line>go out in style, and return in style: a new style.</line>
+    </stanza>
+
+
+    <!--start of stanza 2-->
+
+    <stanza n="2">
+        <num of="stanza">2 </num>
+
+        <line>Is it deliberate how far they make you go</line>
+        <line>especially if you live in the city to get far </line>
+        <line>enough away from home to see not just trees </line>
+        <line>but only trees? The boring highways, roadsigns, high </line>
+        <line>speeds, 10-axle trucks passing you as if they were </line>
+        <line>in an even greater hurry than you to look at leaves:</line>
+        <line>so you drive in terror for literal hours and it looks </line>
+        <line>like rain, or snow, but it's probably just clouds</line>
+        <line><self-thought who="author">(too cloudy to see any color?)</self-thought> and you
+            wonder,</line>
+        <line>given the poverty of your memory, which road had the </line>
+        <line>most color last year, but it doesn't matter since </line>
+        <line>you're probably too late anyway, or too early—</line>
+        <line>whichever road you take will be the wrong one</line>
+        <line>and you've probably come all this way for nothing.</line>
+    </stanza>
+
+
+
+    <!--start of stanza 3-->
+
+    <stanza n="3">
+        <num of="stanza">3</num>
+
+        <line>You'll be driving along depressed when suddenly</line>
+        <line>a cloud will move and the sun will muscle through</line>
+        <line>and ignite the hills. It may not last. Probably</line>
+        <line>won't last. But for a moment the whole world</line>
+        <line>comes to. Wakes up. Proves it lives. It lives—</line>
+        <line>red, yellow, orange, brown, russet, ocher, vermilion,</line>
+        <line>gold. Flame and rust. Flame and rust, the permutations</line>
+        <line>of burning. You're on fire. Your eyes are on fire.</line>
+        <line>It won't last, you don't want it to last. You</line>
+        <line>can't stand any more. But you don't want it to stop.</line>
+        <line>It's what you've come for. It's what you'll</line>
+        <line>come back for. It won't stay with you, but you'll</line>
+        <line>remember that it felt like nothing else you've felt</line>
+        <line>or something you've felt that also didn't last.</line>
+    </stanza>
+    <!--end of poem-->
+</poem>
