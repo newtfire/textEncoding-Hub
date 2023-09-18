@@ -5,6 +5,7 @@
     <!-- The title, BALLAD OF BOOKER T., is underlined on the actual paper -->
     <poem>
 <line1/>Booker T. 
+<!--        this looks like a very good xml document! only change i would do is force the line elements have a numbered attribute - nlh 2023-09-18-->
 <line2/>Was a practical man. 
 <line3/>He said, Till the soil 
 <line4/>And learn from the land.
