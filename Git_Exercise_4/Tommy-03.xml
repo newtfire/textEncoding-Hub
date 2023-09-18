@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Key: PoI - Place of Interest. CoI - Character of Interest.-->
 <root>
+    <!-- herschell - I took a look over the file. Good job! -->
     <Letter L="1">[Letter from <CoI>Marian Baldwin</CoI>, June 30, 1917] On Board La Touraine,
             <date>June 30th, 1917.</date><!-- Royal Navy destroyer HMS Cheerful struck a mine and sank in the Atlantic Ocean with the loss of 40 of her 62 crew on this day in 1917 -->
         <Para p="1">Even now that we are out of sight of land, it seems impossible that I am
