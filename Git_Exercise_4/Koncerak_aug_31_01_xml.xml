@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <intro><title>BALLAD OF BOOKER T.</title> by <author>Langston Hughes</author></intro>\ <!--I removed the repeated title and author, as it's not in the original poem-->
+    <!-- The title, BALLAD OF BOOKER T., is underlined on the actual paper -->
+    <poem>
+<line1/>Booker T. 
+<!--        this looks like a very good xml document! only change i would do is force the line elements have a numbered attribute - nlh 2023-09-18-->
+<line2/>Was a practical man. 
+<line3/>He said, Till the soil 
+<line4/>And learn from the land.
+<line5/>Let down your bucket <stamp><context speech="see-comment"> <device ryhme="ABA"/>
+<line6/>Where you are.</context>
+<!-- These two lines come from Washington's famous 1895 speech in Atlanta, Georgia, at the Cotton States and International Exposition -->
+<line7/>Your fate is here 
+<line8/>And not afar.<device/> 
+<line9/>To help yourself</stamp>
+<!--On the lines between the "stamp" element, there is a stamp that says "The Library f Congress"-->
+<line10/><device ryhme="ABA">And your fellow man, 
+<line11/>Train your head, 
+<line12/>Your heart, and your hand.</device>
+<!--It's a near rhyme but it's good enough--> 
+<!--In line 12, "and your hand" is underlined-->
+<line13/>For smartness alone's <device ryhme="ABA">
+<line14/>Surely not meet— 
+<line15/>If you haven't at the same time 
+<line16/>Got something to eat.</device> 
+<line17/>Thus at Tuskegee <device rhyme="ABA">
+<line18/>He built a school 
+<line19/>With book-learning there 
+<line20/>And the workman's tool.</device> 
+<line21/>He started out <device ryhme="AA"/>
+<line22/><device ryhme="AAA">In a simple way— <context author="see-comment">
+<line23/>For yesterday<device/> 
+<line24/>Was not today.</context></device>
+<!--In these lines he [Hughes] reminds the reader that the South late in nineteenth century was a dangerous place for an African American to protest racial segregation or appear to question white supremacy-->
+<!--In line 24, "not" is underlined-->
+<line25/>Sometimes he had <device ryhme="ABA">
+<line26/>Compromise in his talk— 
+<line27/>For a man must crawl 
+<line28/>Before he can walk—</device>
+<line29/><device ryhme="ABA">And in Alabama in '85 
+<line30/>A joker was lucky 
+<line31/>To be alive.</device> 
+<line32/>But Booker T. <device ryhme="ABA">
+<line33/>Was nobody's fool: 
+<line34/>You may carve a dream 
+<line35/>With an humble tool.
+<line36/></device> The tallest tower 
+<line37/><device ryhme="ABA">Can tumble down 
+<line38/>If it be not rooted
+<line39/>In solid ground.</device>
+<!--Another near rhyme but it flows--> 
+<line40/>So, being a far-seeing <device ryhme="ABA">
+<line41/>Practical man, 
+<line42/>He said, Train your head, 
+<line43/>Your heart, and your hand.</device>
+<!--Once again it's a near rhyme--> 
+<!--In line 43 "and your hand" is underlined-->
+<line44/>Your fate is here <device ryhme="ABA">
+<line45/>And not afar, 
+<line46/>So let down your bucket 
+<line47/>Where you are</device>.</poem>
+<sign>LANGSTON HUGHES</sign>
+<!-- This representes his signature, which spans across half of the length of the paper on the bottom and covers up the following text-->
+    Final Draft, <location>Hollow Hills Farm, Monterey, California,</location>
+    <date exact="1941-06-01">June 1, 1941</date>. <source>Citation: Drafts of Langston Hughes's poem
+        "Ballad of Booker T.," 30 May–1 June 1941. (Langston Hughes Collection) Manuscript Division,
+        Library of Congress, Washington, D.C</source></root>
+<!-- After pretty print, the poem loses the structre it once had, so I didn't do that-->
