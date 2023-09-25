@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <metadata>
+        <title>Julia Child’s Berry Clafoutis</title>
+        <author id="JC">Julia Child</author>
+        <editor id="JM">Julia Moskin</editor>
+        <source url="https://cooking.nytimes.com/recipes/12688-julia-childs-berry-clafoutis">New
+            York Times Cooking</source>
+        <time dur="PT1H">1 hour</time>
+        <yield>Yield: 6 to 8 servings</yield>
+    </metadata>
+    <recipe>
+        <ingList>
+            <heading>Ingredients</heading>
+
+
+            <ing id="btr">Butter for pan</ing>
+            <ing id="mlk" meas="1.25" unit="cup">1 and 1/4 cups whole or 2 percent milk</ing>
+            <ing id="g-sug" meas=".67" unit="cup">2/3 cup granulated sugar, divided</ing>
+            <ing id="egg" meas="3">3 eggs</ing>
+            <ing id="van" meas="1" unit="T">1 tablespoon vanilla extract</ing>
+            <ing id="slt" meas=".125" unit="t">1/8 teaspoon salt</ing>
+            <ing id="flr" meas="1" unit="cup">1 cup flour</ing>
+            <ing id="berry" meas="1" unit="pint">1 pint <alt meas="2" unit="cup">(2 generous
+                    cups)</alt> blackberries or blueberries, rinsed and well drained</ing>
+            <ing id="p-sug">Powdered sugar in a shaker</ing>
+
+        </ingList>
+        <prep>
+            <heading>Preparation</heading>
+
+            <step n="1"><equip id="oven">Heat oven to <temp meas="350" unit="F">350
+                    degrees</temp></equip>. Lightly <ingUse ref="btr">butter</ingUse> a <equip
+                    id="bkdsh">medium-size flameproof baking dish <size depth="1.5" unit="inch">at
+                        least 1 1/2 inches deep</size></equip>.</step>
+            <step n="2">Place the <combine ref="mlk g-sug egg van slt flr">milk, <ingUse ref="g-sug"
+                        meas=".33" unit="cup">1/3 cup granulated sugar</ingUse>, eggs, vanilla, salt
+                    and flour</combine> in a <equip id="blndr">blender. Blend at <setting>top
+                        speed</setting> until smooth and frothy, <time dur="PT1M">about 1
+                        minute</time>.</equip></step>
+            <step n="3"><equipUse ref="bkdsh">Pour a 1/4-inch layer of batter in the baking
+                    dish</equipUse>. Turn on a <equip id="stv">stove burner to low and <equipUse
+                        ref="bkdsh">set dish on top for a minute or two, until a film of batter has
+                        set in the bottom of the dish. Remove from heat</equipUse></equip>.</step>
+
+
+            <step n="4">
+                <equipUse ref="bkdsh">Spread <ingUse ref="berry">berries</ingUse> over the batter
+                    and sprinkle on the remaining <ingUse ref="g-sug" meas=".33" unit="cup">1/3 cup
+                        granulated sugar</ingUse>. Pour on the rest of the batter and smooth with
+                        <equip id="spoon">the back of a spoon</equip>. <equipUse ref="oven">Place in
+                        the center of the oven and bake <time dur="PT50M">about 50 minutes</time>,
+                        until top is puffed and browned and a tester plunged into its center comes
+                        out clean.</equipUse></equipUse>
+            </step>
+            <step n="5">Sprinkle with <ingUse ref="p-sug">powdered sugar</ingUse> just before
+                serving. (Clafoutis need not be served hot, but should still be warm. It will sink
+                slightly as it cools.)</step>
+        </prep>
+    </recipe>
+</xml>
