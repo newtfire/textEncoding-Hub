@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title>TEI-Starter-Sample-Behrend, <date when="2022-10-12">October 12, 2022</date></title>
-        <author>Elisa Beshero-Bondar, date</author>
+        <author>Elisa Beshero-Bondar</author>
 <!-- 2022-10-12 ebb: This is an ODD that I started using the TEI Roma tool on 12 October 2022.  
         You can continue working with it and customizing the selection of modules, elements, and attributes by uploading this file the tool site: 
         https://romabeta.tei-c.org/
@@ -66,12 +66,9 @@
         <moduleRef n="02" key="header"/>
         <moduleRef n="03" key="core" except="analytic cb divGen email headItem headLabel index meeting monogr rb relatedItem rt ruby sp speaker stage"/>
         <moduleRef n="04" key="textstructure"/>
-        
+     
         <moduleRef n="06" key="verse"/>
-        
-        
-        
-        
+
         <moduleRef n="10" key="msdescription"/>
         <moduleRef n="11" key="transcr" except="sourceDoc"/>
         
@@ -79,10 +76,7 @@
         <moduleRef n="14" key="figures"/>
         
         <moduleRef n="16" key="linking"/>
-        
-        
-        
-        
+     
       </schemaSpec>
     </body>
   </text>
