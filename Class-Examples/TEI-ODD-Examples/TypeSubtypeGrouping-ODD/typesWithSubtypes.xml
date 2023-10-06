@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="out/contextDependentAttValues.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/contextDependentAttValues.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Constraining subtypes with types: Personography Occupation elements example</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="Jameson_Anna" sex="f">
+               <persName>Anna Jameson</persName>
+               <persName>
+                  <forename>Anna</forename>
+                  <forename>Brownell</forename>
+                  <surname type="paternal">Murphy</surname>
+                  <surname type="married">Jameson</surname>
+               </persName>
+               <birth when="1794-05-17">
+                  <placeName>Dublin, Ireland</placeName>
+               </birth>
+               <death when="1860-03-17">
+                  <placeName>Ealing, London, England</placeName>
+               </death>
+               <occupation type="literary" subtype="autobiographer"/>
+               <occupation type="literary" subtype="essayist"/>
+               <occupation type="scholar"/>
+               <occupation type="educator" subtype="governess"/>
+               <occupation type="explorer" subtype="traveller"/>
+               <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell
+                     Mitford</persName> in <date when="1838">1838</date> and also a friend of
+                     <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.Travel writer
+                  on Canada and continental Europe, Jameson also wrote on women, social reform,
+                  Shakespeare's heroines, and German literature and culture. Author of a
+                  groundbreaking series of guidebooks on art, <title level="m">Sacred and Legendary
+                     Art</title>, and thus considered the first British art historian. </note>
+               <note>
+                  <ref target="http://viaf.org/viaf/44469064"/>
+               </note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
