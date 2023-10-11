@@ -52,6 +52,11 @@
           <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
         </application>
       </appInfo>
+      <appInfo>
+        <application ident="RomaJS" version="1.0.0" when="2023-10-11T15:55:05.586Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
     </encodingDesc>
   </teiHeader>
   <text>
@@ -61,16 +66,17 @@
         <moduleRef key="header"/>
         <moduleRef key="linking"/>
         <moduleRef key="core"/>
+        <moduleRef key="corpus" include="particDesc"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"
           except="argument back byline closer div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText front group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
         <moduleRef key="namesdates"
-          except="addName affiliation langKnowledge langKnown listEvent listNym listObject listOrg nationality nym object objectIdentifier objectName occupation offset persona region residence roleName settlement sex socecStatus state terrain trait"/>
+          except="affiliation langKnowledge langKnown listEvent listNym listObject nationality nym object objectIdentifier objectName occupation offset persona region residence settlement sex socecStatus state terrain trait"/>
         <moduleRef key="transcr"
           except="addSpan am ex facsimile line listTranspose path redo restore retrace secl sourceDoc subst substJoin surface surfaceGrp surplus transpose undo zone"/>
         <moduleRef key="figures"/>
         <moduleRef key="msdescription"
-          except="accMat acquisition additional altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation height heraldry history incipit institution layout layoutDesc msItemStruct msName msPart musicNotation objectDesc objectType provenance recordHist repository rubric scriptDesc seal sealDesc secFol signatures stamp summary support supportDesc surrogates typeDesc typeNote watermark width"/>
+          except="accMat acquisition additional altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation height heraldry history incipit institution layout layoutDesc msItemStruct msName msPart musicNotation objectDesc objectType provenance recordHist rubric scriptDesc seal sealDesc secFol signatures stamp summary support supportDesc surrogates typeDesc typeNote watermark width"/>
         <elementSpec ident="div" mode="change">
           <attList>
             <attDef ident="change" mode="delete"/>
@@ -158,6 +164,10 @@
                 </valItem>
                 <valItem mode="add" ident="#EB">
                   <desc versionDate="2023-10-11" xml:lang="en">Ernst Behrend</desc>
+                </valItem>
+                <valItem mode="add" ident="#RC">
+                  <desc versionDate="2023-10-11" xml:lang="en">Reece Cullen, student from the future
+                    who gets in time machine and travels to 1909.</desc>
                 </valItem>
               </valList>
             </attDef>

@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-10-11T12:18:42Z. .
+Schema generated from ODD source 2023-10-11T16:02:46Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -2488,6 +2488,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.listLike">
       <choice>
          <ref name="tei_list"/>
+         <ref name="tei_listOrg"/>
          <ref name="tei_listPerson"/>
          <ref name="tei_listPlace"/>
          <ref name="tei_listRelation"/>
@@ -2497,6 +2498,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.listLike_alternation">
       <choice>
          <ref name="tei_list"/>
+         <ref name="tei_listOrg"/>
          <ref name="tei_listPerson"/>
          <ref name="tei_listPlace"/>
          <ref name="tei_listRelation"/>
@@ -2505,6 +2507,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    </define>
    <define name="tei_model.listLike_sequence">
       <ref name="tei_list"/>
+      <ref name="tei_listOrg"/>
       <ref name="tei_listPerson"/>
       <ref name="tei_listPlace"/>
       <ref name="tei_listRelation"/>
@@ -2513,6 +2516,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.listLike_sequenceOptional">
       <optional>
          <ref name="tei_list"/>
+      </optional>
+      <optional>
+         <ref name="tei_listOrg"/>
       </optional>
       <optional>
          <ref name="tei_listPerson"/>
@@ -2532,6 +2538,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_list"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_listOrg"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_listPerson"/>
       </zeroOrMore>
       <zeroOrMore>
@@ -2547,6 +2556,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.listLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_list"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_listOrg"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_listPerson"/>
@@ -2859,6 +2871,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.orgPart">
       <choice>
          <ref name="tei_model.eventLike"/>
+         <ref name="tei_listOrg"/>
          <ref name="tei_listPerson"/>
          <ref name="tei_listPlace"/>
       </choice>
@@ -3349,6 +3362,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_textClass"/>
          <ref name="tei_calendarDesc"/>
          <ref name="tei_correspDesc"/>
+         <ref name="tei_particDesc"/>
          <ref name="tei_handNotes"/>
       </choice>
    </define>
@@ -7434,6 +7448,26 @@ You must supply at least two values for @target on <name/>
          <empty/>
       </element>
    </define>
+   <define name="tei_particDesc">
+      <element name="particDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
+         <choice>
+            <oneOrMore>
+               <ref name="tei_model.pLike"/>
+            </oneOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="tei_model.personLike"/>
+                  <ref name="tei_listPerson"/>
+                  <ref name="tei_listOrg"/>
+               </choice>
+            </oneOrMore>
+         </choice>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.declarable.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_TEI">
       <element name="TEI">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
@@ -7831,6 +7865,8 @@ Suggested values include: </a:documentation>
          <ref name="tei_forename"/>
          <ref name="tei_genName"/>
          <ref name="tei_nameLink"/>
+         <ref name="tei_addName"/>
+         <ref name="tei_roleName"/>
          <ref name="tei_persPronouns"/>
       </choice>
    </define>
@@ -7840,6 +7876,8 @@ Suggested values include: </a:documentation>
          <ref name="tei_forename"/>
          <ref name="tei_genName"/>
          <ref name="tei_nameLink"/>
+         <ref name="tei_addName"/>
+         <ref name="tei_roleName"/>
          <ref name="tei_persPronouns"/>
       </choice>
    </define>
@@ -7848,6 +7886,8 @@ Suggested values include: </a:documentation>
       <ref name="tei_forename"/>
       <ref name="tei_genName"/>
       <ref name="tei_nameLink"/>
+      <ref name="tei_addName"/>
+      <ref name="tei_roleName"/>
       <ref name="tei_persPronouns"/>
    </define>
    <define name="tei_model.persNamePart_sequenceOptional">
@@ -7862,6 +7902,12 @@ Suggested values include: </a:documentation>
       </optional>
       <optional>
          <ref name="tei_nameLink"/>
+      </optional>
+      <optional>
+         <ref name="tei_addName"/>
+      </optional>
+      <optional>
+         <ref name="tei_roleName"/>
       </optional>
       <optional>
          <ref name="tei_persPronouns"/>
@@ -7881,6 +7927,12 @@ Suggested values include: </a:documentation>
          <ref name="tei_nameLink"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_addName"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_roleName"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_persPronouns"/>
       </zeroOrMore>
    </define>
@@ -7896,6 +7948,12 @@ Suggested values include: </a:documentation>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_nameLink"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_addName"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_roleName"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_persPronouns"/>
@@ -8036,7 +8094,7 @@ Suggested values include: </a:documentation>
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
-Suggested values include: 1] #MB; 2] #SP; 3] #MW; 4] #EB</a:documentation>
+Suggested values include: 1] #MB; 2] #SP; 3] #MW; 4] #EB; 5] #RC</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -8048,6 +8106,8 @@ Suggested values include: 1] #MB; 2] #SP; 3] #MW; 4] #EB</a:documentation>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mr. Weir</a:documentation>
                         <value>#EB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ernst Behrend</a:documentation>
+                        <value>#RC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Reece Cullen, student from the future who gets in time machine and travels to 1909.</a:documentation>
                         <data type="anyURI">
                            <param name="pattern">\S+</param>
                         </data>
@@ -8094,6 +8154,26 @@ Suggested values include: 1] #MB; 2] #SP; 3] #MW; 4] #EB</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_addName">
+      <element name="addName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_roleName">
+      <element name="roleName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
@@ -8373,6 +8453,46 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
          <text/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_listOrg">
+      <element name="listOrg">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of organizations) contains a list of elements, each of which provides information about an identifiable organization. [13.2.2. Organizational Names]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.headLike"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_desc"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_relation"/>
+                  <ref name="tei_listRelation"/>
+               </choice>
+            </zeroOrMore>
+            <oneOrMore>
+               <group>
+                  <oneOrMore>
+                     <choice>
+                        <ref name="tei_org"/>
+                        <ref name="tei_listOrg"/>
+                     </choice>
+                  </oneOrMore>
+                  <zeroOrMore>
+                     <choice>
+                        <ref name="tei_relation"/>
+                        <ref name="tei_listRelation"/>
+                     </choice>
+                  </zeroOrMore>
+               </group>
+            </oneOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.declarable.attributes"/>
+         <ref name="tei_att.sortable.attributes"/>
          <empty/>
       </element>
    </define>
@@ -9548,6 +9668,9 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
                <optional>
                   <ref name="tei_geogName"/>
                </optional>
+               <optional>
+                  <ref name="tei_repository"/>
+               </optional>
                <zeroOrMore>
                   <ref name="tei_collection"/>
                </zeroOrMore>
@@ -9567,6 +9690,15 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
             </rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_repository">
+      <element name="repository">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(repository) contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. [10.4. The Manuscript Identifier]</a:documentation>
+         <ref name="tei_macro.phraseSeq.limited"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.naming.attributes"/>
          <empty/>
       </element>
    </define>
