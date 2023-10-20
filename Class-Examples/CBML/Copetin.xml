@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               COPETIN 
+            </title>        
+            <author>Ernesto Franco</author>            
+         </titleStmt>
+         <publicationStmt>
+            <publisher> El Tiempo? </publisher>
+            <pubPlace>Colombia</pubPlace>
+            <date> unKnown </date>
+            <authority>Unknown</authority>
+            <availability status="restricted">  
+               <p>Available for academic research purposes only.</p> 
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Scanned and put online by XXXXXXXXX </note>
+         </notesStmt>
+         <sourceDesc>
+            <p>XXXXXXXXXX </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <namespace name="http://www.cbml.org/ns/1.0">
+              <tagUsage gi="cbml:panel"></tagUsage>
+              <tagUsage gi="cbml:caption"></tagUsage>
+           </namespace>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>     
+     <body>
+           <div type="panelGrp" xml:id="eg_0001">
+              <cbml:panel n="1" characters="#anon_boy #copetin">
+                 <cbml:caption>                    
+                    <title rendition="#b #red #large #vertical">COPETIN  
+                    </title>
+                    <fw type="sig" place="lower-left">
+                       POR  <lb/>
+                       ERNESTO  <lb/>
+                       FRANCO
+                    </fw>
+                 </cbml:caption>
+                 <sound> rendition="#b #large" GGRRRRRRRR </sound>
+                 <sound> @#*%#@ </sound>
+                 <note type="panelDesc"> Copetin and Boy are sleeping on the street, covered
+                    by newspapers. Boy snores loudly. Copetin has symbols of grumpiness over
+                    his head.               
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="2" characters="#anon_boy #copetin">
+                 <sound> rendition="#b #large" GRRRRR </sound>
+                 <cbml:balloon type="thought" who="#copetin"> 
+                    ¡HUY  <lb/>
+                    QUE DES-  <lb/>
+                    GRACIA <lb/>
+                    TAN TE- <lb/>
+                    RRIBLE!                    
+                 </cbml:balloon>
+                 <note type="panelDesc"> Copetin is awake, clearly disturbed by
+                    the boy's snoring. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="3" characters="#anon_boy #copetin">
+                 <cbml:balloon type="speech" who="#copetin">   
+                    ¡ESTE CHINO DES- <lb/>
+                    GRACIAO NO ME HA <lb/>
+                    “DEJAO” DORMIR NI <lb/>
+                    UN SEGUNDO CON <lb/>
+                    SUS MALDITOS RON- <lb/>
+                    QUIDOS!                    
+                 </cbml:balloon>      
+                 <note type="panelDesc"> Copetin is sitting up, clearly very disturbed by
+                    the boy's snoring. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="4" characters="#anon_boy #copetin">              
+              <cbml:balloon rendition="#jaggies" type="speech" who="#copetin">
+                 ¡DESPERTATE SO  <lb/>
+                 ‘DESGRACIAO’ QU’ES-  <lb/>
+                 TAS RONCANDO CO-  <lb/>
+                 MUN CONGRESIS-  <lb/>
+                 TA!                 
+              </cbml:balloon>              
+              <note type="panelDesc"> MCU of Copetin's head as he pokes the boy and yells
+                 at him to wake up. 
+              </note> 
+           </cbml:panel>
+              <cbml:panel n="5" characters="#anon_boy #copetin">
+              <cbml:balloon type="speech" who="#anon_boy"> 
+                 QU’QUE QUIE-  <lb/>
+                 RES COPE?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#copetin">
+                 !QU’ESTAS RON-  <lb/>
+                 CANDO MUCHO  <lb/>
+                 Y COMO NO TE CALLES TE VOY   <lb/>
+                 A RAJAR LA ‘MULA’ OYES?      
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral MCU of boy's head and Copetin speaking. 
+              </note>           
+           </cbml:panel>       
+              <cbml:panel n="6" characters="#anon_boy">
+              <cbml:balloon type="speech" who="#anon_boy"> 
+                 ¡PPERO COPE,  <lb/>
+                 SI YO NO HE  <lb/>
+                 ‘PEGAO’ LOS OJOS EN ‘TUA’  <lb/>
+                 LA #@# NOCHE!                 
+              </cbml:balloon>                    
+              <note type="panelDesc"> Lateral MCU of boy's head as he speaks to Copetin.  and books.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#copetin">
+              <cbml:balloon rendition="#jaggies" who="#copetin"> 
+                 ¡LO QUE “NUÁS” “PE-  <lb/>
+                 GAO” ES ESA COCHI-  <lb/>
+                 NA JETA! AHORA  <lb/>
+                 DUERMETE “CALLAO”!               
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of Copetin as he speaks loudly.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="8" characters="#anon_boy #copetin">
+              <cbml:caption who="#narrator"> 
+                 Y AL MOMENTICO…
+              </cbml:caption>
+              <sound> rendition="#b #large" GRRRRRRRRRR </sound>
+              <sound> *#@#   <lb/>
+                     #@#           
+              </sound>   
+              <note type="panelDesc"> WS of the two boys sleeping on the street. Boy is
+                 snoring, and Copetin is grumbling about it.
+              </note>                           
+           </cbml:panel>
+           <cbml:panel n="9" characters="#copetin">
+              <cbml:balloon type="thought" who="#copetin"> 
+                 ¡CARAY, SE  <lb/>
+                 M’ESTÁ OCU-  <lb/>
+                 RRIENDO U-  <lb/>
+                 NA IDEOTA  <lb/>
+                 Y LA “MA-  <lb/>
+                 CHA”!                 
+              </cbml:balloon>                         
+              <note type="panelDesc"> MCU of Copetin sitting up and scratching the back of his head
+                 with his right hand.                  
+              </note>              
+           </cbml:panel>
+           <cbml:panel n="10" characters="#copetin">
+              <cbml:balloon type="thought" who="#copetin"> 
+                 ¡LE VOY A ME-
+                 TER ESTA SIRE-  <lb/>
+                 NA QUE ME RO-  <lb/>
+                 BE’N EL LEY  <lb/>
+                 EN LA JETA  <lb/>
+                 Y… JA JA JE  <lb/>
+                 JE E E E…!                   
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral MCU of Copetin sitting up and holding
+                 a siren in his right hand as he grins in delight. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="11" characters="#sleepers #anon_woman">              
+              <cbml:balloon rendition="#jaggies" type="speech" who="#sleepers">
+                 HUY
+           </cbml:balloon>  
+              <sound rendition="#b #large"> 
+                 AAAAEEEEIIIOO
+              </sound>   
+              <note type="panelDesc"> EWS shows loud siren noise coming from the background
+                 into the night and startling sleepers in buildings, anonymous woman on the street, and
+                 passengers inside a car.   
+              </note>            
+           </cbml:panel>
+           <cbml:panel n="12" characters="#anon_boy">
+              <sound rendition="#large"> 
+                 EEEEIIIIIIIIOOOOUUUUU
+              </sound>
+              <cbml:balloon rendition="#b #large #center #red" type="feeling" who="#anon_boy">  
+                  ?
+              </cbml:balloon>              
+              <note type="panelDesc"> MCU of anonymous boy sitting up to find himself with
+                 a loud noise-making siren between his lips. He looks puzzled. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="13" characters="#policeman #anon_boy">
+              <cbml:balloon rendition="jaggies" type="speech" who="#policeman">  
+                 ¡CON QUE TU ERES  <lb/>
+                 EL GRACIOSO! VAMOS AL PERMANENTE POR  <lb/>
+                 PERTURBAR LA PAZ  <lb/>
+                 DEL BARRIO!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#anon_boy">
+                 P.PERO  <lb/>
+                 Y.YO …NO  <lb/>
+                 XX                
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral WS shows silhouette of Policeman as he lifts
+                 boy up in the air on the right of the frame. Boy looks very small and 
+                 frightened. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="14" characters="#copetin">
+              <cbml:balloon type="thought" who="#copetin"> 
+                 ¡AHORA LES V’A  <lb/>
+                 TOCAR EL TUR-  <lb/>
+                 NO A LOS PO-  <lb/>
+                 BRES DETENI-  <lb/>
+                 DOS DEL PERMA-  <lb/>
+                 NENTE!
+              </cbml:balloon>
+           <fw type="sig" place="lower-right">
+              FRANCO
+           </fw>
+              <note type="panelDesc"> WS shows Copetin calmly lying on his back on the ground,
+                 by himself, under sheeets of newspaper. 
+              </note> 
+           </cbml:panel> 
+        </div>
+        <pb/>    
+      </body>
+      </text>
+</TEI>
