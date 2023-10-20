@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Testing ODD for Constraining subtype and type attributes</title>
+            <author>Elisa Beshero-Bondar</author>
+        
+         </titleStmt>
+         <publicationStmt><publisher>Digital Mitford Project</publisher>
+        <!-- put <publisher>, <distributor>, or <authority> here -->
+        <!-- put <availability> and other optional details about-->
+        <!-- the publisher, distributor, or release authority here -->
+      </publicationStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>Testing ODD for Constraining subtype and type attributes</head>
+         <p>This ODD customization is just for testing whether we can customize a TEI element to hold attributes (@type and @subtype) 
+            whose values depend on each other, without using Schematron. We know that we can do this with Relax NG, so can it be expressed in ODD?</p>
+         <schemaSpec ident="testingContextDependentAttValues">    
+            <desc>This ODD is designed to test whether we can customize attribute values in relation to one another, without using Schematron.</desc>
+            <moduleRef key="tei"/>
+            <moduleRef key="core"/>
+            <moduleRef key="header"/>
+            <moduleRef key="textstructure"/>
+            <moduleRef key="namesdates"/>
+            <elementSpec ident="person" mode="change" module="namesdates">
+               <content>
+                  <classRef key="model.personPart" maxOccurs="unbounded" minOccurs="0"/>
+                  <elementRef key="occupation" maxOccurs="unbounded" minOccurs="0"/>
+                  <classRef key="model.global" maxOccurs="unbounded" minOccurs="0"/>
+                  <elementRef key="ptr" maxOccurs="unbounded" minOccurs="0"/>
+               </content>
+               <attList>
+                  <attDef ident="sex" mode="replace" usage="rec">
+                     <valList type="closed">
+                        <valItem ident="m">
+                           <gloss>for persons identified as male.</gloss>
+                        </valItem>
+                        <valItem ident="f">
+                           <gloss>for persons identified as female.</gloss>
+                        </valItem>
+                        <valItem ident="m f">
+                           <gloss>for persons identified as of transitional or multiple sexual identities.</gloss>
+                        </valItem>
+                        <valItem ident="u">
+                           <gloss>for persons with unidentified or unknown sexual identity.</gloss>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+       
+           <elementSpec module="namesdates" ident="occupation" mode="replace">
+              <gloss>(occupation) contains an informal description of a person's trade, profession or occupation. In the Digital Mitford project, occupations are keyed with types and subtypes and used only in the project’s personography lists.</gloss>
+             
+                 <content>
+                    <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"/>
+             
+                 </content>
+    
+                 <attList org="choice">
+                    <attList org="group">
+                    <attDef ident="type" mode="replace" usage="req">
+                       <valList type="closed">
+                          <valItem ident="educator"/>
+                       </valList>
+                    </attDef>
+                    <attDef ident="subtype" mode="replace" usage="opt">
+                       <datatype>
+                          <dataRef name="string"/>
+                       </datatype>
+                       <valList type="semi">
+                          <valItem ident="teacher">
+                             <gloss>with type="educator".</gloss>
+                          </valItem>
+                          <valItem ident="schoolHead">
+                             <gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss>
+                          </valItem>
+                          <valItem ident="governess">
+                             <gloss>with type="educator".</gloss>
+                          </valItem>
+                          <valItem ident="tutor">
+                             <gloss>with type="educator".</gloss>
+                          </valItem>
+                          <valItem ident="lecturer">
+                             <gloss>with type="educator". For public lecturers on educational topics.</gloss>
+                          </valItem>                          
+                       </valList>
+                    </attDef>
+                 </attList>
+                    <attList org="group">
+                       <attDef ident="type" mode="replace" usage="req">
+                          <valList type="closed">
+                             <valItem ident="explorer"/>
+                          </valList>
+                       </attDef>
+                       <attDef ident="subtype" mode="replace" usage="opt">
+                          <datatype>
+                             <dataRef name="string"/>
+                          </datatype>
+                          <valList type="semi">
+                             <valItem ident="traveller">
+                                <gloss>with type="explorer".</gloss>
+                             </valItem>
+                             <valItem ident="navigator">
+                                <gloss>with type="explorer".</gloss>
+                             </valItem>
+                             <valItem ident="cartographer">
+                                <gloss>with type="explorer".</gloss>
+                             </valItem>
+                             <valItem ident="seaCaptain"> 
+                                <gloss>with type="explorer". Commands a ship, distinct from military post.</gloss>
+                             </valItem>
+                          </valList>
+                       </attDef>
+                    </attList>
+                    <attList org="group">
+                       <attDef ident="type" mode="replace" usage="req">
+                         <valList type="closed"> 
+                            <valItem ident="literary"/>
+                         </valList>
+                       </attDef>
+                       <attDef ident="subtype" mode="replace" usage="opt">
+                          <datatype>
+                             <dataRef name="string"/>
+                          </datatype>
+                          <valList type="semi">
+                             <!--Subtypes related to type="literary" -->
+                             <valItem ident="novelist">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="poet">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="playwright">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="essayist">
+                                <gloss>with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.</gloss>
+                             </valItem>
+                             <valItem ident="critic">
+                                <gloss>with type="literary". For literary, theatre / art critics and reviewers.</gloss>
+                             </valItem>
+                             <valItem ident="journalist">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="editor">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="biographer">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="autobiographer">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="lexicographer">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                             <valItem ident="linguist">
+                                <gloss>with type="literary". For those who systemically study languages, not simply translators.</gloss>
+                             </valItem>
+                             <valItem ident="translator">
+                                <gloss>with type="literary". </gloss>
+                             </valItem>
+                            
+                          </valList>
+                       </attDef>
+                    </attList>
+                    <attList org="group">
+                       <attDef ident="type" mode="replace" usage="req">
+                          <valList type="closed">
+                             <valItem ident="scholar"/>
+                          </valList>
+                       </attDef>
+                       <attDef ident="subtype" mode="replace" usage="opt">
+                          <datatype>
+                             <dataRef name="string"/>
+                          </datatype>
+                         <valList type="semi"> 
+                            <valItem ident="philosopher">
+                             <gloss>with type="scholar". Distinct from natural philosopher.</gloss>
+                          </valItem>
+                          <valItem ident="naturalist">
+                             <gloss>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</gloss>
+                          </valItem>
+                          <valItem ident="astronomer">
+                             <gloss>with type="scholar".</gloss>
+                          </valItem></valList>
+                       </attDef>
+                    </attList>
+                 </attList>
+           </elementSpec>            
+            
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>
