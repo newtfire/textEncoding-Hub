@@ -29,8 +29,8 @@ Save this using our homework filenaming conventions like this: beshero-xpath1.tx
 You'll be using the XPath window to practice writing XPath expressions. Find it. 
 Select the XPath 3.1 setting in the dropdown selections to the left of the XPath window. 
 
-Read and consult our introductory guide [Follow the XPath](https://newtfire.org/courses/tutorials/explainXPath.html) 
-for help with constructing your expressions. 
+**Read and consult our introductory guide [Follow the XPath](https://newtfire.org/courses/tutorials/explainXPath.html) 
+for help with constructing your expressions.**
 
 Now, try writing XPath expressions in the XPath window to answer the following questions. 
 **In your text file: Record the question numbers (or whole question if you wish) in your Text file, and 
