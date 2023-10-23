@@ -59,7 +59,7 @@ Hint: You can either wrap the function around the whole expression, or use the X
 3a. Find the `<list>` element that holds all the animal entries. 
 How many entries are inside that list? Record your XPath expression, and once again, try using the `count()` function to return a number.
 
-3b. Okay,remove the count() function) so you're returning the full sequence of elements on animals. 
+3b. Okay,remove the `count()` function so you're returning the full sequence of elements on animals. 
 Look up what the `last()` function does in our [XPath tutorial](https://newtfire.org/courses/tutorials/explainXPath.html), and apply it to your XPath: 
 Which animal do you return? 
 
