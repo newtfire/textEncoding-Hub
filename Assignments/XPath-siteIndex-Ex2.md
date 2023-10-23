@@ -63,10 +63,25 @@ How many entries are inside that list? Record your XPath expression, and once ag
 Look up what the `last()` function does in our [XPath tutorial](https://newtfire.org/courses/tutorials/explainXPath.html), and apply it to your XPath: 
 Which animal do you return? 
 
-3c. Getting the hang of this? Write an XPath to return the 5th plant in the list of plants. 
+3c. Getting the hang of this? Write an XPath expression to return the 5th plant in the list of plants. 
 Record your XPath and identify the plant.
 
-4. When we started this project, we wanted to know if Mitford's circle of people was 
+3d. Okay, look up the `position()` function in [our XPath tutorial](https://newtfire.org/courses/tutorials/explainXPath.html). Notice how you can combine it with _comparison operators_ 
+to test whether nodes are in a position *less than*, *less than or equal to*, *greater than*, etc. a certain number.
+Following the examples in the tutuorial, write an XPath to return just **the first 6 entries in the list of plants**.
+
+4. The following two XPath expressions return different results. Run each XPath expression, review the results, and explain what you think each expression is returning.
+What do you think the parentheses are doing? 
+`//person/occupation[1]`
+`(//person/occupation)[1]`
+
+5a. This set of questions explores how we coded the `<person>` elements in the file. First, how many `<person>` elmeents are in the whole document? 
+5b. Are all of the `<person>` elements coded with an `@sex` attribute? Use a predicate filter with [ ] to find out and record your expression here. How many results do you see?
+5c. XPath can work like a calculator: When you return numbers, XPath can handle simple arithmetic operations like add, subtract, multiply (with an `*`) , and divide (with the word `div`). 
+With this information, try writing an expression that returns the `count()` of person elements coded with `@sex` attributes divided by the `count()` of all the person elements. 
+Multiply that by 100 to see a percentage: About what percentage of person elements are coded with @sex attributes in this document?
+5d. Write an XPath expression to find the number of `<person>` elements coded as female with @sex="f".
+Use the count() function and division in XPath once again to find out the proportion of persons coded female among *all* the persons coded with @sex attributes.
 
 
 
