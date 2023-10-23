@@ -76,12 +76,16 @@ What do you think the parentheses are doing?
 `(//person/occupation)[1]`
 
 5a. This set of questions explores how we coded the `<person>` elements in the file. First, how many `<person>` elmeents are in the whole document? 
+
 5b. Are all of the `<person>` elements coded with an `@sex` attribute? Use a predicate filter with [ ] to find out and record your expression here. How many results do you see?
+
 5c. XPath can work like a calculator: When you return numbers, XPath can handle simple arithmetic operations like add, subtract, multiply (with an `*`) , and divide (with the word `div`). 
-With this information, try writing an expression that returns the `count()` of person elements coded with `@sex` attributes divided by the `count()` of all the person elements. 
-Multiply that by 100 to see a percentage: About what percentage of person elements are coded with @sex attributes in this document?
-5d. Write an XPath expression to find the number of `<person>` elements coded as female with @sex="f".
-Use the count() function and division in XPath once again to find out the proportion of persons coded female among *all* the persons coded with @sex attributes.
+With this information: 
+* Write an XPath expression that returns the `count()` of person elements coded with `@sex` attributes, divided by the `count()` of all the person elements. 
+* Multiply that by 100 to see a percentage: About what percentage of person elements are coded with @sex attributes in this document?
+
+5d. Write an XPath expression to find the number of `<person>` elements coded as female with `@sex="f"`.
+Use the `count()` function and division in XPath once again to find out the proportion of persons coded female among *all* the persons coded with the `@sex` attributes.
 
 
 
