@@ -1,7 +1,7 @@
 # XPath Exercise 2: Exploring a big file with XPath
 
 Our next exercise comes from a super long but simply structured file we've been developing for several years
-for the [Digital Mitford project](https://digtialmitford.org), which is one of the first digital humanities projects I helped launch back in 2013. 
+for the [Digital Mitford project](https://digitalmitford.org), which is one of the first digital humanities projects I helped launch back in 2013. 
 The project involves coding the personal letters, diary, and published writings of a 19th-century author who lived a long life and was very well connected wtih artists, theater managers, and publishers in London.
 One reason we launched this big project is to keep track of all the proper names she mentioned in her writings and learn about her social network.
 The document you'll be working with is basically full of lists storing our information and identifiers of people, organizations, places, events, and more that we've been identifying across our project. 
