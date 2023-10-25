@@ -1,6 +1,8 @@
 # textEncoding-Hub
 shared repo for Text Encoding class
 
+## [2023 Project Teams Directory](2023-Project-Teams.md)
+
 Welcome to the textEncoding-Hub! This is a repository to help introduce and orient DIGIT students to the GitHub collaboration environment, and accompanies the course website posted at <https://newtfire.org/courses/textEncoding/>
 
 In order for you to participate fully in this shared class space, I need to add you as a collaborator. [Set up your own GitHub account](https://github.com) and write to me to tell me how to find you.
