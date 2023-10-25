@@ -87,13 +87,13 @@ You will need to write XPath expressions with predicates, and sometimes nested p
     g. Use the simple map `!` operator to return the string value of the birth dates you located. Now, send all those dates through the XPath `sort()` function to sort them from earliest to latest. And let's add one more function to the chain: What happens when you add `min()` to the end? 
     Record your XPath expression. What is the earliest year in which an engraver listed in our file was born?
 
-7. So far we've been looking at XPath functions that make calculations over a sequence of more than one item.
+6. So far we've been looking at XPath functions that make calculations over a sequence of more than one item.
 But some XPath functions are designed to test one node at a time and return information. Let's look at one of them.
 The `name()` function returns the name of a node, the name of any elements or attributes.
-
-  a. Write an XPath that returns all the names of every element used in this file! (Hint: use the wildcard `*` to get all the elements down the tree.) Record your expression.
-
-  b. Now, remove the duplicates from that list of names using `distinct-values()`. You can also send that result to `count()`. How many different element names are we using in this entire file?
+    
+    a. Write an XPath that returns all the names of every element used in this file! (Hint: use the wildcard `*` to get all the elements down the tree.) Record your expression.
+    
+    b. Now, remove the duplicates from that list of names using `distinct-values()`. You can also send that result to `count()`. How many different element names are we using in this entire file?
 
 
    
