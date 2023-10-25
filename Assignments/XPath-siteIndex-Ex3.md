@@ -91,9 +91,9 @@ You will need to write XPath expressions with predicates, and sometimes nested p
 But some XPath functions are designed to test one node at a time and return information. Let's look at one of them.
 The `name()` function returns the name of a node, the name of any elements or attributes.
 
-a. Write an XPath that returns all the names of every element used in this file! (Hint: use the wildcard `*` to get all the elements down the tree.) Record your expression.
+  a. Write an XPath that returns all the names of every element used in this file! (Hint: use the wildcard `*` to get all the elements down the tree.) Record your expression.
 
-b. Now, remove the duplicates from that list of names using `distinct-values()`. You can also send that result to `count()`. How many different element names are we using in this entire file?
+  b. Now, remove the duplicates from that list of names using `distinct-values()`. You can also send that result to `count()`. How many different element names are we using in this entire file?
 
 
    
