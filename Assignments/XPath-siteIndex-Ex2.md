@@ -10,7 +10,7 @@ We'll use XPath to explore the lists and try out some XPath functions.
  This exercise should help familiarize you with:
 * using XPath to explore a big document and learn how it's coded
 * practicing how to write predicate filters to limit your results
-* using the `count()` and `position()` functionws and comparison operators. 
+* using the `count()` and `position()` functions and comparison operators. 
 
 ### Getting Started: Opening the file in oXygen
 
