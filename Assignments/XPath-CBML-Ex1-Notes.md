@@ -13,15 +13,15 @@
         - When going down XML nodes, use one forward slash, then the following node you are looking for.
         
 3. Let's try narrowing down the results with an XPath predicate, written with [ ] in your expression.
-    - Command: `//div[@type="panelGrp"][position() = 2]` or `//div[@type="panelGrp"][2]`
+    - Command:  `//div[@type="panelGrp"][2]` or `//div[@type="panelGrp"][position() = 2]`
         - Grabs the second `<div type="panelGrp">` in position of document.
 
 4. Let's explore finding attributes. As you explore the XML, notice how characters are marked in the panels.
-    - Command: `//*/@characters`
-       - Grabs all elements with `@characters` attribute
+    - Command: `//@characters` or `//*/@characters`
+       - This grabs all values of the `@characters` attribute
        
 5. Okay, usually we work with attributes to help filter elements. Let's say we want to find all the panels in which only the narrator is represented? Use an XPath predicate with [ ] to help return the panels that are only representing the narrator.
-    - Command: `//cmbl:panel[@characters="narrator`
+    - Command: `//cmbl:panel[@characters="#narrator"]`
     
 6. The `<floatingText>` element in CBML is a pretty exciting application of the TEI. It lets you nest a whole new "document" inside any level of the text you want. How are these useful in CBML? Let's take a look at them
     - Command: `//floatingText`
