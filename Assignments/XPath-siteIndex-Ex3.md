@@ -83,10 +83,11 @@ You will need to write XPath expressions with predicates, and sometimes nested p
     Record your expression. Who is the engraver?
     
     f. What XPath would return the birth dates of all the persons with occupation @subtype of "engraver" in the file?
+
     g. Use the simple map `!` operator to return the string value of the birth dates you located. Now, send all those dates through the XPath `sort()` function to sort them from earliest to latest. And let's add one more function to the chain: What happens when you add `min()` to the end? 
     Record your XPath expression. What is the earliest year in which an engraver listed in our file was born?
 
-6. So far we've been looking at XPath functions that make calculations over a sequence of more than one item.
+7. So far we've been looking at XPath functions that make calculations over a sequence of more than one item.
 But some XPath functions are designed to test one node at a time and return information. Let's look at one of them.
 The `name()` function returns the name of a node, the name of any elements or attributes.
 a. Write an XPath that returns all the names of every element used in this file! (Hint: use the wildcard `*` to get all the elements down the tree.) Record your expression.
