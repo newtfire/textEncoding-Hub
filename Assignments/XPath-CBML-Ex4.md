@@ -4,9 +4,9 @@ Let's continue working with the same Digital Mitford project Site Index file tha
 
  This exercise should help familiarize you with:
 * Writing more XPath string functions and complex predicates
-* When and how to work with the dot `.` to signify the `self::*` axis
+* When and how to work with the dot `.` notation in a function.
 * Learning about *function signatures* (some functions a sequence of more than one, while some take only one node)
-* Learning how to "pull" data from XML and make calculations with XPath
+* Practicing how to "pull" data from XML and make calculations with XPath.
 
 
 ### Getting Started: (Re)-opening the file in oXygen
