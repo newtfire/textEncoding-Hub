@@ -4,7 +4,7 @@ Let's continue working with the same Digital Mitford project Site Index file tha
 
  This exercise should help familiarize you with:
 * Writing more XPath string functions and complex predicates
-* When and how to work with the dot `.` notation in a function.
+* When and how to work with the dot `.` notation in a function and in a predicate.
 * Learning about *function signatures* (some functions a sequence of more than one, while some take only one node)
 * Practicing how to "pull" data from XML and make calculations with XPath.
 
@@ -69,8 +69,17 @@ to the speech balloons in the CBML file to find out who has the longest and shor
 * 4b. Again applying what you learned from XPath Exercise 2, how will you identify the character who delivers the longest speech? Write an XPath to filter the nodes based on the longest speech and tell you who is speaking. 
 * 4c. Okay, if you go that, change one little thing in your expression so it tells you who delivers the *shortest* speech in this comic.(Record your XPath expression.) What is the character saying in the shortest speech?
 
-5. Halloween special! Write an XPath that uses predicates and functions to tell you which `<cbml:panel>` in this comic book contains a `<note>` that **contains** the word "skull". Record your expression.
-
+5. Halloween special! 
+  * 5a. Write an XPath that uses predicates and functions to tell you which `<cbml:panel>` in this comic book contains a `<note>` that **contains** the word "skull". Record your expression.
+  * 5b. Okay, we have one more thing to tell you about the dot `.`  notation. Sometimes you need to filter your XPath nodes based on something about their **deep descendants**.
+     When we do this, we need to use the `.` inside the predicate to indicate that XPath should filter based on the **current context**. 
+    Try these two expressions, and do your best to explain why they return different results: How is the dot notation changing the expression?
+      * `//div[//cbml:balloon[contains(., 'NO')]]`
+      * `//div[.//cbml:balloon[contains(., 'NO')]]`
+    
+        (Think about this: Why does the first expression return a different number of results? What do you think the first predicate is doing?)
+    
+    
 
 
 
