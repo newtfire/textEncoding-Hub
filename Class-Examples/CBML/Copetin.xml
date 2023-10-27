@@ -117,7 +117,7 @@
               </note> 
            </cbml:panel>
            <cbml:panel n="7" characters="#copetin">
-              <cbml:balloon rendition="#jaggies" who="#copetin"> 
+              <cbml:balloon type="speech" rendition="#jaggies" who="#copetin"> 
                  ¡LO QUE “NUÁS” “PE-  <lb/>
                  GAO” ES ESA COCHI-  <lb/>
                  NA JETA! AHORA  <lb/>
@@ -218,7 +218,7 @@
               FRANCO
            </fw>
               <note type="panelDesc"> WS shows Copetin calmly lying on his back on the ground,
-                 by himself, under sheeets of newspaper. 
+                 by himself, under sheets of newspaper. 
               </note> 
            </cbml:panel> 
         </div>
