@@ -11,22 +11,11 @@
     <xsl:mode on-no-match="shallow-copy"/>
     
   
-      <xsl:template match="sonnet">
-          
-        <poem num="{@number}">
-         <xsl:apply-templates/>
-        </poem>  
-          
-      </xsl:template>
-        
-    
-    <xsl:template match="line">
+    <!-- ebb: Now we write template rules to match on patterns in the source document, and output new patterns.  -->
+    <xsl:template match="???">
+      
+          <!-- control the ouptut here -->
      
-          <poemLine n="{count(preceding-sibling::line) + 1}"/>
-            <xsl:apply-templates/>
-            
-        
     </xsl:template>
-    
     
 </xsl:stylesheet>
