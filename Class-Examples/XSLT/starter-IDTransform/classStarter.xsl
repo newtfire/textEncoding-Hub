@@ -20,7 +20,7 @@
     </xsl:template>
     
     <xsl:template match="line">
-      <lb number="{preceding-sibling::line => count() + 1}"/>  <xsl:apply-templates/>
+      <LB number="{preceding-sibling::line => count() + 1}"/>  <xsl:apply-templates/>
         
         
     </xsl:template>
