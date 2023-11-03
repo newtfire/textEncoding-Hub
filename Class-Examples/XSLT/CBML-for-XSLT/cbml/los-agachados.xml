@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--2016-07-09 ebb: The DTD is problematic and my colleagues in the TEI Council tell me it really shouldn't be used. RelaxNG is current, and since there are 
+   Schematron rules in your ODD (written in XML syntax), you need RelaxNG XML Syntax for your output schema. 
+   So, above this comment is a schema line pointing to the RelaxNG XML syntax schema I output from your ODD. I replaced the DTD line with this. 
+   1) To create it, from the ODD file, use the wrench in oXygen and choose the ODD to Relax-NG XML syntax association scenario.
+   2) Once you've output the .rng schema, here's how to associate it in oXygen: In the oXygen menu bar choose Document, Schema, and Associate Schema. Then browse for the .rng file in your "out" directory.
+   
+   As soon as I associated the .rng I saw problems with the cbml elements panel and caption, and that is only because they require a namespace declaration. So I created that too, on your TEI root element. The new attribute @xmlns:cbml points to the cbml namespace and defines a cbml: prefix you need to use on all the non-TEI elements you use here. Note that those non-TEI elements are defined in your ODD and schema (and you can add more to those schema rules if you like), but you *also* need to declare the namespace and use the prefix here. 
+   
+   I did a "find & replace" and changed all the panel and caption tags to cbml:panel and cbml:caption. I think you're good to go now!
+-->
+<!--2016-09-15 dje: Adding page to documentation, teaching fg cbml schema -->
+<?xml-stylesheet type=“text/xsl” href=“teibp.xsl”?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="cbml.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Los Agachados de Rius: la vera historia del TIO SAM.</title>
+            <author>Chompas Rius</author>
+            <author>Chávez Peón</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Chompas Rius and Chávez Peón</publisher>
+            <pubPlace>Mexico</pubPlace>
+            <date when="1968">1968</date>
+            <availability status="free"><p>Available under the public domain.</p></availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital: no previous source exists.</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <namespace name="http://www.cbml.org/ns/1.0">
+             
+              <tagUsage gi="cbml:panel"></tagUsage>
+              <tagUsage gi="cbml:caption"></tagUsage>
+           </namespace>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <div type="titlePage" xml:id="eg_0001">
+           <head>los agachados de RIUS</head>
+           <cbml:caption rendition="#uc">
+              la vera historia del TIO SAM.
+           </cbml:caption>
+           <fw type="pageNum" place="upper-right">
+              37
+           </fw>
+        </div>
+     </front>
+      <body>
+        <div type="panelGrp" xml:id="eg_0002">
+         <cbml:panel n="1">
+            <head> 
+               THE AGACHADOS
+            </head>
+            <bibl> 
+               COPYRIGHT 1968 / made in Mexico by Chompas Rius and Chávez Peón colorcito by hand
+            </bibl>
+            <fw type="pageNum" place="upper-left">
+               38
+            </fw>
+         </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  CON MOTIVO DEL
+                  BICENTENARIO DE
+                  LOS ESTADOS UNIDOS
+                  los agachados
+                  HA PREPEPARADO
+                  2 NÚMEROS 2
+                  PARA FESTEJAR TAN
+                  FAUSTO SUCESO.
+                  PARA EL PRIMERO
+                  --QUE ES ÉSTE--
+                  HEMOS CONTADO CON
+                  LA INVOLUNTARIA,
+                  INVALUABLE Y
+                  ESTIMADA COLABORACIÓN
+                  DEL FALLECiDO
+                  ESTRITOR ARGENTINO
+                  EZEQUIEL MARTÍNEZ ESTRADA,
+                  QUIEN EN 1963 ESCRIBIÓ
+                  "EL VERDADERO CUENTO
+                  DEL TIO SAM" ILUSTRADO
+                  POR EL CARICATURISTA
+                  FRANCÉS SINÉ
+               </cbml:caption>
+               <cbml:caption>
+                     EN ESTA OCASIÓN LOS
+                     TEXTOS SON DE DON EZEQUIEL
+                     Y LOS MONOS DEL TAL RIUS...
+                     (Y VIEJOS GRABADOS, AS USUAL)
+               </cbml:caption>
+               <cbml:caption>
+                  Y AQUÍ
+                  EMPIEZA
+                  LA
+                  HISTORIA:
+               </cbml:caption>
+         </cbml:panel>
+        </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0003">
+            <fw type="pageNum" place="upper-left">
+               39
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption> 
+                  HACE MUCHOS AÑOS LOS
+                  PADRES PEREGRINOS ILEGARON
+                  AL NORTE DE AMÉRICA CON
+                  LA BIBLIA EN UNA MANO Y
+                  EL FUSIL EN LA OTRA, PARA
+                  PREDICAR A LOS INDIOS LA
+                  EXCELENCIA DE LA REPÚBLICA,
+                  PARA ARRASAR CON LOS
+                  DEMONIOS Y LAS BRUJAS, Y
+                  PARA FUNDAR EL
+                  PARAÍSO TERRENAL.
+               </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption> 
+                  consiguieron que
+                  JEHOVÁ celebrara
+                  con ellos un
+                  Contrato Social
+                  por el cual el pueblo
+                  elegido reinaría
+                  sobre los pueblos
+                  bárbaros, los herejes,
+                  los negros, los
+                  irlandeses, los
+                  blancos pobres,
+                  los indios y los
+                  latinoamericanos.
+               </cbml:caption>
+            </cbml:panel>
+        </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0004">
+            <fw type="pageNum" place="upper-left">
+               40
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Los nietos dejaron
+                  la Biblia en casa,
+                  que leían de día,
+                  y de noche salieron
+                  a cazar por montes y montañas.
+                  Eran ricos, fuertes
+                  y piadosos.
+               </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  DECIDIERON SER
+                  INDEPENDIENTES DE
+                  LA MADRE GRAN
+                  BRETAÑA, Y
+                  PROCLAMARON LA
+                  LIBERTAD DE TODOS
+                  LOS SERES
+                  HUMANOS BLANCOS
+                  Y LA IGUALDAD DE
+                  TODOS LOS SERES HUMANOS NEGROS.
+              </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#narrator">
+               <cbml:caption>
+                  Se habituaron a
+                  llevar un género de
+                  vida en el hogar
+                  y otro fuera de casa.
+                  Durante el día
+                  atendían sus negocios
+                  y por la noche
+                  avanzaban por tierra
+                  hacia el Oeste y
+                  por mar hacia el Sur.
+                  Los misioneros iban
+                  delante y los 
+                  mosqueteros detrás.
+               </cbml:caption>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0005">
+            <fw type="pageNum" place="upper-right">
+               41
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Cuando les era ventajoso, preferían el comercio a la guerra.
+               </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Adquirieron a Su
+                  Majestad Británica
+                  la flota de los
+                  filibusteros del
+                  Caribe, que equiparon
+                  como marina
+                  mercante y como
+                  marina de guerra,
+                  con derecho exclusivo de conquista.
+                  Compraron la 
+                  Luisiana, la Florida,
+                  Alaska, y ofrecieron
+                  adquirir como Dios
+                  manda las islas
+                  de Cuba, Puerto Rico,
+                  la Hispaniola y
+                  el istmo de
+                  Panamá.
+               </cbml:caption>
+               <floatingText subtype="contract" type="diegetic">
+                  <body>
+                     <ab type="masthead">
+                        <title rendition="#uc #large #center">
+                           compra
+                           <lb/>
+                           venta
+                           <lb/>
+                        </title>
+                        <lb/>
+                       </ab>
+                    </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0006">
+            <fw type="pageNum" place="upper-left">
+               42
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  El Presidente Monroe
+                  tuvo la genial
+                  ocurrencia de impedir
+                  que las potencias europeas
+                  siguieran ocupando
+                  tierras y esclavizando
+                  infelices en América.
+                  "AMÉRICA PARA LOS 
+                  AMERICANOS", dijo, y 
+                  comenzó la
+                  Americanización
+                  del Continente.
+               </cbml:caption>
+               <note type="panelDesc"> Uniformed character walks away from a banner after appearing
+                  to have used paint and paintbrush in his hands to write something on the banner </note> 
+               <floatingText subtype="banner" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#uc #large #center">
+                           América
+                           para los
+                           NORTE
+                           Americanos
+                           Monroe
+                        </title>
+                        <lb/>
+                     </ab>
+                    </body>
+               </floatingText>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Desde entonces (1823),
+                  los negocios internacionales, la
+                  piratería, la Trata,
+                  el comercio con frutos
+                  tropicales, el azúcar, 
+                  el cacao, el petróleo,
+                  la diplomacia y la
+                  política económica
+                  estuvieron a cargo 
+                  del Departamento de
+                  Estado, que tiene
+                  muchas filiales,
+                  como la Standard
+                  Oil, la General Electric,
+                  la United Fruit, la
+                  General Motors, 
+                  etc. etc. 
+               </cbml:caption>
+               <floatingText subtype="briefcase" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#uc #large #left">
+                           UNITED
+                           STATES
+                           CORP.
+                        </title>
+                        <lb/>
+                      </ab>
+                   </body>
+               </floatingText>
+               <note type="panelDesc"> Uncle Sam-type character holds a briefcase in his right hand and a bag of [presumably] money in his left
+               </note> 
+               </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0007">
+            <fw type="pageNum" place="upper-right">
+               43
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  La primera misión civilizadora se la encomendó de incógnito al embajador,
+                  general, médico, abogado, periodista, orador y esclavista WILLIAM WALKER, 
+                  quien ocupó la California del Sur y se hizo nombrar Presidente de Nicaragua. 
+                  Los indómitos nicaragüenses
+                  rechazaron la civilización 
+                  sajona y
+                  fusilaron al doctor
+                  y general Walker,
+                  postergando el
+                  asunto de la 
+                  presidencia
+                  hasta mejor oportunidad.
+               </cbml:caption>
+               <floatingText subtype="word" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#uc #large #right">
+                           NO
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <note type="panelDesc"> Character in military uniform (William Walker?) rests in sitting position against the word "NO" in big block letters </note> 
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  ENTONCES JEHOVÁ
+                  SE HARTÓ Y LE DIJO
+                  AL TÍO SAMUEL:
+                  "Te pareces a tu
+                  abuela y has
+                  heredado la costumbre
+                  de engañarme como
+                  a un
+                  irlandés. ¿Ese es
+                  el pacto de alianza
+                  que hicimos?
+                  Ahora te quieres
+                  quedar con Canadá
+                  y las Antillas,
+                  estás asolando
+                  como un ciclón
+                  Centroamérica y
+                  El Caribe, y juegas
+                  con trampas.
+                  Rescindo el 
+                  contrato y me llevo las Biblias!" 
+               </cbml:caption>
+               <note type="panelDesc"> Godly being stands on a cloud holding a Bible in his right hand has left fist up and seems to speak
+                  in anger (lightning rods seems to emanate from his mouth)to an anxious-looking Uncle Samuel, who sits at a desk, his hat on the floor behind him </note>                                
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0008">
+               <fw type="pageNum" place="upper-left">
+                  44
+               </fw>
+               <cbml:panel n="1" characters="#narrator">
+                  <cbml:caption>
+                     "NO IMPORTA", respondio
+                     el Tio Sam; "LEEREMOS
+                     'MEIN KAMPF", "RAFFLES" Y 
+                     "COMO AUMENTAR LA 
+                     CLIENTELA". BUSCARE UN DIRECTOR GENERAL MAS
+                     COMPRENSIVO QUE TU".
+                  </cbml:caption>
+                  <floatingText subtype="book" type="diegetic">
+                     <body>
+                        <ab type="masthead">
+                           <title rendition="#uc #large #center">
+                              MI LUCHA
+                           </title>
+                        </ab>
+                     </body>
+                  </floatingText>
+                  <note type="panelDesc"> Mustached Uncle Sam-style character makes a Nazi salute. He holds a book by Hitler
+                     under his right arm. His hat has swastikas on it
+                  </note> 
+               </cbml:panel>               
+               <cbml:panel n="2" characters="#narrator">
+                  <cbml:caption>
+                     Jehova repartio
+                     en los
+                     hoteles las
+                     Biblias impresas
+                     para viajantes
+                     de comercio y
+                     el Tio Sam
+                     se puso a cavilar como se las arreglaria
+                     solo en adelante.
+                  </cbml:caption>
+                  <note type="panelDesc"> Godly being and haloed priest stand next to a table on which there is
+                     a pile of Bibles on sale.  
+                  </note>
+                  <floatingText subtype="banner" type="diegetic">
+                     <body>
+                        <ab>
+                           <title rendition="#uc #large #center">
+                              SALDO
+                              BIBLIAS
+                           </title>
+                        </ab>
+                     </body>
+                  </floatingText>
+                  <floatingText subtype="banner" type="diegetic">
+                     <body>
+                        <ab>
+                           <title rendition="#uc #large #center">
+                              BARATAS
+                           </title>
+                        </ab>
+                     </body>
+                  </floatingText>
+               </cbml:panel>
+               <cbml:panel n="3" characters="#narrator">
+                  <cbml:caption>
+                     El primer
+                     conflicto de
+                     familia que se
+                     le presento fue
+                     que los
+                     Estados de la
+                     Union se le
+                     dividieron en
+                     blancos y negros
+                     como tablero de ajedrez.
+                  </cbml:caption>
+                  <note type="panelDesc"> Soldier from the US South shoots at the feet of Unle Sam-type character,
+                     who jumps as he holds posters in his hands.
+                  </note>
+                  <floatingText subtype="banner" type="diegetic">
+                     <body>
+                        <ab>
+                           <title rendition="#uc #large #center">
+                              ESCLAVOS
+                              SI!
+                           </title>
+                        </ab>
+                     </body>
+                  </floatingText>
+                  <floatingText subtype="banner" type="diegetic">
+                     <body>
+                        <ab>
+                           <title rendition="#uc #large #center">
+                              ESCLAVOS NO!
+                           </title>
+                        </ab>
+                     </body>
+                  </floatingText>
+               </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0009">
+            <fw type="pageNum" place="upper-right">
+               45
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Se dedicó de lleno 
+                  a su hobby, que era 
+                  el de inventar y
+                  fabricar.
+                  Inventó los "robots"
+                  y la serie 
+                  completa de los
+                  muñecos mecánicos,
+                  que accionaban
+                  echándoseles una
+                  moneda por 
+                  una ranura.
+               </cbml:caption>
+               <note type="panelDesc"> Three puppets, soldier-like figures, are controlled through threads by a pair of hands visible from the top of the panel. 
+                  The right hand has a ring with the "$" symbol on the ring finger. 
+               </note> 
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Descubrió oro
+                  en California,
+                  plátanos en
+                  Guatemala, 
+                  Honduras, 
+                  Colombia y
+                  Ecuador;
+                  azúcar en
+                  Cuba; petróleo 
+                  en Venezuela y
+                  Argentina;
+                  caucho en
+                  Brasil, y en
+                  todas partes
+                  productos
+                  naturales que
+                  devoraba con
+                  fruición.
+              </cbml:caption>
+               <note type="panelDesc"> Eagle on a golden perch holds a cluster of bananas in its beak
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           Gold
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0010">
+            <fw type="pageNum" place="upper-left">
+               46
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Ademas encontro
+                  en una tribu de pieles
+                  rojas un talisman
+                  que los salvajes
+                  llamaban "DOLLAR"
+                  y adoraban como
+                  diosa propicia de
+                  la fertilidad y 
+                  la discordia.
+                  Posee virtudes magicas,
+                  opera a distancia,
+                  transmuta los metales,
+                  ablanca las piedras,
+                  endurece las entranas,
+                  abre todas la 
+                  puertas y las
+                  claraboyas, corrompe
+                  los poderes publicos,
+                  vence ejercitos, rompe
+                  huelgas, hace liga
+                  con cualquier materia,
+                  y no tiene olor...
+               </cbml:caption>
+               <note type="panelDesc"> Forming a type of pyramid, Disney's Uncle Scrooge [El Tio Rico] sits atop 
+                  another character [unidentified], who in turn sits atop a character resembling Chilean dictator 
+                  Augusto Pinocheet, who sits atop a military tank cruching character resembling deposed Chilean president Salvador Allende,
+                  who lies on his chest, crushed by the above, along with dozens of arms and legs
+               </note> 
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  A PESAR DE TODO, EL TIO
+                  CONSERVABA VESTIGIOS
+                  DE SU ANTIGUA FE
+                  PURITANA, Y QUISO SALVAR
+                  AL CONTINENTE Y SUS
+                  HABITANTES DE LOS
+                  PELIGROS DE LA 
+                  AUTODETERMINACION,
+                  DEL AUTODESARROLLO,
+                  DE LA AUTARQUIA Y 
+                  DE LA DELINCUENCIA
+                  JUVENIL.
+               </cbml:caption>
+               <note type="panelDesc"> Threatening character in a suit projects itself from the North American continent. He holds a Bible in his right hand and a crucifix
+                  in his left, which he shows to a peasant standing on the South American continent. A tag hanging from the crucifix
+                  reads "Se vende". 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#left">
+                           BIBLIA
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#right">
+                           SE VENDE
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0011">
+            <fw type="pageNum" place="upper-right">
+               47
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Para esa misión movilizó al ejército de salvación dividido en 3 cuerpos 
+                  expedicionarios y catequizadores:
+               </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  LOS PREDICADORES DEL 
+                  EVANGELIO, QUE USABAN EL
+                  ACORDEÓN Y LOS CÁNTICOS
+                  LITÚRGICOS EN LAS PLAZAS;
+               </cbml:caption>
+               <note type="panelDesc"> Character in police uniform plays the accordion while another character in the background
+                  plays the tambourine. A big drum with words printed on it lies between both characters. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#right">
+                           EJÉRCITO DE SALVACIÓN
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#narrator">
+               <cbml:caption>
+                  ...LOS BOY SCOUTS DE DESEN-
+                  BARCO, CAMUFLADOS COMO
+                  MARINEROS QUE USABAN
+                  INSTRUMENTOS DE PERCU-
+                  SION EN LOS PUERTOS Y
+                  DE NOCHE;
+               </cbml:caption>
+               <note type="panelDesc"> Character in a sailor suit runs and yells with a gun in his left hand and a stick in his right
+               </note> 
+            </cbml:panel>               
+            <cbml:panel n="4" characters="#narrator">
+               <cbml:caption>
+                  Y LOS EMBAJADORES, QUE
+                  TOCABAN LA FLAUTA DE LOS
+                  ENCANTADORES DE SINVER-
+                  GÜENZAS, EN LAS CASAS DE GOBIERNO, TODOS LOS DÍAS HÁBILES...
+               </cbml:caption>
+               <note type="panelDesc"> Faceless character in a suit and hat stands holding a suitcase in his right hand.
+                  The $ symbol is on the character's face.  
+               </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#narrator">
+               <cbml:caption>
+                  Como la prole
+                  del Tío Sam poseía 
+                  cantidad de los
+                  talismanes, los
+                  garrotes y las flautas, idearon 
+                  un modelo standard
+                  para el incremento
+                  de los países
+                  subdesarrollados 
+                  y de los pueblos
+                  atrasados.
+                  Así consiguieron 
+                  ocupar por métodos
+                  modernos las
+                  tierras expoliadas
+                  por los conquistadores,
+                  cambiando un viejo
+                  sistema de
+                  colonización por
+                  otro de nuevo modelo.
+               </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="6">
+               <note type="panelDesc"> Uncle Sam-type character and a shorter character in a white suit both stand on a map of the U.S. looking toward the Philipines in the horizon to the right.
+                  Uncle Sam is depicted thinking in the "$" symbol while gazing ahead at The Philippines
+                  in the horizon to the right. 
+                  Another younger, shirt-less character kneels on the map of Puerto Rico behind them. He is wearing shackles on both hands and feet.
+                  Maps of territories are labeled, left to right: PORTO RICO, UNITED STATES, PHILIPPINES. 
+               </note>
+               <floatingText subtype="thought" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#uc #large #center">
+                           $
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <cbml:caption>
+                  From The Brooklyn Daily "Eagle," January, 1900
+               </cbml:caption>
+            </cbml:panel>            
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0012">
+            <fw type="pageNum" place="upper-left">
+               48
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  ERA UN APARATO INGENIOSO DE CONTROL A DISTANCIA DE LO QUE LA TIERRA 
+                  PRODUCÍA Y ÉL HACÍA Y PENSABA HACER. SE EMPLEARON VARIOS MÉTODOS:
+                  ya usando 
+                  fertilizantes
+                  y sistemas 
+                  zootécnicos
+                  que precipitaban
+                  la germinación y
+                  el desarrollo de
+                  las plantas y
+                  los animales;
+               </cbml:caption>
+              </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  ya dejando 
+                  que los frutos 
+                  maduraran
+                  hasta
+                  podrirse para
+                  recogerlos
+                  y
+                  envasarlos
+                  como compotas
+                  y 
+                  conservas;
+               </cbml:caption>
+               <note type="panelDesc"> Character in suit and top hat smokes a cigar and handles a vaccuum cleaner. Ilustration 
+                  transcends the panel, entering into the preceding and next panels. There are words on the vaccum
+                  cleaner, and words being sucked into it.
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           INVERSIONES EXTRANJERAS
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#narrator">
+               <cbml:caption>
+                  ya 
+                  empleando
+                  insecticidas
+                  que
+                  extinguiesen
+                  las plagas
+                  del campo,
+                  como la
+                  garrapata,
+                  la sigatoka
+                  y la
+                  Reforma Agraria.
+               </cbml:caption>
+               <note type="panelDesc"> Vaccum cleaner enters panel from above and sucks some words from a globe.  
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           RIQUEZAS NATURALES
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>              
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0013">
+            <fw type="pageNum" place="upper-right">
+               49
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Una vez que
+                  todas las
+                  Naciones de
+                  América
+                  adoptaron la
+                  Constitución
+                  de Virginia, les
+                  aconsejaron
+                  andar en las
+                  buenas 
+                  compañías de
+                  la General
+                  Motors, General
+                  Electric, Mobil Oil,
+                  General Foods,
+                  Celanese y de
+                  otras muchas
+                  sociedades de
+                  beneficencia.
+               </cbml:caption>
+               <note type="panelDesc"> UncleSam-like character holding schackles in both hands offers them excitedly
+                  to a peasant, who is staring in amazement at the shacles he has around his feet. Every one of them has 
+                  the name of a company or problem printed on it.
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           OEA
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           DEUDA
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           FORD
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           Coca Cola
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  EL TÍO, POR EL 
+                  CONTRARIO,
+                  FRECUENTÓ OTRA CLASE DE 
+                  COMPAÑÍAS Y DE 
+                  SOCIEDADES
+                  ANÓNIMAS,
+                  ALGUNAS DE LAS 
+                  CUALES TUVIERON
+                  LA MISION DE
+                  TRANSFORMAR A
+                  LOS DELINCUENTES
+                  EN SERVIDORES
+                  DEL ESTADO
+                  Y A LOS
+                  LADRONES
+                  PÚBLICOS
+                  EN MAGNATES
+                  Y PIONEROS.
+               </cbml:caption>
+               <note type="panelDesc"> Uncle Sam-type character in suit and top hat poses in between an army officer on his right
+                  and a prisoner on his left. Both characters are wearing medals. Prisoner has a number on his chest. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           2987
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+            </div>
+         <div type="panelGrp" xml:id="eg_0014">
+            <fw type="pageNum" place="upper-left">
+               50
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Sin embargo, no obstante
+                  andar en malas compañías,
+                  el viejo Sam jamás violó
+                  las leyes, particularmente
+                  las 3 fundamentales:
+                  "LEY DEL EMBUDO", LEY DE LYNCH" Y "LEY DE HERODES"..
+               </cbml:caption>
+               <note type="panelDesc"> UncleSam-like character pulls on a rope that hinges from the Statue of Liberty's
+                  right hand. On the other end of the rope someone is hanging. At the base of the Satue of Liberty, and 
+                  undeer Uncle Sam's feet, half a globe floats on the water, with a flag of the U.S. on top. There is a 
+                  label on the globe.
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           OUR COUNTRY
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  POCAS VECES SE APROPIÓ POR LA FUERZA
+                  DE LO QUE PODÍA ADQUIRIR GRATIS. LO
+                  QUE HIZO CON MÉXICO, COLOMBIA, PUERTO
+                  RICO, CUBA, HAITÍ, SANTO DOMINGO, GUAM,
+                  FILIPINAS, NICARAGUA, GUATEMALA, HONDURAS,
+                  COSTA RICA, EL SALVADOR, PANAMÁ, Y LA
+                  BAHÍA DE GUANTÁNAMO PERTENECIÓ A LA
+                  ÉPOCA Del Hierro, CONOCIDA TAMBIÉN EN
+                  LA HISTORIA DE LA CIVILIZACIÓN COMO
+                  Era del Gran Garrote.
+               </cbml:caption>
+               <note type="panelDesc"> A big stick ["garrote"] accompanies the text on the left margin. 
+               </note>
+             </cbml:panel>
+            <cbml:panel n="3">
+               <note type="panelDesc"> A map of North America, indicating the territories that once belonged to Mexico
+                  and now are part of the U.S.
+               </note>
+            </cbml:panel>   
+            <cbml:panel n="4" characters="#narrator">
+               <cbml:caption>
+                  Las naciones de razas inferiores eran ren-
+                  corosas, recordaban al pirata presidente y
+                  cuando llegaban los técnicos en helicópteros
+                  O en paracaídas, los recibían con tomates,
+                  huevos apestosos y bombas pestilentes.
+             </cbml:caption>
+               <note type="panelDesc"> Uncle- Sam-type character hides behind a shield with the symbols of the US flag.
+                  Small objects (tomatoes? rotten eggs?) bounce off the shield. 
+               </note>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0015">
+            <fw type="pageNum" place="upper-right">
+               51
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Por lo cual el
+                  Tío Sam decidió 
+                  atraerse en
+                  bloque a todos
+                  los países y
+                  sus gobernantes,
+                  invitándolos a
+                  que rechazaran
+                  cualquier clase
+                  de soborno,
+                  sobre todo si
+                  era en perjuicio
+                  de las clases desheredadas. 
+                </cbml:caption>
+               <note type="panelDesc"> Giant horseshoe magnet attracts toward it a capitalist-type character,
+                  as well as some currency and religious signs, a hat, a crown, and a military cap. Flag attached to
+                  magnet has bars and stripes, as well as the image of interlocked hands.
+               </note>
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Con el nuevo 
+                  trato del Buen
+                  Vecino, el Tío 
+                  Sam pudo 
+                  instalarse
+                  en las casas
+                  de sus
+                  sobrinos
+                  adoptivos,
+                  a 
+                  invitación 
+                  de los
+                  padres de
+                  familia.
+                  les enseñó a
+                  trabajar bien
+                  y sin descanso,
+                  a comer poco y 
+                  a guardar los
+                  ahorros en el
+                  First National
+                  Bank, Inc.
+               </cbml:caption>
+               <note type="panelDesc"> Uncle Sam-type character is welcomed by character on his knees who touches and 
+                  kisses his left foot. In the background, a smiling chracter holds a sign.
+               </note>
+               <floatingText subtype="sign" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           WELCOME
+                           INVERSIONES
+                           EXTRANJERAS
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0016">
+            <fw type="pageNum" place="upper-left">
+               52
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Y ocurrió que cuando
+                  los dueños de casa
+                  agasajaron a los
+                  huéspedes
+                  ofreciéndoles lo
+                  mejor de sus
+                  huertas y
+                  corrales, los
+                  chicuelos del
+                  barrio empezaron 
+                  a alborotar y a 
+                  faltarles al
+                  respeto,
+                  tirándoles
+                  cáscaras de
+                  naranja y de
+                  coco a la
+                  cabeza.
+               </cbml:caption>
+               <note type="panelDesc"> Uncle Sam-type character acts like a pupetteer, handlng a military-style 
+                  puppet in front of a peasant-type character, who seems to protest and boo the puppet.
+               </note>
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Los padres 
+                  castigaron a
+                  los
+                  revoltosos con
+                  penitencias y
+                  azotes, pero la
+                  batahola se
+                  hizo
+                  descomunal
+                  cuando alguien
+                  descubrio que
+                  los sobrinos
+                  del Tío sam
+                  se llevaban 
+                  la vajilla de
+                  plata y les
+                  daban a los
+                  padres
+                  chicles con adormidera.
+               </cbml:caption>
+               <note type="panelDesc"> Character in a suit flees the scene from the center toward the left, carrying
+                  a briefcase and a big bag with a label. In the background, a military-style character spanks a child
+                  on his lap. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           SUPER
+                           GANANCIAS
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0017">
+            <fw type="pageNum" place="upper-right">
+               53
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  A partir de ese
+                  día, y como prueba
+                  de adhesión a la
+                  doctrina Monroe,
+                  los mandarines del 
+                  Imperio de la Banana
+                  fueron recibidos y
+                  despedidos en todos
+                  los lugares con
+                  canciones de amor
+                  acompañadas de
+                  pitos, matracas e instrumentos
+                  naturales de
+                  viento.
+               </cbml:caption>
+               <note type="panelDesc"> Character in a suit and top hat holding a US flag has a nervous expression
+                  and seems to be sweating. He walks to the right, away from a big fist that seems to chase him. 
+                  A bomb bounces off his hat, and the words "GO HOME" are also chasing him. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#left">
+                           GO HOME
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+            <note type="panelDesc"> A five-point star stands between the top and bottom panels. 
+            </note>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Por lo
+                  cual, en vez
+                  de
+                  emisarios
+                  de buena voluntad,
+                  el Tío Sam
+                  estableció 
+                  en todas las 
+                  ciudades 
+                  capitales de
+                  provincia
+                  teatros de
+                  títeres, y a 
+                  los niños les 
+                  repartían
+                  bombones
+                  envueltos
+                  en papel
+                  de plata.
+               </cbml:caption>
+               <note type="panelDesc"> Inside a TV set, a hand whose arm is cuffed in the design of the US flag is seen handling
+                  the threads of a puppet. The puppet is a military-type character, and has a presidential band over his chest.
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           PRESIDENTE
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0018">
+            <fw type="pageNum" place="upper-left">
+               54
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Los sobrinos salieron al TÍo como el Tío salió a la abuela, e
+                  inventaron muchos juguetes para los primos pobres:
+               </cbml:caption>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Para los adultos
+                  y ancianos
+                  inventaron el
+                  rompecabezas,
+                  las palabras cruzads, el
+                  ajedrez eléctrico 
+                  en el que las 
+                  blancas siempre
+                  matan a las 
+                  negras, las danzas
+                  guerreras, la
+                  COCA-COLA, el
+                  solitario, las
+                  hojas de afeitar, el rock-and-roll y
+                  el taparrabos
+                  de nylon;
+               </cbml:caption>
+               <note type="panelDesc"> Head of Uncle Sam-type character is flanked by military-type heads that
+                  face to the right and to the left of him. Four hands hold several objects such as bombs and
+                  perhaps money, while a scale forms the body of the character, holding on a plate large piles of coins
+                  and on the other all kinds of weapons.
+               </note>
+            </cbml:panel>               
+            <cbml:panel n="3" characters="#narrator">
+               <cbml:caption>
+                  Para los 
+                  niños y 
+                  adolescentes 
+                  retardados
+                  fabricaron
+                  tambores,
+                  sables, flechas,
+                  cohetes e
+                  historietas de detectives,
+                  super-héroes
+                  y cow-boys.
+               </cbml:caption>
+               <note type="panelDesc"> Inside TV sets, we can see the faces of characters such as Mickey Mouse, Uncle
+                  Scrooge, and beauty pageants. A character toward the bottom left reads from a comic book. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#left">
+                           Superman
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#right">
+                           HOORAY U.S.A.
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0019">
+            <fw type="pageNum" place="upper-right">
+               55
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Los subdesarrollados
+                  y retardados, a su
+                  vez vendían lo que 
+                  no sabían usar,
+                  comprándoles lo que
+                  les querían vender,
+                  y de ese modo
+                  consiguieron
+                  hacérseles amigos
+                  y mantenerlos
+                  obedientes.
+               </cbml:caption>
+               <note type="panelDesc"> Peasant-type character holds on to a string connected to a military
+                  plane on top, giving the impression of an infant holding to a balloon. To his right there
+                  are some cases of cola piled up high, while to his left, an Uncle Sam-type character walks away counting 
+                  the money he's earned from the transaction. 
+               </note>
+               <floatingText subtype="speech" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#right">
+                           29.145..
+                           29.146..
+                           29.147
+                           29.148
+                           29.149...
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  En cuanto
+                  a la perpetua
+                  paz interna,
+                  el Tío Sam la 
+                  mantuvo
+                  mediante dos
+                  artefactos
+                  también de 
+                  su invención:
+                  una silla que
+                  funciona con
+                  electricidad
+                  y un
+                  KU KLUX KLAN
+                  que funciona
+                  con 
+                  “goma de pegar”!
+               </cbml:caption>
+               <note type="panelDesc"> Inside a box, the silhouttes of two bodies that have been hung hover
+                  over the heads of two KKK-type characters. The larger silhouette of a police officer seems
+                  to watch from the right. Outside the box (which could be a window) a spy-type character walks
+                  toward the left of the frame. His hat and trenchcoat bear the acronyms of spy agencies. 
+                  He has three legs, covered by pants which remind resaders of the design on the US flag. This 
+                  drawing seems to be signed by somepne other than the author of the book. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           FBI
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           CIA
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0020">
+            <fw type="pageNum" place="upper-left">
+               56
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Como casi
+                  todos los 
+                  parientes
+                  pobres eran
+                  analfabetos,
+                  recelosos y
+                  no entendían
+                  inglés,
+                  entraron en
+                  negociaciones
+                  pacíficas,
+                  haciéndoles
+                  firmar varios
+                  tratados
+                  escritos en
+                  la jerga 
+                  que ellos 
+                  hablan.
+               </cbml:caption>
+               <note type="panelDesc"> A giant roll of toilet paper unravels revealing
+                  a series of contracts or treaties which are being signed by a spectacled-character
+                  under the supervision of an Uncle-Sam-type character. 
+               </note>
+               <floatingText subtype="contract" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center #upsidedown">
+                           Tratado
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="contract" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           Tratado
+                           Tratado
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>               
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  EN FIN, CONSINTIERON EN QUE SE LLEVARAN CUANTO QUISIERAN, SIEMPRE QUE
+                  LES DEJARAN LA SOBERANÍA Y LA CONSTITUCIÓN, QUE ADORABAN CON DOS
+                  NOMBRES EXÓTICOS: MANITÚ Y CHANGÓ. POCO DESPUÉS CADA PAÍS TENÍA
+                  UN SOBERANO CONSTITUCIONAL Y UN PRESIDENTE INSTITUCIONAL DE REPUESTO. 
+               </cbml:caption>
+               <note type="panelDesc"> Naked, spectacled character kneels and adores two
+                  idols, one of them resembling a monkey, the other one a masked woman. In the backgraound,
+                  an Uncle Sam-type character runs toward the right, holding a large quantity of objects.
+               </note>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0021">
+            <fw type="pageNum" place="upper-right">
+               57
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  EL TÍO SAM LES 
+                  RECONOCIÓ LA 
+                  SOBERANÍA Y SUS 
+                  CONSECUENCIAS, Y
+                  LES LEYÓ UN PAPIRO
+                  EN QUE ESTABA 
+                  ESCRITO EL DESTINO 
+                  DE LOS IMPERIOS; DE
+                  LAS RAZAS SUPERIORES,
+                  DE LOS PUEBLOS
+                  ELEGIDOS Y DE LOS 
+                  HOMBRES PROVIDENCIALES.
+                  LES EXPLICÓ QUE A 
+                  LOS IMPERIOS HITITA,
+                  ROMANO, GERMÁNICO,
+                  BRITÁNICO Y PERSA
+                  LOS HABÍA SUCEDIDO
+                  EL CONTEMPORÁNEO
+                  IMPERIO DE LA 
+                  BANANA, EL PETRÓLEO
+                  Y EL CAUCHO.
+               </cbml:caption>
+               <note type="panelDesc"> Eagle with Uncle Sam-type hat is perched on four zig-zagging lighting rods.
+                  to the right, a peace symbol (dove with an olive branch in her beak) flies away.
+               </note>
+            </cbml:panel>  
+            <cbml:panel n="2" characters="#narrator #Jehova">
+               <cbml:caption>
+                  En esa plática estaba el Tío, hablándoles además de Maximiliano, Hitler,
+                  Mussolini, Somoza, Al Capone y otros constructores de Estados, cuando
+                  Se oyó un trueno en el Caribe y la voz de Jehová en el Pico Turquino,
+                  Que les decía:
+               </cbml:caption>  
+               <cbml:balloon type="speech" who="#Jehova">    
+                  “ESOS PAPIROS SON
+                  APÓCRIFOS; MIENTES
+                  CON DESCARO Y LES ESTÁS
+                  CALENTANDO LOS SESOS A
+                  ESOS INFELICES. YA ES 
+                  TIEMPO DE QUE LOS DEJES
+                  VIVIR EN PAZ. QUIERES
+                  REDUCIR EL PLANETA A 
+                  UNA PELOTA DE PIEDRA
+                  PÓMEZ. ¡TE HA 
+                  LLEGADO LA HORA
+                  DEL JUICIO!”
+               </cbml:balloon>
+               <note type="panelDesc"> Armed guerrilla-type character watches from atop a high mountain as
+                  Uncle SAm-type character flees to the left. A voice speaks from within ring of clouds that
+                  encircles the peak of the mountain. 
+               </note>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0022">
+            <fw type="pageNum" place="upper-left">
+               58
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  AL OIR LA VOZ, EL TÍO SAM LA RECONOCIÓ Y CONVOCÓ A UN PENTÁGONO INTERNA-
+                  CIONAL PARA DEFENSA DE LA DEMOCRACIA. REUNIDOS LOS SOBRINOS LEGÍTIMOS Y
+                  LOS ADOPTIVOS, ACORDARON QUE EN LUGAR DE UN PENTÁGONO SE CELEBRARA
+                  UNA JUNTA INTERNACIONAL DE EXPERTOS EN ENFERMEDADES SECRETAS; LA
+                  CUAL, DESPUÉS DE EXAMINAR CONCIENZUDAMENTE AL PACIENTE, DIAGNOSTICÓ: 
+                  Acromegalia, gigantismo infantil, decrepitud precoz y 
+                  Numerosos trastornos derivados de un superdesarrollo
+                  Rápido e incontrolado; el electro encefalograma reveló
+                  Síntoma de encefalitis letárgica, endurecimiento de la 
+                  Corteza y reducción de los hemisferios al tamaño 
+                  de una nuez; el cardiograma demostró que el
+                  corazón había dejado de latir en el año 1865;
+                  agotamiento de la hormona de la inventiva;
+                  hipertrofia de los aparatos de locomoción,
+                  aprehensión y succión. En la sangre
+                  no se encontraron glóbulos rojos ni
+                  azúcar de caña, y sí jugo de
+                  tomate y residuos de uranio. 
+               </cbml:caption>
+               <note type="panelDesc"> Diagnostic is separated from the rest of the caption by a dotted line.
+                  Diagnostic follows an inverse pyramid shape. 
+               </note>
+            </cbml:panel>  
+            <cbml:panel n="2">
+               <note type="panelDesc"> Statue of Liberty-type head has a skull instead of a face. 
+               </note>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0023">
+            <fw type="pageNum" place="upper-right">
+               59
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Reunidos todos
+                  los sobrinos en
+                  Asamblea en el
+                  Aula Magna de la
+                  Agencia Central
+                  de Inteligencia (CIA),
+                  resolvieron retirar 
+                  al Tío de sus
+                  actividades
+                  habituales,
+                  darle
+                  las gracias por los
+                  servicios prestados
+                  y confinarlo a las
+                  Bahamas, o a 
+                  Cuernavaca, o a 
+                  un rancho aislado,
+                  como la cabaña 
+                  del Tío Tom, para
+                  una cura de reposo.
+               </cbml:caption>
+               <note type="panelDesc"> Battered and bandaged eagle is perched on the right arm of equally battered Uncle Sam-type character.
+                  A "For Sale" sign hangs from his hat. A spider web connects the character and the 
+                  eagle, and a spider hangs from the eagle's left wing. 
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           FOR
+                           SALE
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>  
+            <cbml:panel n="2" characters="#narrator">
+               <cbml:caption>
+                  Pero el Tio Sam
+                  se negó
+                  rotundamente
+                  a obedecer, y
+                  declaró que
+                  prefería morir 
+                  con todos los
+                  filisteos, como
+                  Sansón, antes 
+                  que someterse
+                  a la 
+                  convivencia
+                  pacífica. 
+               </cbml:caption>
+               <note type="panelDesc"> Kissinger-type character stands in front of microphones holding
+                  an atomic bomb (bearing the atomic symbol) in his right hand and some papers in his left. A caged bird in the background
+                  looks feebishly at the man. Illegible signature of the author of the image on the bottom right.
+               </note>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0024">
+            <fw type="pageNum" place="upper-left">
+               60
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Por eso fue que Jehová le quitó la llave ganzúa del Paraíso Prometido,
+                  y lo sometió a un tratamiento de sueño prolongado en un refugio
+                  cavernario contra bombas termonucleares. 
+               </cbml:caption>
+            </cbml:panel>  
+            <cbml:panel n="2">
+               <note type="panelDesc"> Uncle Sam-type hat and hand are seen sticking out from inside a trash can.
+                  A lid is being put on the can by an arm that comes from above, from the top lines of the panel.
+                  Kissinger-type character stands in front of microphones holding
+                  an atomic bomb in his right hand and some papers in his left. A caged bird in the background
+                  looks feebishly at the man. IllegiThe lid has the seal of the POTUS.
+               </note>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#upsidedown #center">
+                           SEAL OF THE PRESIDENT
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#center">
+                           OF THE U STATES
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#narrator">
+               <cbml:caption>
+                  Y esta es la historia verdadera, señoras y señores, del gigante
+                  que envejeció siendo niño y tuvo aterrada a la humanidad
+                  durante su adolescencia, debiendo considerarse apócrifas todas
+                  las historias que lo presentan como el Primero de los Caballeros
+                  de Industria, o como el Último de los Mohicanos.
+                  the end
+               </cbml:caption>
+            </cbml:panel>
+         </div>
+         <pb/>
+         <div type="panelGrp" xml:id="eg_0025">
+            <fw type="pageNum" place="upper-right">
+               61
+            </fw>
+            <cbml:panel n="1" characters="#narrator">
+               <cbml:caption>
+                  Y este cuento se acabó…
+                  <cbml:balloon type="image" who="#narrator">    
+                  <note type="panelDesc"> 
+                  Half-dead soldier-type character stands in a river or bog, the water up to his mouth.
+                  His helmet has stars and the label USA on it, and there are worms coming out of it. Signs on
+                  sticks protrude from the water, with the names of countries the US has tried invading. The bottom
+                  center of the image holds the name of the author of the image: Ollie Harrington.
+                  </note>    
+                  </cbml:balloon>
+               <floatingText subtype="label" type="diegetic">
+               <body>
+                  <ab>
+                     <title rendition="#large #center">
+                        USA
+                     </title>
+                  </ab>
+               </body>
+            </floatingText>
+            <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#large #center">
+                           CAMBODIA
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+                  <body>
+                     <ab>
+                        <title rendition="#large #center">
+                           LAOS
+                        </title>
+                     </ab>
+                  </body>
+               </floatingText>
+               <floatingText subtype="label" type="diegetic">
+               <body>
+                  <ab>
+                     <title rendition="#large #right">
+                        VIETNAM
+                     </title>
+                  </ab>
+               </body>
+            </floatingText>
+            <floatingText subtype="label" type="diegetic">
+               <body>
+                  <ab>
+                     <title rendition="#large #center">
+                        ANGOLA
+                     </title>
+                  </ab>
+               </body>
+            </floatingText>
+               </cbml:caption>
+            </cbml:panel>  
+         </div>
+         <pb/>
+         </body>
+     <back>  
+        <div type="originalPub">   
+           <p>
+              EDITADO ORIGINALMENTE POR LA CASA DE LAS AMÉRICAS/ La Habana, Cuba, 1963.
+           </p>  
+        </div>  
+     </back>
+  </text>
+</TEI>
