@@ -8,16 +8,22 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
         include-content-type="no" indent="yes"/>
     
+    <xsl:variable name="cbml-collection" as="document-node()+" select="collection('cbml/?select=*.xml')"/>
+    <!-- 2023-11-08 ebb: MAKE SURE THERE ARE NO EXTRA SPACES in the collection() variable!   -->
+    
    <xsl:template match="/">
        <html>
            <head>
-               <title>....</title>
-               <!-- Add a link line for CSS! -->
+               <title>CBML Transformation!</title>
+               <link rel="stylesheet" type="text/css" href="style.css"/> 
            </head>
            <body>
-               <h1>....</h1> 
+               <!-- What do you want to be pulling from the CBML documents to be displaying in HTML? -->
+               <h1>Titles of Comic Books in the Collection</h1> 
             
-            <!-- What do you want to be pulling from the CBML documents to be displaying in HTML? -->
+            <ul>
+               <xsl:apply-templates select="$cbml-collection//titleStmt"/>
+            </ul>
             
            </body>
        </html>
@@ -26,6 +32,14 @@
    <!-- ebb: Now, write new template rules to handle processing of XML elements where  you'll be getting lots of output:
        each single match generates a particular kind of output element in the HTML.
    -->
+   <xsl:template match="titleStmt">
+       
+       <li><em><xsl:apply-templates select="title"/></em> by <xsl:apply-templates select="author"/>
+           
+       </li>
+       
+   </xsl:template>
+    
  
  
     
