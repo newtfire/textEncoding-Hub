@@ -19,7 +19,7 @@
            </head>
            <body>
                <!-- What do you want to be pulling from the CBML documents to be displaying in HTML? -->
-               <h1>Titles of Comic Books in the Collection</h1> 
+               <h1>Titles and Authors of Comic Books in the Collection</h1> 
             
             <ul>
                <xsl:apply-templates select="$cbml-collection//titleStmt"/>
@@ -32,15 +32,17 @@
    <!-- ebb: Now, write new template rules to handle processing of XML elements where  you'll be getting lots of output:
        each single match generates a particular kind of output element in the HTML.
    -->
-   <xsl:template match="titleStmt">
+  <xsl:template match="titleStmt">
        
-       <li><em><xsl:apply-templates select="title"/></em> by <xsl:apply-templates select="author"/>
+       <li><em><xsl:value-of select="title"/></em> 
+           <xsl:text>by</xsl:text> 
+           <xsl:apply-templates select="author"/>
            
        </li>
        
    </xsl:template>
     
  
- 
+
     
 </xsl:stylesheet>
