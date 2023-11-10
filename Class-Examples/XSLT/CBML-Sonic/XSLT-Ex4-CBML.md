@@ -9,10 +9,11 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
 * Inside this directory is 
   * a source XML document: [Sonic-issue01.xml](Sonic-issue01.xml)
   * a starter XSLT file: [CBML-to-HTML-XSL4-start.xsl](CBML-to-HTML-XSL4-start.xsl)
+  * a starter CSS file: [style.css](style.css)
   * two different possible outputs:
       * [sonic-out-pageLinks.html](sonic-out-pageLinks.html)
       * [sonic-out-solution.html](sonic-out-solution.html)
-* **Copy the source XML and XSLT files to your own space**, or download them directly from the links above. 
+* **Copy the source XML, XSLT, and CSS files to your own space**, or download them directly from the links above. 
 
 In this first stage, we're going to be making a reading view of the source XML file. We're also planning to construct a linked "table of contents" for the file that helps locate specific characters. 
 For this to work, we need HTML elements for sections of our output to have `@id` attributes. These will eventually be targets for `@href` attributes in our linked table of contents.
@@ -26,6 +27,8 @@ You may use our sample code or adapt this assignment to your own project code.
 * You'll probably have more template rules to write to process the different levels, and you should definitely work with more HTML 
 block elements like `<section>`, `<div>`, and `<figure>` in addition to `<p>`. 
 * Put `@class` attributes on your HTML elements to help you style them! 
+* Set an `@id` on the HTML elements holding pages and panels: You will use that as a target for your links in the next stage of this assignment!
+    * When you process the output for panels from the Sonic XML, you'll probably see an error about a "duplicate id" on one output panel. That's because there's a duplicate `@xml:id` in the source XML on a panel. Can you spot the source of the error? 
 * Write CSS! We started you out with a CSS file linked to the stylesheet, so keep modifying it to make the output the way you want.
 
 

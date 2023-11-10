@@ -50,6 +50,7 @@
        </html>
    </xsl:template> 
     
+    
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="{@xml:id}">
             <!-- ebb: Let's output some elements with @id attributes on HTML elements
