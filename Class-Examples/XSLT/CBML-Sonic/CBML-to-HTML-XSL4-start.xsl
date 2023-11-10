@@ -62,16 +62,15 @@
     
    
    
-   <!--ebb: There are some figure and figDescs coded inisdes p elements in the CBML, 
-       so I tred to exclude them here. -->
+   <!--ebb: Most <figure> and <figdesc> elements from CBML  can be handled with the HTML <figure> element,
+       which is a top-level block HTML element (not allowed inside an HTML <p>).
+       
+       But in the Sonic XML files there are some figure and figDescs coded inside <p> elements, so 
+       if we processed all of them this way, the HTML output will have errors and not be valid HTML. 
+       I'm using an XPath predicate filter to exclude the figDesc and figure elements that are housed inside <p> elements from
+   processing as <figure> and <p> for this project. 
+   -->
 
-    
-    <xsl:template match="p | figDesc[not(ancestor::p)]">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
     <xsl:template match="figure[not(parent::p)]">
         <figure class="{@type}">
             <xsl:apply-templates/>
@@ -79,10 +78,14 @@
         </figure>
   
     </xsl:template>
-
- 
     
- 
+    <xsl:template match="p | figDesc[not(ancestor::p)]">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
 
+ 
+   
     
 </xsl:stylesheet>

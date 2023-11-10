@@ -5,7 +5,7 @@ It is also designed to help orient you to how to work with XML hierarchies to cr
 We're working with project code from the Fall 2023 Text Encoding class's Sonic the Hedgehog project.
 
 **Let's begin by accessing the files.** You can enter `git pull` on the textEncoding-Hub, and find the files for this assignment in:
-* Class-Examples >> XSLT >> AliceUnderground
+* **Class-Examples >> XSLT >> CBML-Sonic**
 * Inside this directory is 
   * a source XML document: [Sonic-issue01.xml](Sonic-issue01.xml)
   * a starter XSLT file: [CBML-to-HTML-XSL4-start.xsl](CBML-to-HTML-XSL4-start.xsl)
