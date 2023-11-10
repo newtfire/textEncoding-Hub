@@ -1,4 +1,4 @@
-# XSLT Exercise 2: A Reading view for CBML with a Character table: Part 1
+# XSLT Exercise 4: A Reading view for CBML with a Character table: Part 1
 
 This exercise introduces you to processing XML to output HTML with a very different structure.
 It is also designed to help orient you to how to work with XML hierarchies to create template rules and output HTML structures to match.
