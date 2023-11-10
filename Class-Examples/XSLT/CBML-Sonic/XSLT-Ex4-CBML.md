@@ -29,7 +29,7 @@ block elements like `<section>`, `<div>`, and `<figure>` in addition to `<p>`.
 * Put `@class` attributes on your HTML elements to help you style them! 
 * Set an `@id` on the HTML elements holding pages and panels: You will use that as a target for your links in the next stage of this assignment!
     * When you process the output for panels from the Sonic XML, you'll probably see an error about a "duplicate id" on one output panel. That's because there's a duplicate `@xml:id` in the source XML on a panel. Can you spot the source of the error? 
-* Write CSS! We started you out with a CSS file linked to the stylesheet, so keep modifying it to make the output the way you want.
+* Write CSS! We started you out with a CSS file linked to the stylesheet, so you can keep modifying it to make the output the way you want.
 
 
 
