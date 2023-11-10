@@ -12,7 +12,9 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
   * a sample of the output: [sonic-out-solution.html](sonic-out-solution.html)
 * **Copy the source XML and XSLT files to your own space**, or download them directly from the links above. 
 
-We're going to be making a linked reading view.
+We're going to be making a linked reading view. You may use our sample code or adapt this assignment to your own project code.
+**If adapting this to your own project and it is NOT TEI or CBML**, be sure to remove the namespace processing lines from the XSL root element!
+
 
 Basically you'll be creating an entirely new HTML structure out of the original XML documnt, and pulling just a few pieces of data from the original.
 For this we'll be using the `@select` attribute on `<xsl:apply-templates>` to select ONLY the XML nodes we want to process.
@@ -23,7 +25,8 @@ And we'll be setting up a very special template that transforms the entire XML d
 We've prepared a starter file to help you with this, but when you do this on your own for projects, notice these things:
 
 * Your XSL root element needs to output HTML, and it needs the HTML namespace to be entered. See the xmlns pointing to the XHTML namespace?
-
+* We have also applied the TEI and CBML namespaces in the root element. **NOTE: If you are adapting this to your project and you are NOT using CBML or TEI, you should remove the
+namespace lines here, or your project code won't be processed!** 
 
 ```xml
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

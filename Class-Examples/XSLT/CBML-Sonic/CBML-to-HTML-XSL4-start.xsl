@@ -9,16 +9,13 @@
         include-content-type="no" indent="yes"/>
     
     <!-- COLLECTION VARIABLES: Uncomment one of these if you need to process a collection!  -->
-    
  <!--   <xsl:variable name="cbml-collection" as="document-node()+" select="collection('cbml/?select=*.xml')"/>-->
     
     <!-- 2023-11-08 ebb: MAKE SURE THERE ARE NO EXTRA SPACES in the collection() variable!   -->
-    <!-- Alternative collection variable if your files are nested deeply below where your XSLT is saved: -->
-        
-   <!-- <xsl:variable name="cbml-nested" as="document-node()+" select="collection('.?select=*.xml;recurse=yes')"/>-->
+    <!-- Alternative collection variable if your files are nested deeply below where your XSLT is saved: -->    
+   <!-- <xsl:variable name="cbml-DeepNested" as="document-node()+" select="collection('.?select=*.xml;recurse=yes')"/>-->
  
    
-    
    <xsl:template match="/">
        <html>
            <head>
@@ -37,16 +34,15 @@
  
       
           </div>     
-
  
-               
           <div id="reading-view">        
-            <!-- READING VIEW HERE -->
+            <!-- READING VIEW PROCESSING STARTS HERE. -->
             <xsl:apply-templates select="descendant::body"/>
               
               <!--  IF PROCESSING A COLLECTION of XML files, uncomment this / adapt as needed:
               <xsl:apply-templates select="$cbml-collection//div"/>
           -->
+          
           
           </div>
    
@@ -56,12 +52,13 @@
     
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="{@xml:id}">
+            <!-- ebb: Let's output some elements with @id attributes on HTML elements
+                that can serve as targets for internal links.  -->
      
         </section>
     </xsl:template>
     
-   
-   
+  
    <!--ebb: Most <figure> and <figdesc> elements from CBML  can be handled with the HTML <figure> element,
        which is a top-level block HTML element (not allowed inside an HTML <p>).
        
