@@ -9,7 +9,9 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
 * Inside this directory is 
   * a source XML document: [Sonic-issue01.xml](Sonic-issue01.xml)
   * a starter XSLT file: [CBML-to-HTML-XSL4-start.xsl](CBML-to-HTML-XSL4-start.xsl)
-  * a sample of the output: [sonic-out-solution.html](sonic-out-solution.html)
+  * two different possible outputs:
+      * [sonic-out-pageLinks.html](sonic-out-pageLinks.html)
+      * [sonic-out-solution.html](sonic-out-solution.html)
 * **Copy the source XML and XSLT files to your own space**, or download them directly from the links above. 
 
 We're going to be making a linked reading view. You may use our sample code or adapt this assignment to your own project code.
