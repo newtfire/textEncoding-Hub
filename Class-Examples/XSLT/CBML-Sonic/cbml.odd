@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rnc" type="compact"?>
+<!-- <?oxygen RNGSchema="file:/Users/jawalsh/Dropbox/Development/tei/odd/RomaResults/generalAuthoring.rnc" type="compact"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <!-- TEI modules:
+        
+        Module name		A short description	Changes
+        analysis		Simple analytic mechanisms	
+        certainty		Certainty and uncertainty	
+        core		    Elements common to all TEI documents	
+        corpus		    Header extensions for corpus texts	
+        declarefs		Feature system declarations	
+        dictionaries	Printed dictionaries	
+        drama		    Performance texts	
+        figures		    Tables, formulae, and figures	
+        gaiji		    Character and glyph documentation	
+        header		    The TEI Header	
+        iso-fs		    Feature structures	
+        linking		    Linking, segmentation and alignment	
+        msdescription	Manuscript Description	
+        namesdates	 	Names and dates	
+        nets		    Graphs, networks and trees	
+        spoken		    Transcribed Speech	
+        tagdocs		    Documentation of TEI modules	
+        tei		        Declarations for datatypes, classes, 
+        and macros available to all TEI modules	
+        textcrit		Text criticism	
+        textstructure	Default text structure	
+        transcr		    Transcription of primary sources	
+        verse		    Verse structures
+    -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CBML</title>
+                <author>John A. Walsh</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This document is the original source; created on 23 November 2006.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <divGen type="toc"/>
+            <schemaSpec ident="cbml" start="TEI">
+                <moduleRef key="core"/>
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="figures"/>
+                <moduleRef key="linking"/>
+                <moduleRef key="analysis"/>
+                <moduleRef key="transcr"/>
+                <moduleRef key="drama"/>
+                <moduleRef key="namesdates"/>
+                
+                <moduleSpec ident="cbml">
+                    <altIdent>Comic Book Markup Language (CBML)</altIdent>
+                    <desc>Additional elements for encoding comic books, comics, <soCalled>graphic novels,</soCalled> and other documents that share formal and structural features with comics.</desc>
+                </moduleSpec>
+
+                <!-- panel -->
+                <elementSpec ident="panel" mode="add" module="cbml" ns="http://www.cbml.org/ns/1.0" prefix="cbml_">
+                    <desc> Contains a single comic book panel. </desc>
+                    <classes mode="replace">
+                        <memberOf key="model.divLike"/>
+                        <memberOf key="att.global"/>
+                        <memberOf key="att.divLike"/>
+                        <memberOf key="att.typed"/>
+                        <memberOf key="att.declaring"/>
+                    </classes>
+                    <content>
+                        <rng:group>
+                            <rng:zeroOrMore>
+                                <rng:choice>
+                                    <rng:ref name="model.divTop"/>
+                                    <rng:ref name="model.global"/>
+                                </rng:choice>
+                            </rng:zeroOrMore>
+                            <rng:optional>
+                                <rng:choice>
+                                    <rng:group>
+                                        <rng:oneOrMore>
+                                            <rng:choice>
+                                                <rng:ref name="model.divLike"/>
+                                                <rng:ref name="model.divGenLike"/>
+                                            </rng:choice>
+                                            <rng:zeroOrMore>
+                                                <rng:ref name="model.global"/>
+                                            </rng:zeroOrMore>
+                                        </rng:oneOrMore>
+                                    </rng:group>
+                                    <rng:group>
+                                        <rng:oneOrMore>
+                                            <rng:group>
+                                                <rng:ref name="model.common"/>
+                                            </rng:group>
+                                            <rng:zeroOrMore>
+                                                <rng:ref name="model.global"/>
+                                            </rng:zeroOrMore>
+                                        </rng:oneOrMore>
+                                        <rng:zeroOrMore>
+                                            <rng:choice>
+                                                <rng:ref name="model.divLike"/>
+                                                <rng:ref name="model.divGenLike"/>
+                                            </rng:choice>
+                                            <rng:zeroOrMore>
+                                                <rng:ref name="model.global"/>
+                                            </rng:zeroOrMore>
+                                        </rng:zeroOrMore>
+                                    </rng:group>
+                                </rng:choice>
+                                <rng:zeroOrMore>
+                                    <rng:group>
+                                        <rng:ref name="model.divBottom"/>
+                                    </rng:group>
+                                    <rng:zeroOrMore>
+                                        <rng:ref name="model.global"/>
+                                    </rng:zeroOrMore>
+                                </rng:zeroOrMore>
+                            </rng:optional>
+                        </rng:group>
+                    </content>
+                    <attList>
+                        <attDef ident="characters" usage="opt">
+                            <desc>Pointers to characters appearing in the panel.</desc>
+                            <datatype minOccurs="1" maxOccurs="unbounded">
+                                <rng:ref name="data.pointer"/>
+                            </datatype>
+                        </attDef>
+                    </attList>
+                    <exemplum>
+                        <p>
+                        <figure>
+                            <head>The fifth panel of page 6, from Captain America #193 (January 1976), edited, written, and drawn by Jack Kirby.</head>
+                            <graphic url="../images/eg_panel_01.png"/>
+                        </figure>
+                        </p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<cbml:panel n="5" characters="#cap #anon_man" ana="#action-to-action" xml:id="eg_000">  
+    <cbml:caption>  
+        Cap acts quickly to tranquilize the gun-happy pedestrian...  
+    </cbml:caption>  
+    <cbml:balloon xml:id="eg_007" type="speech" who="#cap">  
+        A little <emph rendition="#b">sleep</emph>  
+        will do wonders for you!  
+    </cbml:balloon>  
+    <sound>SPLAT!</sound>  
+    <cbml:balloon type="speech" who="#anon_man">  
+        Ugh!  
+    </cbml:balloon>          
+</cbml:panel>   
+</egXML>
+                    </exemplum>
+                </elementSpec>
+                
+                <!-- balloon -->
+                <elementSpec ident="balloon" mode="add" ns="http://www.cbml.org/ns/1.0" module="cbml" prefix="cbml_">
+                    <desc>
+                        A single speech, thought, or other type of balloon, commonly found in comics, comic books, and graphic novels.
+                    </desc>
+                    <classes>
+                        <memberOf key="model.inter"/>
+                        <memberOf key="att.global"/>
+                        <memberOf key="att.typed"/>
+                        <memberOf key="att.ascribed"/>
+                    </classes>
+                    <content>
+                        <rng:ref name="macro.specialPara"/>
+                    </content>
+                    <attList>
+                        <attDef ident="type" usage="req" mode="change">
+                            <desc>Describes the type of balloon.</desc>
+                            <datatype>
+                                <rng:ref xmlns:rng="http://relaxng.org/ns/structure/1.0" name="data.enumerated"/>
+                            </datatype>
+                            <defaultVal>speech</defaultVal>
+                            <valList type="semi">
+                                <valItem ident="speech">
+                                    <desc>speech balloon.</desc>
+                                </valItem>
+                                <valItem ident="thought">
+                                    <desc>thought balloon.</desc>
+                                </valItem>
+                                <valItem ident="audio">
+                                    <desc>a balloon emanating from an audio device, e.g., television or radio speaker, telephone, walkie-talkie, etc.</desc>
+                                </valItem>
+                                <valItem ident="telepathy">
+                                    <desc>a <soCalled>telepathic</soCalled> balloon, i.e., a balloon representing language that telepathically transmitted from <soCalled>speaker</soCalled> to <soCalled>listener.</soCalled></desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                    </attList>
+                    <exemplum>
+                        <p>
+                            <figure>
+                                <head>A panel from a Stardust story, by Fletcher Hanks, from <title>Fantastic Comics</title> #15 (February 1941).</head>
+                                <graphic url="../images/eg_balloon_01.png"/>
+                            </figure>
+                        </p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">                        
+<cbml:panel characters="#stardust">  
+    <cbml:caption>  
+        The next instant, Stardust swoops out of the heavens........  
+    </cbml:caption>  
+    <cbml:balloon type="speech" who="#stardust">  
+        We must take no more risk!  
+    </cbml:balloon>  
+</cbml:panel>  
+</egXML>
+                    </exemplum>
+                    <exemplum>
+                        <ab>
+                            <figure>
+                                <head>An panel from The Amazing Spider-Man #5 (October 1963) by Stan Lee and Steve Ditko.</head>
+                                <graphic url="../images/eg_balloon_02.png"/>
+                            </figure>
+                        </ab>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<cbml:panel characters="#spidey #jjj" n="3" xml:id="eg_ae1">  
+    <cbml:balloon xml:id="eg_006" who="#jjj" type="audio" subtype="telecast" rendition="#uc">  
+        My name is J. Jonah Jameson, publisher of   
+        <title rendition="#b">Now</title> magazine and the   
+        <title rendition="#b">Daily Bugle</title><emph rendition="#b">!</emph>   
+        I am sponsoring this program in the public interest, to expose   
+        <emph rendition="#b">Spider-Man</emph> to the pubic as the menace he is!  
+    </cbml:balloon>  
+</cbml:panel>
+                        </egXML>
+                    </exemplum>
+                </elementSpec>
+                <elementSpec ident="caption" mode="add" module="cbml"
+                    ns="http://www.cbml.org/ns/1.0" prefix="cbml_">
+                    <desc>
+                        A narrative caption from a comic book panel.
+                    </desc>
+                    <classes>
+                        <memberOf key="model.inter"/>
+                        <memberOf key="att.global"/>
+                        <memberOf key="att.typed"/>
+                        <memberOf key="att.ascribed"/>
+                    </classes>
+                    <content>
+                        <rng:ref name="macro.specialPara"/>
+                    </content>
+                    
+                    <exemplum>
+                        <p>
+                            <figure>
+                                <head>A panel from a Dr. Strange story by Stan Lee and Steve Ditko from126 <title>Strange Tales</title> #126 (November 1964).</head>
+                                <graphic url="../images/eg_caption_01.png"/>
+                            </figure>
+                        </p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<cbml:panel>    
+    <cbml:caption rendition="#uc">   
+        <hi rendition="#b">S</hi>lowly the mists begin to clear, as a    
+        strange, startling world takes form!    
+        A world in which the impossible is    
+        believable, and the incredible is
+        commonplace--the world of the
+        dark domain--the world of the
+        dread <emph rendition="#b">Dormammu!</emph>
+    </cbml:caption>
+    <cbml:balloon type="speech" who="#drstrange">
+        The journey is over!
+        But, judging by the 
+        unspeakable menace
+        I see before me, the
+        <emph rendition="#b">battle</emph> is just begun!
+    </cbml:balloon>
+</cbml:panel>                           
+
+
+                        </egXML>
+                    </exemplum>
+                </elementSpec>
+                
+                <!-- Standard TEI elements with CBML exempla -->
+                
+                <elementSpec ident="div" mode="change">
+                    <exemplum>
+                        <p>
+                            <figure>
+                                <head>The title page from a Samson story in <title>Fantastic Comics</title> #15 (February 1941). In the example below, after the title panel, a TEI <gi>div</gi> element is used to indicate a panel group (<att>type</att><code>="panelGrp"</code>).</head>
+                             <graphic url="../images/eg_panelGrp_01.jpg"/>   
+                            </figure>
+                        </p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<cbml:panel type="title">
+    <head>Samson and David</head>
+    <cbml:caption rendition="#uc">
+        Out of the mists of history
+        comes the mighty Samson--
+        like his famous ancestor,
+        Samson pits his temendous
+        strength against the forces
+        of evil and injustice--Mu…
+        high priest of evil, plots
+        against civilization…
+    </cbml:caption>
+    <bibl>
+        By—
+        <author>Alex Boon</author>
+    </bibl>
+</cbml:panel>
+<div type="panelGrp" xml:id="eg_002">
+    <cbml:panel n="1" characters="#david #samson">
+        <cbml:balloon who="#david" type="speech">
+            What a funny looking truck
+            outside here… Never saw one 
+            like it before!
+        </cbml:balloon>
+        <cbml:balloon who="#samson" type="speech">
+            That’s strange! What’s it look
+            like?
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel n="2" characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">
+            You’re right--I never
+            saw one like this before!
+        </cbml:balloon>
+        <cbml:balloon type="speech" who="#david">
+            Wonder what it’s doing here?
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel n="3" characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">
+            What the--!
+        </cbml:balloon>
+        <cbml:balloon type="speech" who="#david">
+            Gas---Help!
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel n="4" characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">
+            No time to look for doors
+            now!
+        </cbml:balloon>
+        <sound>Crash!</sound>
+        <fw type="pageNum" place="lower-left">1</fw>
+    </cbml:panel>
+</div>
+                        </egXML>
+                    </exemplum>
+                    <exemplum>
+                        <p>
+                            <figure>
+                                <head>A small advertisement in Fantastic Four #65 (August 1967).</head>
+                                <graphic url="../images/eg_advert_01.jpg"/>   
+                            </figure>
+                        </p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<div type="advert" xml:id="eg_003">    
+    <head rend="background-color:black; color:white;" rendition="#x-large #center #uc">    
+        Poems Wanted    
+    </head>    
+    <ab type="floatingHead" rendition="#center #uc">To Be Set to Music</ab>    
+    <p>    
+        Send one or more of your best poems today     
+        for <emph rendition="#uc">free examination</emph>.    
+        Any subject. Immediate Consideration.    
+    </p>    
+    <ab type="floatingHead" rendition="#center #uc">Phonograph Records Made</ab>    
+    <ab>    
+        <address>    
+            <addrLine rendition="#uc #large #center">    
+                <orgName>Crown Music Co</orgName>    
+            </addrLine>    
+            <addrLine rendition="#center">    
+                49 W. 32 St., Studio 11, New York 1    
+            </addrLine>    
+        </address>    
+    </ab>    
+</div>    
+                        </egXML>
+                    </exemplum>
+                </elementSpec>
+                
+                <elementSpec ident="sound" mode="change">
+                    <exemplum>
+                        <p>
+                            <figure>
+                                <head>A panel from <title>Captain America</title> #193 (January 1976) by Jack Kirby.</head>
+                                <graphic url="../images/eg_sound_01.jpg"/>
+                            </figure>
+                        </p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<cbml:panel n="2" characters="#cap #anon_man">    
+    <cbml:balloon who="#cap" type="thought" rendition="#uc">    
+        That man firing the pistol--I'll have to     
+        <emph rendition="#b">stop</emph>    
+        him before someone stops a     
+        <emph rendition="#b">bullet!</emph>    
+    </cbml:balloon>    
+    <sound>    
+        POW!     
+    </sound>    
+</cbml:panel>          
+                        </egXML>
+                    </exemplum>
+                </elementSpec>
+                
+                
+                
+                <!-- indicia -->
+                <!--
+                <elementSpec ident="indicia" mode="add" module="cbml" ns="http://www.cbml.org/ns/1.0" prefix="cbml_">
+                    <desc>Contains the <soCalled>small print</soCalled> bibliographic and legal
+                        information, traditionally found at the bottom of the first recto after the cover of
+                        a comic book, more recently some of the major comic book publishers have
+                        moved this information to the bottom of the final verso before the back
+                        cover.</desc>
+                    <classes>
+                        <memberOf key="att.global"/>
+                        <memberOf key="model.divLike"/>
+                    </classes>
+                    <content>
+                        <rng:ref name="macro.paraContent"/>
+                    </content>
+                </elementSpec>
+                -->
+
+                <!-- deleted elements -->
+                <!-- The "numbered divs" are deleted in favor of using numbered divs. -->
+                <elementSpec ident="div1" module="core" mode="delete"/>
+                <elementSpec ident="div2" module="core" mode="delete"/>
+                <elementSpec ident="div3" module="core" mode="delete"/>
+                <elementSpec ident="div4" module="core" mode="delete"/>
+                <elementSpec ident="div5" module="core" mode="delete"/>
+                <elementSpec ident="div6" module="core" mode="delete"/>
+                <elementSpec ident="div7" module="core" mode="delete"/>
+                
+                <!-- deleted to avoid confusion with cbml:caption. Just 
+                    comment out this line if you have use for the TEI 
+                    caption element in your CBML documents. -->
+                <elementSpec ident="caption" module="drama" mode="delete"/>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
