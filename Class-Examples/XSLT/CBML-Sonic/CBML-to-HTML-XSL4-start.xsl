@@ -28,33 +28,59 @@
            <body>
          
                <h1><xsl:apply-templates select="descendant::titleStmt/title"/></h1> 
-            
+               
+          <div id="characterTable">
+           
+              <!-- We're going to need this in the panel lookup! -->
+              
+              <!-- TBD:  XSLT to find the characters by page or panel here. -->
+ 
       
+          </div>     
 
-          <!--  IF PROCESSING A COLLECTION of XML files, uncomment this / adapt as needed:
+ 
+               
+          <div id="reading-view">        
+            <!-- READING VIEW HERE -->
+            <xsl:apply-templates select="descendant::body"/>
+              
+              <!--  IF PROCESSING A COLLECTION of XML files, uncomment this / adapt as needed:
               <xsl:apply-templates select="$cbml-collection//div"/>
           -->
-            
-            <xsl:apply-templates select="descendant::body"/>
-                
-                
-            
+          
+          </div>
+   
            </body>
        </html>
    </xsl:template> 
     
-   <!-- ebb: Now, write new template rules to handle processing of XML elements where  you'll be getting lots of output:
-       each single match generates a particular kind of output element in the HTML.
-   -->
-  <xsl:template match="titleStmt">
-       
-       <li><em><xsl:value-of select="title"/></em> 
-           <xsl:text>by</xsl:text> 
-           <xsl:apply-templates select="author"/>
-           
-       </li>
-       
-   </xsl:template>
+    <xsl:template match="div[@type='page']">
+        <section class="{@type}" id="{@xml:id}">
+     
+        </section>
+    </xsl:template>
+    
+   
+   
+   <!--ebb: There are some figure and figDescs coded inisdes p elements in the CBML, 
+       so I tred to exclude them here. -->
+
+    
+    <xsl:template match="p | figDesc[not(ancestor::p)]">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="figure[not(parent::p)]">
+        <figure class="{@type}">
+            <xsl:apply-templates/>
+            
+        </figure>
+  
+    </xsl:template>
+
+ 
     
  
 
