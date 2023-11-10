@@ -1,8 +1,8 @@
-# XSLT Exercise 2: Making an Image Directory for Alice's Adventures Underground
+# XSLT Exercise 2: A Reading view for CBML with a Character table: Part 1
 
 This exercise introduces you to processing XML to output HTML with a very different structure.
 It is also designed to help orient you to how to work with XML hierarchies to create template rules and output HTML structures to match.
-We're working with project code from the Fall 2023 Text Encoding class's Alice Underground project.
+We're working with project code from the Fall 2023 Text Encoding class's Sonic the Hedgehog project.
 
 **Let's begin by accessing the files.** You can enter `git pull` on the textEncoding-Hub, and find the files for this assignment in:
 * Class-Examples >> XSLT >> AliceUnderground
