@@ -14,15 +14,23 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
       * [sonic-out-solution.html](sonic-out-solution.html)
 * **Copy the source XML and XSLT files to your own space**, or download them directly from the links above. 
 
-We're going to be making a linked reading view. You may use our sample code or adapt this assignment to your own project code.
+In this first stage, we're going to be making a reading view of the source XML file. We're also planning to construct a linked "table of contents" for the file that helps locate specific characters. 
+For this to work, we need HTML elements for sections of our output to have `@id` attributes. These will eventually be targets for `@href` attributes in our linked table of contents.
+Study how this works by looking at the code for the output files linked above.
+
+You may use our sample code or adapt this assignment to your own project code.
 **If adapting this to your own project and it is NOT TEI or CBML**, be sure to remove the namespace processing lines from the XSL root element!
 
+### Hints
+* Start this assignment as you did [XSLT Exercise 3](https://newtfire.org/courses/tutorials/XSLTExercise-skyrim.html). 
+* You'll probably have more template rules to write to process the different levels, and you should definitely work with more HTML 
+block elements like `<section>`, `<div>`, and `<figure>` in addition to `<p>`. 
+* Put `@class` attributes on your HTML elements to help you style them! 
+* Write CSS! We started you out with a CSS file linked to the stylesheet, so keep modifying it to make the output the way you want.
 
-Basically you'll be creating an entirely new HTML structure out of the original XML documnt, and pulling just a few pieces of data from the original.
-For this we'll be using the `@select` attribute on `<xsl:apply-templates>` to select ONLY the XML nodes we want to process.
-And we'll be setting up a very special template that transforms the entire XML document into a much simpler / totally different HTML structure.
 
-## Setting up an XSLT Stylesheet to Output HTML
+
+## Reminders: Setting up an XSLT Stylesheet to Output HTML, Coping with Namespaces
 
 We've prepared a starter file to help you with this, but when you do this on your own for projects, notice these things:
 
