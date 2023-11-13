@@ -1,5 +1,5 @@
 # XSLT Exercise 5: A Reading view for CBML with a Character table: Part 2
-## Working with Modal XSLT and creating a simple table of contents
+## Working with Modal XSLT and creating a simple Table of Contents
 
 This exercise introduces you to processing XML to output HTML with a very different structure.
 It is also designed to help orient you to how to work with XML hierarchies to create template rules and output HTML structures to match.
@@ -11,12 +11,13 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
   * a source XML document: [Sonic-issue01.xml](Sonic-issue01.xml)
   * a starter XSLT file: [CBML-to-HTML-XSL5-start.xsl](CBML-to-HTML-XSL5-start.xsl)
   * a starter CSS file: [style.css](style.css)
-  * [a sample output file](sonic-out.html) for this exercise, just showing each page and links to its panels.
-  * In a third stage of this assignment, we'll fine-tune this! 
-* **Copy the source XML, XSLT, and CSS files to your own space**, or download them directly from the links above. 
+  * [a sample output file](sonic-out.html) for this exercise that we made in class, just showing each page and links to its panels.
+* **You can work with the XSLT you prepared for XSLT Ex 4 and just continue with this.**
+OR, you can copy the source XML, my XSLT, and CSS files to your own space, or download them directly from the links above. 
 
 In this new stage of the assignment, we're going to work on outputting a table of information that links
-down to specific panels in the Sonic document. 
+down to specific panels in the Sonic document. In the next stage of this assignment (Part 3), we'll take this further with a more complex indexing of data! This will involve working more with
+  variables `<xsl:for-each>`, as well as tunneling parameters! 
 
 ### Overview:
 We're going to try first to output a table of information that we're looking for. We'll modify it in stages.
