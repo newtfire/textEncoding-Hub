@@ -34,20 +34,16 @@
               <!-- ebb: Here inside this <div> is where we'll output the linked index or table of contents
               that points into the reading view panels -->
               
-             
               <table>
                   <tr>
                       <th>Page</th>
-                      <th>Panels</th>
+                      <th>Links to Panels</th>
                   </tr>
-                 
-                <!-- ebb: Here let's apply modal XSLT to process the div[@type='page'] elements differently
-                than we did in the Reading View!  For this exercise, we want ONE table row for Every PAGE. -->
-
+                  
                   <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
-         
                   
               </table>
+             
       
           </div>     
 
@@ -65,9 +61,29 @@
            </body>
        </html>
    </xsl:template> 
+    <!-- MODAL TEMPLATES FOR TOC HERE -->
+   <xsl:template match="div[@type='page']" mode="toc">
+       <tr>
+           <td>Page <xsl:value-of select="@xml:id ! substring-after(., '_')"/></td> 
+           <td>Panels:
+               <ul>
+                   
+                 
+                   
+               </ul>
+          
+           </td>
+           
+       </tr>
+      
+   </xsl:template> 
     
-   
+    <xsl:template match="cbml:panel" mode="toc">
+     
+    </xsl:template>
     
+    
+    <!-- READING VIEW TEMPLATES HERE> -->
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="{@xml:id}">
             <xsl:apply-templates/>
@@ -76,7 +92,8 @@
     </xsl:template>
     
     <xsl:template match="cbml:panel">
-        <div class="panel" id="{ancestor::div/@xml:id}-panel-{@n}">
+        <div class="panel" id="{parent::div/@xml:id}-panel-{@n}">
+            <!-- COME BACK HERE AND GET THE RECIPE FOR LINK TARGETS! -->
             
          <xsl:apply-templates/>            
             
