@@ -9,11 +9,11 @@
         include-content-type="no" indent="yes"/>
     
     <!-- COLLECTION VARIABLES: Uncomment one of these if you need to process a collection!  -->
- <!--   <xsl:variable name="cbml-collection" as="document-node()+" select="collection('cbml/?select=*.xml')"/>-->
+<xsl:variable name="cbml-collection" as="document-node()+" select="collection('cbml/?select=*.xml')"/>
     
     <!-- 2023-11-08 ebb: MAKE SURE THERE ARE NO EXTRA SPACES in the collection() variable!   -->
     <!-- Alternative collection variable if your files are nested deeply below where your XSLT is saved: -->    
-   <!-- <xsl:variable name="cbml-DeepNested" as="document-node()+" select="collection('.?select=*.xml;recurse=yes')"/>-->
+  <!-- <xsl:variable name="cbml-DeepNested" as="document-node()+" select="collection('.?select=*.xml;recurse=yes')"/>-->
  
    
    <xsl:template match="/">
@@ -39,10 +39,9 @@
             <!-- READING VIEW PROCESSING STARTS HERE. -->
             <xsl:apply-templates select="descendant::body"/>
               
-              <!--  IF PROCESSING A COLLECTION of XML files, uncomment this / adapt as needed:
+          <!--   IF PROCESSING A COLLECTION of XML files, uncomment this / adapt as needed:
               <xsl:apply-templates select="$cbml-collection//div"/>
           -->
-          
           
           </div>
    
@@ -55,7 +54,7 @@
         <section class="{@type}" id="{@xml:id}">
             <!-- ebb: Let's output some elements with @id attributes on HTML elements
                 that can serve as targets for internal links.  -->
-     
+             <xsl:apply-templates/>
         </section>
     </xsl:template>
     
@@ -69,7 +68,7 @@
    processing as <figure> and <p> for this project. 
    -->
 
-    <xsl:template match="figure[not(parent::p)]">
+    <xsl:template match="figure">
         <figure class="{@type}">
             <xsl:apply-templates/>
             

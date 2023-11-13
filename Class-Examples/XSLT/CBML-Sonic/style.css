@@ -1,6 +1,8 @@
 /* 2023-11-10 ebb These are just some styling properties I added on the fly as I was working. 
  * Feel free to modify them and change the selectors / values to match your own output!  */
 
+body {background-color:goldenrod;}
+
 .page {border: 4px green solid; padding: 2em; width:80%;}
 
 div.panel {border: 1px blue solid; padding: 1em; width: 90%;}
