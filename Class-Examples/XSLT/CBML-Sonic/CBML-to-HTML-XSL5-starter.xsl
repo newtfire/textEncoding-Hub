@@ -66,6 +66,8 @@
        </html>
    </xsl:template> 
     
+   
+    
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="{@xml:id}">
             <xsl:apply-templates/>
