@@ -11,7 +11,7 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
   * a source XML document: [Sonic-issue01.xml](Sonic-issue01.xml)
   * a starter XSLT file: [CBML-to-HTML-XSL5-start.xsl](CBML-to-HTML-XSL5-start.xsl)
   * a starter CSS file: [style.css](style.css)
-  * a sample output file for this exercise, just showing each page and links to its panels.
+  * [a sample output file](sonic-out.html) for this exercise, just showing each page and links to its panels.
   * In a third stage of this assignment, we'll fine-tune this! 
 * **Copy the source XML, XSLT, and CSS files to your own space**, or download them directly from the links above. 
 

@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae873db-4cb4-4530-bd23-8c65e8f66f5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/CBML-to-HTML-XSL5-solution2.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/CBML-to-HTML-XSL6-solution2.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/CBML-to-HTML-XSL6-starter.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/XSLT-Ex5-CBML.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/sonic-out-solutionModal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/CBML-to-HTML-XSL4-start.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/CBML-to-HTML-XSL4-start.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/sonic-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/sonic-out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/XSLT-Ex5-CBML.md" beforeDir="false" afterPath="$PROJECT_DIR$/Class-Examples/XSLT/CBML-Sonic/XSLT-Ex5-CBML.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699883443399</updated>
-      <workItem from="1699883444506" duration="2422000" />
+      <workItem from="1699883444506" duration="3350000" />
     </task>
     <servers />
   </component>
