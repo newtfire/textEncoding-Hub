@@ -9,7 +9,7 @@ We're working with project code from the Fall 2023 Text Encoding class's Sonic t
 * **Class-Examples >> XSLT >> CBML-Sonic**
 * Inside this directory is 
   * a source XML document: [Sonic-issue01.xml](Sonic-issue01.xml)
-  * a starter XSLT file: [CBML-to-HTML-XSL5-start.xsl](CBML-to-HTML-XSL5-start.xsl)
+  * a starter XSLT file: [CBML-to-HTML-XSL5-start.xsl](https://raw.githubusercontent.com/newtfire/textEncoding-Hub/master/Class-Examples/XSLT/CBML-Sonic/CBML-to-HTML-XSL5-starter.xsl)
   * a starter CSS file: [style.css](style.css)
   * [a sample output file](sonic-out.html) for this exercise that we made in class, just showing each page and links to its panels.
 * **You can work with the XSLT you prepared for XSLT Ex 4 and just continue with this.**

@@ -62,6 +62,7 @@
             FINISH WRITING THIS VARIABLE HERE. Its @select attribute will reach for an XPath expression and use XPath function(s). 
             (we'll get you started in class / on the homework assignment.)
             -->   
+
               
               <xsl:variable name="myData" as="item()+" select=".//cbml:panel/@characters ! normalize-space() ! 
                   tokenize(., ' ') => distinct-values() => sort()"/>
@@ -83,15 +84,35 @@
               <table>
                   <tr>
                       <th>Character</th>
-                      <th>Page</th>
-                      <th>Links to Panels</th>
+                      <th>Links to Panels </th>
+              
                   </tr>
                   
                  <xsl:for-each select="$myData"> 
                      
-               <xsl:apply-templates select="$docTree//div[@type='page'][cbml:panel[contains(@characters, current())]]" mode="toc">
+                     <tr>
+                        
+                         <td><xsl:value-of select="current()"/></td>
+                         <td>
+                             <ul>
+                             <xsl:apply-templates select="$docTree//div[@type='page' and cbml:panel[contains(@characters, current()) ]]" mode="toc">
+                               <xsl:with-param name="currentCharacter" as="item()" select="current()"/>  
+                             </xsl:apply-templates>
+                             <!-- TREE WALKER VARIABLE  -->
+                                 
+                             </ul>
+                         </td>
+                         
+                             
+                         
+                     </tr>
+                     
+             <!--  <xsl:apply-templates select="$docTree//div[@type='page'][cbml:panel[contains(@characters, current())]]" mode="toc">
                    <xsl:with-param name="currentCharacter" as="item()" select="current()"/>
-               </xsl:apply-templates>
+               </xsl:apply-templates>-->
+                
+                 
+                 
                  </xsl:for-each>
                   
               </table>
@@ -116,21 +137,18 @@
     <!-- MODAL TEMPLATES FOR TOC HERE! -->
     <xsl:template match="div[@type='page']" mode="toc">
         <xsl:param name="currentCharacter"/>
-        <tr>
-            <td><xsl:value-of select="$currentCharacter"/></td>
-            <td>Page <xsl:value-of select="@xml:id ! substring-after(., '_')"/></td> 
-            <td>Panels:
-                <ul>
-                    
-               <xsl:apply-templates select=".//cbml:panel" mode="toc">
-                    <xsl:with-param name="currentCharacter" select="$currentCharacter"/>
-               </xsl:apply-templates>
-                    
-                </ul>
-                
-            </td>
-            
-        </tr>
+       
+        <li>Page <xsl:value-of select="@xml:id ! substring-after(., '_')"/>
+           
+           <ul>
+           <xsl:apply-templates select="descendant::cbml:panel" mode="toc">
+               
+               <xsl:with-param name="currentCharacter" select="$currentCharacter"/>
+           </xsl:apply-templates>
+           </ul>   
+       </li>
+        
+
         
     </xsl:template> 
     
