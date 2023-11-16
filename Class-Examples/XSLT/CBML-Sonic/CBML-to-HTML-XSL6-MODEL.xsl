@@ -106,13 +106,8 @@
                              
                          
                      </tr>
-                     
-             <!--  <xsl:apply-templates select="$docTree//div[@type='page'][cbml:panel[contains(@characters, current())]]" mode="toc">
-                   <xsl:with-param name="currentCharacter" as="item()" select="current()"/>
-               </xsl:apply-templates>-->
                 
-                 
-                 
+                               
                  </xsl:for-each>
                   
               </table>
