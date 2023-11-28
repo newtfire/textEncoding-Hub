@@ -14,6 +14,7 @@
 * [Madison Sciarillo](https://github.com/MadisonSciarrillo) **
 * [Tyler Gaydos](https://github.com/gylertaydos)
 * [Charlie Vazquez](https://github.com/creaturepsu)
+* [Matthew Weitzel](https://github.com/mew-II)
 
 ## Digital Mitford Project: Journal (1819-1823) 
 [Project GitHub]()
