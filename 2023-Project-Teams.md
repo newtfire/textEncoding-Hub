@@ -2,6 +2,13 @@
 
 ** designates team lead
 
+## Dennis the Menace Comics 
+[Project GitHub](https://github.com/Remdog712/ComicBook_DIGIT110)
+[Website](https://remdog712.github.io/ComicBook_DIGIT110/)
+* [Remington Orange](https://github.com/Remdog712) **
+* [Lyndon Herschell](https://github.com/LPHerschell)
+* [Lauren McCurdy](https://github.com/lgmccurdy)
+
 ## Founding of Penn State Behrend Papers
 [Project GitHub](https://github.com/sammoniot/FA23BehrendArchive)
 [Website](https://sammoniot.github.io/FA23BehrendArchive/)
