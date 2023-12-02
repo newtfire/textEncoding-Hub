@@ -17,7 +17,7 @@
 * [Matthew Weitzel](https://github.com/mew-II)
 
 ## Digital Mitford Project: Journal (1819-1823) 
-[Project GitHub]()
+[Project GitHub](https://github.com/DigitalMitford/stu2023_Journal)
 [Website](https://digitalmitford.github.io/stu2023_Journal/subDocs/)
 * [Hadleigh Bills](https://github.com/HadleighJae) **
 * [Nathan Hammer](https://github.com/nhammer514)
