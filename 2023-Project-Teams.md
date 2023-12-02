@@ -37,7 +37,7 @@
 * [Tyler Dollard](https://github.com/tylerdollard)
 * [Mistie McColm](https://github.com/MystKitteh)
 
-## Manga 
+## Jujutsu Kaisen! 
 [Project GitHub](https://github.com/JordanJ7/DigitComicProject)
 [Website](https://jordanj7.github.io/DigitComicProject/)
 * [Jordan James](https://github.com/JordanJ7) **
