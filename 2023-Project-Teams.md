@@ -38,8 +38,8 @@
 * [Mistie McColm](https://github.com/MystKitteh)
 
 ## Jujutsu Kaisen! 
-[Project GitHub](https://github.com/JordanJ7/DigitComicProject)
-[Website](https://jordanj7.github.io/DigitComicProject/)
+[Project GitHub](https://github.com/JordanJ7/DigitMangaProject)
+[Website](https://jordanj7.github.io/DigitMangaProject/)
 * [Jordan James](https://github.com/JordanJ7) **
 * [George Koncerak](https://github.com/GKon26)
 
