@@ -7,8 +7,9 @@ In order for you to participate fully in this shared class space, I need to add 
 
 Now that you're here, you should try to "clone" this repository on your local computer.
 
-## Ready Reference for Git/GitHub
-Here is a quick and handy list of git commands: <https://github.com/newtfire/textEncoding-Hub/blob/master/GitCommands.md>
-You can read our detailed guide to get started with Git (or just use this as we do, like a reference to search in for information): <https://newtfire.org/courses/tutorials/explainGitShell.html>
+## Ready Reference for Command line + Git/GitHub
+* Here is a quick and handy list of git commands: <https://github.com/newtfire/textEncoding-Hub/blob/master/GitCommands.md>
+* Web slides Intro to Shell and Git (more detailed): <https://slides.com/elisabeshero-bondar/shell-git-nav>
+* Older detailed guide to get started with Git (or just use this as we do, like a reference to search in for information): <https://newtfire.org/courses/tutorials/explainGitShell.html>
 
 ## [Last year's 2023 Project Teams Directory](2023-Project-Teams.md)
