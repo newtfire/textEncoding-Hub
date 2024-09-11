@@ -152,4 +152,7 @@ Your team members should now do a `git pull` and pull in your resolution of the 
 * `git push` (Push your committed changes to your remote fork.)
 * Create a pull request on the web repository from your fork to the original repo
 
-## Further Reading: Becca Parker's ["Explain Git Shell"](https://newtfire.org/courses/tutorials/explainGitShell.html) tutorial  
+## Further Reading: 
+* Web slides Intro to Shell and Git (more detailed): https://slides.com/elisabeshero-bondar/shell-git-nav
+
+* Becca Parker's ["Explain Git Shell"](https://newtfire.org/courses/tutorials/explainGitShell.html) tutorial (older but very thorough)! 
