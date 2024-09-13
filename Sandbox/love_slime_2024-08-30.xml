@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root><start>For the simplest of all slime recipes, all you need is cornstarch.</start>
+    <step num="3">Just dump some into a <eq>bowl</eq>, add some water, &amp; start mixing.</step>
+    <step2>Keep <action>adding <ing>water</ing></action> until it reaches the consistency you want (a good place to start is 2
+        parts cornstarch to 1 part water). </step2><step>You can also add food coloring to make it
+        look more legit.</step> hello 5 is &lt; than 7 </root>
