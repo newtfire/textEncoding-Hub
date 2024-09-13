@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--This is the final draft of Langston Hughes' poem, "Ballad of Booker T.-->
+<root>
+
+    <format style="emp">
+        <title>BALLAD OF BOOKER T.</title>
+    </format>
+    <input>by</input>
+    <author life="1902-1967">Langston Hughes</author>
+    <poem>
+        <l n="1">
+            <subject life="1856-1915">Booker T.</subject>
+        </l>
+        <l n="2" rhyme="Y">Was a practical man.</l>
+        <l n="3">He said, Till the soil</l>
+        <l n="4" rhyme="Y">And learn from the land.</l>
+        <l n="5">Let down your bucket</l>
+        <l n="6" rhyme="Y">Where you are.</l>
+        <l n="7">Your fate is here</l>
+        <l n="8" rhyme="Y">And not afar.</l>
+        <l n="9">To help yourself</l>
+        <l n="10" rhyme="Y">And your fellow man,</l>
+        <l n="11">Train your head,</l>
+        <l n="12" rhyme="Y">Your heart, <format style="emp">and your hand</format>.</l>
+        <l n="13">For smartness alone's</l>
+        <l n="14" rhyme="Y">Surely not meet—</l>
+        <l n="15">If you haven't at the same time</l>
+        <l n="16" rhyme="Y">Got something to eat.</l>
+        <l n="17">Thus at <ref type="place">Tuskegee</ref></l>
+        <l n="18" rhyme="Y">He built a school</l>
+        <l n="19">With book-learning there</l>
+        <l n="20" rhyme="Y">And the workman's tool.</l>
+        <l n="21">He started out</l>
+        <l n="22">In a simple way—</l>
+        <l n="23">For yesterday</l>
+        <l n="24">Was not today.</l>
+        <l n="25">Sometimes he had</l>
+        <l n="26" rhyme="Y">Compromise in his talk—</l>
+        <l n="27">For a man must crawl</l>
+        <l n="28" rhyme="Y">Before he can walk—</l>
+        <l n="29" rhyme="Y"> And in Alabama in '85 </l>
+        <l n="30">A joker was lucky</l>
+        <l n="31" rhyme="Y">To be alive.</l>
+        <l n="32">But Booker T.</l>
+        <l n="33" rhyme="Y">Was nobody's fool:</l>
+        <l n="34">You may carve a dream</l>
+        <l n="35" rhyme="Y">With an humble tool.</l>
+        <l n="36">The tallest tower</l>
+        <l n="37" rhyme="Y">Can tumble down</l>
+        <l n="38">If it be not rooted</l>
+        <l n="39" rhyme="Y">In solid ground.</l>
+        <l n="40">So, being a far-seeing</l>
+        <l n="41">Education and Outreach Division</l>
+        <l n="42" rhyme="Y">Practical man,</l>
+        <l n="43">He said, Train your head,</l>
+        <l n="44" rhyme="Y">Your heart, <format style="emp">and your hand.</format></l>
+        <l n="45">Your fate is here</l>
+        <l n="46" rhyme="Y">And not afar,</l>
+        <l n="47">So let down your bucket</l>
+        <l n="48" rhyme="Y">Where you are.</l>
+    </poem>
+    <!--Doing //l => count() returns 48-->
+    <format print="sig">LANGSTON HUGHES</format>
+    <newL>Final Draft,</newL>
+    <loc where="Hollow Hills Farm, Monterey, California">
+        <newL>Hollow Hills Farm, Monterey,</newL>
+        <newL>California,</newL>
+    </loc>
+    <newL>
+        <date when="1941-06-01">June 1, 1941.</date>
+    </newL>
+</root>
