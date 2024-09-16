@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<song>
+    <title>the joke isnt funny when ur the punchline</title> - <artist>DethTech</artist>
+    <intro>YEAH!</intro>
+    <verse n="1">
+        <line>waking up everyday to a kick in the face</line>
+        <line>all your dreams are gone</line>
+        <line>you'll never leave this place</line>
+        <line>made a habit of falling into holes <backVoices>(into holes)</backVoices></line>
+        <line>this joke is getting kinda old <backVoices>(old)</backVoices></line>
+    </verse>
+    <chorus>
+        <line>i've heard it a thousand times before</line>
+        <line>and it's just not that funny anymore <backVoices>(anymore)</backVoices></line>
+        <line>now that everything's falling apart</line>
+        <line>i'd dive over the edge for a new start <backVoices>(a new start)</backVoices></line>
+    </chorus> i<postChorus>
+        <line>I'll carve myself a chelsea smile</line>
+        <line>like sad clowns are going out of style</line>
+        <line>i'm so tired of getting pushed around</line>
+        <line>can't wait to be six feet underground</line>
+    </postChorus>
+    <verse n="2">
+        <line>it gets harder to breathe the longer i stay here</line>
+        <line>under the weight of it all</line>
+        <line>i'm better off alone</line>
+        <line>i feel safe in my home</line>
+        <line>oh it's all my fault</line>
+    </verse>
+    <bridge>
+        <line>i've heard it a thousand times before</line>
+        <line>and it's just not that funny anymore</line>
+    </bridge>
+    <chorus>
+        <line>now that everything's falling apart</line>
+        <line>i'd dive over the edge for a new start <backVoices>(a new start)</backVoices></line>
+        <line>I've heard it a thousand times before</line>
+        <line>And it's just not that funny anymore <backVoices>(anymore)</backVoices></line>
+        <line>Now that everything's fallin' apart</line>
+        <line>I'd dive over the edge for a new start <backVoices>(a new start)</backVoices></line>
+    </chorus>
+    <outro>
+        <line>I'd dive over the edge for a new start</line>
+        <line>I'd dive over the edge for a new start</line>
+    </outro>
+</song>
