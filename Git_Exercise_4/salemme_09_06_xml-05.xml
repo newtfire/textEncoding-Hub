@@ -11,6 +11,7 @@
     <input>by</input>
     <author life="1902-1967">Langston Hughes</author>
     <poem>
+        <!--I used attributes similarly to number the lines and indicate rhyme! - Michael Simons-->
         <l n="1">
             <subject life="1856-1915">Booker T.</subject>
         </l>
