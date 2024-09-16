@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The following is an exerpt of "Pop Dreams: Music, Movies, and Media in the 1960s". I would've used fighting game lore for this assignment, but I can't use myself as a source. -->
+
+<root>
+    <paragraph num="1">The violence that marks the ending of <film when="1967-07-14">Easy
+            Rider</film> became the distinguishing hallmark of a number of important films of the
+        sixties, as it became a symbol, for many, of the major events of the decade. No film
+        embodies this element of the period than <person filmaker="true">Arthur Penn</person>'s
+            <film title="true">Bonnie and Clyde</film>
+        <date when="1967-08-04">(1967)</date>.</paragraph>
+    <paragraph>Set in <time>Depression-era</time>
+        <place state="TX">Texas</place>, this romanticization of the exploits of a pair of bank
+        robbers falls partly into the same genre as earlier <place>Hollywood</place> gangster epics
+        in which audience sympathy for the outlaw (as in many westerns) is clearly solicited.
+        However, the exploitations of violence in <film>Bonnie and Clyde</film> reflects new
+        standards in permissibility in the Hollywood in the <time>late 1960s</time>. as the
+        sympathetic portrail of the bank robbers themselves represents an extension of the same
+        countercultural myth that informs the portrait of <char>Captain America</char> and
+            <char>Billy</char> in <film>Easy Rider</film>. In <film>Bonnie and Clyde</film>, the
+        forces of authority are flawed and the sympathy of the audience is directed to the
+        criminals. Clyde explains the desire to be an outlaw in terms reminiscent of
+            <char>Benjamin</char>'s comment on his future in <film when="1967-12-21">The
+            Graduate</film>: <quote speaker="Clyde">"Because you're different," he tells
+                <char>Bonnie</char>, "that's why! You know you're like me. You want different
+            things.... something better than bein' a waitress."</quote></paragraph>
+
+    <Source>[Source: Pop Dreams: Music, Movies, and Media in the 1960s: Published 1998]</Source>
+</root>

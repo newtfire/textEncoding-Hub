@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    
+    <poem>
+        <title>Ballad of Booker T.</title>
+        <author>Langston Hughes</author>
+        <date>June 1, 1941</date>
+        <form>
+            <type>Ballad</type>
+        </form>
+        <content>
+            <stanza>
+                <line>Booker T.</line>
+                <line>Was a practical man.</line>
+                <line>He said, Till the soil</line>
+                <line>And learn from the land.</line>
+                <line>Let down your bucket</line>
+                <line>Where you are.</line>
+                <line>Your fate is here</line>
+                <line>And not afar.</line>
+                <line>To help yourself</line>
+                <line>And your fellow man,</line>
+                <line>Train your head,</line>
+                <line>Your heart, and your hand.</line>
+            </stanza>
+            <stanza>
+                <line>For smartness alone's</line>
+                <line>Surely not meet—</line>
+                <line>If you haven't at the same time</line>
+                <line>Got something to eat.</line>
+                <line>Thus at Tuskegee</line>
+                <line>He built a school</line>
+                <line>With book-learning there</line>
+                <line>And the workman's tool.</line>
+                <line>He started out</line>
+                <line>In a simple way—</line>
+                <line>For yesterday</line>
+                <line>Was not today.</line>
+            </stanza>
+            <stanza>
+                <line>Sometimes he had</line>
+                <line>Compromise in his talk—</line>
+                <line>For a man must crawl</line>
+                <line>Before he can walk—</line>
+                <line>And in Alabama in '85</line>
+                <line>A joker was lucky</line>
+                <line>To be alive.</line>
+            </stanza>
+            <stanza>
+                <line>But Booker T.</line>
+                <line>Was nobody's fool:</line>
+                <line>You may carve a dream</line>
+                <line>With an humble tool.</line>
+                <line>The tallest tower</line>
+                <line>Can tumble down</line>
+                <line>If it be not rooted</line>
+                <line>In solid ground.</line>
+            </stanza>
+            <stanza>
+                <line>So, being a far-seeing</line>
+                <line>Practical man,</line>
+                <line>He said, Train your head,</line>
+                <line>Your heart, and your hand.</line>
+                <line>Your fate is here</line>
+                <line>And not afar,</line>
+                <line>So let down your bucket</line>
+                <line>Where you are</line>
+            </stanza>
+        </content>
+       
+    </poem>
+    
+    
+    
+</root>

@@ -1,0 +1,97 @@
+<root>
+
+<!-- Here is a snippet from the last few pages of the screenplay for Casablanca -->
+<script><direction><char key="Bogart">Rick</char> now <action>SHOOTS</action> at <char key="Veidt">Strasser</char>, who crumples to the ground. 
+
+At the sound of an approaching car both men turn. A police 
+car <action>SPEEDS</action> in and comes to a stop near <char key="Rains">Renault</char>. Four 
+<char>gendarmes</char> hurriedly jump out. 
+
+In the distance the plane turns onto the runway. 
+
+The <char>gendarmes</char> run to <char key="Rains">Renault</char>. The first one hurriedly 
+salutes him.</direction> 
+
+<char key="heading">GENDARME</char> 
+<dialogue>Mon Capitaine!</dialogue> 
+
+<char key="heading">RENAULT</char> 
+<dialogue>Major Strasser's been shot.</dialogue> 
+
+<direction><char key="Rains">Renault</char> pauses and looks at <char key="Bogart">Rick</char>. <char key="Bogart">Rick</char> returns <char key="Rains">Renault's </char>
+gaze with expressionless eyes.</direction> 
+
+<char key="heading">RENAULT</char> 
+<dialogue>Round up the usual suspects.</dialogue> 
+
+<char key="heading">GENDARME</char> 
+<dialogue>Oui, mon Capitaine.</dialogue> 
+
+<direction>The <char>gendarmes</char> take <char key="Veidt">Strasser's</char> body away and then drive off. 
+
+<char key="Rains">Renault</char> walks inside the hangar, picks up a bottle of Vichy 
+water, and opens it.</direction> 
+
+<char key="heading">RENAULT</char> 
+
+
+
+<pg>126</pg> 
+
+
+
+<dialogue>Well, <char key="Bogart">Rick</char>, you're not only a 
+sentimentalist, but you've become 
+a patriot.</dialogue> 
+
+<char key="heading">RICK</char> 
+<dialogue>Maybe, but it seemed like a good time 
+to start.</dialogue> 
+
+<char key="heading">RENAULT</char> 
+<dialogue>I think perhaps you're right.</dialogue> 
+
+<direction>As he pours the water into a glass, <char key="Rains">Renault</char> sees the Vichy 
+label and quickly <action>DROPS</action> the bottle into a trash basket which 
+he then <action>KICKS</action> over.
+
+He walks over and stands beside <char key="Bogart">Rick</char>. They both watch the 
+plane take off, maintaining their gaze until it disappears 
+into the clouds.
+
+<char key="Bogart">Rick</char> and <char key="Rains">Louis</char> slowly walk away from the hangar toward the 
+runway . </direction>
+
+<char key="heading">RENAULT</char> 
+<dialogue>It might be a good idea for you 
+to disappear from Casablanca for 
+a while. There's a Free French 
+garrison over at Brazzaville. 
+I could be induced to arrange a 
+passage .</dialogue> 
+
+<char key="heading">RICK</char> 
+<dialogue>My letter of transit? I could use 
+a trip. But it doesn't make any 
+difference about our bet. You 
+still owe me ten thousand francs.</dialogue> 
+
+<char key="heading">RENAULT</char> 
+<dialogue>And that ten thousand francs should 
+pay our expenses.</dialogue> 
+
+<char key="heading">RICK</char> 
+<dialogue>Our expenses?</dialogue> 
+
+<char key="heading">RENAULT</char> 
+<dialogue>Uh huh.</dialogue> 
+
+<char key="heading">RICK</char> 
+<dialogue>Louis, I think this is the beginning 
+of a beautiful friendship.</dialogue>
+
+<direction>The two walk off together into the night.</direction> 
+
+<fade>FADE OUT.</fade> 
+<closing>THE END</closing> </script>
+</root>
