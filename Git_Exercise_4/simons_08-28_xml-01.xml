@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--JAS - this was a very early assignment! I can already imagine how this student would probably mark this differently now.-->
+
 <letter> [Letter from <author>Marian Baldwin</author>, <date>June 30, 1917</date>] <location>On
-        Board La Touraine</location>, <date>June 30th, 1917</date>. 
-    <content>
+        Board La Touraine</location>, <date>June 30th, 1917</date>. <content>
         <p>Even now that we are out of sight of land, it seems impossible that I am actually off to
             France and, for the first time in my life, traveling alone. Everything has happened so
             quickly since the American Fund for French Wounded found an opening for me in Paris that
@@ -41,5 +42,6 @@
             will never go back to the Front now, having lost some fingers off each hand. She is so
             thankful, she says, that he hasn't lost more than his fingers. </p>
     </content>
-    <source title="Canteening Overseas: 1917-1919" year="1920">[Source:_Canteening Overseas_: 1917-1919, published 1920.]</source>
+    <source title="Canteening Overseas: 1917-1919" year="1920">[Source:_Canteening Overseas_:
+        1917-1919, published 1920.]</source>
 </letter>
