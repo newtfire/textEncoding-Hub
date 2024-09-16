@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+    <verse num="1"> Life is like a hurricane here in <setting ref="city">Duck - burg</setting> Race
+        cars, lasers, aeroplanes it's a, <pun num="1">duck - blur!</pun> Might solve a mystery, or
+        rewrite hist'ry! Duck Tales! <Woot count="1">oo woo oo</Woot> Every day they're out there
+        making Duck Tales! oo woo oo Tales of daring do bad and good luck tales! <woot count="2"
+            >whooh ooh</woot> When it seems they're heading for the final curtain Cool deduction
+        never fails that's for certain The worst of messes become successes </verse>
+
+    <chorus num="1"> Duck Tales! <woot count="3">whooh ooh</woot> Every day they're out there making
+        Duck Tales! <woot count="3"/>whooh ooh Tales of daring do bad and good luck tales! <woot
+            count="3"/>whooh ooh </chorus>
+
+    <refrain num="1"> D - D - D - Danger! Watch behind you! There's a stranger, out to find you!
+        What to do? Just grab on to some Duck Tales </refrain>
+
+    <chorus num="2"> Duck Tales! <woot count="4">oo woo oo</woot> Every day they're out there making
+        Duck Tales! oo woo oo Tales of daring do bad and good luck tales! <woot count="5">oo woo oo
+        </woot></chorus>
+
+    <refrain num="2"> D - D - D - Danger! Watch behind you! There's a stranger, out to find you!
+        What to do? Just grab on to some Duck Tales! <woot count="6">oo woo oo</woot> Every day
+        they're out there making </refrain>
+
+    <outro num="1"> Duck Tales! <woot count="7">oo woo oo</woot> Tales of daring do bad and good
+        luck tales! <woot count="8">whooh ooh</woot> Everyday they're out there making </outro>
+
+    <outro num="2"> Duck Tales! <woot count="9">oo woo oo</woot> Tales of daring do bad and good
+        luck tales! <woot count="10">oo woo oo</woot> Not pony tales or cotton tales, no Duck Tales!
+            <woot count="11">oo woo oo </woot></outro>
+</xml>
