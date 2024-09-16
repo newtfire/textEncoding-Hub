@@ -1,5 +1,13 @@
-start = label
-label = element xml { } 
+start = twinkie
+twinkie = element xml {dateLine, fw, greeting, p+, closing, signed?, metadata}
+
+dateLine = element dateLine {when, text}
+when = attribute when {xsd:date}
+
+fw = element fw {line+}
+line = element line {text}
+
+greeting = element greeting { mixed{mistake*} }
 
 
 
