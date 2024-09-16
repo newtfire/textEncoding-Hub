@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is an item description from the game Risk of Rain 2-->
+<root>
+    <gameplay>
+        <header num="1">Description:</header>
+        <effect>Enemies with &gt;4 debuffs are marked for death, increasing damage taken by 50% from
+            all sources for 7 (+7 per stack) seconds.</effect>
+    </gameplay>
+    <!--No header given for the following section-->
+    <stats>
+        <fnd>Found: 152</fnd>
+        <hsc>Highest Stack Count: x6</hsc>
+    </stats>
+    <!--Formatting this section was more complicated than anticipated, I didn't want to remove what preceded the colon-->
+    <lore>
+        <header num="2">Notes:</header>
+        <item>Order: “Death Mark”</item>
+        <trNum>Tracking Number: 66******</trNum>
+        <estDel>Estimated Delivery: 02\22\2056\</estDel>
+        <shipMet>Shipping Method: High Priority</shipMet>
+        <shipAdd>Shipping Address: 421 Lane, Lab [72], Mars</shipAdd>
+        <shipDet>
+            <heading>Shipping Details:</heading>
+            <p num="1">Everyone said that I was crazy to search for lost artifacts on Mars. Idiots.
+                There hasn’t been any proof of a previous civilization - but I’ve always trusted my
+                gut. This skull proves that I’m right - that something did exist here before.</p>
+            <p num="2">That smug professor at the university... always disparaging my research. I
+                loved seeing the look on his face as I shook his hand. Idiot. Karma must have been
+                working overtime - I heard he fell ill shortly after. I suppose my success was just
+                too much for him.</p>
+            <p num="3">...In fact, everyone I’ve shown seems to not be returning my calls. Are they
+                avoiding me? Are they scared this news would shake up their academic communities?
+                Too proud to admit I’m right?</p>
+            <p num="4">I’ll find someone who will give me the recognition I deserve. I’ve worked too
+                hard and done too much. If I don’t keep going, I think I might just die.</p>
+        </shipDet>
+    </lore>
+    <!--I would like to know how you would wrap this text and/or what you would do differently than me-->
+</root>
