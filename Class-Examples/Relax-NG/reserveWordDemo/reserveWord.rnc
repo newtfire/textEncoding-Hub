@@ -1,0 +1,4 @@
+start = twinkie 
+twinkie = element text { stuff }
+stuff = element stuff {text}
+
