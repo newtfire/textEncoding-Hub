@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML document contains my favorite song with lyrics and metadata. -->
+<song title="Garden" artist="SZA">
+     <metadata>
+        <album>Ctrl</album>
+        <releaseyear>2017</releaseyear>
+        <genre>R&amp;B</genre>
+        <duration>3:28</duration>
+    </metadata>
+    <lyrics>
+        <verse n="1">
+            <line>Need you for the old me</line>
+            <line>Need you for my sanity</line>
+            <line>Need you to remind me where I come from</line>
+            <line>Can you remind me of my gravity?</line>
+            <line>Ground me when I'm tumblin', spiralin', plummetin' down to Earth</line>
+            <line>You keep me down to Earth</line>
+        </verse>
+        <verse n="2">
+            <line>Call me on my bullshit</line>
+            <line>Lie to me and say my booty gettin' bigger even if it ain't</line>
+            <line>Love me even if it rain</line>
+            <line>Love me even if it pain you</line>
+            <line>I know I be difficult</line>
+            <line>You know I be difficult</line>
+            <line>You know it get difficult too</line>
+        </verse>
+        <chorus>
+            <line>Open your heart up</line>
+            <line>Hoping I'll never find out that you're anyone else</line>
+            <line>'Cause I love you just how you are</line>
+            <line>And hope you never find out who I really am</line>
+            <line>'Cause you'll never love me</line>
+            <line>You'll never love me, you'll never love me</line>
+            <line>But I believe you when you say it like that</line>
+            <line>Oh, do you mean it when you say it like that?</line>
+            <line>Oh, I believe you when you say it like that</line>
+            <line>You must really love me</line>
+        </chorus>
+        <verse n="3">
+            <line> For real, I'm not playing no games</line>
+            <line>Boy, we back and forth</line>
+            <line> I need your support now (now, now, now, now, now)</line>
+            <line>In case you call my phone one more 'gain</line>
+            <line>Got no panties on</line>
+            <line>I need your support now (now, now, now, now, now)</line>
+        </verse>
+        <verse n="4">
+            <line> I know you'd rather be laid up with a big booty</line>
+            <line>Prolly hella positive 'cause she got a big booty (wow)</line>
+            <line>I know I'd rather be paid up</line>
+            <line>You know I'm sensitive about havin' no booty</line>
+            <line>Havin' nobody, only you, buddy</line>
+            <line>Can you hold me when nobody's around us?</line>
+        </verse>
+        <chorus>
+            <line>Open your heart up</line>
+            <line>Hoping I'll never find out that you're anyone else</line>
+            <line>'Cause I love you just how you are</line>
+            <line>And hope you never find out who I really am</line>
+            <line>'Cause you'll never love me</line>
+            <line>You'll never love me, you'll never love me</line>
+            <line>But I believe you when you say it like that</line>
+            <line>Oh, do you mean it when you say it like that?</line>
+            <line>Oh, I believe you when you say it like that</line>
+            <line>You must really love me</line>
+        </chorus>
+        <bridge>
+            <line>You don't have shit to say to me</line>
+            <line>I ain't got shit to say to you</line>
+            <line>Granny, and that's the truth</line>
+            <line>And step, and step on</line>
+            <line>Also you black heffa, yeah you, you stand your ground</line>
+            <line>'Cause I feel the same way</line>
+            <line>If you don't like me, you don't have to fool with me</line>
+            <line>You don't have to talk about me or treat me mean</line>
+            <line>I don't have to treat you mean</line>
+            <line>I just stay out of your way</line>
+            <line>That's the way you work that one</line>
+        </bridge>
+    </lyrics>
+</song>
