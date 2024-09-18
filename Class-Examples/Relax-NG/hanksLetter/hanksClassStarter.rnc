@@ -13,7 +13,9 @@ orig = element orig {text}
 reg = element reg {text}
 
 p = element p {mixed{(rend | mistake)*}}
-rend = element rend {mixed{mistake*}}
+rend = element rend {color, mixed{mistake*}}
+
+color = attribute color {"red" | "blue" | "black"}
 closing = element closing {mixed{mistake*}}
 signed = element signed {text}
 metadata = element metadata {source}
