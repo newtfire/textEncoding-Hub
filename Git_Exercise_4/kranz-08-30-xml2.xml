@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+The Recipe
+
+<h>Shrewsbury Cakes.</h>
+
+<original type="recipe">Take <ingred meas="lb">a pound of fresh butter</ingred> <ingred meas="lb">a pound of double
+refind sugar sifted fine</ingred> <ingred meas="general">a little beaten
+mace</ingred> &amp; <ingred meas="count">4 eggs</ingred> beat them all together with.
+your hands till tis very leight &amp; looks
+curdling you put thereto <ingred meas="lb">a pound &amp; 1/2 of
+flower</ingred> roul them out into little cakes</original>
+
+Our recipe (halved from the original)
+
+<new type="recipe"><ingred meas="lb" quant=".5">1/2 lb. <ingred meas="count">(2 sticks) butter</ingred>, softened</ingred>
+<ingred meas="lb" quant=".5">1/2 lb. sugar</ingred>
+<ingred meas="tsp" quant=".25">1/4 tsp. mace</ingred>
+<ingred meas="tsp" quant=".5">1/2 tsp. cinnamon</ingred>
+<ingred meas="count" quant="2">2 eggs</ingred>
+<ingred meas="lb" quant=".75">3/4 lb. flour</ingred></new>
+
+<inst><step num="1">Using an electric mixer, cream together the butter and sugar.</step> <step num="2">Then add the eggs and mix at medium speed until the mixture looks curdled.</step> <step num="3">Sift together dry ingredients and add at low speed until just combined.</step> <step num="4">Scoop and roll the dough by hand into 1-tbsp. balls, then pat flat. [You could also refrigerate the dough until it’s firm enough to roll out on a flat surface and cut out into rounds.]</step>
+
+<step num="5">Bake  at 350F for 15-18 minutes</step> (ours were about 1/3″ thick, so you could roll them thinner and have a slightly shorter cooking time) <comment>They’re done once they turn the slightest bit brown around the edges. This halved recipe yielded about two dozen cookies.</comment></inst>
+
+The Results
+
+<comment>If you like snickerdoodles (and who doesn’t?), you’d like these. We added the cinnamon because we like it and couldn’t resist, and we thought it rounded out the mace nicely. These are mild, fairly soft cookies that are great with tea. We rolled and patted the dough into individual cookies because it was too soft and stick to roll out, but a little bit more flour and a stint in the fridge might make the dough easier to work with a rolling pin.</comment>
+</root>
