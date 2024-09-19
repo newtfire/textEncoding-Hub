@@ -8,6 +8,7 @@
             all sources for 7 (+7 per stack) seconds.</effect>
     </gameplay>
     <!--No header given for the following section-->
+    <!--It might be interesting to mark in someway to indicate its player specific. -Matthew W-->
     <stats>
         <fnd>Found: 152</fnd>
         <hsc>Highest Stack Count: x6</hsc>
@@ -19,6 +20,7 @@
         <trNum>Tracking Number: 66******</trNum>
         <estDel>Estimated Delivery: 02\22\2056\</estDel>
         <shipMet>Shipping Method: High Priority</shipMet>
+        <!--I would add an 'h' to the end just to make it more human readable. -Matthew W-->
         <shipAdd>Shipping Address: 421 Lane, Lab [72], Mars</shipAdd>
         <shipDet>
             <heading>Shipping Details:</heading>
