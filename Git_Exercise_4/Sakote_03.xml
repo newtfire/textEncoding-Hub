@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This XML document contains my favorite song with lyrics and metadata. -->
 <song title="Garden" artist="SZA">
-     <metadata>
-        <album>Ctrl</album>
+    <metadata>
+        <album ctrl="Ctrl"/>
         <releaseyear>2017</releaseyear>
         <genre>R&amp;B</genre>
         <duration>3:28</duration>
