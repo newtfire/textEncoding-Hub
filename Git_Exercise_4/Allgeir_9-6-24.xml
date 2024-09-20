@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <!-- something I added to my XML markup was indicating the rhyme patterns in certain lines of the poem. I also numbered the lines so it would be easier to follow. "Num"= number.-->
+    <metadata><header><title>"Ballad of Booker T.,"</title> by <author>Langston Hughes</author>, <date>June 1,
+            1941</date></header>
+    <stamp info="A Library of Congress official stamp is found between lines 5-9" shape="circular" color="red">The Library of Congress</stamp></metadata>
+    <title>BALLAD OF BOOKER T.</title>
+    <ln>by</ln>
+    <author>Langston Hughes</author>
+    <ln num="1">
+        <info type="person" tag="Booker T. Washington">Booker T.</info>
+    </ln>
+    <ln num="2" rhyme="a">Was a practical man.</ln>
+    <ln num="3">He said, Till the soil</ln>
+    <ln num="4" rhyme="a">And learn from the land.</ln>
+    <ln num="5">Let down your bucket</ln>
+    <ln num="6" rhy="b">Where you are.</ln>
+    <ln num="7">Your fate is here</ln>
+    <stamp info="A Library of Congress official stamp">The Library of Congress</stamp>
+    <ln num="8" rhy="b">And not afar.</ln>
+    <ln num="9">To help yourself</ln>
+    <ln num="10" rhyme="a">And your fellow man,</ln>
+    <ln num="11">Train your head,</ln>
+    <ln num="12" rhyme="a">Your heart, and your hand.</ln>
+    <ln num="13">For smartness alone's</ln>
+    <ln num="14" rhyme="c">Surely not meet—</ln>
+    <ln num="15">If you haven't at the same time</ln>
+    <ln num="16" rhyme="c">Got something to eat.</ln>
+    <ln num="17">Thus at <info type="place"
+            name="Tuskegee Institute of Alabama, founded in 1881 by Booker T. Washington"
+            >Tuskegee</info></ln>
+    <ln num="18" rhyme="d">He built a school</ln>
+    <ln num="19">With book-learning there</ln>
+    <ln num="20" rhyme="d">And the workman's tool.</ln>
+    <ln num="21">He started out</ln>
+    <ln num="22" rhyme="e">In a simple way—</ln>
+    <ln num="23">For yesterday</ln>
+    <ln num="24" rhyme="e">Was not today.</ln>
+    <ln num="25">Sometimes he had</ln>
+    <ln num="26" rhyme="f">Compromise in his talk—</ln>
+    <ln num="27">For a man must crawl</ln>
+    <ln num="28" rhyme="f">Before he can walk—</ln>
+    <ln num="29">And in Alabama in '85</ln>
+    <ln num="30">A joker was lucky</ln>
+    <ln num="31">To be alive.</ln>
+    <ln num="32">But <info type="person" tag="Booker T. Washington">Booker T.</info></ln>
+    <ln num="33" rhyme="g">Was nobody's fool:</ln>
+    <ln num="34">You may carve a dream</ln>
+    <ln num="35" rhyme="g">With an humble tool.</ln>
+    <ln num="36">The tallest tower</ln>
+    <ln num="37" rhyme="h">Can tumble down</ln>
+    <ln num="38">If it be not rooted</ln>
+    <ln num="39" rhyme="h">In solid ground.</ln>
+    <ln num="40">So, being a far-seeing </ln>
+    <ln num="41" rhyme="a">Practical man,</ln>
+    <ln num="42">He said, Train your head,</ln>
+    <ln num="43" rhyme="a">Your heart, and your hand.</ln>
+    <ln num="44">Your fate is here</ln>
+    <ln num="45" rhyme="b">And not afar,</ln>
+    <ln num="46">So let down your bucket</ln>
+    <ln num="47" rhyme="b">Where you are.</ln>
+
+    <footer>
+        <signature overlay="yes">LANGSTON HUGHES</signature>
+        <status>Final Draft,</status>
+        <location><ln>Hollow Hills Farm,</ln>
+            <ln>Monterey, California</ln>,</location>
+        <date>June 1, 1941.</date>
+    </footer>
+</xml>

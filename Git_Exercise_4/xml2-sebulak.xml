@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+<!--hiiii! i ended up focusing a lot on the recipe itself, and not too much on the stuff around it. not sure if that was the intention with this assignment, but oh well. also i added a lot of other comments explaining every choice i made ever i love overexplaining things.-->
+    
+<info><p num="1">Today’s post is also published on Unique at Penn, a blog maintained by Penn libraries to highlight their collections. Since we’ve been exploring the library’s manuscript recipe books, we’re thrilled to share one of our finished recipe with Unique at Penn’s readers.</p>
+
+<p num="2">One of the things we’ve been struck by along the way in this stroll through the culinary archives has been the similarity of certain recipes to many we follow today.  This holds true particularly for baked goods. <note>Except the notorious fish custard.</note> We weren’t quite sure what to expect from these “Shrewsbury cakes” – small cakes? Pancakes? Drop cookies? It turns out that Shrewsbury cakes are basically early modern snickerdoodles.</p>
+
+<p num="3">This recipe comes from MS Codex 625, a manuscript recipe book that belonged to a student in a London cooking school in the early eighteenth century. The pastry school was owned by Edward Kidder, who taught at a few locations in London between around 1720 and 1734. Blank books with printed title pages seem to have been used by students to write down recipes they learned. Kidder also published his recipes in the printed volume, Receipts for Pastry and Cookery, in 1720.</p></info>
+
+<recipe make="shrewsCake" recType="old">
+
+Take a pound of fresh butter a pound of double
+refind sugar sifted fine a little beaten
+mace &amp; 4 eggs beat them all together with.
+your hands till tis very leight &amp; looks
+curdling you put thereto a pound &amp; 1/2 of
+flower roul them out into little cakes</recipe>
+
+<recipe make="shrewsCake" recTtype="new">
+<listIngs>
+
+<!--ingredients list. i made separate tags for the ingredient itself and the measurement of the ingredient. within the ing tag, i indicated the type of ingredient (by name) and the texture (wet or dry). within the measure tag, i indicated the amount and the unit of measure. prety straightforward.-->
+
+<ing key="softBut" text="wet"><measure value="0.5" unit="lb">1/2 lb.</measure> <measure value="2" unit="sticks">2</measure> butter, softened</ing>
+<ing key="sug" text="wet"><measure value="0.5" unit="lb">1/2 lb.</measure> sugar</ing>
+<ing key="m" text="dry"><measure value="0.25" unit="tsp">1/4 tsp.</measure> mace</ing>
+<ing key="cinn" text="dry"><measure value="0.5" unit="tsp">1/2 tsp.</measure> cinnamon</ing>
+<ing key="egg" text="wet"><measure>2</measure> eggs</ing>
+<ing key="fl" text="dry"><measure value="0.75" unit="lb">3/4 lb.</measure> flour</ing></listIngs>
+
+<!-- i've ordered the steps here and also noted whether they're optional or not. also put tags around the ingredients.-->
+    
+<step order="1" opt="no">Using an electric mixer, cream together the <ing key="softBut">butter</ing> and <ing key="sug">sugar</ing>.</step>
+<step order="2" opt="no">Then add the <ing key="egg">eggs</ing> and mix at medium speed until the mixture looks curdled.</step> <step order="3" opt="no">Sift together dry ingredients and add at low speed until just combined.</step> <step order="4" opt="no">Scoop and roll the dough by hand into 1-tbsp. balls, then pat flat.</step> <step order="5" opt="yes">You could also refrigerate the dough until it’s firm enough to roll out on a flat surface and cut out into rounds.</step>
+    
+<step order="6" opt="no">Bake  at 350F for 15-18 minutes <note>ours were about 1/3″ thick, so you could roll them thinner and have a slightly shorter cooking time</note> They’re done once they turn the slightest bit brown around the edges.</step> This halved recipe yielded about two dozen cookies.</recipe>
+
+<info type="results">If you like snickerdoodles <note>and who doesn’t?</note>, you’d like these. We added the cinnamon because we like it and couldn’t resist, and we thought it rounded out the mace nicely. These are mild, fairly soft cookies that are great with tea. We rolled and patted the dough into individual cookies because it was too soft and stick to roll out, but a little bit more flour and a stint in the fridge might make the dough easier to work with a rolling pin.</info>
+</xml>

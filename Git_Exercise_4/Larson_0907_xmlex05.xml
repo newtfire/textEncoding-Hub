@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Poem is marked-up primarly by rhymes and stanzas. While there were no "true" stanzas within the form of the text, discretion and rhythm were used to break them up.-->
+<!--Certain information/context is separately defined using roman numerals.
+    Physical altercations to the document are marked separately with letters.-->
+<!--Revisions included: restructing the rhyme schemes within the ln definitions, interweaving extra context within the actual body of the marked-up text, more specific structuring of the metadata, and new tags showing where specific text is altered on the page (sigAffect, stpAffect).-->
+<!--unL = underlined text
+    st = stanza
+    rym = rhyme
+    inst institution
+    ln = line
+    sigAffect = text covered by physical signature
+    stpAffect = text touched by stamp
+-->
+
+<xml>
+    <metadata><title>Ballad of Booker T.</title>, by <author>Langston Hughes</author>, <date
+            when="1941-06-01">June 1, 1941</date> Citation: <collection>Drafts of Langston Hughes's
+            poem "Ballad of Booker T.</collection>," <writeDate st="1941-5-30" end="1941-06-01">30
+            May–1 June 1941</writeDate>. <collection>(Langston Hughes Collection)</collection>
+        <archive group="Maunsrcipt Division" inst="Library of Congress" location="Washington, D.C."
+            >Manuscript Division, Library of Congress, Washington, D.C.</archive></metadata>
+    <heading type="source"><title trait="caps">BALLAD OF BOOKER T.</title> by <author>Langston
+            Hughes</author></heading>
+    <poem>
+        <st num="1">
+            <ln>Booker T.</ln>
+            <I/>
+            <!--I. Booker Taliaferro Washington was an author and educator born in the mid-19th century. He's most well known for his advancement of the African-American community, and opening a school.-->
+            <ln rym="an">Was a practical man.</ln>
+            <ln>He said, Till the soil</ln>
+            <ln rym="an">And learn from the land.</ln>
+            <II/>
+            <!--II. Hughes is referring to Washington's advocacy of land work, touching on similar quotes of his like: "No race can prosper till it learns that there is as much dignity in tilling a field as in writing a poem."-->
+            <ln>Let down your <stpAffect>bucket</stpAffect></ln>
+            <ln rym="ar">Where you are.</ln>
+            <ln>Your fate is <stpAffect>here</stpAffect></ln>
+            <a/>
+            <!--a. Right around this point on the physical document, a circular, red stamp with an eagle design (from the U.S. Library of Congress) is located, cutting into about 5 lines of text.-->
+            <ln rym="ar">And not afar.</ln>
+        </st>
+        <st num="2">
+            <ln>To help <stpAffect>yourself</stpAffect></ln>
+            <ln rym="an">And your fellow <stpAffect>man</stpAffect>,</ln>
+            <ln>Train your head,</ln>
+            <ln rym="an">Your heart, <unL>and your hand.</unL></ln>
+            <ln>For smartness alone's</ln>
+            <ln rym="eet">Surely not meet—</ln>
+            <ln>If you haven't at the same time</ln>
+            <ln rym="eet">Got something to eat.</ln>
+        </st>
+        <st num="3">
+            <ln>Thus at Tuskegee</ln>
+            <III/>
+            <!--III. Tuskegee, Alabama is where Washington opened his school (in 1881), Tuskegee University.-->
+            <ln rym="ool">He built a school</ln>
+            <ln>With book-learning there</ln>
+            <ln rym="ool">And the workman's tool.</ln>
+            <ln>He started out</ln>
+            <ln rym="ay">In a simple way—</ln>
+            <ln>For yesterday </ln>
+            <ln rym="ay">Was <unL>not</unL>today.</ln>
+        </st>
+        <st num="4">
+            <ln>Sometimes he had</ln>
+            <ln rym="awk">Compromise in his talk—</ln>
+            <ln>For a man must crawl</ln>
+            <ln rym="awk">Before he can walk—</ln>
+            <ln rym="ive">And in Alabama in '85</ln>
+            <ln>A joker was lucky</ln>
+            <ln rym="ive">To be alive.</ln>
+        </st>
+        <st num="5">
+            <ln>But Booker T.</ln>
+            <ln rym="ool">Was nobody's fool:</ln>
+            <ln>You may carve a dream</ln>
+            <ln rym="ool">With an humble tool.</ln>
+            <ln>The tallest tower</ln>
+            <ln rym="own">Can tumble down</ln>
+            <ln>If it be not rooted</ln>
+            <ln rym="own">In solid ground.</ln>
+        </st>
+        <st num="6"><ln>So, being a far-seeing</ln>
+            <ln rym="an">Practical man,</ln>
+            <ln>He said, Train your head,</ln>
+            <ln rym="an">Your heart, <unL>and your hand</unL>.</ln>
+            <ln>Your fate is here</ln>
+            <ln rym="ar">And not afar,</ln>
+            <ln>So let down your bucket</ln><IV/>
+            <!--IV. Hughes is alluding to Washington's own speech about the Atlanta Compromise, which called for the resistance to discrimination ("cast your bucket down").-->
+            <ln rym="ar">Where you are.</ln>
+        </st>
+    </poem>
+    <author trait="signature">LANGSTON HUGHES</author>
+    <b/>
+    <!--b. Langston Hughes' physical signature is present, with the bold, black pen covering up over most of the bottom information (sigAffect).-->
+    <sigAffect><version>Final Draft</version>, <location place="Hollow Hills Farm" city="Monterey"
+            state="CA">Hollow Hills Farm, Monterey, California</location>, <date when="1941-06-01"
+            >June 1, 1941</date>.</sigAffect>
+    <c/>
+    <!--c. In the very bottom left of the document, there is the faint presence of some kind of number combination ([xx0000] format), maybe used for physical documentation/archival purposes.-->
+</xml>

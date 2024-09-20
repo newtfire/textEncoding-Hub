@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <metadata><title name="Ballad of Booker T.">"Ballad of Booker T.,"</title> by <person type="author" reg="Langston Hughes">Langston Hughes</person>,<date yyyy-mm-dd="1941-06-01">June 1, 1941</date> <arch pos="line 5,line 6,line 7"> stamp of <location pos="">Library of Congress</location></arch></metadata>
+        
+    <title>BALLAD OF BOOKER T. by Langston Hughes </title>
+    
+    <!--In this encoding, my approach to marking up will delve into a poetic analysis of "Ballad of Booker T." instead of the poem's structure-->
+    <line><person type="educator" reg="Booker Tuskegee Washington">Booker T.</person></line>
+    <line>Was a practical man.</line>
+    <!-- Hughes is advising for freed slaves to find occupations within common labor-->
+    <line>He said, <conn>Till the soil</conn></line>
+    <line><conn>And learn from the land.</conn></line>
+    <!--Hughes is conveying how one can find power within educating oneself with the "lands" issues in society -->
+    <line><conn>Let down your bucket</conn></line>
+    <line>Where you are.</line>
+    <line>Your fate is here</line>
+    <line>And not afar.</line>
+    <line>To help yourself</line>
+    <line>And your fellow man,</line>
+    <line>Train your head,</line>
+    <line>Your heart, <underline emph="repetition">and your hand</underline>.</line>
+    <line>For smartness alone's</line>
+    <line><dash emph="abrupt break">Surely not meet—</dash></line>
+    <line>If you haven't at the same time</line>
+    <line>Got something to eat.</line>
+    <!-- Booker T. founded a institution in Alabama,US -->
+    <line><conn>Thus at Tuskegee</conn></line>
+    <line>He built a school</line>
+    <line>With book-learning there</line>
+    <line>And the workman's tool.</line>
+    <line>He started out</line>
+    <line><dash emph="abrupt break">In a simple way—</dash></line>
+    <line>For yesterday</line>
+    <line>Was <underline emph="material">not</underline> today.</line>
+    <line>Sometimes he had </line>
+    <!--Hughes is advising that Black individuals should lay down foundations within American society before taking on roles in government-->
+    <line><conn><dash emph="abrupt break">Compromise in his talk—</dash></conn></line>
+    <line><conn>For a man must crawl</conn></line>
+    <line><conn><dash emph="abrupt break">Before he can walk—</dash></conn></line>
+    <!--Alabama was one of the primary states that paticpated in slave labor and withdrew from the Union, Hughes was enunciating how freed slaves were given the "privilege" to live as if they free-->
+    <line><conn>And in Alabama in '85</conn></line>
+    <line><conn>A joker was lucky</conn></line>
+    <line>To be alive.</line>
+    <line>But Booker T.</line>
+    <line>Was nobody's fool:</line>
+    <line>You may carve a dream</line>
+    <line>With an humble tool.</line>
+    <line>The tallest tower</line>
+    <line>Can tumble down</line>
+    <line>If it be not rooted</line>
+    <line>In solid ground.</line>
+    <line>So, being a far-seeing</line>
+    <line>Practical man,</line>
+    <line>He said, Train your head,</line>
+    <line>Your heart, <underline emph="repetition">and your hand</underline>.</line>
+    <line>Your fate is here</line>
+    <line>And not afar,</line>
+    <line>So let down your bucket</line>
+    <line>Where you are.</line>
+
+    <signature type="handwritten">LANGSTON HUGHES</signature>
+    <address>Final Draft, Hollow Hills Farm, Monterey, California, June 1, 1941. </address>
+</root>
