@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">
+               <title type="main">KALIMAN EL HOMBRE INCREIBLE </title>
+               <title type="subtitle">KALIMAN DE LUJO EL HOMBRE INCREIBLE </title>
+               <title type="subtitle"> Serpiente Humana</title>
+            </title>          
+            <author>UNKNOWN</author>            
+         </titleStmt>
+         <publicationStmt>
+            <publisher> Promotora K </publisher>
+            <pubPlace>Mexico</pubPlace>
+            <date> 1989 </date>
+         </publicationStmt>
+         <notesStmt>
+            <note> www.Kaliman.biz </note>  
+            <note>Scanned and put online by Kaliman.biz</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>VERSION ORIGINAL</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <namespace name="http://www.cbml.org/ns/1.0">
+              <tagUsage gi="cbml:panel"></tagUsage>
+              <tagUsage gi="cbml:caption"></tagUsage>
+           </namespace>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <div type="titlePage" xml:id="eg_0001">
+           <head>KALIMAN DE LUJO. EL HOMBRE INCREIBLE</head>
+           <cbml:caption rendition="#uc #left">
+              Serpiente   <lb/>
+              Humana
+           </cbml:caption>
+           <cbml:caption>
+              ¡AHORA, KALIMAN   <lb/>
+              RELATA EN CADA   <lb/>
+              REVISTA UNA  <lb/>
+              NUEVA AVENTURA  <lb/>
+              COMPLETA DE  <lb/>
+              SU VIDA!              
+           </cbml:caption>
+           <bibl> K </bibl>
+           <note> K symbol representing logo associated with comic superhero and comicbook</note>
+           <bibl>WWW. Kaliman.biz </bibl>
+           <note> Image on cover shows Kaliman holding scantily-clother woman in his arms as 
+           a group of green snakes threaten to attack from the ground. </note>
+        </div>
+        <pb/>
+        <div type="preface" xml:id="eg_0002">
+           <cbml:caption>
+              DE LAS MIL AVENTURAS QUE EL DESTINO ME HA DEPARADO VIVIR,  <lb/>
+              ENRIQUECIENDO MIS CONOCIMIENTOS Y FORTALECIENDO MI ESPÍRITU,  <lb/>
+              DESTACA  UNA QUE FUE TAN ESPECTACULAR COMO INCREÍBLE.               
+           </cbml:caption> 
+           <cbml:caption>
+              <title type="main">
+              KALIMAN  <lb/>
+              EL HOMBRE INCREÍBLE
+              </title>
+           </cbml:caption>
+           <bibl>www.Kaliman.biz</bibl>  
+           <cbml:caption>
+              VAN A CONOCER ESTA HISTORIA  <lb/>
+              ASOMBROSA TITULADA…
+           </cbml:caption>           
+           <fw type="pageNum" place="lower-right">
+              K-2-1
+           </fw>
+              <note type="panelDesc">Kaliman, dressed in white and wearing a white cape,
+              stands powerful in front of a landscape composed of different world sights, including 
+              Egyptian pyramids, the TajMahal, and the Eiffel Tower. </note>              
+        </div>
+     </front>
+     <pb/>
+     <body>
+           <div type="panelGrp" xml:id="eg_0003">
+              <cbml:panel n="1" characters="#narrator">
+                 <cbml:caption who="#narrator">                    
+                    <title type="subtitle" rendition="#b #large #red #jagged">LA SERPIENTE  <lb/>
+                       HUMANA
+                    </title>
+                 </cbml:caption>
+                 <cbml:caption>
+                    UNA LEYENDA QUE SE HIZO REALIDAD Y QUE AHORA RECUERDO  <lb/>
+                    VIVAMENTE EMOCIONADO…                    
+                 </cbml:caption>
+                 <note type="panelDesc"> A giant green snake stands tall above a couple of semi-naked
+                 women in the midst of a fiery space. One woman seems to be dancing, the other one is 
+                 crouching under the tongue, pointy fangs and blood-shot eyes of the snake.
+                 The title for this issue/episode on the top right of the page is also a continuation 
+                 of the narrator's sentence in the preceding page.               
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="2" characters="#narrator #solin">
+                 <cbml:caption who="#narrator"> 
+                    MI PEQUEÑO AMIGO SOLÍN Y  <lb/>
+                    YO, HABÍAMOS LLEGADO AQUE-  <lb/>
+                    LLA CALUROSA MAÑANA A LA  <lb/>
+                    CIUDAD DE KUALA LUMPUR…    <lb/>                 
+                 </cbml:caption>
+                 <note type="panelDesc"> Scene shows Kaliman and Solin walking on a dock,
+                    away from a ship that seems to have brought them there. People talk, greet,
+                    and go about life around them.
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="3" characters="#narrator">
+                 <cbml:caption who="#narrator">   
+                    …UNA EXÓTICA CIUDAD MEZCLA  <lb/>
+                    DE PRIMITIVISMO Y MODERNI-  <lb/>
+                    DAD…
+                 </cbml:caption>      
+                 <note type="panelDesc"> EWS shows a couple being transported on a rickshaw through
+                    one of the pebbled streets, while a car crosses behind them. Architecture shows both modern
+                    and colonial-style older examples. 
+                 </note> 
+              </cbml:panel>    
+              <fw type="pageNum" place="lower-right"> 
+                 K-2-2
+              </fw> 
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0004">
+           <cbml:panel n="1" characters="#kaliman #solin">
+              <cbml:caption who="#narrator">
+                 TRATÁBAMOS DE CALMAR LA SED Y EL CALOR EN UN LUGAR DEL  <lb/>
+                 CENTRO DE LA CIUDAD…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#solin">
+                 ¿A QUÉ VENIMOS  <lb/>
+                 EXACTAMENTE A ESTE  <lb/>
+                 LUGAR?           
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#kaliman">
+                           A CUMPLIR UNA CITA.       
+              </cbml:balloon> 
+              <note type="panelDesc"> WS shows both characters sitting at a cafe. A parked
+                 car is seen in the backround. The name of a business is written on on the 
+                 facade of a building, above a window, in oriental characters (Malay? Bahasa Malaysia?).
+                 It is floatingText with subtype="storefrontsignage" type="diegetic", but it is not encoded here
+                 because language of body is unknown and characters are thus illegible, but it's  
+                 head has as rendition="#uc #large"
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="2" characters="#kaliman #solin">
+              <cbml:balloon type="speech" who="#kaliman"> 
+                 UNA MUY IMPORTANTE QUE  <lb/>
+                 SIGNIFICA UN BIEN PARA  <lb/>
+                 LA HUMANIDAD.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#solin">
+                 EXPLÍCAME CON  <lb/>
+                 MÁS DETALLE, POR  <lb/>
+                 FAVOR.         
+              </cbml:balloon>
+              <note type="panelDesc"> WS of Kaliman and Solin at the cafe. A clerk and a
+                 customer can be seen at the back. 
+              </note>           
+           </cbml:panel>
+        </div>
+        <fw type="pageNum" place="lower-right">
+           K-2-3
+        </fw>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0005">
+           <cbml:panel n="1" characters="#kaliman #drkelly">
+              <cbml:balloon type="speech" who="#kaliman"> 
+                 LA CITA ES CON EL DOCTOR KELLY,  <lb/>
+                 UN FAMOSO CIENTÍFICO QUE HA  <lb/>
+                 DEDICADO SU VIDA A LA INVESTI-  <lb/>
+                 GACIÓN…                 
+              </cbml:balloon>                    
+              <note type="panelDesc"> Image of Dr. Kelly on the right of frame has cloud-like
+                 borders representing thought or memory that Kaliman has of him as he speaks. MS of Dr. Kelly shows
+                 him in his lab, holding a beaker, and surrounded by scientific equipment and books.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="2" characters="#drkelly">
+              <cbml:caption type="flashback" who="#kaliman"> 
+                 SOBRE TODO, HA INVESTIGADO  <lb/>
+                 CON PLANTAS TROPICALES. 
+              </cbml:caption>
+              <note type="panelDesc"> Dr. Kelly is seen in the jungle, examining a plant.
+                 He is wearing a yellow explorer suit.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#drkelly">
+              <cbml:caption type="flashback" who="#kaliman"> 
+                 SIN IMPORTARLE PELIGROS QUE  <lb/>
+                 EN NUMEROSAS OCASIONES  <lb/>
+                 HAN PUESTO SU VIDA EN  <lb/>
+                 JUEGO.
+              </cbml:caption>
+              <note type="panelDesc"> Angled shot from above of Dr. Kelly seen waist-deep 
+                 in water. He has a terrified expression on his face and is looking and reaching up
+                 as if asking to be helped. Red lines come out of his head, representing his fear or
+                 anxiety.
+              </note>                           
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-4
+           </fw> 
+        </div>        
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0006">
+           <cbml:panel n="1" characters="#kaliman #drkelly">
+              <cbml:balloon type="speech" who="#kaliman"> 
+                 Y DESPUÉS DE MUCHOS AÑOS DE   <lb/>
+                 INVESTIGACIONES, PARECE QUE  <lb/>
+                 HA ENCONTRADO ALGO SENSA-  <lb/>
+                 CIONAL.                 
+              </cbml:balloon>                         
+              <note type="panelDesc"> Left side of the panel shows CU of Kaliman speaking. 
+                 On the right, a dream-like WS image (cloud-like borders representing thought 
+                 or memory that Kaliman has of him as he speaks) of a scientist looking into 
+                 a microscope in a lab, as seen from behind.                  
+              </note>              
+           </cbml:panel>
+           <cbml:panel n="2" characters="#skull #male #kaliman">
+              <cbml:caption type="flashback" who="#kaliman"> 
+                 UN POSIBLE REMEDIO CONTRA EL  <lb/>
+                 MAL QUE AZOTA A LA HUMANI-  <lb/>
+                 DAD, MÁS ANTIGUO Y DESPIA-  <lb/>
+                 DADO: EL CÁNCER.                  
+              </cbml:caption>
+              <note type="panelDesc"> Lateral WS of Asian-looking male with bare torso,
+                 leaning against a table. A desk with what appears to be some glasses 
+                 and silverware is at the front of the scene. Behind the man there is a 
+                 big yellowish skull with a purple cover. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#solin #kaliman">              
+              <cbml:balloon type="speech" who="#kaliman">
+                 NO PUEDE HABER NOTICIA  <lb/>
+                 MÁS MARAVILLOSA PARA  <lb/>
+                 EL GÉNERO HUMANO.
+           </cbml:balloon>  
+           <cbml:balloon type="speech" who="#solin">       
+                 YA LO CREO. AL FIN  <lb/>
+                 ENCONTRAR REMEDIO A ESE  <lb/>
+                 TERRIBLE MAL.            
+              </cbml:balloon>  
+              <note type="panelDesc"> WS of Solin and Kaliman seen sitting at their table at
+                 the cafe. Left side of panel shows someone, perhaps a clerk or a waiter,
+                 standing in the back. The forefront of the panel is occupied by a bush, as 
+                 if point-of view came from behind it.  
+              </note>            
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-5
+           </fw>
+        </div>
+        <pb/>        
+        <div type="panelGrp" xml:id="eg_0007">
+           <cbml:panel n="1" characters="#drkelly #kaliman">
+              <cbml:caption type="flashback" who="#kaliman"> 
+                 SEGÚN ME HA ESCRITO, SUS  <lb/>
+                 EXPERIMENTOS DAN RESULTADOS  <lb/>
+                 POSITIVOS EN UN NOVENTA POR  <lb/>
+                 CIENTO DE LOS CASOS.                 
+              </cbml:caption>             
+              <note type="panelDesc"> MCU of Dr. Kelly performing a scientific experiment in his lab
+                 on the left of the frame. Right of the frame shows MCU of Kaliman narrating.                  
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#kaliman #solin">
+              <cbml:balloon type="speech" who="#kaliman">  
+                 Y POR ESO ESTAMOS AQUÍ. EL  <lb/>
+                 DOCTOR KELLY ME ESCRIBIÓ  <lb/>
+                 PIDIENDO QUE VINIERA A  <lb/>
+                 COMPROBAR SUS EXPERIMEN-  <lb/>
+                 TOS.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#solin">  
+                 CADA  <lb/>
+                 VEZ ESTOY  <lb/>
+                 MÁS  <lb/>
+                 INTERESADO.                 
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of Solin's head on the right of the frame,
+                 with MCU of Kaliman standing in the back of the room.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#solin #kaliman #nativo">
+              <cbml:caption who="#kaliman">
+                 UN NATIVO CON ASPECTO  <lb/>
+                 SOSPECHOSO, SE NOS  <lb/>
+                 HABÍA ACERCADO…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#kaliman"> 
+                 SÓLO ESPERO LA CONFIRMACIÓN DE  <lb/>
+                 LA CITA PARA VER A NUESTRO  <lb/>
+                 AMIGO.
+              </cbml:balloon>
+              <cbml:balloon type="thought" who="#nativo">                 
+                 ESOS DON SON  <lb/>
+                 EXTRANJEROS.
+              </cbml:balloon>      
+              <note type="panelDesc"> WS OSS shows KAliman and Solin at the cafe sipping
+                 at their drinks and speaking while the native stares at them. We can only 
+                 see native from behind. He is wearing a red shirt and a green turban on his
+                 head, and is holding a basket with his right arm. 
+              </note> 
+           </cbml:panel> 
+           <fw type="pageNum" place="lower-right">
+              K-2-6
+           </fw>
+        </div>
+        <pb/>        
+        <div type="panelGrp" xml:id="eg_0008">
+           <cbml:panel n="1" characters="#solin #kaliman #nativo">
+              <cbml:balloon type="speech" who="#solin"> 
+                 ¿CUÁNDO LO  <lb/>
+                 VEREMOS?                 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#kaliman">
+                 ESPERO QUE  <lb/>
+                 SEA ESTE MISMO  <lb/>
+                 DÍA.                 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#nativo">
+                 OYE, SAIB.
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral WS showing Kaliman and Solin being approached
+                 by native with basket. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#kaliman #solin #nativo">
+              <cbml:balloon type="speech" who="#nativo">
+                 CÓMPRAME UN RECUERDO DE  <lb/>
+                 ESTE LUGAR. NO TE ARREPEN-  <lb/>
+                 TIRÁS.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#solin">
+                 ¿QUÉ CLASE DE  <lb/>
+                 RECUERDO?                 
+              </cbml:balloon>
+              <note type="panelDesc"> Kaliman and Solin stare at each other in amazement,
+                 wile native speaks from the back. The basket is set on top of the table.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#solin #kaliman #nativo">
+              <cbml:balloon type="speech" who="#nativo">
+                 MÍRALO TÚ  <lb/>
+                 MISMO.                 
+              </cbml:balloon>                            
+              <note type="panelDesc"> Lateral WS shows while he offers the basket to Solin.
+                 Kaliman watches from the background. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#solin #nativo">
+              <cbml:caption who="#kaliman">
+                 MIENTRAS EL NATIVO DESTAPABA  <lb/>
+                 SU CESTO, SOLÍN SE ACERCÓ CON  <lb/>
+                 CURIOSIDAD.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#nativo">
+                 APROXIMATE  <lb/>
+                 MÁS.
+              </cbml:balloon>  
+              <note type="panelDesc"> Lateral MCU of Solin, who stares at the basket with
+                 wide eyes. Natives hands are seen in CU as he opens the lid to the basket.
+              </note> 
+           </cbml:panel>   
+           <fw type="pageNum" place="lower-right">
+              K-2-7
+           </fw>   
+        </div>
+        <pb/>        
+        <div type="panelGrp" xml:id="eg_0009">           
+           <cbml:panel n="1" characters="#solin #kaliman #nativo #snakes">
+           <cbml:caption who="#kaliman">
+              DE REPENTE, SE ASOMARON SIL-  <lb/>
+              BANDO AMENAZADORAMENTE VA-  <lb/>
+              RIAS SERPIENTES, HACIENDO  <lb/>
+              QUE SOLÍN SALTARA SORPRENDIDO  <lb/>
+           </cbml:caption>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#solin">               
+              ¡AAAAAYYY!
+           </cbml:balloon>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#nativo">
+                 ¡JA JA  <lb/>
+                 JA!      
+           </cbml:balloon>
+           <note type="panelDesc"> Lateral WS showing Solin screaming on the left of the 
+              frame, backing away from the basket as four green snakes come out of it. The
+              native watches and laughs in amusement, while Kaliman watches from the back
+              (in the middle of the frame). His face shows some concern as he looks at 
+              Solin.                  
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#solin #snakes">
+              <cbml:caption who="#kaliman">
+                 EL NATIVO, BURLÓN, ACERCÓ  <lb/>
+                 MÁS EL CESTO A LA CARITA  <lb/>
+                 HORRORIZADA DEL MUCHA-  <lb/>
+                 CHO.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#nativo">
+                 ¿NO QUIERES QUE  <lb/>
+                 TE HAGAN UNA  <lb/>
+                 CARICIA?
+              </cbml:balloon>
+              <sound> FIIII FIIII </sound>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#solin">
+                 ¡NO ME LAS 
+                 ACERQUES, POR
+                 FAVOR!               
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral MCU shows Solin scared as the native pushes
+                 the basket with hissing snakes closer to his face. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#nativo #snakes #kaliman">
+           <cbml:caption who="#kaliman">
+              DECIDÍ INTERVENIR  <lb/>
+              PARA TRANQUILIZAR  <lb/>
+              A SOLÍN…
+           </cbml:caption>
+           <cbml:balloon type="speech" who="#kaliman">
+              RECUERDA, SOLÍN, QUE  <lb/>
+              EL PEOR ENEMIGO  <lb/>
+              ES EL MIEDO.
+           </cbml:balloon>
+           <cbml:balloon rendition="#jaggies" type="speech" who="#nativo">
+              ¡CUIDADO,  <lb/>
+              SAIB, SI TE  <lb/>
+              MUERDEN TE  <lb/>
+              MUERES!
+           </cbml:balloon>                                       
+           <note type="panelDesc"> WS shows Kaliman on the right as he speaks calmly to
+            Solin, who is off frame. Kaliman's right arm reaches out toward the snakes as 
+            native holding the basket watches from the background with a schocked look on 
+            his face.                
+           </note> 
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-8
+           </fw>
+        </div>
+        <pb/>        
+        <div type="panelGrp" xml:id="eg_0010">           
+           <cbml:panel n="1" characters="#kaliman #snakes">              
+              <cbml:balloon type="speech" who="#kaliman">                  
+                 SON TAN INOFENSIVAS  <lb/>
+                 COMO GATITOS.                 
+              </cbml:balloon>                           
+              <note type="panelDesc"> MCU of Kaliman as he holds the snakes in his left hand.                 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#kaliman #nativo #snakes">              
+              <cbml:balloon type="speech" who="#kaliman">
+                 UN MOSQUITO PUEDE HACER  <lb/>
+                 MÁS DAÑO QUE ÉSTAS.
+              </cbml:balloon>
+              <cbml:balloon type="thought" who="#nativo">
+                 ¡MALDITO EXTRANJERO!
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of Kaliman as he speaks and holds the snakes.
+                 Native watches with angry expression from the background. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#anon_man #solin #kaliman #nativo">              
+              <cbml:caption who="#kaliman">
+                 PERO LO QUE MENOS IMAGINÁBA-  <lb/>
+                 MOS ERA QUE TODO AQUELLO FOR-  <lb/>
+                 MABA PARTE DE UN COMPLOT…
+              </cbml:caption>
+              <cbml:balloon type="thought" who="#anon_man"> 
+                 ¡MORIRÁN!
+              </cbml:balloon>              
+              <note type="panelDesc"> WS shows anonymous man in purple robes approaching from the left
+                 of the frame carrying a basket, while Kaliman, Solin, and the native stand on the right of
+                 the room. 
+              </note> 
+           </cbml:panel>
+           <fw type="pageNum" place="lower-left">
+              K-2-9
+           </fw>  
+        </div>
+        <pb/>        
+        <div type="panelGrp" xml:id="eg_0011">           
+           <cbml:panel n="1" characters="#nativo #kaliman #solin">              
+              <cbml:balloon type="speech" who="#kaliman">                  
+                 JAMÁS RECURRAS AL ENGAÑO  <lb/>
+                 PORQUE SERÁS ENGAÑADO.  <lb/>
+                 ¡LLÉVATELAS!
+              </cbml:balloon>                  
+              <cbml:balloon rendition="#jaggies" type="speech" who="#solin"> 
+                 ¡JA JA JA!
+              </cbml:balloon>        
+              <note type="panelDesc"> WS of the three. Native, on the left, holds his basket
+                 and looks ashamed. He seems much shorter than Kaliman, in the center, who
+                 looks tall and strong as he gives his moral advice. Solin on the right of the 
+                 frame stands next to Kaliman and laughs.  
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#solin #nativo #kaliman">              
+              <cbml:caption who="#kaliman">
+                 EL NATIVO SE ALEJÓ CON ENFADO  <lb/>
+                 MURMURANDO INSULTOS…
+              </cbml:caption>
+              <cbml:balloon type="thought" who="#nativo">
+                 ¡PERROS EXTRANJEROS, POR ESO  <lb/>
+                 LOS ODIAMOS!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#kaliman">
+                 ES HORA DE  <lb/>
+                 MARCHARNOS, <lb/>
+                 MI PEQUEÑO  <lb/>
+                 SOLÍN.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#solin">
+                 DE ACUERDO.
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows Solin on the left and Kaliman on the right, 
+                 while Native walks away in the background. Two main characters smile. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#solin #snake">              
+              <cbml:balloon rendition="#jaggies" type="speech" who="#solin"> 
+                 ¡MIRA! SE LE OLVIDÓ  <lb/>
+                 UNA SERPIENTE.
+              </cbml:balloon>
+              <sound> FIIII </sound>                                  
+              <note type="panelDesc"> Lateral MCU of solin as he tries to get closer to the
+                 green snake hissing under a chair.            
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#snake #solin #kaliman">
+              <cbml:caption who="#kaliman">
+                 CUANDO SOLÍN SE DISPONÍA A  <lb/>
+                 AGARRAR INGENUAMENTE A LA  <lb/>
+                 SERPIENTE…
+              </cbml:caption>  
+              <cbml:balloon type="speech" who="solin">
+                 HAY QUE  <lb/>
+                 RECOGERLA.
+              </cbml:balloon>
+              <sound> FIIII </sound> 
+              <cbml:balloon rendition="#jaggies" type="speech" who="#kaliman">
+                 ¡NO LA  <lb/>
+                 TOQUES!
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of Kaliman's head as he yells a warning
+                 to Solin, who is seen on the left of the frame getting closer to the hissing 
+                 snake. 
+              </note>  
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-10
+           </fw> 
+        </div>
+        <pb/>        
+        <div type="panelGrp" xml:id="eg_0012">           
+           <cbml:panel n="1" characters="#snake #kaliman #solin">    
+              <cbml:caption who="#kaliman">
+                 LO APARTÉ RÁPIDAMENTE EN EL  <lb/>
+                 PRECISO INSTANTE EN QUE EL  <lb/>
+                 REPTIL LANZABA UNA MORDIDA  <lb/>
+                 AL AIRE…
+              </cbml:caption>
+              <sound> ¡ FIIIIi! </sound>    
+              <cbml:balloon type="speech" who="#kaliman">
+                 ESTA SÍ ES  <lb/>
+                 VENENOSA.
+              </cbml:balloon>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#solin">
+                 ¡AAAAGH!
+              </cbml:balloon>  
+              <note type="panelDesc"> WS of Kaliman pulling Solin away from the snake,
+                 which is hissing and lunging from the left of the frame.
+              </note>
+           </cbml:panel>           
+           <cbml:panel n="2" characters="#solin #kaliman #snake #anon_man_2">              
+              <cbml:caption who="#kaliman">
+                 Y EN RÁPIDO MOVIMIENTO, LA <lb/>
+                 ATRAPÉ, SUJETÁNDOLA FUER- <lb/>
+                 TEMENTE POR DEBAJO DE SU <lb/>
+                 CABEZA… 
+              </cbml:caption>
+              <sound> ¡ FIIIIi! </sound>   
+              <cbml:balloon type="speech" who="#kaliman">
+                 LA MORDEDURA DE ÉSTA, <lb/>
+                 OCASIONA LA MUERTE CASI <lb/>
+                 INSTANTÁNEAMENTE.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#anon_man_2">
+                 AQUÍ, <lb/>
+                 SAIB, POR <lb/>
+                 FAVOR.
+              </cbml:balloon>   
+              <note type="panelDesc"> WS shows in the center Kaliman as he grabs the hissing
+                 snake from right below the head. Solin watches from the left with surprised expression, while
+                 anonymous man 2 speaks from the right. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#kaliman #snake #anon_man2 #solin">    
+              <cbml:balloon type="speech" who="#kaliman"> 
+                 DEBEN CUIDAR MÁS  <lb/>
+                 ESTOS DETALLES.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#anon_man_2">
+                 PERDÓN, SAIB. NO  <lb/>
+                 SÉ CÓMO PUDO  <lb/>
+                 SUCEDER.
+              </cbml:balloon>                 
+              <cbml:balloon rendition="#jaggies" type="speech" who="#favalli">
+                 ESE MUCHACHO  <lb/>
+                 NATIVO LA DEJÓ  <lb/>
+                 DEBAJO DE MI  <lb/>
+                 SILLA.
+              </cbml:balloon>  
+              <note type="panelDesc"> WS shows anonymous man 2 in the center with a worried 
+                 expression as he watches Kaliman placing the snake in a basket. Solin, on
+                 the right of the frame, looks to the horizon on the right, presumably in the
+                 directionthe native walked away. 
+              </note> 
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-11 
+           </fw>  
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0013">           
+           <cbml:panel n="1" characters="#anon_man_2 #kaliman #solin">       
+              <cbml:balloon type="thought" who="#anon_man_2">
+                 CUÁNTO VALOR Y SANGRE  <lb/>
+                 FRÍA TIENE ESE EXTRANJERO  <lb/>
+                 PARA HACER ESTO.                 
+              </cbml:balloon>                
+              <note type="panelDesc"> MCU of anonymous man 2 walking away with basket while
+                 Kaliman and Solin watch from behind. 
+              </note>
+           </cbml:panel>           
+           <cbml:panel n="2" characters="#solin #kaliman">              
+               <cbml:balloon type="speech" who="#solin">
+                  ¿LA DEJARÍA ESE NATIVO PARA  <lb/>
+                  CAUSARME LA MUERTE?
+               </cbml:balloon>   
+               <cbml:balloon type="speech" who="#kaliman">
+                  NO LO  <lb/>
+                  SABEMOS.
+              </cbml:balloon>   
+              <note type="panelDesc"> Kaliman stands tall on right of frame while Solin 
+                 looks up to him and speaks from the left.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#kaliman #solin">    
+              <cbml:caption who="#kaliman"> 
+                 TRAS EL DESAGRADABLE INCIDENTE,  <lb/>
+                 EMPRENDIMOS LA MARCHA…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#anon_man_2">
+                 PERO, ¿CÓMO PUEDES DISTINGUIR  <lb/>
+                 UNA SERPIENTE VENENOSA DE LA  <lb/>
+                 QUE NO LO ES?
+              </cbml:balloon>                     
+              <note type="panelDesc"> Lateral MCU of both characters on the street. 
+              </note> 
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-12 
+           </fw>
+        </div>
+        <pb/>  
+        <div type="panelGrp" xml:id="eg_0014">           
+           <cbml:panel n="1" characters="#snakes #kaliman #solin">       
+              <cbml:balloon type="speech" who="#kaliman">
+                 LAS SERPIENTES VENENOSAS <lb/>
+                 TIENEN LA CABEZA COMO <lb/>
+                 PUNTA DE FLECHA, LAS <lb/>
+                 OTRAS SON CHATAS.
+              </cbml:balloon>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#kaliman">
+                 ¡QUÉ <lb/>
+                 INTERESANTE!
+              </cbml:balloon>
+              <sound> ¡FIIIIIII! ¡FIIIIII! </sound>
+              <note type="panelDesc"> WS shows Kaliman and Solin on the left, with hissing
+                 snakes in CU on the right, immersed in a yellow cloud. 
+              </note>
+           </cbml:panel>           
+           <cbml:panel n="2" characters="#solin #kaliman">              
+              <cbml:balloon type="speech" who="#solin">
+                 NO LO OLVIDARÉ. ES UN <lb/>
+                 MAGNÍFICO CONSEJO.
+              </cbml:balloon> 
+              <cbml:balloon type="speech" who="#kaliman">
+                 TAXI.
+              </cbml:balloon> 
+              <note type="panelDesc"> WS OSS shows Kaliman and Solin standing on the street.
+                 Kaliman waves a man with a rickshaw crossing in front of them. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#kaliman #solin #green_man">    
+              <cbml:caption who="#kaliman"> 
+                 ALGUIEN MÁS NOS VIGILABA <lb/>
+                 ATENTAMENTE…
+              </cbml:caption>
+              <cbml:balloon type="thought" who="#green_man">
+                 EL EXTRANJERO <lb/>
+                 ES INTELIGENTE Y <lb/>
+                 ASTUTO, PERO TIENE <lb/>
+                 LOS DÍAS CONTADOS.
+              </cbml:balloon>   
+              <note type="panelDesc"> Lateral WS shows green-skinned man with a red turban
+                 spying on them from behind a wall on a corner as they get on the rickshaw.  
+              </note>    
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-13 
+           </fw>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0015">           
+           <cbml:panel n="1" characters="#green_man #anon_man_3 #anon_man_4">       
+              <cbml:balloon type="thought" who="#green_man">
+                 NO PUEDE SALVARSE DE <lb/>
+                 LA FURIA DE KASANA.
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows man with green skin on the right of panel,
+                 while two of his accomplices run in toward him from the center of the frame
+                 in the background. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#green_man #anon_man_3 #anon_man_4">   
+              <cbml:balloon rendition="#jaggies" type="speech" who="#anon_man_3">
+                 NOS DESCUBRIÓ Y <lb/>
+                 SE ESCAPÓ.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#green_man">
+                 ¡CIERREN <lb/>
+                 LA BOCA,<lb/>
+                 IMBÉCILES!
+              </cbml:balloon> 
+              <note type="panelDesc"> MCU of three men behind a wall on the corner. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#green_man #anon_man_3 #anon_man_4">    
+              <cbml:balloon type="speech" who="#green_man">
+                 ENTONCES, TENDRÉ EL PLACER <lb/>
+                 DE CUMPLIR LOS DESIGNIOS <lb/>
+                 DE KASANA
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#anon_man_3">
+                 ¿VAS A MATARLO <lb/>
+                 AHORA MISMO?
+              </cbml:balloon>
+              <note type="panelDesc"> Frontal WS shows the three men standing on the street.
+                 Green man is brandishing a jagged dagger in his right hand.   
+              </note>
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-14
+           </fw>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0016">           
+           <cbml:panel n="1" characters="#green_man #anon_man_3 #anon_man_4">       
+              <cbml:caption who="#kaliman">
+                 SUS OJOS BRILLABAN COMO LOS <lb/> 
+                 DE UNA SERPIENTE, MIENTRAS SU <lb/>
+                 MANO EMPUÑABA CON FIRMEZA <lb/>
+                 EL FILOSO CUCHILLO.
+              </cbml:caption>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#green_man">
+                 ¡KALIMÁN MORIRÁ MUY <lb/>
+                 PRONTO… KASANA LO <lb/>
+                 ORDENA!
+              </cbml:balloon>              
+              <note type="panelDesc"> WS shows three men on the corner. Green man holds the \
+                 dagger in his right hand and makes a gesture of power with his left.  
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#green_man #anon_man_3 #anon_man_4">   
+              <cbml:balloon rendition="#jaggies" type="speech" who="#green_man">
+                 ¡EL PERRO <lb/>
+                 EXTRANJERO MORIRÁ AL <lb/>
+                 IGUAL QUE TODOS! 
+              </cbml:balloon>              
+              <note type="panelDesc"> MCU of the three men. Green man speaks from the right of
+                 the frame while other two watch him. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#anon_man_3 #anon_man_4">    
+              <cbml:balloon type="speech" who="#anon_man_4">
+                 ¿QUIÉN ES <lb/> 
+                 KASANA?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#anon_man_3">
+                 NUESTRO GUÍA <lb/> 
+                 ESPIRITUAL.
+              </cbml:balloon>
+              <note type="panelDesc"> MCU of the two anonymous men speaking.
+              </note>
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              K-2-15
+           </fw> 
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0017">           
+           <cbml:panel n="1" characters="#anon_man_3 #kasana">       
+              <cbml:balloon rendition="#jaggies" type="speech" who="#anon_man_3">
+                 KASANA ES EL VENGADOR: ODIA <lb/>
+                 A TODOS LOS EXTRANJEROS Y <lb/>
+                 HA JURADO EXTERMINARLOS.              
+              </cbml:balloon>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#kasana">
+                 ¡TENGO EL PODER DE <lb/>
+                 LOS DIOSES!
+              </cbml:balloon>
+              <note type="panelDesc"> CU of Anonymous man 3 describing Kasana, while the
+                 latter appears in front, wearing some jewelery and a blue "skirt" around
+                 his waist. He is surrounded by flames, and he is raising his arms in a 
+                 powerful gesture. His speech bubble is somewhat different from the others.
+                 His skin is greenishm as is the skin of those who follow him. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#green_man #anon_man_3">   
+              <cbml:balloon rendition="#jaggies" type="speech" who="#anon_man_3">
+                 PUEDO JURAR QUE MAÑANA… <lb/>
+                 ESE EXTRANJERO Y EL MUCHACHO <lb/>
+                 SERÁN CADÁVERES.
+              </cbml:balloon>
+              <cbml:balloon rendition="#jaggies" type="speech" who="#green_man">
+                 ¡JA <lb/>
+                 JA JA!
+               </cbml:balloon>   
+              <note type="panelDesc"> WS shows the two men running on the street. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#rickshaw_driver #kaliman #solin">    
+              <cbml:caption who="#kaliman">
+                 MIENTRAS, SOLÍN Y YO ÉRAMOS <lb/> 
+                 CONDUCIDOS HACIA NUESTRO <lb/> 
+                 HOTEL…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#solin">
+                 SIGO PENSANDO EN EL  <lb/> 
+                 MOTIVO POR EL CUAL <lb/> 
+                 ESE JOVEN NATIVO <lb/> 
+                 QUISO MATARME.                 
+              </cbml:balloon>
+              <note type="panelDesc"> WS of the two being transported on the rickshaw to
+                 their hotel. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="4" characters="#rickshaw_driver #kaliman #solin">    
+              <cbml:balloon type="speech" who="#kaliman">
+                 TAL VEZ NO FUE SU   <lb/>
+                 INTENCIÓN Y TODO HA SIDO  <lb/>
+                 CASUALIDAD.
+              </cbml:balloon>              
+              <cbml:balloon type="speech" who="#solin">
+                 EXPLÍCAME.
+              </cbml:balloon>
+              <note type="panelDesc"> WS frm behind of the two being transported on the rickshaw to
+                 their hotel. Shadows of the buildings are cast on the street from the left
+                 of the frame.
+              </note>
+           </cbml:panel>           
+           <fw type="pageNum" place="lower-right">
+              K-2-16
+           </fw>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0018">           
+           <cbml:panel n="1" characters="#kaliman #snakes">       
+              <cbml:balloon type="speech" who="#kaliman">
+                 DEBES SABER QUE EN ESTAS  <lb/>
+                 ISLAS, SE VENERAN A LAS   <lb/>
+                 SERPIENTES COMO DIOSES.                 
+              </cbml:balloon>              
+              <note type="panelDesc"> CU of Kaliman shown in the background, while image
+                 of three green and red snakes is seen in the front, immersed in a yellow
+                 cloud-like shape. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#kaliman #kubala">   
+              <cbml:caption who="#kaliman">
+                 CUENTA LA LEYENDA QUE EL  <lb/>
+                 CIELO ENVIÓ AL MAR A UN  <lb/>
+                 DIOS LLAMADO KUBALA.                 
+              </cbml:caption>              
+              <note type="panelDesc"> WS of Kubala diving into the ocean while lightning
+                 explodes around and behind him. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#kubala_snake">    
+              <cbml:caption who="kaliman">
+                 SE CONVIRTIÓ EN GIGANTESCA   <lb/>
+                 SERPIENTE Y AVANZÓ HACIA  <lb/>
+                 LAS ISLAS.
+              </cbml:caption>
+              <sound> !YYIIIII! </sound>
+              <note type="panelDesc"> WS of the giant horned snake/Kubala hisssing in battered
+                 waters.
+              </note>
+           </cbml:panel>
+           <fw type="pageNum" place="lower-right">
+              -17
+           </fw>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0019">           
+           <cbml:panel n="1" characters="#kubala_snake #natives">       
+              <cbml:caption who="#kaliman">
+                 KUBALA DOMINÓ LAS ISLAS, Y   <lb/>
+                 LOS NATIVOS PRESOS DE TERROR,   <lb/>
+                 NO PUDIERON LUCHAR, DISPONIÉN-   <lb/>
+                 DOSE A SER ESCLAVOS.                 
+              </cbml:caption>              
+              <note type="panelDesc"> WS of Kubala as sake attacking the natives who run
+                 for their lives amidst fire and terror. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#natives #women">   
+              <cbml:caption who="#kaliman">
+                 ESCOGÍAN A LAS MÁS   <lb/>
+                 HERMOSAS MUJERES   <lb/>
+                 VÍRGENES PARA EL   <lb/>
+                 SACRIFICIO HUMANO.                 
+              </cbml:caption>              
+              <note type="panelDesc"> WS of three women scantily clothed being offered to
+                 Kubala by two natives. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#kubala_snake #anon_woman">    
+              <cbml:caption who="kaliman">
+                 LA SANGRE Y LA CARNE HUMANA   <lb/>
+                 LLENABAN DE PLACER Y SATIS-   <lb/>
+                 FACCIÓN AL ESPANTOSO   <lb/>
+                 MONSTRUO.
+              </cbml:caption>
+              <sound> ¡AAAHH! </sound>
+              <sound>  ¡YEEEERR! </sound>
+              <note type="panelDesc"> WS of the giant horned snake/Kubala hisssing and 
+                 approaching a scantily clothed woman who screams on top of rocks. 
+              </note>              
+           </cbml:panel>                
+           <fw type="pageNum" place="lower-right">
+              K-2-18
+           </fw>                 
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0020">           
+           <cbml:panel n="1" characters="#kaliman #solin">       
+              <cbml:caption who="#solin">
+                 PERO ESO SUCEDÍA HACE   <lb/>
+                 MUCHOS AÑOS, ¿VERDAD?
+              </cbml:caption>
+              <cbml:caption who="#kaliman">
+                 ESO DICE LA LEYENDA,   <lb/>
+                 PERO MUCHO ME TEMO QUE…    <lb/>               
+              </cbml:caption>              
+              <note type="panelDesc"> MCU of Kaliman and Solin talking on the street. Solin
+                 has a worried expression on his face. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#kaliman">   
+              <cbml:caption who="#kaliman">
+                 CASI ADIVINABA LO QUE MUY   <lb/>
+                 PRONTO IBA A DESCUBRIR.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#kaliman">
+                 LAS   <lb/>
+                 TRADICIONES Y   <lb/>
+                 COSTUMBRES  <lb/>
+                 PERDURAN A   <lb/>
+                 TRAVÉS DEL TIEMPO.
+              </cbml:balloon>
+              <note type="panelDesc"> Frontal CU of Kalima against the bluish and black
+                 background of the night. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#kubala_snake #women #devoured_woman">    
+              <cbml:caption who="kaliman">
+                 ES POSIBLE QUE ESOS SACRIFICIOS  <lb/>
+                 HUMANOS, SIGAN EFECTUÁNDOSE  <lb/>
+                 HASTA LA FECHA.
+              </cbml:caption>
+              <sound> ¡AAAAHHH! </sound>
+              <sound>  ¡AAAYY! </sound>   
+              <note type="panelDesc"> WS of the giant horned snake/Kubala hisssing and 
+                 devouring a screaming woman while other women scream and try to flee on
+                 top of rocks. There is a watermark: www.Kaliman.biz
+              </note>    
+           </cbml:panel>                  
+           <fw type="pageNum" place="lower-right">
+              K-2-19
+           </fw>  
+           <note>WWW. Kaliman.biz </note>
+        </div>
+        <pb/>
+        </body>
+      </text>
+</TEI>
