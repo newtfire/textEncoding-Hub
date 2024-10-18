@@ -1,5 +1,4 @@
-# Learning XPath with CBML: XPath Exercise 1
-Special issue for Fall 2023!
+# Learning XPath with CBML: XPath Orientation Exercise 
 
 Dr. Felipe Gómez has been working on a CBML project 
 working with the paper/print Latin American Comic Books Archive at Carnegie Mellon University Libraries.
