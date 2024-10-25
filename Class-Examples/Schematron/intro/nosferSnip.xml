@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="simple.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<xml>
+    <!-- Starter XML code to introduce Schematron -->
+    <scene type="spoken">
+        <dialogue char="Franz">Help! Help!</dialogue>
+    </scene>
+    <scene type="silent">
+        <dialogue>Nosferatu's shadow moves on wall.</dialogue>
+ 
+    </scene>
+</xml>
+    
