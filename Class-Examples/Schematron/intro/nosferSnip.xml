@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="nosferSnip.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="simple.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <!-- Starter XML code to introduce Schematron -->
     <scene type="spoken">
@@ -7,7 +9,7 @@
     </scene>
     <scene type="silent">
         <dialogue>Nosferatu's shadow moves on wall.</dialogue>
- 
+ <!-- The above dialogue element SHOULD be <descript> because it's not spoken. -->
     </scene>
 </xml>
     

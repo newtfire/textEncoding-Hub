@@ -3,13 +3,13 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     
     <pattern>
-      <rule context="scene">
+        <rule context="scene">
             <report test="@type='silent' and child::dialogue">
                 If there is a type attribute reading "silent", there must not be a child 
-                dialogue element here. Use a  descript element instead!
-            </report>
+                dialogue element here. Use a  descript element instead!</report>            
         </rule>
-        
+
     </pattern>
+       
     
 </schema>

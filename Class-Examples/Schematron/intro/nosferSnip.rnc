@@ -1,0 +1,11 @@
+start = xml
+xml = element xml {scene+}
+
+scene = element scene {type, dialogue*, descript*}
+
+type = attribute type {"silent" | text}
+dialogue = element dialogue {char?, text}
+
+char = attribute char {text}
+
+descript = element descript {text}
