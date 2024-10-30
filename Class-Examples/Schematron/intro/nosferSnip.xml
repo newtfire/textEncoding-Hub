@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="nosferSnip.rnc" type="application/relax-ng-compact-syntax"?>
+
 <?xml-model href="simple.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <!-- Starter XML code to introduce Schematron -->
