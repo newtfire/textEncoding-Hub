@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
+<schema queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns="http://purl.oclc.org/dsdl/schematron">
 
     <pattern>
-        <rule context=""><!-- context is <location> elements that contain "AU" -->
-           <!-- either <assert> or <report> 
+        <rule context="location[contains(., 'AU') ]">
+          
+            <assert test="@long &gt;= 100">
+                Australia locations MUST have a longitude greater than or equal to 100.</assert>
+            
+            
+            <!-- either <assert> or <report> 
            
            An <assert test="..."> will check to make sure that the conditions in the @test are ture. 
            Use this when defining the conditions for "ALL'S WELL". It will fire when the conditions described are violated.
@@ -19,14 +24,6 @@
            
            -->
         </rule>
-        <rule context=""><!-- context is <location> elements that contain "USA" -->
-            <!-- either <assert> or <report> 
-           
-             In USA:
-             longitude is west of the Prime Meridian: values are less than zero or negative
-             latitude for Northern Hemisphere must be positive, higher than zero 
-             
-           -->
-        </rule>
+     
     </pattern>
 </schema>

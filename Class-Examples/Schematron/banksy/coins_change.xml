@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="starter.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <root>
     <header>
         <fileDesc>
@@ -26,7 +27,7 @@
         </fileDesc>
     </header>
     <body>
-        <desc> This piece of Bnanksy became super popular as it spread everywhere.This piece was discovered in Melbourne. It shows a homeless man who appears to be asking for change but not in the physical change – 
+        <desc> This piece of <persName>Bnanksy</persName> became super popular as it spread everywhere.This piece was discovered in Melbourne. It shows a homeless man who appears to be asking for change but not in the physical change – 
             as he says, he wants social change rather than coins/bills. Its a strong piece with a deep meaning as he wants society to change for the better. On a street outide of a building in Melbourne Australia.</desc>
         <p>
             <img src="Coins_Change.jpeg" alt="Keep your Coins, I want Change"/>
