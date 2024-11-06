@@ -6,13 +6,26 @@
     version="3.0">
     
     <!--ebb: Here's the extra special
-    line we need to do an Identity Transformation. 
+    line we need to do an Identity Transformation. -->
     
-   <xsl:mode on-no-match="shallow-copy"/> -->
+   <xsl:mode on-no-match="shallow-copy"/>
     
   
     <!-- ebb: Now we write template rules to match on patterns in the source document, and output new patterns.  -->
     
+    
+    <xsl:template match="sonnets">
+      <xml>
+        <xsl:apply-templates/>
+      </xml>
+    </xsl:template>
+ 
+  
+  <xsl:template match="line">
+    <lb len="{string-length()}" n="{count(preceding-sibling::line) + 1}" /><xsl:apply-templates/>
+  </xsl:template>
+  
+  
 
    
     
