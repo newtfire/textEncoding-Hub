@@ -12,7 +12,7 @@
     <xsl:template match="/">
         <html>
             <head> 
-            <title><xsl:apply-templates select="descendant::title"/></title>
+            <title>List from <xsl:apply-templates select="descendant::title"/></title>
             <!-- Link line for CSS would go here... -->
             </head>
             <body>
