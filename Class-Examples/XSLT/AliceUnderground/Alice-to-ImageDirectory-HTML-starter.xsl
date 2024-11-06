@@ -5,6 +5,12 @@
     xmlns="http://www.w3.org/1999/xhtml"
     exclude-result-prefixes="xs math"
     version="3.0">
+    <!-- What we want: For every chapter, list the headings. Write this processing first, 
+                    starting in this template to set the outermost HTML list structure with <ul>, and apply-templates 
+                    to select the <chapter> elements to process. 
+                    
+                    **In the new template rule after this one**, match on the chapter elements and replace them
+                    with an html <li>....</li> element that holds the chapter headings. -->
    
     
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
@@ -19,14 +25,7 @@
             <body>
                 <h1>An Image Directory for Alice's Adventures Underground</h1>
                 
-                <!-- What we want: For every chapter, list the headings. Write this processing first, 
-                    starting in this template to set the outermost HTML list structure with <ul>, and apply-templates 
-                    to select the <chapter> elements to process. 
-                    
-                    **In the new template rule after this one**, match on the chapter elements and replace them
-                    with an html <li>....</li> element that holds the chapter headings. -->
-       
-                
+
                 <ul class="outerList"> <!-- Everything that processes just ONCE goes in this template rule -->
                     <xsl:apply-templates select="descendant::chapter"/>  
                 </ul>
