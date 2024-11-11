@@ -1,0 +1,12 @@
+/* 2024-11-11 ebb: I just generated this in class quickly to
+ * highlight a few of our span and div elements. */
+div.speech { background-color: pink;}
+
+span.mention {
+color:blue ; 
+background-color:yellow;
+}
+
+div.nonspeech {
+    background-color:grey;
+}
