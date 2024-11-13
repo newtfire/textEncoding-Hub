@@ -35,7 +35,7 @@
 ### Spiderman CBML Project
 [Project GitHub](https://github.com/sam-seb/CBML-Project)
 [Website](https://sam-seb.github.io/CBML-Project/)
-* [Samantha Sebulak](https://github.com/sam-seb/)
+* [Samantha Sebulak](https://github.com/sam-seb/) **
 * [Temitope Sakote](https://github.com/Temiii857)
 
 ### Benjie Bear Comic Book Project 
