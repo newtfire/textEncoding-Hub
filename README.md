@@ -12,4 +12,4 @@ Now that you're here, you should try to "clone" this repository on your local co
 * Web slides Intro to Shell and Git (more detailed): <https://slides.com/elisabeshero-bondar/shell-git-nav>
 * Older detailed guide to get started with Git (or just use this as we do, like a reference to search in for information): <https://newtfire.org/courses/tutorials/explainGitShell.html>
 
-## [Last year's 2023 Project Teams Directory](2023-Project-Teams.md)
+## [2024 Project Teams Directory](2024-Project-Teams.md)

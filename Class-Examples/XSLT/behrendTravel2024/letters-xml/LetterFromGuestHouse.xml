@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Markup by Michael Simons-->
+<?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- 2024-11-14 ebb: I set a @when attribute on a couple of the dates inside this letter to indicate the date range of the season rental rates.  -->
+<letter>
+    <page num="1">
+        <headLine><location category="guest house" spec="private home">MANOIR DE BÉCHERON</location></headLine>
+        <p>
+            <ln n="0" indent="center"/><location category="commune" spec="commune within the Indre-et-Loire department of France">Saché</location>
+            <ln n="0" indent="center"/><location category="department" spec="in central France, named after the Indre and Loire rivers">Indre-et-Loire</location>
+        </p>
+        <p>
+            <ln n="1" indent="yes"/>The <location category="guest house" spec="private home">Manoir de Bécheron</location> is a private home which welcomes a few paying 
+            <ln n="2"/>guests.  It is a rambling <date>15th-16th Century</date> house situated in the peaceful 
+            <ln n="3"/>valley of the <location category="department" spec="in central France, named after the Indre river">Indre</location> in the heart of the <location category="valley" spec="region in France containing many castles">Chateaux de la Loire region</location>.  The  <!--A deparment is an administrative region in France-->
+            <ln n="4"/>furniture is authentic Renaissance and <date>18th Century</date>.  The Manoir has an 
+            <ln n="5"/>air of Old World charm with modern comfort.  The cuisine is French, meals 
+            <ln n="6"/>are 'en famille', except for breakfast, which is served in your room or, 
+            <ln n="7"/>if you choose, in the gardens.
+        </p>
+        <p>
+            <ln n="8" indent="yes"/>You are one of us when we go visiting our French and American 
+            <ln n="9"/>neighbors.  Among them are such famous artists as <person>Alexander Calder</person>, <person>Max 
+            <ln n="10"/>Ernst</person> and <person>A. Ozenfant</person>.
+        </p>
+        <p>
+            <ln n="11" indent="yes"/><location category="guest house" spec="abbreviated mention of the Manoir de Bécheron">Bécheron</location> is 25 kilometers from <location category="city" spec="Tours, France">Tours</location>, which can be reached by rail 
+            <ln n="12"/>from <location category="city" spec="Paris, France">Paris</location> in about two and half hours.  Of course we meet you at the 
+            <ln n="13"/>station.
+        </p>
+        <p>
+            <ln n="14" indent="yes"/>The rate in high-season (<date when="1955-06-15">June 15</date>-<date when="1955-08-31">August 31</date>) is $15 a day or $100 
+            <ln n="15"/>a week per person all inclusive (room, bath, 3 meals, wines, liqueurs, 
+            <ln n="16"/>coffee and service).  This includes the local excursions around <location category="guest house" spec="abbreviated mention of the Manoir de Bécheron">Bécheron</location> 
+            <ln n="17"/>such as <location category="commune" spec="commune within the Indre-et-Loire department of France">Saché</location>, <location category="commune" spec="commune within the Indre-et-Loire department of France">Azay-le-Rideau</location>, <location category="city" spec="Tours, France">Tours</location>, <location category="commune" spec="commune within the Indre-et-Loire department of France">Langeais</location>.  The <location category="museum" spec="">Saché Museum</location> now 
+            <ln n="18"/>houses a permanent exhibit of the sculpture of my father, <person>Jo Davidson</person>.  
+            <ln n="19"/>The off-season rate (<date>March 1</date>-<date>June 14</date>; <date>Sept. 1</date>-<date>October 31</date>) is $10 a day 
+            <ln n="20"/>or $65 a week per person.  Contrary to the usual continental practice 
+            <ln n="21"/>there are no extra charges at <location category="guest house" spec="abbreviated mention of the Manoir de Bécheron">Bécheron</location>.
+        </p>
+        <p>
+            <ln n="22" indent="yes"/>My French wife and I have two children, Eva age 12 and Laurent who 
+            <ln n="23"/>is 5; we can and do care for children, and you will find they are never 
+            <ln n="24"/>underfoot.  If you should want a place where you can safely leave yours 
+            <ln n="25"/>while touring <location category="continent" spec="">Europe</location>, <location category="guest house" spec="abbreviated mention of the Manoir de Bécheron">Bécheron</location> is the place you are looking for.  Our 
+            <ln n="26"/>children were born in the <location category="country" spec="United States">United States</location> and speak French and English as 
+            <ln n="27"/>of course we do.
+        </p>
+        <p>
+            <ln n="28" indent="yes"/>A week in <location category="guest house" spec="abbreviated mention of the Manoir de Bécheron">Bécheron</location> is over before you realize it!  You won't want to 
+            <ln n="29"/>miss the thrilling sight of the illuminated chateaux; they alone are 
+            <ln n="30"/>worth the trip.  The <location category="castle" spec="castle in the Indre-et-Loire department of France">'Sleeping Beauty' castle of Ussé</location>, <location category="castle" spec="castle in the Indre-et-Loire department of France">Azay-le-Rideau</location>, 
+            <ln n="31"/>famous <location category="castle" spec="castle in the Indre-et-Loire department of France">Chenonceau</location> and <location category="castle" spec="castle in the Indre-et-Loire department of France">Chambord</location> are but a few of the fabulous palaces 
+            <ln n="32"/>which surround us.
+        </p>
+        <p>
+            <ln n="33" indent="yes"/>During one of your outings we will picnic in the <location category="forest" spec="forest of the Loches commune of France">Forêt de Loches</location> near 
+            <ln n="34"/>a circular <date>12th Century</date> chapel, or on the banks of the <location category="river" spec="longest river in France">Loire</location> across from 
+            <ln n="35"/><person note="Mme. short for Madame">Mme. de Pompadour</person>'s <location category="castle" spec="castle associated with Madame de Pompadour, on the bank of the Loire river">palace at Ménars</location>.  We will also take you to one of the 
+            <ln n="36"/>outstanding restaurants of <location category="city" spec="Tours, France">Tours</location> on a picturesque medieval square.
+        </p>
+        <p>
+            <ln n="37" indent="yes"/>We are looking forward with pleasure to meeting you, with or without 
+            <ln n="38"/>your children.  We'll be glad to answer any specific question you may have.  
+            <ln n="39"/>Write to us.
+        </p>
+        <p>
+            <ln n="40" indent="center"/>Cordially yours,
+            <ln n="41" indent="center"/><!--Jacques Davidson signature-->
+            <ln n="42" indent="center"/><person>Jacques Davidson</person>
+        </p>
+    </page>
+</letter>

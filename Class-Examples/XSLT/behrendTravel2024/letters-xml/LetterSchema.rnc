@@ -1,0 +1,27 @@
+start = letter # root element
+letter = element letter {page+} 
+    page = element page {num, headLine?, (p | drawing)*} # for multi-page letters to remain in the same document
+        num = attribute num {xsd:integer} # page number
+        
+        headLine = element headLine {mixed{(location | time | date | imp)*}} # metadata (where & when)
+        
+        # wasn't able to make "ln" elements required because sometimes they are mixed into person or location elements, so please remember to add them
+        p = element p {(mixed{(ln | imp | location | date | person)*})} # paragraphs
+            ln = element ln {n, indent?} # numbered lines
+                n = attribute n {xsd:integer} # line number
+                indent = attribute indent {"yes" | "center"} # optional note for indent
+            imp = element imp {type, corr?, (text | imp | ln)*} # imperfections
+                type = attribute type {"typo" | "missing" | "spelling" | "stray" | "slash" | "writing" | "underline" | "crossout" | "properEnglish" } # types of imperfections
+                corr = attribute corr {text} # the corrected revision
+        drawing = element drawing {mixed{(location | imp)*}}
+        
+# Generic elements used multiple places
+location = element location {category, spec, (text | imp | ln)*} 
+    category = attribute category {"ship" | "city" | "country" | "department" | "commune" | text} # still adding specific categories as we come across them
+    spec = attribute spec {text}
+time = element time {(text | imp | ln)*}
+date = element date {when?, (text | imp | ln)*}
+when = attribute when {xsd:date}
+# ebb: added a when attribute to store ISO dates for sorting the letters chronologically when processing.
+person = element person {note?, (text | imp | ln)*}
+    note = attribute note {text}

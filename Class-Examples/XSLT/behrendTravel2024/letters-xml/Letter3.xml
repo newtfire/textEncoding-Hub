@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Transcription and markup by Ashlynn Allgeier-->
+<!--Corrections by Michael Simons-->
+<?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+   <page num="1">
+       <headLine><date when="1955-07-20">Wednesday, July 20th</date>. LEAVING PARIS FOR SEVERAL DAYS IN THE COUNTRY-
+    </headLine>
+    
+        <p>
+           <ln n="1"/>Breakfast in our round white sitting room. Very smartly
+           <ln n="2"/>we packed into ONE suit case, leaving all the rest at <location>Le
+           <ln n="3"/>Bristol</location> for our return from the country a<imp type="writing" corr=" ">\</imp>few days later.
+           <ln n="3"/>Took the noisy little morning train for <imp type="underline">Tours</imp>-about
+           <ln n="4"/>2 <imp type="typo" corr="1">i</imp>/2 hours. We could s<imp type="writing">e</imp>e several <imp type="typo" corr="Huge">hge</imp> chateaux up on <imp type="writing" corr="the">THE</imp>
+           <ln n="5"/>hillsides. Ambroise for one. <imp type="writing">J</imp>ust before we reached Tours.
+           <ln n="6"/><person>Mr Dickinson</person> met us. <imp type="writing" corr="At">AT-</imp> Hi<imp type="writing">s</imp> father was <person><imp type="writing">Jo</imp> D<imp type="writing">a</imp>vi<imp type="writing">d</imp>son</person> the famous
+           <ln n="7"/>sculptor- and the <person><imp type="writing">D</imp>avidson<imp type="writing">s</imp></person> live in the old farm manor-
+           <ln n="8"/>hou<imp type="writing">s</imp>e that <imp type="writing">w</imp>as his.. <imp type="writing">W</imp>e drove to Brech<imp type="writing">^e</imp>ron their f<imp type="writing">a</imp>rm, where
+           <ln n="9"/>we had a v<imp type="writing">er</imp>y <imp type="writing">s</imp>ubstantial lunch- <imp type="writing">as</imp> Mrs. D explained we
+           <ln n="10"/>would <imp type="underline">need</imp> it as we had a <imp type="underline">busy</imp> aft<imp type="underline">ernoon</imp> be<imp type="underline">fore</imp> <imp type="underline">us</imp>. Sorrel
+           <ln n="11"/>soup, steak and a salad. We had a ple<imp type="writing">A</imp>sant room on the
+           <ln n="12"/>ground floor a tiny dressing room and a HU<imp type="underline">GE bath ro</imp>om
+           <ln n="13"/>with a tub  large enough for a baby elephant!
+        </p>
+        
+        <drawing>AT <imp type="underline">MANOIR</imp>B<imp type="underline">ERCHERON</imp></drawing>
+        
+        <p>
+           <ln n="14"/>After <imp type="crossout">breakfast</imp><imp type="writing">LUNCHEON</imp> we started out with Jack Davidson
+           <ln n="15"/>in his cosy little car for the "afternoon tour".
+        </p>
+        
+        <p>
+           <ln n="16"/>Went first to <location>Chenoceaux</location>- this chateau <imp type="writing">we</imp> <imp type="writing">we</imp>nt
+           <ln n="17"/>inside of. Lofty hall and rooms with paintings of
+           <ln n="18"/>people belonging to the various families connected <imp type="missing" corr="with">wi h</imp>
+           <ln n="19"/>the ch<imp type="writing">a</imp>teau, many y<imp type="writing">ea</imp>rs <imp type="writing">ag</imp>o. <imp type="writing">O</imp>ne of the interesting
+           <ln n="20"/> part<imp type="writing">s</imp> of <imp type="typo" corr="this">tis</imp> particular mansion was the covered bridge
+           <ln n="21"/>f<imp type="writing">Ro</imp>m the fu<imp type="writing">R</imp>ther end of the building to the shore on the
+           <ln n="22"/>other side. <imp type="writing">T</imp>his was built up over the river by a series
+           <ln n="23"/><imp type="crossout">0</imp>of arches. An important <imp type="typo" corr="building">buildin g</imp> was to have been
+           <ln n="24"/> errected on the further side of the river connected with
+           <ln n="25"/>the bridge. It reminded us of the bridge in <location>Florenc
+           <ln n="26"/>e-Ponte Vecchio.</location>
+        </p>
+        
+        
+        <p>
+            <ln n="27"/>From here we drove thro the <location>lovely river valleys</location>
+            <ln n="28"/>and above. Three of these rivers.AMbroise we saw from below
+            <ln n="29"/>The round tower from the <imp type="underline">river</imp> side was the
+            <ln n="30"/>one the riders went up to the <imp type="underline">stables</imp>- on  a ramp in<imp type="writing">siDe</imp>
+            <ln n="31"/> the huge tower. The large tower on the <imp type="underline"><imp type="writing">o</imp>ther</imp> side was
+            <ln n="32"/>that used by royalty ,etc;carriages went in this one
+            <ln n="33"/>up to an important court. W<imp type="writing">e</imp> went inside the parts of
+            <ln n="34"/>the castle-absolutely bare rooms- being repaired
+            <ln n="35"/>I<imp type="writing">N</imp> the church and a tomb. Saw a chateau or two and
+            <ln n="36"/>various churches outide. Then visited <location>Sache, Balkac</location>
+            <ln n="37"/>old home- now a museum. An interestint rather tall
+            <ln n="38"/>building- not especially large. The medium sized living
+        </p>
+    </page>
+        
+        
+        
+        <page num="2"><p>
+            <ln n="1"/>was furnished exactly as Balzak left it. Wall paper in
+            <ln n="2"/>imatation of heavy folds of materia<imp type="writing">L</imp> <imp type="writing">w</imp>ith bor<imp type="writing">D</imp>ers and
+            <ln n="3"/>rosetters in a mustard shade. Ratyer gay flo<imp type="writing">WER</imp> chitz
+            <ln n="4"/>on the chairs and sofa. The view from all the windows very
+            <ln n="5"/>lovely.The floor above was his bedroom. A<imp type="writing">|</imp>very small bed
+            <ln n="6"/>fitted into an alcove.(such a steep narrow stairway
+            <ln n="7"/>to get up to this room) Across the <imp type="crossout">l</imp> little hall was father
+            <ln n="8"/>a spacious room which<imp type="writing">/</imp>contained a large collection of
+            <ln n="9"/>Jo Davidson's work. Almost entirely busts of famous
+            <ln n="10"/>people. A life size figure of Gertrude Stien. The busts
+            <ln n="11"/>were all arranged on tall swuare pedestals of varying
+            <ln n="12"/>The likeness being startling<imp type="writing">ly</imp> fine. W<imp type="writing">e</imp> could <imp type="typo" corr="see">seee</imp> from
+            <ln n="13"/>these high windows far over the beautiful rolling <imp type="crossout">hi</imp>
+            <ln n="14"/>country-and <imp type="crossout">over</imp> the tiny villages scattered over the
+            <ln n="15"/>fi<imp type="writing">eLD</imp>s. Supper Mrs Davidson explained was a very light
+            <ln n="16"/>meal - it was excellent Sorrell soup Soufleeland a
+            <ln n="17"/>saldd.   In the evenong we went with Jack to see the
+            <ln n="18"/>"illumanation" <imp type="writing">A</imp> little way down the r<imp type="writing">oA</imp>d at the chateau
+            <ln n="19"/>Azay d'Rideau. A heavenly place surrounded by a moat
+            <ln n="20"/>filled with water(as it should be!) It was then quite
+            <ln n="21"/>dark. People sat about in the ground on rugs- some
+            <ln n="22"/>walked about. Beautiful music and a story of a tragic
+            <ln n="23"/>happening i<imp type="writing">N</imp> the castle (many years ago) was recited
+            <ln n="24"/>from the castly windows. The windows being lit as it
+            <ln n="25"/>wo<imp type="writing">uLD</imp> <imp type="crossout">ld</imp> fit into the st<imp type="writing">o</imp>ry.
+        </p>
+        
+        <p>
+            <ln n="26"/>Thursday July 21st<imp type="writing">,</imp>Breakfast in our room. About <imp type="crossout">I</imp>
+            <ln n="27"/>I0 we started <imp type="writing">^with</imp> the Davidsons and their<imp type="crossout">n</imp>little boy plus
+            <ln n="28"/>a picnic. Firs<imp type="writing">t</imp> to a <imp type="underline">monestry</imp>- <imp type="writing">Loches</imp> - the original
+            <ln n="29"/>walls <imp type="writing">e</imp>nclosing it. Large wheat fields were within the
+            <ln n="30"/>enclosure. The buiodings were of the     century. We
+            <ln n="31"/>then drove thro<imp type="writing">'</imp> what was teh royal forrest-came to a
+            <ln n="32"/>pretty round thached summer house. As it rained a little we ate our excellent lunch at this place.
+        </p>
+        
+        <p>
+            <ln n="33"/>Went back to <imp type="writing">Loche</imp>, the chateau and church.Visited
+            <ln n="34"/>the tomb of Agnes Sorel. and went thro<imp type="writing">'</imp> many barren rooms
+            <ln n="35"/>in the chateau- one of which Joan of Arc was s<imp type="writing">u</imp>pposed to
+            <ln n="36"/>have had her second audience with the King. At thi<imp type="writing">s</imp> time
+            <ln n="37"/>she was said to have selected him from the large gathering
+            <ln n="38"/>(she<imp type="writing">|</imp>never having seen him before)     Rained light
+            <ln n="39"/>showers.        Then to chinon- where we had tea and
+            <ln n="40"/>walked thro the old vallage.This particular town is <imp type="writing">HELD</imp>
+            <ln n="41"/>by the government as to building and changes of any
+            <ln n="42"/>sort.(Like Chester in England and rRotherburg in Germany)
+            <ln n="43"/>In the evening a couple came for over night. We could
+            <ln n="44"/>have managed very nicely without HIM. Very noisy and disagr<imp type="writing">ee</imp>d with everybody <imp type="writing">a</imp>nd every thing<imp type="writing">!</imp>
+        </p>
+        
+        <p>
+            <ln n="45"/>July 22nd. Day of departure.Drove to <location>St. Pierre
+            <ln n="46"/>de Clochs</location> just outside of Tour- where we took the II.20
+            <ln n="47"/>train fro <location>Paris</location>. <person>Mrs Davidsons<imp type="writing">'</imp> Mother</person> drove over with us.
+            <ln n="48"/>Her sister lives in the U.S.A at Hanover. The car
+            <ln n="49"/>acted up on the way over- but we got there!!
+        </p></page>
+        
+        
+        
+    <page num="3">
+        <p>  
+            <ln n="1"/><date>Saturday, July 23, 1955</date> Now we leave for <location>Paris</location>- not very much of a 
+            <ln n="2"/>visit but there is much to see in <location>Europe</location>- and many places
+            <ln n="3"/>we may never get around to again' However <location>Paris</location> I hope to
+            <ln n="4"/>visit agai<imp type="writing">N</imp>.
+        </p>  
+       <p> 
+           <ln n="5"/>We left <location>Le Bristol</location> for the Air<imp type="writing">WAY</imp>s a little before 9 and
+           <ln n="6"/>stopped enroute at Hermes to collect a scarf-decorated with
+           <ln n="7"/>all the famous chateaux of <location>France</location>- a few of which we <imp type="writing">HAD</imp>
+           <ln n="8"/>visited during our recent little stay in Tours. This
+           <ln n="9"/>scarf a souvi<imp type="writing">e</imp>ner for <person>Gail</person>. Then on to the air port.
+           <ln n="10"/>A two-motor plane awaited us (this did not entrane ME)
+           <ln n="11"/>Not many passengers. <imp type="writing">We</imp> paid about $6.00over weight- but
+           <ln n="12"/>expected this anyway.About 3/4 hour's flight among the
+           <ln n="13"/>clouds. A bit bumpy. But we GOT ther<imp type="writing">e</imp> O.K.
+       </p> 
+        
+        <p>
+            <ln n="14"/>Mercedes <imp type="writing">BU</imp>cher met us <imp type="writing">a</imp>t the <location>Brussels terminal</location> with her
+            <ln n="15"/>new grey Ford Sedan. It <imp type="writing">w</imp>as good to see her<imp type="writing">!</imp> We always have
+            <ln n="16"/>fun. She drove <imp type="writing">us</imp><imp type="crossout">u</imp>t<imp type="writing">o</imp> <location>Brussels</location> and thro the lovely parks.
+            <ln n="17"/>Landing at the Metropole (where <person>M</person>. al<imp type="writing">S</imp>o lives until her
+            <ln n="18"/>apartment<imp type="writing">\</imp>is ready) <imp type="writing">w</imp>e <imp type="typo" corr="went">wnet</imp> up to our rooms. Nothing very
+            <ln n="19"/>fancy but quie<imp type="writing">t</imp>. Some flowers arrived from <person>M.G.</person> and <person>Clyde</person>
+            <ln n="20"/>and directly <imp type="writing">Af</imp>ter, in they came<imp type="writing">!</imp>They were at the <location><imp type="writing">A</imp>tlanta
+            <ln n="21"/>hotel</location> <imp type="writing">a</imp>l<imp type="writing">M</imp>ost next door on this busy street. We all <imp type="writing">/</imp> trailed
+            <ln n="22"/>over to the G<imp type="writing"><imp type="underline">R</imp>and</imp> P<imp type="underline">lac</imp>e. Where we had a truly delicious
+            <ln n="23"/>meal of steak <imp type="typo" corr="potatoes">p<imp type="writing">o</imp>toes</imp> etc ,on<imp type="writing">\</imp>little table placed out<imp type="writing">/</imp>on the
+            <ln n="24"/>sidewalk. This beautiful Place is to me one of the most
+            <ln n="25"/>beautiful sig<imp type="writing">HT</imp> have ever seen. It is very large and neatly
+            <ln n="26"/>paved with bl<imp type="crossout">a</imp><imp type="writing">o</imp>cks of stone- as are most of the streets
+            <ln n="27"/>in <location>Brussel</location>s The distinguished <location>Town Hall(Hotel de Ville)</location>
+            <ln n="28"/>occupies practiced <imp type="writing">the</imp> end, facing the lovely group of<imp type="writing">\</imp>Guild houses
+            <ln n="29"/>or  Corporation Houses. All around the square are these very
+            <ln n="30"/>Beautiful struct<imp type="writing">URe</imp>s, darkened with age, the carvings and
+            <ln n="31"/>cornices etc <imp type="typo" corr="decorted"><imp type="writing">D</imp>ecoratee</imp> with gold.The facades are sumourount
+            <ln n="32"/>by irregular <imp type="crossout">lr</imp> roofs topped with emblems of the guilds.
+            <ln n="33"/>A <imp type="typo" corr="basket">baket</imp>, a lam<imp type="writing">P</imp>, The<imp type="writing">|</imp>effect at night, whenthe buildings are
+            <ln n="34"/>wonderfully <imp type="crossout">l</imp> illumanated, is something never to be
+            <ln n="35"/>forgotten.
+        </p>
+        <p>
+            <ln n="36"/>WE drove <imp type="writing">WiTH</imp> <person><imp type="writing">M</imp></person>. in her cosy grey Ford all thro<imp type="writing">'</imp> the lovely
+            <ln n="37"/>parks.Huge <imp type="crossout">tre</imp> trees, lakes, pleasant roll<imp type="writing">i</imp>ng meadows,
+            <ln n="38"/>Flowers in <imp type="writing">MANY</imp>spots,<imp type="writing">we</imp> drove past many famous buildings
+        </p>
+        
+       <p>
+           <ln n="39"/><location>Palias de Justice</location> etc. After a rest period we set forth
+           <ln n="40"/>again for ou<imp type="writing">R</imp> <imp type="writing">B</imp>eloved Square where we had a delicious
+           <ln n="41"/>dinner- so g<imp type="writing">oo</imp>d and so cheap.In a charming little <imp type="typo" corr="restaurant">restur n</imp>
+           <ln n="42"/>approached the a tiny paved ally. I<imp type="writing">N</imp> the <imp type="underline">Flemish</imp> <imp type="crossout">stlo</imp><imp type="writing">STYLE</imp>
+           <ln n="43"/>Carved panels,and old Delft plates pewter and all the
+           <ln n="44"/>brass most beutifully polished.<location>Le Bon Vondiuex Temps</location>. Be
+           <ln n="45"/><imp type="underline">SUre</imp> to vi<imp type="writing">si</imp>t this if you go to <location>Brussels</location>!
+       </p>
+    </page>
+    
+</letter>

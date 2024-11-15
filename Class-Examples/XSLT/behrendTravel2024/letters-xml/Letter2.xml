@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Transcription and markup by Ashlynn Allgeier-->
+<!--Corrections by Michael Simons-->
+<?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    <page num="1">
+        <headLine><location category="city" spec="Paris, France">Paris</location> <date when="1955-07-19">July 19th. <imp type="writing">1955</imp></date> - </headLine>
+    <p>
+        <ln n="1"/>Took a motor <imp type="typo" corr="from a">froma</imp> travel agency- after breakfast in
+        <ln n="2"/>our fancy round sitting room. Drove all around <location>Paris</location>
+        <ln n="3"/>the driver named <person>Harvey</person> had a daughter named
+        <ln n="4"/>at <location>Waycross Georgia</location>. Went to <location>Lubin's</location> for <imp type="typo" corr="perfume">perfrume</imp>
+        <ln n="5"/>(had the pink flannel iaffair that <person>Harriet</person> had
+        <ln n="6"/>given me- REsented') W alked around the <location>circle-Place
+        <ln n="7"/>de Ven6ome To Caron</location>, <location>The Ritz Hotel</location>, and a jewellers
+        <ln n="8"/>where I was intregue<imp type="writing">s</imp> by a <imp type="writing">J</imp>ewelled bird. But did NOT
+        <ln n="9"/>get it! To a very nice resturant in <location>the Bois</location> for lunch
+        <ln n="10"/><location>Le Pre Catalan</location>. Went thento both sides of the <location>Siens</location><imp type="writing">e</imp>
+        <ln n="11"/>and got some little prints of Paris. R.R.st<imp type="writing">a</imp>tion and
+        <ln n="12"/>Tourist Agency<imp type="writing">\</imp>reg. tickets. We had our evening meal
+        <ln n="13"/>at the <location>Bristol</location> and then set out for the <location>Casion deParis</location>.
+        <ln n="14"/>Very amusing show- we stayed thro<imp type="writing">'</imp> <imp type="underline">half</imp> of it but felt
+        <ln n="15"/>we needed <imp type="underline">sleep</imp>. <person>Gail</person> got a cab by her shrill <imp type="underline">whistle</imp>.'
+    </p>
+    
+    <drawing/>
+    
+    </page>
+      
+</letter>

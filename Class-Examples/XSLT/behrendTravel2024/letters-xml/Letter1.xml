@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JJB: Here are some notes as to my initial markup in regards to elements and attributes.
+- HeadLine contains all the psuedo meta data about where they are and when they are there at the top of each letter.
+- location is just any locaion
+    - category is meant to be the type of location so for example the first instance is "ship" because they are on the Queen Elizabeth
+    - spec is short for specific which is to give more specific context so for the first instance it is "Atlantic" because they are in the atlantic ocean. If she wrote that they were still moored in New York for example then "Atlantic" would be "NewYork"
+- imp is short for imperfection
+    - type is the type of imperfection, seems like the most common wil by typos 
+        - typo is fortypos
+        - missing is for missing letters
+        - stray is for stray characters
+    - corr is short for correction, basically what the correct version of the marked word should be.-->
+
+<!--Corrections and markup by Michael Simons-->
+<?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <page num="1">
+        <headLine>Departure.<location category="ship" spec="Atlantic">On Queen Elizabeth</location>. At <time>Noon</time>, <date when="1955-07-01">July 1<imp type="crossout" corr="3">8</imp>, 1<imp type="crossout">9</imp>55</date>.</headLine>
+        
+        <p>
+            <ln n="1"/><person>Harriet</person> had stayed in <location category="borough" spec="London, England">Greenwich</location> over night so went in 
+            <ln n="2"/>town with us. <imp type="typo" corr="We">Wm</imp> drove the station wagon with our 
+            <ln n="3"/>bags.Very <imp type="stray" corr="cleverly">cleverlym</imp> selected as we had two <imp type="typo" corr="suit">suiuit</imp> 
+            <ln n="4"/>cases each and a <imp type="stray" corr=" ">"</imp>bottle bag and the typewriter-plus 
+            <ln n="5"/>a very unhealthy looking green duffle bag (reserved for 
+            <ln n="6"/>purchases. THIS folded up on the<imp type="stray" corr=" ">b</imp><imp type="properEnglish" corr="bottom">bottem</imp> of a suit case 
+            <ln n="7"/>for future use!
+        </p>
+        <p>
+            <ln n="8" indent="yes"/>State room gay with flowers and champagne. We had 
+            <ln n="9"/>a send off party. <person>Billy</person> was hiding behind a curtain 
+            <ln n="10"/>and was a HUGE surprise <imp type="stray" corr=" ">'</imp> <person><imp type="typo" corr="Caryl">Carlyl</imp></person> had arranged it this way 
+            <ln n="11"/><person>Gail's mother</person> and a friend- <person>Dale</person> and <person>Kissy</person> got to the 
+            <ln n="12"/>dock just after 10.30 and were not allowed to come on 
+            <ln n="13"/>board. Too bad.
+        </p>
+        <p>
+            <ln n="14" indent="yes"/>Huge ship. Like a section of the <location category="hotel" spec="">Waldorf</location>- the 
+            <ln n="15"/><location category="hotel" spec="signature part of Waldorf Astoria hotel">Peacock Alley</location> plus several of the dining rooms- afloat 
+            <ln n="16"/>Streams of PEOPLE <imp type="missing" corr="mulling">mu ing</imp> about.
+        </p>
+        <p>
+            <ln n="17" indent="yes"/>We had a table in the dining room with 5 other <imp type="missing" corr="female">femal</imp> 
+            <ln n="18"/>ladies. Thought it would divert us. The one man looked 
+            <ln n="19"/>us over and next meal he wasn't there. So we <imp type="typo" corr="drew">dr4ew</imp><imp type="stray">ano</imp> 
+            <ln n="20"/>another lady. It all proved to be amusing. We exchange 
+            <ln n="21"/>addresses and <imp type="missing" corr="were photographed">werephotographed</imp> to-gether.
+        </p>
+        <p>
+            <ln n="22" indent="yes"/>Voyage very smooth all way over. We took in the 
+            <ln n="23"/>movies and pools. I won a few dollars on a pool.
+        </p>
+        <p>
+            <ln n="24" indent="yes"/>A <person>Mr and Mrs Andeson</person>, very nice friends of H. 
+            <ln n="25"/>and <person>Caryls</person> asked us for cocktails one evening. Then 
+            <ln n="26"/>there were the parties of the <person>Captain</person> and the <person>Purser</person> 
+            <ln n="27"/>Also <person>Esther Boyer</person> was on board with a party of eight 
+            <ln n="28"/>in cabin class, she was to steer about over <location category="continent" spec="">Europe</location>. 
+            <ln n="29"/>She came upand had tea with us one day.
+        </p>
+        <p>
+            <ln n="30" indent="yes"/>The <person>Captain</person> and <person>Purser</person> both were on the <location category="region" spec="in Germany">Franconia</location> 
+            <ln n="31"/>about<imp type="missing"> </imp> years ago- as under officers- on a world 
+            <ln n="32"/>cruise <imp type="typo" corr="we">wer </imp> were on. Both extremely cordial.
+        </p>
+        <p>
+            <ln n="33" indent="yes"/>Took train around noon for <location category="city" spec="Paris, France">Paris</location>. Hot as blazes. 
+            <ln n="34"/>and stuffy besides. Had lunch en route<imp type="missing" corr=". ">.</imp>Quite good.
+        </p>
+        <p>
+            <ln n="35" indent="yes"/>Pari<imp type="writing" corr="s">d</imp> and piled our belongings into a cab and 
+            <ln n="36"/>landed at <location category="hotel" spec="Hotel in Paris, France">Le <imp type="typo" corr="Bristol">Br istol</imp></location>- a rather smallish hotel <imp type="spelling" corr="where">were</imp> 
+            <ln n="37"/>diplomats go- white marble and mirrors. We had an oval 
+            <ln n="38"/>white <imp type="spelling" corr="panelled">panneled</imp> bedroom and an <imp type="typo" corr="adjoining">adjo9ning</imp> white panelled 
+            <ln n="39"/>round sitting room. (which we didn't need and later gave
+            <ln n="40"/>up.)
+        </p>
+        <p>
+            <ln n="41" indent="yes"/>Very weary and after some refreshing 
+            <ln n="42"/>tub baths went over to the <location category="restaurant" spec="">Crenailliere</location>(nearby) where 
+            <ln n="43"/>we had a very delicious dinner.
+        </p>
+    </page>
+</letter>
