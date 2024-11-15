@@ -44,9 +44,9 @@
 * [Emily Kalie](https://github.com/emikalie) **
 * [Gabriella Vozar](https://github.com/GabVoz13)
 
-### Bones CBML Project
-[Project GitHub](https://github.com/rashemish/Project110)
-[Website](https://rashemish.github.io/Project110/)
+### Bone CBML Project
+[Project GitHub](https://github.com/rashemish/Bone-CBML)
+[Website](https://rashemish.github.io/Bone-CBML/)
 * [Rashe Mishra](https://github.com/rashemish/)
 * [Dannika Love](https://github.com/dal5842)
 
