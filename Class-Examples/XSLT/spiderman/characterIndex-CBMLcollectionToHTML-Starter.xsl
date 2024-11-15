@@ -4,6 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
     xmlns:cbml="http://www.cbml.org/ns/1.0"
     xmlns="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="xs cbml"
     version="3.0">
 
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" include-content-type="no"
