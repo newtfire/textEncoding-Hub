@@ -32,38 +32,6 @@
         <html>
             <head> 
             <title>
-<<<<<<< HEAD
-                    <xsl:apply-templates select="descendant::metadata/series"/>
-                        <xsl:text>!</xsl:text>
-                    <xsl:apply-templates select="descendant::metadata/show"/>
-            </title>
-                <!--  <link rel="stylesheet" type="text/css" href="radioplay.css" /> -->
-            </head>
-            <body>
-                <h1><xsl:apply-templates select="descendant::metadata/show"/></h1>
-                <h2><xsl:apply-templates select="descendant::metadata/series"/></h2>
-                <h3><xsl:apply-templates select="descendant::metadata/date"/></h3>
-                
-                <section class="cast">
-                        <xsl:apply-templates select="descendant::metadata/castList"/>
-                    
-                </section>
-                
-                <section class="script">
-                    
-                        <xsl:apply-templates select="descendant::script"></xsl:apply-templates>
-                    
-                </section>
-                
-            <xsl:apply-templates/>
-            
-            </body>
-        </html>
-    </xsl:template>
-    <xd:doc>
-        <xd:desc>This template processes the cast list and outputs an unordered list in HTML</xd:desc>
-    </xd:doc>
-=======
                 <xsl:apply-templates select="descendant::metadata/series"/> 
                 <xsl:text>! </xsl:text>
                 <xsl:apply-templates select="descendant::metadata/show"/> 
@@ -140,37 +108,7 @@
     
     
     
->>>>>>> refs/remotes/origin/master
     
-    <xsl:template match="castList">
-            <h3>Cast List</h3>
-            <ul>
-                
-                <xd:doc>
-                    <xd:desc></xd:desc>
-                </xd:doc>
-               <xsl:template match="cast"><li><xsl:apply-templates/></li>
-               </xsl:template> 
-                
-                <xd:doc>
-                    <xd:desc>I want to process just the speech parts with this next template.</xd:desc>
-                </xd:doc>
-                
-                <xsl:template match="ln[speaker]">
-                    <div class="speech">
-                        
-                        <xsl:apply-templates/>
-                    </div>
-                </xsl:template>
-            </ul>
-        
-      </xsl:template>
     
-                <xd:doc>
-                    <xd:desc>I want to process all other ln elements with this next template.</xd:desc>
-                </xd:doc>
-                <xsl:template match="ln[not(speaker)]">
-                    
-                </xsl:template>
    
 </xsl:stylesheet>
