@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <metadata>
+        <movie>
+            <title>Casablanca</title>
+            <director>Michael Curtiz</director>
+            <wrldPrem>Nov. 26 1942</wrldPrem>
+            <loc>WB studios, Burbank, CA</loc>
+            <loc>Van Nuys Airport, LA</loc>
+            <producer>Hal B. Wallis</producer>
+            <producer>Warner Bros</producer>
+            <writer>Howard Koch</writer>
+            <writer>Julius J. Epstein</writer>
+            <writer>Philip G. Epstein</writer>
+            <basedOn>Everybody Comes to Rick’s (stage play); written by Murray Burnett and Joan
+                Alison</basedOn>
+            <composer>Max Steiner</composer>
+            <starring>Humphrey Bogart</starring>
+            <starring>Ingrid Bergman</starring>
+            <starring>Paul Henreid</starring>
+            <starring>Conrad Veidt</starring>
+            <starring>Claude Rains</starring>
+            <cinematography>Arthur Edeson</cinematography>
+            <editor>Owen Marks</editor>
+        </movie>
+        <script>
+            <numScenes>77</numScenes>
+            <url>https://app.studiobinder.com/company/580e85847e7982164664e844/collab/5eac35a683f7a90bfc3fc810/projects/5de590454f452c09a98e975b/document/5de5904f1fe52b06c2f4bd79/%5Bobject%20Object%5D?utm_source=blog&amp;utm_medium=sb-app-link&amp;utm_campaign=script&amp;utm_term=casablanca-script-breakdown&amp;utm_content=full-script-pdf-download</url>
+            <generatedBy>Brent Dunham</generatedBy>
+            <date>Dec. 2</date>
+            <publisher>StudioBinder Inc.</publisher>
+            <website> https://www.studiobinder.com/</website>
+        </script>
+    </metadata>
+    <body>
+        <scene n="22">
+            <camera>CUT TO:</camera>
+            <setting>EXT. RICK'S CAFE - NIGHT Ilsa and Laszlo leave the cafe. </setting>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> A very puzzling fellow, this Rick. What sort is he? </diag>
+            </sp>
+            <dir> Ilsa doesn't look at him. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Oh, I really can't say, though I saw him quite often in Paris.</diag>
+            </sp>
+            <dir> They join Renault at the curb. </dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Tomorrow at ten at the Prefect's office. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> We'll be there. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Goodnight. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Goodnight. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Goodnight.</diag>
+            </sp>
+            <dir> They get into a waiting cab, leaving Renault on the curb, smoking and looking
+                bemused. The neon sign goes off and the doorway is now illuminated by the revolving
+                beacon from the airport. </dir>
+        </scene>
+        <scene n="23">
+            <camera>CUT TO:</camera>
+            <setting>INT. RICK'S CAFE - MAIN ROOM - NIGHT The customers have all gone. The house
+                lights are out. Rick sits alone at a table. There is a glass of bourbon on the table
+                directly in front of him, and another empty glass on the table before an empty
+                chair. Near at hand is a bottle. He fills his glass and drinks it quickly. Rick just
+                sits. His face is entirely expressionless. The beacon light from the airport sweeps
+                around the room creating a mood of unreality. Sam comes in and stands hesitantly
+                beside Rick. </setting>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Boss.</diag>
+                <dir> No answer, as Rick drinks. </dir>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Boss! </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yeah? </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Boss, ain't you going to bed? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Not right now.</diag>
+            </sp>
+            <dir> Sam now realizes Rick is in a very grim mood. </dir>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag>
+                    <descr>lightly</descr> Ain't you planning on going to bed in the near future?
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> No. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> You ever going to bed? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> No. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Well, I ain't sleepy either. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Good. Then have a drink. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> No. Not me, boss. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Then don't have a drink. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Boss, let's get out of here. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <descr>emphatically</descr> No, sir. I'm waiting for a lady. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag>
+                    <descr>earnestly</descr> Please, boss, let's go. Ain't nothing but trouble for
+                    you here. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> She's coming back. I know she's coming back. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> We'll take the car and drive all night. We'll get drunk. We'll go fishing and
+                    stay away until she's gone. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Shut up and go home, will you? </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag>
+                    <descr>stubbornly</descr> No, sir. I'm staying right here.</diag>
+            </sp>
+            <dir> Sam sits down at the piano and starts to play softly, improvising. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> They grab Ugarte and she walks in. Well, that's the way it goes. One in, one
+                    out. Sam? </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Yeah, boss? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Sam, if it's December 1941 in Casablanca, what time is it in New York?
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Uh, my watch stopped. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I bet they're asleep in New York. I'll bet they're asleep all over America.
+                </diag>
+            </sp>
+            <dir> Suddenly he pounds the table and buries his head in his arms. Then he raises his
+                head, trying to regain control. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Of all the gin joints in all the towns in all the world, she walks into
+                    mine.</diag>
+            </sp>
+            <dir> He holds his head in his hands. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> What's that you're playing? </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Just a little something of my own. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, stop it. You know what I want to hear. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> No, I don't. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> You played it for her and you can play it for me. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Well, I don't think I can remember it. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> If she can stand it, I can. Play it! </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> Yes, boss. </diag>
+            </sp>
+            <dir> Sam starts to play "As Time Goes By." Rick just stares ahead as orchestra MUSIC
+                slowly joins Sam's playing. </dir>
+        </scene>
+        <dir><camera>DISSOLVE TO:</camera> MONTAGE - PARIS IN THE SPRING A) The Arc de Triomphe from
+            a distance. B) Rick drives a small, open car slowly along the boulevard. He puts his arm
+            around Ilsa. The background scenery changes to a country road as she snuggles close to
+            him and puts her head on his shoulder. C) An excursion boat on the Seine. Rick and Ilsa
+            stand at the rail of the boat. They seem to be transported by each other as Ilsa laughs. </dir>
+        <scene n="25">
+            <camera>CUT TO:</camera>
+            <setting>INT. RICK'S PARIS APARTMENT - DAY Ilsa fixes flowers at the window while Rick
+                opens champagne. She walks over and joins him. </setting>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Who are you really? And what were you before? What did you do and what did
+                    you think? Huh? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> We said "no questions." </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Here's looking at you, kid.</diag>
+            </sp>
+            <dir> They drink. </dir>
+        </scene>
+        <scene n="26">
+            <camera>CUT TO:</camera>
+            <setting>INT. PARIS CAFE - NIGHT Inside a swank Paris cafe, Rick and Ilsa dance. They
+                appear to be very much in love as the MUSIC plays. </setting>
+        </scene>
+        <scene n="27">
+            <camera>CUT TO:</camera>
+            <setting>INT. ILSA'S PARIS APARTMENT - DAY Ilsa flips a coin, then tosses it over to
+                Rick. </setting>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> A franc for your thoughts. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> In America they'd bring only a penny. I guess that's about all they're worth.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> I'm willing to be overcharged. Tell me. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> And I was wondering. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Yes? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Why I'm so lucky. Why I should find you waiting for me to come along. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Why there is no other man in my life? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Uh huh. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> That's easy. There was. He's dead. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I'm sorry for asking. I forgot we said "no questions." </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Well, only one answer can take care of all our questions. </diag>
+            </sp>
+            <dir> They kiss passionately.</dir>
+        </scene>
+        <dir><camera>CUT TO:</camera> MONTAGE - NEWSREEL FOOTAGE OF THE GERMAN OCCUPATION OF FRANCE.
+            A) The rubble of a burned-out, demolished building. A sign with an arrow points to
+            Paris. B) German troops crossing a river. C) Tanks rolling down the road toward Paris.
+            D) German war planes overhead. </dir>
+        <scene n="29">
+            <camera>CUT TO:</camera>
+            <setting>EXT. PARIS CAFE - DAY A man sells newspapers to people crowded around him.
+                There is much excitement. Rick and Ilsa sit at a table. They buy a newspaper and
+                begin to read it. Nearby, a group of frightened French people cluster around a
+                loudspeaker on a wagon. A harsh voice barks out the tragic news of the Nazi push
+                toward Paris. </setting>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Nothing can stop them now. Wednesday, Thursday at the latest, they'll be in
+                    Paris. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>frightened</descr> Richard, they'll find out your record. It won't be
+                    safe for you here. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I'm on their blacklist already, their roll of honor. </diag>
+            </sp>
+        </scene>
+        <scene n="30">
+            <camera>CUT TO:</camera>
+            <setting>INT. LA BELLE AURORE - AFTERNOON A small cafe in the Montmartre. A shadow on
+                the floor reflects the cafe sign "La Belle Aurore." Rick, at the bar, gets glasses
+                and a bottle of champagne. He walks over to Ilsa and Sam at the piano. Sam plays "As
+                Time Goes By." Ilsa seems unnerved. There is evidently something on her mind. Rick
+                pours the champagne. His manner is wry, but not the bitter wryness we have seen in
+                Casablanca. </setting>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Henri wants us to finish this bottle and then three more. He says he'll water
+                    his garden with champagne before he'll let the Germans drink any of it.</diag>
+            </sp>
+            <dir> Sam looks at his glass. </dir>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> This sort of takes the sting out of being occupied, doesn't it, Mr. Richard?
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> You said it! <dir>to Ilsa</dir> Here's looking at you, kid. </diag>
+            </sp>
+            <setting>Suddenly a loudspeaker BLARES out something in German.</setting>
+            <dir>Rick and Ilsa look at each other, then hurry to the window.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> My German's a little rusty. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> It's the Gestapo. They say they expect to be in Paris tomorrow. They are
+                    telling us how to act when they come marching in.</diag>
+            </sp>
+            <dir> She smiles faintly. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> With the whole world crumbling, we pick this time to fall in love. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yeah. It's pretty bad timing. Where were you, say, ten years ago? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Ten years ago? Let's see-- <dir>pause as she thinks a bit</dir> --Yes. I was
+                    having a brace put on my teeth. Where were you? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Looking for a job.</diag>
+            </sp>
+            <dir> Ilsa looks at him tenderly. Rick takes her in his arms, and kisses her hungrily.
+                While they are locked in an embrace they hear the dull BOOM of cannons. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>frightened</descr> Was that cannon fire, or is it my heart pounding?
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <descr>grimly</descr> Ah, that's the new German 77. And judging by the sound,
+                    only about thirty-five miles away. </diag>
+            </sp>
+            <setting> Another BOOM from the cannons.</setting>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> And getting closer every minute. Here. Drink up. We'll never finish the other
+                    three. </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> The Germans'll be here pretty soon now, and they'll come looking for you. And
+                    don't forget there's a price on your head.</diag>
+            </sp>
+            <dir> Ilsa reacts to this worriedly. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I left a note in my apartment. They'll know where to find me. </diag>
+            </sp>
+            <dir> Ilsa looks at Rick.</dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Strange. I know so very little about you. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I know very little about you, just the fact that you had your teeth
+                    straightened. </diag>
+            </sp>
+            <dir> He chuckles. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> But be serious, darling. You are in danger and you must leave Paris. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> No, no, no, no. We must leave. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>seriously</descr> Yes, of course, we -- </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> -- The train for Marseilles leaves at five o'clock. I'll pick you up at your
+                    hotel at four-thirty. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>quickly</descr> No, no. Not at my hotel. I, uh, I have things to do in
+                    the city before I leave. I'll meet you at the station, huh? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> All right. At a quarter to five. <dir>a thought strikes him</dir> Say, why
+                    don't we get married in Marseilles?</diag>
+            </sp>
+            <dir> Rick chuckles again. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>evasively</descr> That's too far ahead to plan. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yes, I guess it is a little too far ahead. Well, let's see. What about the
+                    engineer? Why can't he marry us on the train? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Oh, darling! </diag>
+            </sp>
+            <dir> Suddenly Ilsa turns away and starts to cry.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, why not? The captain on a ship can. It doesn't seem fair that-- Hey,
+                    hey, what's wrong, kid? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> I love you so much, and I hate this war so much. Oh, it's a crazy world.
+                    Anything can happen. If you shouldn't get away, I mean, if, if something should
+                    keep us apart, wherever they put you and wherever I'll be, I want you to know--
+                </diag>
+            </sp>
+            <dir> She can't go on. She lifts her face to his. He kisses her gently. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Kiss me. Kiss me as if it were the last time.</diag>
+            </sp>
+            <dir> He looks into her eyes, then he does kiss her as though it were going to be the
+                last time. Her hand falls to the table and knocks over a glass. </dir>
+        </scene>
+        <scene n="31">
+            <camera>CUT TO:</camera>
+            <setting>INT. GARE DE LYON - NIGHT It's raining very hard at the train station. There is
+                a hectic, fevered excitement, evident in the faces of the people that pass by. This
+                is the last train from Paris. Rick appears in the crowd. He stops and puts his
+                suitcase down and glances at his watch. A conductor calls out "All aboard, last
+                train leaving in three minutes." Rain pours over his head and shoulders, but he
+                doesn't seem to notice. He nervously checks his watch again. Suddenly Sam appears. </setting>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Where is she? Have you seen her? </diag>
+            </sp>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag> No, Mr. Richard. I can't find her. She checked out of the hotel. But this
+                    note came just after you left.</diag>
+            </sp>
+            <dir> Sam pulls an envelope from his pocket. Rick grabs it, opens it, and stares down at
+                the letter. </dir>
+            <dir>INSERT LETTER Richard, I cannot go with you or ever see you again. You must not ask
+                why. Just believe that I love you. Go, my darling, and God bless you. Ilsa </dir>
+            <setting> Raindrops pour down the letter, smudging the writing. </setting>
+            <dir>BACK TO SCENE</dir>
+            <setting> A whistle BLOWS. </setting>
+            <sp>
+                <speaker who="sam">SAM</speaker>
+                <diag>
+                    <descr>frantically</descr> That's the last call, Mr. Richard, do you hear me?
+                    Come on, Mr. Richard. Let's get out of here. Come on, Mr. Richard, come
+                    on.</diag>
+            </sp>
+            <dir> Sam pulls a stunned, reluctant Rick to the train. The train starts to move just as
+                he boards. From the steps he looks off into the distance, then crumbles the letter
+                and tosses it away as the steam from the engine clouds over him. </dir>
+        </scene>
+        <scene n="34">
+            <camera>DISSOLVE TO:</camera>
+            <setting>INT. RICK'S CAFE - MAIN ROOM - NIGHT Close-up of a glass on the table in the
+                cafe. Rick's hand reaches for it and knocks it over. We now see Rick's face and he's
+                very drunk. Sam walks over to the table to pick up the glass and a fallen chair.
+                Just then the door opens and it's Ilsa. Rick stares at the doorway. Ilsa lingers a
+                moment, then comes over to the table. </setting>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Rick, I have to talk to you.</diag>
+            </sp>
+            <dir> Her manner is a little uncertain, a little tentative, but with a quiet
+                determination beneath it. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Oh. I saved my first drink to have with you. Here. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> No. No, Rick. Not tonight. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Especially tonight. </diag>
+            </sp>
+            <dir> She sits down in the chair before the empty glass. Her eyes are searching his
+                face, but there is no expression on it except a cold and impassive one. Rick reaches
+                for the bottle, and pours himself another drink.</dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Please. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Why did you have to come to Casablanca? There are other places. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> I wouldn't have come if I had known that you were here. Believe me, Rick,
+                    it's true. I didn't know. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> It's funny about your voice, how it hasn't changed. I can still hear it.
+                    "Richard dear, I'll go with you any place. We'll get on a train together and
+                    never stop." </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Please don't. Don't, Rick. I can understand how you feel. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Huh! You understand how I feel. How long was it we had, honey? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> I didn't count the days. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, I did. Every one of them. Mostly I remember the last one. A wow finish.
+                    A guy standing on a station platform in the rain with a comical look on his
+                    face, because his insides had been kicked out. </diag>
+            </sp>
+            <dir> He takes a drink.</dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Can I tell you a story, Rick? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Has it got a wow finish? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> I don't know the finish yet. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, go on, tell it. Maybe one will come to you as you go along. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> It's about a girl who had just come to Paris from her home in Oslo. At the
+                    house of some friends she met a man about whom she'd heard her whole life, a
+                    very great and courageous man. He opened up for her a whole beautiful world full
+                    of knowledge and thoughts and ideals. Everything she knew or ever became was
+                    because of him. And she looked up to him and worshipped him with a feeling she
+                    supposed was love. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yes, that's very pretty. I heard a story once. As a matter of fact, I've
+                    heard a lot of stories in my time. They went along with the sound of a tinny
+                    piano playing in the parlor downstairs, "Mister, I met a man once when I was a
+                    kid," it'd always begin. Huh. I guess neither one of our stories was very funny.
+                    Tell me, who was it you left me for? Was it Laszlo, or were there others in
+                    between? Or aren't you the kind that tells? </diag>
+            </sp>
+            <dir> Ilsa gets up and leaves. Rick's head slumps over the table. </dir>
+        </scene>
+        <scene n="35">
+            <camera>CUT TO:</camera>
+            <setting>INT. RENAULT'S OFFICE - MORNING A sign on the door reads: Captain Renault,
+                Prefect de Police. Strasser sits while Renault attends to some paperwork. </setting>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> I strongly suspect that Ugarte left the letters of transit with Mr. Blaine. I
+                    would suggest you search the cafe immediately and thoroughly. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> If Rick has the letters, he's much too smart to let you find them there.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> You give him credit for too much cleverness. My impression was that he's just
+                    another blundering American. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> But we mustn't underestimate American blundering. I was with them when they
+                    "blundered" into Berlin in 1918. </diag>
+            </sp>
+            <dir> Strasser looks at him.</dir>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> As to Laszlo, we want him watched twenty-four hours a day. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag>
+                    <descr>reassuringly</descr> It may interest you to know that at this very moment
+                    he is on his way here. </diag>
+            </sp>
+        </scene>
+        <scene n="36">
+            <camera>CUT TO:</camera>
+            <setting>INT. PREFECTURE LOBBY - MORNING Laszlo and Ilsa make their way through the jam
+                in the lobby of the Prefecture. Jan and Annina talk to an officer. </setting>
+            <sp>
+                <speaker who="off">OFFICER</speaker>
+                <diag>
+                    <dir>to Jan and Annina</dir> There's nothing we can do. </diag>
+            </sp>
+        </scene>
+        <scene n="37">
+            <camera>CUT TO:</camera>
+            <setting>INT. RENAULT'S OFFICE - MORNING Laszlo and Ilsa enter Renault's office. Renault
+                bows to them both. </setting>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> I am delighted to see you both. Did you have a good night's rest? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> I slept very well. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> That's strange. Nobody is supposed to sleep well in Casablanca. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag>
+                    <descr>coldly</descr> May we proceed with the business? </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> With pleasure. Won't you sit down? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Thank you.</diag>
+            </sp>
+            <dir> They take their seats. </dir>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag>
+                    <descr>now as cold as Laszlo</descr> Very well, Herr Laszlo, we will not mince
+                    words. You are an escaped prisoner of the Reich. So far you have been fortunate
+                    enough in eluding us. You have reached Casablanca. It is my duty to see that you
+                    stay in Casablanca. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Whether or not you succeed is, of course, problematical. </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> Not at all. Captain Renault's signature is necessary on every exit visa.
+                        <dir>turns to Renault</dir> Captain, would you think it is possible that
+                    Herr Laszlo will receive a visa? </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> I am afraid not. My regrets, Monsieur. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Well, perhaps I shall like it in Casablanca. </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> And Mademoiselle? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> You needn't be concerned about me. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Is that all you wish to tell us? </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> Don't be in such a hurry. You have all the time in the world. You may be in
+                    Casablanca indefinitely-- or you may leave for Lisbon tomorrow, on one
+                    condition. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> And that is? </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> You know the leaders of the underground movement in Paris, in Prague, in
+                    Brussels, in Amsterdam, in Oslo, in Belgrade, in Athens. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Even in Berlin. </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> Yes, even in Berlin. If you will furnish me with their names and their exact
+                    whereabouts, you will have your visa in the morning. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> And the honor of having served the Third Reich. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> I was in a German concentration camp for a year. That's honor enough for a
+                    lifetime. </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> You will give us the names? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> If I didn't give them to you in a concentration camp where you had more
+                    "persuasive methods" at your disposal, I certainly won't give them to you now.
+                </diag>
+            </sp>
+            <dir> The passionate conviction in his voice now reveals the crusader.</dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> And what if you track down these men and kill them? What if you murdered all
+                    of us? From every corner of Europe, hundreds, thousands, would rise to take our
+                    places. Even Nazis can't kill that fast. </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> Herr Laszlo, you have a reputation for eloquence which I can now understand.
+                    But in one respect you are mistaken. You said the enemies of the Reich could all
+                    be replaced, but there is one exception. No one could take your place in the
+                    event anything unfortunate should occur to you while you were trying to escape.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> You won't dare to interfere with me here. This is still unoccupied France.
+                    Any violation of neutrality would reflect on Captain Renault. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Monsieur, insofar as it is in my power -- </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> -- Thank you. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> By the way, Monsieur, last night you evinced an interest in Signor Ugarte.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Yes. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> I believe you have a message for him? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Nothing important, but may I speak to him now? </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> You would find the conversation a trifle one-sided. Signor Ugarte is dead.
+                </diag>
+            </sp>
+            <dir> Close-ups of Ilsa, then Laszlo, reveal their disappointment. Strasser observes
+                their reaction. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>softly</descr> Oh. Renault holds a report. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> I am making out the report now. We haven't quite decided whether he committed
+                    suicide or died trying to escape. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Are you quite finished with us? </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> For the time being. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Good day.</diag>
+            </sp>
+            <dir> Renault rings a buzzer and the door is opened for them. As Ilsa and Laszlo leave,
+                an OFFICER comes in. </dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Undoubtedly their next step will be to the black market. </diag>
+            </sp>
+            <sp>
+                <speaker who="off">OFFICER</speaker>
+                <diag> Excuse me, Captain. Another visa problem has come up. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Show her in. </diag>
+            </sp>
+            <sp>
+                <speaker who="off">OFFICER</speaker>
+                <diag> Yes, sir.</diag>
+            </sp>
+            <dir> Renault looks at himself in the mirror and straightens his tie. </dir>
+        </scene>
+        <scene n="38">
+            <camera>CUT TO:</camera>
+            <setting>EXT. BLACK MARKET - DAY The black market is a cluttered Arab street of bazaars,
+                shops and stalls. All kinds and races of people mill about the merchandise which
+                native dealers have on outdoor display. Both men and women are dressed in tropical
+                clothes. The canopies over the stalls give them some protection from the scorching
+                sun. On the surface the atmosphere is merely languid, but underneath lies the
+                sinister workings of illicit trade. A FRENCHMAN and a NATIVE huddle together and
+                talk in low tones. </setting>
+            <sp>
+                <speaker who="nat">NATIVE</speaker>
+                <diag> I'm sorry, Monsieur, we would have to handle the police. This is a job for
+                    Signor Ferrari. </diag>
+            </sp>
+            <sp>
+                <speaker who="fre">FRENCHMAN</speaker>
+                <diag> Ferrari? </diag>
+            </sp>
+            <sp>
+                <speaker who="nat">NATIVE</speaker>
+                <diag> It can be most helpful to know Signor Ferrari. He pretty near has a monopoly
+                    on the black market here. You will find him over there at the Blue Parrot.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="fre">FRENCHMAN</speaker>
+                <diag> Thanks. </diag>
+            </sp>
+        </scene>
+        <scene n="39">
+            <camera>CUT TO:</camera>
+            <setting>EXT. THE BLUE PARROT - DAY Outside the cafe, a blue parrot sits on a perch.
+            </setting>
+        </scene>
+        <scene n="40">
+            <camera>CUT TO:</camera>
+            <setting>INT. THE BLUE PARROT - DAY The cafe is much less pretentious than Rick's, but
+                well populated. Rick enters and walks through the cafe toward Ferrari's office just
+                as Ferrari emerges with Jan and Annina, who look very disappointed. </setting>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> There, don't be too downhearted. Perhaps you can come to terms with Captain
+                    Renault. </diag>
+            </sp>
+            <sp>
+                <speaker who="jan">JAN</speaker>
+                <diag> Thank you very much, Signor. </diag>
+            </sp>
+            <dir> Jan leads Annina away.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Hello, Ferrari.</diag>
+            </sp>
+            <dir> Signor Ferrari turns around. He's pleased to see Rick. </dir>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Ah, good morning, Rick.</diag>
+            </sp>
+            <dir> They shake hands. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I see the bus is in. I'll take my shipment with me. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> No hurry. I'll have it sent over. Have a drink with me. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I never drink in the morning. And every time you send my shipment over, it's
+                    always just a little bit short. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag>
+                    <descr>chuckling</descr> Carrying charges, my boy, carrying charges. Here, sit
+                    down. There's something I want to talk over with you, anyhow.</diag>
+            </sp>
+            <dir> He hails a waiter. </dir>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> The bourbon. <dir>to Rick, sighing deeply</dir> The news about Ugarte upset
+                    me very much. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> You're a fat hypocrite. You don't feel any sorrier for Ugarte than I
+                    do.</diag>
+            </sp>
+            <dir> He eyes Rick closely. </dir>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Of course not. What upsets me is the fact that Ugarte is dead and no one
+                    knows where those letters of transit are. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Practically no one. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> If I could lay my hands on those letters, I could make a fortune. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> So could I. And I'm a poor businessman. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> I have a proposition for whoever has those letters. I will handle the entire
+                    transaction, get rid of the letters, take all the risk, for a small percentage.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> And the carrying charges? </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Naturally there will be a few incidental expenses. That is the proposition I
+                    have for whoever has those letters. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <descr>dryly</descr> I'll tell him when he comes in. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Rick, I'll put my cards on the table. I think you know where those letters
+                    are. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, you're in good company. Renault and Strasser probably think so,
+                    too.</diag>
+            </sp>
+            <dir> Rick looks out of the window and sees Ilsa at the linen bazaar, then Laszlo
+                walking toward the cafe. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> That's why I came over here to give them a chance to ransack my place.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Rick, don't be a fool. Take me into your confidence. You need a
+                    partner.</diag>
+            </sp>
+            <dir> Rick isn't listening to him. He looks through the open window in the direction of
+                the linen bazaar. Rick gets up. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Excuse me, I'll be getting back. </diag>
+            </sp>
+        </scene>
+        <scene n="41">
+            <camera>CUT TO:</camera>
+            <setting>EXT. THE BLUE PARROT - DAY Laszlo reaches the entrance to the cafe as Rick
+                comes out. He stops and addresses Rick politely. </setting>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Good morning. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Signor Ferrari is the fat gent at the table.</diag>
+            </sp>
+            <dir> As he exits, Laszlo looks after him with a puzzled expression. </dir>
+        </scene>
+        <scene n="42">
+            <camera>CUT TO:</camera>
+            <setting>EXT. BLACK MARKET - DAY At the linen stall, Ilsa examines a tablecloth which an
+                Arab vendor is endeavoring to sell. He holds a sign which reads "700 francs." </setting>
+            <sp>
+                <speaker who="arab">ARAB</speaker>
+                <diag> You will not find a treasure like this in all Morocco, Mademoiselle. Only
+                    seven hundred francs.</diag>
+            </sp>
+            <dir> Rick walks up behind Ilsa. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> You're being cheated.</diag>
+            </sp>
+            <dir> She looks briefly at Rick, then turns away. Her manner is politely formal. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> It doesn't matter, thank you. </diag>
+            </sp>
+            <sp>
+                <speaker who="arab">ARAB</speaker>
+                <diag> Ah, the lady is a friend of Rick's? For friends of Rick we have a small
+                    discount. Did I say seven hundred francs? You can have it for two
+                    hundred.</diag>
+            </sp>
+            <dir> Reaching under the counter, he takes out a sign reading "200 francs", and replaces
+                the other sign with it. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I'm sorry I was in no condition to receive you when you called on me last
+                    night. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> It doesn't matter. </diag>
+            </sp>
+            <sp>
+                <speaker who="arab">ARAB</speaker>
+                <diag> Ah, for special friends of Rick's we have a special discount. One hundred
+                    francs. </diag>
+            </sp>
+            <dir>He replaces the second sign with a third which reads "100 francs." </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Your story had me a little confused. Or maybe it was the bourbon. </diag>
+            </sp>
+            <sp>
+                <speaker who="arab">ARAB</speaker>
+                <diag> I have some tablecloths, some napkins -- </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> -- Thank you. I'm really not interested. </diag>
+            </sp>
+            <sp>
+                <speaker who="arab">ARAB</speaker>
+                <diag> Please, one minute. Wait! </diag>
+            </sp>
+            <dir> The Arab hurriedly exits. Ilsa pretends to examine the goods on the counter.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Why did you come back? To tell me why you ran out on me at the railway
+                    station? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Yes. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, you can tell me now. I'm reasonably sober. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> I don't think I will, Rick. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Why not? After all, I got stuck with a railway ticket. I think I'm entitled
+                    to know. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Last night I saw what has happened to you. The Rick I knew in Paris, I could
+                    tell him. He'd understand. But the one who looked at me with such hatred-- well,
+                    I'll be leaving Casablanca soon and we'll never see each other again. We knew
+                    very little about each other when we were in love in Paris. If we leave it that
+                    way, maybe we'll remember those days and not Casablanca, not last night. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Did you run out on me because you couldn't take it? Because you knew what it
+                    would be like, hiding from the police, running away all the time? </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> You can believe that if you want to. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, I'm not running away any more. I'm settled now, above a saloon, it's
+                    true, but-- walk up a flight. I'll be expecting you. </diag>
+            </sp>
+            <dir>Ilsa turns her head away. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> All the same, someday you'll lie to Laszlo. You'll be there. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> No, Rick. No, you see, Victor Laszlo is my husband-- and was, even when I
+                    knew you in Paris.</diag>
+            </sp>
+            <dir> She walks away into the cafe as Rick stares after her in stunned disbelief. </dir>
+        </scene>
+        <scene n="43">
+            <camera>CUT TO:</camera>
+            <setting>INT. THE BLUE PARROT - DAY Ilsa and Laszlo sit with Ferrari. </setting>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> I was just telling Monsieur Laszlo that, unfortunately, I am not able to help
+                    him. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Oh. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> You see, my dear, the word has gone around. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag>
+                    <dir>to Ilsa</dir> As leader of all illegal activities in Casablanca, I am an
+                    influential and respected man. It would not be worth my life to do anything for
+                    Monsieur Laszlo. You, however, are a different matter. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Signor Ferrari thinks it might just be possible to get an exit visa for you.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> You mean for me to go on alone? </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> And only alone. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> I will stay here and keep on trying. I'm sure in a little while -- </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> -- We might as well be frank, Monsieur. It will take a miracle to get you out
+                    of Casablanca. And the Germans have outlawed miracles. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> We are only interested in two visas, Signor. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Please, Ilsa, don't be hasty. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>firmly</descr> No, Victor, no. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> You two will want to discuss this. Excuse me. I'll be at the bar. </diag>
+            </sp>
+            <dir>Ferrari gets to his feet and walks away.</dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> No, Ilsa, I won't let you stay here. You must get to America. And believe me,
+                    somehow I will get out and join you. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> But, Victor, if the situation were different, if I had to stay and there were
+                    only a visa for one, would you take it? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag>
+                    <descr>not very convincingly</descr> Yes, I would. </diag>
+            </sp>
+            <dir>Ilsa smiles faintly. She doesn't believe it for even a moment.</dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Yes, I see. When I had trouble getting out of Lille, why didn't you leave me
+                    there? And when I was sick in Marseilles and held you up for two weeks and you
+                    were in danger every minute of the time, why didn't you leave me then? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> I meant to, but something always held me up. I love you very much,
+                    Ilsa.</diag>
+            </sp>
+            <dir> She smiles again. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Your secret will be safe with me. Ferrari is waiting for our answer. </diag>
+            </sp>
+            <dir>At the bar Ferrari talks to a waiter.</dir>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Not more than fifty francs though. </diag>
+            </sp>
+            <dir>Ilsa and Laszlo walk up to him.</dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> We've decided, Signor Ferrari. For the present we'll go on looking for two
+                    exit visas. Thank you very much. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Well, good luck. But be careful. <dir>a flick of his eyes in the direction of
+                        the bazaar</dir> You know you're being shadowed? </diag>
+            </sp>
+            <dir>Laszlo glances in the direction of the bazaar. </dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Of course. It becomes an instinct. </diag>
+            </sp>
+            <dir>Ferrari looks shrewdly at Ilsa.</dir>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> I observe that you in one respect are a very fortunate man, Monsieur. I am
+                    moved to make one more suggestion, why, I do not know, because it cannot
+                    possibly profit me, but, have you heard about Signor Ugarte and the letters of
+                    transit? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Yes, something. </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Those letters were not found on Ugarte when they arrested him. </diag>
+            </sp>
+            <dir> There's a moments pause as this sinks in.</dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Do you know where they are? </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> Not for sure, Monsieur, but I will venture to guess that Ugarte left those
+                    letters with Monsieur Rick.</diag>
+            </sp>
+            <dir> Ilsa's face darkens. Laszlo quietly observes. </dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Rick? </diag>
+            </sp>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> He is a difficult customer, that Rick. One never knows what he'll do or why.
+                    But it is worth a chance. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Thank you very much. Good day. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag> Goodbye, thank you for your coffee, Signor. I shall miss that when we leave
+                    Casablanca. </diag>
+            </sp>
+            <dir> Ferrari bows.</dir>
+            <sp>
+                <speaker who="fer">FERRARI</speaker>
+                <diag> It was gracious of you to share it with me. Good day, Mademoiselle, Monsieur.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Good day.</diag>
+            </sp>
+            <dir> As Ilsa and Laszlo leave the cafe, Ferrari nonchalantly swats a fly on a table.
+            </dir>
+        </scene>
+        <scene n="44">
+            <camera>CUT TO:</camera>
+            <setting>EXT. RICK'S CAFE - NIGHT Outside Rick's cafe, the sign is lit up and MUSIC
+                filters out into the air. </setting>
+        </scene>
+        <scene n="45">
+            <camera>CUT TO:</camera>
+            <setting>INT. RICK'S CAFE - MAIN ROOM - NIGHT At the bar, the European has found another
+                TOURIST. </setting>
+            <sp>
+                <speaker who="eur">EUROPEAN</speaker>
+                <diag> Here's to you, sir. </diag>
+            </sp>
+            <sp>
+                <speaker who="tou">TOURIST</speaker>
+                <diag> Er, good luck, yes. </diag>
+            </sp>
+            <sp>
+                <speaker who="eur">EUROPEAN</speaker>
+                <diag> I'd better be going. </diag>
+            </sp>
+            <sp>
+                <speaker who="tou">TOURIST</speaker>
+                <diag> Er, my check, please. </diag>
+            </sp>
+            <sp>
+                <speaker who="eur">EUROPEAN</speaker>
+                <diag> I have to warn you, sir. I beseech you--</diag>
+            </sp>
+            <dir> The European picks his pocket. </dir>
+            <sp>
+                <speaker who="eur">EUROPEAN</speaker>
+                <diag> This is a dangerous place, full of vultures. Vultures everywhere! Thanks for
+                    everything. </diag>
+            </sp>
+            <dir>The tourist laughs.</dir>
+            <sp>
+                <speaker who="tou">TOURIST</speaker>
+                <diag> Er, goodbye, sir. </diag>
+            </sp>
+            <sp>
+                <speaker who="eur">EUROPEAN</speaker>
+                <diag> It has been a pleasure to meet you. </diag>
+            </sp>
+            <dir> He dashes off and collides with Carl.</dir>
+            <sp>
+                <speaker who="eur">EUROPEAN</speaker>
+                <diag> Oh, I'm sorry. </diag>
+            </sp>
+            <dir>As the European hurries away, Carl checks all his pockets to make sure nothing is
+                missing. Sam and Corina play a number, accompanied by the orchestra. Strasser and
+                his crowd enter the cafe and pass Rick's table. Carl brings Rick a bottle and glass. </dir>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag> Monsieur Rick, you are getting to be your best customer. </diag>
+            </sp>
+            <dir> Carl leaves. As Rick lights a cigarette, Renault shows up.</dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Well, Ricky. I'm very pleased with you. Now you're beginning to live like a
+                    Frenchman. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> That was some going-over your men gave my place this afternoon. We just
+                    barely got cleaned up in time to open.</diag>
+            </sp>
+            <dir> He pours a drink for Renault. </dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Well, I told Strasser he wouldn't find the letters here. But I told my men to
+                    be especially destructive. You know how that impresses Germans?<dir> taking a
+                        sip</dir> Rick, have you got these letters of transit? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Louis, are you pro-Vichy or Free French? </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Serves me right for asking a direct question. The subject is closed. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, it looks like you're a little late. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Huh? </diag>
+            </sp>
+            <dir>Rick gazes at Yvonne and a GERMAN OFFICER approaching the bar.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> So Yvonne's gone over to the enemy. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Who knows? In her own way she may constitute an entire second front. I think
+                    it's time for me to flatter Major Strasser a little. I'll see you later, Rick.
+                </diag>
+            </sp>
+            <dir>Renault gets up and strolls away. At the bar, Yvonne and the German officer place
+                their orders. </dir>
+            <sp>
+                <speaker who="yvo">YVONNE</speaker>
+                <diag> Sacha! </diag>
+            </sp>
+            <sp>
+                <speaker who="goff">GERMAN OFFICER</speaker>
+                <diag> French seventy-fives. </diag>
+            </sp>
+            <dir> Yvonne is somewhat drunk already.</dir>
+            <sp>
+                <speaker who="yvo">YVONNE</speaker>
+                <diag> Put up a whole row of them, Sacha-- starting here and ending here. </diag>
+            </sp>
+            <dir> She indicates with her hand where she wants them.</dir>
+            <sp>
+                <speaker who="goff">GERMAN OFFICER</speaker>
+                <diag> We will begin with two. </diag>
+            </sp>
+            <dir> A FRENCH OFFICER at the bar makes a remark to Yvonne.</dir>
+            <sp>
+                <speaker who="foff">FRENCH OFFICER</speaker>
+                <diag>
+                    <dir>in French</dir> Say, you, you are not French to go with a German like this!
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="yvo">YVONNE</speaker>
+                <diag>
+                    <dir>in French</dir> What are you butting in for? </diag>
+            </sp>
+            <sp>
+                <speaker who="foff">FRENCH OFFICER</speaker>
+                <diag>
+                    <dir>in French</dir> I am butting in -- </diag>
+            </sp>
+            <sp>
+                <speaker who="yvo">YVONNE</speaker>
+                <diag>
+                    <dir>breaking in, in French </dir>-- It's none of your business! </diag>
+            </sp>
+            <sp>
+                <speaker who="goff">GERMAN OFFICER</speaker>
+                <diag>
+                    <dir>in French </dir>No, no, no, no! One minute! <dir>in English</dir> What did
+                    you say? Would you kindly repeat it? </diag>
+            </sp>
+            <sp>
+                <speaker who="foff">FRENCH OFFICER</speaker>
+                <diag> What I said is none of your business! </diag>
+            </sp>
+            <sp>
+                <speaker who="goff">GERMAN OFFICER</speaker>
+                <diag> I will make it my business! They begin to fight. </diag>
+            </sp>
+            <sp>
+                <speaker who="yvo">YVONNE</speaker>
+                <diag>
+                    <dir>in French</dir> Stop! I beg of you! I beg of you, stop! </diag>
+            </sp>
+            <dir>There are exclamations from people nearby. German officers at a nearby table rise,
+                ready to join in. Rick walks up and separates the two men. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <dir>to the German</dir> I don't like disturbances in my place. Either lay off
+                    politics or get out. </diag>
+            </sp>
+            <sp>
+                <speaker who="foff">FRENCH OFFICER</speaker>
+                <diag>
+                    <dir>in French</dir> Dirty Boche. Someday we'll have our revenge! </diag>
+            </sp>
+            <dir> Renault, Strasser and the other officers sit down again.</dir>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> You see, Captain, the situation is not as much under control as you believe.
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> My dear Major, we are trying to cooperate with your government, but we cannot
+                    regulate the feelings of our people. </diag>
+            </sp>
+            <dir>Strasser eyes him closely. </dir>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> Captain Renault, are you entirely certain which side you're on? </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> I have no conviction, if that's what you mean. I blow with the wind, and the
+                    prevailing wind happens to be from Vichy. </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> And if it should change? </diag>
+            </sp>
+            <dir>He smiles. </dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Surely the Reich doesn't admit that possibility? </diag>
+            </sp>
+            <dir>Renault lights a cigarette and puffs away.</dir>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> We are concerned about more than Casablanca. We know that every French
+                    province in Africa is honey-combed with traitors waiting for their chance,
+                    waiting, perhaps, for a leader. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag>
+                    <descr>casually</descr> A leader, like Laszlo? </diag>
+            </sp>
+            <sp>
+                <speaker who="str">STRASSER</speaker>
+                <diag> Uh, huh. I have been thinking. It is too dangerous if we let him go. It may
+                    be too dangerous if we let him stay. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag>
+                    <descr>thoughtfully</descr> I see what you mean. Carl, bottle in hand,
+                    approaches the table of a middle-aged German couple, the LEUCHTAGS. </diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag>
+                    <dir>in German</dir> I brought you the finest brandy. Only the employees drink
+                    it here.</diag>
+            </sp>
+            <dir> He pours a drink for each of them.</dir>
+            <sp>
+                <speaker who="mrl">MR. LEUCHTAG </speaker>
+                <diag>Thank you, Carl.</diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag>
+                    <dir>as he pours</dir> For Mrs. Leuchtag. </diag>
+            </sp>
+            <sp>
+                <speaker who="mrsl">MRS. LEUCHTAG </speaker>
+                <diag>Thank you, Carl.</diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag> For Mr. Leuchtag. </diag>
+            </sp>
+            <sp>
+                <speaker who="mrl">MR. LEUCHTAG</speaker>
+                <diag>Carl, sit down. Have a brandy with us. MRS. LEUCHTAG beaming with happiness To
+                    celebrate our leaving for America tomorrow. Carl sits down.</diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag> Thank you very much. I thought you would ask me, so I brought the good brandy
+                    and a third glass.</diag>
+            </sp>
+            <dir>He produces a glass from a back pocket. </dir>
+            <sp>
+                <speaker who="mrsl">MRS. LEUCHTAG</speaker>
+                <diag>At last the day has come.</diag>
+            </sp>
+            <sp>
+                <speaker who="mrl">MR. LEUCHTAG</speaker>
+                <diag> Frau Leuchtag and I are speaking nothing but English now.</diag>
+            </sp>
+            <sp>
+                <speaker who="mrsl">MRS. LEUCHTAG</speaker>
+                <diag>So we should feel at home ven ve get to America.</diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag> A very nice idea.</diag>
+            </sp>
+            <sp>
+                <speaker who="mrl">MR. LEUCHTAG </speaker>
+                <dir>raising his glass</dir>
+                <diag> To America.</diag>
+            </sp>
+            <dir>Mrs. Leuchtag and Carl repeat "To America." They clink glasses and drink.</dir>
+            <sp>
+                <speaker who="mrl">MR. LEUCHTAG</speaker>
+                <diag>Liebchen, uh, sweetness heart, what watch?</diag>
+            </sp>
+            <dir> She glances at her wristwatch.</dir>
+            <sp>
+                <speaker who="mrsl">MRS. LEUCHTAG </speaker>
+                <diag>Ten watch.</diag>
+            </sp>
+            <sp>
+                <speaker who="mrl">MR. LEUCHTAG</speaker>
+                <descr>surprised</descr>
+                <diag> Such much?</diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag> Er, you will get along beautifully in America, huh. </diag>
+            </sp>
+            <dir> Annina meets Renault in the hallway as she leaves the gambling room,</dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> How's lady luck treating you? Aw, too bad. You'll find him over there.
+                </diag>
+            </sp>
+            <dir>Annina sees Rick and goes to his table.</dir>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Monsieur Rick? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yes? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Could I speak to you for just a moment, please? </diag>
+            </sp>
+            <dir> Rick looks at her.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> How did you get in here? You're under age. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> I came with Captain Renault. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <descr>cynically</descr> I should have known. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> My husband is with me, too. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> He is? Well, Captain Renault's getting broadminded. Sit down. Will you have a
+                    drink? </diag>
+            </sp>
+            <dir>Annina shakes her head. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> No, of course not. Do you mind if I do? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> No. </diag>
+            </sp>
+            <dir>Rick pours himself a drink</dir>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Monsieur Rick, what kind of man is Captain Renault? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Oh, he's just like any other man, only more so. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> No, I mean, is he trustworthy? Is his word -- </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> -- Now, just a minute. Who told you to ask me that? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> He did. Captain Renault did. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I thought so. Where's your husband? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> At the roulette table, trying to win enough for our exit visa. Well of
+                    course, he's losing. </diag>
+            </sp>
+            <dir> Rick looks at her closely.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> How long have you been married? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Eight weeks. We come from Bulgaria. Oh, things are very bad there, Monsieur.
+                    A devil has the people by the throat. So, Jan and I, we, we do not want our
+                    children to grow up in such a country. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <descr>wearily</descr> So you decided to go to America. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Yes, but we have not much money, and travelling is so expensive and
+                    difficult. It was much more than we thought to get here. And then Captain
+                    Renault sees us and he is so kind. He wants to help us. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yes, I'll bet. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> He tells me he can give us an exit visa, but we have no money. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Does he know that? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Oh, yes. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> And he is still willing to give you a visa? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Yes, Monsieur. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> And you want to know -- </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> -- Will he keep his word? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> He always has.</diag>
+            </sp>
+            <dir> There is a silence. Annina is very disturbed. </dir>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Oh, Monsieur, you are a man. If someone loved you very much, so that your
+                    happiness was the only thing that she wanted in the whole world, but she did a
+                    bad thing to make certain of it, could you forgive her? </diag>
+            </sp>
+            <dir>Rick stares off into space. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Nobody ever loved me that much. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> And he never knew, and the girl kept this bad thing locked in her heart? That
+                    would be all right, wouldn't it? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <descr>harshly</descr> You want my advice? </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Oh, yes, please. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Go back to Bulgaria. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Oh, but if you knew what it means to us to leave Europe, to get to America!
+                    Oh, but if Jan should find out! He is such a boy. In many ways I am so much
+                    older than he is. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yes, well, everybody in Casablanca has problems. Yours may work out. You'll
+                    excuse me. </diag>
+            </sp>
+            <dir>Rick abruptly rises. </dir>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag>
+                    <descr>tonelessly</descr> Thank you, Monsieur.</diag>
+            </sp>
+            <dir>He quickly goes off, leaving Annina alone at the table. She remains seated, too
+                demoralized to move. While Rick checks the reservation list, Ilsa and Laszlo enter
+                the cafe. In the background we hear Sam playing, ironically enough, "It Had to Be
+                You." Rick greets Ilsa and Laszlo.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Good evening. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Good evening. You see, here we are again. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> I take that as a great compliment to Sam. <dir>to Ilsa</dir> I suppose he
+                    means to you Paris of, well, happier days. </diag>
+            </sp>
+            <dir>Laszlo looks around. </dir>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>quietly</descr> He does. Could we have a table close to him? </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> And as far away from Major Strasser as possible. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Well, the geography may be a little difficult to arrange.</diag>
+            </sp>
+            <dir> Rick snaps his fingers for the headwaiter. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Paul! Table thirty! </diag>
+            </sp>
+            <sp>
+                <speaker who="hea">HEADWAITER</speaker>
+                <diag>
+                    <dir>to Ilsa and Laszlo</dir> Yes, sir. Right this way, if you please. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag><dir> to Ilsa</dir> I'll have Sam play "As Time Goes By." I believe that's
+                    your favorite tune. </diag>
+            </sp>
+            <sp>
+                <speaker who="ilsa">ILSA</speaker>
+                <diag>
+                    <descr>smiling</descr> Thank you. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Two cognacs, please. </diag>
+            </sp>
+            <dir>Rick walks over to Sam and whispers something to him. Sam stops what he is playing
+                and begins "As Time Goes By." He shakes his head as Rick leaves. A waiter appears at
+                Ilsa and Laszlo's table.</dir>
+        </scene>
+
+        <scene n="46">
+            <camera>CUT TO:</camera>
+            <setting>INT. RICK'S CAFE - GAMBLING ROOM - NIGHT Jan sits at the roulette table. He has
+                only three chips left and seems bewildered. As Rick comes up the croupier speaks to
+                Jan. </setting>
+            <sp>
+                <speaker who="cro">CROUPIER</speaker>
+                <diag> Do you wish to place another bet, sir? </diag>
+            </sp>
+            <sp>
+                <speaker who="jan">JAN</speaker>
+                <diag> No, no, I guess not. </diag>
+            </sp>
+            <dir>Rick stands behind Jan.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <dir>to Jan</dir> Have you tried twenty-two tonight? I said, twenty-two. </diag>
+            </sp>
+            <dir>Jan looks at Rick, then at the chips in his hand. He pauses, then puts the chips on
+                twenty-two. Rick and the croupier exchange looks. The croupier understands what Rick
+                wants him to do. He spins the wheel. Carl follows the proceedings, fascinated. The
+                wheel stops spinning. </dir>
+            <sp>
+                <speaker who="cro">CROUPIER</speaker>
+                <diag>
+                    <dir>in French</dir> Twenty-two, black, twenty-two. A winner. Renault, at a
+                    nearby table, takes notice of what is happening. The croupier pushes a pile of
+                    chips onto twenty-two and Jan reaches for it. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <dir>not even looking at Jan</dir> Leave it there. Jan hesitates, then withdraws
+                    his hands. Carl continues to watch. The wheel spins. Nobody speaks while it
+                    spins. It stops. </diag>
+            </sp>
+            <sp>
+                <speaker who="cro">CROUPIER</speaker>
+                <diag> Twenty-two, black. Another winner. The croupier shoves a pile of chips toward
+                    Jan. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag>
+                    <dir>to Jan</dir> Cash it in and don't come back. </diag>
+            </sp>
+            <dir>Jan rises to go to the cashier. A CUSTOMER complains to Carl.</dir>
+            <sp>
+                <speaker who="cus">CUSTOMER</speaker>
+                <diag> Say, are you sure this place is honest? </diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag>
+                    <descr>fervently</descr> Honest! As honest as the day is long! </diag>
+            </sp>
+            <dir>Meanwhile, Rick has walked over to the croupier. </dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> How we doing tonight? </diag>
+            </sp>
+            <sp>
+                <speaker who="cro">CROUPIER</speaker>
+                <diag> Well, a couple of thousand less than I thought there would be.</diag>
+            </sp>
+            <dir> Rick smiles slightly and goes toward the door. Annina runs up to him and hugs him. </dir>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Monsieur Rick, I -- </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> -- He's just a lucky guy. </diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag>
+                    <descr>solicitously</descr> Monsieur Rick, may I get you a cup of coffee?
+                </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> No thanks, Carl. </diag>
+            </sp>
+            <sp>
+                <speaker who="carl">CARL</speaker>
+                <diag> Monsieur Rick! </diag>
+            </sp>
+            <dir>Renault, seeing that Jan has won, gets up from his table to follow Rick. Jan and
+                Annina stop him on the way.</dir>
+            <sp>
+                <speaker who="jan">JAN</speaker>
+                <diag> Captain Renault, may I -- </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> -- Oh, not here, please. Come to my office in the morning. We'll do
+                    everything business-like. </diag>
+            </sp>
+            <sp>
+                <speaker who="jan">JAN</speaker>
+                <diag> We'll be there at six. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> I'll be there at ten. I am very happy for both of you. Still, it's very
+                    strange that you won. </diag>
+            </sp>
+            <dir>He looks over and sees Rick. </dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> Well, maybe not so strange. I'll see you in the morning. </diag>
+            </sp>
+            <sp>
+                <speaker who="ann">ANNINA</speaker>
+                <diag> Thank you so much, Captain Renault. </diag>
+            </sp>
+        </scene>
+        <scene n="47">
+            <camera>CUT TO:</camera>
+            <setting>INT. RICK'S CAFE - MAIN ROOM - NIGHT At the bar, Carl whispers in Sacha's ear.
+                Sacha says "No!" and runs to Rick. </setting>
+            <sp>
+                <speaker who="sac">SACHA</speaker>
+                <diag> Boss, you've done a beautiful thing. </diag>
+            </sp>
+            <dir>He kisses Rick on both cheeks.</dir>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Go away, you crazy Russian!</diag>
+            </sp>
+            <dir> Carl pours a brandy for Rick. Pretending not to do so, Rick glances in Ilsa's
+                direction. Renault comes up to him. </dir>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag> As I suspected, you're a rank sentimentalist. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Yeah? Why? </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag>
+                    <descr>chidingly</descr> Why do you interfere with my little romances? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Put it down as a gesture to love. </diag>
+            </sp>
+            <sp>
+                <speaker who="ren">RENAULT</speaker>
+                <diag>
+                    <descr>good-naturedly</descr> Well, I forgive you this time. But I'll be in
+                    tomorrow night with a breathtaking blonde, and it will make me very happy if she
+                    loses. Uh huh! </diag>
+            </sp>
+            <dir> He smiles and walks away. Laszlo comes up to Rick. </dir>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Monsieur Blaine, I wonder if I could talk to you? </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> Go ahead. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Well, isn't there some other place? It's rather confidential, what I have to
+                    say. </diag>
+            </sp>
+            <sp>
+                <speaker who="rick">RICK</speaker>
+                <diag> My office. </diag>
+            </sp>
+            <sp>
+                <speaker who="las">LASZLO</speaker>
+                <diag> Right. </diag>
+            </sp>
+        </scene>
+    </body>
+</xml>

@@ -39,8 +39,8 @@
 * [Temitope Sakote](https://github.com/Temiii857)
 
 ### Benjie Bear Comic Book Project 
-[Project GitHub](https://github.com/emikalie/ComicBookProjectRepo/tree/main)
-[Website](https://emikalie.github.io/ComicBookProjectRepo/)
+[Project GitHub](https://github.com/emikalie/BenjiBearComic)
+[Website](https://emikalie.github.io/BenjiBearComic/)
 * [Emily Kalie](https://github.com/emikalie) **
 * [Gabriella Vozar](https://github.com/GabVoz13)
 
