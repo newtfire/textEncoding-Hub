@@ -13,9 +13,10 @@
    * process one source XML file and output one valid and well-formed HTML file;
    * contain an HTML table  for the table of contents featuring:
         * each chapter heading
-        * each chapter's distinct sorted locations
-        * each chapter's distinct sorted technologies;
-        
+        * each chapter's distinct sorted devices
+        * each chapter's distinct sorted places;
+       
+     
    * contain internal links from the chapter headings in the table of contents to the chapter headings;
    * contain span elements in the reading view to stylize the locations and technologies mentioned. 
    * Prepare CSS to style your HTML. The XSLT should output the CSS link line to your CSS file accurately. 
