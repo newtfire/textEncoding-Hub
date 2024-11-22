@@ -5,7 +5,7 @@
     
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes"/>
 <!-- **************************************************************************-->
-<!-- 2022-11-17 ebb: This XSLT starter file is for the XSLT test in DIGIT 110. 
+<!-- 2024-11-22 ebb: This XSLT starter file is for the XSLT test in DIGIT 110. 
     Do not alter the stylesheet root element or the output line. 
     
    Your task is to transform the source XML document of Bram Stoker's novel Dracula into HTML with a 
