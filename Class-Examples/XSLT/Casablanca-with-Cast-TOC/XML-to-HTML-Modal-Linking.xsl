@@ -21,7 +21,7 @@
             <head> 
             <title><xsl:apply-templates 
                 select="descendant::title"/></title>
-            <!-- Link line for CSS would go here... -->
+                <link rel="stylesheet" type="text/css" href="radioplay.css" />   
             </head>
             <body>
               <h1><xsl:apply-templates select="descendant::title"/></h1>
@@ -35,7 +35,8 @@
             </tr>
 
         <xsl:for-each select="$speakers">
-        <xsl:variable name="currentSpeaker" as="element()+" select="$casaColl//speaker[@who ! normalize-space() ! upper-case(.) = current()]"/>
+        <xsl:variable name="currentSpeaker" as="element()+" 
+            select="$casaColl//speaker[@who ! normalize-space() ! upper-case(.) = current()]"/>
                
                 <tr>
                     <td><xsl:value-of select="current()"/></td>
@@ -49,7 +50,10 @@
                     <xsl:value-of select="$currentSpeaker => count()"/>
                 </td>
                 <td><!-- The first scene in which that character speaks -->
-                    <xsl:variable name="firstSceneNumber" as="xs:string" select="($casaColl//scene[descendant::speaker/@who ! normalize-space() ! upper-case(.) = current()]/@n)[1]"/>
+                    <xsl:variable name="firstSceneNumber" as="xs:double"
+                        select="($casaColl//scene[descendant::speaker/@who ! 
+                        normalize-space() ! upper-case(.) = current()]/@n ! number(.)) => min() "/>
+                    
                     <a href="#scene-{$firstSceneNumber}">
                 
                 <xsl:text>Scene </xsl:text>  
