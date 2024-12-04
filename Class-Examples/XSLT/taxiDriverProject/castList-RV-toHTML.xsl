@@ -72,25 +72,25 @@
                 did a bit of "rubber ducking" (thinking out loud) to figure out how to to access the *very first* <d> element that matches the current character, 
                 and retrieve the count() of its preceding::d elements.
                 
-                We ran into a problem with processing, because xsl:for-each was working through distinct-values pulled off the source XML tree. 
+                We ran into a problem with processing, because our xsl:for-each was calculating distinct-values, pulled off the source XML tree. 
                 This xsl:for-each actually creates a new processing context, so the XSLT running inside it literally *forgets* the xsl:template match node (which 
                 was the <script> element. So we had to create the local $nodeContext variable (above the xsl:for-each) to store that <script> element
                 to work with it inside <xsl:for-each>.  
                 We used $nodeContext **return to the source XML tree**: 
                 Just unpacking the first part of this: $nodeContext//d means, go back to the <script> element and look down from there to find all the descendant::d elements. 
-                The whole expression following that part looks really complicated, but you can watch me build it piece-by-piece in the video!
        
                 NOTE that because we were working with distinct-values() to build the cast list, and we were using xsl:for-each, 
-                our approach to link construction is more complicated that what you'll need to do on the XPath/XSLT test. But you may want to do something
-                like this on your projects to create tables of characters, or locations, return information about where they're referenced.
-                The XPath/XSLT test does NOT require you to work with xsl:for-each
-                to create the table of contents. But notice the BASIC LINK STRUCTURE. This holds for anytime you need to construct internal links:
+                our approach to link construction in this project example is more complicated that what you'll need to do on the XPath/XSLT test. 
+                (The XPath/XSLT test does NOT require you to work with xsl:for-each to create the table of contents.)
+                But you may want to do something like this on your projects to create tables of characters, or locations, return information about where they're referenced.
+                
+                Notice the BASIC LINK STRUCTURE. This holds for anytime you need to construct internal links:
                 
                 1. In Reading View, plant the id attributes first: <div id="{XPath-that-constructs-an-id}">....</div>
                
                 2. Up in the Table of Contents: <a href="#{XPath-that-constructs-the-id-you-made-in-the-Reading View}">....</a>
-                Remember, you need the # in the href attribute to indicate that you're pointing to an id attribute elsewhere in the HTML file.**
-                    **Maybe this is reaching only a selection of the ids you "planted" in the reading view (like in this cast list example). Or maybe it
+                Remember, you need the # in the href attribute to indicate that you're pointing to an id attribute elsewhere in the HTML file.
+                    Maybe this is reaching only a selection of the ids you "planted" in the reading view (like in this cast list example). Or maybe it
                 is pointing to every single chapter or every division to let you jump down to that location. 
                 Either way, you want to make sure your links simply work to reach *what you intend them to reach*.
                 
