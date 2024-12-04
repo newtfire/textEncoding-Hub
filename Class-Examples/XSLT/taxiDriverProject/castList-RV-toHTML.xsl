@@ -76,11 +76,12 @@
                 This xsl:for-each actually creates a new processing context, so the XSLT running inside it literally *forgets* the xsl:template match node (which 
                 was the <script> element. So we had to create the local $nodeContext variable (above the xsl:for-each) to store that <script> element
                 to work with it inside <xsl:for-each>.  
-                So, we used $nodeContext **return to the source XML tree**: 
-                $nodeContext//d means, go back to the <script> element and look down from there to find all the descendant::d elements. 
+                We used $nodeContext **return to the source XML tree**: 
+                Just unpacking the first part of this: $nodeContext//d means, go back to the <script> element and look down from there to find all the descendant::d elements. 
+                The whole expression following that part looks really complicated, but you can watch me build it piece-by-piece in the video!
        
                 NOTE that because we were working with distinct-values() to build the cast list, and we were using xsl:for-each, 
-                our approach to link construction is Mmore complicated that what you'll need to do on the XPath/XSLT test. But you may want to do something
+                our approach to link construction is more complicated that what you'll need to do on the XPath/XSLT test. But you may want to do something
                 like this on your projects to create tables of characters, or locations, return information about where they're referenced.
                 The XPath/XSLT test does NOT require you to work with xsl:for-each
                 to create the table of contents. But notice the BASIC LINK STRUCTURE. This holds for anytime you need to construct internal links:
