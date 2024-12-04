@@ -63,22 +63,27 @@
                 <td> <a href="#d-{current()}-{($nodeContext//d[@who ! normalize-space() = current()])[1]/preceding::d => count() + 1}"> 
                     <xsl:value-of select="current()"/></a>
                     
-                <!-- We want to link to the first moment each character SPEAKS in the script, so we'll work with the <d> elements.
+                <!-- We want to link to the FIRST MOMENT EACH CHARACTER SPEAKS in the script, so we'll work with the <d> elements indicating dialogue.
                 
                 From my Reading View template, I constructed a link id (as a target for these links) to look like
                 this for dialogue: d-{@who}-{count(preceding::d) + 1 
                 
-                In my video, I had to work out a way to reach the very first of these dialogue elements. I tried one way that did NOT work, and then
+                In my video, I had to work out a way to reach the *very first* of these dialogue elements. I tried one way that did NOT work, and then
                 did a bit of "rubber ducking" (thinking out loud) to figure out how to to access the *very first* <d> element that matches the current character, 
                 and retrieve the count() of its preceding::d elements.
                 
-                We ran into a problem with processing, because xsl:for-each was working through distinct-values pulled
-                off the tree. So we created the $nodeContext variable (above the xsl:for-each) to store the <script> element that we matched on in this template,
-                and we used it to return to the source XML tree: $nodeContext//d means, go back to the <script> element and look down from there to find all the 
+                We ran into a problem with processing, because xsl:for-each was working through distinct-values pulled off the source XML tree. 
+                This xsl:for-each actually creates a new processing context, so the XSLT running inside it literally *forgets* the xsl:template match node (which 
+                was the <script> element. So we had to create the local $nodeContext variable (above the xsl:for-each) to store that <script> element
+                to work with it inside <xsl:for-each>.  
+                So, we used $nodeContext **return to the source XML tree**: $nodeContext//d means, go back to the <script> element and look down from there to find all the 
                 descendant::d elements. 
        
-                NOTE that this link construction is much more complicated that what you'll need to do on the XML test. The test does NOT require you to work with xsl:for-each
-                to create the table of contents. But notice the BASIC LINK STRUCTURE. This holds for all projects:
+                NOTE that because we were working with distinct-values() to build the cast list, and we were using xsl:for-each, 
+                our approach to link construction is Mmore complicated that what you'll need to do on the XPath/XSLT test. But you may want to do something
+                like this on your projects to create tables of characters, or locations, return information about where they're referenced.
+                The XPath/XSLT test does NOT require you to work with xsl:for-each
+                to create the table of contents. But notice the BASIC LINK STRUCTURE. This holds for anytime you need to construct internal links:
                 
                 1. In Reading View, plant the id attributes first: <div id="{XPath-that-constructs-the-id}">
                
