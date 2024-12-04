@@ -1,0 +1,13 @@
+/* 2024-11-11 ebb: I just generated this in class quickly to
+ * highlight a few of our span and div elements. */
+body {background-color:white;}
+h1 {color:orange; }
+div.speech { background-color: lemonchiffon;}
+
+section.narr {
+background-color:lavender;
+}
+
+p.openQuote { font-style:italic; }
+
+span.shot { font-style:italic; background-color:aqua;}
