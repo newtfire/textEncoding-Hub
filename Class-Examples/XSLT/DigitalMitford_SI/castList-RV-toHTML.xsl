@@ -76,7 +76,8 @@
                 This xsl:for-each actually creates a new processing context, so the XSLT running inside it literally *forgets* the xsl:template match node (which 
                 was the <script> element. So we had to create the local $nodeContext variable (above the xsl:for-each) to store that <script> element
                 to work with it inside <xsl:for-each>.  
-                So, we used $nodeContext **return to the source XML tree**: $nodeContext//d means, go back to the <script> element and look down from there to find all the 
+                So, we used $nodeContext **return to the source XML tree**: 
+                $nodeContext//d means, go back to the <script> element and look down from there to find all the 
                 descendant::d elements. 
        
                 NOTE that because we were working with distinct-values() to build the cast list, and we were using xsl:for-each, 
@@ -127,7 +128,22 @@
         
     </xsl:template>
     
+    <!-- ebb: In the templates that match on scene, d, and char, we constructed id attributes based on count of preceding scenes. This is very
+    similar to our very first XSLT identity-transformation assignment where you learned how to write ATVs (attribute value templates). 
+    The difference is that in that early assignment, we constructed attributes to plant distinct xml:ids (for use in XML) on the source
+    document as a patch to it. You could choose to do this on your project code: Do an identity transformation and plant identifiers 
+    in your source XML that you can work with later. If you're reading from your own xml:ids, your code might look like this:
     
+    <xsl:template match="scene">
+      <div class="scene" id="{@xml:id}">
+            <xsl:apply-templates/>
+      </div>
+    </xsl:template>
+    
+    But if you haven't done that, you can construct HTML id attributes here using the same logic: count the preceding whatevers, construct something 
+    that's a combination of letters and numbers. Remember that in our web world, an id is supposed to include letters and numbers. 
+    Hyphens and underscores are okay.
+    -->
     <xsl:template match="scene">
         <div class="scene" id="scene-{count(preceding::scene) + 1}">
             <xsl:apply-templates/>
