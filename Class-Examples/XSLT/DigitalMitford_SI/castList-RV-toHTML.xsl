@@ -77,8 +77,7 @@
                 was the <script> element. So we had to create the local $nodeContext variable (above the xsl:for-each) to store that <script> element
                 to work with it inside <xsl:for-each>.  
                 So, we used $nodeContext **return to the source XML tree**: 
-                $nodeContext//d means, go back to the <script> element and look down from there to find all the 
-                descendant::d elements. 
+                $nodeContext//d means, go back to the <script> element and look down from there to find all the descendant::d elements. 
        
                 NOTE that because we were working with distinct-values() to build the cast list, and we were using xsl:for-each, 
                 our approach to link construction is Mmore complicated that what you'll need to do on the XPath/XSLT test. But you may want to do something
