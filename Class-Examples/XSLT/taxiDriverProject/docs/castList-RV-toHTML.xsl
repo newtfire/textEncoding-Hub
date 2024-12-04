@@ -85,7 +85,7 @@
                 The XPath/XSLT test does NOT require you to work with xsl:for-each
                 to create the table of contents. But notice the BASIC LINK STRUCTURE. This holds for anytime you need to construct internal links:
                 
-                1. In Reading View, plant the id attributes first: <div id="{XPath-that-constructs-the-id}">
+                1. In Reading View, plant the id attributes first: <div id="{XPath-that-constructs-the-id}">....</div>
                
                 2. Up in the Table of Contents: <a href="#{XPath-that-constructs-the-id-you made in the Reading View}">....</a>
                 Remember, you need the # in the href attribute to indicate that you're pointing to an id attribute in the HTML file.
