@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    
+    <page num="1"><headLine></headLine>
+        <p>
+            <ln n="1"/>
+            <ln n="2"/> 
+            <ln n="3"/>
+            <ln n="4"/>
+            <ln n="5"/>
+            <ln n="6"/>
+            <ln n="7"/>
+            <ln n="8"/>
+            <ln n="9"/>
+            <ln n="10"/> 
+            <ln n="11"/>
+            <ln n="12"/>
+            <ln n="13"/>          Very gay place. Music and all sorts of 
+            <ln n="14"/>PLACES to spend cash for fun. Gail shot bears abd bul
+            <ln n="15"/>eyes and smashed up plates. It /is truly a nice place.
+            <ln n="16"/>Everyone very orderly and enjoying i  t.
+        </p>
+        
+            <p>
+            <ln n="17"/>July 27th.
+            <ln n="18"/>Went to the TRAvel Agency. Went over to the Jangleterre (no rooms) 
+            <ln n="19"/>Hotel, and to an art craft place next to it where
+            <ln n="20"/>I got some wonderful things! Lions made of rope, lunch
+            <ln n="21"/>doilies with designs of all nations. Things for Kissie,
+            <ln n="22"/>a beaded bracelet,Gloves, etc.Had luncg the D'andDleT
+            <ln n="23"/>terre.Couldn't get rooms there- all full.Went to the
+            <ln n="24"/>Permente- a place thet shows all sorts of things to buy
+            <ln n="25"/>Got a skirt, linen table cloth, scarves,fish doilies,
+            <ln n="26"/>At 4.30 we went on the city tour In a bus. all around.
+            <ln n="27"/>Back to hotel- flowers from Mr and mrs Dessau. They
+            <ln n="28"/>had called. Went to the Coc D'or and had a very fine
+            <ln n="29"/>dinner. ON way back to hotel passed the Circus Schuman
+            <ln n="30"/>WE couldn't get in- laws that prevent when it is full
+            <ln n="31"/>up- but a very nice attentant let us stand upstairs
+            <ln n="32"/>behind the rows of people. So we saw a lot of itnand
+            <ln n="33"/>it wwas a grand show. Elephants, acrobats and all
+            <ln n="34"/>sorts of acts.  W
+            <ln n="35"/>
+            </p>
+    </page>
+    
+    
+</letter>

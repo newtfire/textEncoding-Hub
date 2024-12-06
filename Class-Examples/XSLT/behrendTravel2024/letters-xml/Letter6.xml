@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    
+    <page num="1"><headLine></headLine>
+       <p>
+        <ln n="1"/>Monday. MerceDes busy with her work, so Gail ANd 
+        <ln n="2"/>I started ot to purchase paint thigs.   Belgian CANN 
+        <ln n="3"/>linen|anD Bockx oil colors. ENded up by getting 
+        <ln n="4"/>$62.00 worth of materials- encluding palattes, bRUSH
+        <ln n="5"/>rushes etc. Some for  gifts. Then to/Maria Roix'
+        <ln n="6"/>for lace. (Had to get some, being in Belgium.)
+        <ln n="7"/>A woman in the shop doing bobbin lace. Her fingeRS
+        <ln n="8"/>flew like mad. She would only do it when a big
+        <ln n="9"/>lot of tourists came in! Got lace &amp; a very nice laCE
+        <ln n="10"/>lace tri mmed table cloth- about $20.00 for the ALICE 
+        <ln n="11"/>fancy country suppers- hope she'll be pleased 
+        <ln n="12"/>with it. Some lace vest affairs about $IO. each
+        <ln n="13"/>for Frances (launndessme others) Also mats at $3 w
+        <ln n="14"/>and so each.   Went across street to St Gudule
+        <ln n="15"/>church.  NOt interesting- gaudy tapestries and n
+        <ln n="16"/>not much else.We walked back- down hill somewhat.
+        <ln n="17"/>buying dolls for Johnnie on the way. Later came 
+        <ln n="18"/>M.G. and Clyde& M. with her Ford.We steeted over 
+        <ln n="19"/>again to the beautifulPlace where we  sat outside
+        <ln n="20"/>in the sun and had A\very excellent meal very cheAP 
+        <ln n="21"/>All theresturants around the square seem to be
+        <ln n="22"/>good, only some more fancy than others. Some are
+        <ln n="23"/>very Flemish in style- with dark pannelling and
+        <ln n="24"/>very fine brass, pewterand blue Delft plates .Bi 
+        <ln n="25"/>brass plates and platters- all beautifullu
+        <ln n="26"/>polished. Brass door knobs. I BOUGHT TINY POTTERY BUTTER DISHES
+        <ln n="27"/>TWO ARE FOR ALICE
+       </p>
+        
+        
+        <p>
+        <ln n="28"/>We had cockTAIls up|in M.G.'s room and waited sometime
+        <ln n="29"/>for Mercedes after she finally arrived we went over
+        <ln n="30"/>to the square where we had one last meal, andlook at /it
+        </p>
+       
+       
+       <drawing></drawing>
+</page>
+    
+    
+</letter>

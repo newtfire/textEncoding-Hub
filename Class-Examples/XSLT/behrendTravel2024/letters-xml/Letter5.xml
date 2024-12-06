@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+   
+        <headLine></headLine>
+        
+        <p>
+            <ln n="1"/>THIS was a DAY! M.G. and Clyde, pLus Gail and myself all 
+            <ln n="2"/>in Mercedes' Ford, travelled over theMotor Highway. First 
+            <ln n="3"/>lookked up the Flea Market which was just next to nothing 
+            <ln n="4"/>Then on to Bruges.passing cultVAted fields and neat
+            <ln n="5"/>little houses.M. drove us all arouND by the canals 
+            <ln n="6"/>etc.A truly wonderful and unspoiled little city of the 
+            <ln n="7"/>past. Many hundreds of years old.       We had lunch on the
+            <ln n="8"/>square.Got a Victoria with a horse named Bella. A very
+            <ln n="9"/>FAT horse but she didn't have to go very fast.M.G. got 
+            <ln n="10"/>very conversational with Bella's owner.IN French. Visited 
+            <ln n="11"/>enclosure of the Beguinage & the chapel where the sisters 
+            <ln n="12"/>of the nursing order were chanting.   Being   sunday almost 
+            <ln n="13"/>all the shops were closed.  But we saw the women making
+            <ln n="14"/>the bobbin lace and bought a few pieces.   The buildingS 
+            <ln n="15"/>around the enclosure called the Beguinage were used in 
+            <ln n="16"/>olden times for|wives and widows, and women of some stand
+            <ln n="17"/>ing when the men were at war or had been killed etc. 
+             
+            
+        
+        
+        </p>
+        
+        <p>
+            <ln n="18"/>We had diner in Brussels again on our beloved 
+            <ln n="19"/>Place- the large square.   The buildings with the
+            <ln n="20"/>electric lights well placed were marvelous. We hated to 
+            <ln n="21"/>leave
+        </p>
+    
+    <drawing></drawing>
+        <p>
+            <ln n="22"/>The Square is a breath taking spot 
+            <ln n="23"/>The buildings surrounding it
+            <ln n="24"/>are ratheR Dutch or Flemish in sty 
+            <ln n="25"/>style. The tips of the irregulad
+            <ln n="26"/>roofs being surmounted by the
+            <ln n="27"/>embelished with gold paint|on the sills and carvings. 
+            <ln n="28"/>The llights on the buildings at night create a truly 
+            <ln n="29"/>beautiful and unreal effect.  Like part|of a fairy tale
+        </p>
+            <p>
+            <ln n="30"/>M.G. and Clyde have been with us three days and
+            <ln n="31"/>we have all,had one grand time.
+        </p>
+        
+</letter>

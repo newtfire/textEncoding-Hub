@@ -1,7 +1,18 @@
-start = letter # root element
+start = xml # root element
+xml = element xml {meta, letter}
+
+meta = element meta {title, date?, source, summary, editors}
+    title = element title {titleID, text}
+        titleID = attribute titleID {text}
+    source = element source {text}
+    summary = element summary {text}
+    editors = element editors {editor+}
+        editor = element editor {"JJB" | "MRS" | "AMA"}
+
 letter = element letter {page+} 
-    page = element page {num, headLine?, (p | drawing)*} # for multi-page letters to remain in the same document
+    page = element page {num, photo, headLine?, (p | drawing)*} # for multi-page letters to remain in the same document
         num = attribute num {xsd:integer} # page number
+        photo = attribute photo {text}
         
         headLine = element headLine {mixed{(location | time | date | imp)*}} # metadata (where & when)
         
@@ -20,8 +31,7 @@ location = element location {category, spec, (text | imp | ln)*}
     category = attribute category {"ship" | "city" | "country" | "department" | "commune" | text} # still adding specific categories as we come across them
     spec = attribute spec {text}
 time = element time {(text | imp | ln)*}
-date = element date {when?, (text | imp | ln)*}
-when = attribute when {xsd:date}
-# ebb: added a when attribute to store ISO dates for sorting the letters chronologically when processing.
+date = element date {when, (text | imp | ln)*}
+    when = attribute when {xsd:date}
 person = element person {note?, (text | imp | ln)*}
     note = attribute note {text}
