@@ -44,13 +44,34 @@ pre {
 /* ------------------------------------------------------------------------------------------ */
 /* Read View CSS */
 
+/*  ebb: Trying out flex container around the two divs on this page */
+
+.flex {
+ 
+    display:flex;
+}
+.image-container {flex:2; }
+
+.image-container figure img { 
+width:100%;
+height: auto;
+
+}
+
 .letterText {
-    display: flex;
+    flex: 1;
+    /*display: flex;   ebb: not sure we need this?  */
     margin: 30px;
     padding: 9px;
     background-color: rgba(255, 248, 248, 0.8);
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
 }
+
+span.lineNum { font-size:smaller; color:maroon; }
+
+span.location {color:blue;}
+
+
 /* ------------------------------------------------------------------------------------------ */
 /* Gallery CSS */
 
@@ -62,7 +83,7 @@ pre {
 }
 
 .image-container figure {
-    width: 48%;
+    width: 100%;
     box-sizing: border-box;
     float: left;
     margin: 1%;
