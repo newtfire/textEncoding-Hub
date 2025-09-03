@@ -51,7 +51,7 @@ To pull in any changes from the remote "mothership" repo, type:
 git pull
 ```` 
 
-3) When you want to share you local changes to the repo with the remote mothership and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
+3) When you want to share your local changes to the repo with the "remote mothership" and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
 
 * Make sure you're in the textEncoding-Hub repo at the top level
 * Then type:
@@ -73,6 +73,21 @@ git push
 ````
 And gears turn and lines of text whirl on the screen, and your changes go up into the remote "Mothership repo"! You should always check on the web repository to see if your commit went through.  
  
+## Configuring git on a university computer 
+
+If you're configuring a school computer to work with git/GitHub, make sure you have some space to work with. (Should be fine if it's just one repo, and it's my reduced version).
+The school will not know your git identity, and will try to use your PSU userid instead, so GitHub will prompt you in the school Git Bash to change that, using a strange and ancient text editor called "vi" or "vim": 
+ To edit in vi (as summarized in the previous section), your usual tools of writing won't work (your mouse doesn't work here, and you have to type commands to move around the screen). 
+ To edit in vim, here are my magic commands:
+
+* Use the arrow keys to position your cursor where you want to insert text or make a change. Press i to insert/edit text. (That can be capital or lower case). 
+
+* To update an area like your git username or email you used for GitHub, you may need to uncomment it. Comments are lines with a `#` in front. Delete the `#` and type in the correct info for your git account.
+
+* To save and exit what you typed in (so it's stored in your `.git` file), press these keys in sequence (one after the other): [esc] : w q
+That's the escape key then colon, w, and q. This combination lets you escape out of the commit-editing window, then :wq is to write and quit the vi editor.
+
+
 ## Dealing with merge issues
 When you and other team members are working in a repo at the same time, and each of you is pulling, committing, and pushing files, you may find that you cannot pull in changes to your local repo, because GitHub warns that changes might write over the state of your work. 
 
@@ -81,16 +96,18 @@ When you and other team members are working in a repo at the same time, and each
 ```
 git pull
 ```
-* GitHub will now attempt a merge of your commit with the new material. It will attempt to do this automatically (something GitHub was designed to do). As long as you and your team member were working on different files or on very different areas of the same file, GitHub will be able to work out a way to merge your changes with your teammates'. But you will need to add and commit the result. GitHub will invite you to do this using an ancient early-days-of-computing editor called the "vi" editor, which will open on top of your terminal, and it will invite you to edit its standard commit message which will indicate that this is a "merge". To edit in vi, your usual tools of writing won't work (your mouse doesn't work here, and you have to type commands to move around the screen). Type the following to insert your own text if you want to add your own description to the merge):
+* GitHub will now attempt a merge of your commit with the new material. It will attempt to do this automatically (something GitHub was designed to do). As long as you and your team member were working on different files or on very different areas of the same file, GitHub will be able to work out a way to merge your changes with your teammates'. But you will need to add and commit the result. 
+* GitHub will invite you to do this using an ancient shell editor called the "vi" or "vim", which will open on top of your terminal, and it will invite you to edit its standard commit message which will indicate that this is a "merge".
+ Type the following to insert your own text if you want to add your own description to the merge):
 ```
 I
 ```
-(The "I" is for "insert"). Type whatever you want to add or modify at the top line where the commit message goes. You do use quotation marks around the commit message in the vi editor. When you're finished, type this sequence
+(The "I" is for "insert" and you can use capital or lower case. Type whatever you want to add or modify at the top line where the commit message goes. You do use quotation marks around the commit message in the vi editor. When you're finished, type this sequence
 
 ```
-esc : w q
+[esc] : w q
 ```
-That's the escape key then colon, w, and q. This combination let's you escape out of the commit-editing window, then :wq is to write and quit the vi editor. This will bring you back to the terminal / command line prompt where you normally write git commands.
+This will bring you back to the terminal / command line prompt where you normally write git commands.
 
 * Now, type `git status` and it should tell you that you're ready to push two (or more) commits (the result of your merge plus your first commits that were never pushed). It should prompt you to do a `git push`. So do that. Type
 ```
@@ -135,4 +152,7 @@ Your team members should now do a `git pull` and pull in your resolution of the 
 * `git push` (Push your committed changes to your remote fork.)
 * Create a pull request on the web repository from your fork to the original repo
 
-## Further Reading: Becca Parker's ["Explain Git Shell"](https://newtfire.org/courses/tutorials/explainGitShell.html) tutorial  
+## Further Reading: 
+* Web slides Intro to Shell and Git (more detailed): https://slides.com/elisabeshero-bondar/shell-git-nav
+
+* Becca Parker's ["Explain Git Shell"](https://newtfire.org/courses/tutorials/explainGitShell.html) tutorial (older but very thorough)! 
