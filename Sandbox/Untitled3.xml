@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <info type="form">Transcript</info>
+    <title>"Ballad of Booker T.,"</title> by <sub type="author">Langston Hughes</sub>, <date
+        type="pub">June 1, 1941</date>
+    <title>BALLAD OF BOOKER T.</title> by <sub type="author">Langston Hughes</sub>
+    <!--all information below is an untampered copy of the original poem-->
+    <p num="1"><sub type="mc">Booker T.</sub>
+        <desc type="character">Was a <rep type="emp">practical man</rep>.</desc> He said, <text
+            type="dlg">Till the soil And learn from the land. <rep type="refrain"><fig type="meta"
+                    >Let down your bucket Where you are.</fig> Your fate is here And not afar.
+            </rep> To help yourself And your fellow man, Train your head, Your heart, and your
+            hand</text> . </p>
+    <p num="2">For smartness alone's Surely not meet— If you haven't at the same time Got something
+        to eat. Thus at <edu type="uni">Tuskegee</edu> He built a <edu>school</edu> With
+        book-learning there And the workman's tool. He started out In a simple way— For yesterday
+        Was not today. </p>
+    <p num="3">Sometimes he had Compromise in his talk— For a man must crawl Before he can walk— And
+        in <loco type="state">Alabama</loco> in '85 A joker was lucky To be alive. </p>
+    <p num="4">But <sub type="mc">Booker T.</sub> Was nobody's fool: You may carve a dream With an
+        humble tool. <fig type="meta">The tallest tower Can tumble down If it be not rooted In solid
+            ground.</fig> So, being a far-seeing <rep type="emp">Practical man</rep>, He said, <text
+            type="dlg">Train your head, Your heart, and your hand . <rep type="refrain">Your fate is
+                here And not afar, <fig type="meta">So let down your bucket Where you
+                are.</fig></rep>
+        </text></p>
+    <!--all information above is an untampered copy of the original poem-->
+    <footer type="signature"><sub type="author">LANGSTON HUGHES</sub>
+        <copy>Final Draft,</copy>
+        <inst>Hollow Hills Farm, </inst>
+        <loco type="city">Monterey, California,</loco>
+        <date type="pub">June 1, 1941.</date>
+        <citation>Citation: Drafts of <sub type="author">Langston Hughes's</sub> poem <title>"Ballad
+                of Booker T.,"</title> 30 May–1 June 1941. (<sub type="author">Langston Hughes</sub>
+            Collection) <div type="manu">Manuscript Division,</div>
+            <pub>Library of Congress,</pub>
+            <loco type="city">Washington, D.C.</loco></citation></footer>
+</xml>
