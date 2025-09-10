@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipe><healthData>About this recipe Healthiness : (71 votes)</healthData>
     <!--ebb: Hi This is a comment -->
-    <!--Type your comment and yada yada yada-->
-    <!--Here's another comment-->
     <!--ebb 2020-08-27: I like putting initials on my comments, and sometimes the date, 
              especially if multiple people are writing comments on a code file. -->
-    <para>The Georgians loved rich, sweet food. Sugar had become much
+    <para>The <culture ref="England" monarch="George_III">Georgians</culture> loved rich, sweet food. Sugar had become much
         more easily available (mostly because of the Transatlantic Slave Trade) and was fast
         replacing honey as the main food sweetener.</para>
     <para>This version of the syllabub recipe was by <name type="person">Eliza Acton</name>, who
@@ -29,8 +27,9 @@
         <heading>Ingredients</heading>
         <list><item quant="1" unit="fruit">1 <ingred>lemon</ingred></item>
             <item quant=".25" unit="pint">1/4 pint <ingred>sack</ingred> (pale or dark)</item>
-            <item quantLow="2" quantHigh="3" unit="ounce">2-3 oz <ingred>caster
-                sugar</ingred></item>
+            <item quant="2 3" unit="ounce">2-3 oz <ingred>caster
+                sugar</ingred></item><!-- This is one way to handle multiple good values in an attribugte,
+                with quant="2 3": It means quant can be 2 or 3.-->
             <item quant=".5" unit="pint">1/2 pint <ingred>double cream</ingred></item>
             <item quantLow="4" quantHigh="6" unit="Tb">4-6 tablespoons <ingred>sweet/dessert white
                     wine</ingred>
