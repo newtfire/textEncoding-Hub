@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<poem>
+    <meta>
+        <title>Ballad of Booker T.</title>
+        <author>Langston Hughes</author>
+        <date>June 1, 1941</date>
+        <source>Signed final draft, Hollow Hills Farm, Monterey, California (Library of Congress).</source>
+    </meta>
+    
+    <text>
+        <header>
+            <line n="1" type="title">BALLAD OF BOOKER T.</line>
+            <line n="2" type="byline">by</line>
+            <line n="3" type="author">Langston Hughes</line>
+        </header>
+        
+        <stanza n="1" type="stanza">
+            <line n="4">Booker T.</line>
+            <line n="5">Was a practical man.</line>
+            <line n="6">He said, Till the soil</line>
+            <line n="7">And learn from the land.</line>
+            <line n="8" type="reference" note="From 1895 Atlanta speech, self-help and opportunity">Let down your bucket</line>
+            <line n="9">Where you are.</line>
+            <line n="10">Your fate is here</line>
+            <line n="11">And not afar.</line>
+        </stanza>
+        
+        <stanza n="2" type="stanza">
+            <line n="12">To help yourself</line>
+            <line n="13">And your fellow man,</line>
+            <line n="14">Train your head,</line>
+            <line n="15">Your heart, and your hand.</line>
+            <line n="16">For smartness alone's</line>
+            <line n="17">Surely not meet—</line>
+            <line n="18">If you haven't at the same time</line>
+            <line n="19">Got something to eat.</line>
+        </stanza>
+        
+        <stanza n="3" type="stanza">
+            <line n="20" type="place" note="Tuskegee Institute founded by Washington in 1881">Thus at Tuskegee</line>
+            <line n="21">He built a school</line>
+            <line n="22">With book-learning there</line>
+            <line n="23">And the workman's tool.</line>
+        </stanza>
+        
+        <stanza n="4" type="stanza">
+            <line n="24">He started out</line>
+            <line n="25">In a simple way—</line>
+            <line n="26">For yesterday</line>
+            <line n="27">Was not today.</line>
+            <line n="28">Sometimes he had</line>
+            <line n="29">Compromise in his talk—</line>
+            <line n="30">For a man must crawl</line>
+            <line n="31">Before he can walk—</line>
+            <line n="32" type="historical" note="reflects the dangerous climate for African Americans in the 19th century">And in Alabama in '85</line>
+            <line n="33">A joker was lucky</line>
+            <line n="34">To be alive.</line>
+        </stanza>
+        
+        <stanza n="5" type="stanza">
+            <line n="35">But Booker T.</line>
+            <line n="36">Was nobody's fool:</line>
+            <line n="37">You may carve a dream</line>
+            <line n="38">With an humble tool.</line>
+            <line n="39">The tallest tower</line>
+            <line n="40">Can tumble down</line>
+            <line n="41">If it be not rooted</line>
+            <line n="42">In solid ground.</line>
+        </stanza>
+        
+        <stanza n="6" type="stanza">
+            <line n="43">So, being a far-seeing</line>
+            <line n="44">Practical man,</line>
+            <line n="45">He said, Train your head,</line>
+            <line n="46">Your heart, and your hand.</line>
+            <line n="47">Your fate is here</line>
+            <line n="48">And not afar,</line>
+            <line n="49" type="reference">So let down your bucket</line>
+            <line n="50">Where you are.</line>
+        </stanza>
+    </text>
+</poem>
