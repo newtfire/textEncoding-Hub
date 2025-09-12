@@ -33,7 +33,7 @@ represents as much as possible what you can see/understand from the manuscript p
      * [Transcription in Word](Norton-Project/B_1804-03-09_NL_WordTranscript.docx) 
      
 * **Option C**: Letter written on April 25, 1804
-     * [Photo facsimiles](Norton-Project/1804-04-25_NortonLetterPassage.PDF)
+     * [Photo facsimiles](Norton-Project/1804-04-25_NortonLetterPassage.pdf)
      * [Transcription in Word](Norton-Project/1804-04-25_NLP_Transcript.docx)
      
 ### How to do this assignment
