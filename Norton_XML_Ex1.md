@@ -24,17 +24,17 @@ represents as much as possible what you can see/understand from the manuscript p
      * [Photo facsimiles](Norton-Project/A_1804-03-09_pages1-2.pdf) **Heads up!** There is some challenging "cross writing"
      where Norton wrote another paragraph later over top of the first page, and this is 
      not covered in the transcription that we have.
-     * [Transcription in Word](A_1804-03-09_pages1-2_WordTranscript.docx)
+     * [Transcription in Word](Norton-Project/A_1804-03-09_pages1-2_WordTranscript.docx)
      * EXTRA: Here's [another photofacsimile including rest of the super-long letter](A_1804-03-09_completeLetter), in case you are curious or want to figure
      out where the extra portion on our page 1 is coming from.
     
 * **Option B**: The last 2 pages of the same long letter in option A
-     * [Photo facsimiles](B_1804-03-09_NortonLetter.pdf)
-     * [Transcription in Word](B_1804-03-09_NL_WordTranscript.docx) 
+     * [Photo facsimiles](Norton-Project/B_1804-03-09_NortonLetter.pdf)
+     * [Transcription in Word](Norton-Project/B_1804-03-09_NL_WordTranscript.docx) 
      
 * **Option C**: Letter written on April 25, 1804
-     * [Photo facsimiles](1804-04-25_NortonLetterPassage.PDF)
-     * [Transcription in Word](1804-04-25_NLP_Transcript.docx)
+     * [Photo facsimiles](Norton-Project/1804-04-25_NortonLetterPassage.PDF)
+     * [Transcription in Word](Norton-Project/1804-04-25_NLP_Transcript.docx)
      
 ### How to do this assignment
 Take this in stages: 
