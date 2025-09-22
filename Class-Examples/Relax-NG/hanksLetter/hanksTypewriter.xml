@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="hanksClassStarter.rnc" type="application/relax-ng-compact-syntax"?>
+
 <!-- 2024-09-16 ebb: Above is my associated schema line. In oXygen, go to
 Document >> Schema >> Associate Schema. Browse for your .rnc file and associate it,
 and choose Relative file association and Relax NG Compact Syntax.
@@ -7,6 +7,7 @@ oXygen then generates this line for you.
 Use the red checkmark in oXygen to update validation as you make changes
 from here to either the XML or the RelaxNG !
 -->
+<?xml-model href="drbInClass.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <dateLine when="2012-07-13">13 July 2012</dateLine>
     <fw>
