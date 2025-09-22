@@ -1,5 +1,15 @@
 start = twinkie
 twinkie = element xml {dateLine, fw, greeting, p+, closing, signed?, metadata}
+# Here "twinkie" is just a **label** we can use as long as it's consistent.
+# The real element name is xml.
+# The basic way we write these rules in compact syntax is:
+# label = nodetype actualName {labels of contents}
+# Usually we just use the same name of an element or attribute for its label, 
+# but you can play around with this. 
+# Sometimes you actually need to use a label when your contents are reserve words, like 
+# if you have an element named <text>, and text literally means text contents in Relax NG.
+
+
 
 dateLine = element dateLine {when, text}
 datePattern = (xsd:date | xsd:gYearMonth | xsd:gYear)
