@@ -1,0 +1,69 @@
+start = twinkie
+twinkie = element xml {dateLine, fw, greeting, p+, closing, signed?, metadata}
+# Here "twinkie" is just a **label** we can use as long as it's consistent.
+# The real element name is xml.
+# The basic way we write these rules in compact syntax is:
+# label = nodetype actualName {labels of contents}
+# Usually we just use the same name of an element or attribute for its label, 
+# but you can play around with this. 
+# Sometimes you actually need to use a label when your contents are reserve words, like 
+# if you have an element named <text>, and text literally means text contents in Relax NG.
+
+
+
+dateLine = element dateLine {when, text}
+datePattern = (xsd:date | xsd:gYearMonth | xsd:gYear)
+# ebb: I'm just applying my datePattern from the tutorial here. 
+# The above line is not meant to define an element or attribute, 
+# but just a pattern of datatype options for three different standard
+# formats of a date:
+# xsd:date: yyyy-mm-dd
+# xsd:gYearMonth: yyyy-mm
+# xsd:gYear: yyyy 
+
+when = attribute when {datePattern}
+
+fw = element fw {line+}
+line = element line {text}
+
+greeting = element greeting {mixed{ mistake*} }
+
+mistake = element mistake {orig, reg}
+orig = element orig {text}
+reg = element reg {text}
+
+p = element p {mixed{ (rend | mistake)* }}
+rend = element rend {color, mixed{mistake*}}
+color = attribute color { "red" | "blue" | "green" }
+# ebb: This is how to define a limited set of literal values for an attribute. 
+# The `|` pipe means each one is an option.
+
+closing = element closing {text}
+
+signed = element signed {text}
+
+metadata = element metadata {source}
+source = element source {url, empty}
+url = attribute url {xsd:anyURI}
+# ebb: This is a special datatype that expresses the format of a website address or file location
+# Another datatypes commonly used in XML for attribute values might be xsd:integer for a whole number.
+# Look in our tutorial to find more patterns and datatypes you can define in Relax NG: 
+# https://newtfire.org/courses/tutorials/explainRNG.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
