@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/hamiltonODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/hamiltonODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    "Aaron Burr, Sir"
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    by Lin-Manuel Miranda
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    Lyrics provided resourced from http://atlanticrecords.com/HamiltonMusic/
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <head>
+                <title>Aaron Burr, Sir</title>
+            </head>
+            <div type="song">
+                <sp who="#company">
+                    <speaker>COMPANY</speaker>
+                    <l><date>1776</date>. <placeName>New York City</placeName></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Pardon me. Are you <persName ref="#burr">Aaron Burr</persName>, sir?</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>That depends. Who’s asking?</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Oh, well, sure, sir</l>
+                    <l>I’m <persName ref="#hamilton">Alexander Hamilton</persName>, I’m at your
+                        service, sir</l>
+                    <l><seg type="#fiction">I have been looking for you</seg></l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>I’m getting nervous</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Sir…</l>
+                    <l>I heard your name at <placeName>Princeton</placeName>. I was seeking an accelerated course of study
+                        when I got sort of out of sorts with a buddy of yours. I may have punched
+                        him. It’s a blur, sir. He handles the financials?</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l><seg type="#fiction">You punched the bursar</seg></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Yes!</l>
+                    <l><seg type="#fact">I wanted to do what you did. Graduate in two, then join the revolution.</seg> He
+                        looked at me like I was stupid, I’m not stupid</l>
+                    <l>So how’d you do it? How’d you graduate so fast?</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l><seg type="#ambiguous">It was my parents’ dying wish before they passed</seg></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>You’re an orphan. Of course! I’m an orphan</l>
+                    <l>God, I wish there was a war!</l>
+                    <l>Then we could prove that we’re worth more</l>
+                    <l>Than anyone bargained for…</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Can I buy you a drink?</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>That would be nice</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>While we’re talking, let me offer you some free advice</l>
+                    <l>Talk less</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>What?</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Smile more</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Ha</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Don’t let them know what you’re against or what you’re for</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>You can’t be serious</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>You wanna get ahead?</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Yes</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Fools who run their mouths off wind up dead</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Yo yo yo yo yo!</l>
+                    <l>What time is it?</l>
+                </sp>
+
+                <sp who="#mulligan #lafayette #laurens">
+                    <speaker>MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>Show time!</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Like I said…</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Show time! Show time! Yo!</l>
+                    <l>I’m <persName ref="#laurens">John Laurens</persName> in the place to be!</l>
+                    <l>Two pints o’ <persName ref="#sAdams">Sam Adams</persName>, but I’m workin’ on
+                        three, uh!</l>
+                    <l>Those redcoats don’t want it with me!</l>
+                    <l>Cuz I will pop chick-a pop these cops till I’m free!</l>
+                </sp>
+
+                <sp who="#lafayette">
+                    <speaker>LAFAYETTE</speaker>
+                    <l>Oui oui, mon ami, je m’appelle <persName ref="#lafayette">Lafayette</persName>!</l>
+                    <l>The Lancelot of the revolutionary set!</l>
+                    <l>I came from afar just to say “Bonsoir!”</l>
+                    <l>Tell the King “Casse toi!” Who’s the best?</l>
+                    <l>C’est moi!</l>
+                </sp>
+
+                <sp who="#mulligan">
+                    <speaker>MULLIGAN</speaker>
+                    <l>Brrrah brraaah! I am <persName ref="#mulligan">Hercules
+                        Mulligan</persName></l>
+                    <l>Up in it, lovin’ it, yes I heard ya mother said “Come again?”</l>
+                </sp>
+
+                <sp who="#lafayette #laurens">
+                    <speaker>LAFAYETTE/LAURENS</speaker>
+                    <l>Ayyyyy</l>
+                </sp>
+
+                <sp who="#mulligan">
+                    <speaker>MULLIGAN</speaker>
+                    <l>Lock up ya daughters and horses, of course</l>
+                    <l>It’s hard to have intercourse over four sets of corsets…</l>
+                </sp>
+
+                <sp who="#lafayette">
+                    <speaker>LAFAYETTE</speaker>
+                    <l>Wow</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>No more sex, pour me another brew, son!</l>
+                    <l>Let’s raise a couple more…</l>
+                </sp>
+
+                <sp who="#mulligan #lafayette #laurens">
+                    <speaker>MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>To the revolution!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Well, if it ain’t the prodigy of <placeName>Princeton college</placeName>!</l>
+                </sp>
+
+                <sp who="#mulligan">
+                    <speaker>MULLIGAN</speaker>
+                    <l><persName ref="#burr">Aaron Burr</persName>!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Give us a verse, drop some knowledge!</l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Good luck with that: you’re takin’ a stand</l>
+                    <l>You spit. I’m ‘a sit. We’ll see where we land</l>
+                </sp>
+
+                <sp who="#mulligan #lafayette">
+                    <speaker>MULLIGAN/LAFAYETTE</speaker>
+                    <l>Boooo!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l><persName ref="#burr">Burr</persName>, the revolution’s imminent. What do you
+                        stall for?</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>If you stand for nothing, <persName ref="#burr">Burr</persName>, what’ll you
+                        fall for?</l>
+                </sp>
+
+                <sp who="#mulligan #lafayette #laurens">
+                    <speaker>MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>Ooh</l>
+                    <l>Who you?</l>
+                    <l>Who you?</l>
+                    <l>Who are you?</l>
+                    <l>Ooh, who is this kid? What’s he gonna do?</l>
+                </sp>
+            </div>
+        </body>
+        <back>
+            <listEvent><head>Aaron Burr, Sir</head><event xml:id="event08" when="1773-01-01"><label>Hamilton Interested in Attending Princeton</label><desc>In 1773, Hamilton was applying for Princeton.</desc></event>
+                <event xml:id="event09" when="1776-01-01"><label>Hamilton meets Burr, Laurens, Lafayette, and Mulligan</label><desc>The lyrics at the very beginning of the song mark 1776 as the year. The song introduces Hamilton to Aaron Burr, and three other prominent characters in the musical and history, John Laurens, Marquis de Lafayette, and Hercules Mulligan. This date is not historically accurate though as these men all met Hamilton at different times prior to 1776.</desc></event></listEvent>
+        </back>
+    </text>
+</TEI>
