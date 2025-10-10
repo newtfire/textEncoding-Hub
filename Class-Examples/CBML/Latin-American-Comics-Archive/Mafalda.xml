@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               MAFALDA 
+            </title>        
+            <author>Quino</author>            
+         </titleStmt>
+         <publicationStmt>
+            <publisher> XXXXX </publisher>
+            <pubPlace>Argentina</pubPlace>
+            <date> Oct-Nov 1964 </date>
+            <authority>Unknown</authority>
+            <availability status="restricted">  
+               <p>Available for academic research purposes only.</p> 
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Scanned and put online by XXXXXXXXX </note>
+         </notesStmt>
+         <sourceDesc>
+            <p>XXXXXXXXXX </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <namespace name="http://www.cbml.org/ns/1.0">
+              <tagUsage gi="cbml:panel"></tagUsage>
+              <tagUsage gi="cbml:caption"></tagUsage>
+           </namespace>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>     
+     <body>
+           <div type="panelGrp" xml:id="eg_0001">
+              <cbml:panel n="1" characters="#mafalda #father">
+                 <cbml:balloon type="speech" who="#mafalda">
+                    DECIME, ¿QUIÉN 
+                    ES ESTE PETISO
+                    TODO EMPON-
+                    CHADO?
+                 </cbml:balloon>
+                 <cbml:balloon type="speech" who="#father">
+                    ES NAPOLEÓN,
+                    CUANDO INVA-
+                    DIÓ RUSIA         
+                 </cbml:balloon> 
+                 <note type="panelDesc"> Mafalda and her father are chatting in the living
+                    room. Mafalda is showing him a page from a book. He looks at it while
+                    sitting on a chair and holding a folded newspaper. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="2" characters="#mafalda #father">
+                 <cbml:balloon type="speech" who="#mafalda"> 
+                    <emph rendition="#b #large">
+                       ¿RUSIA? INVADIÓ 
+                       RUSIA?
+                    </emph>
+                 </cbml:balloon>
+                 <cbml:balloon type="speech" who="#father">
+                    AJHÁ                    
+                 </cbml:balloon>
+                 <note type="panelDesc"> Mafalda's eyes and mouth are wide open in amazement.
+                    Her father is back to reading the newspaper, which now covers his face. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="3" characters="#mafalda">
+                 <cbml:balloon type="thought" who="#mafalda">   
+                    ¡SALUTE!                  
+                 </cbml:balloon>      
+                 <note type="panelDesc"> MCU of Mafalda's head as she covers her mouth and
+                    stares in thoughtful pose. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="4" characters="#mafalda #father">              
+              <cbml:balloon type="speech" who="#mafalda">
+                 ¡OTRA QUE 
+                 GOLDWATER!
+              </cbml:balloon>
+                 <fw type="sig" place="lower-right">
+                    QUINO
+                 </fw>
+              <note type="panelDesc"> WS of Mafalda and her father in the living room. 
+                 Mafalda's eyes are once again wide open in amazement. She holds the closed
+                 book in her left hand and touches her chin with the right. Her father has
+                 put down the newspaper again and stares ahead in confusion or amazement. 
+              </note>  
+           </cbml:panel>
+              <note type="bibl">
+                 27 octubre ‘64
+              </note> 
+        </div>        
+        <div type="panelGrp" xml:id="eg_0002">             
+              <cbml:panel n="1" characters="#father #mother">
+              <cbml:balloon type="speech" who="#father"> 
+                 ¡LA VERDAD ES QUE ESTOS   <lb/>
+                 CHINOS PODRÍAN DEJARSE   <lb/>
+                 DE MACANAS!
+              </cbml:balloon>
+                 <note type="panelDesc"> WS of Mafalda's parents in the living room. Father
+                    is sitting and reading the newspaper as he comments. Mother sews in the
+                    backgroung on the right of the frame. 
+                 </note> 
+              </cbml:panel> 
+              <cbml:panel n="2" characters="#mafalda #father #mother">           
+              <cbml:balloon type="speech" who="#mafalda">
+                 <emph rendition="#b #extra_large">
+                 ¡BOOM!
+                 </emph>
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows Mafalda making a loud explosion noise in
+                 the living room as her father scrambles for cover and her mother looks
+                 from the background with big, shocked eyes. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="3" characters="#father #mother #mafalda">           
+           <cbml:balloon type="speech" who="#mafalda">                 
+                 ¡PSICOSIS COLECTIVA!
+           </cbml:balloon> 
+              <fw type="sig" place="lower-right">
+                 QUINO
+              </fw>
+           <note type="panelDesc"> WS of the living room. Mafalda walks out toward the right
+              of the frame while her parents watch from the left with an angry expression. 
+           </note>                  
+           </cbml:panel>
+           <note type="bibl">
+              27 octubre ‘64
+           </note>
+        </div>
+        <div type="panelGrp" xml:id="eg_0003"> 
+           <cbml:panel n="1" characters="#father">
+              <cbml:balloon type="speech" who="#father"> 
+                 ¡NO HAY COMO UN BUEN HOBBY   <lb/>
+                 PARA OLVIDARSE DEL MUNDO Y  <lb/>
+                 SUS PROBLEMAS!                 
+              </cbml:balloon>                   
+              <note type="panelDesc"> WS shows father spraying his plants on his knees. He
+                 is smiling and look very calm.
+              </note>                           
+           </cbml:panel>
+           <cbml:panel n="2" characters="#father">
+              <sound rendition="#b #large"> 
+                 ¡CHIST!
+              </sound>                       
+              <note type="panelDesc"> Father hears a sound and turns his head 
+                 to look behind him.                
+              </note>              
+           </cbml:panel>
+           <cbml:panel n="3" characters="#father #mafalda">
+              <note type="panelDesc"> OSS shows Mafalda from behind her father's head. 
+                 She is stretching her eyes and smiling, as if to look Asian. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#father">                
+              <note type="panelDesc"> WS shows father sitting among his plants with extra wide
+                 eyes giving him a nervous and worried look. He still holds the spray pump 
+                 in his right hand, and is holding his head with his left. 
+              </note>            
+           <fw type="sig" place="lower-right">
+              QUINO
+           </fw>                  
+           </cbml:panel>
+           <note type="bibl">
+              3 noviembre ‘64
+           </note>
+        </div>    
+        <div type="panelGrp" xml:id="eg_0004"> 
+           <cbml:panel n="1" characters="#mafalda #father">
+              <cbml:balloon type="speech" who="#mafalda">  
+                 ¡DAME PARA  <lb/>
+                 CARAMELOS!  <lb/>
+                 ¡ANDÁ, CHE,  <lb/>
+                 VAMOS! 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#father"> 
+                 ¡NO, PORQUE  <lb/>
+                 DESPUÉS NO  <lb/>
+                 COMÉS!
+              </cbml:balloon> 
+              <note type="panelDesc"> WS of Mafalda standing behind her father with a demanding
+                 look and extending her palm. Her father stands in front of the mirror while he
+                 shaves with an electric shaver. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#mafalda #father">
+              <cbml:balloon type="speech" who="#mafalda">  
+                 ¡ASÍ ES LA COSA! TOTAL… UN  <lb/>
+                 DÍA LOS CHINOS SE LEVANTAN   <lb/>
+                 ATRAVESADOS  <lb/>
+                 Y ¡PATAPÚM!
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows Mafalda speaking with her arms open. Her
+                 father glances back at her while he continues shaving. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#mafalda #father">
+              <cbml:balloon type="speech" who="#mafalda"> 
+                 …Y UNA POBRE NENITA DEJA   <lb/>
+                 ESTE MUNDO CON  <lb/>
+                 LA AMARGURA  <lb/>
+                 DE QUE LE NE-  <lb/>
+                 GARAN UNOS   <lb/>
+                 INOCENTES  <lb/>
+                 CARAMELOS!
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows Mafalda with a dramatic and sad face. Her
+                 right hand now rests on her chest. Her father has interrupted his shave
+                 and now has wide eyes indicative of a perplexed expression. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="4" characters="#mafalda">
+              <cbml:balloon type="speech" who="#mafalda"> 
+                 FRANCAMENTE, NO VEO   <lb/>
+                 QUE LOS CHINOS SEAN  <lb/>
+                 TAN ABOMINABLES.
+           </cbml:balloon>
+           <fw type="sig" place="lower-right">
+              QUINO
+           </fw>
+              <note type="panelDesc"> Panel shows Mafalda sitting with a happy and satisfied
+                 look on her face as she licks her lips among candy and wrappers. 
+              </note>
+           </cbml:panel>               
+           <note type="bibl">
+                 3 noviembre ‘64
+           </note>            
+        </div>
+        <pb/>    
+      </body>
+      </text>
+</TEI>

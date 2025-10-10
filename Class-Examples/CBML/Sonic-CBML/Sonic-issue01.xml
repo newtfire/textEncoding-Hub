@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sonic the Hedgehog #01</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>IDW Publishing</publisher>
+            <pubPlace>U.S.A.</pubPlace>
+            <date when="2018">April, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retrieved from Grabber Zone
+               (https://grabber.zone/comics/sonic-idw/2018-2019-neo-metal-sonic-saga/sonic-the-hedgehog-01/),
+               an online Sonic comic collection gathered for educational purposes</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.cbml.org/ns/1.0">
+               <tagUsage gi="cbml:panel"/>
+               <tagUsage gi="cbml:caption"/>
+            </namespace>
+         </tagsDecl>
+         <p>
+            <note type="encoding_clarification">A value of 'NNC' for the cbml:panel element's
+               @characters attribute is an acronym standing for No Named Characters, meaning no
+               characters with names appeared in the panel.</note>
+            <note type="encoding_clarification">A value of '???' for the cbml:balloon's @who element
+               means that the speaker of the line is unknown or unclear for some reason. In certain
+               scenes, the comic might be implying a line is said by a character, but really have it
+               be a different character.</note>
+            <note type="encoding_clarification">A '(?)' within a note with a type value of
+               'panelDesc' means that the encoding author saw something unidentifiable, or else is
+               unsure of their own identification.</note>
+            <note type="encoding_author">Encoded by Reece Cullen, Alyssa Hopple, and Kayla
+               Hopple.</note>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page" xml:id="pg_01">
+            <p rend="cornerBox"><desc>A small corner box at the top left of the comic
+               cover.</desc>IDW <lb/>ISSUE <lb/>1 <lb/>COVER A</p>
+            <p rend="title"><desc>The word 'Sonic' is in big gold and blue lettering, 'The Hedgehog'
+                  is in white on a red backdrop</desc>SONIC<lb/>THE HEDGEHOG</p>
+            <figure type="coverPage">
+               <figDesc>Sonic is pictured in front of Green Hill Zone, with Tail flying behind him.
+                  Sonic is posed with one leg forward and one arm crossed in front of him, holding
+                  up one finger. Tails is gliding with his tails spinning and arms outstretched.
+                  Small blue birds fly around the two of them.</figDesc>
+            </figure>
+            <p>SEGA</p>
+         </div>
+         <div type="page" xml:id="pg_02">
+            <figure type="render">
+               <figDesc>A render of Sonic pointing forwards poking out of a red and blue star is
+                  centered on the page, framed with small golden rings</figDesc>
+            </figure>
+            <p rend="credits">Written by Ian Flynn Pencils yb Tracy Yardley Inks by Jim Amash &amp;
+               Bob Smith <lb/>Colors by Matt Herms Letters by Corey Breen <lb/>Edited by Joe Hughes
+               &amp; David Mariotte Published by Greg Goldstein</p>
+            <p>Special thanks to Anoulay Tsai, Mai Kiyotaki, Aaron Webber, Michael Cisneros,
+               <lb/>Sandra Jp, and everyone at Sega for their invaluable assistance. For
+               international rights, contact licensing@idwpublishing.com</p>
+            <p>IDW<lb/>www.IDWPUBLISHING.com</p>
+            <p>Greg Goldstein, President &amp; Publisher • Robbie Robbins, EVP &amp; Sr. Art
+               Director • Matthew Rozicka, CPA, Chief Financial Officer • David Hedgecock,
+               <lb/>Associate Publisher • Laurie Windrow, Sr. VP of Sales &amp; Merketing • Lorelei
+               Bunjes, VP of Digital Services • Jerry Bennington, VP of New Product <lb/>Development
+               • Eric Moss, Sr. Director, Licensing &amp; Business Development <lb/>Ted Adams,
+               Founder &amp; CEO of IDW Media Holdings </p>
+            <p>SEGA</p>
+            <p>Facebook: facebook.com/idwpublishing • Twitter: @idwpublishing <lb/>YouTube:
+               youtube.com/idwpublishiing Tumblr: tumblr.idwpublishing.com <lb/>Instagram::
+               instagram.com/idwpublishing <figure type="logo"><figDesc>Logos for FaceBook, Twitter,
+                     YouTube, Tumblr, and Instagram appear from left-to-right</figDesc></figure></p>
+            <p>SONIC THE HEDGEHOG #1. APRIL 2018. FIRST PRINTING. © SEGA. Sega, the SEGA logo and
+               SONIC THE HEDGEHOG are either registered trademarks or trademarks of SEGA Holdings
+               Co., Ltd. or its affiliates. All rights reserved. SEGA <lb/>is registered in the U.S.
+               Patent and Trademark Office. All other trademarks, logos and copyrights are property
+               of their respective owners. © 2018 Idea and Deign Works, LLC. All Rights Reserved.
+               IDW Publishing, a division of Idea and <lb/>Design Works, LLC. Editorial officesL
+               2765 Truxton Road, San Diego, CA 92106. The IDW logo is registed in the U.S. Patend
+               and Trademark Office. Any similarities to persons living or dead are purely
+               coincidental. With the exception of <lb/>artwork used for review purposed, none of
+               the contents of this publication may be reprinted without the permission of Idea and
+               Design Works, LLC. Printed in Canada. IDW Publishing does not read or accept
+               unsolicited submissions of <lb/>ideas, stories, or artwork.</p>
+         </div>
+         <div type="page" xml:id="pg_03">
+            <cbml:panel n="1" characters="#sonic #narrator">
+               <cbml:caption>Sonic the Hedgehog has spent years fighting the forces of Dr.
+                  Eggman.</cbml:caption>
+               <note type="panelDesc">Within the Final Egg, Sonic faces off with the Egg Viper, an
+                  enormous serpentine robot piloted by Dr. Eggman.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #narrator">
+               <cbml:caption>Time and time again, the mad doctor attacks, Sonic strikes back, then
+                  relaxes until Eggman returns.</cbml:caption>
+               <note type="panelDesc">Atop the Final Forretress, Sonic battles the Egg Emperor, a
+                  humanoide mecha equipped with a lance and shield.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #narrator">
+               <cbml:caption>But after their last battle...</cbml:caption>
+               <note type="panelDesc">Sonic stares down the Egg Dragoon, a flying robot with laser
+                  wings and an imposing gatling gun arm.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #narrator">
+               <cbml:caption>...Dr. Eggman vanished...</cbml:caption>
+               <note type="panelDesc">Against an overcast sky, Sonic fights the Death Egg Robot, a
+                  bulbous robot with a single glassy eye-like fixture and numerous tentacle
+                  appendages.</note>
+            </cbml:panel>
+            <cbml:panel n="x" characters="#sonic">
+               <note type="panelDesc">Within the gutters of the page's other panels, Sonic is framed
+                  from the front, running forward with a determined look on his face.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_04">
+            <cbml:panel n="1" characters="#narrator #sonic">
+               <cbml:caption>...But his robot army did not!</cbml:caption>
+               <cbml:balloon type="speech" who="#sonic">Whuh-oh- That doesn't look
+                  good.</cbml:balloon>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
+                  fight. I hope they don't mind me lending a hand!</cbml:balloon>
+               <note type="panelDesc">Placing one hand on the ground, Sonic starts running in place,
+                  his legs becoming a red blur.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic speeds into the distance, leaving an elongated dust
+                  cloud behind him. It's clear that the doors of the city have been blown wide
+                  open.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_05">
+            <cbml:panel n="1">
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">Run! Get to the storm
+                  bunker!</cbml:balloon>
+               <note type="panelDesc">A town resident holding a Cube Wispon distressedly directs
+                  other unarmed residents away from approaching robots.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="NNC">
+               <note type="panelDesc">The resident brandishes his weapon, shaking in fear. An Egg
+                  Pawn looms closer.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="NNC">
+               <sound>SOK</sound>
+               <note type="panelDesc">The Egg Pawn knocks the Cube Wispon out of the resident's
+                  hands.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="NNC">
+               <note type="panelDesc">Numerous Egg Pawns approach the fallen resident, who cowers on
+                  the ground.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic appears as a blue blurring ball, bouncing between each
+                  of the Egg Pawns and smashing them to pieces.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_06">
+            <cbml:panel n="1" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Hey! You hurt?</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">N-not really.
+                  You're...You're <emph rendition="bold">Sonic!</emph></cbml:balloon>
+               <note type="panelDesc">Sonic extends a hand to the resident, picking up the Cube
+                  Wispon too.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">The one and only. Here you go. Try swinging
+                  it at the robots next time. I knew somebody who put it to good use.</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">N-not really.
+                  You're...You're <emph rend="bold">You're...<emph rend="bold">THE</emph></emph>
+                  Sonic!</cbml:balloon>
+               <note type="panelDesc">Sonic hands the Wispon back to the resident, who stands
+                  nervously.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Maybe get inside, buddy. Nice chat! Need to
+                  save your town. Bye!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">O-okay!</cbml:balloon>
+               <note type="panelDesc">The resident watches as Sonic dashes around a corner.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Sweet! The town militia! Bots coming in from
+                  the north! You've got a guy holding his own out there!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_militia_cat">O-okay! We're on
+                  it!</cbml:balloon>
+               <note type="panelDesc">Sonic dashes past three armed animals, a cat, a dog (?) and a
+                  rabbit, who appear worried.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_07">
+            <cbml:panel n="1" characters="NNC">
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_b">Hurry up! They're closing
+                  in!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_c">I'm trying! It's
+                  stuck!</cbml:balloon>
+               <note type="panelDesc">A blue bird strugles to open a hatch on the ground while a red
+                  fox (?) panics, watching a line of Motobugs drive closer.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <sound>WHOOSH</sound>
+               <note type="panelDesc">Sonic runs through the Motobugs, knocking them all
+                  aside.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">As he skids to a stop, Sonic strikes a pose, winking and
+                  flashing two finger guns. The residents stand in awe.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <sound>FASSSH</sound>
+               <note type="panelDesc">Sonic dashes off the right side of the panel, throwing up dirt
+                  behind him.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="NNC">
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_b">...All this terror might
+                  be worth it if I get to say Sonic winked at me!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_c">I hope we survive long
+                  enough to get his autograph!</cbml:balloon>
+               <note type="panelDesc">The residents, much calmer now, are very impressed by
+                  Sonic.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_08">
+            <cbml:panel n="1" characters="#sonic">
+               <sound>WHAM</sound>
+               <sound>REEEEEEEEEEEEEEEECH</sound>
+               <note type="panelDesc">An enormous hammerhead slams into the ground right in front of
+                  Sonic, as he screeches to a stop, looking disappointed.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Oh hey, another hammer-guy. I liked the
+                  earlier one better.</cbml:balloon>
+               <note type="panelDesc">Sonic stands in front of an Egg Hammer, an imposing robot the
+                  size of a building, with a hammer just as tall.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic spin dashes into the Egg Hammer multiple times, forcing
+                  him to step back. More Egg Hammers lurk behind the corner.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Where ya goin'?</cbml:balloon>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Jumping off of a window ledge, Sonic launches himself at the
+                  Egg Hammer, who begins to raise their hammer.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_09">
+            <cbml:panel n="1" characters="#sonic">
+               <sound>SMASH</sound>
+               <note type="panelDesc"> Sonic tries to attack the Egghammer by spin-dashing into him,
+                  but the Egghammer deflects Sonic with the handle of his hammer.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> C'mon, big guy! Swing batta-batta-batta-- </cbml:balloon>
+               <note type="panelDesc"> Sonic stands on top of a manhole cover, the Egg Hammer behind
+                  him </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> --Swing? </cbml:balloon>
+               <note type="panelDesc"> Sonic is surprised that he is surrounded by more than one
+                  Egghammer. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> Yeah, okay, this one's on me. </cbml:balloon>
+               <note type="panelDesc"> Four Egg Hammers surround Sonic, who stands crossing his
+                  arms.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_10">
+            <cbml:panel n="1" characters="NNC">
+               <sound>WHAM</sound>
+               <sound>WHAM</sound>
+               <sound>WHAM</sound>
+               <sound>WHAM</sound>
+               <note type="panelDesc"> The four Egghammers pound their hammers onto the floor.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> ♫ </cbml:balloon>
+               <note type="panelDesc"> Sonic lifts up a manhole and whistles, getting an Egg
+                  Hammer's attention.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> "Hedgehog." Noun. A burrowing animal. </cbml:balloon>
+               <note type="panelDesc"> Sonic pokes his upper body out of the manhole. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> Whoa! You guys can really move when you
+                  want to! </cbml:balloon>
+               <note type="panelDesc"> The Egghammers chase down Sonic as he runs away.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <note type="panelDesc"> One of the Egghammers is drops its hammer down onto
+                  Sonic.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_11">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic"> Tails! </cbml:balloon>
+               <cbml:balloon type="speech" who="#tails"> Could you not risk your life for five
+                  minutes? </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> Sure, but where's the fun in that? </cbml:balloon>
+               <note type="panelDesc"> Tails saves Sonic from the Egghammer's swinging attack,
+                  flying the two of them away. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic"> Seriously though, thanks for the save. </cbml:balloon>
+               <cbml:balloon type="speech" who="#tails"> My pleasure! </cbml:balloon>
+               <note type="panelDesc">Tails drops Sonic on a rooftop </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails"> What's the status of the town? </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> A bunch of small-fry Badniks. I took care
+                  of most of them, and the town's militia can handle the rest. </cbml:balloon>
+               <note type="panelDesc"> Tails looks into the distance, Sonic, standing next to him,
+                  rubs his nose.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic"> Those Super Badniks are another story. </cbml:balloon>
+               <note type="panelDesc"> The Egghammers are proceeding across the town.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails"> Those are better left to the professionals! </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> Let's show 'em how it's done! </cbml:balloon>
+               <note type="panelDesc"> Sonic grins as he takes Tails' hands.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_12">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <note type="panelDesc"> Sonic and Tails roll off the roof of a building, charging up
+                  their spin dashes. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <sound> SMASH </sound>
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic and Tails' spin dash carves through the ground, then
+                  into an Egghammer, snapping its hammer. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <sound> FASSSH </sound>
+               <note type="panelDesc"> Sonic and Tails destroy the Egghammer by spin-dashing through
+                  the Egghammer's armor. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <sound> K-ZZOTTTT </sound>
+               <note type="panelDesc"> Sonic and Tails detatch from eachother and fall towards the
+                  ground as the Egghammer gets ripped in half. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <note type="panelDesc"> Sonic and Tails strike an epic pose as they look at each
+                  other. The Egghammer explodes in the background. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_13">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <note type="panelDesc"> Sonic and Tails find another Egghammer, and they chase it
+                  down. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <note type="panelDesc"> While the Egghammer swings its gigantic hammer at Tails,
+                  Tails flies low and reaches to pick Sonic up.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <note type="panelDesc"> Tails throws Sonic into the Egghammer, bending the
+                  Egghammer's nose. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Tails whacks the Egghammer's hammer out of its hands, and
+                  Sonic takes the Egghammer's nose off of its face. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_14">
+            <cbml:panel n="1" characters="#sonic">
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic proceeds to attack another Egghammer, launching himself
+                  towards its head. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <sound> SMASH </sound>
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic bounces off the Egghammer's hammer, making it trip
+                  itself, while Tails watches from above. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic and Tails land the coup-de-grace to the Egghammer,
+                  felling it. Sonic flashes a double thumbs-up. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails"> This would be going a lot faster if we had
+                  Knuckles with us. </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> Naaaah, we're doing fine! </cbml:balloon>
+               <note type="panelDesc"> Tails is visibly tiring above Sonic, who seems calm and
+                  relaxed.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_15">
+            <cbml:panel n="1" characters="#tails #egg-hammers">
+               <cbml:balloon type="speech" who="#tails">The remaining robots are making a run for
+                  it!</cbml:balloon>
+               <note type="panelDesc">Tails points at the fleeing Egg Hammer, Motobugs, and Egg
+                  Pawns</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">We can't risk them attacking another town.
+                  You cut them off! I'll handle the Super Badnik!</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">On it!</cbml:balloon>
+               <note type="panelDesc">Sonic and Tails charge toward foward, determined expressions
+                  on their faces</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic smashes into one of the Egg Hammers' ankle, crushing
+                  it.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic dodges the Egg Hammer's attack by bouncing off a
+                  rooftop.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <note type="panelDesc">Sonic runs up the Egg Hammer's hammer's handle</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_16">
+            <cbml:panel n="1" characters="#sonic">
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic speeds through the Egg Hammer's head, breaking it in
+                  half.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <note type="panelDesc">As the destroyed Egg Hammer falls, Sonic starts to land on the
+                  ground unharmed.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic sticks his landing as the Egg Hammer impales its
+                  deactivated body through its hammer.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#tails">
+               <note type="panelDesc">Tails flies to the top of a chain lift system that is conected
+                  to a massive door.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">They're almost out! C'mon, Tails! Hurry
+                  up!</cbml:balloon>
+               <note type="panelDesc">Sonic yells to Tails to close the door.</note>
+            </cbml:panel>
+            <cbml:panel n="6" characters="#tails">
+               <cbml:balloon type="speech" who="#tails">Oh ye of little faith...</cbml:balloon>
+               <note type="panelDesc">Tails begins to pull a lever.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_17">
+            <cbml:panel n="1" characters="NNC">
+               <note type="panelDesc">The door swings shut ahead of the fleeing Badnicks</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="NNC">
+               <note type="panelDesc">Three Motobugs crash into the door as it slams shut in front
+                  of them.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic runs past some Egg Pawns ad Motobugs as he watches them
+                  fall apart from running into the shut door.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails">Well?</cbml:balloon>
+               <note type="panelDesc">Tails hovers smugly as Sonic approaches the destroyed
+                  Badnicks</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Expertly done. Bonus points for dramatic
+                  timing.</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">Thank you, thank you.</cbml:balloon>
+               <note type="panelDesc">Sonic praises Tails for helping him destroy the remaining
+                  Badniks, clapping as Tails bows.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_18">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Another day saved thanks to <emph
+                     rend="bold">Sonic</emph> and <emph rend="bold">Tails!</emph> These rogue robots
+                  are more like pests than anything.</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">Normally I'd agree...</cbml:balloon>
+               <note type="panelDesc">Sonic stretches proudly while Tails crosses his arms
+                  concernedly.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails">...but this was a much more coordinated
+                  attack. At least compared to anything we've seen lately.</cbml:balloon>
+               <note type="panelDesc">Tails gestures to a broken Motobug.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Really? I hadn't noticed.</cbml:balloon>
+               <note type="panelDesc">Sonic grins at Tails while picking at his teeth. Tails stands
+                  with his hands on his hips.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <note type="panelDesc">Tails looks frustratedly at Sonic because Sonic still does not
+                  understand what went on.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Okay--<emph rend="bold">FINE</emph>--the Egg
+                  Hammers were new to the mix.</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">That's not what I mean.</cbml:balloon>
+               <note type="panelDesc">Sonic shrugs while Tails glares at him</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_19">
+            <cbml:panel n="1" characters="#tails">
+               <cbml:balloon type="speech" who="#tails">After we beat Dr. Eggman and his forces, we
+                  broke the Eggman Empire's control over our world.</cbml:balloon>
+               <note type="panelDesc">As Tails explains to Sonic why the Badnik attack happened, in
+                  the background, we see a view of the fortress town with a sepia tone to introduce
+                  a flashback.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#tails">
+               <cbml:caption type="speech" who="#tails">"The Badnik army remained, but not as a
+                  unified threat. Any attacks seemed more like accidents than
+                  aggression."</cbml:caption>
+               <note type="panelDesc">We see a sepia-toned flashback of two Motobugs bumping into
+                  each other and an Egg Pawn walking on a cliff.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#tails">
+               <cbml:balloon type="speech" who="#tails">But today--unified troop movements? Super
+                  Badniks being deployed? Setting up ambushes? <emph rend="bold">Something</emph> is
+                  making Eggman's army more cohesive.</cbml:balloon>
+               <note type="panelDesc">Tails gestures behind him while raising an eyebrow.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Points taken. Do you think Eggman is
+                  back?</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">Without so much as an angry vlog? No way.
+                  After that last defeat, he'd make sure we <emph rend="bold">knew</emph> he was
+                  back. The lack of fanfare is spooky.</cbml:balloon>
+               <note type="panelDesc">Sonic taps his foot while Tails paces, both thinking.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_20">
+            <cbml:panel n="1" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">In that case, I'll just keep doing what I've
+                  been doing. Those Badniks <emph rend="bold">are</emph> a threat to everyone,
+                  organized or not. I'll keep traveling around, smashing every one I
+                  see.</cbml:balloon>
+               <note type="panelDesc">Sonic stretches his arm while smiling confidently.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails">Yeah, but if they are getting orders from
+                  someone...</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Then it'll make it more fun!</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">J-Just...be careful, okay?</cbml:balloon>
+               <note type="panelDesc">As Sonic stretches, Tails scratches his head while looking
+                  concerned.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="tails">If you get caught off-guard again...get
+                  hurt...</cbml:balloon>
+               <note type="panelDesc">Tails turns away from Sonic. Sonic looks surprised.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <note type="panelDesc">Sonic notices Tails feels worried.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Hey. Sure, we've had some close calls. But
+                  we've come out of it fine in the end, right?</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">Yeah, I guess.</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">I'll be careful. I promise.</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">...Okay. Thanks Sonic.</cbml:balloon>
+               <note type="panelDesc">Sonic puts his hand on Tails' shoulder. Tails looks
+                  calmer.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_21">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">If you're so worried, you can always come
+                  with me.</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">Yeah! Just like old times
+                  and-!</cbml:balloon>
+               <note type="panelDesc">Sonic and Tails' silouhettes are shown, Sonic's gesturing
+                  explainedly.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#tails">
+               <note type="panelDesc">Tails looks behind him, at the vista's destruction and two
+                  residents crying while holding each other.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#tails">
+               <note type="panelDesc">Tails looks down, thinking to himself.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#tails">
+               <note type="panelDesc">Tails closes his eyes and smiles confidently.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails">There's too many Badnik gangs out there.
+                  You'll find them faster on your own. I'll stay here and help the locals rebuild
+                  their town.</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">You're a class act, buddy. We'll bash bots
+                  some other time.</cbml:balloon>
+               <cbml:balloon type="speech" who="#tails">Deal!</cbml:balloon>
+               <note type="panelDesc">Tails gestures to the damaged town. Sonic gives him a
+                  thumbs-up.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_22">
+            <cbml:panel n="1" characters="#sonic">
+               <note type="panelDesc">As Sonic runs away from the vista, an Egg Flapper is seen
+                  hovering above.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="NNC">
+               <note type="panelDesc">In a close-up of the Flappers face, a red cross-hair appears
+                  on its visor.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:caption type="speech" who="???" rend="blue text">"So...he survived the first
+                  trial. Unsurprising."</cbml:caption>
+               <note type="panelDesc">Sonic is highlighted in a red crosshair, his picture being
+                  zoomed into focus.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="???" rend="blue text and balloon">Deploy a battalion
+                  to the next nearest town. He'll be drawn to it like a moth to a
+                  flame.</cbml:balloon>
+               <note type="panelDesc">A large chair is shown from behind, bearing Dr. Eggman's
+                  signature symbol. Sonic is being observed on the monitor in front of the chair.
+                  Amy is visible on another monitor to the left.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="???" rend="blue text">Make sure word of Sonic's
+                  latest success reaches the Resistance. I want to crush <emph rend="bold"
+                     >both</emph> headgehogs in one strike.</cbml:balloon>
+               <cbml:caption type="teaser"><emph rend="blue geometric lettering">Next time:</emph>
+                  Can <emph rend="jagged lettering with red accents">LOVE</emph> hammer it out <emph
+                     rend="large geometric lettering">ON THE BATTLEFIELD?</emph></cbml:caption>
+               <note type="panelDesc">A picture of Amy is shown zoomed in on a monitor.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_23">
+            <figure type="render">
+               <figDesc>A render of Sonic standing and gesturing in a presenting fashion</figDesc>
+            </figure>
+            <p><desc>Sonic is in blue and gold lettering, Letters Squad in white, all on a red
+                  backdrop</desc>Sonic Letters Squad</p>
+            <p rend="blue text">Hello to all the Sonic fans new and old and welcome to the first
+               issue of <emph rend="italic">Sonic the Hedgehog</emph> from IDW publishing! It's a
+               monumental issue as your favorite blue blur and his best buddy Tails race into a new
+               adventure... with the ever-capable Ian Flynn, Tracy Yardley, Jim Amash, Bob Smith,
+               Matt Herms, and Corey Breeen bringing you our stellar first issue. But enought talk!
+               Let's get to what you came here for. We asked and you delivered, so here are some fan
+               letters nad the first batch of fan art!</p>
+            <figure type="fanwork">
+               <figDesc>Fanart of super sonic charging up an energy blast against a space
+                  backdrop.</figDesc>
+            </figure>
+            <p>My boyfriend and I have been huge fans of Sonic since we were young! We collaborate
+               on artwork often and this is one of our proudest creations, and would love to see it
+               in print. an't wait to buy and read the comics! Lourdes M.</p>
+            <figure type="fanwork">
+               <figDesc>Fanart of Sonic, Shadow, and Rouge drawn in the style of the 80's Sonic
+                  cartoon</figDesc>
+            </figure>
+            <p>Hi, Looking forward to the new series. I've attatched a piece of fan art I've done.
+               Peace! Billy Kurtz</p>
+            <p rend="blue text">This one's extra special as Billy's piece is the first one to arrive
+               when the call went out on the IDW Sonic Comic Squad Facebook group!</p>
+            <p>Good Evening, guys! I'm Rena Rose, I'm a cosplayer from Argentina! I belong to Sonic
+               Team Argentina, one of the most important Argentinian pages reqarding Sonic news and
+               content. Cosplaying Sonic characters is super FUN! I hope to cosplay more characters!
+               I learned to sew 5 years ago to make my own costumes and I've won many cosplay</p>
+         </div>
+         <div type="page" xml:id="pg_24">
+            <p>competitions in Argentina. My favorite character to cosplay is Amy Rose. She's so
+               cool! &lt;3 I submited photos for publication. I'm looking forward to reading the new
+               Sonic comics! Thank you for your time. Best Wishes, Rena Rose</p>
+            <figure type="fanwork">
+               <figDesc>A picture of a woman is shown cosplaying Amy Rose, complete with a giant
+                  hammer.</figDesc>
+            </figure>
+            <p rend="blue text">And Rena was the first cosplayer to send in some pictures! If you'd
+               like your fanart, cosplay pictures, or letters to show up in this very space, send
+               them to <emph rend="red text">letters@idwpublishing.com</emph>, include your name,
+               and mark them "OKAY TO PRINT!" Also, don't forget to join the IDW Sonic Comics Squad
+               Facebook roup to see even more amazing art and keep up-to-date with all the latest
+               infor on your favorite comic! We'll see you back here with more letters and more fan
+               art... NEXT WEEK?!? WHAT?!? -Joe Hughes and David Mariotte</p>
+            <p rend="white text on red background">Top: Art by Chase Connolly. Bottom: Art by Abel
+               Muniz, Jr.</p>
+            <figure type="fanwork">
+               <figDesc>A drawing of a robotic Big the Cat is displayed, with red eyes and sharp
+                  claws and ears. The picture is captioned: 'Metal Big the Cat!' and the robot has a
+                  balloon saying: 'Sonic and friends, I will conquer you and everything below the
+                  sun!'</figDesc>
+            </figure>
+            <figure type="fanwork">
+               <figDesc>Art of Sonic in his classic double finger-gun pose is shown, in a stylish
+                  matte-colored rendition.</figDesc>
+            </figure>
+         </div>
+      </body>
+   </text>
+</TEI>
