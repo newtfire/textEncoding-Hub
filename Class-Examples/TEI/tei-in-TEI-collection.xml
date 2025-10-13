@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend Calendar Collection for the year 1909</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>This collection of files is "born digital"</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The physical source is a collection of calendar sheets stored at Penn State Behrend's Lilley Library.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Mary Behrend Calender Sheets</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Mary Behrend</p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Copyright 1908, By Friendship Calendar Co. New Britain, Conn.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head><date when-iso="1909-03-12">March 12, 1909.</date> Friday</head>
+            <p>Molly On Snowshoes That Mr. Weir Got. Pretty Picture Is It Not?!</p>
+         </body>
+      </text>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Mary Behrend's Calender Sheetes</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Mary Behrend</p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Copyright 1908, By Friendship Calendar Co. New Britain, Conn.</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head><date when-iso="1909-03-17">March 17, 1909</date>. Wednesday St. Patrick's Day</head>
+            <p>St. Patrick Was A Useful Saint He Frightened All The Saints Away- I Wish He'd Try His
+               Art On Smoke Around The Hammermill Some Day!</p>
+         </body>
+      </text>
+   </TEI>
+   
+   
+   
+</TEI>
