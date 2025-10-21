@@ -24,7 +24,7 @@
            <list> <item>Removed Relax NG from content models.</item>
               <item>Removed unused divGen and updated ODD
                elements to current tagdocs specs.</item>
-               <item>Removed <gi>xenoData</gi> from teiheader module due to strange error with conflicting ids in generated Relax NG.</item>
+               <item>Modified <gi>xenoData</gi> from teiheader module to include all except the CBML namespace, due to error with conflicting ids in generated Relax NG.</item>
            </list>
          </change>
          <change when="2018-06-07">
