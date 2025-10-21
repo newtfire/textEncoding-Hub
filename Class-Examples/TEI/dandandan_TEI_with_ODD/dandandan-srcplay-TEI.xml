@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/TEI-inclass-cstmztn.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/TEI-inclass-cstmztn.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -18,7 +17,7 @@
    </teiHeader>
    <text>
       <body>
-        <div type="scene">
+        <div xml:id="a1" type="scene">
            <stage type="location" place="outsideSchool"/> 
            <sp who="BullyA"><speaker>Bully A</speaker><p>I said, if you ain't lendin' me money, then no date today. Oh, but
               I'd be okay if you finally put out instead. You'll pay for the love hotel,
@@ -43,7 +42,7 @@
             <sp who="Miko"><speaker>Miko</speaker><p> Dudes like that are extinct.</p></sp>
          </stage>
         </div>
-        <div type="scene">
+        <div xml:id="a1" type="scene">
            <stage type="location" place="hallway">
               <sp who="Momo"><speaker>Momo</speaker><p>What the hell. Will I not be able to meet another
                Mr. Ken in my lifetime? Come on, someone comfort me! Such a cruel world.</p></sp>
@@ -107,7 +106,7 @@
               <sp who="Ken"><speaker>Ken</speaker><p>I'll show you UFOs, I mean, UAPs! If you're able to see one, M-Miss
                  Ayase, you'll be my gofer instead!</p></sp></stage>
         </div>
-        <div type="scene">
+        <div xml:id="c1" type="scene">
          <stage type="location" place="hospital">
             <caption source="sign">NAGI GENERAL HOSPITAL</caption>
            <sp who="Momo"><speaker>Momo</speaker><p>What is this place? It's way too scary! What part of this is a UFO
@@ -179,7 +178,7 @@
          <stage place="tunnel">
             <sp who="Ken"><speaker>Ken</speaker><p>I-Is that so? Miss Ayase, you're pretty easy to talk
                   to.</p></sp> </stage> </div>
-         <div> <stage type="location" place="tunnel">
+         <div xml:id="d1"> <stage type="location" place="tunnel">
             <sp who="turboGranny"><speaker>Turbo Granny</speaker><p>I'll let you suckle my teats, so… lemme gobble that weenie.</p></sp>
             <sp who="Ken"><speaker>Ken</speaker><p>Ghost!</p></sp>
             <sp who="Momo"><speaker>Momo</speaker><p>Hold on! You shouldn't run there! Hey,
@@ -282,7 +281,7 @@
             him back his thingy! Crap! If we don't escape, we're gonna die! Get a grip, you idiot! We're
             gonna escape!
          </p></sp></stage>
-            </div><div type="scene"><stage type="location" place="road"> <sp who="Momo"><speaker>Momo</speaker><p>
+            </div><div xml:id="f1" type="scene"><stage type="location" place="road"> <sp who="Momo"><speaker>Momo</speaker><p>
             This is the worst. I'll believe in aliens. Like, I was kidnapped and all.</p></sp>
          <sp who="Ken"><speaker>Ken</speaker><p> I'll believe in ghosts, too. I got cursed after all.</p></sp>
          <sp who="Momo"><speaker>Momo</speaker><p>So, what should we do from here? </p></sp>
