@@ -12,4 +12,4 @@ Now that you're here, as soon as you're ready, you should try to "clone" this re
 * Web slides Intro to Shell and Git (more detailed): <https://slides.com/elisabeshero-bondar/shell-git-nav>
 * Older detailed guide to get started with Git (or just use this as we do, like a reference to search in for information): <https://newtfire.org/courses/tutorials/explainGitShell.html>
 
-## [2024 Project Teams Directory](2024-Project-Teams.md)
+## [2025 Project Teams Directory](2025-Project-Teams.md)

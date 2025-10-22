@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Project TEI Customization Starter</title>
+        <author>Elisa Beshero-Bondar</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the TEI Consortium
+            (info@tei-c.org).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written from scratch.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="RomaJS" version="1.3.0" when="2025-10-15T18:17:58.828Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+      <appInfo>
+        <application ident="RomaJS" version="1.3.0" when="2025-10-17T18:59:48.819Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>TEI Complete</head>
+      <p>This TEI customization describes a schema that includes <emph>all</emph> of the TEI P5
+        modules. This is a very useful starting place for manually creating your own customizations
+        — it is much easier to delete the modules you do not want than to add the modules you do.
+        Furthermore this customization often proves helpful for testing TEI software.</p>
+      <p>However, this particular TEI customization is <emph>not recommended</emph> for actual use
+        for encoding documents. It produces schemas and reference documentation that will be much
+        larger and include many more elements than almost anyone could conceivably ever need.
+        Tempting though it may be simply to have absolutely everything, and <q>just ignore</q>
+        elements not required, experience has shown that their presence makes the documentation
+        harder to read and use, and makes a schema that is far more lax than desired.</p>
+      <p>The <att>n</att> attribute of each <gi>moduleRef</gi> below reflects the chapter number of
+        the TEI <title>Guidelines</title> in which the module being referenced is defined. Note that
+        the modules are generally referred to in the order defined, with the exception that the
+        module for <title level="a">Simple Analytic Mechanisms</title> is referred to before the
+        module for <title level="a">Dictionaries</title>. This is because the class <name
+          type="class">att.lexicographic.normalized</name> (which is defined in <name type="module"
+          >analysis</name>) needs to be specified before the class <name type="class"
+          >att.lexicographic</name> (which is defined in <name type="module"
+        >dictionaries</name>).</p>
+      <p>The first four modules are often called the <soCalled>required</soCalled> modules. However,
+        these modules are not themselves technically required to create a TEI conformant markup
+        language (let alone a useful non-TEI conformant markup language). Rather, they each contain
+        one or more <emph>elements</emph> which are required for TEI conformance.</p>
+      <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef n="01" key="tei"/>
+        <moduleRef n="02" key="header" except="appInfo application"/>
+        <moduleRef n="03" key="core" except="addrLine address"/>
+        <moduleRef n="04" key="textstructure" except="argument"/>
+
+
+        <moduleRef n="07" key="drama"/>
+        <moduleRef n="08" key="spoken"/>
+
+        <moduleRef n="18" key="analysis"/>
+
+        <moduleRef n="13" key="textcrit"/>
+        <moduleRef n="14" key="namesdates"/>
+        <moduleRef n="15" key="figures"/>
+        <moduleRef n="16" key="corpus"/>
+        <moduleRef n="17" key="linking"/>
+
+        <elementSpec ident="div" mode="change">
+          <attList>
+            <attDef ident="xml:id" mode="change" usage="req"/>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

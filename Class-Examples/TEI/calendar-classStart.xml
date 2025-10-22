@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="calendarPage">
+            <dateline><date when="1909-01-30">January 30, 1909.</date></dateline>
+            <!-- Dateline seems like a good choice for the calendar dates.
+               https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-dateline.html
+               I don't know how to encode the special decorated start character, but I want to
+            investigate this more in the TEI Guidelines. 
+            Maybe I want some encoding to describe what I'm seeing. -->
+            
+            
+         </div>
+         <div type="calendarPage">
+            <!-- This <div> structure should work for coding multiple calendar sheets. -->
+            
+
+         </div>
+
+      </body>
+   </text>
+</TEI>
