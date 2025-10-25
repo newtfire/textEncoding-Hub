@@ -18,7 +18,7 @@ Filepath: textEncoding-Hub/Class-Examples/CBML/los-agachados.xml
 
 You can also open the URL for this file directly in oXygen from GitHub like this:
 * Open oXygen. Go to **File >> Open URL**, and paste in this complete URL:
-`https://raw.githubusercontent.com/newtfire/textEncoding-Hub/master/Class-Examples/CBML/los-agachados.xml`
+`https://raw.githubusercontent.com/newtfire/textEncoding-Hub/refs/heads/master/Class-Examples/CBML/Latin-American-Comics-Archive/los-agachados.xml`
 
 ### Prepare your XPath homework text file
 Open a plain text file in oXygen by going to File >> New and searching for **Text**.
