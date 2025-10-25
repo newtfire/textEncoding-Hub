@@ -10,11 +10,11 @@
 ### Getting Started: (Re)-opening the file in oXygen
 
 Start this assignment by pulling in the textEncoding-Hub (`git pull`), and opening this CBML file in oXygen:
-Filepath: textEncoding-Hub/Class-Examples/CBML/Kaliman.xml
+Filepath: textEncoding-Hub/Class-Examples/CBML/Latin-American-Comics-Archive/Kaliman.xml
 
 You can also open the URL for this file directly in oXygen like this:
 * Open oXygen. Go to **File >> Open URL**, and paste in this complete URL:
-`https://raw.githubusercontent.com/newtfire/textEncoding-Hub/master/Class-Examples/CBML/Kaliman.xml`
+`https://raw.githubusercontent.com/newtfire/textEncoding-Hub/refs/heads/master/Class-Examples/CBML/Latin-American-Comics-Archive/Kaliman.xml`
 
 
 ### Prepare your XPath homework text file

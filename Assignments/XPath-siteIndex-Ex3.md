@@ -11,11 +11,11 @@ Let's continue working with the same Digital Mitford project Site Index file tha
 ### Getting Started: (Re)-opening the file in oXygen
 
 (If you have the si-2023-10.xml file open in oXygen already, just continue!) If not...Start this assignment by pulling in the textEncoding-Hub (`git pull`), and opening this file in oXygen:
-Filepath: textEncoding-Hub/Class-Examples/XPath/si-2023-10
+Filepath: textEncoding-Hub/Class-Examples/XML/si-2023-10
 
 You can also open the URL for this file directly in oXygen like this:
 * Open oXygen. Go to **File >> Open URL**, and paste in this complete URL:
-`https://raw.githubusercontent.com/newtfire/textEncoding-Hub/master/Class-Examples/XPath/si-2023-10.xml`
+`https://raw.githubusercontent.com/newtfire/textEncoding-Hub/refs/heads/master/Class-Examples/XML/si-2023-10.xml`
 
 
 ### Prepare your XPath homework text file

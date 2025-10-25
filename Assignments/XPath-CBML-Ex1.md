@@ -14,7 +14,7 @@ work with one of the CBML files in Gómez's project, representing the _Los Agach
 ### Getting Started: Opening the file in oXygen
 
 Start this assignment by pulling in the textEncoding-Hub (`git pull`), and opening this CBML file in oXygen:
-Filepath: textEncoding-Hub/Class-Examples/CBML/los-agachados.xml 
+Filepath: textEncoding-Hub/Class-Examples/CBML//Latin-American-Comics-Archive/los-agachados.xml 
 
 You can also open the URL for this file directly in oXygen from GitHub like this:
 * Open oXygen. Go to **File >> Open URL**, and paste in this complete URL:
