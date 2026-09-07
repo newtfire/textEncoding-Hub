@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/hamiltonODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/hamiltonODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    "My Shot"
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    by Lin-Manuel Miranda
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    Lyrics provided resourced from http://atlanticrecords.com/HamiltonMusic/
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <head>
+                <title>My Shot</title>
+            </head>
+            <div type="song">
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l><phr type="#shot">I am not throwing away my shot!</phr></l>
+                    <l><phr type="#shot">I am not throwing away my shot!</phr></l>
+                    <l>Hey yo, I’m just like my country</l>
+                    <l>I’m young, scrappy and hungry</l>
+                    <l>And <phr type="#shot">I’m not throwing away my shot!</phr></l>
+                    <l><seg type="#fact">I’m ‘a get a scholarship to <placeName>King’s College</placeName></seg></l>
+                    <l>I prob’ly shouldn’t brag, but dag, I amaze and astonish</l>
+                    <l>The problem is I got a lot of brains but no polish</l>
+                    <l>I gotta holler just to be heard</l>
+                    <l>With every word, I drop knowledge!</l>
+                    <l>I’m a diamond in the rough, a shiny piece of coal</l>
+                    <l>Tryin’ to reach my goal. My power of speech: unimpeachable</l>
+                    <l><seg type="#fact">Only nineteen</seg> but my mind is older</l>
+                    <l>These <placeName>New York City</placeName> streets get colder, I shoulder</l>
+                    <l>Ev’ry burden, ev’ry disadvantage</l>
+                    <l>I have learned to manage, I don’t have a gun to brandish</l>
+                    <l>I walk these streets famished</l>
+                    <l>The plan is to fan this spark into a flame</l>
+                    <l>But damn, it’s getting dark, so let me spell out the name</l>
+                    <l>I am the—</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l><persName ref="#hamilton"/>A-L-E-X-A-N-D</l>
+                    <l>E-R—we are—meant to be…</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>A colony that runs independently</l>
+                    <l>Meanwhile, <placeName>Britain</placeName> keeps shittin’ on us endlessly</l>
+                    <l>Essentially, they tax us relentlessly</l>
+                    <l><seg type="#fact">Then <persName ref="#kingGeorge">King George</persName> turns around, runs a
+                        spending spree</seg></l>
+                    <l>He ain’t ever gonna set his descendants free</l>
+                    <l>So there will be a revolution in this century</l>
+                    <l>Enter me!</l>
+                </sp>
+
+                <sp who="#mulligan #lafayette #laurens">
+                    <speaker>MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>(He says in parentheses)</l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Don’t be shocked when your hist’ry book mentions me</l>
+                    <l>I will lay down my life if it sets us free</l>
+                    <l>Eventually, you’ll see my ascendancy</l>
+                    <l>And <phr type="#shot">I am not throwing away</phr></l>
+                    <l><phr type="#shot">My shot</phr></l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l><phr type="#shot">My shot!</phr></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l><phr type="#shot">I am not throwing away</phr></l>
+                    <l><phr type="#shot">My shot</phr></l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l><phr type="#shot">My shot!</phr></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>Hey yo, I’m just like my country</l>
+                    <l>I’m young, scrappy and hungry</l>
+                </sp>
+
+                <sp who="#hamilton #laurens">
+                    <speaker>HAMILTON/LAURENS</speaker>
+                    <l><phr type="#shot">And I’m not throwing away my shot</phr></l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l>Hey yo, I’m just like my country</l>
+                    <l>I’m young, scrappy and hungry</l>
+                    <l>And <phr type="#shot">I’m not throwing away my shot</phr></l>
+                    <l><phr type="#shot">It’s <phr type="#time">time </phr>to take a shot!</phr></l>
+                </sp>
+
+                <sp who="#lafayette">
+                    <speaker>LAFAYETTE</speaker>
+                    <l>I dream of life without a monarchy</l>
+                    <l>The unrest in <placeName>France</placeName> will lead to ‘onarchy?</l>
+                    <l>‘Onarchy? How you say, how you say, ‘anarchy?’</l>
+                    <l>When I fight, I make the other side panicky</l>
+                    <l>With my—</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l><phr type="#shot">Shot!</phr></l>
+                </sp>
+
+                <sp who="#mulligan">
+                    <speaker>MULLIGAN</speaker>
+                    <l><seg type="#fact">Yo, I’m a tailor’s apprentice</seg></l>
+                    <l>And I got y’all knuckleheads in loco parentis</l>
+                    <l>I’m joining the rebellion cuz I know it’s my chance</l>
+                    <l>To socially advance, instead of sewin’ some pants!</l>
+                    <l>I’m gonna take a—</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l><phr type="#shot">Shot!</phr></l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>But we’ll never be truly free</l>
+                    <l>Until those in bondage have the same rights as you and me</l>
+                    <l>You and I. Do or die. Wait till I sally in</l>
+                    <l>On a stallion with the first black battalion</l>
+                    <l>Have another—</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l><phr type="#shot">Shot!</phr></l>
+                </sp>
+
+                <sp who="#burr">
+                    <speaker>BURR</speaker>
+                    <l>Geniuses, lower your voices</l>
+                    <l>You keep out of trouble and you double your choices</l>
+                    <l>I’m with you, but the situation is fraught</l>
+                    <l>You’ve got to be carefully taught:</l>
+                    <l>If you talk, <phr type="#shot">you’re gonna get shot!</phr></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l><persName ref="#burr">Burr</persName>, check what we got</l>
+                    <l>Mister <persName ref="#lafayette">Lafayette</persName>, hard rock like
+                        Lancelot</l>
+                    <l>I think your pants look hot</l>
+                    <l><seg type="#ambiguous"><persName ref="#laurens">Laurens</persName>, I like you a lot</seg></l>
+                    <l>Let’s hatch a plot blacker than the kettle callin’ the pot...</l>
+                    <l>What are the odds the gods would put us all in one spot</l>
+                    <l>Poppin’ a squat on conventional wisdom, like it or not</l>
+                    <l>A bunch of revolutionary manumission abolitionists?</l>
+                    <l>Give me a position, show me where the ammunition is!</l>
+                    <l>Oh, am I talkin’ too loud?</l>
+                    <l>Sometimes I get over excited, shoot off at the mouth</l>
+                    <l>I never had a group of friends before</l>
+                    <l>I promise that I’ll make y’all proud</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Let’s get this guy in front of a crowd</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens #ensemble">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS/ENSEMBLE</speaker>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l>Hey yo, I’m just like my country</l>
+                    <l>I’m young, scrappy and hungry</l>
+                    <l>And <phr type="#shot">I’m not throwing away my shot</phr></l>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l>Hey yo, I’m just like my country</l>
+                    <l>I’m young, scrappy and hungry</l>
+                    <l>And <phr type="#shot">I’m not throwing away my shot</phr></l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Ev’rybody sing:</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>Whoa, whoa, whoa</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Hey!</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>Whoa!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Wooh!!</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>Whoa!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Say, let ‘em hear ya!</l>
+                </sp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l>Yea!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Let’s go!</l>
+                </sp>
+
+                <sp who="#company">
+                    <speaker>COMPANY</speaker>
+                    <l>Whoa! Whoa! Whoa!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>I said shout it to the rooftops!</l>
+                </sp>
+
+                <sp who="#company">
+                    <speaker>COMPANY</speaker>
+                    <l>Whoa!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Said, to the rooftops!</l>
+                </sp>
+
+                <sp who="#company">
+                    <speaker>COMPANY</speaker>
+                    <l>Whoa!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Come on!</l>
+                </sp>
+
+                <sp who="#company">
+                    <speaker>COMPANY</speaker>
+                    <l>Yea!</l>
+                </sp>
+
+                <sp who="#laurens">
+                    <speaker>LAURENS</speaker>
+                    <l>Come on, let’s go!</l>
+                    <l><phr type="#rise">Rise up!</phr></l>
+                    <l>When you’re living on your knees, you <phr type="#rise">rise up</phr></l>
+                    <l>Tell your brother that he’s gotta <phr type="#rise">rise up</phr></l>
+                    <l>Tell your sister that she's gotta <phr type="#rise">rise up</phr></l>
+                </sp>
+
+                <spGrp type="simultaneous">
+                    <sp who="#laurens #ensemble">
+                        <speaker>LAURENS/ENSEMBLE</speaker>
+                        <l>When are these colonies gonna <phr type="#rise">rise up?</phr></l>
+                        <l>When are these colonies gonna <phr type="#rise">rise up?</phr></l>
+                        <l>When are these colonies gonna <phr type="#rise">rise up?</phr></l>
+                        <l>When are these colonies gonna <phr type="#rise">rise up?</phr></l>
+                    </sp>
+
+                    <sp who="#company">
+                        <speaker>COMPANY</speaker>
+                        <l>Whoa! Whoa!</l>
+                        <l>Whoa!</l>
+                        <l>Whoa!</l>
+                        <l>Whoa!</l>
+                        <l><phr type="#rise">Rise up!</phr></l>
+                    </sp>
+                </spGrp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l>I imagine death so much it feels more like a memory</l>
+                    <l>When’s it gonna get me?</l>
+                    <l>In my sleep? Seven feet ahead of me?</l>
+                    <l>If I see it comin’, do I run or do I let it be?</l>
+                    <l>Is it like a beat without a melody?</l>
+                    <l>See, I never thought I’d live past twenty</l>
+                    <l>Where I come from some get half as many</l>
+                    <l>Ask anybody why we livin’ fast and we laugh, reach for a flask</l>
+                    <l>We have to make this moment last, that’s plenty</l>
+                    <l>Scratch that</l>
+                    <l>This is not a moment, it’s the movement</l>
+                    <l>Where all the hungriest brothers with</l>
+                    <l>Something to prove went?</l>
+                    <l>Foes oppose us, we take an honest stand</l>
+                    <l>We roll like Moses, claimin’ our promised land</l>
+                    <l>And? If we win our independence?</l>
+                    <l>Is that a guarantee of freedom for our descendants?</l>
+                    <l>Or will the blood we shed begin an endless</l>
+                    <l>Cycle of vengeance and death with no defendants?</l>
+                    <l>I know the action in the street is excitin’</l>
+                    <l>But Jesus, between all the bleedin’ ‘n fightin’</l>
+                    <l>I’ve been readin’ ‘n writin’</l>
+                    <l>We need to handle our financial situation</l>
+                    <l>Are we a nation of states? What’s the state of our nation?</l>
+                    <l>I’m past patiently waitin’. I’m passionately</l>
+                    <l>Smashin’ every expectation</l>
+                    <l>Every action’s an act of creation!</l>
+                    <l>I’m laughin’ in the face of casualties and sorrow</l>
+                    <l>For the first time, I’m thinkin’ past tomorrow</l>
+                </sp>
+
+                <sp who="#hamilton #company">
+                    <speaker>HAMILTON/COMPANY</speaker>
+                    <l>And <phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l><phr type="#shot">I am not throwing away my shot</phr></l>
+                    <l>Hey yo, I’m just like my country</l>
+                    <l>I’m young, scrappy and hungry</l>
+                    <l>And <phr type="#shot">I’m not throwing away my shot</phr></l>
+                </sp>
+
+                <spGrp type="simultaneous">
+                    <sp who="#hamilton #mulligan #lafayette #laurens">
+                        <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                        <l>We’re gonna <phr type="#rise">rise up!</phr> <phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l>We’re gonna <phr type="#rise">rise up!</phr> <phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l>We’re gonna</l>
+                    </sp>
+
+                    <sp who="#ensemble">
+                        <speaker>ENSEMBLE</speaker>
+                        <l><phr type="#shot">Not throwing away my shot</phr></l>
+                        <l><phr type="#shot">Not throwing away my shot</phr></l>
+                        <l>We’re gonna</l>
+                    </sp>
+                </spGrp>
+
+                <sp who="#ensemble">
+                    <speaker>ENSEMBLE</speaker>
+                    <l><phr type="#rise">Rise up!</phr></l>
+                    <l><phr type="#rise">Rise up!</phr></l>
+                </sp>
+
+                <sp who="#hamilton">
+                    <speaker>HAMILTON</speaker>
+                    <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                </sp>
+
+                <sp who="#ensemble">
+                    <speaker>ENSEMBLE</speaker>
+                    <l><phr type="#rise">Rise up!</phr></l>
+                    <l><phr type="#rise">Rise up!</phr></l>
+                </sp>
+
+                <spGrp type="simultaneous">
+                    <sp who="#hamilton #mulligan #lafayette #laurens">
+                        <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                        <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l><phr type="#shot">Take a shot!</phr></l>
+                        <l><phr type="#shot">Shot!</phr></l>
+                        <l><phr type="#shot">Shot!</phr></l>
+                        <l>A-yo it’s</l>
+                        <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l>And I am—</l>
+                    </sp>
+
+                    <sp who="#ensemble">
+                        <speaker>ENSEMBLE</speaker>
+                        <l><phr type="#rise">Rise up!</phr></l>
+                        <l><phr type="#rise">Rise up!</phr></l>
+                        <l>Ri— ri— ri—</l>
+                        <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l><phr type="#shot"><phr type="#time">Time </phr>to take a shot!</phr></l>
+                        <l>And I am—</l>
+                    </sp>
+                </spGrp>
+
+                <sp who="#hamilton #mulligan #lafayette #laurens">
+                    <speaker>HAMILTON/MULLIGAN/LAFAYETTE/LAURENS</speaker>
+                    <l><phr type="#shot">Not throwin’ away my—</phr></l>
+                </sp>
+
+                <sp who="#company">
+                    <speaker>COMPANY</speaker>
+                    <l><phr type="#shot">Not throwin’ away my shot!</phr></l>
+                </sp>
+            </div>
+        </body>
+        <back>
+            <listEvent><head>My Shot</head>
+                <event xml:id="event10" when="1773-09-01"><label>Hamilton Attends King's College</label><desc>In the fall of 1773, Alexander Hamilton attends King's College</desc></event></listEvent>
+        </back>
+    </text>
+</TEI>
