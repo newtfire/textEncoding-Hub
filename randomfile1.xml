@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <!--Purposefully making the conditions for a MERGE CONFLICT in class on 11 September 2026. -->
+      <!--Purposefully making the conditions for a MERGE CONFLICT in class on 11 September 2026. -->
     <text>putting this in for an assignment.</text>
     <!-- Hi Mario! Why did you put this file out here! Thank you for making it a great opportunity to demonstrate a MERGE CONFLICT. -->
     <poem>
@@ -9,4 +9,10 @@
         <line>And be one traveller</line>
         <!-- I might not remember the rest of this in correct order. -->
     </poem>
+    <math> 
+        <problem>5 + 7 = 12</problem> 
+    </math>
+<!--ebb: I think I have now reconciled our divergent content on this file!  -->
 </root>
+    
+   
