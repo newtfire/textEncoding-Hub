@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <!--Purposefully making the conditions for a MERGE CONFLICT in class on 11 September 2026. -->
     <text>putting this in for an assignment.</text>
+    <!-- Hi Mario! Why did you put this file out here! Thank you for making it a great opportunity to demonstrate a MERGE CONFLICT. -->
+    <poem>
+        <line>Two roads diverged in a yellow wood</line>
+        <line>And sorry I could not travel both</line>
+        <line>And be one traveller</line>
+        <!-- I might not remember the rest of this in correct order. -->
+    </poem>
 </root>
