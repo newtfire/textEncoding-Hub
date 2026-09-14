@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="blorts.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
-    <blort num="1">
+    <blort num="one">
         <date when="2026-09-14"/>
         <blob type="caps">YO!</blob>
         <blob>hi</blob>

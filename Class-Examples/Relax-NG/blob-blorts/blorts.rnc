@@ -1,0 +1,10 @@
+start = root
+root = element xml { blort+ }
+blort = element blort { num, date, blob+ }
+
+num = attribute num { xsd:integer }
+date = element date { when, empty }
+# ebb: that reserve word "empty" means it cannot hold content besides the attribute.
+blob = element blob {type?, text}
+when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear} 
+type = attribute type {"caps" | "nocaps" }
