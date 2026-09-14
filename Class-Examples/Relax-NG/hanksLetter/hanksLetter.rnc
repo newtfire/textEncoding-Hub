@@ -13,7 +13,7 @@ line = element line {text}
 greeting = element greeting {mixed{mistake*}}
 # NOTE syntax for mixed content! NO, you don't use the
 # reserve word text here because the word mixed means that 
-# it's there
+# text is already there.
 mistake = element mistake {orig, reg}
 orig = element orig {text}
 reg = element reg{text}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <blort num="1">
+        <date when="2026-09-14"/>
+        <blob type="caps">YO!</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+    </blort>
+    <blort num="2">
+        <date when="2026-09-15"/>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>yo!</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+    </blort>
+    <blort num="3">
+        <date when="2026-09-16"/>
+        <blob>hi</blob>
+        <blob type="caps">HEY!</blob>
+        <blob> no more blobs after this today</blob>
+    </blort> 
+    <blort num="4">
+        <date when="2026-09-17"/>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+        <blob>hi</blob>
+    </blort>
+     
+</xml>
