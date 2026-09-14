@@ -22,7 +22,7 @@
         <date when="2026-09-16"/>
         <blob>hi</blob>
         <blob type="caps">HEY!</blob>
-        <blob> no more blobs after this today</blob>
+        <blob>no more blobs after this today</blob>
     </blort> 
     <blort num="4">
         <date when="2026-09-17"/>
