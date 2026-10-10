@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Travel Journal Excerpt</title>
+            <author>John Norton</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>xml manuscript, encoded in TEI, 2025</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcription of a personal travel narrative describing a voyage to Ireland, Wales,
+               and Liverpool.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+       <div type="letter"> <p> I received particular joy at seeing, within the smell of the land, an Old Yorkshire man
+            of foreseer who had left his son a merchant in New York, to breathe his last in his
+            native land; far from the continued storms we met &amp; feeble situation he was in from
+            sea sickness I had been apprehensive we should have lost him on the passage. </p>
+
+         <p> Coasting the Southwest shore of Ireland on that 18th in the evening we made Cork, where
+            we were <choice>
+               <sic>where</sic>
+               <corr>were</corr>
+            </choice> becalmed – we met there a ship we had seen two days before at a distance, she
+            was an armed vessel of Liverpool, that had been at Barbados, and was now returning, she
+            had on board the Governor, and suite of a Dutch settlement in the West Indies, lately
+            taken by the British troops – There is not much appearance of verdure yet on shore – or
+            it might in some respect afford a beautiful prospect – but they have a disagreeable way
+            of decorating their coasts with 
+            <choice>
+               <sic>gibbets</sic>
+               <corr>jibbets</corr>
+            </choice> here and there – Is it not surprising, that a people so enlightened, so humane
+            and so polite should have it so arranged, that the first object striking the view of the
+            strangers, who approach their shore should be an emblem of the severity of their laws
+            and depravity of some of their people. </p>
+
+         <p> Telegraphs were also to be seen on every eminence – this is a late invention to
+            communicate intelligence of the approach of an enemy or to give orders to the ships of
+            the Navy – they are on a line of communication within distinct view of each other –
+            certain figures are put up which are repeated from one <pb n="35"/> to the other without
+            being understood by any but those from whom the orders issue and the commanders of
+            Posts. We there learnt, by the boats which came from the shore, that all was as yet
+            tranquil, that they had only heard of the threats of Bonaparte which it was not likely,
+            he would be able to put in execution. </p>
+
+         <p> After night a fair wind springing up, we made sail, and next morning, we were abreast
+            of Wicklow Mountains, the land is high and elevated, but we were at too great a distance
+            to distinctly view it – On the 21st we sailed along the Welsh Coast and passed Holyhead
+            – here is elevated land &amp; lofty mountains, whose tops are covered with snow, which
+            although they do not prepossess you with an idea of the fertility of the country, yet
+            the natural Majestic grandeur of the asylum of the descendants of ancient Britons
+            strikes the mind with veneration at the magnanimity and unfortunate valor of their
+            ancestors who preferred breathing the air of freedom on Rocky Mountains, to remaining in
+            subjection on their native fertile plains, and calls a sigh for their hero the gallant
+            Caractacus. </p>
+
+         <p> In the evening a Pilot comes on board and next day we arrive safe in dock here, the
+            pleasure we felt on the occasion can not well be imagined by any but those, who have
+            made a long sea voyage. Altho’ this was Sunday and business lulled at rest, yet
+            sufficient was to be seen to give a stranger some conception of the magnitude of the
+            trade carried on at this place – the many store houses, the multitude of ships, the
+            inland canals and docks all denote wealth &amp; exertion, these last are of two kind wet
+            and dry, the latter are to receive vessels to be repaired; the former are for <pb n="36"
+            /> ships to unload and load in; they are made by digging spaces to such a level as to be
+            of sufficient depth for the vessels that are to enter the gates of these docks at which
+            the vessels, and flow of the tide are received, are shut in the ebb tide by which means
+            the water is retained that keeps the ships afloat – were it not for these constructions
+            the lading and unlading would be performed with great inconvenience at this port which
+            is not naturally well calculated, the River being amazing shallow at low water, and its
+            entry rendered difficult from a number of sand banks. </p>
+
+         <p> But the approximate situation of this place to several manufacturing towns renders it
+            the great emporium of commerce to the West – It is here that are deposited the stuffs of
+            Manchester, the cutlery of Birmingham and the woolen cloths of Yorkshire, as are also
+            the produce of the west for which they are bartered – it is considered next to London
+            for importance in trade: that of Africa however is a branch that is carried on here to
+            some extent and is not honorable to the human species; for it is a barter of their
+            fellow creatures – you must not by this imagine, that the slaves are brought here, no,
+            for none would be slaves after they had breathed the British air – they are bought in
+            Africa for coarse clothes, arms, spirits &amp; taken to the West Indies and sold for the
+            produce of these Islands, which is brought to this place &amp; from it taken to
+            different parts of the country. </p></div>
+      </body>
+   </text>
+</TEI>
