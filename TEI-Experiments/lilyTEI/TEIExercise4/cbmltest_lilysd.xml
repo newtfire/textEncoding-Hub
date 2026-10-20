@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/cbmltest_lilysd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Insult That Made a "Jarate Master" Out of Sniper</title>
+                <author>Valve Corporation</author>
+                <author>Michael Avon Oeming</author>
+                <!--Was unable to find who specifically wrote this comic. Oeming was the artist, unsure if there's a tag specifically showing that.-->
+            </titleStmt>
+            <publicationStmt>
+                <p>By Valve Corporation. Published May 20th, 2009.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital: no previous source exists.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="panelGrp">
+                <cbml:panel n="1">
+                    <cbml:caption type="heading">
+                        <emph rendition="b large">THE INSULT</emph> that made a "Jarate Master" out of sniper
+                    </cbml:caption>
+                </cbml:panel>
+                
+                <cbml:panel n="2">
+                    <cbml:balloon type="speech" who="Sniper">
+                        Hey! We're trying to <emph rendition="b">enjoy</emph> this Capture Point, you bully!
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">
+                        Gravel? What a <emph rendition="i">nuisance!</emph>
+                    </cbml:balloon>
+                    <floatingText subtype="symbol" type="diagetic">
+                        <body>
+                            <l>C</l>
+                        </body>
+                    </floatingText>
+                    <note type="panelDesc">
+                        RED Scout and Sniper are relaxing on the Capture Point, but BLU Spy kicks gravel into them.
+                    </note>
+                </cbml:panel>
+                
+                <cbml:panel n="3">
+                    <cbml:balloon type="speech" who="py">
+                        <l><emph rendition="b">HAW HAW!</emph></l>
+                        What are you going to do - run five miles away and <emph rendition="b">shoot</emph> me?
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Sniper">
+                        <l>Ye-</l>
+                        <l><emph rendition="b">No...</emph></l>
+                    </cbml:balloon>
+                    <cbml:balloon type="thought" who="Sniper">
+                        How did he <emph rendition="b">know?</emph>
+                    </cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="4">
+                    <cbml:balloon type="speech" who="Sniper">
+                        Why, that gravel-kicking... Always guessing my plans...
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">
+                        Whatever. Let's go get tacos.
+                    </cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="5">
+                    <cbml:balloon type="speech" who="Sniper">
+                        I'm <emph rendition="b">sick</emph> and <emph rendition="b">tired</emph> of getting picked
+                        on by <emph rendition="b">MEN MY OWN SIZE!</emph>
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Sniper">
+                        What's this? <emph rendition="b">JARATE?</emph>
+                    </cbml:balloon>
+                    <note type="panelDesc">
+                        Sniper reads through a product catalogue while kicking a chair.
+                    </note>
+                </cbml:panel>
+                
+                <cbml:panel n="6">
+                    <cbml:balloon type="speech" who="Sniper">
+                        <emph rendition="i">Boy!</emph> Those Saxton Hale Jarate pills <emph rendition="b">TRIPLED</emph> the size of my kidneys!
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Sniper">
+                        And thanks to my Saxton Hale Pain Tonic, I can barely even <emph rendition="b">FEEL</emph> my organs shutting down! He thought of everything!
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Sniper">
+                        That Spy won't know what <emph rendition="b">hit</emph> him!
+                    </cbml:balloon>
+                    <floatingText type="non-diegetic">
+                        <body>
+                            <p>
+                                LATER
+                            </p>
+                        </body>
+                    </floatingText>
+                    <note type="panelDesc">
+                        Sniper marvels at the creation of his new Jarate.
+                    </note>
+                </cbml:panel>
+                
+                <cbml:panel n="7">
+                    <cbml:balloon type="speech" who="Sniper">
+                        You again? <emph rendition="b">Here's</emph> something I owe you!
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Sniper">
+                        <emph rendition="b">FROM MY BODY!</emph>
+                    </cbml:balloon>
+                    <floatingText subtype="symbol" type="diagetic">
+                        <body>
+                            <l>C</l>
+                        </body>
+                    </floatingText>
+                    <note type="panelDesc">
+                        Sniper throws his Jarate directly in Spy's face.
+                    </note>
+                </cbml:panel>
+                
+                <cbml:panel n="8">
+                    <cbml:caption who="Spy">
+                        AAAAAAAAAA
+                    </cbml:caption>
+                    <note type="panelDesc">
+                        Spy screams, covered in Jarate.
+                    </note>
+                </cbml:panel>
+                <cbml:panel n="9">
+                    <cbml:caption who="Spy">
+                        <emph rendition="large">AAAAAAA</emph>
+                    </cbml:caption>
+                    <note type="panelDesc">
+                        Spy screams even louder, truly realizing what happened.
+                    </note>
+                </cbml:panel>
+                
+                <cbml:panel n="10">
+                    <cbml:balloon type="speech" who="Scout">
+                        I didn't think you had it "in" you, Sniper!
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Demoman Soldier">
+                        HA HA HA HA
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Demoman">
+                        Jarate? That looks <emph rend="b">EFFECTIVE!</emph> But <emph rend="b">complicated...</emph>
+                    </cbml:balloon>
+                    <note type="panelDesc">
+                        Soldier and Demoman have a good laugh at Spy's expense, while Sniper smiles smugly and Scout eats a taco.
+                    </note>
+                </cbml:panel>
+            </div>
+            
+            <cbml:indicia>
+                <!--Unsure what would fit best here, as it's styled as a story directly tied to the comic that's also trying to sell the product of Jarate-->
+                <cbml:caption><emph rendition="b large">IT IS <emph rendition="u">NOT</emph> COMPLICATED!</emph></cbml:caption>
+                <seg>How do I know? I am from AUSTRALIA! And the events dramatized in this comic above actually happened... TO ME!
+                    Remember that part between panels four and five? That was not time lapse magic! I kicked a chair across the room, and seconds later
+                    I knew Jarate! NOW YOU CAN TOO!</seg>
+                
+                <cbml:caption><emph rend="b">WHAT IS JARATE?</emph></cbml:caption>
+                <seg>Jarate causes your enemies to lose the WILL TO LIVE and take more damage from incoming fire! You may say, 
+                    "But I don't HAVE any enemies!" Well, do you have FRIENDS? Are they on FIRE? Right NOW? Jarate them to a non-on fire state INSTANTLY! 
+                    Being on fire is horrible! They'll never want to talk about your Jarate rescue ever again, but you'll have their secret undying gratitude!</seg>
+                
+                <seg>Your enemies will wish they could forget their encounter with Jarate! Too bad! The IMMEDIATE EFFECTS are temporary.
+                    As the first damp moment stretches into months, however - as years become long, regret-filled decades, Jarate reveals its TRUE POWER:
+                    forcing your enemies to accept a terrifying new existence, where people do awful things to them ALL THE TIME for
+                    NO REASON and <emph rend="u">DIGNITY DOES NOT EXIST.</emph></seg>
+                
+                <seg>They will think about Jarate at their weddings - at their high school reunions - witnessing the birth of their
+                    first beautiful child - Jarate will haunt their every waking moment for the REST OF THEIR LIVES. </seg>
+            </cbml:indicia>
+            
+            <closer>
+                <note type="pageDesc">
+                    A large photo of Saxton Hale takes up the right side of the page. Under his right arm sits "AS SEEN IN PRINT", with a mini version
+                    of the comic below. Under his left arm sits "WE WILL GIVE YOU A TROPHY", with an image of a trophy. Finally, between his legs,
+                    are the "5 FREE GIFTS" offer.
+                </note>
+                <name>Saxton Hale</name>
+                <seg>Inventor of Jarate... The JAR-Based Karate!</seg>
+                <seg>AS SEEN IN PRINT</seg>
+                <seg>WE WILL GIVE YOU A TROPHY</seg>
+                <seg>
+                    <l>5 FREE GIFTS</l>
+                    If you act now, in addition to my complete course, you will also get these five valuable outline courses.
+                    <list>
+                        <item>Drunken Boxing</item>
+                        <item>Drunken Headbutting</item>
+                        <item>Shaolin Drunken Knife Wrestling</item>
+                        <item>Drunken Cry-Fighting</item>
+                        <item>Drunken Apology-Making</item>
+                    </list>
+                </seg>
+            </closer>
+        </body>
+    </text>   
+</TEI>
