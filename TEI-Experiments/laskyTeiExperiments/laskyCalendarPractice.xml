@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend Calendar Sheets</title>
+            <author>Mary Behrend</author>
+            <editor xml:id="kal6436">Kylie Lasky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+            <p>Not officially published</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>The Behrend College Library</repository>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <handNote xml:id="print" medium="print">Printed text in black ink</handNote>
+                     <!-- Noting the specific mediums used throughout the calendar sheets by creating an index to reference -->
+                     <handNote xml:id="printFancy" medium="print">Printed text in grey ink with a
+                        fanciful font</handNote>
+                     <handNote xml:id="blackPen" medium="black pen">Mary Behrend writing with a
+                        black ink pen</handNote>
+                     <handNote xml:id="redPen" medium="red pen">Mary Behrend writing with a red ink
+                        pen</handNote>
+                     <handNote xml:id="multiMedia" medium="Multiple media">Denotes the use of
+                        multiple medias used by Mary Behrend to create her illustrations</handNote>
+                     <handNote xml:id="greenPen" medium="green pen">Mary Behrend writing with a
+                        green ink pen</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- Saving a template to paste for every calendar sheet to keep consistent formatting 
+         <div type="calendarSheet" n="">
+            <fw place="top-center" hand="#print"><hi rend="bold"><lb/>COPYRIGHT <date when="1908"
+                     >1908</date>, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</hi></fw>
+            <milestone unit="line" rend="dotted-line"/>
+            <dateline hand="#printFancy"><date when=""/><hi rend="drop cap"><lb/>MONTH
+               DAY,1909. <lb/>WEEKDAY</dateline>
+            <figure place="center" hand="#multiMedia">
+               <figDesc></figDesc>
+
+               <ab hand="#blackPen" rend="cursive"><lb/><lb/><hi
+                     hand="#redPen"></hi></ab>
+            </figure>
+         </div>
+         -->
+
+         <div type="calendarSheet" n="1">
+            <fw place="top-center" hand="#print"><hi rend="bold"><lb/>COPYRIGHT <date when="1908"
+                     >1908</date>, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</hi></fw>
+            <milestone unit="line" rend="dotted-line"/>
+            <dateline hand="#printFancy"><date when="1909-02-16"/><hi rend="drop cap"><add
+                     hand="#redPen" rend="Mary Behrend colored the letter 'F' in red"
+                  ><lb/>F</add></hi>ebruary 16,1909. <lb/>Tuesday</dateline>
+            <figure place="center" hand="#multiMedia">
+               <figDesc> Drawing of Mr. Behrend catching a bed bug from their white bed</figDesc>
+
+               <ab hand="#blackPen" rend="cursive"><lb/>Mr. Behrend finds a<lb/>bed bug!<lb/><hi
+                     hand="#redPen">I wonder if you have found many lately!</hi></ab>
+            </figure>
+         </div>
+         <div type="sheet" n="2">
+            <fw place="top-center" hand="#print"><hi rend="bold"><lb/>COPYRIGHT <date when="1908"
+                     >1908</date>, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</hi></fw>
+            <milestone unit="line" rend="dotted-line"/>
+            <dateline hand="#printFancy"><hi rend="drop cap"><date when="1909-03-17"/><add
+                     hand="#greenPen" rend="Mary Behrend colored the letter 'M' in green"
+                     ><lb/>M</add></hi>arch 17,1909.<lb/>Wednesday <lb/>St. Patrick's Day</dateline>
+            <figure place="below dateline" hand="#multiMedia">
+               <figDesc n="1">Two green shamrocks on opposite edges of the sheet with two black ink
+                  snake doodles between them towards the center of the page</figDesc>
+               <ab hand="#blackPen" rend="printed writing"><lb/>ST. PATRICK WAS A USEFUL
+                  SAINT<lb/>HE FRIGHTENED ALL THE SNAKES AWAY-<lb/>I WISH HE'D TRY HIS ART ON <hi
+                     rend="underlined">SMOKE</hi><lb/>AROUND THE HAMMERMILL SOME DAY!</ab>
+               <figDesc n="2">Green shamrok with a drawing in black ink of the Hammermil building to
+                  the right of it</figDesc>
+
+               <ab hand="#redPen" rend="cursive"><lb/>The Hammermill really <emph rend="underlined"
+                        ><gap reason="illegible"/>
+                     <!-- attempting to mark my uncertainty with the reading of this sentence, the letters in the words are quite hard to make out -->
+                     <unclear reason="illegible">lucky!</unclear></emph></ab>
+            </figure>
+         </div>
+         <div type="calendarSheet" n="3">
+            <fw place="top-center" hand="#print"><hi rend="bold"><lb/>COPYRIGHT <date when="1908"
+                     >1908</date>, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</hi></fw>
+            <milestone unit="line" rend="dotted-line"/>
+            <dateline hand="#printFancy"><date when="1909-03-08"/><hi rend="drop cap"><lb/><add
+                     hand="#redPen" rend="Mary Behrend colored the letter 'M' in red"
+               >M</add></hi>arch 8,1909. <lb/>Monday</dateline>
+            <figure place="center" hand="#multiMedia">
+               <figDesc>Large red question mark</figDesc>
+
+               <ab hand="#blackPen" rend="cursive"><lb/>Perhaps this is<lb/>the day, this is<lb/>the
+                  day, this i<lb/>think or will be<lb/>later. Love, M.</ab>
+            </figure>
+         </div>
+         <div type="calendarSheet" n="4">
+            <fw place="top-center" hand="#print"><hi rend="bold"><lb/>COPYRIGHT <date when="1908"
+                     >1908</date>, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</hi></fw>
+            <milestone unit="line" rend="dotted-line"/>
+            <dateline hand="#printFancy"><date when="1909-02-17"/><hi rend="drop cap"><lb/><add
+                     hand="#redPen" rend="Mary Behrend colored the letter 'F' in red"
+               >F</add></hi>ebruary 17,1909. <lb/>Wednesday</dateline>
+            <figure place="center" hand="#multiMedia">
+               <ab hand="#blackPen" rend="cursive"><l>Each morning <emph rend="underlined"
+                        >very</emph> early</l><l>When all is dark &amp; still</l><l>Ernst gets <emph
+                        rend="underlined">up</emph> in inkey blackness</l><l>to work at
+                     Hammermill</l><l>I really think he's very good</l><l>to get up when it's
+                     dark</l><l>for this he says he doesn't <gap reason="illegible"/></l><l><hi
+                        hand="#redPen"><gap reason="illegible"/> is it still dark when you
+                        arise?</hi></l><hi hand="#redPen"/></ab>
+            </figure>
+         </div>
+      </body>
+   </text>
+</TEI>
