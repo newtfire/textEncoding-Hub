@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend Calendar Page in 1909</title>
+            <author>Mary Behrend</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>encode by Bo Yuan</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p> 
+               Selected pages from Mary Behrend's 1909 calendar at Penn State Behrend library to interpret
+            </p>
+               
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="page" n="1">
+            
+            <docDate when="1909-03-08">March 8, 1909. Monday</docDate>
+            
+            <figure>
+               <graphic url="1909-03-08.jpg">
+                  <desc>The original calender page for March 8, 1909</desc>
+               </graphic>
+               <figDesc> A huge, red question mark</figDesc>
+            </figure>
+            
+            <p>
+               <unclear>Perhaps This is the day,</unclear> <gap reason="illegible"/>
+            </p>
+         </div>
+         
+         <div type="page" n="2">
+            
+            <docDate when="1909-03-12">March 12, 1909. Friday</docDate>
+            
+            <figure>
+               <graphic url="1909-03-12.jpg">
+                  <desc>The original calender page for March 12, 1909</desc>
+               </graphic>
+               <figDesc> A hand-drawn woman wearing a dark skirt and hat, standing on two yellow snowshoes decorated with red marks.</figDesc>
+            </figure>
+            
+            <p>
+               <name>MOLLY</name> ON <objectName>SNOWSHOES</objectName> THAT <name>MR.WEIR</name> GOT. PRETTY PICTURE IS IT NOT?!
+            </p>
+            <p>
+               Love from <name>molly</name>
+            </p>
+         </div>
+         
+         <div type="page" n="3">
+            
+            <docDate when="1909-03-17">March 12, 1909. Friday St.Patrick's Day</docDate>
+            
+            <figure>
+               <graphic url="1909-03-17.jpg">
+                  <desc>The original calender page for March 17, 1909</desc>
+               </graphic>
+               <figDesc>
+                  Two snakes on the top of the paragraph, one was bent over, the other curled up. Some clover drwan in the whole page. A hand-drawn industrial building with several smokestacks producing dark smoke at bottom of the page.
+               </figDesc>
+            </figure>
+            
+            <p>
+               ST.PATRICK WAS A USEFUF SAiNT <lb/>
+               HE FRIDHTENED ALL THE SNAKES AWAT-<lb/>
+               I WISH HE'D TRY HIS ART OF <label type="underline"><damage>S</damage>MOKE</label><lb/>
+               AROUND THE HAMMERMiLL SOME DAY!<lb/>
+            </p>
+            <p>
+               The Hammermill <unclear>really <gap reason="illegible"/> smoke!</unclear>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
