@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>  <!--rough-->
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Nixon Conversation No.450-10</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Nixonapes.org</p>  <!--do later -->
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc><p> info on the relationship electronic text and the source from which its derived
+     </p>  <!--Is the source the PDF transcript or the audio file? is the electronic text the PDF or this file? or include all of this info? -->
+     
+     </encodingDesc>
+  </teiHeader>
+  <text>     
+      <body>
+         <p>1st Ear: LAN, June 26, 2007; 2nd Ear: LAN, June 26, 2007
+            DRAFT
+            1
+            Conversation No. 450-10
+            <date when="1971-02-16">Date: February 16, 1971</date>
+           <time> Time: 10:28 am - 10:49 am</time>
+            <placeName>Location: Oval Office</placeName> <!--do more -->
+           
+           Participants: 
+            <listPerson>      <!-- should i define occupation here or in the intro paragraph because it is stated there aswell-->
+              <person xml:id="nixon">
+                 <occupation>President</occupation>
+                 <persName>Richard M. Nixon</persName>
+              </person> 
+            <person xml:id="butterfield">
+               <occupation>Assistant to the President </occupation>
+               <persName>Alexander P. Butterfield</persName>
+            </person>
+           <person xml:id="haldman"> 
+              <occupation>Cheif of Staff</occupation>
+              <persName>H.R. Haldeman</persName> 
+           </person>
+            </listPerson>
+       </p>
+         
+        <!-- Is this a recording statement? -->
+           <div><p> In one of the first recordings made in the Oval Office of a conversation between
+            President Nixon, Assistant to the President Alexander P. Butterfield, and Chief of Staff
+            H.R. Haldeman, Nixon notes that the purpose of the newly installed taping system was
+            that there would be a record of every conversation “to be put in the file.”
+            This new system of recording meetings and phone calls was to replace the old practice of
+            having a note-taker sit in on every meeting and prepare a memorandum for the
+            president’s files. Nixon considered this former practice too distracting, and now that he
+            had the capability of surreptitiously recording every meeting, Nixon said “I’m for
+            it”…“…let’s just…forget the note taker business.” Haldeman added “just don’t tell
+            anybody you’ve got it.”</p></div>
+            
+            
+           <div> <p>[A special thanks to Ken Hughes and the Miller Center of Public Affairs for alerting us to
+            this conversation and providing a draft transcript]
+            [Transcript has been edited to remove stuttering and improve readability]
+            [Previous unrelated conversation omitted]</p>
+            </div>
+            
+         <div>  <u> Butterfield: You don't have any questions on this other business that you might want me
+            to answer now? This voice, I explained to the president that the secretary can’t—</u>
+            
+          <u>  Nixon: No. Mums the whole word. I will not be transcribed.</u>
+           <u> Butterfield: Correct.</u>
+           <u> Nixon: This is totally for, basically, to be put in the file, in my file. I don't want it in your
+            file or Bob's or anybody else's. My file.</u>
+            <u>Haldeman: Right.</u>
+          <u>  Nixon: And my [unclear] today. The whole purpose, basically, is [unclear-overlapping
+            voices] so there may be a day when we have to have this for purposes of, maybe we want
+            to put out something that's positive, maybe we need something just to be sure that we can
+            correct the record. But we're going to [unclear] that's all. And also, though, because I
+            won't have to have people in the room when I see people—</u>
+          <u>  Haldeman: That's right. </u>
+            <u>1st Ear: LAN, June 26, 2007; 2nd Ear: LAN, June 26, 2007
+            DRAFT 2</u> <!--Not U bit figger out later -->
+            
+           <u> Nixon: Which is much better. I can have my personal conversations, which I want to
+            have, and don't have the people there, you know, uh, which I'd much rather do anyway,
+            unless I feel that I need them there to carry out something or as buffers. Then I'll have
+            them, of course. So I think it'll work fine. It's a good system.</u>
+          <u>  Haldeman: Just don't tell anybody you've got it and don’t try to hide anything [unclear]—</u>
+           <u> Nixon: [Unclear]</u>
+           <u> Haldeman: Any time that anything gets used from it, it's on the basis of “your notes” or
+            “the president's notes”—</u>
+           <u> Nixon: That's right.</u>
+          <u>  Haldeman: Or “my notes” or—</u>
+           <u> Nixon: [Unclear] For example, you've got nothing to use from this today. Just forget it.
+            File it. Everything today will be filed.</u>
+           <u> Haldeman: Yes.</u>
+          <u>  Nixon: Fair enough?</u>
+           <u> Butterfield: I think it's gonna be a very fine system.</u>
+          <u>  Nixon: And I think, incidentally, on those, uh, I don't know, these open office hours, shall
+            we just, let's just use that and forget the note taker business.</u>
+            <u>Haldeman: Well—</u>
+           <u> Butterfield: [Unclear] someone should cover it.</u>
+           <u> [Unclear-overlapping voices]</u>
+          <u>  Haldeman: I'd still use that. We've got—</u>
+         <u>   Butterfield: We aren't getting—</u><!--here-->
+           <u> Haldeman: Look at this from McCracken. Look at this stuff and, and we're getting—</u>
+           <u> Nixon: Well—</u>
+         <u>   Haldeman: To take these things and look at what, what comes out of them. This
+            [Unclear]—</u>
+           <u> Nixon: Okay. Good. I'm for it. </u>
+          <u>  1st Ear: LAN, June 26, 2007; 2nd Ear: LAN, June 26, 2007
+            DRAFT
+            3</u>
+            <u>[Following unrelated conversation omitted]</u></div>
+      </body>
+  </text>
+</TEI>
