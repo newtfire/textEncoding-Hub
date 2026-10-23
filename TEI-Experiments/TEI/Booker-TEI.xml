@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Ballad of Booker T.</title>
+            <author>Langston Hughes</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>TEI encoding experiment for DIGIT 110</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Draft of Langston Hughes's poem "The Ballad of Booker T."</p>
+            <p>June 1, 1941</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1"/>
+         <div type="poem" subtype="literary-work">
+            <head>The Ballad of Booker T.
+            <persName>Booker T.</persName>
+            </head>
+            <lg type="stanza">
+               <l>But <persName>Booker T.</persName> was nobody's fool;</l>
+               <l>You may carve a dream with a humble tool.</l>
+            </lg>
+            <lg type="stanza">
+               <l>He said, Till the cup gets dry,</l>
+               <l>Work and learn for the land.</l>
+            </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
