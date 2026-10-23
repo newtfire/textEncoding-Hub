@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Road Not Taken</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <lg>
+            <l >Two roads diverged in a yellow <placeName>wood</placeName>,</l>
+            <l>And sorry I could not travel both</l>
+            <l>And be one traveler, long I stood</l>
+            <l>And looked down one as far as I could</l>
+            <l>To where it bent in the <objectName>undergrowth</objectName>;</l>
+         </lg>
+         
+         <pb/>
+         
+         <lg>
+            <l>Then took the other, as just as fair,</l>
+            <l>And having perhaps the better claim,</l>
+            <l>Because it was grassy and wanted wear;  </l>  
+            <l>Though as for that the passing there</l>
+            <l>Had worn them really about the same,</l>
+         </lg>
+         
+         <pb/>
+         
+         <lg>
+            <l>And both that <time>morning</time> equally lay</l>
+            <l>In <objectName>leaves</objectName> no step had trodden black.</l>
+            <l>Oh, I kept the first for another day!</l>
+            <l>Yet knowing how way leads on to way,</l>
+            <l>I doubted if I should ever come back.</l>
+         </lg>
+         
+         <pb/>
+         
+         <lg>
+            <l>I shall be telling this with a sigh</l>
+            <l>Somewhere ages and ages hence:</l>
+            <l>Two roads diverged in a <placeName>wood</placeName>, and I—</l>
+            <l>I took the one less traveled by,</l>
+            <l>And that has made all the difference.</l>
+         </lg>
+      </body>
+  </text>
+</TEI>
