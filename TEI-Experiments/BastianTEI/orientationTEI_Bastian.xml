@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BALLAD OF BOOKER T.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>by Langston Hughes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>LANGSTON HUGHES 
+               Final Draft, Hollow Hills Farm, Monterey, California, <date when="1941-06-01">June 1, 1941</date></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="poem">
+         <pb n = "1"/>
+         <p>
+            <lb/>Booker T.
+            <lb/>Was a practical man.
+            <lb/>He said, Till the soil
+            <lb/>And learn from the land.
+            <lb/>Let down your bucket
+            <lb/>Where you are.
+            <lb/>Your fate is here
+            <lb/>And not afar.
+            <lb/>To help yourself
+            <lb/>And your fellow man,
+            <lb/>Train your head,
+            <lb/>Your heart, <emph>and your hand</emph>.
+            <lb/>For smartness alone's
+            <lb/>Surely not meet—
+            <lb/>If you haven't at the same time
+            <lb/>Got something to eat.
+            <lb/>Thus at Tuskegee
+            <lb/>He built a school
+            <lb/> With book-learning there
+            <lb/>And the workman's tool.
+            <lb/>He started out
+            <lb/>In a simple way—
+            <lb/>For yesterday
+            <lb/>Was <emph>not</emph> today.
+            <lb/>Sometimes he had
+            <lb/>Compromise in his talk—
+            <lb/>For a man must crawl
+            <lb/>Before he can walk—
+            <lb/>And in Alabama in '85
+            <lb/>A joker was lucky
+            <lb/>To be alive.
+            <lb/>But Booker T.
+            <lb/>Was nobody's fool:
+            <lb/>You may carve a dream
+            <lb/>With an humble tool.
+            <lb/>The tallest tower
+            <lb/>Can tumble down
+            <lb/>If it be not rooted
+            <lb/>In solid ground.
+            <lb/>So, being a far-seeing
+            <lb/>Transcript
+            <pb n="2"/>
+            <lb/>Education and Outreach Division
+            <lb/>Practical man,
+            <lb/>He said, Train your head,
+            <lb/>Your heart, <emph>and your hand</emph>.
+            <lb/>Your fate is here
+            <lb/>And not afar,
+            <lb/>So let down your bucket
+            <lb/>Where you are.
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
