@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend's Calendar Letters</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Dr. B on the newtFire website</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A series of handwritten calendar entries done by Mary Behrend in the year 1909</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <front>
+               <dateline>
+                  <date when="1909-01-30">JANUARY 30, 1909. SATURDAY</date>
+               </dateline>
+            </front>
+            <body>
+               <p>
+                  <lb/>E.R.B.
+                  <quote>
+                     <lb/>"That damned old clock
+                     <lb/><space quantity="7" unit="char"/> gives me a ?
+                     <lb/>Back <unclear>seeing</unclear> where it's dark
+                     <lb/><emph><unclear>It</unclear> likes</emph> its fun, but I've <unclear>begun</unclear>
+                     <lb/><space quantity="3" unit="char"/>To tire of thee <unclear>dark</unclear>
+                  </quote>
+               </p>
+            </body>
+         </text>
+         <text>
+            <front>
+               <dateline>
+                  <date when="1909-02-16">FEBRUARY 16, 1909. TUESDAY</date>
+               </dateline>
+            </front>
+            <body>
+               <p>
+                  <lb/>Mr. Behrend finds a
+                  <lb/><space quantity="1" unit="char"/>bed bug!
+                  <lb/><hi rend="red-ink">I <unclear>wonder</unclear> if you have found many lately!</hi>
+               </p>
+            </body>
+         </text>
+         <text>
+            <front>
+               <dateline>
+                  <date when="1909-02-17">FEBRUARY 17, 1909. WEDNESDAY</date>
+               </dateline>
+            </front>
+            <body>
+               <p>
+                  <lb/>Each morning <emph>very</emph> early
+                  <lb/>When all is dark &amp; still
+                  <lb/>Ernst <unclear>goes in</unclear> <unclear>inky blackness</unclear>
+                  <lb/>To <unclear>work</unclear> at Hammermill
+                  <lb/>I really think he's very good
+                  <lb/>To get up when it's dark
+                  <lb/>For this he <emph>says</emph> he doesn't mind
+                  <lb/>He can't <unclear>duck</unclear> a <emph>lark</emph>!
+                  <lb/><hi rend="red-ink">Poor thing! is it still dark when you arise?</hi>
+               </p>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

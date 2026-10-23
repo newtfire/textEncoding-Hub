@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AD&amp;D 1e Player's Handbook</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Internet Archive</publisher>
+            <address>
+               <addrLine>300 Funston Ave</addrLine>
+               <addrLine>San Francisco, California</addrLine>
+               <addrLine>United States</addrLine>
+            </address>
+            <availability>
+               <p>Preserved by the Internet Archive and released under an open-source license</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>AD&amp;D Player's Handbook</title>
+               <author>Gary Gygax</author>
+               <publisher>Random House, Inc</publisher>
+               <address>
+                  <addrLine>TSR Hobbies, POB 756</addrLine>
+                  <addrLine>Lake Geneva, WI 53147</addrLine>
+               </address>
+               <date when="1978">1978</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+
+      <body>
+         <head>FOREWORD</head>
+         <p>Players, players, and more players - that's what comprises the <hi rend="bold"
+               >D&amp;D</hi> phenomenon. And phenomenal is what it is, as the audience for this, the
+            granddaddy of all role-playing games, continues to expand.</p>
+         <p><hi rend="bold">D&amp;D players</hi>, happily, come in all shapes and sizes, and even a
+            fair number of women are counted among those who regularly play the game - making <hi
+               rend="bold">DUNGEONS &amp; DRAGONS</hi> somewhat special in this regard. This
+            widespread appeal cuts across many boundaries of interest and background, which means
+            that <hi rend="bold">D&amp;D</hi> players are marked by a wide range of diversity. In
+            fact, one could easily use the analogy that there are as many types of <hi rend="bold"
+               >D&amp;D</hi> players as there are <hi rend="bold">D&amp;D</hi> monsters (after that,
+            draw your own conclusions!). There are unquestionably fast players, slow players, clever
+            players, foolish players, cautious players, reckless players, generous players, greedy
+            players, friendly players, and obnoxious players... </p>
+         <p>As diverse as this melange of enthusiasts is, they all seem to share one commonality: a
+            real love for <hi rend="bold">DUNGEONS &amp; DRAGONS</hi> and a devotion that few other
+            games can claim. This remarkable loyalty is a great factor in the game's explosion of
+            popularity, and <hi rend="bold">DUNGEONS &amp; DRAGONS</hi> has become a gaming cult, as
+            avid <hi rend="bold">D&amp;Der's</hi> have ceaselessly "spread the gospel", enrolling
+            new players in expanding groups which just seem to grow and grow. </p>
+         <p>If you're reading this, then you're a <hi rend="bold">D&amp;D</hi> player - and this
+            book is for you! This is the second release of the <hi rend="bold">ADVANCED
+               DUNGEONS&amp;DRAGONS</hi> series, and is designed to be a player's book in every
+            respect-giving you all the background you require on the game system, as well as the
+            information you'll need to go adventuring. Although this book does not stand alone in
+            terms of supplying all information needed to undertake a campaign, it will complement
+            the other two parts of the whole (the previously released <hi rend="bold">MONSTER
+               MANUAL</hi> and the upcoming <hi rend="bold">DUNGEON MASTERS GUIDE</hi>) to provide
+            the entirety of what will be <hi rend="bold">ADVANCED DUNGEONS &amp; DRAGONS</hi> (along
+            with a greatly expanded version of <hi rend="bold">GODS, DEMI-GODS &amp; HEROES</hi>
+            which will follow). </p>
+         <p>The sheer bulk of this book may seem considerable (and it is, of course), but there are
+            many things not included. These things (such as the details of the combat tables, for
+            instance) are those parts of the game that rightly fall outside the realm of player
+            reference, and thus are included instead in the more voluminous <hi rend="bold">DUNGEON
+               MASTERS GUIDE</hi>. As the author points out, this bit of the "unknown" outside of
+            the players' normal reach will make the game much more interesting and challenging. </p>
+         <p><hi rend="bold">ADVANCED DUNGEONS &amp; DRAGONS</hi> is a game that is demanding for
+            players and Dungeon Masters alike, but the rewards in terms of enjoyment are vast. There
+            is nothing quite like a successful <hi rend="bold">D&amp;D</hi> campaign, and its
+            success is based upon the efforts of all participants. The Dungeon Master is pivotal, of
+            course, but the players are just as important, for they are the primary actors and
+            actresses in the fascinating drama which unfolds before them. For that reason, their
+            outlook and their conduct will greatly affect the flavor and tempo of the campaign.
+            Accordingly, they should do their best to further the success of the entire undertaking.
+            This i s often no more than a matter of simple etiquette, and following a few simple
+            guidelines will suffice to make the game experience more fun for everyone concerned, to
+            wit: </p>
+         <list rend="numbered">
+            <item n="1"> Be an organized player; have the necessary information on your character
+               readily at hand and available to the Dungeon Master. </item>
+            <item n="2"> Cooperate with the Dungeon Master and respect his decisions; if you
+               disagree, present your viewpoint with deference to his position as game moderator. Be
+               prepared to accept his decision as final and remember that not everything in the game
+               will always go your way! </item>
+            <item n="3"> Cooperate with the other players and respect their right to participate.
+               Encourage new and novice players by making suggestions and allowing them to make
+               decisions on courses of action rather than dictating their responses. </item>
+            <item n="4"> If you are unable to participate in an adventure, give the other players
+               and the DM some concrete guidelines if your character is going to be included in the
+               adventuring group; be prepared to accept the consequences, good or bad, in any case. </item>
+            <item n="5"> Get in the spirit of the game, and use your persona to play with a special
+               personality all its own. Interact with the other player characters and non-player
+               characters to give the game campaign a unique flavor and "life". Above all, let
+               yourself go, and enjoy! </item>
+         </list>
+         <p> Enough of the preliminaries - let's get on with the game! Let's see now, where did I
+            stash away all those material components?. . . </p>
+      </body>
+      <back>
+         <div type="letter">
+            <p>
+               <lb/><name>Mike Carr</name>
+               <lb/>TSR Games &amp; <lb/>Rules Editor <lb/><date when="1978-06-02">2 June
+                  1978</date>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
