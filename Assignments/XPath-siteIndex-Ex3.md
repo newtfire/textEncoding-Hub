@@ -12,7 +12,7 @@ Let's continue working with the same Digital Mitford project Site Index file tha
 
 (If you have the si.xml file open in oXygen already, just continue!) If not...
 * Pull in the textEncoding-Hub (`git pull`), and open this file in oXygen:
-filepath: **textEncoding-Hub/Class-Examples/XML/si.xml**
+filepath: **textEncoding-Hub/Class-Examples/TEI/si.xml**
 
 * You can also open the URL for this file directly in oXygen like this:
     * Open oXygen. Go to **File >> Open URL**, and paste in this complete URL:
