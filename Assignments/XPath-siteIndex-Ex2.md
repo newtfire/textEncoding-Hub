@@ -15,7 +15,7 @@ We'll use XPath to explore the lists and try out some XPath functions.
 ### Getting Started: Opening the file in oXygen
 
 Start this assignment by pulling in the textEncoding-Hub (`git pull`), and opening this file in oXygen:
-filepath: **textEncoding-Hub/Class-Examples/XML/si.xml**
+filepath: **textEncoding-Hub/Class-Examples/TEI/si.xml**
 
 You can also open the URL for this file directly in oXygen like this:
 * Open oXygen. Go to **File >> Open URL**, and paste in this complete URL:
