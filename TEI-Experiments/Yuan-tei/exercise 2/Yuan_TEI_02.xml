@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Exercise 2</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Changing earlier homework assignment(Relax NC Exercise 4), the diaries to TEI.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>These are the diaries from Bo's grandfather kept when he was a young teacher. </p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="diaryPage" n="1">
+            <head>
+               <date when="1964-12-26">December26·1964</date>
+               <seg type="weekday">Saturday</seg> <!-- Boy1145: I don't know how to tag the <weekday> in the <head> element; same for the <weather> below. So I just use <seg> and mark what type that is. -->
+            </head>
+            <p>回乡<time dur="P2Y">两年</time>还没安心，不能断定是思想正确与否。这又像是为自己的不正确思想辩护。事物是发展着，应用发展的眼光看问题。</p>
+         </div>
+         
+         <div type="diaryPage" n="2">
+           <head> 
+              <date when="1964-12-28">December28·1964</date>
+              <seg type="weekday">Monday</seg>
+           </head>
+            <p>今日，班上纪律好得很。</p>
+         </div>
+         
+         <div type="diaryPage" n="3">
+            <head>
+               <date when="1965-01-03">January3·1965</date>
+               <seg type="weekday">Sunday</seg>
+            </head>
+            <p>新年的第二天，英雄的解放军就又击落了一架胆敢来犯的无人驾驶侦察纪，实在令人鼓舞、振奋。</p>
+         </div>
+         
+         <div type="diaryPage" n="4">
+            <head>
+               <date when="1965-01-08">January8·1965</date>
+               <seg type="weekday">Friday</seg>
+               <seg type="weather">Fine</seg>
+            </head>
+            <p>他爹讲：咱这种人家早先哪敢想供给得起个大学生。是呵，连高中初中生也是问题。其母流过泪。爹睡不好觉了，又借了十元钱汇给了他。……我复信中，一本正经地板着面孔夸夸其谈。实际上自己遇到了，或许会<seg type="emotion" subtype="sad">悲观至极</seg>；还没经过那样的事，有时就<seg type="emotion" subtype="sad">心灰意冷</seg>。</p> <!-- Boy1145: Same here, just using <seg> to replace <emotion> element -->
+         </div>
+         
+         <div type="diaryPage" n="5">
+            <head>
+               <date when="1965-01-11">January11·1965</date>
+               <seg type="weekday">Monday</seg>
+               <seg type="weather">Wind  Cold  Fine</seg>
+            </head>
+            <p>好啊！——又击落一架U-2飞机。</p>
+         </div>
+         
+         <div type="diaryPage" n="6">
+            <head>
+               <date when="1965-01-12">January12·1965</date> 
+               <seg type="weekday">Tuesday</seg> 
+               <seg type="weather">Fine</seg>
+            </head>
+            <p>找六个三类学生漫谈怎样学习变得好起来。他们畅所欲言，我很<seg type="emotion" subtype="happy">高兴</seg>。他们自觉自愿地按我的话做去了。应当善于让学生无拘无束的谈出他们各自的意见、看法等心理话。这就要坚决地改正大声训斥的恶习，态度一定要和蔼。</p>
+            <p> 向一个女学生承认了自己的错误：和她嘔气，不给她批作业——这简直不配做教师嘛。</p>
+         </div>
+         
+         <div type="diaryPage" n="7">
+            <head>
+               <date when="1965-01-18">January18·1965</date>
+               <seg type="weekday">Monday</seg>
+               <seg type="weather">Fine</seg>
+            </head>
+            <p>下午课后，<placeName type="place" subtype="school">学校</placeName>几个班的学生将村南的<placeName type="place" subtype="temple">土地庙</placeName>拉倒了。其先以为很简单，将拔河绳套上它就可以。不料，喊口号，齐使劲，竟至于拉断了拔河绳，<placeName type="place" subtype="temple">土地庙</placeName>体却没有动。之后，将绳子贴在庙体的底部，方才齐用力拉翻了它。原来它是由一整块石头凿刻而成。现场看的人不少。母亲知道了，说：拉倒了它，还会有“送盘缠”的。我以为：此一举，总有点意义吧。</p>
+         </div>
+         
+         <div type="diaryPage" n="8">
+            <head>
+               <date when="1965-02-02">Februery2·1965</date> 
+               <seg type="weekday">Tuesday</seg> 
+               <seg type="weather">Fine  Wind</seg>
+            </head>
+            <p>听君一席话，胜读十年书。在牛家，同家昌、瑞久、系招同学，自<time when="19:45:00">7点45</time>一直扯到<time when="10:00:00">十时</time>，收获大大的。他们谈了对我的看法。有说同我谈话不容易。或者说我话多钱少。或者说我对人严，而对己松得很，等。共同认为：年轻人思想易于片面，往往摇摆不定。</p> 
+         </div>  
+         
+         <div type="diaryPage" n="9"> 
+            <head>
+               <date when="1965-03-12">March12·1965</date> 
+               <seg type="weekday">Saturday</seg> 
+               <seg type="weather">Fine</seg>
+            </head>
+            <p>学校里的同事们评我为优秀教师。这是不实际的。我至今事业心才算安定了，可工作不出色，且相当糟，虽非一无是处，而是工作中问题相当多，甚至相当严重。同事们大多还不能很好的展开批评和自我批评，这与工作等很不利。本来，可以不赞成我的。</p>
+         </div>   
+         
+         <div type="diaryPage" n="10">
+            <head>
+               <date when="1965-03-28">March28·1965</date> 
+               <seg type="weekday">Sunday</seg> 
+               <seg type="weather">Fine</seg>
+            </head>
+            <p><time when="10:00:00">上午</time>，跑了一趟沧口。途中，买了地豆、菠菜、葱。本来，娘还要我卖白菜，可给木匠下酒。我可连集也不会赶。还好，在合作社里，不用讲价便成交了。</p>
+         </div>
+         
+         <div type="diaryPage" n="11">
+            <head>
+               <date when="1965-05-20">May20·1965</date> 
+               <seg type="weekday">Thursday</seg> 
+               <seg type="weather">Fine</seg>
+            </head>
+            <p>一学生由我请求学校勒令退学了，其家长有意见。尽管事已如此，但一想起来就<seg type="emotion" subtype="sad">深感内疚和失职……</seg></p>
+         </div>
+         
+         <div type="diaryPage" n="12">
+            <head>
+               <date when="1965-05-28">May28·1965</date> 
+               <seg type="weekday">Friday</seg>  
+               <seg type="weather">Fine</seg>
+            </head>
+            <p><time when="14:00:30">下午</time>，<placeName type = "county">崂山县</placeName>文化馆下乡到公社内，并要在<placeName type = "city">城阳</placeName>大队设一个图书站，以便出借图书给社员看。大队团组织要我负责。我前去借到45本书，十本连环画，跟一个图书箱</p>
+         </div>
+         
+         <div type="diaryPage" n="13">
+            <head>
+               <date when="1965-06-02">June2·1965</date> 
+               <seg type="weekday">Wednesday</seg> 
+               <seg type="weather">Cloud</seg>
+            </head>
+            <p>比较起来，教学工作应该有规律一些：每天上几节课，空几堂课都是规定好了的，就可以预先计划好干什么干什么。</p>
+         </div>
+         
+         <div type="diaryPage" n="14">
+            <head>
+               <date when="1965-06-04">June4·1965</date> 
+               <seg type="weekday">Friday</seg> 
+               <seg type="weather">Fine</seg>
+            </head>
+            <p>花0.28元买了<objectName type="book">《汉语浅说》</objectName>同<objectName type="book">《郭兴福教学方法》</objectName>两书（0.15加0.13元）。<time when="19:00:00">晚饭前</time>去自留地补地瓜苗。一出村，看见满地的麦子快转黄了，直觉一阵阵清郁的香气扑鼻，沁人肺腹似的。还得闻生产队里安装好了电动石碾搞副业。是新事儿，一记之。</p>
+         </div>
+         
+         <div type="diaryPage" n="15">
+            <head>
+               <date when="1965-06-15">June15·1965</date>  
+               <seg type="weather">Cloud  Rain</seg></head>
+            <p>想不到写的标语竟大有问题，公社冷社长、杜书记<time when="23:00:00">夜间十一点左右</time>特地找到大队指出改过。但是，我始终认为几乎是每一条都站得住脚，最起码也没有那么严重。我首先接受的是其中有几个有教训的口味，可很难分析出什么“对现实不满”“对人家冷嘲热讽”之类的意思，也未免有点牵强了吧。</p>
+            <p>我的自我批评是，不由自主地表现了小资产阶级好为人师的恶习，很不老实，俨然像一位上级给下级上政治课，还自以为在代表贫下中农和大学生说话呢。末了一句话是：整个看来应肯定；教训的口吻与故意散发的文学气味应坚决收起。</p>
+            <p>列宁的伟大遗训：“你总认识年轻的XYZ吧。一个极好的，很有才干的青年人！虽说这样，我可怕他不会有什么出息。他忙着接二连三地制造风流韵事。这对于政治斗争、对于革命都是不适合的……”</p>
+         </div>
+         
+         <div type="diaryPage" n="16">
+            <head>
+               <date when="1965-06-29">June29·1965</date>  
+               <seg type="weather">Cloud</seg>
+            </head>
+            <p>和以前一样，仍然希望你能大胆地毫无顾忌地对我的缺点或错误谈出自己的看法。我特别希望听到批评。自己的事应自己拿主见善处之，就不要别人插手，就不要向别人提出这种要求。学着自己独立地解决问题吧。</p>
+         </div>
+         
+         <div type="diaryPage" n="17">
+            <head>
+               <date when="1965-09-07">September7 1965</date>  
+               <seg type="weekday">Tuesday</seg> 
+               <seg type="weather">Fine</seg></head>
+            <p>访学生家，思想豁然开朗：原来很犯难——那学生很不听话。听了家长一席话，知其好学的精神，以及要孩子好好学习的心情等实况，一时间不发愁了。</p>
+         </div>
+         
+         <div type="diaryPage" n="18">
+            <head>
+               <date when="1965-09-23">September23 1965</date> 
+               <seg type="weekday">Thursday</seg> 
+               <seg type="weather">Fine</seg></head>
+            <p>一个女生和三个女生不说话，今天我才知道。都<time dur="P1Y">快一年</time>了。原因是她比较负责，而与她们闹了意见。今日，其中一个传“淡话“的哭得很伤心，似乎深刻的认识了自己的错误。这就要求今后，得注意调查研究班里的情况。看看她们明天能和好吗？——今日相互握了手</p>
+         </div>
+         
+         <div type="diaryPage" n="19">
+            <head>
+               <date when="1965-10-15">October15·1965</date> 
+               <seg type="weekday">Friday</seg> 
+               <seg type="weather">Fine</seg></head>
+            <p>四清工作队干部调查三队的青年情况，说那里就是阶级斗争的反应。这，可以同意。但是，说其有后台的话，<seg type="emotion" subtype="doubt">值得怀疑</seg>。我要看：运动之后，会弄一个什么结果。</p>
+         </div>
+         
+         <div type="diaryPage" n="20">
+            <head>
+               <date when="1965-11-07">November7 1965</date> 
+               <seg type="weekday">Sunday</seg> 
+               <seg type="weather">Cloud</seg>
+            </head>
+            <p>河道攒了0·28元钱，买了本<objectName type="book">《革命歌曲集（2）》</objectName>，可见其爱唱歌。可以通过这方面的诱导，克服其怪声怪调的毛病。</p>
+            <p> 怀良的日记记得好，应作为活样板推荐给全班学生。</p>
+         </div>
+         
+         <div type="diaryPage" n="21">
+            <head>
+               <date when="1965-12-18">December18 1965</date> 
+               <seg type="weekday">Thursday</seg> 
+               <seg type="weather">Cloud  Rain</seg>
+            </head>
+            <p>班上纪律情况有所好转，也并不明显。大概想很明显的变化是不实际的。以后，继续不断地因势利导，一定会巩固住的。</p></div>
+      </body>
+  </text>
+</TEI>
