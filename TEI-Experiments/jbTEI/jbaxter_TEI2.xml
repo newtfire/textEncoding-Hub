@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ballad of Booker T.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>lLibrary of Virginia</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>"Ballad of Booker T.," by Langston Hughes, <date >June 1, 1941 </date>
+        <title>    BALLAD OF BOOKER T.</title>
+            by  
+            Langston Hughes 
+            Booker T. 
+            Was a practical man.  
+            He said, Till the soil  
+            And learn from the land. 
+            Let down your bucket  
+            Where you are.  
+            Your fate is here  
+            And not afar. 
+            To help yourself  
+            And your fellow man,  
+            Train your head,  
+            Your heart, and your hand. 
+            For smartness alone's  
+            Surely not meet—  
+            If you haven't at the same time  
+            Got something to eat. 
+            Thus at Tuskegee  
+            He built a school  
+            With book-learning there  
+            And the workman's tool. 
+            He started out  
+            In a simple way—  
+            For yesterday  
+            Was not today. 
+            Sometimes he had  
+            Compromise in his talk—  
+            For a man must crawl  
+            Before he can walk— 
+            And in Alabama in '85  
+            A joker was lucky  
+            To be alive. 
+            But Booker T.  
+            Was nobody's fool:  
+            You may carve a dream  
+            With an humble tool. 
+            The tallest tower  
+            Can tumble down  
+            If it be not rooted  
+            In solid ground. 
+            So, being a far-seeing
+            Practical man,  
+            He said, Train your head,  
+            Your heart, and your hand. 
+            Your fate is here  
+            And not afar,  
+            So let down your bucket  
+            Where you are. 
+         </p>
+      </body>
+  </text>
+</TEI>

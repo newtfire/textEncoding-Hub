@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--Hello Prof Bondar im honestly kinda struggling with this assignment and i dont know what else to do with this document im sorry i know the elements we can use but i dont see how to use them -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><placeName>Albany</placeName> <date>March 9, 1804</date>
+            
+            My Dear friend
+            
+            I am just going to proceed in the stage for <placeName>New York</placeName>. However, I must endeavor first to give you some account of my journey this far, through a country which was once the seat of your ancestors; but that is now covered with <placeName>European</placeName> settlements, whose persevering industry has greatly changed the face of the country; and forests continue to disappear before the efforts of the laborious woodman. Is there any thing in their change to call for the sensations of sorrow in the breast of the philanthropic patriot? if there is, it is not because the inanimate clod has changed possessors, or that, what was once an unculti-vated waste, is now covered with human habitations, and rendered abundant in productions for the sustenance and comfort of man; but it is because we have not been sufficiently benefited by the example of that which is worthy and commendable in the character of good <placeName>Europeans</placeName> and have been greatly contaminated to the contrary - Had the Chiefs, who relinquished this country, acquired more vir-tuous knowledge from their enlightened neighbours, they might have obtained such compensation and retained such reserves which properly disposed of after the settle-ment of the country, when the value of land had raised; might have enabled them to have established a fund for the support and promotion of industrious in our present territory
+            
+            But to return to my journey – I left <placeName>Niagara</placeName> and parted with my friends with I know not what mixed impressions of joy and grief – which seemed to urge me with greater expedition to proceed &amp; rendered it exceeding unpleasant for me to make any delay. However as agree-ably as the situation of my mind would allow of, I passed one day at <placeName>Canandarque</placeName> (sp. Canadaque) mostly in the company of <name>Mr. &amp;Mrs. Morris</name> &amp;<name> Mr. Greig,</name> a gentleman from <placeName>Scotland</placeName>, who had always honored (p.12) me with every hospitable and polite attention whenever business called me to these parts. My friend <name>Ihaskoghsage</name> was not at home, but I obtained of that which was due a sufficiency to enable me to attempt my voyage from the gentleman who manages his affairs.
+            
+            At the Inn where I stop a Man put up who told me he was going the way I proposed to go and that I might obtain a passage in his sleigh. When he had satisfied me, that he would be expeditious, and that I might depend upon the goodness of his horses, I agreed to go with him. In consequence of changing my mode of travelling from foot to going in a carriage a young lady from our parts then at <placeName>Canandarque (sp. Canadaque)</placeName> with a brother, whom I knew proposed going under my protection, to Icohare where she had another brother. But unfortunately we were both deceived in the capability of the horses that drew us and shortly after our departure it now ap-peared clear, that unless we obtained others, we should be sure of a tedious journey. Had I been alone I would have easily remedied this inconvenience by going on foot; but as the Lady had come under my protection I could not with propriety leave her until we reached her brothers. I endeavored to hire a sleigh, but none was to be had; so we were constrained to remain with the old man and his sorry nags. The first day we slept at about six miles East of <placeName>Cayuga</placeName>, and the next day at <name>Ikanyadares</name>, about eighteen miles farther. The snow had fallen very deep, which so
+            
+            increased the difficulty of travelling, that our man with his sleigh could hardly be prevailed on to start again, and all attempts to obtain another sleigh and horses were fruitless. I am apprehend-sive, that contrary to my inclination, my looks betrayed the anxiety of my mind at being detained by the tardiness of our conveyance. The lady observed she had a brother in law about twenty six miles farther, and that if she could get that far, she would tarry until the roads became better – we set off again, but had not proceeded above five miles when our man expressed his determination of not going any farther. Not finding any horses to hire at the house where we stopped (sp. stopt), I was on my way to the next house to inquire if any might be had there, when I perceived</p>
+      </body>
+  </text>
+</TEI>
