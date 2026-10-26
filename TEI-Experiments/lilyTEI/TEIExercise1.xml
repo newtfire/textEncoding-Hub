@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend's Calendar Sheets</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Penn State Behrend.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Created by Mary Behrend in 1909 for her husband.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <figure>
+            <head>
+               MARCH 11, 1909<lb/>
+               THURSDAY
+            </head>
+            <figDesc>Four feminine figures appear to be talking or arguing. They're each wearing differently colored clothes, from left
+            to right, appearing as purple, red, blue, and green. The purple and red figures have appropriately colored flamoyant hats.
+            Each woman has a red face, and the red and green woman are pointing at each other and yelling, implying an argument.</figDesc>
+         </figure>
+         <p>
+         <l>Everybody dressed in their best</l>
+         <l>For <hi rend="underlined">this</hi> is an <hi rend="underlined">Erie Tea</hi></l>
+         <l>They <hi rend="underlined">eat</hi> too much, <hi rend="underlined">talk</hi> too much-</l>
+         <l>You can bet they <gap reason="illegible" unit="word" quantity="2"></gap> in me.</l>
+         <l><add place="left"><gap reason="illegible" unit="word" quantity="4"></gap> gay in Erie?</add></l>
+      </p>
+      </body>
+  </text>
+   
+<!--I tried to play around with a paragraph of a continuous idea alongside the lines being broken up and marked.-->
+<!--I think it works fine for the Thursday entry, but the Friday one appears a bit choppy because of it.-->
+   
+   <text>
+      <body>
+         <figure>
+            <head>
+               <l>MARCH 12, 1909</l>
+               <l>FRIDAY</l>
+            </head>
+            <figDesc>A woman in snow gear appears to be strutting along in her snowshoes. Red dots appear around
+            the edge of the snowshoes, seemingly connected with a thread or wire.</figDesc>
+         </figure>
+         <p>
+            <l>Molly on</l>
+            <l>snowshoes</l>
+            <l>that Mr. Weir</l>
+            <l>got.</l>
+            <l>Pretty picture</l>
+            <l>is it not?</l>
+         </p>
+         <p><add place="below">Love from <gap reason="illegible" unit="word" quantity="1"></gap></add></p>
+      </body>
+   </text>
+</TEI>

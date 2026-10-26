@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ballad of Booker T.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>By Langston Hughes, Published June 1st, 1941</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head><hi rend="underlined">BALLAD OF BOOKER T.</hi>
+            by
+            Langston Hughes</head>
+         <p>Booker T.
+            Was a practical man.
+            He said, Till the soil
+            And learn from the land.
+            Let down your bucket
+            Where you are.
+            Your fate is here
+            And not afar.
+            To help yourself
+            And your fellow man,
+            Train your head,
+            Your heart, <hi rend="underlined">and your hand</hi>.
+            For smartness alone's
+            Surely not meet—
+            If you haven't at the same time
+            Got something to eat.
+            Thus at <location><settlement type="city">Tuskegee</settlement></location>
+            He built a school
+            With book-learning there
+            And the workman's tool.
+            He started out
+            In a simple way—
+            For yesterday
+            Was <hi rend="underlined">not</hi> today.
+            Sometimes he had
+            Compromise in his talk—
+            For a man must crawl
+            Before he can walk—
+            And in <location><country key="USA">Alabama</country></location> in <date when="1885">'85</date>
+            A joker was lucky
+            To be alive.
+            But Booker T.
+            Was nobody's fool:
+            You may carve a dream
+            With an humble tool.
+            The tallest tower
+            Can tumble down
+            If it be not rooted
+            In solid ground.
+            So, being a far-seeing
+            Practical man,
+            He said, Train your head,
+            Your heart, <hi rend="underlined">and your hand</hi>.
+            Your fate is here
+            And not afar,
+            So let down your bucket
+            Where you are.</p>
+         <trailer>LANGSTON HUGHES
+            Final Draft,
+            Hollow Hills Farm,
+            <location><country key="USA"><settlement type="city">Monterey,</settlement> California,</country></location>
+            June 1, 1941.</trailer>
+      </body>
+  </text>
+</TEI>
