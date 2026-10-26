@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <title>Jabberwocky</title> by <author>Lewis Carrol</author>
+    <space/>
+    <stanza n="1" scheme="abab">
+        <line n="1">’Twas <w type="adjOrNoun">brillig</w>, and the <w type="adj">slithy</w>
+            <w type="noun">toves</w></line>
+        <line n="2">Did <w type="verb">gyre</w> and <w type="verb">gimble</w> in the <w type="noun"
+                >wabe</w>:</line>
+        <line n="3">All <w type="adj">mimsy</w> were the <w type="noun">borogoves</w>,</line>
+        <line n="4">And the <w type="adj">mome</w>
+            <!-- mome could be an adjective describing the raths, or the two could be "the mome
+                raths" -->
+            <w type="noun">raths</w>
+            <w type="adj">outgrabe</w>.</line>
+    </stanza>
+    <stanza n="2" scheme="abab">
+        <line n="5">“Beware the <w type="noun">Jabberwock</w>, my son!</line>
+        <line n="6">The jaws that bite, the claws that catch!</line>
+        <line n="7">Beware the <w type="noun">Jubjub</w> bird, and shun</line>
+        <line n="8">The <w type="adj">frumious</w>
+            <w type="noun">Bandersnatch</w>!”</line>
+    </stanza>
+    <stanza n="3" scheme="abcb">
+        <line n="9">He took his <w type="adj">vorpal</w> sword in hand;</line>
+        <line n="10">Long time the <w type="adj">manxome</w> foe he sought—</line>
+        <line n="12">So rested he by the <w type="noun">Tumtum</w> tree</line>
+        <line n="13">And stood awhile in thought.</line>
+    </stanza>
+    <stanza n="4" scheme="abab">
+        <line n="14">And, as in <w type="adj">uffish</w> thought he stood,</line>
+        <line n="15">The <w type="noun">Jabberwock</w>, with eyes of flame,</line>
+        <line n="16">Came <w type="adj">whiffling</w><!-- whiffling is an actual word, but sits at
+                a strange spot in this poem where it isn't used quite as it typically would -->
+            through the <w type="adj">tulgey</w> wood,</line>
+        <line n="17">And burbled as it came!</line>
+    </stanza>
+    <stanza n="5" scheme="abcb">
+        <line n="18">One, two! One, two! And through and through</line>
+        <line n="19">The <w type="adj">vorpal</w> blade went <w type="ono">snicker-snack</w>!</line>
+        <line n="20">He left it dead, and with its head</line>
+        <line n="21">He went <w type="adj">galumphing</w> back.</line>
+    </stanza>
+    <stanza n="6" scheme="abcb">
+        <line n="22">“And hast thou slain the <w type="noun">Jabberwock</w>?</line>
+        <line n="23">Come to my arms, my <w type="adj">beamish</w> boy!</line>
+        <line n="24">O <w type="adj">frabjous</w> day! <w type="ono">Callooh</w>! <w type="ono"
+                >Callay</w>!”</line>
+        <line n="25">He <w type="verb">chortled</w>
+            <!-- chortled is now a somewhat regularly used word, but this poem is its origin -->
+            in his joy.</line>
+    </stanza>
+    <stanza n="7">
+        <refrain>
+            <line n="26">’Twas <w type="adjOrNoun">brillig</w>, and the <w type="adj">slithy</w>
+                <w type="noun">toves</w></line>
+            <line n="27">Did <w type="verb">gyre</w> and <w type="verb">gimble</w> in the <w
+                    type="noun">wabe</w>:</line>
+            <line n="28">All <w type="adj">mimsy</w> were the <w type="noun">borogoves</w>,</line>
+            <line n="29">And the <w type="adj">mome</w>
+                <w type="noun">raths</w>
+                <w type="adj">outgrabe</w>.</line>
+        </refrain>
+    </stanza>
+</root>

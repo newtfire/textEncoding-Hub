@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    Shrewsbury Cakes: Original Recipe.
+    
+    <paragraph id="background">This recipe comes from MS Codex 625, a manuscript recipe book 
+    that belonged to a student in a London cooking school in the early eighteenth century. 
+    The pastry school was owned by <contributer id="author" key="original">Edward Kidder</contributer>, who taught at a few locations 
+    in London between around <year>1720</year> and <year>1734</year>. Blank books with printed title pages 
+    seem to have been used by students to write down recipes they learned.
+    Kidder also published his recipes in the printed volume, 
+    Receipts for Pastry and Cookery, in <year>1720</year>.</paragraph>
+    
+    Take a <quantity id="pound" key="original">pound</quantity> of <ingredient id="fresh butter" key="original">fresh butter</ingredient> a <quantity id="pound" key="original">pound</quantity> of <ingredient id="double refined sugar" key="original">double
+        refind sugar</ingredient> <process id="sift" key="original">sifted fine</process> a <quantity id="a little" key="original">little</quantity> <process id="beaten" key="original">beaten</process>
+    <ingredient id="mace" key="original">mace</ingredient> &amp; <quantity id="four" key="original">4</quantity> <ingredient id="egg" key="original">eggs</ingredient> <process id="beat" key="original">beat</process> them all together with.
+    your hands till tis very <quality id="light" key="original">leight</quality> &amp; looks
+    <quality id="curdled" key="original">curdling</quality> you put thereto a <quantity id="pound" key="original">pound</quantity> &amp; 1/2 of
+    <ingredient id="flour" key="original">flower</ingredient> <process id="roll" key="original">roul</process> them out into <quality id="little cakes" key="original">little cakes</quality>
+    
+    Our recipe (halved from the original)
+    
+    <quantity id="halfPound" key="renewed">1/2 lb.</quantity> (2 sticks) <ingredient id="butter" key="renewed">butter</ingredient>, <quality id="softened" key="renewed">softened</quality>
+    <quantity id="halfPound" key="renewed">1/2 lb.</quantity> <ingredient id="sugar" key="renewed">sugar</ingredient>
+        <quantity id="quarterTeaspoon" key="renewed">1/4 tsp.</quantity> <ingredient id="mace" key="renewed">mace</ingredient>
+            <quantity id="halfTeaspoon" key="renewed">1/2 tsp.</quantity> <ingredient id="cinnamon" key="renewed">cinnamon</ingredient>
+                <quantity id="2" key="renewed">2</quantity> <ingredient id="eggs" key="renewed">eggs</ingredient>
+                <quantity id="threeQuartersPound" key="renewed">3/4 lb.</quantity> <ingredient id="flour" key="renewed">flour</ingredient>
+    
+    Using an <tool id="electricMixer" key="renewed">electric mixer</tool>, <process id="cream" key="renewed">cream</process> together the <ingredient id="butter" key="renewed">butter</ingredient> and <ingredient id="sugar" key="renewed">sugar</ingredient>. 
+    Then <process id="add" key="renewed">add</process> the <ingredient id="egg" key="renewed">eggs</ingredient> and <process id="mix" key="renewed">mix</process> at <quality id="medium speed" key="renewed">medium speed</quality> until the mixture looks <quality id="curdled" key="renewed">curdled</quality>. 
+    <process id="sift" key="renewed">Sift</process> together dry ingredients and add at <quality id="low speed" key="renewed">low speed</quality> until <quality id="just combined" key="renewed">just combined</quality>. 
+    Scoop and <process id="roll" key="renewed">roll</process> the dough by hand into <quantity id="oneTablespoon" key="renewed">1-tbsp</quantity>. balls, then <process id="flatten" key="renewed">pat flat</process>.
+    [You could also refrigerate the dough until it’s firm enough to roll out 
+    on a flat surface and cut out into rounds.]
+    
+    Bake at <quantity id="350F" key="renewed">350F</quantity> for <quantity id="fifteenMinutes" key="renewed">15-18 minutes</quantity> (ours were about 1/3″ thick, so you could roll them thinner 
+    and have a slightly shorter cooking time). They’re done once they turn the 
+    <quality id="goldenBrown" key="renewed">slightest bit brown around the edges</quality>. This halved recipe yielded about <quantity id="twentyFour" key="renewed">two dozen</quantity> cookies.
+    
+    The Results
+    
+    If you like snickerdoodles (and who doesn’t?), you’d like these. 
+    We added the cinnamon because we like it and couldn’t resist, and we thought it rounded out the mace nicely. 
+    These are mild, fairly soft cookies that are great with tea. We rolled and patted 
+    the dough into individual cookies because it was too soft and stick to roll out, 
+    but a little bit more flour and a stint in the fridge might make the dough easier 
+    to work with a rolling pin.
+</root>

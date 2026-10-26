@@ -1,0 +1,15 @@
+No.1 //div[@type='panelGrp']
+
+No.2 //div[@type='panelGrp']/cbml:panel
+
+No.3 //div[@type='panelGrp']/cbml:panel[2] 23 Items returned
+
+No. 4 //@characters for 53 items
+
+No.5 //cbml:panel[@characters='#narrator'] with 52 Items
+
+No.6 19 items returned
+
+No. 6 All content here seems to be Diagetic text from the comic's panels.
+
+No. 6 count(//cbml:panel[.//floatingText])
