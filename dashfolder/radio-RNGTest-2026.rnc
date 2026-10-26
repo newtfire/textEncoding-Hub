@@ -1,0 +1,45 @@
+start = xml
+xml = element xml {heading, body}
+heading = element heading {title, byline, listNames}
+title = element title {text}
+byline = element byline {mixed {author, pubTitle, date}}
+author = element author {text} 
+pubTitle = element pubTitle {text} 
+date = element date {when?, from?, to?, text}
+from = attribute from {xsd:date}
+to = attribute to {xsd:date}
+when = attribute when {xsd:gYear | xsd:date}
+listNames = element listNames {person+, org+, tech+}
+person = element person {role, id, name}
+org = element org {role, id, name}
+tech = element tech {role, id, name, source}
+role = attribute role {"investigator" | "navigator" | "pilot" | "search" | "flight" | "research" | "news"}
+id = attribute id {xsd:ID}
+name = element name {text}
+source = element source {url, empty}
+url = attribute url {xsd:anyURI}
+body = element body {intro, section+}
+intro = element intro {p+}
+section = element section {subtitle, p+}
+subtitle = element subtitle {text}
+p = element p {mixed {(timelapse | date | place | mention | radioFreq | message)*}}
+radioFreq = element radioFreq {text}
+timelapse = element timelapse {dur, text}
+dur = attribute dur {xsd:duration}
+place = element place {text}
+mention = element mention {ref, text} 
+ref = attribute ref {xsd:IDREF}
+message = element message {type?, text}
+type= attribute type {"morseCode"}
+
+
+
+
+
+
+
+
+
+
+
+

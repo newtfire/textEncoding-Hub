@@ -1,0 +1,6 @@
+start = xml
+xml = element xml {source, poem}
+source = element source {title, author, date}
+title = element title {level+, text}
+author = element author
+date = element date

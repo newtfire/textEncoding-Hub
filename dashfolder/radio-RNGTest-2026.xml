@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="radio-RNGTest-2026.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <heading>  <!-- W.D.G first things first it should go {heading, body} as both elements exist in tandem, and it makes sense that they would be in order.-->
+        <title>Amelia Earhart’s Desperate Calls For Help Heard In Radio Distress Signals</title> <!-- Oh man this is dark! Also this element will always have text... -->
+
+        <byline><author>Nicole Arce</author> for <pubTitle>Tech Times</pubTitle>, <date
+                when="2018-07-26">26 July 2018, 07:07 am</date>.</byline> <!-- I moved the date element up here (from between timelapse and place, this is a note for dash incase this broke something and i have to go back) since that is when it is first encountered-->
+        <listNames>
+            <person role="pilot" id="AE">
+                <name>Amelia Earhart</name>
+            </person>
+            <person role="navigator" id="FN">
+                <name>Fred Noonan</name>
+            </person>
+            <person role="investigator" id="RG">
+                <name>Ric Gillespie</name>
+            </person>
+            <person role="investigator" id="RJ">
+                <name>Richard Jantz</name>
+            </person>
+            <org role="search" id="USN">
+                <name>U.S. Navy</name>
+            </org>
+            <org role="research" id="IGHAR">
+                <name>The International Group for Historic Aircraft Recovery</name>
+            </org>
+            <org role="research" id="UT">
+                <name>University of Tennessee</name>
+            </org>
+            <org role="news" id="WP">
+                <name>Washington Post</name>
+            </org>
+            <tech role="flight" id="LE">
+                <name>Lockheed Electra 10E Special, NR 16020</name>
+                <source
+                    url="https://www.thisdayinaviation.com/amelia-earharts-lockheed-electra-10e-special-nr16020/"
+                />
+            </tech>
+        </listNames>
+    </heading>
+
+    <body>
+        <intro>
+            <p><mention ref="AE">Amelia Earhart</mention>'s last calls for help were heard by
+                several people around the globe, an analysis of distress calls made following her
+                disappearance reveals.</p>
+
+            <p>The newest findings strengthen the theory that Earhart and her navigator <mention
+                    ref="FN">Fred Noonan</mention> died stranded on a small uninhabited island in
+                the Pacific Ocean.</p>
+
+            <p>It runs counter to the statement made by the <mention ref="USN">U.S. Navy</mention> that the two died
+                when Earhart's <mention ref="LE">Lockheed Electra</mention> fell into the ocean and
+                sank to the bottom of the sea.</p>
+        </intro>
+
+        <section>
+            <subtitle>Distress Calls Sent By Earhart</subtitle>
+
+            <p><timelapse dur="P80Y">More than 80 years after</timelapse> Earhart set out on the
+                    <date when="1937">summer of 1937</date> to become the first woman to
+                circumnavigate the globe, researchers analyzing a collection of radio distress
+                signals have found that the pilot was sending haunting pleas for help for five days
+                after her plane disappeared from radars.</p>
+
+            <p>In a paper published by researchers at <mention ref="IGHAR">The International Group
+                    for Historic Aircraft Recovery</mention>, experts say they found 57 credible
+                radio signals out of 120 gathered from government and private radio operators.</p>
+
+            <p>The signals carried several messages believed to have been made by <mention ref="AE"
+                    >Earhart</mention> and, at times, <mention ref="FN">Noonan</mention>. <mention
+                    ref="RG">Ric Gillespie</mention>, director of <mention ref="IGHAR"
+                    >TIGHAR</mention>, says Earhart may have been injured but Noonan was worse
+                off.</p>
+
+            <p>The messages provide resounding proof for <mention ref="IGHAR">TIGHAR</mention>'s
+                theory that Earhart was stranded on <place>Gardner Island, now Nikumaroro</place>, a
+                then-uninhabited island 2,600 miles off the coast of <place>New Zealand</place>.</p>
+
+            <p>They also paint a chilling picture of <mention ref="AE">Earhart</mention>'s last days
+                marooned on an island, venturing out into the land for shelter during the day and
+                going back into the plane when the tide was low to send distress calls.</p>
+
+            <p>"These active versus silent periods and the fact that the message changes on <date
+                    when="1937-07-05">July 5</date> and starts being worried about water and then is
+                consistently worried about water after that — there's a story there," <mention
+                    ref="RG">Gillespie</mention> tells <mention ref="WP">The Washington Post</mention>.</p>
+        </section>
+        <section>
+            <subtitle>Messages Heard Around The World</subtitle>
+
+            <p>When <mention ref="LE">Earhart's Electra</mention> disappeared on <date
+                    when="1937-07-02">July 2, 1937</date>, naval authorities requested the public to
+                listen to <radioFreq>3105 and 6210 kilohertz</radioFreq>, the frequencies Earhart
+                was using on the plane.</p>
+
+            <p>However, there was a problem. Earhart's radio could only send messages to within a
+                few hundred miles, which means those who were on her frequency only heard a carrier
+                wave but no message.</p>
+
+            <p>So how were military personnel and casual listeners at home able to pick up messages
+                sent by her? <mention ref="RG">Gillespie</mention> explains that the pilot's
+                transmitter sent out high harmonic frequencies. These wavelengths bounce off the
+                Earth's ionosphere and can travel over great distances.</p>
+
+            <p>The downside, however, is that there is no guarantee that they can send clear
+                messages. Those who heard Earhart's distress calls just so happened to turn on the
+                radio at the right time.</p>
+        </section>
+        <section>
+            <subtitle>What Happened To Amelia Earhart?</subtitle>
+
+            <p>The analysis creates the most detailed chronology of events that happened after
+                    <mention ref="LE">Earhart's plane</mention> crashed.</p>
+
+            <p>On July 2, just hours after the crash, professional operators heading the search
+                heard a voice they thought was <mention ref="AE">Earhart</mention>'s. When they
+                asked her to respond with dashes to confirm her identity, the response was picked up
+                by three stations, one of which heard the word <message>"Earhart"</message>.</p>
+
+            <p>On the second call made on the night of the same day, a housewife from Amarillo,
+                Texas, heard that they were "down on an uncharted island — small, uninhabited." She
+                also heard that <mention ref="FN">Noonan</mention> was injured and needed medical
+                help right away.</p>
+
+            <p>Another woman from <place>Ashland, Kentucky</place>, also heard that they were
+                    <message>"down in ocean"</message> and <message>"on or near a little
+                    island"</message> on the same night. She also heard mentions of a storm, blowing
+                winds, and that the plane was running out of gas. <message>"Will have to get out of
+                    here. We can't stay here long"</message> was what she heard.</p>
+            <p> On <date when="1937-07-03">July 3</date>, operators heard a male voice, suggesting
+                that <mention ref="FN">Noonan</mention> was rational. The next day, a boy from
+                Wyoming heard that ship was on a reef. A station on Howland Island in the Pacific
+                heard a woman's voice saying <message>"tell husband all right"</message>, also on
+                    <date when="1937-07-04">July 4</date>.</p>
+
+            <p>On <date when="1937-07-05">July 5</date>, a <place>U.S. Navy station in
+                    Hawaii</place> received the Morse Code <message type="morseCode">"281 North
+                    Howland Call KHAQQ Beyond North Don't Hold With Us Much Longer Above Water Shut
+                    Off"</message>.</p>
+            <p> On the same day, a girl from <place>St. Petersburg, Florida</place>, heard <mention
+                    ref="AE">Earhart</mention> and <mention ref="FN">Noonan</mention> calling for
+                help. Noonan had clearly become irrational, as he was heard yelling and complaining
+                about his head. Earhart was heard saying that <mention ref="LE">the plane</mention>
+                was starting to slip off the reef.</p>
+
+            <p>The last messages were sent in the wee hours of <date when="1937-07-07">July 7,
+                    1937</date>. A listener from <place>St. Johns, New Brunswick</place>, heard the
+                following: <message>"Can you read me? Can you read me? This is Amelia Earhart. This
+                    is Amelia Earhart. Please come in."</message></p>
+
+            <p><mention ref="AE">Earhart</mention> mentioned her coordinates, but the listener later
+                lost them. The pilot also said that <mention ref="FN">Noonan</mention> was badly
+                hurt and they could not hold on much longer. Almost all of the messages were traced
+                to <place>Gardner Island</place>.</p>
+
+            <p>By <date when="1937-07-08">six o'clock the following morning</date>, the researchers
+                believe the water had infiltrated the cabin. On <date when="1937-07-09">July
+                    9</date>, <mention ref="USN">U.S. Navy planes</mention> scoured the area above
+                    <place>Gardner Island</place> but found no signs of a plane crash. <mention
+                    ref="RG">Gillespie</mention> says the plane sank to the seabed sometime between
+                the last distress call on <date from="1937-07-07" to="1937-07-09">July 7 and July
+                    9</date>.</p>
+
+            <p>In <date when="1940">1940</date>, skeletons were unearthed on <place>Gardner
+                    Island</place>, providing perhaps the most solid piece of evidence that <mention
+                    ref="AE">Earhart</mention> died a castaway. <mention ref="RJ">Richard
+                    Jantz</mention>, an expert in skeletal biology at the <mention ref="UT"
+                    >University of Tennessee</mention>, analyzed one of the skeletons and believes
+                it is Earhart's.</p> <!-- kind of stopped making comments, but it is satisfying to see no more syntax errors or the like!-->
+        </section>
+    </body>
+</xml>
