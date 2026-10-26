@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Ballad of Booker T.," </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>By langston Hughes. Published June 1, 1941</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Langston Hughes Collection, Library of Congress</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <lg><l><persName>Booker T.</persName></l>
+            <l>Was a practical man.</l>
+          <l>  He said, Till the soil</l>
+            <l>And learn from the land.</l>
+           <l> Let down your bucket</l>
+           <l> Where you are.</l>
+        <l>    Your fate is here</l>
+            <l>And not afar.</l>
+            <l>To help yourself</l>
+          <l>  And your fellow man,</l>
+            <l>Train your head,</l>
+           <l> Your heart, and your hand.</l>
+           <l> For smartness alone's</l>
+           <l> Surely not meet—</l>
+            <l>If you haven't at the same time</l>
+           <l> Got something to eat.</l>
+            <l>Thus at <placeName>Tuskegee</placeName></l>
+           <l> He built a school</l>
+            <l>With book-learning there</l>
+         <l>   And the workman's tool.</l>
+           <l> He started out</l>
+         <l>   In a simple way—</l>
+           <l> For yesterday</l>
+           <l> Was not today.</l>
+            <l>Sometimes he had</l>
+            <l>Compromise in his talk—</l>
+      <l>      For a man must crawl</l>
+            <l>Before he can walk—</l>
+            <l>And in Alabama in '85</l> 
+           <l> A joker was lucky</l>
+            <l>To be alive.</l>
+            <l>But <persName>Booker T.</persName></l>
+            <l>Was nobody's fool:</l>
+           <l> You may carve a dream</l>
+           <l> With an humble tool.</l>
+            <l>The tallest tower</l>
+            <l>Can tumble down</l>
+           <l> If it be not rooted</l>
+            <l>In solid ground.</l>
+            <l>So, being a far-seeing </l></lg>
+          
+           
+        <lg >   <l> Education and Outreach Division</l>
+            <l>Practical man,</l>
+          <l>  He said, Train your head,</l>
+          <l>  Your heart, and your hand.</l>
+            <l>Your fate is here</l>
+          <l>  And not afar,</l>
+           <l> So let down your bucket</l>
+           <l> Where you are.</l></lg> 
+      </body>
+  </text>
+</TEI>
