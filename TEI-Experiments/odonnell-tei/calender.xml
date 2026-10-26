@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Friendship Calendar Pages</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Friendship Calendar Co.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <!--Added some msDesc - CRO -->
+            <msDesc>
+               <msIdentifier>
+                  <idno>Unkown</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <msItem>
+                     <title>Friendship Calendar Pages</title>
+                     <note>
+                        2 calendar pages from March 11, March 12 and
+                        March 17, 1909.
+                     </note>
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <p>
+                     Printed paper calendar pages with drawings,
+                     colored details, and handwritten annotations in
+                     ink. The pages have punched holes near the top. 
+                  </p>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <p>
+                        The calendar was published by Friendship Calendar Co.
+                        in New Britain, Connecticut. The pages are copyrighted
+                        from 1908. 
+                     </p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <!-- Used <div> to separate both documents but include them both in the same TEI file - CRO.-->
+         <div n="1" type="calendar-page">
+            <head>March 11, 1909</head>
+            <p>Thursday</p>
+            <figure>
+               <graphic url="IMG_2049.jpg"></graphic>
+            </figure>
+            <p>Everybody dressed in their best
+               For this is an Erie Tea
+               They eat too much, talk too much
+               You can bet they don't refer to me.</p>
+         </div>
+         <div n="2" type="calendar-page">
+            <head>March 12, 1909</head>
+            <p>Friday</p>
+            <figure>
+               <graphic url="IMG_2050.jpg"></graphic>
+            </figure>
+            <p>Molly on snowshoes that Mr. Weir got.
+               Pretty picture is it not?!</p>
+         </div>
+         
+         <div n="3" type="calendar-page">
+            <head>March 17, 1909</head>
+            <p>Wednesday</p>
+            <figure>
+               <graphic url="IMG_2052.jpg"></graphic>
+            </figure>
+            <p>St. Patrick was a useful saint. 
+               He frightend all the snakes away- 
+               I wish he'd try his art on smoke around the Hammermill someday</p>
+         </div>
+         
+         <note place="bottom" type="signature">
+            <unclear></unclear>
+         </note>
+      </body>
+   </text>
+   
+</TEI>

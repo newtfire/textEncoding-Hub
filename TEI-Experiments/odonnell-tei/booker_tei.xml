@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ballad of Booker T.</title>
+            <author>Langston Hughes</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information not avaliable</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+            <title>Final Draft</title>
+            Final draft dated June 1, 1941. signed by <persName>Langston Hughes</persName>.
+                  <placeName>Hollow Hills Farm, Monterey, California</placeName>
+               </p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>Ballad of Booker T.</head>
+            
+            <p n="1"/>
+            
+            <lg>
+               <l>Booker T.</l>
+               <l>Was a practical man.</l>
+               <l>He said, Till the soil</l>
+               <l>And learn from the land.</l>
+               <l>Let down your bucket</l>
+               <l>Where you are.</l>
+               <l>Your fate is here</l>
+               <l>And not afar...</l>
+            </lg>
+            <p>
+            <stamp type="library">The Library of Congress</stamp>
+            </p>
+            
+         </div>
+         
+      </body>
+  </text>
+</TEI>
