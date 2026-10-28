@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+ 
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend's Letters</title>
+            <author>Mary Behrend</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Kaa Rivera</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Friendship Calendar Co.</publisher>
+            <date>1908</date>
+            <availability>
+               <p>Freely available at the Penn State Behrend Library</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Physical calendar pages</p>
+            <p>A collection of handwritten letters and drawings from Mary "Molly" Behrend to her
+               husband, Ernest Behrend.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="calendar" n="1">
+            <dateline><emph rend="#blue-color">M</emph>arch 11, 1909</dateline>
+            <p>Thursday</p>
+            <figure place="center">
+               <!--Attempting to insert a graphic here: -->
+               <graphic url="cal-1"/>
+               <figDesc>Four drawings of elegantly dressed women in brightly colored dresses point
+                  at each other, presumably in the midst of a teaparty.</figDesc>
+            </figure>
+            <fw type="hand" place="bottom-center">Everybody dressed in their best, for <emph
+                  rend="underline">this</emph> is an <emph rend="underline">Erie</emph>
+               <emph rend="underline">Tea</emph>. They <emph rend="underline">eat</emph> too much, <emph rend="b"
+                  >talk</emph> too much. You can bet they drink <unclear reason="illegible">rope
+                  in</unclear> me</fw>
+            <!--Unsure of how to add the xml ids...-->
+            <fw rend="red-ink"/>
+         </div>
+         <div type="calendar" n="2">
+            <dateline><emph rend="#red-color">M</emph>arch 12, 1909</dateline>
+            <p>Friday</p>
+            <figure place="center">
+               <graphic url="cal-2"/>
+               <figDesc>A drawing of Molly "Mary" wearing large snow shoes.</figDesc>
+            </figure>
+            <fw type="hand" place="right-center">Molly on snowshoes that Mr. Weir got. Pretty
+               picture is it not?!</fw>
+            <fw rend="#red-ink" place="bottom-right" type="hand"><unclear reason="illegible">Love
+                  you Molly.</unclear></fw>
+         </div>
+         <div type="calendar" n="3">
+            <dateline><emph rend="#red-color">F</emph>ebruary 16,1909 </dateline>
+            <p>Tuesday</p>
+            <figure>
+               <graphic url="cal-3"/>
+               <figDesc>A drawing of Mr. Behrend holding what appears to be a bed bug, standing in
+                  front of a canpoy bed. </figDesc>
+            </figure>
+            <fw type="hand" place="bottom-center">Mr. <unclear reason="illegible">Behrend</unclear>
+               finds a bed bug!</fw>
+            <fw type="hand" place="bottom-center" rend="#red-ink">I wonder if you have found many
+               lately! </fw>
+         </div>
+         <div type="calendar" n="4">
+            <dateline><emph rend="#green-color">M</emph>arch 17, 1909</dateline>
+            <p>Wednesday</p>
+            <p>St. Patrick's Day</p>
+            <figure>
+               <graphic url="cal-4"/>
+               <figDesc>Small green four leaf clover drawings are scattered across the page, along
+                  with two small snakes. One snake sits curled just below the dateline, while the
+                  other is stretched out to the right of the date.</figDesc>
+            </figure>
+            <fw type="hand" place="center">St. Patrick was a <unclear reason = "illegible">useful</unclear> saint. He frightened all the
+               snakes away -- I wish he'd try his art on <emph rend = "underline">smoke</emph> around the Hammermill some day!</fw>
+            <figure place="bottom-right">
+               <figDesc>A drawing of the Hammermill factory sits in the bottom-right corner of the
+                  calendar page, with black smoke coming out of the exhausts.</figDesc>
+            </figure>
+            <!-- I could not figure out the last two words of this line -->
+            <fw rend="#red-ink" place="bottom" type="hand">The Hammermill really <unclear reason="illegible"></unclear></fw>
+         </div>
+      </body>
+   </text>
+</TEI>
