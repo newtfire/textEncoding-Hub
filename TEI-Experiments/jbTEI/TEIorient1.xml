@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ballad of Booker T.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>
+            "Ballad of Booker T.," by Langston Hughes, <date>June 1, 1941 </date>
+            BALLAD OF BOOKER T.
+            by Langston Hughes 
+           <l n ="1"> Booker T. </l>
+            <l n ="2"> Was a practical man.  </l>
+            <l n ="3">He said, Till the soil  </l>
+            <l n ="4"> And learn from the land. </l>
+            <l n ="5"> Let down your bucket  </l>
+            <l n ="6"> Where you are.  </l>
+            <l n ="7" >  Your fate is here  </l>
+            <l n ="8"> And not afar. </l>
+            <l n ="9"> To help yourself  </l>
+            <l n ="10">   And your fellow man,  </l>
+            <l n ="11"> Train your head,  </l>
+            <l n ="12">  Your heart, and your hand.</l>
+            <l n ="13"> For smartness alone's  </l>
+            <l n ="14">   Surely not meet—  </l>
+            <l n ="15">    If you haven't at the same time  </l>
+            <l n ="16">Got something to eat. </l>
+            <l n ="17">   Thus at Tuskegee  </l>
+            <l n ="18">  He built a school  </l>
+            <l n ="19">   With book-learning there  </l>
+            <l n ="20"> And the workman's tool. </l>
+            <l n ="21">  He started out  </l>
+            <l n ="22"> In a simple way—  </l>
+            <l n ="23">For yesterday  </l>
+            <l n ="24">   Was not today. </l>
+            
+            LANGSTON HUGHES 
+            Final Draft,
+            Hollow Hills Farm, 
+            Monterey, California, 
+           <date> June 1, 1941. </date>
+            Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941. 
+            (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C..</p>
+      </body>
+  </text>
+</TEI>
