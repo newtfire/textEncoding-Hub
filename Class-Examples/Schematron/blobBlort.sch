@@ -28,9 +28,7 @@
         </rule>
         
       <rule context="tricky" role="info">
-         <report test="contains(., 'dare')">
-             Let me know when you see this word, "dare"!
-         </report>
+         <report test="contains(., 'dare')">Let me know when you see this word, "dare"!</report>
       <!--The text content of your <report> or <assert> elements becomes
           your customized error message on a validation check! Don't forget to write
       your validation message! Good messages usually explain simply in human-readable terms 
