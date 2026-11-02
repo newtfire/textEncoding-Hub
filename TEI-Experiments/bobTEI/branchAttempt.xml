@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <header>"Ballad of Booker T.," by Langston Hughes, June 1, 1941</header>
+    
+    <intro>
+        <title>BALLAD OF BOOKER T.</title>
+        <by>by</by>
+        <author>Langston Hughes</author>
+    </intro>
+    <prgrph pnum="01">
+        <sntnc snum="01">
+            <line lnum="01">Booker T.</line>
+            <line lnum="02">Was a practical man.</line>
+        </sntnc>
+        <sntnc snum="02">
+            <line lnum="03">He said, Till the soil</line>
+            <line lnum="04">And learn from the land.</line>
+        </sntnc>
+        <sntnc snum="03">
+                <seal org="LoC" pos="begin"> [the top of the red circular "Library of Congress" seal begins here, centered to the right of the lines] </seal>
+            <line lnum="05">Let down your bucket</line>
+            <line lnum="06">Where you are.</line>
+        </sntnc>
+        <sntnc snum="04">
+            <line lnum="07">Your fate is here</line>
+            <line lnum="08">And not afar.</line>
+        </sntnc>
+    </prgrph>
+    <prgrph pnum="02">
+        <sntnc snum="05">
+            <line lnum="09">To help yourself</line>
+            <line lnum="10">And your fellow man,</line>
+                <seal org="LoC" pos="end"> [the "Library of Congress" seal ends here] </seal>
+            <line lnum="11">Train your head,</line>
+            <line lnum="12">Your heart, and your hand.</line>
+        </sntnc>
+        <sntnc snum="06">
+            <line lnum="13">For smartness alone's</line>
+            <line lnum="14">Surely not meet—</line>
+            <line lnum="15">If you haven't at the same time</line>
+            <line lnum="16">Got something to eat.</line>
+        </sntnc>
+    </prgrph>
+    <prgrph pnum="03">
+        <sntnc snum="07">
+            <line lnum="17">Thus at Tuskegee</line>
+            <line lnum="18">He built a school</line>
+            <line lnum="19">With book-learning there</line>
+            <line lnum="20">And the workman's tool.</line>
+        </sntnc>
+        <sntnc snum="08">
+            <line lnum="21">He started out</line>
+            <line lnum="22">In a simple way—</line>
+            <line lnum="23">For yesterday</line>
+            <line lnum="24">Was not today.</line>
+        </sntnc>
+        <sntnc snum="09">
+            <line lnum="25">Sometimes he had</line>
+            <line lnum="26">Compromise in his talk—</line>
+            <line lnum="27">For a man must crawl</line>
+            <line lnum="28">Before he can walk—</line>
+            <line lnum="29">And in Alabama in '85</line>
+            <line lnum="30">A joker was lucky</line>
+            <line lnum="31">To be alive.</line>
+        </sntnc>
+    </prgrph>
+    <prgrph pnum="04">
+        <sntnc snum="10">
+            <line lnum="32">But Booker T.</line>
+            <line lnum="33">Was nobody's fool:</line>
+            <line lnum="34">You may carve a dream</line>
+            <line lnum="35">With an humble tool.</line>
+        </sntnc>
+        <sntnc snum="11">
+            <line lnum="36">The tallest tower</line>
+            <line lnum="37">Can tumble down</line>
+            <line lnum="38">If it be not rooted</line>
+            <line lnum="39">In solid ground.</line>
+        </sntnc>
+    </prgrph>
+    <prgrph pnum="05">
+        <sntnc snum="12">
+            <line lnum="40">So, being a far-seeing</line>
+            <line lnum="41">Education and Outreach Division</line>
+            <line lnum="42">Practical man,</line>
+            <line lnum="43">He said, Train your head,</line>
+            <line lnum="44">Your heart, and your hand.</line>
+        </sntnc>
+        <sntnc snum="13">
+            <line lnum="45">Your fate is here</line>
+            <line lnum="46">And not afar,</line>
+            <line lnum="47">So let down your bucket</line>
+            <line lnum="48">Where you are.</line>
+        </sntnc>
+    </prgrph>
+    <author>LANGSTON HUGHES</author>
+    <meta>
+        <sgntr signer="Langston Hughes" pos="begin"> [Langston Hughes' signature is overlaid over the next few lines, beginning here] </sgntr>
+        <version>Final Draft,</version>
+        <stadd>Hollow Hills Farm,</stadd>
+        <addr>Monterey, California,</addr>
+        <date>June 1, 1941.</date>
+        <sgntr signer="Langston Hughes" pos="end"> [the bottom of Langston Hughes' signature is here] </sgntr>
+        
+        <citation>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.</citation>
+        <corigin>(Langston Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C.</corigin>
+
+        <coder> XML written by bob </coder>
+    </meta>
+</root>
