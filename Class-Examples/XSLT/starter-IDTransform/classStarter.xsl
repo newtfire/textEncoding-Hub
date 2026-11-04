@@ -33,6 +33,10 @@
    
    <xsl:template match="line">
        <ln number="{count(following-sibling::line) + 1  }"><xsl:apply-templates/></ln>
+      <!-- ebb: We just messed with this in class to show you
+      what following-sibling:: and following:: processing does.
+      Try this with preceding-sibling:: and preceding:: 
+      -->
    </xsl:template>
  
  
