@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>  
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- ebb: Above points to the Schematron file with SQF (Schematron Quick Fix) in it. -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+  <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title>Encoded translation of Nixon Tape number 388-17</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p> <!-- Mario P: Any idea what I can do with the <publicationStmt>? -->
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording>
+                  <date>November 8, 1972</date> 
+               </recording>
+            </recordingStmt>  
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader> 
+   <text>
+      <body>
+      <listPerson> 
+         <person>
+            <persName>Nixon</persName>
+         </person>
+         <person>
+            <persName>Haig</persName>
+         </person>
+         <person>
+            <persName>Kissinger</persName>
+         </person>
+         <person>
+            <persName>Colson</persName>
+         </person>
+         <person>
+            <persName>Butterfield</persName>
+         </person>
+      </listPerson>
+      </body>
+   </text>
+  <text>
+      <body>
+         <div type="conversation">
+            <u who="#nixon">Hello, hi, how are you? </u>
+            <u who="#Kissinger">We’ve just heard from the North Vietnamese. They want to put the meeting off until
+               the 21st.</u>
+            <u who="#Nixon">Why do you think they want to do that? </u>
+            <u who="#Kissinger">Uh, well they’d rather announce it ahead of time. </u>
+            <u who="#Nixon">Well, [we’ve gone as far as that works].</u>
+            <u who="#Kissinger">So, uh-</u>
+            <u who="#Nixon">Chuck, incidentally, oh, I want, what I’d like you to do is to also, [unclear] yesterday,
+               the, uh, those figures for the ’24 and ’36 elections.</u>
+            <incident>
+               <desc>[phone rings]</desc>
+            </incident>
+            <u who="#Colson">’24 and ’36 elections, yes sir.</u>
+            <u who="#Nixon">[speaking into phone] Yeah. Yeah. Ok. [hangs up phone] </u>
+            <u who="#Kissinger">The 21st is a Tuesday.</u>
+            <u who="#Nixon">All right.</u>
+            <u who="#Kissinger">Better announce it on Sunday.</u>
+            <u who="#Nixon">Sunday is what?</u>
+            <u who="#Kissinger">The 19th. But I’m sure they will permit it to be moved up to the 17th.</u>
+            <u who="#Nixon">Well, I’m just talking—</u>
+            <u who="#Kissinger">Just say that we have to—</u>
+            <u who="#Nixon">—well, we’re not going to wait that long. Maybe going to Saigon will [unclear], [that’s
+               going to start the wheels] [unclear] [clicking] again.</u>
+            <u who="#Kissinger">We’ll just say then ‘well my view is the 17th’—</u>
+            <u who="#Nixon">Say the 15th is what we’re going to do, the 15th. What, what reason are they urging you to
+               delay the announcement?</u>
+            <u who="#Kissinger">They’ll have to—They’ll want Le Duc Tho [unclear].</u>
+            <u who="#Nixon">Why don’t you tell them to [unclear].</u>
+            <u who="#Haig">Mr. President, if they say the 17th you can do it on the 17th</u>
+            <u who="#Nixon">[unclear] Well, fine. Why don’t, they just probably couldn’t get ready for the [time
+               period]?</u>
+            <u who="#Kissinger">They proposed the 14th. That was their day. They should [be able to do it] the 15th,
+               because of—I think they’re basically [unclear] propose, one, they may want to get some more
+               supplies into the South, but [unclear]— </u>
+            <u who="#Nixon">That's right.</u>
+            <u who="#Kissinger">—but they’ve taken care of [unclear] </u>
+            <u who="#Nixon">Right</u>
+            <u who="#Kissinger">Second, maybe they want to pull out some forces before they meet us. Because if
+               that’s the issue of—</u>
+            <u who="#Nixon">Well, for whatever reason, I’m not concerned about the delay on that thing. Screw it now,
+               the election is over, and so forth. So do it on our time. I’d like to get it done in a reasonable time.
+               You’re trip’s already been announced to go to Saigon?</u>
+            <u who="#Haig">No sir.</u>
+            <u who="#nixon">That’s alright. Take your time. But I’d like to have the announcement as early as
+               possible.</u>
+            <u who="#Haig">Yes, sir.</u>
+            <u who="#Kissinger">So, this time we have to announce it. How do you propose [the language] [unclear]?</u>
+            <u who="#Nixon">Now it doesn’t matter.</u>
+            <u who="#Kissinger">They would have the slightest advantage of announcing it too early, if—</u>
+            <u who="#Nixon">No.</u>
+            <u who="#Kissinger">—we really want to work them over, with bombing.</u>
+            <u who="#Nixon">You’ll be around tomorrow? Then what do you, what do you say? That may be true. If
+               you don’t, don’t worry about the [it now]. We don’t care about the [announcement]. [It doesn’t
+               make any difference].</u>
+            <u who="#Haig"> I think time is working on our benefit, basically.</u>
+            <u who="#Nixon">Well let’s use the time, and use it well.</u>
+            <u who="#Kissinger">I think Thieu will—</u>
+            <u who="#Nixon">[unclear] will be damn confident all the way through the next backgrounder [unclear].</u>
+            <u who="#Kissinger">Thieu will announce it towards the end of next week.</u>
+            <u who="#Nixon">Look, we’ve already been down that road, already been down with Thieu. The election is
+               over. And [what] the hell, [today] that’s the way it is. If Thieu wants to play, fine, but if he
+               doesn’t we’ll do something else. That’s all there is to it. Right? </u>
+            <u who="#Haig">[As far as they say they’ve got a stake], but—</u>
+            <u who="#Nixon">[That’s what we’re trying to plan here].</u>
+            <u who="#Kissinger">They started complaining Saturday when they proposed the 14th.</u>
+            <u who="#Nixon">Don’t you think maybe they would have proposed the 14th on Saturday because of their
+               fearing the election? Now they decided it might be best to wait now that we didn’t do anything?
+               They’re damned fools. And—</u>
+            <u who="#Kissinger">[unclear].</u>
+            <u who="#Nixon"> I think they’re—I think Thieu’s probably [the natural victim]. They have some reason to
+               prolong it—</u>
+            <u who="#Kissinger">They may have. They have, we have a lot of information that they [unclear] was
+               [arrested].</u>
+            <u who="#Nixon">Um-hmm.</u>
+            <u who="#Kissinger">See, we gave them a sort of new procedure of what would happen in the next year.
+               We told them that after the next meeting there would still be a few [weeks for the proposal to be
+               signed], and I think what they now have to do is [withhold their troops].</u>
+            <u who="#Nixon">Yeah. Let me say this, though. We’re [savvy] with this peace crap agenda up to this
+               point, we’re ruthless as hell. I mean, here this country [unclear]. Understand, that’s the option we
+               have, and I said we aren’t going to be delayed here. They say the 20th, why don’t you tell them
+               we prefer the 17th?</u>
+            <u who="#Kissinger">We’ve scheduled on the 15th. Now if we make it at a later date we say there’s
+               domestic pressure.</u>
+            <u who="#Nixon">Oh, no, no, no, no, no, no. No, I just meant make it the 20th.</u>
+            <u who="#Kissinger">Well, I don’t think we can give them a date before the date they’ve given us. We can
+               give them a date afterward if we want to schedule [unclear]—</u>
+            <u who="#Nixon">I’ve got to go catch a dentist, I’m sorry. Well, the main thing I want to say, Al, is that,
+               you know, you’ve got to be an authority. You had a long with me about my views, and the main
+               thing is the view of trust. After all, [unclear] trust the [unclear] trust the [President]. That’s the
+               only way it’s going to work. And, ‘the president’s made his decision’ and [I have his total
+               backing]. Now, we’re going to play [unclear]. But, I would just lay this across, ‘don’t test him.’
+               You know—</u>
+            <u who="#Haig">It’ll have repercussions.</u>
+            <u who="#Nixon">No, I’m not speaking to you. I want you to tell him, ‘don’t test the president at this point.’</u>
+            <u who="#Haig">That's it.</u>
+            <u who="#Nixon">He’s got to know damn well that anymore of this screwing around is not going to be
+               taken well. They know it. We got that in the letter. Don’t you agree, Henry?</u>
+            <u who="#Haig">That’s my draft of it</u>
+            <u who="#Kissinger">Yeah.</u>
+            <u who="#Nixon">[But they know] [unclear].</u>
+            <incident>
+               <desc>[Conversation trails off as they walk toward the door]</desc> 
+            </incident> 
+         </div>
+      </body>
+  </text>
+</TEI>

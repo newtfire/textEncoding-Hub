@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Persons and Organizations Mentioned in the Nixon Transcripts</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital, from encoding transcripts from X source.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson type="editors">
+                <person xml:id="kal"> 
+                <persName>Kylie Lasky</persName>
+                </person>
+                <person xml:id="jlb">
+                    <persName>Jennifer Baxter</persName>
+                </person>
+                <person xml:id="mrp">
+                    <persName>Mario Provenzano</persName>
+                </person>
+                <person xml:id="spb">
+                    <persName>Story Buchanan</persName>
+                </person>
+                <person xml:id="ebb">
+                    <persName>Elisa Beshero-Bondar</persName>
+                </person>
+                <person xml:id="OE">
+                    <persName>???</persName>
+                    <note resp="ebb">The original editors of the Nixon Transcripts whoever they are. Does this belong in the listOrg?</note>
+                </person>        
+            </listPerson>
+            
+           
+            <listPerson type="transcripts">
+                <person xml:id="nixon">
+                    <occupation>President</occupation>
+                    <persName>Richard M. Nixon</persName>
+                </person>
+                <person xml:id="butterfield">
+                    <occupation>Assistant to the President </occupation>
+                    <persName>Alexander P. Butterfield</persName>
+                </person>
+                <person xml:id="haldman">
+                    <occupation>Cheif of Staff</occupation>
+                    <persName>H.R. Haldeman</persName>
+                </person>
+            </listPerson>
+     <!--  TBD      <listOrg>
+                <org xml:id="">
+                    <orgName>Somebody's organization</orgName>
+                    <note resp="#kal">totally criminal</note>
+                </org>
+                
+                
+            </listOrg>
+     -->
+
+
+        </body>
+    </text>
+</TEI>
