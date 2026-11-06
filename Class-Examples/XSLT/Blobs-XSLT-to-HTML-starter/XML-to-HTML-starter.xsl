@@ -12,25 +12,29 @@
     <xsl:template match="/">
         <html>
             <head> 
-            <title>List from <xsl:apply-templates select="descendant::title"/></title>
+            <title>List from 
+                <xsl:apply-templates select="descendant::title"/></title>
             <!-- Link line for CSS would go here... -->
             </head>
             <body>
-              <h1>Hello DIGIT 110!</h1>
+              <h1><xsl:apply-templates 
+                      select="descendant::title"/></h1>
                 
-               <ol>
+                
+               <ol class="OUTER">
                    
-                  <xsl:apply-templates select="descendant::blob"/>
-                   
+                  <xsl:apply-templates 
+                      select="descendant::blob"/>             
                </ol> 
-    
+              <!--  <table>
+                    
+                </table>-->
             </body>
-   
         </html>
     </xsl:template>
     
     
-    <xsl:template match="blob"> 
+ <xsl:template match="blob"> 
         <li><xsl:apply-templates select="heading"/>
              <ul>
                  
@@ -41,19 +45,10 @@
     </xsl:template>
     
     
-    <xsl:template match="special">
+   <xsl:template match="special">
         <li><xsl:apply-templates select="@whatsIt"/></li>
     </xsl:template>
     
-    
-    <!--  BATTLE PLAN: 
-    <ol>
-        <li>BLOB HEADING
-            <ul>
-                <li>special whatsit</li>          
-            </ul>
-
-        </li>       
-    </ol>  
-    --> 
+     
+ 
 </xsl:stylesheet>
