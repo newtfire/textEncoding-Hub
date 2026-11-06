@@ -36,7 +36,7 @@
     
  <xsl:template match="blob"> 
         <li><xsl:apply-templates select="heading"/>
-             <ul>
+             <ul class="INNER">
                  
              <xsl:apply-templates select="descendant::special"/>
                  
