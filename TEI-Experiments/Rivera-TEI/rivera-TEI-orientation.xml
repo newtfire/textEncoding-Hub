@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ballad of Booker T.</title>
+            <author>Langston Hughes</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Kaa Rivera</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Library of Virginia Education and Outreach Division</distributor>
+            <availability>
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+            <date when="1941-06-01">June 1,1941</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Physical Manuscript</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" n="1">
+            <lg>
+               <l><persName>Booker T.</persName></l>
+               <l>Was a practical man.</l>
+               <l>He said, <said>Till the soil</said></l>
+               <l><said>And learn from the land.</said></l>
+               <l><said>Let down your bucket</said></l>
+               <l><said>Where you are.</said></l>
+               <l><said>Your fate is here</said></l>
+               <l><said>And not afar.</said></l>
+               <l><said>To help yourself</said></l>
+               <l><said>And your fellow man,</said></l>
+               <l><said>Train your head,</said></l>
+               <l><said>Your heart, <emph>and your hand.</emph></said></l>
+               <l><said>For smartness alone's</said></l>
+               <l><said>Surely not meet—</said></l>
+               <l><said>If you haven't at the same time</said></l>
+               <l><said>Got something to eat.</said></l>
+               <l>Thus at Tuskegee</l>
+               <l>He built a school</l>
+               <l>With book-learning there</l>
+               <l>And the workman's tool.</l>
+               <l>He started out</l>
+               <l>In a simple way—</l>
+               <l>For yesterday</l>
+               <l>Was <emph>not</emph> today.</l>
+               <l>Sometimes he had</l>
+               <l>Compromise in his talk—</l>
+               <l>For a man must crawl</l>
+               <l>Before he can walk—</l>
+               <l>And in Alabama in '<date when="1985">85</date></l>
+               <l>A joker was lucky</l>
+               <l>To be alive.</l>
+               <l>But <persName>Booker T.</persName></l>
+               <l>Was nobody's fool:</l>
+               <l>You may carve a dream</l>
+               <l>With an humble tool.</l>
+               <l>The tallest tower</l>
+               <l>Can tumble down</l>
+               <l>If it be not rooted</l>
+               <l>In solid ground.</l>
+               <l>So, being a far-seeing</l>
+            </lg>
+            <lg>
+               <l>Practical man,</l>
+               <l>He said, <said>Train your head,</said></l>
+               <l><said>Your heart, <emph>and your hand.</emph></said></l>
+               <l><said>Your fate is here</said></l>
+               <l><said>And not afar,</said></l>
+               <l><said>So let down your bucket</said></l>
+               <l><said>Where you are.</said></l>
+            </lg>
+            <closer>
+               <address>
+                  <placeName> Hollow Hills Farm, Monterey,<country>California</country></placeName>
+               </address>
+               <date when = "1941-06-01">June 1, 1941</date>
+               <signed xml:id="cursive"><persName>Langston Hughes</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
