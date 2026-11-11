@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Conversation Number 037-116</title>
+                <editor ref="#kal">Kylie Lasky</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p>PDF transcript collected from nixontapes.org <ref target="https://nixontapes.org/index.html"></ref></p>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt><recording> <date when="1973-03-15">Date: March 15, 1973</date></recording></recordingStmt>  
+                <bibl>
+                    <orig><ref target="https://nixontapes.org/watergate/037-116.pdf"></ref>ORIGINAL SOURCE FILE</orig>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-11-06" resp="#kal">Encoded file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>    
+        <body>
+            <note resp="#OE" place="top"><label type="conversation">Conversation: 037-116</label> 
+            <date when="1973-03-15">March 15, 1973</date>
+            <time>Unknown time between 9:22 am and 10:05 am</time>
+            <location><placeName>White House Telephone</placeName></location> 
+            <label type="participants">Participants:  Ronald L. Ziegler, John W. Dean, III</label></note>
+            <note resp="#OE" place="top">[Begin audio]</note> 
+            <u who="#ziegler"><persName ref="#dean">John</persName>, what is your thinking this morning on how to handle a question regarding your 
+            subpoena before the civil suit—the common cause suit? </u>
+            <u who="#dean">Well, the—you mean, for the President? I’ll say, <q who="#dean">First of all, I was informed that Mr. 
+            <persName ref="#dean">Dean</persName> has never been served.</q></u> 
+            <u who="#ziegler">“You have not” <vocal><desc>coughs</desc></vocal>—“You have not been served yet.”</u> 
+            <u who="#dean">“And all we have is press speculation”—Or just, “All we have is a press statement of what 
+            is going to happen”—</u> 
+            <u who="#ziegler">Right, so what if you are served, John?</u> 
+            <u who="#dean">If I am served? We’ll have to find out why they’re—<q><persName ref="#dean">Mr. Dean</persName> doesn’t know why they’re 
+            calling him, doesn’t know the relevancy of his testimony, what capacity they’re calling him 
+            in</q>—</u> 
+            <u who="#ziegler">No, but <persName ref="#dean">John</persName>, that—even if you don’t know why they’re serving—like, let’s just 
+            suppose they do serve you, from a constitutional standpoint—</u> 
+            <u who="#dean">Well, if they’re serving me for something that’s unrelated to my capacity as Counsel to the 
+            President—and that’s what the root of the judgment will be—if—</u> 
+            <u who="#ziegler">Um-hmm.</u> 
+            <u who="#dean">—if you can separate my hats—</u> 
+            <u who="#ziegler">Um-hmm. In other words, if you’re called to testify in an area unrelated to your capacity 
+            as Counsel to the President, then you would have to go.</u> 
+            <u who="#dean">That’s right.</u> 
+            <u who="#ziegler">Um-hmm. But if you were called to testify on a matter related to you capacity as 
+            Counsel, then you would, under separation of power, not go.</u> 
+            <u who="#dean">That’s correct.</u> 
+            <u who="#ziegler">And then there would be a test on that I suppose?</u> 
+            <u who="#dean">That is correct.</u> 
+            <u who="#ziegler">The court would take a test on that.</u>  
+            <u who="#dean">That’s right.</u>  
+            <u who="#ziegler">Ok. But you have not been served, and if you—and have no idea why—</u> 
+            <u who="#dean">I have not been served, and I think that’s the way to leave it right now. I don’t think the 
+            President ought to get into it until we get well postured on which position it falls in.</u>  
+            <u who="#ziegler">Right.</u> 
+            <u who="#dean">You could say that, <q>Gentlemen, I understand that <persName ref="#dean">Mr. Dean</persName>—he has not been served.</q></u>  
+            <u who="#ziegler">Um-hmm.</u> 
+            <u who="#dean"><gap reason="unclear"/> Just knock that around: <q>What <gap reason="unclear"/> Well, gentlemen, he hasn’t been served, 
+            yet. He doesn’t know what he’s going to be served about. He doesn’t know the nature—He’s not 
+            privy to the, the reasons they’re even calling him, even, so far.</q></u> 
+            <u who="#ziegler">It may say in the press release what you were being—</u> 
+            <u who="#dean">No. And I’ve been unable to find out why they want me.</u> 
+            <u who="#ziegler">So, you don’t know why they—</u> 
+            <u who="#dean">I don’t—</u> 
+            <u who="#ziegler">—would like you—Ok, now, did you check to see if an—if any assistant to a 
+            congressman or senator—administrative assistant, or anyone—who’s ever been—has been called 
+            to appear before a, a court.</u> 
+            <u who="#dean">Yes, I have. Yes, I have. Yeah.</u> 
+            <u who="#ziegler">Who? And <gap reason="unclear"/>…?</u> 
+            <u who="#dean">The—I <gap reason="unclear"/> about it—The aides to…</u> 
+            <u who="#ziegler">To <persName ref="#dodd">Dodd</persName>?</u> 
+            <u who="#dean">I think <persName ref="#dodd">Dodd</persName>’s aides, and <persName ref="#brewster">Brewster</persName>’s.</u> 
+            <u who="#ziegler">And <persName ref="#brewster">Brewster</persName>.</u> 
+            <u who="#dean">Yeah.</u> 
+            <u who="#ziegler">Um-hmm.</u> 
+            <u who="#dean">I would stay out of that analogy to the—</u> 
+            <u who="#ziegler">Right.</u> 
+            <u who="#dean">—<gap reason="unclear"/>. And <persName ref="#mollenhoff">Mollenhoff</persName> would just come in with ten feet—he’s ten feet deep on that. 
+            He’s very hot on that one—using that analogy.</u> 
+            <u who="#ziegler">Um-hmm. Haven’t members of the White House staff given depositions in civil suits?</u>
+            <u who="#dean"><gap reason="unclear"/> Yes, they have. <gap reason="unclear"/> Um-hmm.</u> 
+            <u who="#ziegler">Um-hmm. How do we distinguish?</u> 
+            <u who="#dean">Well, they didn’t go into—The, the questions that were asked <supplied resp="#OE" reason="added context">[of]</supplied> <persName ref="#colson">Mr. Colson</persName> did not 
+            relate, in any way, to—</u> 
+            <u who="#ziegler">His—</u> 
+            <u who="#dean">—his, his official functions. There were—Is my understanding.</u>
+            <u who="#ziegler">Did not relate to official functions?</u>
+            <u who="#dean">Um-hmm.</u> 
+            <u who="#ziegler">If, <persName ref="#dean">John</persName>—</u> 
+            <u who="#dean">I know it’s tough. We’ve got a tough situation with <persName ref="#colson">Colson</persName> having given that deposition. 
+            He wanted to.</u>   
+            <u who="#ziegler">Now, tell me, what, what is <persName ref="#mollenhoff">Mollenhoff</persName>—what’s his analogy?</u> 
+            <u who="#dean">Oh, is the President in your office?</u> 
+            <u who="#ziegler">No. I’m here.</u>  
+            <note resp="#OE" place="inline">[Unclear exchange; Nixon: With the President.]</note> 
+            <u who="#dean"><persName ref="#mollenhoff">Mollenhoff</persName>’s—does not like the use of the analogy that congressional aides are immune 
+            from any investigative—by the Executive branch.</u>  
+            <u who="#ziegler">Right. Um-hmm.</u> 
+            <u who="#dean">And he’s got a half a point. And he’s so adamant it’s not worth getting into the argument 
+            with him in a press conference.</u> 
+            <u who="#ziegler">Right. We—He understands that.</u> 
+            <u who="#dean">Yeah. Now, on <certainty resp="#OE" locus="value" cert="unknown"><desc>the deposition of</desc></certainty> of <persName ref="#colson">Colson</persName> in a civil suit, say, <q>Gentlemen, 
+            there’s, there’s a tremendous difference between judicial executive privilege, and legislative 
+            executive privilege</q>—which there is. There’s a different, different case law. There are different 
+            precedents. And the whole thing. <persName ref="#colson">Mr. Colson</persName> wanted to appear in a deposition. It was very early 
+            in the, in the, the political fray, and no one objected to him appearing.</u>  
+            <u who="#ziegler">But the point is that it did not relate to his function—in <persName ref="#colson">Colson</persName>’s case—did not relate to 
+            his function here at the White House, right?</u>
+            <u who="#dean">That’s correct.</u> 
+            <u who="#ziegler">What did it relate to—?</u> 
+            <u who="#dean">Well—Well, they, they asked him questions about <persName ref="#hunt">Howard Hunt</persName>. So, he tried to establish 
+            that <persName ref="#hunt">Howard Hunt</persName> had never worked him.</u> 
+            <u who="#ziegler">Um-hmm.</u> 
+            <u who="#dean">I.e. it didn’t relate to his functions.</u>  
+            <u who="#ziegler">Um-hmm. Well, wouldn’t, wouldn’t the <orgName ref="#ervinecomittee">Ervin Committee</orgName> hearing be asking about 
+            matters that don’t relate to their White House function?</u> 
+            <u who="#dean">Well, the question is, how—if they—How will they draw the line when they get a—?</u>
+            <u who="#ziegler">Um-hmm?</u>
+            <u who="#dean">If they get a <persName ref="#colson">Chuck Colson</persName> up there, sure, they won’t—they wouldn’t stop with those two 
+            or three questions. And in, in his deposition, his counsel interposed and didn’t let him answer 
+            those questions.</u> 
+            <u who="#ziegler">Right. So, he responded only to information relating to Hunt?</u> 
+            <u who="#dean">That’s right.</u> 
+            <u who="#ziegler">Um-hmm.</u> 
+            <u who="#dean">Ok. Apparently, <persName ref="#ervin">Sam Ervin</persName> was going to give a speech this morning that they were 
+            heralding as a major statement on Executive Privilege, but I just got a notice back that he is not 
+            giving it. So, it’s just <vocal><desc>laughs</desc></vocal> a wipe—it’s a wipe out.</u>  
+            <u who="#ziegler">Um-hmm. Hmm.</u> 
+            <u who="#dean"><gap reason="unclear"/> same thing. Just cancelled it.</u> 
+            <u who="#ziegler">Ok, good.</u>  
+            <u who="#dean">Ok.</u> 
+            <u who="#ziegler">Right. Fine.</u> 
+            <note resp="#OE" place="bottom">[End audio]</note>
+        </body>
+    </text>
+</TEI>

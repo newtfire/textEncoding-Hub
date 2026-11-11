@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Conversation Number 037-099</title>
+                <editor ref="#kal">Kylie Lasky</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p>PDF transcript collected from nixontapes.org <ref target="https://nixontapes.org/index.html"></ref></p>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt><recording> <date when="1973-03-14">Date: March 14, 1973</date></recording></recordingStmt>  
+                <bibl>
+                    <orig><ref target="https://nixontapes.org/watergate/037-099.pdf"></ref>ORIGINAL SOURCE FILE</orig></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-11-06" resp="#kal">Encoded file</change> <!-- Thinking I could use a review to make sure I get the quotes marked correctly and check of organizations-->
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <text>    
+        <body>
+            <note resp="#OE" place="top"><label type="convo">Conversation: 037-099</label> 
+            <date when="1973-03-14">March 14, 1973</date> 
+            <time>8:55 – 8:59 am</time> 
+            <location><placeName>White House Telephone</placeName></location> 
+            <label type="participants">Participants: Richard M. Nixon, John W. Dean, III</label></note>
+            <note resp="#OE">[Begin audio]</note> 
+            <u who="#nixon">Hello.</u> 
+            <u who="#dean">Good morning, Mr. President.</u> 
+            <u who="#nixon">I thought that before you—before <persName ref="#ziegler">Ziegler</persName> went out that maybe you and he would—that 
+            you probably ought to come over and let me—and run by your questions and answers today, 
+            don’t you think so?</u> 
+            <u who="#dean">I think that’d probably be a good—very good idea.</u> 
+            <u who="#nixon">Yeah. So, that he’s—he may be the <gap reason="unclear"/>—Have you had the chance to—if—You 
+                probably talked to them last night, but you haven’t had any chance to <gap reason="unclear"/> this morning, 
+            huh?</u> 
+            <u who="#dean">No. I—We do have the invitation and response I’ve been kicking around to Eastland. 
+            That’s something that, probably, <persName ref="#ron">Ron</persName> ought to have in hand this morning—</u> 
+            <u who="#nixon">Sure.</u> 
+            <u who="#dean">—also before he goes out.</u> 
+            <u who="#nixon">Sure.</u> 
+            <u who="#dean">They did not, as you’re aware now, ask me any specific questions.</u>  
+            <u who="#nixon">Yeah. Well, how it stands, then, is about, about like we anticipated, isn’t it? That is, it’s 
+            an invitation which—Do all the Republicans, as—join this as a matter of tactics, or—what is the 
+            situation on that? Or do they mostly feel that you should be subpoenaed?</u> 
+            <u who="#dean">Well, I think they’re in this position: They’re afraid to say—and this is probably indicative 
+            of what we’re going to face all along—<q>Why shouldn’t he come up? Why shouldn’t we invite 
+            him? What do we need to hide?</q></u> 
+            <u who="#nixon">Yeah. Yeah.</u> 
+            <u who="#dean"><q>We don’t want to block. We don’t want to whitewash</q></u> 
+            <u who="#nixon">Yeah.</u> 
+            <u who="#dean">And <gap reason="unclear"/></u> 
+            <u who="#nixon">Well, why—You haven’t got anybody that would say, <q>Look, let’s, let’s find a procedure 
+            where he could come up?</q> Won’t any of ‘em step up to that? </u>
+            <u who="#dean">Well, in the response that I’m—I’ve drafted, and I have not—I wasn’t in the meeting 
+            where they kicked it around—I thought it best <supplied resp="#OE" reason="additional context">[to]</supplied> not be in the meeting this—to hear what, you 
+            know, somebody’s—A lawyer’s not always his own best counsel.</u> 
+            <u who="#nixon">Sure.</u> 
+            <u who="#dean"><vocal><desc>Laughs</desc></vocal></u> 
+            <u who="#nixon">Oh, hell, you aren’t the, you aren’t the, you aren’t the one that’s —</u>
+            <u who="#dean">But it’s—</u> 
+            <u who="#nixon">—that’s involved. <gap reason="unclear"/>—</u> 
+            <u who="#dean">No, I know, but I, I did say in the response that, after the acknowledgement of the letter, 
+            <q who="#dean">As a matter of the President’s personal staff, and consistent with the President’s statement of 
+            March 12th</q>—</u> 
+            <u who="#nixon">Um-hmm?</u> 
+            <u who="#dean">—<q who="#dean">on the subject of White House testimonial appearances, I have to respectfully decline
+            the invitation of the committee to formally appear and testify. However, as the President has 
+            stated, it’s the policy of this Administration to provide all necessary and relevant information to 
+            the Congress. And if members of the President’s personal staff can provide such information in a 
+            matter that preserves, intact, the constitutional separation of the branches, such information, 
+            such, such information will be provided. Accordingly</q>—</u> 
+            <u who="#nixon">Rather than, rather than, <q who="#dean">If members of the staff</q>—the way I would state that: <q who="#dean">And 
+            members of the President’s staff will such provide that information in ways that</q> —I think, I 
+            think it’d be—I’d state it positively.</u> 
+            <u who="#dean">Right. Then I went on to say, <q who="#dean">Accordingly, if the Senate Committee on the Judiciary 
+            believes that I can be of assistance in the providing relevant information, and wishes to submit 
+            questions to me that have a bearing on the nomination of <persName>Mr. Gray</persName>, I am pleased to respond, 
+            consistent with the President’s statement</q>.</u>  
+            <u who="#nixon">You don’t want to indicate that you’re, that you’re pleased to respond in, in a—with a 
+            sworn statement. Or do you think—?</u> 
+            <u who="#dean">Well, I, I thought why not maintain all options at all times—</u> 
+            <u who="#nixon">Right.</u> 
+            <u who="#dean">—here and just—if they come back with a question, if they’re—even do that, then swear 
+            to them?</u>  
+            <u who="#nixon">Um-hmm. Don’t want to say so now?</u> 
+            <u who="#dean">No.</u>  
+            <u who="#nixon">Yeah.</u> 
+            <u who="#dean">Because—if—You know, there’s a possibility we could establish a precedent, here—</u> 
+            <u who="#nixon">Yeah?</u> 
+            <u who="#dean">—of a non-sworn response to interrogatories.</u> 
+            <u who="#nixon">Yeah. Yeah.</u> 
+            <u who="#dean">Just—That’s all the better for later precedents.</u> 
+            <u who="#nixon">Yeah. Yeah. Which means that—It’s, it’s—It probably won’t work, but nevertheless, 
+            then that’s, that’s all right, too. Then we could come to the other thing if we have to. 
+            That’s right.</u> 
+            <u who="#nixon">If they <gap reason="unclear"/>. Because they might come back and say, <q>Well, you’re just going to 
+                    have a response. What does that mean?</q> All right, then we’ll make it sworn response. <gap reason="unclear"/> 
+            badger the witness up there in front of your committee.</u>  
+            <u who="#dean">That’s right.</u> 
+            <u who="#nixon">Um-hmm. Um-hmm. Ok, after you’ve had a chance to run it by the others, and so forth—
+            I don’t to talk to the—You know, the difficulty there is that I don’t want to get <persName ref="#haldeman">Haldeman</persName> and 
+                <persName ref="#ehrlichman">Ehrlichman</persName> in the thing because they’re both parties in interest—</u> 
+            <u who="#dean">Um-hmm?</u> 
+            <u who="#nixon">—but—and you’re not. You know—</u> 
+            <u who="#dean #nixon"><vocal><desc>Laughter</desc></vocal></u> 
+            <u who="#nixon">—that’s—well, that’s, that’s quite true. You see, because both of ‘em—And I think the 
+            best thing is for you to have <persName ref="#ziegler">Ziegler</persName> and I to talk about it. And then—</u> 
+            <u who="#dean">All right.</u> 
+            <u who="#nixon">—let me make a rather cool decision about it—as to what we ought to do. Don’t you 
+            agree? </u>
+            <u who="#dean">I think that’d be a very—</u>
+            <u who="#nixon">Now, you get the views of the others, however. You get all their views and see what they 
+            are. Have you come over whenever you’re ready.</u> 
+            <u who="#dean">I shall do, sir.</u>  
+            <u who="#nixon">Fine. Bye-bye.</u>  
+            <note resp="#OE" place="foot">[End audio]</note>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <!--rough-->
+        <fileDesc>
+
+            <titleStmt>
+                <title>Persons and Organizations Mentioned in the Nixon Transcripts</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital, from encoding transcripts from X source.</p>
+                <!-- FIND A WAY TO ADD A URL DIRECT TO PDF SOURCE FROM THE ORIGINAL HERE> -->
+                <!--   <recordingStmt><recording> <date when="1971-02-16">Date: February 16, 1971</date></recording></recordingStmt>  <!-\-do later -\->
+       -->
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson type="editors">
+                <person xml:id="kal">
+                    <persName>Kylie Lasky</persName>
+                </person>
+                <person xml:id="jlb">
+                    <persName>Jennifer Baxter</persName>
+                </person>
+                <person xml:id="mrp">
+                    <persName>Mario Provenzano</persName>
+                </person>
+                <person xml:id="spb">
+                    <persName>Story Buchanan</persName>
+                </person>
+                <person xml:id="ebb">
+                    <persName>Elisa Beshero-Bondar</persName>
+                </person>
+
+                <!-- Original Editor List -->
+                <person xml:id="OE">
+                    <persName>???</persName>
+                    <note resp="ebb">The original editors of the Nixon Transcripts whoever they are.
+                        Does this belong in the listOrg?</note>
+                </person>
+
+            </listPerson>
+
+
+            <listPerson type="transcripts">
+                <person xml:id="nixon">
+                    <occupation>President</occupation>
+                    <persName>Richard M. Nixon</persName>
+                </person>
+                <person xml:id="butterfield">
+                    <occupation>Assistant to the President </occupation>
+                    <persName>Alexander P. Butterfield</persName>
+                </person>
+                <person xml:id="haldeman">
+                    <!--kal: fixed the incorrect spelling here -->
+                    <occupation>Cheif of Staff</occupation>
+                    <persName>H.R. Haldeman</persName>
+                </person>
+                <person xml:id="taylor">
+                    <occupation>Secret Service special agent in charge of the White House details
+                        for Presidents Johnson and Nixon</occupation>
+                    <persName>Robert H. Taylor</persName>
+                </person>
+                <person xml:id="ziegler">
+                    <occupation>Press Secretary</occupation>
+                    <persName>Ronald L. Ziegler</persName>
+                </person>
+                <person xml:id="operator">
+                    <occupation>Operator</occupation>
+                </person>
+                <person xml:id="anderson">
+                    <occupation></occupation> <!--kal: unsure -->
+                    <persName>Jackson Anderson</persName>
+                </person>
+                <!--kal: Found a Korry in 022-006 and need help defining -->
+                <person xml:id="korry">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <!--kal: Found an Allende in 022-006, need help defining -->
+                <person xml:id="allende">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <!--kal: Found an Al Haig in 022-006 and need help defining -->
+                <person xml:id="haig">
+                    <occupation></occupation>
+                    <persName>Al Haig</persName>
+                </person>
+                <!--kal: Found a Ron in 022-006 and need help defining -->
+                <person xml:id="ron">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="dean">
+                    <occupation></occupation> <!-- kal: unsure, found in conv. 037-099-->
+                    <persName>John W. Dean, III</persName>
+                </person>
+                <person xml:id="ehrlichman">
+                    <occupation></occupation> <!--kal: unsure of more details, found in conv. 037-099 -->
+                    <persName></persName>
+                </person>
+                <person xml:id="colson">
+                    <occupation></occupation>
+                    <persName>Chuck Colson</persName>
+                </person>
+                <person xml:id="ervin">
+                    <occupation></occupation>
+                    <persName>Sam Ervin</persName>
+                </person>
+                <person xml:id="dodd">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="brewster">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="mollenhoff">
+                    <occupation></occupation>
+                    <persName></persName>
+                </person>
+                <person xml:id="hunt">
+                    <occupation></occupation>
+                    <persName>Howard Hunt</persName>
+                </person>
+            </listPerson>
+            <listOrg>
+                <org>
+                    <!--kal: will need to figure out the xml:id="" for this org-->
+                    <orgName>The Secret Service</orgName>
+                </org>
+                <org xml:id="CIA">
+                    <orgName> Central Intellgience Agency </orgName>
+                </org>
+                <org xml:id="ITT">
+                    <orgName>International Telephone &amp; Telegraph (IT&amp;T) Company</orgName>
+                </org>
+                <org xml:id="FBI">
+                    <orgName>Federal Bureau of Investigation</orgName>
+                </org>
+                <org xml:id="ervinecomittee">
+                    <orgName>Ervin Committee</orgName>
+                </org>
+
+            </listOrg>
+
+
+        </body>
+    </text>
+</TEI>

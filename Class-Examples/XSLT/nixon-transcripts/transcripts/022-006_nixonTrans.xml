@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Conversation Number 022-006</title>
+                <editor ref="#kal">Kylie Lasky</editor>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>PDF transcript collected from nixontapes.org <ref
+                        target="https://www.nixontapes.org/"/></p>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt>
+                    <recording>
+                        <date when="1972-03-23">Date: March 23, 1972</date>
+                    </recording>
+                </recordingStmt>
+                <bibl>
+                    <orig><ref target="https://www.nixontapes.org/chile/022-006.pdf"/>ORIGINAL
+                        SOURCE FILE</orig>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-11-06" resp="#kal">Encoded file, need to come back to refine #OE
+                notes</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <note resp="#OE" place="top"><label>Conversation No. 022-006</label>
+                <date when="1972-03-23">March 23, 1972</date>
+                <time>5:33 - 5:34 p.m.</time>
+                <location>
+                    <placeName>White House Telephone</placeName>
+                </location>
+                <label type="participants">Participants: Nixon and Ronald L. Ziegler</label>
+                <p>The Administration was forced into damage-control mode following revelations of
+                    collusion between the <orgName ref="#CIA">CIA</orgName> and <orgName ref="#ITT"
+                        >International Telephone &amp; Telegraph (IT&amp;T) Company</orgName> to
+                    prevent the election of <persName ref="#allende">Allende</persName> in 1970. 1
+                    Over the course of brief telephone conversation with Press Secretary <persName
+                        ref="#ziegler">Ronald Ziegler</persName>, <persName ref="#nixon"
+                        >Nixon</persName> confirmed that Ambassador <persName ref="#korry"
+                        >Korry</persName>
+                    <q who="#nixon">had received instructions to do anything short of a
+                        Dominican-type <supplied resp="#OE" reason="additional context"
+                            >[intervention]</supplied>.</q>2 <persName ref="#korry"
+                    >Korry</persName>’s great sin, in <persName ref="#nixon">Nixon</persName>’s
+                    mind, was that, <q who="#nixon">he just failed, the son-of-a-bitch. That’s his
+                        main problem; he should have kept <persName>Allende</persName> from getting
+                        in.</q></p>
+                <label>022-006</label>
+                <time>(1.1m; 1:07)</time></note>
+            <u who="#nixon">Yeah?</u>
+            <u who="#operator">Mr. <persName ref="#ziegler">Ziegler</persName>.</u>
+            <u who="#ziegler">Yes, sir? </u>
+            <u who="#nixon">What did you—Have you said anything, <persName ref="#ron"
+                >Ron</persName>, with regard to the <orgName ref="#ITT">ITT</orgName> and Chile? How
+                did you handle it? </u>
+            <u who="#ziegler">The State Department dealt with that today. </u>
+            <note resp="#OE">1 In a story published on March 21, 1972, columnist Jack Anderson <!--kal: this needs more encoding to it -->
+                referenced two confidential ITT memoranda, one of which stated that a CIA official
+                had tried unsuccessfully to get members of the Chilean military to stage an
+                “uprising,” while the other detailed a conspiracy between ITT executives to put
+                economic pressure on Chile, presumably because they feared that Allende would
+                nationalize ITT’s holdings in the Chilean Telephone and Telegraph Company. “Anderson
+                Alleges Plot Against Allende By I.T.T. and C.I.A.,” The New York Times (March 21,
+                1972), 23. (ITT’s interests in the CTT were, indeed, nationalized in September 1971.
+                Michael Jensen, “Chile Says it Will Nationalize I.T.T. Unit in Days,” New York Times
+                (September 16, 1971), 13.) In a follow-up story published on March 22 (“ITT Pledged
+                Funds in Chile”), Anderson claimed that ITT had approached both the CIA and the
+                Nixon White House with an offer to spend as much as “seven figures” to prevent
+                Allende’s election. Although the CIA had been receptive to ITT’s overtures, the
+                response from the White House had been “polite but cool.” Finally, Anderson
+                mentioned that, according to an ITT intelligence report, Ambassador Korry had
+                “received a message from the State Department giving him the green light to move in
+                the name of President Nixon.” “I.T.T. Said to Seek Chile Coup in ’70,” New York
+                Times (March 22, 1972), 25; “I.T.T. is Accused of Having Tried to Influence U.S.
+                Policies in Latin America,” New York Times (March 23, 1972), 16.</note>
+            <note resp="#OE">2 Following a coup d’état by “Constitutionalist” army officers in April
+                1965 supposedly aided and abetted by local and Cuban Communists against a right-wing
+                dictatorship led by elements of the Trujillo regime (which had themselves come to
+                power following a coup against Trujillo’s democratically elected, left-wing
+                successor, Juan Bosch), President Lyndon Johnson ordered the occupation of Dominican
+                Republic by a mixed force of U.S. and O.A.S. troops. Fighting lasted until the end
+                of August, after which U.S. troops gradually withdrew.</note>
+            <u who="#nixon">Oh, they did? Yes, sir.</u>
+            <u who="#nixon">What did they do? Deny it?</u>
+            <u who="#ziegler">They denied it, but they were cautious on how they dealt with the
+                    <persName ref="#korry">Korry</persName> statement, because they were afraid that
+                might backfire.</u>
+            <u who="#nixon">Why? What did <persName ref="#korry">Korry</persName> say?</u>
+            <u who="#ziegler">Well, <persName ref="#korry">Korry</persName> said that he had
+                received instructions to do anything short of a Dominican type, uh—alleged to have
+                said that.</u>
+            <u who="#nixon"><persName ref="#korry">Korry</persName> did?</u>
+            <u who="#ziegler">Right.</u>
+            <u who="#nixon">To what? How the hell did that get out? He put that out?</u>
+            <u who="#ziegler">Well, <persName ref="#anderson">Anderson</persName> received that from
+                some source. <persName ref="#haig">Al Haig</persName> is sitting with me now.</u>
+            <u who="#nixon">Oh, yeah.</u>
+            <note resp="#OE">[<persName ref="#ziegler">Ziegler</persName> briefly conferred with
+                    <persName ref="#haig">Haig</persName> in the background.]</note>
+            <u who="#ziegler">It was a report contained in an IT&amp;T—</u>
+            <u who="#nixon">Oh, yeah.</u>
+            <u who="#ziegler">—thing, but—</u>
+            <u who="#nixon">Well, he was. He was instructed to.</u>
+            <u who="#ziegler">Well, but</u>
+            <u who="#nixon">I hoped that—But he just failed, the son-of-a-bitch. That’s his main
+                problem. He should have kept <persName>Allende</persName> from getting in. Well, in
+                any event, State has denied today—</u>
+            <u who="#nixon"><gap reason="unclear"/></u>
+            <u who="#ziegler">—and they referred to your comments about Latin America and Chile.</u>
+            <u who="#nixon">Yeah, fine.</u>
+            <u who="#ziegler">And, so you just refer to that on that one.</u>
+            <u who="#nixon">Fine. Ok.</u>
+            <u who="#ziegler">Yes, sir.</u>
+            <u who="#nixon">Right.</u>
+            <note resp="#OE" place="bottom">[End of Conversation]</note>
+        </body>
+    </text>
+</TEI>

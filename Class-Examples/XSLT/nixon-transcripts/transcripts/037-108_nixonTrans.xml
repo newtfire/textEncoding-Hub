@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Conversation Number 037-108</title>
+                <editor ref="#kal">Kylie Lasky</editor>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>PDF transcript collected from nixontapes.org <ref target="https://nixontapes.org/index.html"
+                    /></p>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt>
+                    <recording>
+                        <date when="1973-03-14">Date: March 14, 1973 </date>
+                    </recording>
+                </recordingStmt>
+                <bibl>
+                    <orig><ref target="https://nixontapes.org/watergate/037-108.pdf"/>ORIGINAL SOURCE FILE</orig>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2026-11-06" resp="#kal">Encoded file</change> <!--kal: Could use peer advice on my attempt to encode the blue text and striked text in tmetamarks pdf -->
+        </revisionDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <note resp="#OE" place="top"><label type="conversation">Conversation: 037-108</label><date
+                    when="1973-03-14">March 14, 1973 </date>
+                <time>4:25 – 4:34 pm</time>
+                <location>
+                    <placeName>Wmetamarkte House Telephone </placeName>
+                </location>
+                <label type="participants">Participants: Richard M. Nixon, John W. Dean, III</label>
+            </note>
+            <note resp="#OE" place="top">[Editor’s note: the blue text below denotes overlap with Stanley
+                Kutler’s Abuse of Power: The New Nixon Tapes (New York: The Free Press,
+                1997).]</note>
+            <note resp="#OE" place="top">[Begin audio]</note>
+            <u who="#dean">Hello?</u>
+            <u who="#nixon">metamark. <metamark resp="#OE" rend="blue text"><metamark resp="#OE" rend="striked through">Yeah. Yeah.</metamark> Do you know whether or not—<metamark resp="#OE" rend="striked through">there have been</metamark> of any other
+                instances where raw files of the <orgName ref="#FBI">FBI</orgName> have been turned over to a committees of
+                Congress?</metamark></u>
+            <u who="#dean">Uh, I know there have been some summary files turned over—</u>
+            <u who="#nixon"><metamark resp="#OE" rend="blue text">I mean raw files.</metamark></u>
+            <u who="#dean">Raw files—?</u>
+            <u who="#nixon"><metamark resp="#OE" rend="blue text">Raw files. All right—?</metamark></u>
+            <u who="#dean">No, but let me check with somebody who will have an answer right off the
+                top. You—Do you—C<metamark resp="#OE" rend="blue text">all the <orgName ref="#FBI">FBI</orgName> and tell them I want that in three minutes.</metamark></u>
+            <u who="#dean">I’ll have it.</u>
+            <u who="#nixon">And <metamark resp="#OE" rend="blue text">they’re to have</metamark> their ass—and they’re to have <metamark resp="#OE" rend="blue text">it over here, or I’ll
+                fire the whole Goddamn Bureau. I mean that.</metamark></u>
+            <u who="#dean">All right.</u>
+            <u who="#nixon">You get right over to them.</u>
+            <u who="#dean">All right.</u>
+            <note resp="#OE" place="foot">[End audio]</note>
+        </body>
+    </text>
+</TEI>

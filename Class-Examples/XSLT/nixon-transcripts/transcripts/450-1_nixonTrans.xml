@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="nixonRefs-sqf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="nixonCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Conversation Number 450-1</title>
+            <editor ref="#kal">Kylie Lasky</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>PDF transcript collected from nixontapes.org <ref target="https://www.nixontapes.org/index.html">ORIGINAL
+               SOURCE</ref></p>
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording>
+                  <date when="1971-02-16">Date: February 16, 1971</date>
+               </recording>
+            </recordingStmt>
+            <bibl>
+               <orig><ref target="https://www.nixontapes.org/transcripts/1971-02-16_OVAL450-01_APB.pdf"></ref></orig>
+               <note resp="#OE">1st Ear: RAM, <date when="2006-12-01">December 1,
+                  2006</date></note>
+               <note resp="#OE">2nd Ear: RAM, <date when="2006-12-04">December 4, 2006</date></note>
+               <note>3rd Ear: RAM, <date when="2007-06-07">June 7, 2007</date></note></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-11-06" resp="#kal">Updating header, fixing spelling mistakes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <note resp="#OE" place="top"><label>Conversation No. 450-1</label>
+            <date when="1971-02-16">February 16, 1971</date><time>Unknown between 7:56 am and 8:58
+               am</time>
+            <location>
+               <placeName>Oval Office</placeName>
+            </location>
+            <label type="participants">Participants: Richard M. Nixon, Alexander P.
+               Butterfield</label>
+            <p>In one of the very first Nixon Tapes, presidential aide <persName ref="#butterfield"
+                  >Alexander Butterfield</persName> briefed the president on the recently installed
+               voice-activated taping system tied to the presidential locator system. <persName
+                  ref="#butterfield">Butterfield</persName> told the president: <q>You’re wearing
+                  the locator right now and you’re in the office,</q> and that the system operated
+               by <q>voice activation, so you don’t have to turn it on and off.</q>
+               <persName ref="#nixon">Nixon</persName> inquired if it would be possible to expand
+               the system, which at the time only operated in the <placeName>Oval
+               Office</placeName>, and stressed the reason behind his decision to tape: <q>You see,
+                  the purpose of this is to have the whole thing on the file for professional
+                  reasons.</q></p>
+            <p><persName ref="#butterfield">Butterfield</persName> acknowledged that it was possible
+               to expand the system, and for record-keeping purposes, <q>It could be used to make
+                  notes.</q> Furthermore, <persName ref="#butterfield">Butterfield</persName> told
+               the president that he had gone over the potential use of the tapes for note taking
+               with Chief of Staff H.R. <persName ref="#haldeman">“Bob” Haldeman</persName>, and
+               noted that the system was an office secret because, <q>There are only five people who
+                  know about it, outside of <persName ref="#haldeman">Haldeman</persName>, then you
+                  and me. Only five people in our office should be concerned with this…</q></p>
+         </note>
+         <note resp="#OE">[Previous unrelated conversation omitted]</note>
+         <u who="#nixon">How does it work in here?</u>
+         <u who="#butterfield">Well, they’re <supplied resp="#OE" reason="additional context">[the
+               Secret Service]</supplied> sorting it out now.</u>
+         <u who="#nixon">What activates it?</u>
+         <u who="#butterfield">When you have the locator on, the machine starts.<gap
+               reason="unclear"/> You might not be surprised by this <gap reason="unclear"/>,
+            locator on. It tells us where you are, throughout the <placeName>executive
+               office</placeName>. And it’s automatically working, so it’s working now.</u>
+         <note resp="#OE">[Noise; possibly an unclear exchange]</note>
+         <u who="#nixon">The system stays off, no? It’s working?</u>
+         <u who="#butterfield">You’re wearing the locator right now and you’re in the office <gap
+               reason="unclear"/>. It doesn’t have an on-and-off switch. It depends on voice
+            activation—</u>
+         <u who="#nixon">Right.</u>
+         <u who="#butterfield">—so you don’t have to turn it on and off.</u>
+         <u who="#nixon">Oh, this is good. Is there any chance to get two? You see, the purpose of
+            this is just to have the whole thing on the file…</u>
+         <u who="#butterfield">Yes, sir.</u>
+         <u who="#nixon">…for professional reasons.</u>
+         <u who="#butterfield">Right, but if it were voice activated in the <placeName>Cabinet
+               Room</placeName>, because there’s so much going on there all the time—</u>
+         <u who="#nixon">Yeah.</u>
+         <u who="#butterfield"><gap reason="unclear"/> it’d be using up stuff so fast <gap
+               reason="unclear"/>, so—</u>
+         <u who="#nixon">Yeah.</u>
+         <u who="#butterfield">I mean you can come in but <gap reason="unclear"/> chance that you
+            turn it off and you’ve got no record. I can tell when it’s on and off, but only from my
+            office. There’s no way of telling you in the <placeName>Cabinet room</placeName>. When
+            it is going on, you just have to remember we selectively <gap reason="unclear"/>.</u>
+         <u who="#nixon">All right.</u>
+         <u who="#butterfield">It could be used to make notes <gap reason="unclear"/>. I was going
+            over this <gap reason="unclear"/> this morning with <persName ref="#haldeman"
+               >Bob</persName>
+            <supplied resp="#OE" reason="additional context">[Haldeman]</supplied>.</u>
+         <u who="#nixon">Uh-huh.</u>
+         <u who="#butterfield">And we’re going to monitor it. <gap reason="unclear"/> He called the
+            attention to this.</u>
+         <u who="#nixon">How does that work, <persName ref="#butterfield">Alex</persName>? Does it
+            work with you here?</u>
+         <u who="#butterfield">Uh, no. I’m going to monitor this <gap reason="unclear"/>.</u>
+         <u who="#nixon">I don’t want it monitored, you see?</u>
+         <u who="#butterfield">I’m just—</u>
+         <u who="#nixon">What happens when a record is made—a tape?</u>
+         <u who="#butterfield">A tape is made, yes, sir.</u>
+         <u who="#nixon">And then it’s, well…</u>
+         <u who="#butterfield">There are only five people that know about it, outside of <persName
+               ref="#haldeman">Haldeman</persName>, <persName>Ziegler</persName>, you and me. Only
+            five people in our office Secret Service <supplied resp="#OE"
+               reason="additional context">[staff]</supplied>—None of <persName ref="#taylor">Taylor</persName>’s
+               people.<note resp="#OE">1 </note></u>
+         <u who="#nixon">No. No.</u>
+         <u who="#butterfield">None of <persName ref="#taylor">Taylor</persName>’s people. They’re all
+            cryptanalysts.</u>
+         <u who="#nixon">Yeah, and they’re just used for, uh...</u>
+         <u who="#butterfield">They only change the spools. They cannot monitor it.</u>
+         <u who="#nixon">Yeah.</u>
+         <u who="#butterfield">It’s a lot easier than planning to tape something.</u>
+         <u who="#nixon">Put <gap reason="unclear"/> and <persName ref="#haldeman"
+               >Haldeman</persName> on this.</u>
+         <u who="#butterfield">Yes, sir.</u>
+         <u who="#nixon">He has <gap reason="unclear"/> to everybody.</u>
+         <u who="#butterfield"><gap reason="unclear"/> he did around before in the military. He put
+            it in and has taken care of it when we needed him to. <gap reason="unclear"/>
+            <orgName>the Secret Service</orgName>
+            <gap reason="unclear"/></u>
+         <note resp="#OE"> [The rest of the conversation is unclear and is cut off by a G-tone] </note>
+         <note resp="#OE" place="foot">1 It is likely that <persName ref="#butterfield"
+               >Butterfield</persName> and <persName ref="#nixon">Nixon</persName> were referring to
+               <persName ref="#taylor">Robert H. Taylor</persName>, the Secret Service special agent in charge of
+            the White House details for Presidents <persName>Johnson</persName> and <persName
+               ref="#nixon">Nixon</persName>. See:
+               <ref>http://query.nytimes.com/gst/fullpage.html?res=9803E2DF1239F937A25750C0A967948260</ref></note>
+      </body>
+   </text>
+</TEI>
