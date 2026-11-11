@@ -1,0 +1,40 @@
+body {
+   background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+/* table styling */
+table { 
+    border-collapse: collapse;
+    border:.5vw solid #301934;
+    margin:auto;
+    
+}
+th, td {padding: 1em; }
+tr:nth-child(odd) {
+    background-color: #007fd7; 
+    color:white;
+
+    }
+
+/* pageBlock and panel class styling */
+
+section.pageBlock {
+    background-color: #de0606; /* See Spiderman color palette at https://www.color-hex.com/color-palette/106355 */
+}
+
+div.panel {
+    background-color: #e2e2e2;
+    width:80%;
+    margin:auto;
+    padding: 2vw;
+}
+
+/*  For comic book projects,
+ * styling to indicate different kinds of balloon contents, you may 
+ * want to explore border styles in CSS
+ * 
+ * Check out 
+ * https://www.w3schools.com/cssref/pr_border-style.php 
+ *  */
