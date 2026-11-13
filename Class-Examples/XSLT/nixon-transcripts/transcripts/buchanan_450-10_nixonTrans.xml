@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="transcriptTei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>  <!--rough-->
+      <fileDesc>
+        <titleStmt>
+          <title>450-10</title>
+          <editor ref ="#sjb">Story Buchanan</editor>
+        </titleStmt> 
+        
+         <publicationStmt>
+           <p>PDF transcript collected from nixontapes.org PDF transcript collected from nixontapes.org <ref target="https://www.nixontapes.org/index.html">ORIGINAL
+                 SOURCE</ref></p> <!-- website url -->
+         </publicationStmt>
+         <sourceDesc>
+           <recordingStmt><recording> <date when="1971-02-16">Date: February 16, 1971</date></recording></recordingStmt>  <!--do later -->
+           <bibl>
+             <orig><ref target="https://nixontapes.org/transcripts/1971-02-16_OVAL450-10_APB_HRH.pdf"></ref>ORIGINAL SOURCE FILE</orig>
+             <note resp="#OE">1st Ear: LAN, <date when="2006-12-01">June 26, 2007</date></note>
+             <note resp="#OE">2nd Ear: LAN, <date when="2006-12-04">June 26, 2007</date></note>
+             
+           </bibl>
+         </sourceDesc>
+        
+      </fileDesc>
+    <revisionDesc>
+      <change when="2026-11-12" resp="#spb">Updated header.</change>
+      
+    </revisionDesc>
+   
+  </teiHeader>
+  
+  
+  
+  <text>       <!--PDF-->
+      <body>
+        
+          <note type="head" resp="OE"> 
+            <label type = "convo"> Conversation No. 450-10</label> 
+           
+           <time> Time: 10:28 am - 10:49 am</time>
+          
+            <location><placeName> Oval Office</placeName> </location>
+            <label type="participants">  Participants: Richard M. Nixon, Alexander P. Butterfield, H.R. Haldeman </label>
+          
+           
+         
+    
+            <note resp="#OE" place="top">  In one of the first recordings made in the <location><placeName>Oval Office</placeName></location> of a conversation between
+              President Nixon, Assistant to the President  <persName ref="#butterfield"
+                >Alexander Butterfield</persName>, and Chief of Staff
+            <persName ref = "#haldeman">H.R. Haldeman</persName>, Nixon notes that the purpose of the newly installed taping system was
+            that there would be a record of every conversation “to be put in the file.”
+           </note>  
+            This new system of recording meetings and phone calls was to replace the old practice of
+            having a note-taker sit in on every meeting and prepare a memorandum for the
+            president’s files. <persName>Nixon</persName> considered this former practice too distracting, and now that he
+            had the capability of surreptitiously recording every meeting, <persName>Nixon</persName> said “I’m for
+            it”…“…let’s just…forget the note taker business.” <persName>Haldeman</persName> added “just don’t tell
+            anybody you’ve got it.”
+          </note> 
+            
+        <p>    [A special thanks to <persName>Ken Hughes</persName> and the Miller Center of Public Affairs for alerting us to
+            this conversation and providing a draft transcript]</p>
+           
+         <incident><desc>  [Transcript has been edited to remove stuttering and improve readability]
+           [Previous unrelated conversation omitted]</desc></incident>
+          
+          
+        <u who = "#butterfield"> You don't have any questions on this other business that you might want me
+            to answer now? This voice, I explained to the president that the secretary can’t—</u>
+            
+          <u who="#nixon">  No. Mums the whole word. I will not be transcribed.</u>
+        
+        
+           <u who = "#butterfield"> Correct.</u>
+        
+          <u who="#nixon"> This is totally for, basically, to be put in the file, in my file. I don't want it in your
+            file or Bob's or anybody else's. My file.</u>
+        
+        
+            <u who ="#haldman"> Right.</u>
+        
+        <u who="#nixon"> And my <incident><desc>[unclear]</desc></incident> today. The whole purpose, basically, is <incident><desc>[unclear-overlapping
+            voices]</desc></incident> so there may be a day when we have to have this for purposes of, maybe we want
+            to put out something that's positive, maybe we need something just to be sure that we can
+            correct the record. But we're going to <incident><desc>[unclear]</desc></incident> that's all. And also, though, because I
+            won't have to have people in the room when I see people—</u>
+        
+        
+        <u who ="#haldman"> That's right. </u>
+      
+            
+          <u who="#nixon"> Which is much better. I can have my personal conversations, which I want to
+            have, and don't have the people there, you know, uh, which I'd much rather do anyway,
+            unless I feel that I need them there to carry out something or as buffers. Then I'll have
+            them, of course. So I think it'll work fine. It's a good system.</u>
+        
+        
+        <u who ="#haldman"> Just don't tell anybody you've got it and don’t try to hide anything <gap
+            reason="unclear"/></u>
+        
+        
+        <u who="#nixon"> <gap
+            reason="unclear"/></u>
+        
+        <u who ="#haldman"> Any time that anything gets used from it, it's on the basis of <q>your notes</q> or
+            <q>the president's notes</q>—</u>
+        
+        <u who="#nixon"> That's right.</u>
+        
+        <u who ="#haldman">Or “my notes” or—</u>
+        
+        <u who="#nixon"><gap reason="unclear"/> For example, you've got nothing to use from this today. Just forget it.
+            File it. Everything today will be filed.</u>
+        
+        <u who ="#haldman"> Yes.</u>
+        
+        <u who="#nixon"> Fair enough?</u>
+        
+        <u who = "#butterfield"> I think it's gonna be a very fine system.</u>
+        
+        <u who="#nixon"> And I think, incidentally, on those, uh, I don't know, these open office hours, shall
+            we just, let's just use that and forget the note taker business.</u>
+        
+        <u who ="#haldman"> Well—</u>
+        
+        <u who = "#butterfield"><gap reason="unclear"/> someone should cover it.</u>
+           <u> <incident><desc>[Unclear-overlapping voices]</desc></incident></u>
+        
+        <u who ="#haldman"> I'd still use that. We've got—</u>
+        
+        <u who = "#butterfield"> We aren't getting—</u>
+        
+        <u who ="#haldman"> Look at this from <persName>McCracken</persName>. Look at this stuff and, and we're getting—</u>
+        
+        <u who="#nixon"> Well—</u>
+        
+        <u who ="#haldman"> To take these things and look at what, what comes out of them. This
+          <gap
+            reason="unclear"/></u>
+        
+        <u who="#nixon"> Okay. Good. I'm for it. </u>
+        
+        <note resp="#OE">[Previous unrelated conversation omitted]</note>
+      </body>
+  </text>
+</TEI>

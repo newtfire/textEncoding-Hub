@@ -18,16 +18,16 @@
             <body>
               <h1><xsl:apply-templates select="descendant::title"/></h1>
                 <!-- Here is a Table of Contents Overview -->
-        <table>
-            <tr>
-                <th>Blob Heading</th>
-                <th>Special Features</th>
-                <th>Blob Preview in 30 characters</th>
-            </tr>
+            <table>
+                <tr>
+                    <th>Blob Heading</th>
+                    <th>Special Features</th>
+                    <th>Blob Preview in 30 characters</th>
+                </tr>
             
             <xsl:apply-templates select="descendant::blob" mode="toc"/>
             
-        </table>        
+            </table>        
                 
                 <!-- BELOW is the Reading View processing -->
                
@@ -42,7 +42,7 @@
   <xsl:template match="blob" mode="toc">
       <tr>
           <td><a href="#blob-{position() }"><xsl:apply-templates select="heading"/></a></td>
-          <td><xsl:value-of select="descendant::special/@whatsIt ! normalize-space() => distinct-values() => string-join(', ') "/>
+          <td><xsl:value-of select="descendant::special/@whatsIt ! normalize-space() => distinct-values() => string-join(', ')  "/>
           
           </td>
           <td>
