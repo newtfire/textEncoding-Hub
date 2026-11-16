@@ -13,7 +13,7 @@
     <xsl:variable name="cbml-collection" as="document-node()+" 
         select="collection('xml/?select=*.xml')[base-uri() ! not(contains(., 'cbml-si'))]"/>
     
-    <!-- ebb: MAKE SURE THERE ARE NO EXTRA SPACES in the collection() variable!   -->
+    <!-- ebb: Make sure there are no extra spaces inside the collection(' ') variable.   -->
     
    <xsl:variable name="site-index" as="document-node()" select="doc('xml/cbml-si.xml')"/>
  
@@ -95,7 +95,7 @@
                     </html>
                     
 
-                </xsl:result-document>
+               </xsl:result-document>
             </xsl:for-each>
 
    </xsl:template> 
