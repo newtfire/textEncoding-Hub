@@ -66,66 +66,66 @@
                <list sortKey="weaponry">
                   <item xml:id="jarate">
                      <name>Jarate Master</name>
-                     <desc></desc>
+                     <desc>Some kinda weapon</desc>
                   </item>
                </list>
                <div type = "characters">
                   <list sortKey = "reoccuring-characters">
                      <item xml:id = "sc">
                         <name>Scout</name>
-                        <desc></desc>
+                        <desc>Scout is an awesome character.</desc>
                      </item>
                      <item xml:id = "sp">
                         <name>Spy</name>
-                        <desc></desc>
+                        <desc>Spy is sneaky</desc>
                      </item>
                      <item xml:id = "sn">
                         <name>Sniper</name>
-                        <desc></desc>
+                        <desc>xxxx</desc>
                      </item>
                      <item xml:id = "so">
                         <name>Soldier</name>
-                        <desc></desc>
+                        <desc>yyyy</desc>
                      </item>
                      <item xml:id = "py">
                         <name>Pyro</name>
-                        <desc></desc>
+                        <desc>FIRE!!!</desc>
                      </item>
                      <item xml:id = "de">
                         <name>Demoman</name>
-                        <desc></desc>
+                        <desc>Is this a demon man? I don't know. I'm just the professor munging this markup.</desc>
                      </item>
                      <item xml:id = "he">
                            <name>Heavy Weapons Guy</name>
-                           <desc></desc>
+                           <desc>He's got heavy weapons</desc>
                         </item>
                      <item xml:id = "en">
                         <name>Engineer</name>
-                        <desc></desc>
+                        <desc>This person engineers</desc>
                      </item>
                      <item xml:id = "me">
                         <name>Medic</name>
-                        <desc></desc>
+                        <desc>A HEALER</desc>
                      </item>
                      <item xml:id = "ad">
                         <name>Administrator</name>
-                        <desc></desc>
+                        <desc>mostly useless and overpaid??</desc>
                      </item>
                      <item xml:id = "mp">
                         <name>Ms. Pauling</name>
-                        <desc></desc>
+                        <desc>She's cool</desc>
                      </item>
                      <item xml:id = "sh">
                         <name>Saxton-Hale</name>
-                        <desc></desc>
+                        <desc>no clue</desc>
                      </item>
                      <item xml:id = "mb">
                         <name>Mr. Bidwell</name>
-                        <desc></desc>
+                        <desc>???</desc>
                      </item>
                      <item xml:id = "mr">
                         <name>Mr. Reddy</name>
-                        <desc></desc>
+                        <desc>Always prepared.</desc>
                      </item>
                   </list>
                   
@@ -136,12 +136,12 @@
                   <item xml:id ="cp">
                      <name>Capture Point</name>
                      <desc>
-                        
+                        Where?
                      </desc>
                   </item>
                   <item xml:id ="int">
                      <name>Intellegence</name>
-                     <desc>    </desc>
+                     <desc> maybe?  </desc>
                   </item>
                </list>
             </div>

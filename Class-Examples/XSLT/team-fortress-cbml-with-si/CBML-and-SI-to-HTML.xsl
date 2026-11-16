@@ -8,9 +8,10 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
         include-content-type="no" indent="yes"/>
     
-    <!-- COLLECTION VARIABLE -->
+    <!-- COLLECTION VARIABLE: this one is excluding the site index file that's in the same directory. -->
     
-    <xsl:variable name="cbml-collection" as="document-node()+" select="collection('xml/?select=*.xml')[base-uri() ! not(contains(., 'cbml-si'))]"/>
+    <xsl:variable name="cbml-collection" as="document-node()+" 
+        select="collection('xml/?select=*.xml')[base-uri() ! not(contains(., 'cbml-si'))]"/>
     
     <!-- ebb: MAKE SURE THERE ARE NO EXTRA SPACES in the collection() variable!   -->
     
@@ -26,69 +27,62 @@
            </head>
            <body>
          
-               <h1><xsl:apply-templates select="$cbml-collection//titleStmt/title"/></h1> 
-               
-          <div id="characterTable">
-              <xsl:variable name="characters" as="item()+" 
-                  select="descendant::cbml:panel/@characters ! normalize-space() !
-                  tokenize(., ' ') ! substring-after(., '#') => distinct-values() => sort()"/>
-              
-              <xsl:variable name="docTree" as="document-node()" select="current()"/>
-              <!-- We're going to need this in the panel lookup! -->
-              
-              <!-- XSLT to find the characters by panel here. -->
-              <table>
-                  <tr>
-                      <th>character</th>
-                      <th>panels</th>
-                  </tr>
-                  <xsl:for-each select="$characters[string-length() gt 1]">
-                      <!-- This excludes an empty match from the Sonic source file. -->
-                      <tr>
-                          <td>
-                              <xsl:value-of select="current() "/>
-                          </td>
-                          <td>
-                              <!-- Here let's output a  linked list of panels in which this
-                              character appears!-->
-                              <!-- VARIABLE TO LOOK UP THE PAGES THAT SHOW THIS CHARACTER on the source XML tree! -->
-                             <xsl:variable name="panelsLookUp" as="element()+" 
-                                  select="$docTree//div[@type='page']/cbml:panel[@characters ! contains(., current())]"/>
-          
-                              <ul>
-                                  <xsl:for-each select="$panelsLookUp">
-                                      <xsl:sort select="@xml:id"/>
-                                      <li><a href="#{parent::div/@xml:id}-panel-{@n}">Page <xsl:value-of select="current()/parent::div/@xml:id ! substring-after(., '_')"/>, panel <xsl:value-of select="@n"/></a></li>
-                                      
-                                  </xsl:for-each>
-         
-                              </ul>
-                              
-                          </td>
-                          
-                      </tr>
-         
-                  </xsl:for-each>
-                  
-              </table>
-      
-          </div>     
-
+               <h1>Table of Contents</h1>
+                   
+                 <ol>
+                   
+                       
+            <xsl:apply-templates select="$cbml-collection//titleStmt/title" mode="toc"/>
+                
+                <!--ebb:  Distinct id for files is based on its filename -->
+                                   
+                   
+                 </ol>
+     
+        <div id="reading-view">  
+            <xsl:for-each select="$cbml-collection">
  
-               
-          <div id="reading-view">        
-            <!-- READING VIEW HERE -->
-            <xsl:apply-templates select="descendant::body"/>
-              
-              <!--  IF PROCESSING A COLLECTION of XML files, uncomment this / adapt as needed:
-              <xsl:apply-templates select="$cbml-collection//div"/>
-          -->
+                <xsl:variable name="filename" select="current() ! base-uri() ! tokenize(., '/')[last()] ! 
+                    substring-before(., '.xml')"/>
+                <xsl:result-document method="xhtml" html-version="5" 
+                    omit-xml-declaration="yes" include-content-type="no"
+                    indent="yes" href="docs/{$filename}.html">
+                    <html>
+                        <head><title><xsl:apply-templates 
+                                    select="descendant::titleStmt/title"/></title>
+                            <link rel="stylesheet" type="text/css" href="style.css"/> 
+                        </head>
+                        <body>
+                            
+                            
+                            <xsl:apply-templates select="descendant::div"/>
+                            
+                        </body>
+                        
+                    </html>
+                    
+
+                </xsl:result-document>
+            </xsl:for-each>
+ 
+        
+             
           
           </div>
    
            </body>
        </html>
    </xsl:template> 
+    
+    <xsl:template match="titleStmt/title" mode="toc">
+        
+        <li><a href="{current() ! base-uri(.) ! tokenize(., '/')[last()] ! 
+                substring-before(., '.xml')}.html">
+                <xsl:apply-templates select="current()"/></a></li>
+        
+    </xsl:template>
+    
+    
     
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="{@xml:id}">
