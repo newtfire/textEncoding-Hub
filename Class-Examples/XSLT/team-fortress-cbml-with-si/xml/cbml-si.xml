@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index for Team Fortress Project</title>
+            <author xml:id ="LSD">Lily Suppa-Duckworth</author>
+            <author xml:id = "NG">Nicholas Groemminger</author>
+            <author xml:id = "KR">Kaa Rivera</author>
+    
+            <sponsor notBefore="2026-09">DIGIT 110 Text Encoding class at Penn State Erie, The Behrend College</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>CBML Team Fortress</authority>
+            <!-- Decide what you want to do here! -->
+           <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital: no previous source exists.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <!--add your changes above this! See sample entries below. -->
+            <change when="2026-10-26" who="#ebb">Initiate change log during project team meeting.</change>
+            <change when="2026-11-02" who="#kr">Added outline for many different categories.</change>
+            
+           <!-- <change when="2024-09-03" who="#ebb">107 new entries and many updated entries in historical persons, organizations, places, plants/animals, and bibl entries, largely from completing work on Mitford’s Journal, as well as staff updates.</change>
+            <change when="2024-06-02" who="#lmw"> Establishing new Si-local file. Correcting great farmhouse entries. Updating staff entries. proofing fict people sections. preparing to add new ids from Hofland letters, Weston Grove, Antigone poems.</change> -->
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson type="editors">
+            <person xml:id="lsd">
+               <persName>Lily Suppa-Duckworth</persName>
+            </person>
+            <person xml:id="ng">
+               <persName>Nick Groemminger</persName>
+            </person>
+            <person xml:id="kr">
+               <persName>Kaa Rivera</persName>
+            </person>
+         </listPerson>
+         
+         <listPerson type="authors">
+            <person xml:id="valve">
+               <persName>Valve Corporation</persName>
+               <note type="desc">Refers to the broad creators of the comics when specific writers and artists are unknown.</note>
+            </person>
+            <person xml:id="oeming">
+               <persName>Michael Avon Oeming</persName>
+               <note type="desc">A comicbook artist who worked on the older Team Fortess Comics. Worked on every comic from 2009-2011 except Meet The Director, True Meaning, and A Smissmas Story.</note>
+            </person>
+         </listPerson>
+         <div type="references"> 
+            <div type="maps">
+               
+            </div>
+            <div type="items">
+               <list sortKey="weaponry">
+                  <item xml:id="jarate">
+                     <name>Jarate Master</name>
+                     <desc></desc>
+                  </item>
+               </list>
+               <div type = "characters">
+                  <list sortKey = "reoccuring-characters">
+                     <item xml:id = "sc">
+                        <name>Scout</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "sp">
+                        <name>Spy</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "sn">
+                        <name>Sniper</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "so">
+                        <name>Soldier</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "py">
+                        <name>Pyro</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "de">
+                        <name>Demoman</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "he">
+                           <name>Heavy Weapons Guy</name>
+                           <desc></desc>
+                        </item>
+                     <item xml:id = "en">
+                        <name>Engineer</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "me">
+                        <name>Medic</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "ad">
+                        <name>Administrator</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "mp">
+                        <name>Ms. Pauling</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "sh">
+                        <name>Saxton-Hale</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "mb">
+                        <name>Mr. Bidwell</name>
+                        <desc></desc>
+                     </item>
+                     <item xml:id = "mr">
+                        <name>Mr. Reddy</name>
+                        <desc></desc>
+                     </item>
+                  </list>
+                  
+               </div>
+            </div>
+            <div type = "mechanics">
+               <list sortKey = "in-game-refs">
+                  <item xml:id ="cp">
+                     <name>Capture Point</name>
+                     <desc>
+                        
+                     </desc>
+                  </item>
+                  <item xml:id ="int">
+                     <name>Intellegence</name>
+                     <desc>    </desc>
+                  </item>
+               </list>
+            </div>
+            
+         </div>
+      
+      </body>
+   </text>
+</TEI>

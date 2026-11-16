@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAR!</title>
+            <author role="writer">Unknown Valve Corporation Employee(s)</author>
+            <author role="illustrator">Michael Avon Oeming</author>
+         </titleStmt>
+            <editionStmt>
+               <edition>CBML edition of Team Fortress</edition>
+               <editor>Lily Suppa-Duckworth</editor>
+               <editor>Kaa Rivera</editor>
+               <editor>Nick Groemminger</editor>
+             <respStmt>
+                  <resp>This encoding prepared by</resp>
+                  <name>Lily Suppa-Duckworth</name>
+                  <name>Kaa Rivera</name>
+               </respStmt>
+            </editionStmt> 
+         <publicationStmt>
+            <p>By Valve Corporation. Published <date when="2009-12-17">December 17th, 2009</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital: no previous source exists.</p>
+            <p><!-- If this is true: -->Authors are not listed on the webcomic, only the illustrator. The author team was identified 
+               from <ref target="https://en.wikipedia.org/wiki/Team_Fortress_Comics">Wikipedia’s Team Fortress page</ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!--TODO: Link text bubbles before page 11. Check through text for typos or missed tags/attributes.-->
+         <!--Look at ways to better represent linked bubbles (directly connected vs thin strands)-->
+         <!--TODO: Find a way to link the si file to this document as a schema -->
+         <div type="page" n="1">
+            <note type="pageDesc"> The Administrator sits in a massive room of screens, giving
+               orders to RED and BLU team over a large intercom. </note>
+            <cbml:panel n="1" characters="Administrator">
+               <cbml:caption type="heading"> One week ago... </cbml:caption>
+               <cbml:balloon type="sound">CLICK</cbml:balloon>
+               <note type="panelDesc">The Administrator clicks a lighter on, and lights a
+                  cigarette.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Administrator">
+               <note type="panelDesc">The Administrator smokes the cigarette she lit.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Administrator">
+               <note type="panelDesc">Close up view of The Administrator's eye.</note>
+            </cbml:panel>
+
+            <cbml:panel n="4" characters="Administrator">
+               <floatingText>
+                  <body>
+                     <l>BLU</l>
+                     <l>(ALL)</l>
+                  </body>
+               </floatingText>
+               <cbml:balloon type="sound"><emph rend="colored blue outlined"
+                  >CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator"> Alert, Blue Team! Our Control Point
+                  is being contested! </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs something into an audio jack.</note>
+            </cbml:panel>
+
+            <cbml:panel n="5" characters="Administrator">
+               <floatingText>
+                  <body>
+                     <l>RED</l>
+                     <l>(ALL)</l>
+                  </body>
+               </floatingText>
+               <cbml:balloon type="sound"><emph rend="colored red outlined"
+                  >CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator"> Well done, Red Team. You have
+                  captured the Control Point. </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs something into another audio
+                  jack.</note>
+            </cbml:panel>
+
+            <cbml:panel n="6" characters="Administrator">
+               <floatingText>
+                  <body>
+                     <l>BLU</l>
+                     <l>(ALL)</l>
+                  </body>
+               </floatingText>
+               <cbml:balloon type="sound"><emph rend="colored blue outlined"
+                  >CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator"> Capture our Control Point, Blue
+                  Team! </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs into the BLU audio jack again.</note>
+            </cbml:panel>
+
+            <cbml:panel n="7" characters="Administrator">
+               <floatingText>
+                  <body>
+                     <l>RED</l>
+                     <l>(ALL)</l>
+                  </body>
+               </floatingText>
+               <cbml:balloon type="sound"><emph rend="colored red outlined"
+                  >CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator"> Red Team! Defend our Control Point! </cbml:balloon>
+               <note type="panelDesc">The Administrator plugs into the RED audio jack again.</note>
+            </cbml:panel>
+
+            <cbml:panel n="8" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator"> Hm. Well now. What's that Spy up to? </cbml:balloon>
+               <note type="panelDesc">The Administrator sits in front of a center console, plugging
+                  into different audio jacks to give out commands. The room is full of screens
+                  featuring actual Team Fortress 2 gameplay.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="2">
+            <note type="pageDesc">The Administrator gives a command to BLU Team (mirroring Meet The
+               Spy), but gets interrupted by Ms. Pauling</note>
+            <cbml:panel n="1" characters="Administrator">
+               <cbml:balloon type="sound"><emph rend="colored blue outlined"
+                  >CHKT</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">ALERT!</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">A <emph rend="b">Red Spy</emph> is in
+                  the base!</cbml:balloon>
+               <note type="panelDesc">The Administrator clutches a microphone as her cigarette falls
+                  from her lips</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Administrator">
+               <cbml:balloon type="sound">UNPLUG</cbml:balloon>
+               <note type="panelDesc">The Administrator unplugs the microphone from the central
+                  console.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Administrator Soldier">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p2-b1" next="#p2-b2">Ugh.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p2-b2" next="#p2-b3">The <emph rend="b">SCOUT,</emph> you
+                  idiots.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p2-b3">He's disguised as the <emph rend="b"
+                     >Scout.</emph></cbml:balloon>
+               <cbml:balloon type="audio" who="Soldier">A Red Spy is in the <emph rend="b"
+                     >base</emph>?</cbml:balloon>
+               <note type="panelDesc">The Administrator watches BLU attempt to find the RED Spy.
+                  Soldier can be heard through the screen.</note>
+            </cbml:panel>
+
+            <cbml:panel n="4" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">Is there a <emph rend="b"
+                     >problem,</emph> Miss Pauling?</cbml:balloon>
+               <note type="panelDesc">The Administrator sits, smoking her cigarette.</note>
+            </cbml:panel>
+
+            <cbml:panel n="5" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p2-b4" next="#p2-b5"><emph rend="mini">Um.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p2-b5">What... Makes you say-</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p2-b6" next="#p2-b7">Because you're <emph rend="b"
+                     >hovering.</emph> And you only hover when there's a <emph rend="b"
+                     >problem.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p2-b7">Let's have it.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling speeks to The Administrator, clutching a piece of
+                  paper.</note>
+            </cbml:panel>
+
+            <cbml:panel n="6" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">We did a background check on the
+                  mercenaries.</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Standard protocol, nothing-</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">Sometime <emph rend="b">today,</emph>
+                  please.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling speeks to The Administrator, clutching a piece of
+                  paper. The Administrator rolls her eyes.</note>
+            </cbml:panel>
+
+            <cbml:panel n="7" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p2-b8" next="#p2-b9"><emph rend="mini">Um.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p2-b9">It's the... BLU Soldier and RED
+                  Demoman.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling speeks to The Administrator, looking at a piece
+                  of paper. The Administrator seems intrigued.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="3">
+            <note type="pageDesc">Miss Pauling shows The Administrator a bunch of pictures of the
+               BLU Soldier and RED Demoman being friends together.</note>
+
+            <cbml:panel n="1" characters="Pauling">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p3-b1" next="#p3-b2">It looks like they've
+                  become...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p3-b2">...<emph rend="b">friends,</emph>
+                  Administrator.</cbml:balloon>
+               <note type="panelDesc">Miss Pauling looks quite distraught.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Administrator">
+               <cbml:balloon type="sound">TWITCH</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p3-b3" next="#p3-b4">For how long?</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p3-b4"><emph rend="i">How did we not know
+                     about this?</emph></cbml:balloon>
+               <note type="panelDesc">The Administrator's eye twitches as she hears about the
+                  news.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Administrator Pauling Soldier Demoman">
+               <cbml:balloon type="speech" who="Pauling">Within the last six months,
+                  Administrator.</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">As far as we can tell, they met at a
+                  projectile weapons expo.</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">It, uh... Seems to have blossomed into a
+                  lifelong friendship.</cbml:balloon>
+               <note type="panelDesc">The Administrator inspects the images of BLU Soldier and RED
+                  Demoman. In order, the pictures feature: Soldier and Demoman visiting Las Vegas,
+                  Soldier and Demoman visiting a large gravel pit, Soldier and Demoman at a
+                  basketball game, Soldier and Demoman visiting an eye museum, and Soldier and
+                  Demoman out on a boat, fishing.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="4">
+            <note type="pageDesc">The Administrator and Miss Pauling discuss what to do.</note>
+
+            <cbml:panel n="1" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">Heh. You know, forgetting for a minute that
+                  we don't condone friendship, it's sort of...</cbml:balloon>
+               <note type="panelDesc">Miss Pauling smiles. The Administrator seethes in rage.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p4-b1" next="#p4-b2">Almost...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p4-b2">Uh...</cbml:balloon>
+               <note type="panelDesc">Miss Pauling frowns. The Administrator glances at her.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Pauling">Reprehensible. Totally and completely
+                  reprehensible.</cbml:balloon>
+               <note type="panelDesc">The Administrator thinks for a moment.</note>
+            </cbml:panel>
+
+            <cbml:panel n="4" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b3" next="#p4-b4">We are in agreement, Miss
+                  Pauling.</cbml:balloon>
+               <note type="panelDesc">The Administrator speaks, cigarette in hand.</note>
+            </cbml:panel>
+            <!--The text wraps between these two panels, technically originating from panel 4 but clearly creating an effect combining the two.-->
+            <cbml:panel n="5" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b4" next="#p4-b5">This friendship is a <emph rend="b"
+                     >profound</emph> betrayal of our trust.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b5" next="#p4-b6">Why, friends could
+                  easily...</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b6" next="#p4-b7">Could...</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b7"><emph rend="b"
+                  >Hm.</emph></cbml:balloon>
+               <note type="panelDesc">A close up of The Administrator's face.</note>
+            </cbml:panel>
+
+            <cbml:panel n="6" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b8" next="#p4-b9">Miss Pauling, you strike me as the
+                  sort of person who would have <emph rend="i">friends.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b9" next="#p4-b10">Tell me...</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b10">What do they <emph rend="b"
+                     >do?</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p4-b11" next="#p4-b12">Um. Go skating...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p4-b12" next="#p4-b13">Look at gun catalogs...</cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p4-b13">Sometimes we just talk...</cbml:balloon>
+               <note type="panelDesc">The Administrator looks at her screens as her and Miss Pauling
+                  speak.</note>
+            </cbml:panel>
+
+            <cbml:panel n="7" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b14" next="#p4-b15"><emph rend="b">Talking?</emph>
+                  Friendship is even worse than I thought.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b15" next="#p4-b16">No, this won't do at
+                  all.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b16" next="#p4-b17">If they talk, Miss Pauling, they
+                  might talk about work.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p4-b17">And if they talk about
+                  work...</cbml:balloon>
+               <note type="panelDesc">The Administrator blows a puff of smoke as she
+                  monologues.</note>
+            </cbml:panel>
+
+            <cbml:panel n="8" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">They might talk about <emph rend="b"
+                     >us.</emph></cbml:balloon>
+               <note type="panelDesc">Close up of The Administrator's face.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="5">
+            <note type="pageDesc">In a smoke filled room, The Administrator and Miss Pauling finish
+               their chat.</note>
+
+            <cbml:panel n="1" characters="Administrator Pauling">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b1" next="#p5-b2">This is what we will
+                  do.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b2" next="#p5-b3">Call Mister Hale.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b3" next="#p5-b4">Tell him that we have some custom
+                  orders for him.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b4" next="#p5-b5">Tell him money is no
+                  object.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b5">And tell him we need them <emph
+                     rend="b">right now.</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling">Yes, ma'am. Anything else?</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b6" next="#p5-b7">Open channels to our two new best
+                  friends.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b7" next="#p5-b8">I have a proposition for each of
+                  them.</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p5-b8">In my experience, Miss Pauling,
+                  nothing kills a friendship faster...</cbml:balloon>
+               <note type="panelDesc">Sitting in front of her console, The Administrator lays our
+                  her plan to Miss Pauling.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Administrator Pauling Soldier Demoman">
+               <cbml:balloon type="speech" who="Administrator">...than a <emph rend="b">healthy
+                     competition.</emph></cbml:balloon>
+               <note type="panelDesc">The Administrator looks at pictures of the BLU Soldier and RED
+                  Demoman pulled up on monitors. They are screenshots from the game, and not drawn
+                  by hand.</note>
+            </cbml:panel>
+         </div>
+
+         <!-- This is Kaa! I coded my portion on a separate document, inserting the comics here: -->
+         <div type="page" n="6">
+            <cbml:panel n="1" characters="Jerry">
+               <cbml:balloon type="speech" who="Jerry"> Sir, you shouldn't jump yet! We're too
+                  low!It's not <emph rend="b">safe!</emph>
+               </cbml:balloon>
+               <note type="panelDesc"> A plane flies above with a blue sky in the background.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="Jerry Hale">
+               <cbml:balloon type="speech" who="Hale"> I know the risks Jerry! But I've got <emph
+                     rend="b">damn good men down</emph> there who need me! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Tell <emph rend="b">them</emph> It's not safe
+                  enough! </cbml:balloon>
+               <note type="panelDesc"> Saxton Hale prepares to jump out of the plane; holding a bag
+                  over his shoulder while Jerry sits in the foreground, flying the plane. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="Jerry Hale">
+               <cbml:balloon type="speech" who="Jerry" xml:id = "p6-b1" next ="p6-b2"> But Sir, I can <emph rend="b">climb</emph>
+                  to a safe altitude. </cbml:balloon>
+                  <cbml:balloon type="speech" who = "Jerry" xml:id="p06b02">It will literally take seconds, if you'll
+                  just-</cbml:balloon>
+               <note type="panelDesc"> Jerry sits in the cockpit, facing away as he flys the plane.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="Hale">
+               <cbml:balloon type="speech" who="Hale" xml:id = "p6-b3" next = "p6-b4"> Tell those <emph rend="b">men down
+                     there</emph> you can "climb to a safe altitude"! </cbml:balloon>
+                 <cbml:balloon type="speech" who = "Hale" xml:id="p6-b4"> Me, I'd rather get down
+                  there and tell them myself... </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> with <emph rend="b">my bare hands!</emph>
+               </cbml:balloon>
+               <note type="panelDesc"> Saxton Hale speaks in front of a red background, with an
+                  aggressive look on his face. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="Jerry Hale">
+               <cbml:balloon type="speech" who="Jerry"> At least take the backup parachute! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale">
+                  <emph rend="b">There's probably no time!</emph>
+               </cbml:balloon>
+               <floatingText rend="red block lettering">
+                  <body>
+                     <l>BRAVE JUMP!</l>
+                  </body>
+               </floatingText>
+               <note type="panelDesc"> Hale jumps out of the plane, with the same blue sky in the
+                  background. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" n="7">
+            <cbml:panel n="1">
+               <cbml:caption rend="yellow text box"> Reader, if you thought the <emph rend="b">first
+                     two pages</emph> of my comic contained too much bare-knuckle excitement, then
+                  get ready to have your <emph rend="b">eyes break</emph> from widening in surprise
+                  and your comic-holding hands <emph rend="b">fall off your very arms</emph> when
+                  you get a look at the rest of this action-packed ish, starring me... </cbml:caption>
+               <cbml:balloon type="speech" who="Hale" rend="red bubble letters"> SAXTON HAAAALE! </cbml:balloon>
+               <cbml:caption rend="yellow text box"> If this sensational issue doesn't stop your
+                  adrenaline-gorged heart for <emph rend="b">five entire seconds</emph>, I will send
+                  you a notarized cerificate confirming <emph rend="b">you do not exist!</emph>
+               </cbml:caption>
+               <cbml:caption rend="yellow text box"> How am I so sure? I have <emph rend="b"
+                     >self-confidence!</emph> Also, just three pages from now, I will beat up a
+                     <emph rend="b">parking lot full of hippies.</emph> I certainly wouldn't blame
+                  you if you skip ahead! I am! For the rest of you, read on as I... </cbml:caption>
+               <note type="panelDesc"> Saxton Hale flies down through the air, with the plane flying
+                  away in the background. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" n="8">
+            <cbml:caption rend="yellow text box"> ...barrel roll directing into my office at Mann
+               Co. Headquarters! </cbml:caption>
+            <cbml:panel n="1" characters="Hale">
+               <cbml:balloon type="speech" who="Hale" xml:id = "p8-b1" next = "p8-b2"> Mr. Bidwell! How did my landing compare to
+                  yesterday's? </cbml:balloon>
+                  <cbml:balloon type = "speech" who = "Hale" xml:id = "p8-b2">Be frank with me now. I'm made of stern stuff.</cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Hup hup! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Hahrup! </cbml:balloon>
+               <floatingText rend="pink block letters">
+                  <body>
+                     <l> FLAWLESS ROLL! </l>
+                  </body>
+               </floatingText>
+               <note type="panelDesc"> Saxton Hale crashes through the wall of Mann Co.
+                  Headquarters, while performing a barrel roll. A distant shot of him dropping in
+                  from the plane with a parachute is displayed underneath the rest of the panels.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="Bidwell Reddy">
+               <cbml:balloon type="speech" who="Bidwell" xml:id="p8-b3" next = "p8-b4"> Tears were brought to the eyes, Sir.</cbml:balloon> 
+               <cbml:balloon type="speech" who = "Bidwell" xml:id="p8-b4"> Your breakfast steak. </cbml:balloon>
+               <note type="panelDesc"> Mr. Bidwell and Mr. Reddy greet Saxton Hale in the kitchen,
+                  holdng a plate of steak and a clipboard. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Hale" xml:id="p8-b5" next = "p8-b6"> It's the most important steak of the day,
+                  Bidwell. </cbml:balloon>                  
+                  <cbml:balloon type="speech" who = "Hale" xml:id="p8-b6">Mr. Reddy! How's accounts? </cbml:balloon>
+               <cbml:balloon type="speech" who="Reddy"> You're now the sixth richest man in America,
+                  Mr. Hale. </cbml:balloon>
+               <floatingText rend="black block letters">
+                  <body>
+                     <l> NOM NOM NOM </l>
+                  </body>
+               </floatingText>
+            </cbml:panel>
+            <note type="panelDesc"> Saxton Hale rips a chunk of steak off and eats it, as Mr. Reddy
+               reads to him off of a clipboard. </note>
+            <cbml:panel n="4" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Hale" xml:id="p8-b7" next = "p8-b8"> Top drawer! Send the other five a
+                  congratualtory bouquet and my "You're a dead man" form letter. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p8-b8"> What's next?</cbml:balloon>
+               <note type="panelDesc"> Saxton Hale stands in front of a bear statue, pointing up to
+                  the sky as Mr. Reddy stands behind him. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" n="9">
+            <cbml:panel n="1" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Reddy" xml:id="p9-b1" next = "p9-b3"> There's a group of hippies protesting the
+                  parking lot again... </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p9-b2" next = "p9-b4"> The <emph rend="b">scoundrels!</emph> What
+                  have they got their smelly ponytails in a twist about <emph rend="b">this</emph> time? </cbml:balloon>
+               <cbml:balloon type="speech" who="Reddy" xml:id="p9-b3"> Guns, Sir. They're against them. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p9-b4"> Fine. I'll beat them to death with <emph rend="b">my bare hands!</emph>
+               </cbml:balloon>
+               <note type="panelDesc"> The two men walk through through a large building, towards
+                  the mentioned parking lot. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="Hale Reddy">
+               <cbml:balloon type="speech" who="Reddy"> TF Industries is holding on line one, Sir. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> What? Why didn't you <emph rend="b"
+                     >say</emph> so, man! Don't leave <emph rend="b">Helen</emph> on hold! </cbml:balloon>
+               <note type="panelDesc"> Mr. Reddy stands behind Saxton, holding a large brick phone
+                  in hand. Saxton looks back with frustration. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="Hale Pauling">
+               <cbml:balloon type="speech" who="Hale" xml:id="p9-b5" next = "p9-b6"> Helennnn! You chain-smoking seductress! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p9-b6"> Do you still like steak dinners and sex with handsome men? </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling"> Mister Hale, this is Miss Pauling. I <emph
+                     rend="b">work</emph> for Miss... </cbml:balloon>
+            </cbml:panel>
+            <note type="panelDesc"> Saxton Hale speaks into the phone with a confident look on his
+               face. </note>
+            <cbml:panel n="5" characters="Hale">
+               <cbml:balloon type="speech"> Excellent! My offer still stands! What can I do for you,
+                  Miss Pauling? </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p9-b7" next = "p9-b8"> We need to resolve a, uh... </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p9-b8" next = "p9-b9"> <emph rend="b">Personnel problem.</emph> </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p9-b9"> We were hoping you could provide the incentivies. </cbml:balloon>
+               <floatingText rend="red block lettering">
+                  <body>
+                     <l> OPEN! </l>
+                  </body>
+               </floatingText>
+               <note type="panelDesc"> Saxton walks pushes open a door and walks into a room full of
+                  darkness. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" n="10">
+            <cbml:panel n="1" characters="Hale">
+               <cbml:balloon type="speech" who="Hale" xml:id="p10-b1" next = "p10-b2"> It just so happens my boys in R and D sent up
+                  a few crates of <emph rend="b">highly experimental new ordinance</emph> they
+                  wanted me to take for a text drive. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p10-b2"> Why don't I send those over? Hold on,
+                  Bidwell's gesturing frantically to me about something... </cbml:balloon>
+               <note type="panelDesc"> Saxton Hale speaks menacingly into the phone while looking
+                  away. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="Bidwell Hale">
+               <cbml:balloon type="speech" who="Bidwell">
+                  <emph rend="b">Sir,</emph> those were the weapons you asked us to send up so you
+                  could <emph rend="b"> destroy</emph>them before the senate investigation. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> I have no idea what you're-- Ooo, right. That
+                  poor monkey. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Well, nevermind that. Helping Helen out's
+                  more important.</cbml:balloon>
+               <note type="panelDesc"> Mr. Bidwell stands with a finger pointed to his lip. Saxton
+                  holds the phone next to him. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="Hale">
+               <cbml:balloon type="speech" who="Hale"> Also getting someone else's fingerprints on
+                  these things as soon as possible. I won't lie to you Bidwell, we are in a <emph
+                     rend="b">lot</emph> of trouble here. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Miss Pauling, still there? </cbml:balloon>
+               <note type="panelDesc"> Saxton speaks into the phone with a serious expression in a
+                  black background. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="Pauling Hale">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p10-b3" next = "p10-b4"> Um... I heard <emph rend="b"
+                     >everything</emph> you said, Mister Hale. </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale"> Fannnntastic. And? </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p10-b4"> We'll take them. </cbml:balloon>
+               <note type="panelDesc"> Miss Pauling sits in her office, speaking on the phone to
+                  Saxton on the other end. </note>
+            </cbml:panel>
+            <cbml:panel n="6" characters="Reddy Hale">
+               <cbml:balloon type="speech" who="Hale" xml:id="p10-b5" next = "p10-b6"> Problem solved! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p10-b6" next = "p10-b7"> Mr. Reddy! We're going to need some ambulances! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p10-b7" next = "p10-b8"> Mr. Bidwell! I need an alibi that puts me anywhere but the
+                  parking lot for the next seven minutes! </cbml:balloon>
+               <cbml:balloon type="speech" who="Hale" xml:id="p10-b8"> Let's go kill some hippies! </cbml:balloon>
+               <note type="panelDesc">Saxton speaks out of frame as he throws the phone to Mr.
+                  Reddy. Mr. Reddy stands in frame ready to catch the phone. </note>
+            </cbml:panel>
+         </div>
+
+         <!--Back to Lily, hi-->
+         <div type="page" n="11">
+            <note type="pageDesc">Demoman and his mother discuss his laziness at only holding three
+               jobs.</note>
+
+            <cbml:panel n="1" characters="Demoman MrsDegroot">
+               <!--Demoman's mother's name is not established in this comic, but it's Mrs. Tilly Degroot.-->
+               <cbml:balloon type="speech" who="Demoman"> For the last <emph rend="b">time,</emph>
+                  Mum. I don't <emph rend="b">have</emph> to go to work. It's me morning off. </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> "Morning off"? Oh, lord help me, you've
+                  been <emph rend="b">fired.</emph> I knew it. </cbml:balloon>
+               <note type="panelDesc">An overview shot of the Degroot's large, beautiful
+                  mansion.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="Demoman MrsDegroot">
+               <cbml:balloon type="speech" who="Demoman">
+                  *Sigh* No, Mum. It's just the one mornin'.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p11-b1" next="#p11-b2">
+                  Oh, well that's <emph rend="b">fine</emph> then, I'm sure.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p11-b2">
+                  <emph rend="b">I</emph> just wish your poor ol' Da could take a morning off. From <emph rend="b">SPINNIN' IN HIS GRAVE AT YOUR IDLENESS!</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman">
+                  I'm holdin' down <emph rend="b">three jobs,</emph> Mum.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p11-b3" next="#p11-b4">
+                  Three jobs! Ha! <emph rend="b">Listen</emph> to him!
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p11-b4">
+                  Tavish, your father, god rest him, had <emph rend="b">twenty-six jobs!</emph> And he <emph rend="b">still</emph> found the time to teach you the family trade!
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman">
+                  I made five million dollars last year, Mum. We live in a mansion.
+               </cbml:balloon>
+               <note type="panelDesc">Demoman pours some tea for himself while bantering with his mother.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="12">
+            <note type="pageDesc">Demoman and his mother have a conversation about family
+               history.</note>
+            <cbml:panel n="1" characters="Demoman MrsDegroot">
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p12-b1" next="#p12-b2">
+                  Aye, and who <emph rend="b">told</emph> you to buy a bloody mansion, I'd like to know.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p12-b2" next="#p12-b3">
+                  These're your prime earning years. You're halfway to retirement already.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot" xml:id="p12-b3">
+                  Mark me, boy: No Demoman worth his sulfur ever had an eye in his head past <emph rend="b">THIRTY!</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman">
+                  Mm-hm. Tea's up, Mum.
+               </cbml:balloon>
+               <note type="panelDesc">Demoman brings his mother the tea.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Demoman MrsDegroot">
+               <cbml:balloon type="speech" who="MrsDegroot"> It wasn't <emph rend="b">easy</emph>
+                  bringing you Scottish, lad. </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> Lean years. In those days you could
+                  bomb mercs <emph rend="b">all day</emph> and still not have enough for a loaf of
+                  bread. </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> Yer Da walked fifteen miles in the rain
+                  to blow up the Queen of England for a <emph rend="b">nickel!</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman"> I'll get more jobs, Mum. I promise. </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> I just hate to see you squandering your
+                  gifts. </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman"> I know, Mum. </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> I miss him, Tavish. Every day. </cbml:balloon>
+               <note type="panelDesc">Demoman and his mother reminisce about Mr. Degroot.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Demoman MrsDegroot">
+               <cbml:balloon type="speech" who="Demoman"> I know, Mum. </cbml:balloon>
+               <floatingText>
+                  <body>
+                     <p>KNOCK KNOCK</p>
+                  </body>
+               </floatingText>
+               <cbml:balloon type="speech" who="Demoman" xml:id="p12-b4" next="#p12-b5">
+                  Bloody hell, me one mornin' off...
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman" xml:id="p12-b5">
+                  Drink your tea, Mum. I'll be right back.
+               </cbml:balloon>
+               <note type="panelDesc">A knock at the door interrupts their reminiscing.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="13">
+            <note type="pageDesc">Miss Pauling meets with Demoman, and offers him something worth
+               destroying a friendship.</note>
+            <cbml:panel n="1" characters="Demoman Pauling MrsDegroot">
+               <cbml:balloon type="speech" who="Pauling"> Mister Degroot? </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> Tavish? Who is it? </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman"> Someone from work, Mum! </cbml:balloon>
+               <cbml:balloon type="speech" who="MrsDegroot"> Ask him has he got any more jobs! </cbml:balloon>
+               <note type="panelDesc">Miss Pauling is at the door.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Demoman"> Here, <emph rend="b">I</emph> know you.
+                  You're that wee lass, who works with the angry lady who's always screamin' at us
+                  while we fight. </cbml:balloon>
+               <note type="panelDesc">Demoman points at Miss Pauling.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Pauling"> She's not so bad once you get to know her. </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman"> Really, and what's she want, then? </cbml:balloon>
+               <note type="panelDesc">Demoman leans against the wall.</note>
+            </cbml:panel>
+
+            <cbml:panel n="4" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Pauling"> She'd like you to kill your best friend. </cbml:balloon>
+               <floatingText type="diagetic">
+                  <body>
+                     <p> THE EYELANDER </p>
+                  </body>
+               </floatingText>
+               <cbml:balloon type="speech" who="Pauling"> In exchange, we'll give you <emph rend="b"
+                     >this.</emph>
+               </cbml:balloon>
+            </cbml:panel>
+
+            <cbml:panel n="5" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Demoman" xml:id="p13-b1" next="#p13-b2">
+                  Are ye seriously asking me to betray me best mate for a <emph rend="b">weapon?</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman" xml:id="p13-b2">
+                  <emph rend="b">HA!</emph> I've got a <emph rend="i">little</emph> more integrity than that, Lass. I...
+               </cbml:balloon>
+            </cbml:panel>
+
+            <cbml:panel n="6" characters="Demoman">
+               <cbml:balloon type="speech" who="Demoman" xml:id="p13-b3" next="#p13-b4">
+                  I...
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman" xml:id="p13-b4" next="#p13-b5">
+                  Oh my.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman" xml:id="p13-b5">
+                  What's <emph rend="b">your</emph> name, you dirty girl?
+               </cbml:balloon>
+               <note type="panelDesc">Demoman looks in awe at the box, face lit up by its contents.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="14">
+            <note type="pageDesc">Demoman uses the Eyelander.</note>
+            <cbml:panel n="1" characters="Pauling Eyelander">
+               <cbml:balloon type="speech" who="Pauling"> This... is the Eyelander. </cbml:balloon>
+               <cbml:balloon type="sound">SHING!</cbml:balloon>
+               <note type="panelDesc">Miss Pauling holds the Eyelander over her.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Demoman Eyelander">
+               <note type="panelDesc">Demoman now holds the Eyelander triumphantly straight
+                  up.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Demoman Eyelander Pauling">
+               <cbml:balloon type="speech" who="Pauling"> Pattern-welded Damascus steel. </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling"> Harmonically balanced. </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling"> Slow-forged for <emph rend="b"
+                     >generations</emph> in the bowels of captured English kings. </cbml:balloon>
+               <cbml:balloon type="speech" rend="green spiked" who="Eyelander"> ...headddds... </cbml:balloon>
+               <note type="panelDesc">Demoman clutches the Eyelander in awe.</note>
+            </cbml:panel>
+
+            <cbml:panel n="4" characters="Demoman Eyelander Pauling">
+               <cbml:balloon type="speech" rend="green spiked" who="Eyelander">
+                  headheadheadheadheadheadheadhead </cbml:balloon>
+               <note type="panelDesc">Demoman runs with the Eyelander, eyeing up a nearby
+                  statue.</note>
+            </cbml:panel>
+
+            <cbml:panel n="5" characters="Demoman Eyelander">
+               <cbml:balloon type="speech" who="Demoman">
+                  <emph rend="red outlined large">RRRAGHHH!</emph>
+               </cbml:balloon>
+               <cbml:balloon type="sound">WHOCK!</cbml:balloon>
+               <note type="panelDesc">Demoman chops off the head of the statue.</note>
+            </cbml:panel>
+
+            <cbml:panel n="6" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p14-b1" next="#p14-b2">
+                  Um.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p14-b2">
+                  And it's <emph rend="b">haunted.</emph>
+               </cbml:balloon>
+               <note type="panelDesc">Demoman smiled and clutches the sliced head. Miss Pauling
+                  watches.</note>
+            </cbml:panel>
+         </div>
+
+         <div type="page" n="15">
+            <note type="pageDesc">Pauling tempts Demoman with further weaponry and some bad news
+               about his friend.</note>
+            <cbml:panel n="1" characters="Demoman">
+               <cbml:balloon type="speech" who="Demoman" xml:id="p15-b1" next="#p15-b2">
+                  <emph rend="b">Blast</emph> ye, woman. Making a man choose between his best friend and a sword.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman" xml:id="p15-b2">
+                  Ach. No. No, I couldn't. Soldier's me best mate.
+               </cbml:balloon>
+               <note type="panelDesc">A distraught Demoman.</note>
+            </cbml:panel>
+
+            <cbml:panel n="2" characters="Demoman Eyelander Pauling">
+               <cbml:balloon type="speech" who="Pauling"> Tell you what. Why don't I leave them
+                  here, and you can think about it. </cbml:balloon>
+               <cbml:balloon type="speech" who="Demoman"> "Them"? </cbml:balloon>
+               <note type="panelDesc">Demoman stares at Miss Pauling in disbelief.</note>
+            </cbml:panel>
+
+            <cbml:panel n="3" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Pauling"> I should get going. </cbml:balloon>
+               <floatingText type="diagetic">
+                  <body>
+                     <p>
+                        <l>Mann Co.</l>
+                        <l>Chargin' Targe Mann Co.</l>
+                        <l>Scottish Resistance Mann Co.</l>
+                     </p>
+                  </body>
+               </floatingText>
+               <note type="panelDesc">Miss Pauling walks away, revealing three giant boxes
+                  containing other weapons for Demoman.</note>
+            </cbml:panel>
+
+            <cbml:panel n="4" characters="Pauling">
+               <cbml:balloon type="speech" who="Pauling" xml:id="p15-b3" next="#p15-b4">
+                  Oh, and Mister Degroot?
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling" xml:id="p15-b4">
+                  Your <emph rend="b">friend's</emph> employers made <emph rend="b">him</emph> the same offer.
+               </cbml:balloon>
+               <note type="panelDesc">Miss Pauling glances behind, smirking.</note>
+            </cbml:panel>
+
+            <cbml:panel n="5" characters="Demoman Pauling">
+               <cbml:balloon type="speech" who="Pauling"> He said <emph rend="b">yes,</emph> Mister
+                  Degroot. </cbml:balloon>
+               <cbml:balloon type="speech" who="Pauling"> Enjoy your morning off. </cbml:balloon>
+               <note type="panelDesc">Miss Pauling waves and continues to walk away. Demoman
+                  clutches the Eyelander and stares.</note>
+            </cbml:panel>
+         </div>         
+         <div type="page" n="16">
+            <note type="pageDesc">In a black and white styled apartment, a hired hand attempts to visit one Mister Jane Doe.</note>
+            <cbml:panel n="1" characters="HiredHand">
+               <cbml:balloon type="speech" who="HiredHand">
+                  This is the place.
+               </cbml:balloon>
+               <note type="panelDesc">The hired hand shuffles through a dark apartment building.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2">
+               <floatingText type="diagetic">
+                  <body>
+                     <p>
+                        MISTER JANE DOE
+                     </p>
+                     <p>
+                        NO SOLICITORS! DO NOT TEST ME
+                     </p>
+                  </body>
+               </floatingText>
+               <note type="panelDesc">Notes on "Mister Jane Doe's" door.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="HiredHand Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Hht. For the money we paid you to find it, it had better be.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  You're wasting my time. Go knock.
+               </cbml:balloon>
+               <note type="panelDesc">The hired hand reaches Soldier's door. Bullet holes and two large circular flaps are visible.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4">
+               <cbml:balloon type="sound">KNOCK KNOCK</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Good.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Now duck.
+               </cbml:balloon>
+               <note type="panelDesc">The hired hand knocks on the door.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="17">
+            <note type="pageDesc">Soldier tries and fails to kill the hired hand.</note>
+            <cbml:panel n="1" characters="HiredHand Soldier">
+               <cbml:balloon type="sound"><emph rend="large orange red outlined">CH-CHOOM CH-CHOOM</emph></cbml:balloon>
+               <note type="panelDesc">Two shotgun blasts shoot through the door, lighting up the room.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="HiredHand Soldier">
+               <cbml:balloon type="speech" who="Soldier" xml:id="p17-b1" next="#p17-b2">
+                  Who is it?
+                  <note type="balloonDesc">Music notes surround this balloon.</note>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p17-b2">
+                  Say, friend! Why don't you move a little closer to the door?
+               </cbml:balloon>
+               <note type="panelDesc">Soldier attempts to bring the intruder close to the door.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="HiredHand Soldier">
+               <cbml:balloon type="speech" who="Soldier">
+                  Thaaat's it. Don't be scared. I just want to-
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier">
+                  <emph rend="large red outlined">HUTTAH, NECK SNAP!</emph>
+               </cbml:balloon>
+               <cbml:balloon type="sound">TOK TOK</cbml:balloon>
+               <note type="panelDesc">Soldier attempts to snap the intruder's neck, but fails due to the Hired Hand stepping back.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="HiredHand Soldier">
+               <note type="panelDesc">After a beat, the Hired Hand glances to his watch as Soldier clutches his hands in rage.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="5">
+               <cbml:balloon type="speech" who="Soldier">
+                  Alright, you can come in.
+               </cbml:balloon>
+               <note type="panelDesc">Soldier holds his hands down in defeat.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6">
+               <cbml:balloon type="sound">
+                  <l>UNLOCK</l>
+                  <l><emph rend="small">UNLOCK</emph></l>
+                  <l>UNLOCK</l>
+                  <l>UNLOCK</l>
+                  <l><emph rend="large">UNLOCK</emph></l>
+                  <l>UNLOCK</l>
+                  <l>UNLOCK</l>
+               </cbml:balloon>
+               <note type="panelDesc">Soldier unlocks the numerious locks on his door.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="18">
+            <note type="pageDesc">Soldier points a shotgun at the Hired Hand in his barracaded apartment.</note>
+            <cbml:panel n="1" characters="HiredHand Soldier">
+               <cbml:balloon type="speech" who="Soldier">
+                  Unless you're the <emph rend="b">tomato soup wholesaler</emph> or a <emph rend="b">new delivery man</emph> from the rib place...
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier">
+                  ...You have just entered a <emph rend="b">doorway of hurt</emph> into an <emph rend="b">apartment of pain</emph>, son.
+               </cbml:balloon>
+               <floatingText>
+                  <body>
+                     <l>CAPTAIN DAN'S ARMY SURPLUS SOUP</l>
+                     <l>THE RIB PLACE</l>
+                     <l>GUNS AND HAIRCUTS MAGAZINE</l>
+                  </body>
+               </floatingText>
+               <note type="panelDesc">Soldier's apartment appears to be in disarray, with open cans of army ration soup and open boxes of buckshot strewn about.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="19">
+            <note type="pageDesc">The Hired Hand reveals a television featuring the Administrator. She and Soldier have a tense chat.</note>
+            <cbml:panel n="1" characters="HiredHand Soldier">
+               <cbml:balloon type="sound"><emph rend="large outlined">FLASH!</emph></cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier">
+                  Good lord no!
+               </cbml:balloon>
+               <note type="panelDesc">The Hired Hand opens up his trenchcoat, revealing... something glowing.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="HiredHand Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Tell me, Mister Doe...
+               </cbml:balloon>
+               <cbml:balloon type="sound">CLK</cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Do you know what a <emph rend="b">conflict of interest</emph> is?
+               </cbml:balloon>
+               <note type="panelDesc">The Hired Hand shows a TV strapped to his chest, featuring The Administrator</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Soldier Administrator">
+               <cbml:balloon type="speech" who="Soldier">
+                  Can I guess?
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  No.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p19-b1" next="#p19-b2">
+                  You don't own me! You just try and <emph rend="b">stop</emph> me, lady.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p19-b2" next="#p19-b3">
+                  It is a form of combat!
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  No.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p19-b3">
+                  A breed of dog!
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  I'm afraid not.
+               </cbml:balloon>
+               <note type="panelDesc">Soldier peers over his table, shotgun aimed at the TV screen.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="HiredHand Soldier">
+               <cbml:balloon type="speech" who="Soldier">
+                  It is knowing what words mean! <emph rend="b">These are guesses!</emph>
+               </cbml:balloon>
+               <note type="panelDesc">Soldier continues to aim at the TV as the Hired Hand stands over him.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="5" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Mr. Doe. You have befriended a man we are <emph rend="b">paying you to kill.</emph>
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator smokes from her cigarette, as viewed through a grainy black and white screen.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6" characters="Soldier Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  As such, you have two options. <emph rend="b">One:</emph> my associates will drive you to the nearest gravel pit...
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p19-b4" next="#p19-b5">
+                  <emph rend="b">OO!</emph> That one.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  -Where they will <emph rend="b">kill</emph> you for your gross insubordination.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p19-b5">
+                  Wait. Let me hear both choices first.
+               </cbml:balloon>
+               <note type="panelDesc">Soldier takes cover behind the table, negotiating with The Administrator.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="7" characters="Demoman Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Option two...
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  You kill <emph rend="b">this</emph> man. And we supply you with the <emph rend="b">custom-built weapons</emph> you'll need to get the job done.
+               </cbml:balloon>
+               <note type="panelDesc">A close up on the grainy TV, now showing Demoman's face with a sideways glare.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="20">
+            <note type="pageDesc">Soldier attempts to argue with clearly faked videos of Demoman insulting him.</note>
+            <cbml:panel n="1" characters="Soldier">
+               <cbml:balloon type="speech" who="Soldier">
+                  Then I guess you'd better take me to the gravel pit and <emph rend="b">shoot</emph> me, lady.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier">
+                  'Cause if you ever ask me to kill my friend again, I will put my <emph rend="b">boot so far up your ass</emph> it will be on the <emph rend="b">news.</emph>
+               </cbml:balloon>
+               <note type="panelDesc">Soldier throws the table in a fit of rage, getting right up to the Administrator's monitor.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Soldier HiredHand Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  That's not the option <emph rend="b">he</emph> took from <emph rend="b">his</emph> employers.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier">
+                  He agreed to kill me for weapons? <emph rend="b">HA!</emph> I don't buy it, sister.
+               </cbml:balloon>
+               <note type="panelDesc">Soldier gets up to the TV, pointing at it directly. The Hired Hand continues to hold his coat open.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Demoman Administrator">
+               <cbml:balloon type="speech" who="Administrator">
+                  Listen for yourself.
+               </cbml:balloon>
+               <cbml:balloon type="audio" who="Demoman">
+                  <note type="balloonDesc">Unlike a normal speech bubble, this is formatted closer to the sound effects made throughout the comic.</note>
+                  *BZZT* I-WILL-KILL-THE-SOLDIER. *BZZT*
+               </cbml:balloon>
+               <note type="panelDesc">A smiling Demoman from the TV.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="4" characters="Soldier">
+               <note type="panelDesc">Soldier seems shocked hearing this.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="5" characters="Demoman">
+               <cbml:balloon type="audio" who="Demoman">
+                  <note type="balloonDesc">Unlike a normal speech bubble, this is formatted closer to the sound effects made throughout the comic.</note>
+                  *BZZT* HE-IS-A-BAD-FRIEND. *BZZT*
+               </cbml:balloon>
+               <note type="panelDesc">A smiling Demoman from the TV. Same as on panel 3.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="6" characters="Soldier">
+               <cbml:balloon type="speech" who="Soldier" xml:id="p20-b1" next="#p20-b2">
+                  Ahhhh, but dammit- it doesn't matter <emph rend="b">what</emph> he said in that weird robot voice I've never heard him talk in before.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p20-b2" next="#p20-b3">
+                  Once you've taken a man out for whiskey and ribs... Then <emph rend="b">fought</emph> him... Then fought the <emph rend="b">police</emph> with him...
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p20-b3" next="#p20-b4">
+                  Well, you have forged a bond thicker than any soup you can buy.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p20-b4" next="#p20-b5">
+                  That's not girl talk, either.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p20-b5">
+                  That is just <emph rend="b">facts.</emph>
+               </cbml:balloon>
+               <note type="panelDesc">Soldier monologues, surrounded by cardboard boxes.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="7" characters="Administrator">
+               <cbml:balloon type="speech" who="Soldier">
+                  <emph rend="b">No deal,</emph> pumpkin. Find yourself another patsy. 
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator puts her face in her hands, cigarette smoke billowing out beneath them.</note>
+            </cbml:panel>
+         </div>
+         
+         <div type="page" n="21">
+            <note type="pageDesc">A sudden revelation enrages Soldier.</note>
+            
+            <cbml:panel n="1" characters="Soldier Demoman">
+               <cbml:balloon type="audio" who="Demoman">
+                  <note type="balloonDesc">Unlike a normal speech bubble, this is formatted closer to the sound effects made throughout the comic.</note>
+                  *BZZT* HE-IS-NOT-A-REAL-SOLDIER. *BZZT*
+               </cbml:balloon>
+               <cbml:balloon type="audio" who="Demoman">
+                  <note type="balloonDesc">Unlike a normal speech bubble, this is formatted closer to the sound effects made throughout the comic.</note>
+                  *BZZT* HE-WAS-NOT-EVEN-IN-THE-ARMY. *BZZT*
+               </cbml:balloon>
+               <cbml:balloon type="audio" who="Demoman">
+                  <note type="balloonDesc">Unlike a normal speech bubble, this is formatted closer to the sound effects made throughout the comic.</note>
+                  *BZZT* HE-IS-A-FRAUD. *BZZT*
+               </cbml:balloon>
+               <cbml:balloon type="audio" who="Demoman">
+                  <note type="balloonDesc">Unlike a normal speech bubble, this is formatted closer to the sound effects made throughout the comic.</note>
+                  <emph rend="large">*BZZT* HE-IS-A-CIVILIAN. *BZZT*</emph>
+               </cbml:balloon>
+               
+               <cbml:balloon type="speech" who="Soldier" xml:id="p21-b1" next="#p21-b2">
+                  <emph rend="small">Civ... Civilian?</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p21-b2">
+                  <emph rend="small">He promised he'd never...</emph>
+               </cbml:balloon>
+               
+               <note type="panelDesc">Soldier recoils in horror at hearing Demoman's entirely fabricated words.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="2" characters="Soldier">
+               <cbml:balloon type="speech" who="Soldier" xml:id="p21-b3" next="#p21-b4">
+                  How <emph rend="b">dare</emph> he? I earned every <emph rend="b">one</emph> of those medals I made! I did <emph rend="b">three</emph> goddamn tours of duty overseas, and I wasn't even <emph rend="b">asked!</emph> I <emph rend="b">paid</emph> my dues! <emph rend="b">And</emph> my plane ticket over!
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p21-b4" next="#p21-b5">
+                  <emph rend="b">I...</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p21-b5" next="#p21-b6">
+                  <emph rend="b">He...</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Soldier" xml:id="p21-b6">
+                  <emph rend="b large">He is a dead man!</emph>
+               </cbml:balloon>
+               <note type="panelDesc">A furious soldier rants at the percieved insults of Demoman.</note>
+            </cbml:panel>
+            
+            <cbml:panel n="3" characters="Administrator">
+               <cbml:balloon type="speech" who="Administrator" xml:id="p21-b7" next="#p21-b8">
+                  I believe we have a deal, Mr. Doe.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p21-b8" next="#p21-b9">
+                  There will be a new weapon waiting for you every day until the job is done.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p21-b9" next="#p21-b10">
+                  The first weapon we'll be sending you is a <emph rend="b">precision instrument.</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p21-b10" next="#p21-b11">
+                  If you were blasting around randomly, it would be useless to you.
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator" xml:id="p21-b11">
+                  However, I think you'll find it useful for sharp-shooting... <emph rend="b">specific enemies.</emph>
+               </cbml:balloon>
+               <cbml:balloon type="speech" who="Administrator">
+                  Pauling, kill the feed, please.
+               </cbml:balloon>
+               <note type="panelDesc">The Administrator sits smugly, holding the weapon (the Direct Hit) in her hands.</note>
+            </cbml:panel>
+         </div>
+      </body>
+   </text>
+</TEI>

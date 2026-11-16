@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/cbml.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Visual History</title>
+                <author>Valve Corporation</author>
+                <author>Michael Oeming</author>
+                <!--Was unable to find who specifically wrote this comic. Oeming was the artist, unsure if there's a tag specifically showing that.-->
+            </titleStmt>
+            <publicationStmt>
+                <p>By Valve Corporation. Published June 10th, 2010.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital: no previous source exists.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" n="1">
+                <note type="pageDesc"> </note>
+                <cbml:panel n="1" characters="Scout Soldier Heavy">
+                    <cbml:caption type="heading"> Dustbowl. Yesterday. </cbml:caption>
+                    <cbml:balloon type="speech" who="Heavy">
+                        <l>I cannot believe our guns break in middle of battle.<emph rendition="b"
+                                >Again.</emph></l>
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier">
+                        <l>In <emph rendition="b i">America, </emph><emph rendition="i">comrade,
+                            </emph>we do not blame the tool. We blame the <emph rendition="b i"
+                                >man.</emph></l>
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">I blame a <emph rendition="i">Mann
+                        </emph>alright. Mann Co. This stuff is <emph rendition="b i"
+                        >junk!</emph></cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="2" characters="Scout">
+                    <cbml:balloon type="speech" who="Scout">Seriously, <emph rendition="b i">look
+                        </emph>at this! My earpiece melted inside my <emph rendition="b i">skull
+                        </emph> here!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">That's like three times
+                        now!</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="3" characters="Heavy Soldier Scout">
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p1-b1" next="#p1-b2">Ladies, clearly I cannot talk to you
+                        as I wouold with men.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p1-b2">So I will sugarcoat this with your
+                        fancy college talk.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p1-b3" next="#p1-b4">Either we find a just-in-time solution
+                        to resynergize our paradigm, or we will be thinking <emph rendition="b i"
+                            >inside </emph>the box.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p1-b4">Six feet under the
+                        ground.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">Holy crap! Hey, fellas, look at
+                        this!</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="4">
+                    <cbml:balloon type="speech" who="Soldier">Was... was that there
+                        yesterday?</cbml:balloon>
+                    <cbml:balloon type="speech" who="Heavy">Is so <emph rendition="b i"
+                            >white...</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">It looks like some kinda hospital for
+                        fruit.</cbml:balloon>
+                </cbml:panel>
+            </div>
+
+            <div type="page" n="2">
+                <cbml:panel n="1">
+                    <cbml:balloon type="speech" who="Trent"  xml:id="p2-b1" next="#p1-b2"><emph rendition="b i">Hey </emph>there,
+                        guys!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Trent" xml:id="p2-b2">My name's Trent! This is
+                        Jessica!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica">Hi you guys! Let us know if you need
+                        anything, okay?</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="2"/>
+
+                <cbml:panel n="3">
+                    <cbml:balloon type="speech" who="Scout" xml:id="p2-b4" next="#p2-b5"><emph rendition="b i"
+                        >Girl!</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout" xml:id="p2-b5">I got this one, guys.</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="4">
+                    <cbml:balloon type="speech" who="Jessica">Hi! Can I</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout"><emph rendition="i">Guess who was just
+                            in a battle? </emph>Don't bother guessin', 'cause it was me! See this
+                        blood? I got <emph rendition="b i">no </emph>idea whose it is! Not <emph
+                            rendition="b i">mine, </emph>anyway! Yeah-ha! Well, most of it. The
+                        blood comin' out of my head's mine. You got any wireless headsets you could
+                        show me?</cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica">We, uh... have one right
+                        there!</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="5">
+                    <cbml:balloon type="speech" who="Scout" xml:id="p2-b9" next="#p1-b10">Ah.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout" xml:id="p2-b10" next="#p1-b11">You mean this one...</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout" xml:id="p2-b11"><emph rendition="i"
+                        >Here?</emph></cbml:balloon>
+                    <cbml:caption type="audio">Flex</cbml:caption>
+                </cbml:panel>
+                
+                <cbml:panel n="6">
+                    <cbml:balloon type="speech" who="Scout">Nnf</cbml:balloon>
+                    <cbml:balloon type="audio">Admit one gun show</cbml:balloon>
+                </cbml:panel>
+            </div>
+
+            <div type="page" n="3">
+                <cbml:panel n="1">
+                    <cbml:balloon type="speech" who="Jessica" xml:id="p3-b1" next="#p3-b2">I... don't know what's happening right
+                        now.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica" xml:id="p3-b2">Are you flexing?</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">What? <emph rendition="b i">Nngh!
+                        </emph>No.</cbml:balloon>
+                    <cbml:balloon type="thought" who="Scout"><emph rendition="i">Must... flex...
+                            harder.</emph></cbml:balloon>
+                    <cbml:caption subtype="audio">Painful flex</cbml:caption>
+                </cbml:panel>
+
+                <cbml:panel n="2">
+                    <cbml:balloon type="speech" who="Scout" xml:id="p3-b5" next="#p3-b6">I was just... <emph rendition="b i">rrg!
+                        </emph>Casually pointing at this headset.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout">This is my... <emph rendition="b i"
+                            >rngf! </emph>Natural pointing stance.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica">Oh. Okay. Anyway, that's it there. You
+                        found it.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Scout"><emph rendition="b i">Yeah </emph>i
+                        did.</cbml:balloon>
+                    <cbml:balloon type="thought" who="Scout">Heh. Ol' flexy. Never
+                        fails.</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="3">
+                    <cbml:balloon type="speech" who="Trent" xml:id="p3-b10" next="#p3-b12">...and the bullets biodegrade once they
+                        hit flesh, leaving nothing behind but a blog post.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Heavy">Bullet will <emph rendition="b">update
+                        </emph>blog with kill count?</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="4">
+                    <cbml:balloon type="speech" who="Trent" xml:id="p3-b12" next="#p3-b14">In real <emph rendition="i">time,
+                        </emph>sir!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Heavy">I do not have blog.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Trent" xml:id="p3-b14">The bullets are programmed to set one up
+                        for you!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Heavy">I <emph rendition="b i">like </emph>this
+                        gun.</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="5">
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p3-b16" next="#p3-b17"><emph rendition="b i"
+                        >Judases!</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p3-b17" next="#p3-b18">I have used this Mann co. shovel for
+                        thelve years!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p3-b18" next="#p3-b19">It does not blog! It does not
+                        biodegrade! <emph rendition="i">It barely digs holes!</emph></cbml:balloon>
+                    <cbml:caption subtype="audio">Foom!</cbml:caption>
+                </cbml:panel>
+
+                <cbml:panel n="6">
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p3-b19">But it is mine and aggggh it is on
+                        fire!</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="7">
+                    <cbml:balloon type="speech" who="Trent">Uh oh! Let me take care of that for you
+                        sir!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p3-b21" next="#p3-b22">Bah! This shovel bursts into flame so
+                        often my hand is a fireproof mass of scar tissue!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p3-b22">You hippies have nothing that I
+                        need!</cbml:balloon>
+                </cbml:panel>
+            </div>
+
+            <div type="page" n="4">
+                <cbml:panel n="1">
+                    <cbml:balloon type="speech" who="Jessica" xml:id="p4-b1" next="#p4-b3">You'll like this, sir.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier">I will not! Keep pushing me, sister,
+                        and I will plant my carbon footprint so far us your <emph rendition="b i">is
+                            that a pig?</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica" xml:id="p4-b3">Yep! You just plug it into the
+                        firewire port.</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="2">
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p4-b4" next="#p4-b6">Is that pig <emph rendition="b i"
+                            >cooking?</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica">Already cooked! Who wants bacon, ribs,
+                        pork chops and ham?</cbml:balloon>
+                    <cbml:balloon type="speech" who="Soldier" xml:id="p4-b6">Yes, yes, I do, and
+                        yes.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Saxton_Hale"><emph rendition="b i"
+                            >Stop...</emph></cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="3">
+                    <cbml:balloon type="speech" who="Saxton_Hale"><emph rendition="b i">...Right
+                            there!</emph></cbml:balloon>
+                    <cbml:caption subtype="audio">Property damage</cbml:caption>
+                </cbml:panel>
+
+                <cbml:panel n="4">
+                    <cbml:balloon type="speech" who="Saxton_Hale">The name's Saxton Hale!
+                        Australian! CEO of Mann co! And the man who's gonna <emph rendition="b i"
+                            >burn this place to the ground!</emph></cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="5">
+                    <cbml:balloon type="speech" who="Saxton_Hale" xml:id="p4-b10" next="#p4-b11">I make square, <emph rendition="i"
+                            >unsafe products for men! </emph>Not White little egg things with no
+                        sharp edges and only <emph rendition="i">one button!</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Saxton_Hale" xml:id="p4-b11">Look at this thing! It's not on
+                        fire! How do you even know it's <emph rendition="b i"
+                        >on?</emph></cbml:balloon>
+                    <cbml:caption subtype="audio">Brave press!</cbml:caption>
+                </cbml:panel>
+
+                <cbml:panel n="6">
+                    <cbml:balloon type="speech" who="Saxton_Hale"><emph rendition="b i">Ha!
+                        </emph>Mysterious button, you just got pressed by <emph rendition="b i"
+                            >Saxton Hale!</emph></cbml:balloon>
+                    <cbml:balloon type="speech" who="Newscaster">This just in! Someone has blown up
+                        the moon!</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="7">
+                    <cbml:balloon type="speech" who="Saxton_Hale">Enh?</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="8">
+                    <cbml:balloon type="speech" who="Jessica">That's our <emph rendition="b">newest
+                        </emph>product. The Iblewupthemoon.</cbml:balloon>
+                    <cbml:balloon type="speech" who="Saxton_Hale">Are you saying... I
+                        just...?</cbml:balloon>
+                    <cbml:balloon type="speech" who="Jessica">Yep!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Saxton_Hale">Well, <emph rendition="b i">that
+                        </emph>is fantastic.</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="9">
+                    <cbml:caption subtype="sudio">A bold new plan!</cbml:caption>
+                    <cbml:balloon type="speech" who="Saxton_Hale">Let me see your manager. Because I
+                        am buying your company.</cbml:balloon>
+                </cbml:panel>
+
+                <cbml:panel n="10">
+                    <cbml:balloon type="speech" who="Manager"><emph rendition="b i">No sale,
+                        </emph>Hale!</cbml:balloon>
+                    <cbml:balloon type="speech" who="Saxton_Hale"><emph rendition="b i">You!
+                        </emph>I should have known! This place has your curvy stink all over
+                        it!</cbml:balloon>
+                </cbml:panel>
+                <cbml:indicia>Next issue!</cbml:indicia>
+                <cbml:indicia>When titans clash!</cbml:indicia>
+            </div>
+        </body>
+    </text>
+</TEI>
