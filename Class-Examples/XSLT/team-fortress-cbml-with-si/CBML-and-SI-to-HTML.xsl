@@ -17,31 +17,63 @@
     
    <xsl:variable name="site-index" as="document-node()" select="doc('xml/cbml-si.xml')"/>
  
-   
+   <!-- ____WHAT THIS XSLT STYLESHEET DOES________ -->
+    <!--ebb: This is designed to process a collection of XML files and:
+        * Make separate reading view HTML files, one for each XML document
+        * Output a table of contents with links to each output HTML file
+        * Ultimately, also reach into a separate "site index" XML file that stores distinct identifiers
+        
+        As of Monday 2026-11-16, it is outputting a linked table of contents, and separate HTML files.
+        This demonstrates the use of <xsl:result-document> to create a new HTML file as output
+        as you are processing each of your XML input files.-->
+    <!-- We'll proceed on Wednesday 11-18 to process references to the special cbml-si. xml Site Index file. -->
+    <!-- ____________________________________ -->
     
+   
    <xsl:template match="/">
+       
+       <!-- **********Table of Contents as Distinct HTML Page.*******************
+          ebb: We're creating ONE separate page here for a table of contents on the website
+           that links out to the reading view HTML files.
+           We should configure a special <xsl:result document> output here to store this one special
+       linked table of contents file.  
+       NOTES: <xsl:result document> lets you indicate your file storage destination filepath!
+   
+       * Define that filepath in relation to where you save your XSLT file: XSLT will look there to store the output.
+       Any and all HTML output is going into our docs/ directory. 
+       Here we save exactly one file named toc.html into docs/ .
+       * When you use <xsl:result-document> you do not need or want to set an Output file in the oXygen XSLT window.
+       
+       ****************************************************************************
+       -->
+       <xsl:result-document method="xhtml" html-version="5" 
+           omit-xml-declaration="yes" include-content-type="no"
+           indent="yes" href="docs/toc.html">
        <html>
            <head>
-               <title>Tinkering with Team Fortress CBML Collection and Site Index</title>
+               <title>Table of Contents for the Team Fortress Reading View</title>
                <link rel="stylesheet" type="text/css" href="style.css"/> 
            </head>
            <body>
-         
                <h1>Table of Contents</h1>
                    
-                 <ol>
-                   
-                       
-            <xsl:apply-templates select="$cbml-collection//titleStmt/title" mode="toc"/>
-                
-                <!--ebb:  Distinct id for files is based on its filename -->
-                                   
-                   
+                 <ol>     
+                    <xsl:apply-templates select="$cbml-collection//titleStmt/title" mode="tocPage"/>
+                     <!-- Look for our matching modal template rule for titleStmt/title
+                         We'll process these to construct direct links to each file in our
+                         reading view. 
+                     -->  
                  </ol>
-     
-        <div id="reading-view">  
+               
+           </body>
+       </html>
+    </xsl:result-document>
+            <!-- _____SPECIAL PROCESSING TO OUTPUT A NEW HTML FILE FOR EACH XML FILE (EXCEPT THE SITE INDEX) __________-->
+            <!-- ebb: Here, we apply xsl:for-each in order to process the collection of files (except the site index)
+            to output a new HTML "result document" for each XML document node. 
+            -->
+            <!-- ____________________________________________________________________ -->
             <xsl:for-each select="$cbml-collection">
- 
                 <xsl:variable name="filename" select="current() ! base-uri() ! tokenize(., '/')[last()] ! 
                     substring-before(., '.xml')"/>
                 <xsl:result-document method="xhtml" html-version="5" 
@@ -54,8 +86,9 @@
                         </head>
                         <body>
                             
-                            
-                            <xsl:apply-templates select="descendant::div"/>
+                            <div id="reading-view">                      
+                                <xsl:apply-templates select="descendant::div"/>
+                            </div>
                             
                         </body>
                         
@@ -64,17 +97,11 @@
 
                 </xsl:result-document>
             </xsl:for-each>
- 
-        
-             
-          
-          </div>
-   
-           </body>
-       </html>
+
    </xsl:template> 
     
-    <xsl:template match="titleStmt/title" mode="toc">
+    <!-- tocPage mode -->
+    <xsl:template match="titleStmt/title" mode="tocPage">
         
         <li><a href="{current() ! base-uri(.) ! tokenize(., '/')[last()] ! 
                 substring-before(., '.xml')}.html">
@@ -82,6 +109,8 @@
         
     </xsl:template>
     
+    
+    <!-- -->
     
     
     <xsl:template match="div[@type='page']">
@@ -133,9 +162,4 @@
   
     </xsl:template>
 
- 
-    
- 
-
-    
 </xsl:stylesheet>
