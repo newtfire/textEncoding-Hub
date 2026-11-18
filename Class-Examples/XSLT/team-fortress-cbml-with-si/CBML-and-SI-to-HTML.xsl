@@ -8,8 +8,10 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
         include-content-type="no" indent="yes"/>
     
-    <!-- COLLECTION VARIABLE: this one is excluding the site index file that's in the same directory. -->
-    
+    <!-- COLLECTION VARIABLE: this one is excluding the site index file that's in the same directory. 
+        You don't need the @as attribute, but it's best practice to use it, to indicate what kind of content
+        this variable is storing: This one indicates it's storing one or more document-nodes for a collection of XML documents.
+    -->
     <xsl:variable name="cbml-collection" as="document-node()+" 
         select="collection('xml/?select=*.xml')[base-uri() ! not(contains(., 'cbml-si'))]"/>
     
@@ -58,7 +60,9 @@
                <h1>Table of Contents</h1>
                    
                  <ol>     
-                    <xsl:apply-templates select="$cbml-collection//titleStmt/title" mode="tocPage"/>
+                    <xsl:apply-templates select="$cbml-collection//titleStmt/title" mode="tocPage">
+                        <xsl:sort select="base-uri()! tokenize(.,'/')[last()]"/>
+                    </xsl:apply-templates>
                      <!-- Look for our matching modal template rule for titleStmt/title
                          We'll process these to construct direct links to each file in our
                          reading view. 
@@ -78,6 +82,7 @@
             -->
             <!-- ____________________________________________________________________ -->
             <xsl:for-each select="$cbml-collection">
+                <!--<xsl:sort select="base-uri()! tokenize(.,'/')[last()]"/>-->
                 <xsl:variable name="filename" select="current() ! base-uri() ! tokenize(., '/')[last()] ! 
                     substring-before(., '.xml')"/>
                 <xsl:result-document method="xhtml" html-version="5" 
@@ -85,12 +90,13 @@
                     indent="yes" href="docs/{$filename}.html">
                     <html>
                         <head><title><xsl:apply-templates 
-                                    select="descendant::titleStmt/title"/></title>
+                                    select="descendant::titleStmt/title" mode="titleLine"/></title>
                             <link rel="stylesheet" type="text/css" href="style.css"/> 
                         </head>
                         <body>
                             
-                            <div id="reading-view">                      
+                            <div id="reading-view">  
+                                <xsl:apply-templates select="descendant::titleStmt/title"/>
                                 <xsl:apply-templates select="descendant::div"/>
                             </div>
                             
@@ -113,9 +119,20 @@
         
     </xsl:template>
     
+    <!-- Title line in HTML head -->
     
-    <!-- -->
+    <xsl:template match="titleStmt/title" mode="titleLine">
+       <xsl:apply-templates/>
+    </xsl:template>
     
+    
+    <!-- Reading view default -->
+    
+    
+    <xsl:template match="titleStmt/title">
+        <h1><xsl:apply-templates/></h1>
+        
+    </xsl:template>
     
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="page-{@n}">
@@ -128,7 +145,7 @@
         <!-- EBB: Is this coded consistently in the source XML files? -->
         <div class="panel" id="page-{ancestor::div[@type='page']/@n}-panel-{@n}">
             <span class="tinyInfo">
-              Character in this panel:
+              <xsl:text>Character in this panel: </xsl:text>
               <xsl:value-of select="@characters"/>
             </span>
          <xsl:apply-templates/>            
@@ -155,10 +172,18 @@
     in the cmbl-si.xml, so that's what we're matching. You will likely need to change this
     for other projects.
     -->
+        <xsl:variable name="si-match" as="element()?"
+            select="$site-index//*[name ! normalize-space() ! lower-case(.) = current()/@who ! normalize-space() ! lower-case(.)]"/>
+        <!-- ebb: When I created this variable and used the @as to say it's storing an element(), 
+            I needed to give a zero-or-one repetition indicator in case there is no matching entry in the si yet! 
+            So this is where a variable can be tricky. And yes, it works without this @as attribute. 
+        Still, it's always best practice to "type" your variables (incidate what kind of content is expected to be in here,
+        even if it's a pain sometimes. :-)
+        -->
         <div class="balloon">
             <span class="who" 
-                title="{$site-index//*[name ! normalize-space() = current()/@who ! normalize-space()]/desc}">
-                <xsl:value-of select="@who"/>
+                title="{$si-match/desc}">
+                <xsl:value-of select="@who"/><xsl:text>: </xsl:text>
             </span>
             <xsl:apply-templates/>
         </div>
