@@ -71,6 +71,10 @@
             <!-- _____SPECIAL PROCESSING TO OUTPUT A NEW HTML FILE FOR EACH XML FILE (EXCEPT THE SITE INDEX) __________-->
             <!-- ebb: Here, we apply xsl:for-each in order to process the collection of files (except the site index)
             to output a new HTML "result document" for each XML document node. 
+            
+            When we call "current()" in XSLT, we return info about the specific node that is 
+            NOW being processed. Each individual node will have its own filename, which we pick up with
+            base-uri(). 
             -->
             <!-- ____________________________________________________________________ -->
             <xsl:for-each select="$cbml-collection">
@@ -114,15 +118,19 @@
     
     
     <xsl:template match="div[@type='page']">
-        <section class="{@type}" id="{@xml:id}">
+        <section class="{@type}" id="page-{@n}">
             <xsl:apply-templates/>
 
         </section>
     </xsl:template>
     
     <xsl:template match="cbml:panel">
-        <div class="panel" id="{ancestor::div/@xml:id}-panel-{@n}">
-            
+        <!-- EBB: Is this coded consistently in the source XML files? -->
+        <div class="panel" id="page-{ancestor::div[@type='page']/@n}-panel-{@n}">
+            <span class="tinyInfo">
+              Character in this panel:
+              <xsl:value-of select="@characters"/>
+            </span>
          <xsl:apply-templates/>            
             
         </div>
@@ -133,6 +141,27 @@
         <p class="cbml-caption">
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    
+    <xsl:template match="cbml:balloon">
+    <!-- ebb: Reach into the $site-index document to look up info about the speaker in
+    this balloon! 
+    Here we can construct tooltips and apply some CSS to them. 
+    @title attribute is the leanest/simplest way, but for more styling control,
+    here's w3schools tutorial:
+    https://www.w3schools.com/css/css_tooltip.asp
+    
+    In Team Fortress code, the @who attribute is corresponding with the <name> element
+    in the cmbl-si.xml, so that's what we're matching. You will likely need to change this
+    for other projects.
+    -->
+        <div class="balloon">
+            <span class="who" 
+                title="{$site-index//*[name ! normalize-space() = current()/@who ! normalize-space()]/desc}">
+                <xsl:value-of select="@who"/>
+            </span>
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     
     <xsl:template match="note">
@@ -148,6 +177,10 @@
     </xsl:template>
 
     
+    <!-- ebb: These are templates from another XSLT for CBML: not sure if they are
+    needed / relevant to this project. Be careful where you set <p> elements in 
+    HTML, though! They must not nest in valid HTML output!
+    -->
     <xsl:template match="p | figDesc[not(ancestor::p)]">
         <p>
             <xsl:apply-templates/>
