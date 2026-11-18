@@ -142,12 +142,16 @@
     </xsl:template>
     
     <xsl:template match="cbml:panel">
-        <!-- EBB: Is this coded consistently in the source XML files? -->
+        <!-- ebb: Is this coded consistently in the source XML files? -->
         <div class="panel" id="page-{ancestor::div[@type='page']/@n}-panel-{@n}">
-            <span class="tinyInfo">
+         <!-- ebb: I noticed that not all the panels have characters, so it's a good
+         idea to set an <xsl:if> to process ONLY when they do. <xsl:if> is a 
+         simple version of <xsl:choose>. -->
+           <xsl:if test="@characters"><span class="tinyInfo">
               <xsl:text>Character in this panel: </xsl:text>
               <xsl:value-of select="@characters"/>
             </span>
+           </xsl:if> 
          <xsl:apply-templates/>            
             
         </div>
@@ -168,24 +172,38 @@
     here's w3schools tutorial:
     https://www.w3schools.com/css/css_tooltip.asp
     
-    In Team Fortress code, the @who attribute is corresponding with the <name> element
+    In Team Fortress code, the @who attribute matches up with the <name> element
     in the cmbl-si.xml, so that's what we're matching. You will likely need to change this
     for other projects.
     -->
         <xsl:variable name="si-match" as="element()?"
             select="$site-index//*[name ! normalize-space() ! lower-case(.) = current()/@who ! normalize-space() ! lower-case(.)]"/>
         <!-- ebb: When I created this variable and used the @as to say it's storing an element(), 
-            I needed to give a zero-or-one repetition indicator in case there is no matching entry in the si yet! 
-            So this is where a variable can be tricky. And yes, it works without this @as attribute. 
+            I needed to give a zero-or-one repetition indicator: "element()?" in case there is no matching entry in the si yet! 
+        The variable works just fine without this @as attribute. 
         Still, it's always best practice to "type" your variables (incidate what kind of content is expected to be in here,
         even if it's a pain sometimes. :-)
         -->
-        <div class="balloon">
-            <span class="who" 
+        <div class="balloon {@type}">
+            <!-- ebb: What to do if a balloon isn't for speech? This is a good place
+            to try <xsl:choose>. 
+            -->
+          <xsl:choose> 
+              <xsl:when test="@type='speech'">
+              <span class="who" 
                 title="{$si-match/desc}">
                 <xsl:value-of select="@who"/><xsl:text>: </xsl:text>
             </span>
-            <xsl:apply-templates/>
+                  <xsl:apply-templates/>
+              </xsl:when>
+             <!-- other types of balloons could get other xsl:when tests for processing -->
+              <xsl:otherwise>
+                  <span class="tinyInfo"><xsl:value-of select="@type"/></span>
+                  
+                  <xsl:apply-templates/>
+                  
+              </xsl:otherwise>
+          </xsl:choose>  
         </div>
     </xsl:template>
     
